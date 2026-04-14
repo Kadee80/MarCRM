@@ -33,6 +33,15 @@ const TECH_SIGNATURES = {
 
 const EMAIL_REGEX = /[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/g;
 
+const BROWSER_HEADERS = {
+  "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+  "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+  "Accept-Language": "en-US,en;q=0.9",
+  "Accept-Encoding": "gzip, deflate, br",
+  "Cache-Control": "no-cache",
+  "Pragma": "no-cache",
+};
+
 // Scrape a company website for useful ICP data
 export async function scrapeWebsite(url) {
   const normalizedUrl = url.startsWith("http") ? url : `https://${url}`;
@@ -59,13 +68,16 @@ export async function scrapeWebsite(url) {
   };
 
   try {
-    // Fetch main page
+    // Special handling for sites that block scrapers
+    if (domain.includes("reddit.com")) {
+      return await scrapeReddit(normalizedUrl, results);
+    }
+
+    // Fetch main page with realistic browser headers
     const { data: html } = await axios.get(normalizedUrl, {
       timeout: 10000,
-      headers: {
-        "User-Agent": "Mozilla/5.0 (compatible; MarCRM/1.0; +https://marcrm.app)",
-        "Accept": "text/html,application/xhtml+xml",
-      },
+      headers: BROWSER_HEADERS,
+      maxRedirects: 5,
     });
 
     const $ = cheerio.load(html);
@@ -110,7 +122,7 @@ export async function scrapeWebsite(url) {
       try {
         const { data: aboutHtml } = await axios.get(`${normalizedUrl}${path}`, {
           timeout: 5000,
-          headers: { "User-Agent": "Mozilla/5.0 (compatible; MarCRM/1.0)" },
+          headers: BROWSER_HEADERS,
           validateStatus: (s) => s < 400,
         });
         const $about = cheerio.load(aboutHtml);
@@ -176,6 +188,74 @@ export async function scrapeWebsite(url) {
   return results;
 }
 
+// Reddit-specific scraper using their public JSON API
+async function scrapeReddit(url, results) {
+  try {
+    // Reddit exposes JSON for any page by appending .json
+    const jsonUrl = url.replace(/\/?$/, ".json").replace(".json.json", ".json");
+    const { data } = await axios.get(jsonUrl, {
+      timeout: 10000,
+      headers: {
+        ...BROWSER_HEADERS,
+        "Accept": "application/json",
+      },
+      params: { limit: 25, raw_json: 1 },
+    });
+
+    // Handle subreddit listing
+    if (Array.isArray(data)) {
+      // This is a post page (post + comments)
+      const post = data[0]?.data?.children?.[0]?.data;
+      if (post) {
+        results.title = post.title || "";
+        results.description = (post.selftext || "").slice(0, 500);
+        results.rawText = `${post.title} ${post.selftext || ""}`.slice(0, 5000);
+        results.industry = "Reddit Post";
+
+        // Extract from comments for signals
+        const comments = data[1]?.data?.children || [];
+        const commentTexts = comments
+          .filter((c) => c.data?.body)
+          .map((c) => c.data.body)
+          .slice(0, 20);
+        results.rawText += " " + commentTexts.join(" ").slice(0, 3000);
+      }
+    } else if (data?.data?.children) {
+      // This is a subreddit listing
+      const posts = data.data.children.filter((c) => c.kind === "t3").map((c) => c.data);
+      results.title = `r/${data.data.children[0]?.data?.subreddit || "unknown"} — ${posts.length} recent posts`;
+      results.description = posts.slice(0, 5).map((p) => p.title).join(" | ");
+      results.rawText = posts.map((p) => `${p.title} ${p.selftext || ""}`).join(" ").slice(0, 5000);
+      results.industry = "Reddit Community";
+
+      // Pull any URLs/companies mentioned in posts
+      const allText = results.rawText;
+      const emails = allText.match(EMAIL_REGEX) || [];
+      results.emails = [...new Set(emails)].filter(
+        (e) => !e.includes("example.com") && !e.includes("reddit.com")
+      ).slice(0, 10);
+    }
+
+    results.socialLinks.reddit = url;
+    results.success = true;
+  } catch (err) {
+    results.success = false;
+    results.error = `Reddit scrape failed: ${err.message}`;
+  }
+
+  // Convert emails to contacts
+  results.contacts = results.emails.map((email) => {
+    const localPart = email.split("@")[0];
+    const nameParts = localPart.split(/[._-]/).filter(Boolean);
+    const guessedName = nameParts.length >= 2
+      ? nameParts.map((p) => p.charAt(0).toUpperCase() + p.slice(1)).join(" ")
+      : localPart;
+    return { name: guessedName, email, title: "Found via Reddit" };
+  });
+
+  return results;
+}
+
 // Scrape job listings to detect hiring intent (uses public Indeed/LinkedIn search pages)
 export async function scrapeJobSignals(companyName) {
   const results = {
@@ -196,10 +276,7 @@ export async function scrapeJobSignals(companyName) {
 
     const { data: html } = await axios.get(searchUrl, {
       timeout: 10000,
-      headers: {
-        "User-Agent":
-          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      },
+      headers: BROWSER_HEADERS,
     });
 
     const $ = cheerio.load(html);
