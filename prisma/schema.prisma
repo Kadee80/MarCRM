@@ -5,7 +5,7 @@ generator client {
 // Default: local SQLite for dev. Switch to Postgres URL for production (Supabase/Neon/Railway).
 // Just change provider to "postgresql" and set DATABASE_URL in your .env
 datasource db {
-  provider = "sqlite"
+  provider = "postgresql"
   url      = env("DATABASE_URL")
 }
 
