@@ -188,8 +188,25 @@ export async function scrapeWebsite(url) {
   return results;
 }
 
-// Reddit & social search — uses Google/Bing to find Reddit discussions about a company or topic
-// This bypasses Reddit's API restrictions entirely
+// Brave Search API — reliable from any server IP, free 2000 queries/month
+// Returns: array of results on success, null if no API key, throws on error
+async function braveSearch(query, count = 15) {
+  const apiKey = process.env.BRAVE_SEARCH_API_KEY;
+  if (!apiKey) return null;
+
+  const { data } = await axios.get("https://api.search.brave.com/res/v1/web/search", {
+    params: { q: query, count },
+    headers: { "X-Subscription-Token": apiKey, "Accept": "application/json" },
+    timeout: 10000,
+  });
+  return (data.web?.results || []).map((r) => ({
+    title: r.title || "",
+    snippet: r.description || "",
+    link: r.url || "",
+  }));
+}
+
+// Reddit & social search — uses Brave Search API for reliable results
 async function scrapeReddit(url, results) {
   try {
     // Figure out the search query from the URL
@@ -211,52 +228,26 @@ async function scrapeReddit(url, results) {
       return results;
     }
 
-    // Search for Reddit content using DuckDuckGo HTML (doesn't block server IPs)
-    const ddgQuery = `site:reddit.com ${searchQuery}`;
-    let searchResults = [];
-
-    // DuckDuckGo HTML endpoint — most reliable from server IPs
+    // Use Brave Search API
+    let searchResults;
     try {
-      const { data: html } = await axios.get("https://html.duckduckgo.com/html/", {
-        params: { q: ddgQuery },
-        timeout: 10000,
-        headers: BROWSER_HEADERS,
-      });
-      const $ = cheerio.load(html);
+      searchResults = await braveSearch(`site:reddit.com ${searchQuery}`);
+    } catch (braveErr) {
+      const status = braveErr.response?.status;
+      const detail = braveErr.response?.data?.message || braveErr.message;
+      results.success = false;
+      results.error = status === 401 || status === 403
+        ? `Brave Search API key is invalid or expired (${status}). Check your BRAVE_SEARCH_API_KEY in .env and Vercel env vars.`
+        : status === 429
+        ? "Brave Search rate limit hit. Free plan allows 1 query/second and 2000/month."
+        : `Brave Search failed (${status || "network error"}): ${detail}`;
+      return results;
+    }
 
-      $(".result").each((_, el) => {
-        const title = $(el).find(".result__title a").text().trim();
-        const snippet = $(el).find(".result__snippet").text().trim();
-        let link = $(el).find(".result__title a").attr("href") || "";
-        // DDG wraps links in a redirect — extract the real URL
-        const realUrlMatch = link.match(/uddg=([^&]+)/);
-        if (realUrlMatch) link = decodeURIComponent(realUrlMatch[1]);
-        if (title) {
-          searchResults.push({ title, snippet, link });
-        }
-      });
-    } catch (ddgErr) {
-      // Fallback to Bing
-      try {
-        const { data: html } = await axios.get(`https://www.bing.com/search?q=${encodeURIComponent(ddgQuery)}&count=15`, {
-          timeout: 10000,
-          headers: BROWSER_HEADERS,
-        });
-        const $ = cheerio.load(html);
-
-        $(".b_algo").each((_, el) => {
-          const title = $(el).find("h2").text().trim();
-          const snippet = $(el).find(".b_caption p").text().trim();
-          const link = $(el).find("a").attr("href") || "";
-          if (title) {
-            searchResults.push({ title, snippet, link });
-          }
-        });
-      } catch (bingErr) {
-        results.success = false;
-        results.error = `Could not search for Reddit content. DuckDuckGo: ${ddgErr.message}. Bing: ${bingErr.message}`;
-        return results;
-      }
+    if (searchResults === null) {
+      results.success = false;
+      results.error = "Reddit scraping requires a Brave Search API key (free, 2000 queries/month). Sign up at brave.com/search/api → Get the Free plan → Add BRAVE_SEARCH_API_KEY to your .env file and Vercel environment variables.";
+      return results;
     }
 
     if (searchResults.length === 0) {
@@ -322,27 +313,29 @@ export async function scrapeJobSignals(companyName) {
   };
 
   try {
-    // Search DuckDuckGo for recent job listings
-    const jobQuery = `"${companyName}" site:linkedin.com/jobs OR site:indeed.com hiring`;
-    const { data: html } = await axios.get("https://html.duckduckgo.com/html/", {
-      params: { q: jobQuery },
-      timeout: 10000,
-      headers: BROWSER_HEADERS,
-    });
+    // Search for job listings using Brave Search API
+    const jobQuery = `"${companyName}" hiring jobs linkedin.com OR indeed.com`;
+    let braveResults;
+    try {
+      braveResults = await braveSearch(jobQuery, 10);
+    } catch (braveErr) {
+      const status = braveErr.response?.status;
+      results.error = `Job search failed: Brave Search returned ${status || "error"} — ${braveErr.message}`;
+      results.success = false;
+      return results;
+    }
 
-    const $ = cheerio.load(html);
+    if (braveResults === null) {
+      results.error = "Job search requires a Brave Search API key. Add BRAVE_SEARCH_API_KEY to .env (free at brave.com/search/api).";
+      results.success = false;
+      return results;
+    }
 
-    // Extract job-related snippets from DDG results
-    $(".result").each((_, el) => {
-      const title = $(el).find(".result__title a").text().trim();
-      const snippet = $(el).find(".result__snippet").text().trim();
-      let link = $(el).find(".result__title a").attr("href") || "";
-      const realUrlMatch = link.match(/uddg=([^&]+)/);
-      if (realUrlMatch) link = decodeURIComponent(realUrlMatch[1]);
-      if (title && (title.toLowerCase().includes("hiring") || title.toLowerCase().includes("job") || snippet.toLowerCase().includes("hiring"))) {
-        results.jobs.push({ title, snippet, link });
+    for (const r of braveResults) {
+      if (r.title.toLowerCase().includes("hiring") || r.title.toLowerCase().includes("job") || r.snippet.toLowerCase().includes("hiring")) {
+        results.jobs.push({ title: r.title, snippet: r.snippet, link: r.link });
       }
-    });
+    }
 
     // Detect intent signals from job titles
     const SIGNAL_KEYWORDS = {
