@@ -191,16 +191,59 @@ export async function scrapeWebsite(url) {
 // Reddit-specific scraper using their public JSON API
 async function scrapeReddit(url, results) {
   try {
-    // Reddit exposes JSON for any page by appending .json
-    const jsonUrl = url.replace(/\/?$/, ".json").replace(".json.json", ".json");
-    const { data } = await axios.get(jsonUrl, {
-      timeout: 10000,
-      headers: {
-        ...BROWSER_HEADERS,
-        "Accept": "application/json",
-      },
-      params: { limit: 25, raw_json: 1 },
-    });
+    // Clean the URL: strip trailing .json if user included it, normalize
+    let cleanUrl = url.replace(/\.json\/?$/, "").replace(/\/$/, "");
+
+    // Try old.reddit.com first (much more permissive with scraping)
+    const oldRedditUrl = cleanUrl.replace("www.reddit.com", "old.reddit.com");
+
+    let data = null;
+    let jsonFetched = false;
+
+    // Attempt 1: JSON API via old.reddit.com
+    try {
+      const resp = await axios.get(`${oldRedditUrl}.json`, {
+        timeout: 10000,
+        headers: {
+          "User-Agent": "MarCRM:v1.0 (by /u/marcrm-bot)",
+          "Accept": "text/html,application/json",
+        },
+        params: { limit: 25, raw_json: 1 },
+      });
+      data = resp.data;
+      jsonFetched = true;
+    } catch (e1) {
+      // Attempt 2: Scrape old.reddit.com HTML as fallback
+      try {
+        const { data: html } = await axios.get(oldRedditUrl, {
+          timeout: 10000,
+          headers: BROWSER_HEADERS,
+        });
+        const $ = cheerio.load(html);
+        results.title = $("title").text().trim();
+        results.description = $('meta[name="description"]').attr("content") || "";
+        results.rawText = $("body").text().replace(/\s+/g, " ").trim().slice(0, 5000);
+        results.industry = "Reddit Community";
+        results.socialLinks.reddit = cleanUrl;
+        results.success = true;
+
+        results.contacts = results.emails.map((email) => {
+          const localPart = email.split("@")[0];
+          const nameParts = localPart.split(/[._-]/).filter(Boolean);
+          const guessedName = nameParts.length >= 2
+            ? nameParts.map((p) => p.charAt(0).toUpperCase() + p.slice(1)).join(" ")
+            : localPart;
+          return { name: guessedName, email, title: "Found via Reddit" };
+        });
+        return results;
+      } catch (e2) {
+        throw new Error(`All Reddit fetch methods failed. JSON: ${e1.message}. HTML: ${e2.message}`);
+      }
+    }
+
+    if (!jsonFetched || !data) {
+      throw new Error("No data returned from Reddit");
+    }
 
     // Handle subreddit listing
     if (Array.isArray(data)) {
