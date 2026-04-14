@@ -211,32 +211,34 @@ async function scrapeReddit(url, results) {
       return results;
     }
 
-    // Search Google for Reddit content about this topic
-    const googleQuery = `site:reddit.com ${searchQuery}`;
-    const searchUrl = `https://www.google.com/search?q=${encodeURIComponent(googleQuery)}&num=15`;
-
+    // Search for Reddit content using DuckDuckGo HTML (doesn't block server IPs)
+    const ddgQuery = `site:reddit.com ${searchQuery}`;
     let searchResults = [];
 
+    // DuckDuckGo HTML endpoint — most reliable from server IPs
     try {
-      const { data: html } = await axios.get(searchUrl, {
+      const { data: html } = await axios.get("https://html.duckduckgo.com/html/", {
+        params: { q: ddgQuery },
         timeout: 10000,
         headers: BROWSER_HEADERS,
       });
       const $ = cheerio.load(html);
 
-      $(".g").each((_, el) => {
-        const title = $(el).find("h3").text().trim();
-        const snippet = $(el).find(".VwiC3b").text().trim();
-        const link = $(el).find("a").attr("href") || "";
-        if (title && link.includes("reddit.com")) {
+      $(".result").each((_, el) => {
+        const title = $(el).find(".result__title a").text().trim();
+        const snippet = $(el).find(".result__snippet").text().trim();
+        let link = $(el).find(".result__title a").attr("href") || "";
+        // DDG wraps links in a redirect — extract the real URL
+        const realUrlMatch = link.match(/uddg=([^&]+)/);
+        if (realUrlMatch) link = decodeURIComponent(realUrlMatch[1]);
+        if (title) {
           searchResults.push({ title, snippet, link });
         }
       });
-    } catch {
-      // Google blocked us too — try Bing as fallback
+    } catch (ddgErr) {
+      // Fallback to Bing
       try {
-        const bingUrl = `https://www.bing.com/search?q=${encodeURIComponent(googleQuery)}&count=15`;
-        const { data: html } = await axios.get(bingUrl, {
+        const { data: html } = await axios.get(`https://www.bing.com/search?q=${encodeURIComponent(ddgQuery)}&count=15`, {
           timeout: 10000,
           headers: BROWSER_HEADERS,
         });
@@ -252,7 +254,7 @@ async function scrapeReddit(url, results) {
         });
       } catch (bingErr) {
         results.success = false;
-        results.error = `Could not search for Reddit content: ${bingErr.message}`;
+        results.error = `Could not search for Reddit content. DuckDuckGo: ${ddgErr.message}. Bing: ${bingErr.message}`;
         return results;
       }
     }
@@ -320,23 +322,23 @@ export async function scrapeJobSignals(companyName) {
   };
 
   try {
-    // Search Google for recent job listings
-    const searchUrl = `https://www.google.com/search?q=${encodeURIComponent(
-      `"${companyName}" site:linkedin.com/jobs OR site:indeed.com hiring`
-    )}&num=10`;
-
-    const { data: html } = await axios.get(searchUrl, {
+    // Search DuckDuckGo for recent job listings
+    const jobQuery = `"${companyName}" site:linkedin.com/jobs OR site:indeed.com hiring`;
+    const { data: html } = await axios.get("https://html.duckduckgo.com/html/", {
+      params: { q: jobQuery },
       timeout: 10000,
       headers: BROWSER_HEADERS,
     });
 
     const $ = cheerio.load(html);
 
-    // Extract job-related snippets
-    $(".g").each((_, el) => {
-      const title = $(el).find("h3").text();
-      const snippet = $(el).find(".VwiC3b").text();
-      const link = $(el).find("a").attr("href");
+    // Extract job-related snippets from DDG results
+    $(".result").each((_, el) => {
+      const title = $(el).find(".result__title a").text().trim();
+      const snippet = $(el).find(".result__snippet").text().trim();
+      let link = $(el).find(".result__title a").attr("href") || "";
+      const realUrlMatch = link.match(/uddg=([^&]+)/);
+      if (realUrlMatch) link = decodeURIComponent(realUrlMatch[1]);
       if (title && (title.toLowerCase().includes("hiring") || title.toLowerCase().includes("job") || snippet.toLowerCase().includes("hiring"))) {
         results.jobs.push({ title, snippet, link });
       }
