@@ -1354,6 +1354,21 @@ export default function AgencyCRM() {
                 </div>
               )}
 
+              {/* Reddit/Social discussions found */}
+              {scrapeResults.discussions?.length > 0 && (
+                <div>
+                  <h4 className="text-xs font-semibold text-gray-500 uppercase mb-2">Discussions Found ({scrapeResults.discussions.length})</h4>
+                  <div className="space-y-2 max-h-60 overflow-y-auto">
+                    {scrapeResults.discussions.map((d, i) => (
+                      <a key={i} href={d.link} target="_blank" rel="noopener noreferrer" className="block p-3 bg-gray-50 rounded-lg hover:bg-indigo-50 transition-colors">
+                        <p className="text-sm font-medium text-indigo-700">{d.title}</p>
+                        {d.snippet && <p className="text-xs text-gray-500 mt-1">{d.snippet}</p>}
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              )}
+
               {/* Fallback note (e.g., LinkedIn/Crunchbase API not configured) */}
               {scrapeResults.note && (
                 <div className="bg-amber-50 border border-amber-200 rounded-lg p-3">

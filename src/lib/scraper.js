@@ -188,113 +188,121 @@ export async function scrapeWebsite(url) {
   return results;
 }
 
-// Reddit-specific scraper using their public JSON API
+// Reddit & social search — uses Google/Bing to find Reddit discussions about a company or topic
+// This bypasses Reddit's API restrictions entirely
 async function scrapeReddit(url, results) {
   try {
-    // Clean the URL: strip trailing .json if user included it, normalize
-    let cleanUrl = url.replace(/\.json\/?$/, "").replace(/\/$/, "");
+    // Figure out the search query from the URL
+    let searchQuery = "";
+    const subredditMatch = url.match(/reddit\.com\/r\/([^/?#]+)/);
+    const postMatch = url.match(/reddit\.com\/r\/\w+\/comments\/\w+\/([^/?#]+)/);
 
-    // Try old.reddit.com first (much more permissive with scraping)
-    const oldRedditUrl = cleanUrl.replace("www.reddit.com", "old.reddit.com");
+    if (postMatch) {
+      searchQuery = postMatch[1].replace(/_/g, " ");
+    } else if (subredditMatch) {
+      searchQuery = subredditMatch[1].replace(/_/g, " ");
+    } else {
+      searchQuery = url.replace(/https?:\/\/(www\.)?reddit\.com\/?/, "").replace(/[/_]/g, " ").trim();
+    }
 
-    let data = null;
-    let jsonFetched = false;
+    if (!searchQuery) {
+      results.success = false;
+      results.error = "Could not parse a search query from the Reddit URL. Try entering a subreddit like reddit.com/r/artificial or a topic keyword.";
+      return results;
+    }
 
-    // Attempt 1: JSON API via old.reddit.com
+    // Search Google for Reddit content about this topic
+    const googleQuery = `site:reddit.com ${searchQuery}`;
+    const searchUrl = `https://www.google.com/search?q=${encodeURIComponent(googleQuery)}&num=15`;
+
+    let searchResults = [];
+
     try {
-      const resp = await axios.get(`${oldRedditUrl}.json`, {
+      const { data: html } = await axios.get(searchUrl, {
         timeout: 10000,
-        headers: {
-          "User-Agent": "MarCRM:v1.0 (by /u/marcrm-bot)",
-          "Accept": "text/html,application/json",
-        },
-        params: { limit: 25, raw_json: 1 },
+        headers: BROWSER_HEADERS,
       });
-      data = resp.data;
-      jsonFetched = true;
-    } catch (e1) {
-      // Attempt 2: Scrape old.reddit.com HTML as fallback
+      const $ = cheerio.load(html);
+
+      $(".g").each((_, el) => {
+        const title = $(el).find("h3").text().trim();
+        const snippet = $(el).find(".VwiC3b").text().trim();
+        const link = $(el).find("a").attr("href") || "";
+        if (title && link.includes("reddit.com")) {
+          searchResults.push({ title, snippet, link });
+        }
+      });
+    } catch {
+      // Google blocked us too — try Bing as fallback
       try {
-        const { data: html } = await axios.get(oldRedditUrl, {
+        const bingUrl = `https://www.bing.com/search?q=${encodeURIComponent(googleQuery)}&count=15`;
+        const { data: html } = await axios.get(bingUrl, {
           timeout: 10000,
           headers: BROWSER_HEADERS,
         });
         const $ = cheerio.load(html);
-        results.title = $("title").text().trim();
-        results.description = $('meta[name="description"]').attr("content") || "";
-        results.rawText = $("body").text().replace(/\s+/g, " ").trim().slice(0, 5000);
-        results.industry = "Reddit Community";
-        results.socialLinks.reddit = cleanUrl;
-        results.success = true;
 
-        results.contacts = results.emails.map((email) => {
-          const localPart = email.split("@")[0];
-          const nameParts = localPart.split(/[._-]/).filter(Boolean);
-          const guessedName = nameParts.length >= 2
-            ? nameParts.map((p) => p.charAt(0).toUpperCase() + p.slice(1)).join(" ")
-            : localPart;
-          return { name: guessedName, email, title: "Found via Reddit" };
+        $(".b_algo").each((_, el) => {
+          const title = $(el).find("h2").text().trim();
+          const snippet = $(el).find(".b_caption p").text().trim();
+          const link = $(el).find("a").attr("href") || "";
+          if (title) {
+            searchResults.push({ title, snippet, link });
+          }
         });
+      } catch (bingErr) {
+        results.success = false;
+        results.error = `Could not search for Reddit content: ${bingErr.message}`;
         return results;
-      } catch (e2) {
-        throw new Error(`All Reddit fetch methods failed. JSON: ${e1.message}. HTML: ${e2.message}`);
       }
     }
 
-    if (!jsonFetched || !data) {
-      throw new Error("No data returned from Reddit");
+    if (searchResults.length === 0) {
+      results.success = false;
+      results.error = `No Reddit discussions found for "${searchQuery}". Try a different subreddit or topic.`;
+      return results;
     }
 
-    // Handle subreddit listing
-    if (Array.isArray(data)) {
-      // This is a post page (post + comments)
-      const post = data[0]?.data?.children?.[0]?.data;
-      if (post) {
-        results.title = post.title || "";
-        results.description = (post.selftext || "").slice(0, 500);
-        results.rawText = `${post.title} ${post.selftext || ""}`.slice(0, 5000);
-        results.industry = "Reddit Post";
-
-        // Extract from comments for signals
-        const comments = data[1]?.data?.children || [];
-        const commentTexts = comments
-          .filter((c) => c.data?.body)
-          .map((c) => c.data.body)
-          .slice(0, 20);
-        results.rawText += " " + commentTexts.join(" ").slice(0, 3000);
-      }
-    } else if (data?.data?.children) {
-      // This is a subreddit listing
-      const posts = data.data.children.filter((c) => c.kind === "t3").map((c) => c.data);
-      results.title = `r/${data.data.children[0]?.data?.subreddit || "unknown"} — ${posts.length} recent posts`;
-      results.description = posts.slice(0, 5).map((p) => p.title).join(" | ");
-      results.rawText = posts.map((p) => `${p.title} ${p.selftext || ""}`).join(" ").slice(0, 5000);
-      results.industry = "Reddit Community";
-
-      // Pull any URLs/companies mentioned in posts
-      const allText = results.rawText;
-      const emails = allText.match(EMAIL_REGEX) || [];
-      results.emails = [...new Set(emails)].filter(
-        (e) => !e.includes("example.com") && !e.includes("reddit.com")
-      ).slice(0, 10);
-    }
-
+    // Build results from search snippets
+    results.title = `Reddit discussions: ${searchQuery} (${searchResults.length} results)`;
+    results.description = searchResults.slice(0, 3).map((r) => r.title).join(" | ");
+    results.industry = "Reddit / Social Intelligence";
     results.socialLinks.reddit = url;
+
+    // Combine all text for signal matching
+    results.rawText = searchResults
+      .map((r) => `${r.title} ${r.snippet}`)
+      .join(" ")
+      .slice(0, 5000);
+
+    // Extract any emails mentioned in snippets
+    const allText = results.rawText;
+    const emails = allText.match(EMAIL_REGEX) || [];
+    results.emails = [...new Set(emails)]
+      .filter((e) => !e.includes("example.com") && !e.includes("reddit.com"))
+      .slice(0, 10);
+
+    results.contacts = results.emails.map((email) => {
+      const localPart = email.split("@")[0];
+      const nameParts = localPart.split(/[._-]/).filter(Boolean);
+      const guessedName = nameParts.length >= 2
+        ? nameParts.map((p) => p.charAt(0).toUpperCase() + p.slice(1)).join(" ")
+        : localPart;
+      return { name: guessedName, email, title: "Found via Reddit discussion" };
+    });
+
+    // Store individual discussion links as a bonus field
+    results.discussions = searchResults.slice(0, 10).map((r) => ({
+      title: r.title,
+      snippet: r.snippet.slice(0, 200),
+      link: r.link,
+    }));
+
     results.success = true;
   } catch (err) {
     results.success = false;
-    results.error = `Reddit scrape failed: ${err.message}`;
+    results.error = `Reddit search failed: ${err.message}`;
   }
-
-  // Convert emails to contacts
-  results.contacts = results.emails.map((email) => {
-    const localPart = email.split("@")[0];
-    const nameParts = localPart.split(/[._-]/).filter(Boolean);
-    const guessedName = nameParts.length >= 2
-      ? nameParts.map((p) => p.charAt(0).toUpperCase() + p.slice(1)).join(" ")
-      : localPart;
-    return { name: guessedName, email, title: "Found via Reddit" };
-  });
 
   return results;
 }
