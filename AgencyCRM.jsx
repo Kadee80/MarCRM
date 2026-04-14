@@ -1,0 +1,1401 @@
+import { useState, useEffect, useMemo, useCallback } from "react";
+import {
+  Search, Plus, Building2, Users, Target, Globe, BarChart3, ChevronRight, X, Check,
+  Loader2, Star, StarOff, ArrowUpDown, ExternalLink, Trash2, Mail, Phone, MapPin,
+  Briefcase, Layers, Database, ChevronDown, ChevronUp, Zap, TrendingUp, DollarSign,
+  Clock, UserCheck, Link2, Filter, Eye, AlertCircle, Activity, PieChart, Settings,
+  Megaphone, Scale, BookOpen, Cpu, Video, RefreshCw, FileText, Award, Landmark
+} from "lucide-react";
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   CONSTANTS & SEED DATA — tailored to Katie's 6 business lines
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+const PIPELINES = [
+  { id: "pr-marketing", label: "PR & Marketing", short: "PR/Mkt", icon: Megaphone, color: "indigo",
+    description: "Financial Services + Technology B2B clients" },
+  { id: "fund-formation", label: "Fund Formation Law", short: "Fund Law", icon: Landmark, color: "emerald",
+    description: "Small & emerging fund managers (Funds I–III)" },
+  { id: "legal-consulting", label: "Legal Consulting", short: "Legal", icon: Scale, color: "sky",
+    description: "Funds ecosystem + business law" },
+  { id: "coaching-ops", label: "Coaching & Ops", short: "Coach/Ops", icon: BookOpen, color: "amber",
+    description: "Fractional ops + revenue growth coaching" },
+  { id: "media", label: "Media / Podcast", short: "Media", icon: Video, color: "rose",
+    description: "Pay-to-play video podcast & interview media" },
+  { id: "ai-consulting", label: "AI & Tech Consulting", short: "AI/Tech", icon: Cpu, color: "violet",
+    description: "AI strategy, pilots, production, governance" },
+];
+
+const PIPELINE_MAP = Object.fromEntries(PIPELINES.map(p => [p.id, p]));
+
+const FUNNEL_STAGES = [
+  "Targeted", "Contacted", "Engaged", "Qualified", "Discovery Complete",
+  "Proposal Sent", "Negotiation", "Won", "Lost", "Nurture"
+];
+
+const STAGE_COLORS = {
+  Targeted: "bg-gray-100 text-gray-600",
+  Contacted: "bg-blue-100 text-blue-700",
+  Engaged: "bg-cyan-100 text-cyan-700",
+  Qualified: "bg-purple-100 text-purple-700",
+  "Discovery Complete": "bg-indigo-100 text-indigo-700",
+  "Proposal Sent": "bg-amber-100 text-amber-700",
+  Negotiation: "bg-orange-100 text-orange-700",
+  Won: "bg-green-100 text-green-700",
+  Lost: "bg-red-100 text-red-600",
+  Nurture: "bg-teal-100 text-teal-700",
+};
+
+const PRIORITY_LABELS = { A: "Priority A — Work Now", B: "Priority B — Nurture + Light Pursuit", C: "Priority C — Content + Check-in", D: "Park / Refer Out" };
+const PRIORITY_COLORS = { A: "bg-green-100 text-green-700 border-green-200", B: "bg-blue-100 text-blue-700 border-blue-200", C: "bg-amber-100 text-amber-700 border-amber-200", D: "bg-gray-100 text-gray-500 border-gray-200" };
+
+function getPriority(score) {
+  if (score >= 80) return "A";
+  if (score >= 60) return "B";
+  if (score >= 40) return "C";
+  return "D";
+}
+
+/* ─── Fit + Intent criteria per pipeline ──────────────────────────────── */
+const SCORING_CRITERIA = {
+  "pr-marketing": {
+    fit: [
+      { id: "industry", label: "Industry match (FS/Tech you serve)", max: 10 },
+      { id: "stage", label: "Stage/size (10–500 employees; growth)", max: 10 },
+      { id: "buyer", label: "Clear buyer + sales motion (B2B, enterprise-ish)", max: 10 },
+      { id: "proof", label: "Proof assets exist (customers, data, founders credible)", max: 10 },
+      { id: "budget", label: "Budget range ($5k–$25k/mo)", max: 10 },
+    ],
+    intent: [
+      { id: "trigger", label: "Trigger present (launch, raise, rebrand, expansion)", max: 15 },
+      { id: "timeline", label: "Timeline to start (0–30 days)", max: 10 },
+      { id: "dm_engaged", label: "Decision-maker engaged (CMO/CEO in calls)", max: 10 },
+      { id: "urgency", label: "Urgency/pain level (reputation, pipeline stall)", max: 10 },
+      { id: "responsive", label: "Fast responsiveness (reply speed + keeps meetings)", max: 5 },
+    ],
+  },
+  "fund-formation": {
+    fit: [
+      { id: "manager_type", label: "Manager type (Funds I–III / emerging)", max: 15 },
+      { id: "strategy", label: "Strategy you handle well (hedge/VC/PE/credit)", max: 10 },
+      { id: "ops_readiness", label: "Operational readiness (admin/compliance in motion)", max: 10 },
+      { id: "jurisdiction", label: "Jurisdiction complexity you can handle", max: 5 },
+      { id: "budget", label: "Ability to pay (realistic legal budget)", max: 10 },
+    ],
+    intent: [
+      { id: "anchor", label: "Seed/anchor interest or imminent raise", max: 15 },
+      { id: "launch_window", label: "Target launch window defined", max: 10 },
+      { id: "providers", label: "Providers selected (admin, audit, tax, compliance)", max: 10 },
+      { id: "urgency", label: "Founder urgency (needs docs to raise now)", max: 10 },
+      { id: "referral", label: "Referral source strength (admin/allocator intro)", max: 5 },
+    ],
+  },
+  "legal-consulting": {
+    fit: [
+      { id: "complexity", label: "Complexity (contracts/regulatory-adjacent, not basic)", max: 15 },
+      { id: "ongoing", label: "Ongoing need (not one-off emergency only)", max: 15 },
+      { id: "org_size", label: "Organization size (5–200 employees or lean RIAs)", max: 10 },
+      { id: "dm_access", label: "Decision-maker access (COO/CFO/CEO)", max: 5 },
+      { id: "budget", label: "Budget for retainer/scoped work", max: 5 },
+    ],
+    intent: [
+      { id: "active_problem", label: "Active problem now (deal stuck, dispute, diligence)", max: 20 },
+      { id: "timeline", label: "Start timeline (0–30 days)", max: 10 },
+      { id: "volume", label: "Volume signal (contract backlog, multiple matters)", max: 10 },
+      { id: "pressure", label: "Internal pressure (audit/investor/client demands)", max: 5 },
+      { id: "responsive", label: "Responsiveness", max: 5 },
+    ],
+  },
+  "coaching-ops": {
+    fit: [
+      { id: "revenue", label: "Existing revenue + proven delivery", max: 15 },
+      { id: "niche", label: "Clear niche/customer", max: 10 },
+      { id: "margin", label: "Margin room to invest", max: 10 },
+      { id: "dm_access", label: "Decision-maker access", max: 10 },
+      { id: "coachable", label: "Sales motion is coachable", max: 5 },
+    ],
+    intent: [
+      { id: "trigger", label: "Trigger event (new owner / hiring / launch)", max: 20 },
+      { id: "timeline", label: "Timeline <60 days", max: 10 },
+      { id: "pain", label: "Pain urgency", max: 10 },
+      { id: "responsive", label: "Responsiveness", max: 5 },
+      { id: "budget", label: "Budget readiness", max: 5 },
+    ],
+  },
+  "media": {
+    fit: [
+      { id: "industry", label: "Industry match (FS/tech)", max: 10 },
+      { id: "complexity", label: "Complexity high (needs translation edge)", max: 10 },
+      { id: "credibility", label: "Credibility-sensitive sale (enterprise/regulated)", max: 10 },
+      { id: "distribution", label: "Has distribution channels (site + socials)", max: 10 },
+      { id: "budget", label: "Budget willingness", max: 10 },
+    ],
+    intent: [
+      { id: "signal", label: "Signal present (funding/launch/hiring/visibility)", max: 20 },
+      { id: "timeline", label: "Timeline <30 days", max: 10 },
+      { id: "exec", label: "Exec available + willing", max: 10 },
+      { id: "responsive", label: "Responsiveness", max: 5 },
+      { id: "goal", label: "Clear goal (lead gen, trust, recruiting)", max: 5 },
+    ],
+  },
+  "ai-consulting": {
+    fit: [
+      { id: "industry", label: "Industry fit / AI budget propensity", max: 10 },
+      { id: "data_maturity", label: "Data maturity", max: 10 },
+      { id: "use_case", label: "Clear use-case domain (support, ops, product, compliance)", max: 10 },
+      { id: "buyer_access", label: "Buyer access (CIO/CTO/VP Eng/Head of Data)", max: 10 },
+      { id: "budget", label: "Ability to pay (mid-market+ or funded)", max: 10 },
+    ],
+    intent: [
+      { id: "signal", label: "Strong signal (hiring/adoption/initiative)", max: 20 },
+      { id: "timeline", label: "Timeline <90 days", max: 10 },
+      { id: "pain", label: "Pain language present", max: 10 },
+      { id: "sponsor", label: "Internal sponsor identified", max: 5 },
+      { id: "responsive", label: "Responsiveness / momentum", max: 5 },
+    ],
+  },
+};
+
+/* ─── Signal categories for scraping, per pipeline ──────────────────── */
+const SIGNAL_CATEGORIES = {
+  "pr-marketing": [
+    { id: "launch", label: "Product Launch / Feature Release", keywords: ["announces launch", "introduces platform", "new product"] },
+    { id: "fundraise", label: "Fundraise / Post-Fundraise", keywords: ["raises seed", "Series A", "Series B", "funding round"] },
+    { id: "market_entry", label: "New Market Entry", keywords: ["expands into enterprise", "new vertical", "new geography"] },
+    { id: "rebrand", label: "Rebrand / Positioning Change", keywords: ["rebrand", "new brand identity", "repositioning"] },
+    { id: "crisis", label: "Crisis / Reputation Risk", keywords: ["crisis", "compliance issue", "reputation"] },
+    { id: "pipeline_stall", label: "Sales Pipeline Stall", keywords: ["need demand gen", "pipeline stall", "lead generation"] },
+  ],
+  "fund-formation": [
+    { id: "spinout", label: "Spinning Out from Platform", keywords: ["spinning out", "launching own fund", "leaving to start"] },
+    { id: "anchor", label: "Anchor/Seed Interest Secured", keywords: ["anchor investor", "seed capital", "committed capital"] },
+    { id: "track_record", label: "Track Record Ready", keywords: ["track record", "ready to raise", "performance history"] },
+    { id: "allocator_meeting", label: "Institutional Meeting Scheduled", keywords: ["allocator meeting", "institutional investor", "LP meeting"] },
+    { id: "admin_onboard", label: "Administrator Onboarding", keywords: ["fund administrator", "admin selected", "onboarding"] },
+  ],
+  "legal-consulting": [
+    { id: "growth", label: "Rapid Growth + Contract Volume", keywords: ["rapid growth", "scaling", "contract volume"] },
+    { id: "new_product", label: "New Product/Service Launch", keywords: ["new product launch", "new service", "updated terms"] },
+    { id: "dispute", label: "Vendor/Client Dispute", keywords: ["dispute", "negotiation", "litigation risk"] },
+    { id: "audit", label: "Upcoming Audit / Diligence", keywords: ["audit", "due diligence", "investor scrutiny"] },
+    { id: "institutional", label: "Transition to Institutional Ops", keywords: ["institutional", "governance", "formalize"] },
+  ],
+  "coaching-ops": [
+    { id: "hiring_ops", label: "Hiring Ops Roles", keywords: ["Operations Manager", "Head of Operations", "COO", "Chief of Staff"] },
+    { id: "funding", label: "Funding / Growth Announcement", keywords: ["raised seed", "Series A", "expanding", "new office"] },
+    { id: "pain_language", label: "Founder Pain Language", keywords: ["drowning", "need systems", "dropping balls", "need a COO"] },
+    { id: "new_leader", label: "New Leader Signal", keywords: ["joining as COO", "Head of Ops", "new leadership"] },
+    { id: "hiring_sales", label: "Hiring Sales/Revenue Roles", keywords: ["Business Development", "Account Executive", "Sales Manager", "Revenue Operations"] },
+    { id: "acquisition", label: "Acquisition / New Owner", keywords: ["acquired", "new owner", "search fund", "SBA acquisition"] },
+  ],
+  "media": [
+    { id: "funding_launch", label: "Funding / Launch / Expansion", keywords: ["announces launch", "raises", "expands into"] },
+    { id: "hiring_comms", label: "Hiring Marketing/PR/Comms", keywords: ["Head of Content", "PR lead", "Product Marketing", "thought leadership"] },
+    { id: "exec_visibility", label: "Executive Visibility Behavior", keywords: ["I'll be speaking", "webinar", "podcast", "AMA", "fireside chat"] },
+    { id: "content_need", label: "'We Need Content' Language", keywords: ["tell our story", "help with content", "founder-led marketing"] },
+  ],
+  "ai-consulting": [
+    { id: "hiring_ai", label: "Hiring AI/ML Roles", keywords: ["LLM", "GenAI", "Machine Learning", "MLOps", "AI governance", "prompt engineering"] },
+    { id: "vendor_tooling", label: "Vendor / Tooling Adoption", keywords: ["Snowflake", "Databricks", "vector search", "AI rollout"] },
+    { id: "initiative", label: "AI Initiative Announcement", keywords: ["AI transformation", "automation initiative", "AI center of excellence"] },
+    { id: "pilot_pain", label: "Pilot-to-Production Pain", keywords: ["pilots didn't scale", "need governance", "model monitoring"] },
+    { id: "regulated_ai", label: "Regulated AI Need", keywords: ["AI policy", "model risk management", "responsible AI"] },
+  ],
+};
+
+/* ─── Buyer personas per pipeline ──────────────────────────────────── */
+const BUYER_PERSONAS = {
+  "pr-marketing": ["CEO / Founder", "CMO / VP Marketing", "Head of Growth", "Head of Comms / PR", "Product Marketing Lead", "Chief Compliance Officer (influencer)"],
+  "fund-formation": ["Founder / CIO / PM", "COO / Head of Ops", "GC (if they have one)", "Anchor Investor (influencer)", "Fund Admin Referral", "Placement Agent"],
+  "legal-consulting": ["COO / Head of Ops", "Founder / CEO", "General Counsel (part-time)", "CFO (risk/cost control)"],
+  "coaching-ops": ["Founder / CEO", "COO / Head of Ops", "CFO", "EA / Chief of Staff", "GM / President", "Sales Manager (influencer)"],
+  "media": ["CEO / Founder", "CMO / Head of Growth", "Head of Comms / PR", "CTO (tech)", "Product Marketing", "Compliance Lead (FS influencer)"],
+  "ai-consulting": ["CIO / CTO", "Head of Data / AI", "VP Engineering", "VP Ops / COO", "Head of CX", "CISO (influencer)", "AI Product Manager"],
+};
+
+/* ─── Scrape sources ────────────────────────────────────────────────── */
+const SCRAPE_SOURCES = [
+  { id: "linkedin", label: "LinkedIn", icon: Users, desc: "Company profiles, job posts, executive activity" },
+  { id: "crunchbase", label: "Crunchbase", icon: Database, desc: "Funding rounds, company data, investor info" },
+  { id: "website", label: "Company Website", icon: Globe, desc: "About, team, services, tech stack" },
+  { id: "g2_clutch", label: "G2 / Clutch", icon: Star, desc: "Reviews, ratings, newly added, growth signals" },
+  { id: "job_boards", label: "Job Boards", icon: Briefcase, desc: "Indeed, Wellfound, BuiltIn — hiring intent" },
+  { id: "news_pr", label: "News / PR Wires", icon: FileText, desc: "Press releases, industry news, announcements" },
+];
+
+/* ─── Seed companies ───────────────────────────────────────────────── */
+const INITIAL_COMPANIES = [
+  {
+    id: 1, name: "Apex Fintech Solutions", website: "apexfintech.io", pipeline: "pr-marketing",
+    industry: "Fintech (B2B)", size: "51-200", revenue: "$5M–$10M", location: "Austin, TX",
+    fundingStage: "Series A", techStack: ["HubSpot", "Google Ads", "Segment"],
+    stage: "Qualified", fitScore: 42, intentScore: 38, starred: true,
+    notes: "Strong DTC fintech scaling fast. Currently spending $80K/mo on paid media. Needs credibility + earned media strategy.",
+    lastActivity: "2026-04-10", source: "Clutch", contacts: [1, 2],
+    fitDetails: { industry: 10, stage: 8, buyer: 8, proof: 8, budget: 8 },
+    intentDetails: { trigger: 12, timeline: 8, dm_engaged: 8, urgency: 6, responsive: 4 },
+  },
+  {
+    id: 2, name: "NovaBright Solar Fund LP", website: "novabrightfund.com", pipeline: "fund-formation",
+    industry: "Clean Energy / PE", size: "1-10", revenue: "<$1M", location: "Denver, CO",
+    fundingStage: "Pre-launch", techStack: [],
+    stage: "Engaged", fitScore: 40, intentScore: 35, starred: false,
+    notes: "First-time fund manager spinning out from larger platform. $75M target raise. Has anchor interest from family office.",
+    lastActivity: "2026-04-08", source: "Referral (Admin)",
+    contacts: [3],
+    fitDetails: { manager_type: 15, strategy: 8, ops_readiness: 7, jurisdiction: 3, budget: 7 },
+    intentDetails: { anchor: 12, launch_window: 8, providers: 5, urgency: 7, referral: 3 },
+  },
+  {
+    id: 3, name: "UrbanBite Delivery", website: "urbanbite.io", pipeline: "coaching-ops",
+    industry: "Food & Beverage / Tech-Enabled", size: "11-50", revenue: "$1M–$5M", location: "Chicago, IL",
+    fundingStage: "Seed", techStack: ["React", "Stripe", "Notion", "Slack"],
+    stage: "Discovery Complete", fitScore: 35, intentScore: 30, starred: false,
+    notes: "Founder-led, referral-dependent. Making money but sales inconsistent. Need a real pipeline + ops system. Hired 2 sales reps with no process.",
+    lastActivity: "2026-04-12", source: "LinkedIn",
+    contacts: [4, 5],
+    fitDetails: { revenue: 12, niche: 8, margin: 5, dm_access: 7, coachable: 3 },
+    intentDetails: { trigger: 12, timeline: 6, pain: 7, responsive: 3, budget: 2 },
+  },
+  {
+    id: 4, name: "Pinnacle Wellness Group", website: "pinnaclewellness.com", pipeline: "pr-marketing",
+    industry: "Health & Wellness (DTC)", size: "51-200", revenue: "$5M–$10M", location: "Miami, FL",
+    fundingStage: "Bootstrapped", techStack: ["Shopify", "Klaviyo", "Meta Ads", "Google Analytics"],
+    stage: "Won", fitScore: 45, intentScore: 40, starred: true,
+    notes: "Current client. Monthly retainer for social + paid + PR. Expanding to 3 new locations. Strong executive visibility opportunity.",
+    lastActivity: "2026-04-13", source: "Referral",
+    contacts: [6],
+    fitDetails: { industry: 9, stage: 9, buyer: 9, proof: 9, budget: 9 },
+    intentDetails: { trigger: 12, timeline: 9, dm_engaged: 8, urgency: 7, responsive: 4 },
+  },
+  {
+    id: 5, name: "CloudMesh Technologies", website: "cloudmesh.dev", pipeline: "ai-consulting",
+    industry: "SaaS / B2B", size: "201-500", revenue: "$10M–$50M", location: "San Francisco, CA",
+    fundingStage: "Series C", techStack: ["Snowflake", "dbt", "HubSpot", "Drift"],
+    stage: "Contacted", fitScore: 38, intentScore: 28, starred: false,
+    notes: "B2B SaaS. Ran 2 AI pilots that didn't scale. Posting about need for 'AI governance' and 'model monitoring.' Hiring ML Engineer + AI PM.",
+    lastActivity: "2026-04-06", source: "Job Board Scrape",
+    contacts: [7, 8],
+    fitDetails: { industry: 9, data_maturity: 7, use_case: 8, buyer_access: 7, budget: 7 },
+    intentDetails: { signal: 12, timeline: 5, pain: 6, sponsor: 3, responsive: 2 },
+  },
+  {
+    id: 6, name: "Meridian Capital Partners", website: "meridiancappartners.com", pipeline: "fund-formation",
+    industry: "Hedge Fund", size: "1-10", revenue: "<$1M", location: "New York, NY",
+    fundingStage: "Pre-launch", techStack: [],
+    stage: "Proposal Sent", fitScore: 44, intentScore: 42, starred: true,
+    notes: "Ex-Goldman PM launching Fund I. $150M target. Anchor from endowment. Needs PPM/LPA fast. Admin (Apex) referred them. Very responsive.",
+    lastActivity: "2026-04-11", source: "Admin Referral",
+    contacts: [9, 10],
+    fitDetails: { manager_type: 15, strategy: 10, ops_readiness: 9, jurisdiction: 3, budget: 7 },
+    intentDetails: { anchor: 15, launch_window: 10, providers: 8, urgency: 5, referral: 4 },
+  },
+  {
+    id: 7, name: "SecureLayer AI", website: "securelayer.ai", pipeline: "media",
+    industry: "Cybersecurity / AI", size: "51-200", revenue: "$5M–$10M", location: "Boston, MA",
+    fundingStage: "Series B", techStack: ["Next.js", "Salesforce", "Mixpanel"],
+    stage: "Engaged", fitScore: 40, intentScore: 32, starred: false,
+    notes: "Complex product story. CEO wants visibility. Already guested on 2 podcasts. Need polished media assets for enterprise sales.",
+    lastActivity: "2026-04-09", source: "LinkedIn",
+    contacts: [11],
+    fitDetails: { industry: 10, complexity: 9, credibility: 8, distribution: 7, budget: 6 },
+    intentDetails: { signal: 14, timeline: 6, exec: 7, responsive: 3, goal: 2 },
+  },
+  {
+    id: 8, name: "Greystone Wealth Advisors", website: "greystonewa.com", pipeline: "legal-consulting",
+    industry: "RIA / Wealth Management", size: "11-50", revenue: "$5M–$10M", location: "Dallas, TX",
+    fundingStage: "Bootstrapped", techStack: ["Salesforce", "Redtail"],
+    stage: "Targeted", fitScore: 36, intentScore: 18, starred: false,
+    notes: "Boutique RIA. Contract bottlenecks growing. Need ongoing counsel + governance framework. No GC on staff.",
+    lastActivity: "2026-04-07", source: "Crunchbase",
+    contacts: [12],
+    fitDetails: { complexity: 12, ongoing: 10, org_size: 7, dm_access: 4, budget: 3 },
+    intentDetails: { active_problem: 8, timeline: 4, volume: 3, pressure: 2, responsive: 1 },
+  },
+];
+
+const INITIAL_CONTACTS = [
+  { id: 1, companyId: 1, name: "Sarah Chen", title: "VP of Marketing", email: "sarah@apexfintech.io", phone: "(512) 555-0142", linkedin: "linkedin.com/in/sarahchen", decisionMaker: true, persona: "CMO / VP Marketing" },
+  { id: 2, companyId: 1, name: "James Park", title: "CEO", email: "james@apexfintech.io", phone: "(512) 555-0198", linkedin: "linkedin.com/in/jamespark", decisionMaker: true, persona: "CEO / Founder" },
+  { id: 3, companyId: 2, name: "David Hartwell", title: "Founder / CIO", email: "david@novabrightfund.com", phone: "(303) 555-0267", linkedin: "linkedin.com/in/davidhartwell", decisionMaker: true, persona: "Founder / CIO / PM" },
+  { id: 4, companyId: 3, name: "Derek Liu", title: "Founder & CEO", email: "derek@urbanbite.io", phone: "(312) 555-0333", linkedin: "linkedin.com/in/derekliu", decisionMaker: true, persona: "Founder / CEO" },
+  { id: 5, companyId: 3, name: "Aisha Patel", title: "Growth Lead", email: "aisha@urbanbite.io", phone: "(312) 555-0334", linkedin: "linkedin.com/in/aishapatel", decisionMaker: false, persona: "Sales Manager (influencer)" },
+  { id: 6, companyId: 4, name: "Marcus Johnson", title: "Director of Marketing", email: "marcus@pinnaclewellness.com", phone: "(305) 555-0421", linkedin: "linkedin.com/in/marcusjohnson", decisionMaker: true, persona: "CMO / VP Marketing" },
+  { id: 7, companyId: 5, name: "Emily Watson", title: "Head of Data & AI", email: "emily@cloudmesh.dev", phone: "(415) 555-0567", linkedin: "linkedin.com/in/emilywatson", decisionMaker: true, persona: "Head of Data / AI" },
+  { id: 8, companyId: 5, name: "Raj Mehta", title: "CTO", email: "raj@cloudmesh.dev", phone: "(415) 555-0568", linkedin: "linkedin.com/in/rajmehta", decisionMaker: true, persona: "CIO / CTO" },
+  { id: 9, companyId: 6, name: "Thomas Mercer", title: "Founder / PM", email: "thomas@meridiancappartners.com", phone: "(212) 555-0891", linkedin: "linkedin.com/in/thomasmercer", decisionMaker: true, persona: "Founder / CIO / PM" },
+  { id: 10, companyId: 6, name: "Lisa Nakamura", title: "COO", email: "lisa@meridiancappartners.com", phone: "(212) 555-0892", linkedin: "linkedin.com/in/lisanakamura", decisionMaker: true, persona: "COO / Head of Ops" },
+  { id: 11, companyId: 7, name: "Ryan Foster", title: "CEO", email: "ryan@securelayer.ai", phone: "(617) 555-0344", linkedin: "linkedin.com/in/ryanfoster", decisionMaker: true, persona: "CEO / Founder" },
+  { id: 12, companyId: 8, name: "Patricia Garza", title: "COO", email: "patricia@greystonewa.com", phone: "(214) 555-0711", linkedin: "linkedin.com/in/patriciagarza", decisionMaker: true, persona: "COO / Head of Ops" },
+];
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   UTILITY FUNCTIONS
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+function totalScore(c) { return (c.fitScore || 0) + (c.intentScore || 0); }
+
+function generateScrapedData(url, source, pipelineId) {
+  const signals = SIGNAL_CATEGORIES[pipelineId] || [];
+  const matchedSignals = signals.sort(() => 0.5 - Math.random()).slice(0, 1 + Math.floor(Math.random() * 2));
+  const personas = BUYER_PERSONAS[pipelineId] || [];
+  const names = ["Alex Morgan", "Jordan Lee", "Casey Rivera", "Taylor Kim", "Morgan Brooks", "Avery Quinn", "Sam Delgado", "Riley Chen"];
+  const locs = ["New York, NY", "Los Angeles, CA", "Austin, TX", "Seattle, WA", "Boston, MA", "Chicago, IL", "Miami, FL", "Denver, CO", "San Francisco, CA", "Dallas, TX"];
+  const industries = {
+    "pr-marketing": ["Fintech", "Regtech", "SaaS", "Cybersecurity", "AI Infra", "Market Data"],
+    "fund-formation": ["Hedge Fund", "VC", "PE", "Private Credit", "Real Assets"],
+    "legal-consulting": ["RIA", "Fund Admin", "Fintech Vendor", "B2B Services", "Tech-Enabled Services"],
+    "coaching-ops": ["Agency", "Consultancy", "Professional Services", "B2B SaaS", "Home Services"],
+    "media": ["Fintech", "SaaS", "Cybersecurity", "AI Infra", "Wealth Platform"],
+    "ai-consulting": ["Financial Services", "Healthcare", "Insurance", "Logistics", "SaaS"],
+  };
+  const sizes = ["1-10", "11-50", "51-200", "201-500"];
+  const ind = industries[pipelineId] || ["Technology"];
+  return {
+    domain: url.replace(/^https?:\/\//, "").replace(/\/.*$/, ""),
+    industry: ind[Math.floor(Math.random() * ind.length)],
+    size: sizes[Math.floor(Math.random() * sizes.length)],
+    location: locs[Math.floor(Math.random() * locs.length)],
+    matchedSignals,
+    contacts: Array.from({ length: 1 + Math.floor(Math.random() * 2) }, (_, i) => ({
+      name: names[Math.floor(Math.random() * names.length)],
+      title: personas[i] || personas[Math.floor(Math.random() * personas.length)],
+      email: `contact${i + 1}@${url.replace(/^https?:\/\//, "").replace(/\/.*$/, "")}`,
+      linkedin: `linkedin.com/in/${names[Math.floor(Math.random() * names.length)].toLowerCase().replace(" ", "")}`,
+    })),
+    source,
+    scrapedAt: new Date().toISOString(),
+  };
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   SUB-COMPONENTS
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+function Badge({ children, className = "" }) {
+  return <span className={`inline-flex items-center px-2 py-0.5 rounded-full text-[11px] font-medium leading-tight ${className}`}>{children}</span>;
+}
+
+function ScoreBadge({ score, label }) {
+  const color = score >= 80 ? "text-green-700 bg-green-50 border-green-200" : score >= 60 ? "text-amber-700 bg-amber-50 border-amber-200" : score >= 40 ? "text-orange-600 bg-orange-50 border-orange-200" : "text-red-600 bg-red-50 border-red-200";
+  return <span className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-xs font-bold border ${color}`}>{label && <span className="font-medium opacity-70">{label}</span>}{score}</span>;
+}
+
+function PipelineBadge({ pipelineId }) {
+  const p = PIPELINE_MAP[pipelineId];
+  if (!p) return null;
+  const colorMap = { indigo: "bg-indigo-100 text-indigo-700", emerald: "bg-emerald-100 text-emerald-700", sky: "bg-sky-100 text-sky-700", amber: "bg-amber-100 text-amber-700", rose: "bg-rose-100 text-rose-700", violet: "bg-violet-100 text-violet-700" };
+  return <Badge className={colorMap[p.color] || "bg-gray-100 text-gray-600"}>{p.short}</Badge>;
+}
+
+function Modal({ open, onClose, title, children, wide }) {
+  if (!open) return null;
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40" onClick={onClose}>
+      <div className={`bg-white rounded-2xl shadow-2xl ${wide ? "max-w-4xl" : "max-w-lg"} w-full mx-4 max-h-[90vh] flex flex-col`} onClick={e => e.stopPropagation()}>
+        <div className="flex items-center justify-between px-6 py-4 border-b border-gray-100">
+          <h2 className="text-lg font-semibold text-gray-900">{title}</h2>
+          <button onClick={onClose} className="p-1 rounded-lg hover:bg-gray-100 text-gray-400 hover:text-gray-600"><X size={20} /></button>
+        </div>
+        <div className="px-6 py-4 overflow-y-auto flex-1">{children}</div>
+      </div>
+    </div>
+  );
+}
+
+function MultiSelect({ options, selected, onChange, label }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <div className="relative">
+      {label && <label className="block text-xs font-medium text-gray-600 mb-1">{label}</label>}
+      <button onClick={() => setOpen(!open)} className="w-full flex items-center justify-between px-3 py-2 border border-gray-200 rounded-lg text-sm bg-white hover:border-gray-300">
+        <span className="truncate text-gray-700">{selected.length ? `${selected.length} selected` : "Select..."}</span>
+        {open ? <ChevronUp size={14} className="text-gray-400" /> : <ChevronDown size={14} className="text-gray-400" />}
+      </button>
+      {open && (
+        <div className="absolute z-40 mt-1 w-full bg-white border border-gray-200 rounded-lg shadow-lg max-h-48 overflow-y-auto">
+          {options.map(opt => (
+            <label key={opt} className="flex items-center gap-2 px-3 py-1.5 hover:bg-gray-50 cursor-pointer text-sm">
+              <input type="checkbox" checked={selected.includes(opt)} onChange={() => onChange(selected.includes(opt) ? selected.filter(s => s !== opt) : [...selected, opt])} className="rounded border-gray-300 text-indigo-600" />
+              {opt}
+            </label>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function StatCard({ icon: Icon, label, value, sub, color = "indigo" }) {
+  const colors = { indigo: "bg-indigo-50 text-indigo-600", green: "bg-green-50 text-green-600", emerald: "bg-emerald-50 text-emerald-600", amber: "bg-amber-50 text-amber-600", rose: "bg-rose-50 text-rose-600", blue: "bg-blue-50 text-blue-600", violet: "bg-violet-50 text-violet-600", sky: "bg-sky-50 text-sky-600" };
+  return (
+    <div className="bg-white rounded-xl border border-gray-100 p-4 flex items-start gap-3 shadow-sm">
+      <div className={`w-10 h-10 rounded-xl ${colors[color]} flex items-center justify-center flex-shrink-0`}><Icon size={18} /></div>
+      <div className="min-w-0">
+        <p className="text-xs text-gray-500 font-medium">{label}</p>
+        <p className="text-xl font-bold text-gray-900">{value}</p>
+        {sub && <p className="text-xs text-gray-400 mt-0.5">{sub}</p>}
+      </div>
+    </div>
+  );
+}
+
+function ScoreSlider({ criterion, value, onChange }) {
+  return (
+    <div className="flex items-center gap-3">
+      <label className="text-xs text-gray-600 flex-1 min-w-0">{criterion.label}</label>
+      <input type="range" min={0} max={criterion.max} value={value || 0} onChange={e => onChange(Number(e.target.value))} className="w-24 accent-indigo-600" />
+      <span className="text-xs font-mono text-gray-800 w-8 text-right">{value || 0}/{criterion.max}</span>
+    </div>
+  );
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   MAIN APP
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+export default function AgencyCRM() {
+  const [page, setPage] = useState("dashboard");
+  const [companies, setCompanies] = useState(INITIAL_COMPANIES);
+  const [contacts, setContacts] = useState(INITIAL_CONTACTS);
+  const [search, setSearch] = useState("");
+  const [pipelineFilter, setPipelineFilter] = useState("all");
+  const [stageFilter, setStageFilter] = useState("All");
+  const [sortField, setSortField] = useState("totalScore");
+  const [sortDir, setSortDir] = useState("desc");
+  const [selectedCompany, setSelectedCompany] = useState(null);
+  const [showAddCompany, setShowAddCompany] = useState(false);
+  const [showAddContact, setShowAddContact] = useState(false);
+  const [showScorecard, setShowScorecard] = useState(null);
+
+  // Scraper state
+  const [scrapeUrl, setScrapeUrl] = useState("");
+  const [scrapeSource, setScrapeSource] = useState("linkedin");
+  const [scrapePipeline, setScrapePipeline] = useState("pr-marketing");
+  const [scraping, setScraping] = useState(false);
+  const [scrapeResults, setScrapeResults] = useState(null);
+  const [scrapeHistory, setScrapeHistory] = useState([]);
+
+  // New company form
+  const [newCompany, setNewCompany] = useState({ name: "", website: "", pipeline: "pr-marketing", industry: "", size: "", revenue: "", location: "", fundingStage: "", stage: "Targeted", notes: "", techStack: [] });
+  const [newContact, setNewContact] = useState({ name: "", title: "", email: "", phone: "", linkedin: "", decisionMaker: false, companyId: null, persona: "" });
+
+  // ─── Computed ──────────────────────────────────────────────────────
+  const filteredCompanies = useMemo(() => {
+    let list = companies.filter(c => {
+      if (pipelineFilter !== "all" && c.pipeline !== pipelineFilter) return false;
+      if (stageFilter !== "All" && c.stage !== stageFilter) return false;
+      if (search && !c.name.toLowerCase().includes(search.toLowerCase()) && !c.industry.toLowerCase().includes(search.toLowerCase())) return false;
+      return true;
+    });
+    list.sort((a, b) => {
+      const mod = sortDir === "asc" ? 1 : -1;
+      if (sortField === "totalScore") return (totalScore(a) - totalScore(b)) * mod;
+      if (sortField === "fitScore") return (a.fitScore - b.fitScore) * mod;
+      if (sortField === "intentScore") return (a.intentScore - b.intentScore) * mod;
+      if (sortField === "name") return a.name.localeCompare(b.name) * mod;
+      return 0;
+    });
+    return list;
+  }, [companies, search, pipelineFilter, stageFilter, sortField, sortDir]);
+
+  const pipelineStats = useMemo(() => {
+    const stats = {};
+    PIPELINES.forEach(p => {
+      const pCompanies = companies.filter(c => c.pipeline === p.id);
+      stats[p.id] = {
+        total: pCompanies.length,
+        priorityA: pCompanies.filter(c => totalScore(c) >= 80).length,
+        won: pCompanies.filter(c => c.stage === "Won").length,
+        avgScore: pCompanies.length ? Math.round(pCompanies.reduce((s, c) => s + totalScore(c), 0) / pCompanies.length) : 0,
+      };
+    });
+    return stats;
+  }, [companies]);
+
+  const companyContacts = (companyId) => contacts.filter(c => c.companyId === companyId);
+
+  const handleSort = (field) => {
+    if (sortField === field) setSortDir(d => d === "asc" ? "desc" : "asc");
+    else { setSortField(field); setSortDir("desc"); }
+  };
+
+  const toggleStar = (id) => setCompanies(prev => prev.map(c => c.id === id ? { ...c, starred: !c.starred } : c));
+
+  const addCompany = () => {
+    const id = Math.max(0, ...companies.map(c => c.id)) + 1;
+    const company = { ...newCompany, id, fitScore: 0, intentScore: 0, starred: false, contacts: [], lastActivity: new Date().toISOString().slice(0, 10), source: "Manual", fitDetails: {}, intentDetails: {} };
+    setCompanies(prev => [...prev, company]);
+    setNewCompany({ name: "", website: "", pipeline: "pr-marketing", industry: "", size: "", revenue: "", location: "", fundingStage: "", stage: "Targeted", notes: "", techStack: [] });
+    setShowAddCompany(false);
+  };
+
+  const addContact = () => {
+    const id = Math.max(0, ...contacts.map(c => c.id)) + 1;
+    setContacts(prev => [...prev, { ...newContact, id }]);
+    if (newContact.companyId) {
+      setCompanies(prev => prev.map(c => c.id === newContact.companyId ? { ...c, contacts: [...c.contacts, id] } : c));
+    }
+    setNewContact({ name: "", title: "", email: "", phone: "", linkedin: "", decisionMaker: false, companyId: null, persona: "" });
+    setShowAddContact(false);
+  };
+
+  const updateCompanyScores = (companyId, fitDetails, intentDetails) => {
+    const fitScore = Object.values(fitDetails).reduce((a, b) => a + b, 0);
+    const intentScore = Object.values(intentDetails).reduce((a, b) => a + b, 0);
+    setCompanies(prev => prev.map(c => c.id === companyId ? { ...c, fitScore, intentScore, fitDetails, intentDetails } : c));
+  };
+
+  const updateCompanyStage = (companyId, stage) => {
+    setCompanies(prev => prev.map(c => c.id === companyId ? { ...c, stage, lastActivity: new Date().toISOString().slice(0, 10) } : c));
+  };
+
+  const deleteCompany = (id) => {
+    setCompanies(prev => prev.filter(c => c.id !== id));
+    setContacts(prev => prev.filter(c => c.companyId !== id));
+    setSelectedCompany(null);
+  };
+
+  const handleScrape = () => {
+    if (!scrapeUrl.trim()) return;
+    setScraping(true);
+    setScrapeResults(null);
+    setTimeout(() => {
+      const results = generateScrapedData(scrapeUrl, scrapeSource, scrapePipeline);
+      results.pipeline = scrapePipeline;
+      setScrapeResults(results);
+      setScrapeHistory(prev => [{ url: results.domain, source: scrapeSource, pipeline: scrapePipeline, time: new Date().toLocaleString(), results }, ...prev.slice(0, 19)]);
+      setScraping(false);
+    }, 1500 + Math.random() * 1500);
+  };
+
+  const importScrapedCompany = () => {
+    if (!scrapeResults) return;
+    const id = Math.max(0, ...companies.map(c => c.id)) + 1;
+    let nextCId = Math.max(0, ...contacts.map(c => c.id)) + 1;
+    const contactIds = [];
+    const newContacts = (scrapeResults.contacts || []).map(sc => {
+      const cid = nextCId++;
+      contactIds.push(cid);
+      return { id: cid, companyId: id, name: sc.name, title: sc.title, email: sc.email, phone: "", linkedin: sc.linkedin, decisionMaker: sc.title.includes("CEO") || sc.title.includes("CMO") || sc.title.includes("CIO") || sc.title.includes("CTO") || sc.title.includes("VP") || sc.title.includes("Founder"), persona: sc.title };
+    });
+    const domainParts = scrapeResults.domain.split(".");
+    const companyName = domainParts[0].charAt(0).toUpperCase() + domainParts[0].slice(1);
+    const company = {
+      id, name: companyName, website: scrapeResults.domain, pipeline: scrapeResults.pipeline,
+      industry: scrapeResults.industry, size: scrapeResults.size, revenue: "", location: scrapeResults.location,
+      fundingStage: "", techStack: [], stage: "Targeted", fitScore: 0, intentScore: 0, starred: false,
+      contacts: contactIds, notes: `Scraped from ${scrapeResults.source}. Signals: ${scrapeResults.matchedSignals.map(s => s.label).join(", ")}`,
+      lastActivity: new Date().toISOString().slice(0, 10), source: `Scrape (${scrapeResults.source})`,
+      fitDetails: {}, intentDetails: {},
+    };
+    setCompanies(prev => [...prev, company]);
+    setContacts(prev => [...prev, ...newContacts]);
+    setScrapeResults(null);
+    setScrapeUrl("");
+  };
+
+  /* ═══════════════════════════════════════════════════════════════════════
+     PAGE RENDERERS
+     ═══════════════════════════════════════════════════════════════════════ */
+
+  // ─── DASHBOARD ─────────────────────────────────────────────────────
+  const renderDashboard = () => {
+    const totalCompanies = companies.length;
+    const totalPriorityA = companies.filter(c => totalScore(c) >= 80).length;
+    const totalWon = companies.filter(c => c.stage === "Won").length;
+    const avgScore = totalCompanies ? Math.round(companies.reduce((s, c) => s + totalScore(c), 0) / totalCompanies) : 0;
+
+    return (
+      <div className="space-y-6">
+        <div>
+          <h1 className="text-2xl font-bold text-gray-900">Dashboard</h1>
+          <p className="text-sm text-gray-500 mt-1">Cross-pipeline overview across all 6 business lines</p>
+        </div>
+
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+          <StatCard icon={Building2} label="Total Leads" value={totalCompanies} sub={`${companies.filter(c => c.starred).length} starred`} color="indigo" />
+          <StatCard icon={Zap} label="Priority A (80+)" value={totalPriorityA} sub="Work now" color="green" />
+          <StatCard icon={Award} label="Won Clients" value={totalWon} sub="Active accounts" color="emerald" />
+          <StatCard icon={Target} label="Avg Score" value={avgScore} sub="Fit + Intent" color="amber" />
+        </div>
+
+        {/* Pipeline Cards */}
+        <div>
+          <h3 className="text-sm font-semibold text-gray-900 mb-3">Pipelines</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+            {PIPELINES.map(p => {
+              const stats = pipelineStats[p.id];
+              const colorMap = { indigo: "border-indigo-200 bg-indigo-50/30", emerald: "border-emerald-200 bg-emerald-50/30", sky: "border-sky-200 bg-sky-50/30", amber: "border-amber-200 bg-amber-50/30", rose: "border-rose-200 bg-rose-50/30", violet: "border-violet-200 bg-violet-50/30" };
+              const iconColorMap = { indigo: "text-indigo-600", emerald: "text-emerald-600", sky: "text-sky-600", amber: "text-amber-600", rose: "text-rose-600", violet: "text-violet-600" };
+              return (
+                <button key={p.id} onClick={() => { setPipelineFilter(p.id); setPage("companies"); }} className={`text-left p-4 rounded-xl border ${colorMap[p.color]} hover:shadow-md transition-shadow`}>
+                  <div className="flex items-center gap-2 mb-2">
+                    <p.icon size={18} className={iconColorMap[p.color]} />
+                    <span className="text-sm font-semibold text-gray-900">{p.label}</span>
+                  </div>
+                  <p className="text-xs text-gray-500 mb-3">{p.description}</p>
+                  <div className="flex items-center gap-4 text-xs">
+                    <span className="text-gray-600"><strong>{stats.total}</strong> leads</span>
+                    <span className="text-green-600"><strong>{stats.priorityA}</strong> Priority A</span>
+                    <span className="text-emerald-600"><strong>{stats.won}</strong> won</span>
+                    <span className="text-gray-400">avg {stats.avgScore}</span>
+                  </div>
+                </button>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Top Leads */}
+        <div className="bg-white rounded-xl border border-gray-100 p-5 shadow-sm">
+          <h3 className="text-sm font-semibold text-gray-900 mb-3">Top Priority A Leads (Score 80+)</h3>
+          {companies.filter(c => totalScore(c) >= 80).sort((a, b) => totalScore(b) - totalScore(a)).length === 0 ? (
+            <p className="text-sm text-gray-400 italic py-4 text-center">No Priority A leads yet. Score your leads using the Lead Scorecard.</p>
+          ) : (
+            <div className="space-y-2">
+              {companies.filter(c => totalScore(c) >= 80).sort((a, b) => totalScore(b) - totalScore(a)).slice(0, 8).map(c => (
+                <div key={c.id} className="flex items-center justify-between py-2 px-3 rounded-lg hover:bg-gray-50 cursor-pointer" onClick={() => { setSelectedCompany(c); setPage("companies"); }}>
+                  <div className="flex items-center gap-3">
+                    <div className="w-8 h-8 rounded-lg bg-indigo-100 flex items-center justify-center text-xs font-bold text-indigo-600">{c.name.charAt(0)}</div>
+                    <div>
+                      <p className="text-sm font-medium text-gray-900">{c.name}</p>
+                      <p className="text-xs text-gray-500">{c.industry}</p>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <PipelineBadge pipelineId={c.pipeline} />
+                    <Badge className={STAGE_COLORS[c.stage]}>{c.stage}</Badge>
+                    <ScoreBadge score={totalScore(c)} />
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+
+        {/* Funnel by stage */}
+        <div className="bg-white rounded-xl border border-gray-100 p-5 shadow-sm">
+          <h3 className="text-sm font-semibold text-gray-900 mb-4">Funnel Overview (All Pipelines)</h3>
+          <div className="flex items-end gap-1.5" style={{ height: 140 }}>
+            {FUNNEL_STAGES.map(stage => {
+              const count = companies.filter(c => c.stage === stage).length;
+              const maxCount = Math.max(...FUNNEL_STAGES.map(s => companies.filter(c => c.stage === s).length), 1);
+              const height = Math.max((count / maxCount) * 100, 6);
+              const barColors = {
+                Targeted: "bg-gray-300", Contacted: "bg-blue-400", Engaged: "bg-cyan-400", Qualified: "bg-purple-400",
+                "Discovery Complete": "bg-indigo-400", "Proposal Sent": "bg-amber-400", Negotiation: "bg-orange-400",
+                Won: "bg-green-400", Lost: "bg-red-300", Nurture: "bg-teal-300",
+              };
+              return (
+                <div key={stage} className="flex-1 flex flex-col items-center gap-1">
+                  <span className="text-[11px] font-bold text-gray-700">{count}</span>
+                  <div className={`w-full rounded-t-lg ${barColors[stage]}`} style={{ height: `${height}%` }} />
+                  <span className="text-[9px] text-gray-500 font-medium text-center leading-tight">{stage}</span>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Recent Activity */}
+        {scrapeHistory.length > 0 && (
+          <div className="bg-white rounded-xl border border-gray-100 p-5 shadow-sm">
+            <h3 className="text-sm font-semibold text-gray-900 mb-3">Recent Scraping Activity</h3>
+            <div className="space-y-2">
+              {scrapeHistory.slice(0, 5).map((h, i) => (
+                <div key={i} className="flex items-center justify-between py-2 px-3 rounded-lg bg-gray-50">
+                  <div className="flex items-center gap-2">
+                    <Globe size={14} className="text-gray-400" />
+                    <span className="text-sm text-gray-700">{h.url}</span>
+                    <PipelineBadge pipelineId={h.pipeline} />
+                    <Badge className="bg-gray-200 text-gray-600">{h.source}</Badge>
+                  </div>
+                  <span className="text-xs text-gray-400">{h.time}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+    );
+  };
+
+  // ─── COMPANIES ─────────────────────────────────────────────────────
+  const renderCompanies = () => (
+    <div className="space-y-4">
+      <div className="flex items-center justify-between">
+        <div>
+          <h1 className="text-2xl font-bold text-gray-900">Companies</h1>
+          <p className="text-sm text-gray-500 mt-1">{filteredCompanies.length} of {companies.length} across all pipelines</p>
+        </div>
+        <button onClick={() => setShowAddCompany(true)} className="flex items-center gap-1.5 px-4 py-2 bg-indigo-600 text-white text-sm font-medium rounded-lg hover:bg-indigo-700 shadow-sm">
+          <Plus size={16} /> Add Company
+        </button>
+      </div>
+
+      {/* Filters */}
+      <div className="flex items-center gap-3 flex-wrap">
+        <div className="relative flex-1 min-w-[180px]">
+          <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" />
+          <input type="text" placeholder="Search..." value={search} onChange={e => setSearch(e.target.value)} className="w-full pl-9 pr-4 py-2 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500" />
+        </div>
+        <select value={pipelineFilter} onChange={e => setPipelineFilter(e.target.value)} className="px-3 py-2 border border-gray-200 rounded-lg text-sm bg-white">
+          <option value="all">All Pipelines</option>
+          {PIPELINES.map(p => <option key={p.id} value={p.id}>{p.label}</option>)}
+        </select>
+        <select value={stageFilter} onChange={e => setStageFilter(e.target.value)} className="px-3 py-2 border border-gray-200 rounded-lg text-sm bg-white">
+          <option value="All">All Stages</option>
+          {FUNNEL_STAGES.map(s => <option key={s} value={s}>{s}</option>)}
+        </select>
+      </div>
+
+      {/* Table */}
+      <div className="bg-white rounded-xl border border-gray-100 shadow-sm overflow-hidden">
+        <div className="overflow-x-auto">
+          <table className="w-full">
+            <thead>
+              <tr className="border-b border-gray-100">
+                <th className="w-8 px-3 py-3" />
+                <th className="text-left px-3 py-3 text-xs font-semibold text-gray-500 uppercase cursor-pointer" onClick={() => handleSort("name")}>
+                  <span className="flex items-center gap-1">Company <ArrowUpDown size={11} /></span>
+                </th>
+                <th className="text-left px-3 py-3 text-xs font-semibold text-gray-500 uppercase">Pipeline</th>
+                <th className="text-left px-3 py-3 text-xs font-semibold text-gray-500 uppercase">Stage</th>
+                <th className="text-left px-3 py-3 text-xs font-semibold text-gray-500 uppercase cursor-pointer" onClick={() => handleSort("fitScore")}>
+                  <span className="flex items-center gap-1">Fit <ArrowUpDown size={11} /></span>
+                </th>
+                <th className="text-left px-3 py-3 text-xs font-semibold text-gray-500 uppercase cursor-pointer" onClick={() => handleSort("intentScore")}>
+                  <span className="flex items-center gap-1">Intent <ArrowUpDown size={11} /></span>
+                </th>
+                <th className="text-left px-3 py-3 text-xs font-semibold text-gray-500 uppercase cursor-pointer" onClick={() => handleSort("totalScore")}>
+                  <span className="flex items-center gap-1">Total <ArrowUpDown size={11} /></span>
+                </th>
+                <th className="text-left px-3 py-3 text-xs font-semibold text-gray-500 uppercase">Priority</th>
+                <th className="w-8 px-3 py-3" />
+              </tr>
+            </thead>
+            <tbody>
+              {filteredCompanies.map(c => {
+                const score = totalScore(c);
+                const pri = getPriority(score);
+                return (
+                  <tr key={c.id} className="border-b border-gray-50 hover:bg-gray-50/50 cursor-pointer" onClick={() => setSelectedCompany(c)}>
+                    <td className="px-3 py-3" onClick={e => { e.stopPropagation(); toggleStar(c.id); }}>
+                      {c.starred ? <Star size={15} className="text-amber-400 fill-amber-400" /> : <StarOff size={15} className="text-gray-300 hover:text-amber-300" />}
+                    </td>
+                    <td className="px-3 py-3">
+                      <div className="flex items-center gap-2.5">
+                        <div className="w-7 h-7 rounded-lg bg-indigo-100 flex items-center justify-center text-[11px] font-bold text-indigo-600 flex-shrink-0">{c.name.charAt(0)}</div>
+                        <div>
+                          <p className="text-sm font-medium text-gray-900 leading-tight">{c.name}</p>
+                          <p className="text-[11px] text-gray-400">{c.industry}</p>
+                        </div>
+                      </div>
+                    </td>
+                    <td className="px-3 py-3"><PipelineBadge pipelineId={c.pipeline} /></td>
+                    <td className="px-3 py-3"><Badge className={STAGE_COLORS[c.stage]}>{c.stage}</Badge></td>
+                    <td className="px-3 py-3"><ScoreBadge score={c.fitScore} label="F" /></td>
+                    <td className="px-3 py-3"><ScoreBadge score={c.intentScore} label="I" /></td>
+                    <td className="px-3 py-3"><ScoreBadge score={score} /></td>
+                    <td className="px-3 py-3"><Badge className={`border ${PRIORITY_COLORS[pri]}`}>{pri}</Badge></td>
+                    <td className="px-3 py-3"><ChevronRight size={15} className="text-gray-300" /></td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+          {filteredCompanies.length === 0 && (
+            <div className="py-12 text-center">
+              <Building2 size={24} className="mx-auto text-gray-300 mb-2" />
+              <p className="text-sm text-gray-500">No companies found. Adjust filters or add new.</p>
+            </div>
+          )}
+        </div>
+      </div>
+
+      {/* Company Detail Modal */}
+      <Modal open={!!selectedCompany} onClose={() => setSelectedCompany(null)} title={selectedCompany?.name} wide>
+        {selectedCompany && (() => {
+          const c = selectedCompany;
+          const score = totalScore(c);
+          const pri = getPriority(score);
+          const pipe = PIPELINE_MAP[c.pipeline];
+          return (
+            <div className="space-y-5">
+              <div className="flex items-start justify-between">
+                <div className="flex items-center gap-3">
+                  <div className="w-12 h-12 rounded-xl bg-indigo-100 flex items-center justify-center text-lg font-bold text-indigo-600">{c.name.charAt(0)}</div>
+                  <div>
+                    <div className="flex items-center gap-2 flex-wrap">
+                      <PipelineBadge pipelineId={c.pipeline} />
+                      <Badge className={STAGE_COLORS[c.stage]}>{c.stage}</Badge>
+                      <Badge className={`border ${PRIORITY_COLORS[pri]}`}>{PRIORITY_LABELS[pri]}</Badge>
+                    </div>
+                    <div className="flex items-center gap-1.5 mt-1.5">
+                      <ScoreBadge score={c.fitScore} label="Fit" />
+                      <span className="text-gray-300">+</span>
+                      <ScoreBadge score={c.intentScore} label="Intent" />
+                      <span className="text-gray-300">=</span>
+                      <ScoreBadge score={score} label="Total" />
+                    </div>
+                  </div>
+                </div>
+                <div className="flex items-center gap-2">
+                  <button onClick={() => setShowScorecard(c)} className="p-2 rounded-lg text-indigo-500 hover:bg-indigo-50 hover:text-indigo-700" title="Score Lead"><Target size={16} /></button>
+                  <button onClick={() => deleteCompany(c.id)} className="p-2 rounded-lg text-red-400 hover:bg-red-50 hover:text-red-600"><Trash2 size={16} /></button>
+                </div>
+              </div>
+
+              {/* Stage selector */}
+              <div>
+                <label className="text-xs font-semibold text-gray-500 uppercase mb-2 block">Move Stage</label>
+                <div className="flex flex-wrap gap-1">
+                  {FUNNEL_STAGES.map(s => (
+                    <button key={s} onClick={() => { updateCompanyStage(c.id, s); setSelectedCompany(prev => ({ ...prev, stage: s })); }} className={`px-2.5 py-1 rounded-md text-[11px] font-medium transition-colors ${c.stage === s ? "bg-indigo-600 text-white" : "bg-gray-100 text-gray-600 hover:bg-gray-200"}`}>{s}</button>
+                  ))}
+                </div>
+              </div>
+
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-3 text-sm">
+                <div className="bg-gray-50 rounded-lg p-3"><span className="text-xs text-gray-500 block">Industry</span><span className="font-medium text-gray-900">{c.industry}</span></div>
+                <div className="bg-gray-50 rounded-lg p-3"><span className="text-xs text-gray-500 block">Size</span><span className="font-medium text-gray-900">{c.size || "—"}</span></div>
+                <div className="bg-gray-50 rounded-lg p-3"><span className="text-xs text-gray-500 block">Revenue</span><span className="font-medium text-gray-900">{c.revenue || "—"}</span></div>
+                <div className="bg-gray-50 rounded-lg p-3"><span className="text-xs text-gray-500 block">Location</span><span className="font-medium text-gray-900">{c.location || "—"}</span></div>
+                <div className="bg-gray-50 rounded-lg p-3"><span className="text-xs text-gray-500 block">Funding</span><span className="font-medium text-gray-900">{c.fundingStage || "—"}</span></div>
+                <div className="bg-gray-50 rounded-lg p-3"><span className="text-xs text-gray-500 block">Source</span><span className="font-medium text-gray-900">{c.source}</span></div>
+              </div>
+
+              {c.notes && (
+                <div>
+                  <h4 className="text-xs font-semibold text-gray-500 uppercase mb-2">Notes</h4>
+                  <p className="text-sm text-gray-700 bg-amber-50 rounded-lg p-3 border border-amber-100">{c.notes}</p>
+                </div>
+              )}
+
+              {/* Contacts */}
+              <div>
+                <div className="flex items-center justify-between mb-2">
+                  <h4 className="text-xs font-semibold text-gray-500 uppercase">Contacts ({companyContacts(c.id).length})</h4>
+                  <button onClick={() => { setNewContact(prev => ({ ...prev, companyId: c.id })); setShowAddContact(true); }} className="text-xs text-indigo-600 font-medium hover:text-indigo-700">+ Add</button>
+                </div>
+                {companyContacts(c.id).length === 0 ? (
+                  <p className="text-sm text-gray-400 italic">No contacts yet</p>
+                ) : (
+                  <div className="space-y-2">
+                    {companyContacts(c.id).map(ct => (
+                      <div key={ct.id} className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                        <div className="flex items-center gap-3">
+                          <div className="w-8 h-8 rounded-full bg-indigo-200 flex items-center justify-center text-xs font-bold text-indigo-700">{ct.name.split(" ").map(n => n[0]).join("")}</div>
+                          <div>
+                            <p className="text-sm font-medium text-gray-900">
+                              {ct.name}
+                              {ct.decisionMaker && <Badge className="bg-amber-100 text-amber-700 ml-1">DM</Badge>}
+                            </p>
+                            <p className="text-xs text-gray-500">{ct.title}</p>
+                          </div>
+                        </div>
+                        <div className="flex items-center gap-2 text-gray-400">
+                          {ct.email && <a href={`mailto:${ct.email}`} className="hover:text-indigo-500"><Mail size={14} /></a>}
+                          {ct.phone && <a href={`tel:${ct.phone}`} className="hover:text-indigo-500"><Phone size={14} /></a>}
+                          {ct.linkedin && <a href={`https://${ct.linkedin}`} target="_blank" rel="noreferrer" className="hover:text-indigo-500"><Link2 size={14} /></a>}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+            </div>
+          );
+        })()}
+      </Modal>
+
+      {/* Scorecard Modal */}
+      <Modal open={!!showScorecard} onClose={() => setShowScorecard(null)} title={showScorecard ? `Lead Scorecard — ${showScorecard.name}` : ""} wide>
+        {showScorecard && (() => {
+          const c = showScorecard;
+          const criteria = SCORING_CRITERIA[c.pipeline];
+          if (!criteria) return <p className="text-sm text-gray-500">No scoring criteria for this pipeline.</p>;
+          const fitD = { ...c.fitDetails };
+          const intD = { ...c.intentDetails };
+          return (
+            <div className="space-y-6">
+              <div className="bg-indigo-50 rounded-lg p-3 border border-indigo-100">
+                <p className="text-xs text-indigo-700">Score this lead after your first real conversation or when you have enough info from referral + LinkedIn. Thresholds: <strong>80+ = Priority A</strong>, 60–79 = B, 40–59 = C, &lt;40 = Park.</p>
+              </div>
+              <div>
+                <h4 className="text-sm font-semibold text-gray-900 mb-3">Fit Score (0–50): "Are they my ICP?"</h4>
+                <div className="space-y-3">
+                  {criteria.fit.map(cr => (
+                    <ScoreSlider key={cr.id} criterion={cr} value={fitD[cr.id] || 0} onChange={v => { fitD[cr.id] = v; updateCompanyScores(c.id, { ...fitD }, intD); setShowScorecard(prev => ({ ...prev, fitDetails: { ...fitD }, fitScore: Object.values(fitD).reduce((a, b) => a + b, 0) })); }} />
+                  ))}
+                </div>
+                <p className="text-xs text-gray-500 mt-2">Fit subtotal: <strong>{Object.values(fitD).reduce((a, b) => a + b, 0)}/50</strong></p>
+              </div>
+              <div>
+                <h4 className="text-sm font-semibold text-gray-900 mb-3">Intent Score (0–50): "How close are they to buying?"</h4>
+                <div className="space-y-3">
+                  {criteria.intent.map(cr => (
+                    <ScoreSlider key={cr.id} criterion={cr} value={intD[cr.id] || 0} onChange={v => { intD[cr.id] = v; updateCompanyScores(c.id, fitD, { ...intD }); setShowScorecard(prev => ({ ...prev, intentDetails: { ...intD }, intentScore: Object.values(intD).reduce((a, b) => a + b, 0) })); }} />
+                  ))}
+                </div>
+                <p className="text-xs text-gray-500 mt-2">Intent subtotal: <strong>{Object.values(intD).reduce((a, b) => a + b, 0)}/50</strong></p>
+              </div>
+              <div className="bg-gray-50 rounded-lg p-4 flex items-center justify-between">
+                <div>
+                  <p className="text-sm text-gray-600">Total Score</p>
+                  <p className="text-2xl font-bold text-gray-900">{Object.values(fitD).reduce((a, b) => a + b, 0) + Object.values(intD).reduce((a, b) => a + b, 0)}/100</p>
+                </div>
+                <Badge className={`border text-sm px-3 py-1 ${PRIORITY_COLORS[getPriority(Object.values(fitD).reduce((a, b) => a + b, 0) + Object.values(intD).reduce((a, b) => a + b, 0))]}`}>
+                  {PRIORITY_LABELS[getPriority(Object.values(fitD).reduce((a, b) => a + b, 0) + Object.values(intD).reduce((a, b) => a + b, 0))]}
+                </Badge>
+              </div>
+            </div>
+          );
+        })()}
+      </Modal>
+
+      {/* Add Company Modal */}
+      <Modal open={showAddCompany} onClose={() => setShowAddCompany(false)} title="Add Company">
+        <div className="space-y-3">
+          <div>
+            <label className="block text-xs font-medium text-gray-600 mb-1">Pipeline *</label>
+            <select value={newCompany.pipeline} onChange={e => setNewCompany(p => ({ ...p, pipeline: e.target.value }))} className="w-full px-3 py-2 border border-gray-200 rounded-lg text-sm">
+              {PIPELINES.map(p => <option key={p.id} value={p.id}>{p.label}</option>)}
+            </select>
+          </div>
+          <div className="grid grid-cols-2 gap-3">
+            <div>
+              <label className="block text-xs font-medium text-gray-600 mb-1">Company Name *</label>
+              <input type="text" value={newCompany.name} onChange={e => setNewCompany(p => ({ ...p, name: e.target.value }))} className="w-full px-3 py-2 border border-gray-200 rounded-lg text-sm" />
+            </div>
+            <div>
+              <label className="block text-xs font-medium text-gray-600 mb-1">Website</label>
+              <input type="text" value={newCompany.website} onChange={e => setNewCompany(p => ({ ...p, website: e.target.value }))} className="w-full px-3 py-2 border border-gray-200 rounded-lg text-sm" />
+            </div>
+          </div>
+          <div className="grid grid-cols-2 gap-3">
+            <div>
+              <label className="block text-xs font-medium text-gray-600 mb-1">Industry</label>
+              <input type="text" value={newCompany.industry} onChange={e => setNewCompany(p => ({ ...p, industry: e.target.value }))} className="w-full px-3 py-2 border border-gray-200 rounded-lg text-sm" />
+            </div>
+            <div>
+              <label className="block text-xs font-medium text-gray-600 mb-1">Size</label>
+              <input type="text" value={newCompany.size} onChange={e => setNewCompany(p => ({ ...p, size: e.target.value }))} className="w-full px-3 py-2 border border-gray-200 rounded-lg text-sm" placeholder="e.g. 11-50" />
+            </div>
+          </div>
+          <div className="grid grid-cols-2 gap-3">
+            <div>
+              <label className="block text-xs font-medium text-gray-600 mb-1">Location</label>
+              <input type="text" value={newCompany.location} onChange={e => setNewCompany(p => ({ ...p, location: e.target.value }))} className="w-full px-3 py-2 border border-gray-200 rounded-lg text-sm" />
+            </div>
+            <div>
+              <label className="block text-xs font-medium text-gray-600 mb-1">Stage</label>
+              <select value={newCompany.stage} onChange={e => setNewCompany(p => ({ ...p, stage: e.target.value }))} className="w-full px-3 py-2 border border-gray-200 rounded-lg text-sm">
+                {FUNNEL_STAGES.map(s => <option key={s} value={s}>{s}</option>)}
+              </select>
+            </div>
+          </div>
+          <div>
+            <label className="block text-xs font-medium text-gray-600 mb-1">Notes</label>
+            <textarea value={newCompany.notes} onChange={e => setNewCompany(p => ({ ...p, notes: e.target.value }))} className="w-full px-3 py-2 border border-gray-200 rounded-lg text-sm h-20 resize-none" />
+          </div>
+          <div className="flex justify-end gap-2 pt-2">
+            <button onClick={() => setShowAddCompany(false)} className="px-4 py-2 text-sm text-gray-600">Cancel</button>
+            <button onClick={addCompany} disabled={!newCompany.name} className="px-4 py-2 bg-indigo-600 text-white text-sm font-medium rounded-lg hover:bg-indigo-700 disabled:opacity-40">Add Company</button>
+          </div>
+        </div>
+      </Modal>
+
+      {/* Add Contact Modal */}
+      <Modal open={showAddContact} onClose={() => setShowAddContact(false)} title="Add Contact">
+        <div className="space-y-3">
+          <div className="grid grid-cols-2 gap-3">
+            <div>
+              <label className="block text-xs font-medium text-gray-600 mb-1">Full Name *</label>
+              <input type="text" value={newContact.name} onChange={e => setNewContact(p => ({ ...p, name: e.target.value }))} className="w-full px-3 py-2 border border-gray-200 rounded-lg text-sm" />
+            </div>
+            <div>
+              <label className="block text-xs font-medium text-gray-600 mb-1">Title</label>
+              <input type="text" value={newContact.title} onChange={e => setNewContact(p => ({ ...p, title: e.target.value }))} className="w-full px-3 py-2 border border-gray-200 rounded-lg text-sm" />
+            </div>
+          </div>
+          <div>
+            <label className="block text-xs font-medium text-gray-600 mb-1">Company</label>
+            <select value={newContact.companyId || ""} onChange={e => setNewContact(p => ({ ...p, companyId: e.target.value ? Number(e.target.value) : null }))} className="w-full px-3 py-2 border border-gray-200 rounded-lg text-sm">
+              <option value="">No company</option>
+              {companies.map(c => <option key={c.id} value={c.id}>{c.name}</option>)}
+            </select>
+          </div>
+          <div className="grid grid-cols-2 gap-3">
+            <div>
+              <label className="block text-xs font-medium text-gray-600 mb-1">Email</label>
+              <input type="email" value={newContact.email} onChange={e => setNewContact(p => ({ ...p, email: e.target.value }))} className="w-full px-3 py-2 border border-gray-200 rounded-lg text-sm" />
+            </div>
+            <div>
+              <label className="block text-xs font-medium text-gray-600 mb-1">Phone</label>
+              <input type="text" value={newContact.phone} onChange={e => setNewContact(p => ({ ...p, phone: e.target.value }))} className="w-full px-3 py-2 border border-gray-200 rounded-lg text-sm" />
+            </div>
+          </div>
+          <div>
+            <label className="block text-xs font-medium text-gray-600 mb-1">LinkedIn</label>
+            <input type="text" value={newContact.linkedin} onChange={e => setNewContact(p => ({ ...p, linkedin: e.target.value }))} className="w-full px-3 py-2 border border-gray-200 rounded-lg text-sm" />
+          </div>
+          <label className="flex items-center gap-2 text-sm text-gray-700">
+            <input type="checkbox" checked={newContact.decisionMaker} onChange={e => setNewContact(p => ({ ...p, decisionMaker: e.target.checked }))} className="rounded border-gray-300 text-indigo-600" />
+            Decision Maker
+          </label>
+          <div className="flex justify-end gap-2 pt-2">
+            <button onClick={() => setShowAddContact(false)} className="px-4 py-2 text-sm text-gray-600">Cancel</button>
+            <button onClick={addContact} disabled={!newContact.name} className="px-4 py-2 bg-indigo-600 text-white text-sm font-medium rounded-lg hover:bg-indigo-700 disabled:opacity-40">Add Contact</button>
+          </div>
+        </div>
+      </Modal>
+    </div>
+  );
+
+  // ─── CONTACTS ──────────────────────────────────────────────────────
+  const renderContacts = () => (
+    <div className="space-y-4">
+      <div className="flex items-center justify-between">
+        <div>
+          <h1 className="text-2xl font-bold text-gray-900">Contacts</h1>
+          <p className="text-sm text-gray-500 mt-1">{contacts.length} contacts across {companies.length} companies</p>
+        </div>
+        <button onClick={() => setShowAddContact(true)} className="flex items-center gap-1.5 px-4 py-2 bg-indigo-600 text-white text-sm font-medium rounded-lg hover:bg-indigo-700 shadow-sm">
+          <Plus size={16} /> Add Contact
+        </button>
+      </div>
+      <div className="bg-white rounded-xl border border-gray-100 shadow-sm overflow-hidden">
+        <div className="divide-y divide-gray-50">
+          {contacts.map(ct => {
+            const company = companies.find(c => c.id === ct.companyId);
+            return (
+              <div key={ct.id} className="flex items-center justify-between px-5 py-3 hover:bg-gray-50">
+                <div className="flex items-center gap-3">
+                  <div className="w-9 h-9 rounded-full bg-indigo-100 flex items-center justify-center text-xs font-bold text-indigo-600">{ct.name.split(" ").map(n => n[0]).join("")}</div>
+                  <div>
+                    <div className="flex items-center gap-2">
+                      <p className="text-sm font-medium text-gray-900">{ct.name}</p>
+                      {ct.decisionMaker && <Badge className="bg-amber-100 text-amber-700">DM</Badge>}
+                    </div>
+                    <p className="text-xs text-gray-500">{ct.title} {company ? `at ${company.name}` : ""}</p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-3 text-xs text-gray-500">
+                  {company && <PipelineBadge pipelineId={company.pipeline} />}
+                  {ct.email && <span className="flex items-center gap-1"><Mail size={11} /> {ct.email}</span>}
+                  {ct.linkedin && <a href={`https://${ct.linkedin}`} target="_blank" rel="noreferrer" className="text-indigo-500"><Link2 size={13} /></a>}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </div>
+  );
+
+  // ─── SCRAPER ───────────────────────────────────────────────────────
+  const renderScraper = () => (
+    <div className="space-y-6">
+      <div>
+        <h1 className="text-2xl font-bold text-gray-900">Signal Scraper</h1>
+        <p className="text-sm text-gray-500 mt-1">Scrape intent signals across sources to enrich your pipeline</p>
+      </div>
+
+      <div className="bg-white rounded-xl border border-gray-100 p-5 shadow-sm space-y-4">
+        <h3 className="text-sm font-semibold text-gray-900">New Scrape</h3>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+          <div className="md:col-span-1">
+            <label className="block text-xs font-medium text-gray-600 mb-1">Target Pipeline</label>
+            <select value={scrapePipeline} onChange={e => setScrapePipeline(e.target.value)} className="w-full px-3 py-2 border border-gray-200 rounded-lg text-sm bg-white">
+              {PIPELINES.map(p => <option key={p.id} value={p.id}>{p.label}</option>)}
+            </select>
+          </div>
+          <div className="md:col-span-1">
+            <label className="block text-xs font-medium text-gray-600 mb-1">Source</label>
+            <select value={scrapeSource} onChange={e => setScrapeSource(e.target.value)} className="w-full px-3 py-2 border border-gray-200 rounded-lg text-sm bg-white">
+              {SCRAPE_SOURCES.map(s => <option key={s.id} value={s.id}>{s.label}</option>)}
+            </select>
+          </div>
+          <div className="md:col-span-1">
+            <label className="block text-xs font-medium text-gray-600 mb-1">URL / Search Term</label>
+            <div className="flex gap-2">
+              <input type="text" value={scrapeUrl} onChange={e => setScrapeUrl(e.target.value)} placeholder="company.com or keyword..." className="flex-1 px-3 py-2 border border-gray-200 rounded-lg text-sm" onKeyDown={e => e.key === "Enter" && handleScrape()} />
+              <button onClick={handleScrape} disabled={scraping || !scrapeUrl.trim()} className="flex items-center gap-1.5 px-4 py-2 bg-indigo-600 text-white text-sm font-medium rounded-lg hover:bg-indigo-700 disabled:opacity-40">
+                {scraping ? <Loader2 size={15} className="animate-spin" /> : <Globe size={15} />}
+                {scraping ? "..." : "Go"}
+              </button>
+            </div>
+          </div>
+        </div>
+
+        {/* Source cards */}
+        <div className="grid grid-cols-3 md:grid-cols-6 gap-2">
+          {SCRAPE_SOURCES.map(s => (
+            <button key={s.id} onClick={() => setScrapeSource(s.id)} className={`p-2.5 rounded-xl border text-center transition-colors ${scrapeSource === s.id ? "border-indigo-300 bg-indigo-50" : "border-gray-100 hover:border-gray-200"}`}>
+              <s.icon size={16} className={`mx-auto ${scrapeSource === s.id ? "text-indigo-600" : "text-gray-400"}`} />
+              <p className="text-[11px] font-medium text-gray-700 mt-1">{s.label}</p>
+            </button>
+          ))}
+        </div>
+
+        {/* Signal categories for selected pipeline */}
+        <div>
+          <h4 className="text-xs font-semibold text-gray-500 uppercase mb-2">Signal Categories — {PIPELINE_MAP[scrapePipeline]?.label}</h4>
+          <div className="flex flex-wrap gap-1.5">
+            {(SIGNAL_CATEGORIES[scrapePipeline] || []).map(sig => (
+              <div key={sig.id} className="bg-gray-50 border border-gray-200 rounded-lg px-2.5 py-1.5">
+                <p className="text-xs font-medium text-gray-700">{sig.label}</p>
+                <p className="text-[10px] text-gray-400 mt-0.5">{sig.keywords.slice(0, 3).join(", ")}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Scrape Results */}
+      {scrapeResults && (
+        <div className="bg-white rounded-xl border border-green-200 p-5 shadow-sm space-y-4">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-2">
+              <Check size={18} className="text-green-500" />
+              <h3 className="text-sm font-semibold text-gray-900">Results — {scrapeResults.domain}</h3>
+            </div>
+            <button onClick={importScrapedCompany} className="flex items-center gap-1.5 px-4 py-2 bg-green-600 text-white text-sm font-medium rounded-lg hover:bg-green-700">
+              <Plus size={14} /> Import to CRM
+            </button>
+          </div>
+
+          <div className="grid grid-cols-3 gap-3">
+            <div className="bg-gray-50 rounded-lg p-3"><span className="text-xs text-gray-500 block">Industry</span><span className="text-sm font-medium text-gray-900">{scrapeResults.industry}</span></div>
+            <div className="bg-gray-50 rounded-lg p-3"><span className="text-xs text-gray-500 block">Size</span><span className="text-sm font-medium text-gray-900">{scrapeResults.size}</span></div>
+            <div className="bg-gray-50 rounded-lg p-3"><span className="text-xs text-gray-500 block">Location</span><span className="text-sm font-medium text-gray-900">{scrapeResults.location}</span></div>
+          </div>
+
+          {scrapeResults.matchedSignals?.length > 0 && (
+            <div>
+              <h4 className="text-xs font-semibold text-gray-500 uppercase mb-2">Matched Intent Signals</h4>
+              <div className="flex flex-wrap gap-1.5">
+                {scrapeResults.matchedSignals.map(sig => (
+                  <Badge key={sig.id} className="bg-green-50 text-green-700 border border-green-200">{sig.label}</Badge>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {scrapeResults.contacts?.length > 0 && (
+            <div>
+              <h4 className="text-xs font-semibold text-gray-500 uppercase mb-2">Key Contacts Found</h4>
+              <div className="space-y-2">
+                {scrapeResults.contacts.map((c, i) => (
+                  <div key={i} className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                    <div>
+                      <p className="text-sm font-medium text-gray-900">{c.name}</p>
+                      <p className="text-xs text-gray-500">{c.title}</p>
+                    </div>
+                    <span className="text-xs text-gray-400">{c.email}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* Scrape History */}
+      {scrapeHistory.length > 0 && (
+        <div className="bg-white rounded-xl border border-gray-100 p-5 shadow-sm">
+          <h3 className="text-sm font-semibold text-gray-900 mb-3">Scrape History</h3>
+          <div className="space-y-2">
+            {scrapeHistory.map((h, i) => (
+              <div key={i} className="flex items-center justify-between py-2 px-3 rounded-lg hover:bg-gray-50">
+                <div className="flex items-center gap-2">
+                  <Globe size={13} className="text-gray-400" />
+                  <span className="text-sm text-gray-700">{h.url}</span>
+                  <PipelineBadge pipelineId={h.pipeline} />
+                  <Badge className="bg-gray-100 text-gray-600">{h.source}</Badge>
+                </div>
+                <div className="flex items-center gap-3">
+                  <span className="text-xs text-gray-400">{h.time}</span>
+                  <button onClick={() => setScrapeResults(h.results)} className="text-xs text-indigo-600 font-medium">View</button>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+
+  // ─── SIGNALS (ICP Reference) ───────────────────────────────────────
+  const renderSignals = () => (
+    <div className="space-y-6">
+      <div>
+        <h1 className="text-2xl font-bold text-gray-900">ICP & Signals Reference</h1>
+        <p className="text-sm text-gray-500 mt-1">Your scoring criteria and signal categories by pipeline</p>
+      </div>
+
+      {PIPELINES.map(pipe => {
+        const criteria = SCORING_CRITERIA[pipe.id];
+        const signals = SIGNAL_CATEGORIES[pipe.id] || [];
+        const personas = BUYER_PERSONAS[pipe.id] || [];
+        const colorMap = { indigo: "border-indigo-200", emerald: "border-emerald-200", sky: "border-sky-200", amber: "border-amber-200", rose: "border-rose-200", violet: "border-violet-200" };
+        return (
+          <div key={pipe.id} className={`bg-white rounded-xl border ${colorMap[pipe.color]} p-5 shadow-sm space-y-4`}>
+            <div className="flex items-center gap-2">
+              <pipe.icon size={18} className="text-gray-600" />
+              <h3 className="text-sm font-semibold text-gray-900">{pipe.label}</h3>
+              <span className="text-xs text-gray-400">— {pipe.description}</span>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              {/* Fit criteria */}
+              <div>
+                <h4 className="text-xs font-semibold text-gray-500 uppercase mb-2">Fit Criteria (0–50)</h4>
+                <div className="space-y-1">
+                  {criteria?.fit.map(cr => (
+                    <div key={cr.id} className="flex items-center justify-between text-xs">
+                      <span className="text-gray-600">{cr.label}</span>
+                      <span className="text-gray-400 font-mono">/{cr.max}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Intent criteria */}
+              <div>
+                <h4 className="text-xs font-semibold text-gray-500 uppercase mb-2">Intent Criteria (0–50)</h4>
+                <div className="space-y-1">
+                  {criteria?.intent.map(cr => (
+                    <div key={cr.id} className="flex items-center justify-between text-xs">
+                      <span className="text-gray-600">{cr.label}</span>
+                      <span className="text-gray-400 font-mono">/{cr.max}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Signals + Personas */}
+              <div>
+                <h4 className="text-xs font-semibold text-gray-500 uppercase mb-2">Buyer Personas</h4>
+                <div className="flex flex-wrap gap-1 mb-3">
+                  {personas.map(p => <Badge key={p} className="bg-gray-100 text-gray-600">{p}</Badge>)}
+                </div>
+                <h4 className="text-xs font-semibold text-gray-500 uppercase mb-2">Scrape Signals</h4>
+                <div className="space-y-1">
+                  {signals.map(sig => (
+                    <div key={sig.id} className="text-xs text-gray-600">
+                      <span className="font-medium">{sig.label}:</span> <span className="text-gray-400">{sig.keywords.join(", ")}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        );
+      })}
+
+      {/* Operating Rules */}
+      <div className="bg-indigo-50 rounded-xl border border-indigo-100 p-5">
+        <h3 className="text-sm font-semibold text-indigo-900 mb-3">Operating Rules</h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs text-indigo-700">
+          <div>
+            <p className="font-semibold mb-1">Priority Thresholds</p>
+            <p>80–100 = Priority A (work now, same-week follow-ups)</p>
+            <p>60–79 = Priority B (1 follow-up + nurture sequence)</p>
+            <p>40–59 = Priority C (content drip or referral handoff)</p>
+            <p>&lt;40 = Park / refer out</p>
+          </div>
+          <div>
+            <p className="font-semibold mb-1">Follow-up Cadence</p>
+            <p>Day 0: outreach</p>
+            <p>Day 2: bump</p>
+            <p>Day 7: bump + value (resource, insight)</p>
+            <p>Day 14: "close the loop"</p>
+            <p>Then: Nurture (monthly touch)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+
+  /* ═══════════════════════════════════════════════════════════════════════
+     NAVIGATION & LAYOUT
+     ═══════════════════════════════════════════════════════════════════════ */
+
+  const NAV = [
+    { id: "dashboard", icon: BarChart3, label: "Dashboard" },
+    { id: "companies", icon: Building2, label: "Companies" },
+    { id: "contacts", icon: Users, label: "Contacts" },
+    { id: "scraper", icon: Globe, label: "Scraper" },
+    { id: "signals", icon: Target, label: "ICP & Signals" },
+  ];
+
+  const pages = {
+    dashboard: renderDashboard,
+    companies: renderCompanies,
+    contacts: renderContacts,
+    scraper: renderScraper,
+    signals: renderSignals,
+  };
+
+  return (
+    <div className="flex h-screen bg-gray-50 font-sans">
+      {/* Sidebar */}
+      <div className="w-56 bg-white border-r border-gray-100 flex flex-col flex-shrink-0">
+        <div className="p-5 border-b border-gray-100">
+          <div className="flex items-center gap-2">
+            <div className="w-8 h-8 rounded-xl bg-indigo-600 flex items-center justify-center"><Zap size={16} className="text-white" /></div>
+            <div>
+              <h1 className="text-sm font-bold text-gray-900">MarCRM</h1>
+              <p className="text-[10px] text-gray-400">6-Pipeline Agency CRM</p>
+            </div>
+          </div>
+        </div>
+
+        <nav className="flex-1 p-3 space-y-0.5">
+          {NAV.map(n => (
+            <button key={n.id} onClick={() => setPage(n.id)} className={`w-full flex items-center gap-2.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors ${page === n.id ? "bg-indigo-50 text-indigo-700" : "text-gray-600 hover:bg-gray-50"}`}>
+              <n.icon size={18} className={page === n.id ? "text-indigo-600" : "text-gray-400"} />
+              {n.label}
+            </button>
+          ))}
+        </nav>
+
+        {/* Pipeline quick filters */}
+        <div className="px-3 pb-2">
+          <p className="text-[10px] font-semibold text-gray-400 uppercase px-3 mb-1">Pipelines</p>
+          {PIPELINES.map(p => {
+            const count = companies.filter(c => c.pipeline === p.id).length;
+            const iconColorMap = { indigo: "text-indigo-500", emerald: "text-emerald-500", sky: "text-sky-500", amber: "text-amber-500", rose: "text-rose-500", violet: "text-violet-500" };
+            return (
+              <button key={p.id} onClick={() => { setPipelineFilter(p.id); setPage("companies"); }} className="w-full flex items-center justify-between px-3 py-1.5 rounded-md text-xs text-gray-600 hover:bg-gray-50">
+                <span className="flex items-center gap-1.5">
+                  <p.icon size={13} className={iconColorMap[p.color]} />
+                  {p.short}
+                </span>
+                <span className="text-[10px] text-gray-400">{count}</span>
+              </button>
+            );
+          })}
+        </div>
+
+        <div className="p-3 border-t border-gray-100">
+          <div className="bg-gradient-to-r from-indigo-500 to-violet-500 rounded-xl p-3 text-white">
+            <p className="text-[10px] font-semibold opacity-80">TOTAL PIPELINE</p>
+            <p className="text-lg font-bold">{companies.length} leads</p>
+            <p className="text-[10px] opacity-70">{companies.filter(c => totalScore(c) >= 80).length} Priority A &middot; {companies.filter(c => c.stage === "Won").length} Won</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Main Content */}
+      <div className="flex-1 overflow-y-auto">
+        <div className="max-w-5xl mx-auto p-6">
+          {pages[page]?.()}
+        </div>
+      </div>
+    </div>
+  );
+}

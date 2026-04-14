@@ -1,0 +1,61 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+// Default: local SQLite for dev. Switch to Postgres URL for production (Supabase/Neon/Railway).
+// Just change provider to "postgresql" and set DATABASE_URL in your .env
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Company {
+  id            Int       @id @default(autoincrement())
+  name          String
+  website       String    @default("")
+  pipeline      String    // pr-marketing | fund-formation | legal-consulting | coaching-ops | media | ai-consulting
+  industry      String    @default("")
+  size          String    @default("")
+  revenue       String    @default("")
+  location      String    @default("")
+  fundingStage  String    @default("")
+  techStack     String    @default("[]") // JSON array stored as string
+  stage         String    @default("Targeted") // funnel stage
+  fitScore      Int       @default(0)
+  intentScore   Int       @default(0)
+  fitDetails    String    @default("{}") // JSON object
+  intentDetails String    @default("{}") // JSON object
+  starred       Boolean   @default(false)
+  notes         String    @default("")
+  source        String    @default("Manual")
+  lastActivity  String    @default("")
+  contacts      Contact[]
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+}
+
+model Contact {
+  id            Int      @id @default(autoincrement())
+  name          String
+  title         String   @default("")
+  email         String   @default("")
+  phone         String   @default("")
+  linkedin      String   @default("")
+  persona       String   @default("")
+  decisionMaker Boolean  @default(false)
+  company       Company? @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  companyId     Int?
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+}
+
+model ScrapeResult {
+  id             Int      @id @default(autoincrement())
+  url            String
+  source         String   // linkedin | crunchbase | website | g2_clutch | job_boards | news_pr
+  pipeline       String
+  resultData     String   @default("{}") // full JSON of scraped data
+  matchedSignals String   @default("[]") // JSON array
+  imported       Boolean  @default(false)
+  createdAt      DateTime @default(now())
+}

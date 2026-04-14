@@ -1,0 +1,29 @@
+{
+  "name": "marcrm",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "prisma generate && next build",
+    "start": "next start",
+    "postinstall": "prisma generate",
+    "db:push": "prisma db push",
+    "db:seed": "node prisma/seed.mjs"
+  },
+  "dependencies": {
+    "next": "^14.2.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "@prisma/client": "^5.15.0",
+    "axios": "^1.7.0",
+    "cheerio": "^1.0.0",
+    "lucide-react": "^0.383.0"
+  },
+  "devDependencies": {
+    "prisma": "^5.15.0",
+    "tailwindcss": "^3.4.0",
+    "postcss": "^8.4.0",
+    "autoprefixer": "^10.4.0",
+    "@types/node": "^20.0.0"
+  }
+}
