@@ -38,7 +38,9 @@ const api = {
   },
   async scrape(data) {
     const res = await fetch("/api/scrape", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(data) });
-    return res.json();
+    const json = await res.json();
+    if (!res.ok) return { success: false, error: json.error || "Scrape failed", ...json };
+    return json;
   },
   async getScrapeHistory() {
     const res = await fetch("/api/scrape");
@@ -630,11 +632,14 @@ export default function AgencyCRM() {
     try {
       const results = await api.scrape({ url: scrapeUrl, source: scrapeSource, pipeline: scrapePipeline });
       setScrapeResults(results);
-      // Refresh scrape history
-      const history = await api.getScrapeHistory();
-      setScrapeHistory(history);
+      // Refresh scrape history (only if scrape was saved)
+      if (results.success !== false) {
+        const history = await api.getScrapeHistory();
+        setScrapeHistory(history);
+      }
     } catch (err) {
       console.error("Scrape failed:", err);
+      setScrapeResults({ success: false, error: err.message || "Network error — could not reach the server." });
     } finally {
       setScraping(false);
     }
@@ -796,7 +801,7 @@ export default function AgencyCRM() {
                     <PipelineBadge pipelineId={h.pipeline} />
                     <Badge className="bg-gray-200 text-gray-600">{h.source}</Badge>
                   </div>
-                  <span className="text-xs text-gray-400">{h.time}</span>
+                  <span className="text-xs text-gray-400">{h.createdAt ? new Date(h.createdAt).toLocaleDateString() : ""}</span>
                 </div>
               ))}
             </div>
@@ -1244,46 +1249,118 @@ export default function AgencyCRM() {
         <div className="bg-white rounded-xl border border-green-200 p-5 shadow-sm space-y-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <Check size={18} className="text-green-500" />
-              <h3 className="text-sm font-semibold text-gray-900">Results — {scrapeResults.domain}</h3>
+              {scrapeResults.success === false ? (
+                <AlertCircle size={18} className="text-red-500" />
+              ) : (
+                <Check size={18} className="text-green-500" />
+              )}
+              <h3 className="text-sm font-semibold text-gray-900">
+                {scrapeResults.success === false ? "Scrape Failed" : `Results — ${scrapeResults.domain || scrapeResults.url || ""}`}
+              </h3>
             </div>
-            <button onClick={importScrapedCompany} className="flex items-center gap-1.5 px-4 py-2 bg-green-600 text-white text-sm font-medium rounded-lg hover:bg-green-700">
-              <Plus size={14} /> Import to CRM
-            </button>
+            {scrapeResults.success !== false && (
+              <button onClick={importScrapedCompany} className="flex items-center gap-1.5 px-4 py-2 bg-green-600 text-white text-sm font-medium rounded-lg hover:bg-green-700">
+                <Plus size={14} /> Import to CRM
+              </button>
+            )}
           </div>
 
-          <div className="grid grid-cols-3 gap-3">
-            <div className="bg-gray-50 rounded-lg p-3"><span className="text-xs text-gray-500 block">Industry</span><span className="text-sm font-medium text-gray-900">{scrapeResults.industry}</span></div>
-            <div className="bg-gray-50 rounded-lg p-3"><span className="text-xs text-gray-500 block">Size</span><span className="text-sm font-medium text-gray-900">{scrapeResults.size}</span></div>
-            <div className="bg-gray-50 rounded-lg p-3"><span className="text-xs text-gray-500 block">Location</span><span className="text-sm font-medium text-gray-900">{scrapeResults.location}</span></div>
-          </div>
-
-          {scrapeResults.matchedSignals?.length > 0 && (
-            <div>
-              <h4 className="text-xs font-semibold text-gray-500 uppercase mb-2">Matched Intent Signals</h4>
-              <div className="flex flex-wrap gap-1.5">
-                {scrapeResults.matchedSignals.map(sig => (
-                  <Badge key={sig.id} className="bg-green-50 text-green-700 border border-green-200">{sig.label}</Badge>
-                ))}
-              </div>
+          {scrapeResults.success === false && (
+            <div className="bg-red-50 border border-red-200 rounded-lg p-3">
+              <p className="text-sm text-red-700">{scrapeResults.error || "Unknown error occurred"}</p>
+              {scrapeResults.note && <p className="text-xs text-red-500 mt-1">{scrapeResults.note}</p>}
             </div>
           )}
 
-          {scrapeResults.contacts?.length > 0 && (
-            <div>
-              <h4 className="text-xs font-semibold text-gray-500 uppercase mb-2">Key Contacts Found</h4>
-              <div className="space-y-2">
-                {scrapeResults.contacts.map((c, i) => (
-                  <div key={i} className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
-                    <div>
-                      <p className="text-sm font-medium text-gray-900">{c.name}</p>
-                      <p className="text-xs text-gray-500">{c.title}</p>
-                    </div>
-                    <span className="text-xs text-gray-400">{c.email}</span>
-                  </div>
-                ))}
+          {scrapeResults.success !== false && (
+            <>
+              {/* Title & Description */}
+              {(scrapeResults.title || scrapeResults.description) && (
+                <div className="bg-gray-50 rounded-lg p-3">
+                  {scrapeResults.title && <p className="text-sm font-medium text-gray-900">{scrapeResults.title}</p>}
+                  {scrapeResults.description && <p className="text-xs text-gray-600 mt-1">{scrapeResults.description.slice(0, 200)}</p>}
+                </div>
+              )}
+
+              {/* Key Stats */}
+              <div className="grid grid-cols-3 gap-3">
+                <div className="bg-gray-50 rounded-lg p-3">
+                  <span className="text-xs text-gray-500 block">Industry</span>
+                  <span className="text-sm font-medium text-gray-900">{scrapeResults.industry || "—"}</span>
+                </div>
+                <div className="bg-gray-50 rounded-lg p-3">
+                  <span className="text-xs text-gray-500 block">Location</span>
+                  <span className="text-sm font-medium text-gray-900">{scrapeResults.location || "—"}</span>
+                </div>
+                <div className="bg-gray-50 rounded-lg p-3">
+                  <span className="text-xs text-gray-500 block">Emails Found</span>
+                  <span className="text-sm font-medium text-gray-900">{scrapeResults.emails?.length || 0}</span>
+                </div>
               </div>
-            </div>
+
+              {/* Tech Stack */}
+              {scrapeResults.techStack?.length > 0 && (
+                <div>
+                  <h4 className="text-xs font-semibold text-gray-500 uppercase mb-2">Tech Stack Detected</h4>
+                  <div className="flex flex-wrap gap-1.5">
+                    {scrapeResults.techStack.map((tech) => (
+                      <Badge key={tech} className="bg-blue-50 text-blue-700 border border-blue-200">{tech}</Badge>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Social Links */}
+              {scrapeResults.socialLinks && Object.keys(scrapeResults.socialLinks).length > 0 && (
+                <div>
+                  <h4 className="text-xs font-semibold text-gray-500 uppercase mb-2">Social Links</h4>
+                  <div className="flex flex-wrap gap-2">
+                    {Object.entries(scrapeResults.socialLinks).map(([platform, link]) => (
+                      <a key={platform} href={link} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 px-3 py-1.5 bg-gray-50 border border-gray-200 rounded-lg text-xs text-indigo-600 hover:bg-indigo-50">
+                        <ExternalLink size={11} /> {platform.charAt(0).toUpperCase() + platform.slice(1)}
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Matched Signals */}
+              {scrapeResults.matchedSignals?.length > 0 && (
+                <div>
+                  <h4 className="text-xs font-semibold text-gray-500 uppercase mb-2">Matched Intent Signals</h4>
+                  <div className="flex flex-wrap gap-1.5">
+                    {scrapeResults.matchedSignals.map(sig => (
+                      <Badge key={sig.id} className="bg-green-50 text-green-700 border border-green-200">{sig.label}</Badge>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Contacts */}
+              {scrapeResults.contacts?.length > 0 && (
+                <div>
+                  <h4 className="text-xs font-semibold text-gray-500 uppercase mb-2">Contacts Found ({scrapeResults.contacts.length})</h4>
+                  <div className="space-y-2">
+                    {scrapeResults.contacts.map((c, i) => (
+                      <div key={i} className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                        <div>
+                          <p className="text-sm font-medium text-gray-900">{c.name}</p>
+                          <p className="text-xs text-gray-500">{c.title}</p>
+                        </div>
+                        <span className="text-xs text-gray-400">{c.email}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Fallback note (e.g., LinkedIn/Crunchbase API not configured) */}
+              {scrapeResults.note && (
+                <div className="bg-amber-50 border border-amber-200 rounded-lg p-3">
+                  <p className="text-xs text-amber-700">{scrapeResults.note}</p>
+                </div>
+              )}
+            </>
           )}
         </div>
       )}
@@ -1302,8 +1379,8 @@ export default function AgencyCRM() {
                   <Badge className="bg-gray-100 text-gray-600">{h.source}</Badge>
                 </div>
                 <div className="flex items-center gap-3">
-                  <span className="text-xs text-gray-400">{h.time}</span>
-                  <button onClick={() => setScrapeResults(h.results)} className="text-xs text-indigo-600 font-medium">View</button>
+                  <span className="text-xs text-gray-400">{h.createdAt ? new Date(h.createdAt).toLocaleDateString() : ""}</span>
+                  <button onClick={() => setScrapeResults({ ...h.resultData, matchedSignals: h.matchedSignals })} className="text-xs text-indigo-600 font-medium">View</button>
                 </div>
               </div>
             ))}

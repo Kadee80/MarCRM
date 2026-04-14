@@ -44,8 +44,11 @@ export async function scrapeWebsite(url) {
     title: "",
     description: "",
     industry: "",
+    size: "",
+    location: "",
     techStack: [],
     emails: [],
+    contacts: [],
     teamMembers: [],
     socialLinks: {},
     rawText: "",
@@ -122,6 +125,48 @@ export async function scrapeWebsite(url) {
       } catch {
         // page doesn't exist, continue
       }
+    }
+
+    // Convert emails into contact entries for display
+    results.contacts = results.emails.map((email) => {
+      const localPart = email.split("@")[0];
+      const nameParts = localPart.split(/[._-]/).filter(Boolean);
+      const guessedName = nameParts.length >= 2
+        ? nameParts.map((p) => p.charAt(0).toUpperCase() + p.slice(1)).join(" ")
+        : localPart;
+      return { name: guessedName, email, title: "Found via website scrape" };
+    });
+
+    // Try to infer industry from page text
+    const INDUSTRY_KEYWORDS = {
+      "Financial Services": ["financial", "investment", "banking", "fintech", "wealth management", "capital"],
+      "Technology": ["software", "saas", "platform", "cloud", "developer", "engineering"],
+      "Healthcare": ["health", "medical", "pharma", "biotech", "clinical", "patient"],
+      "Legal": ["law firm", "legal", "attorney", "counsel"],
+      "Real Estate": ["real estate", "property", "realty", "mortgage"],
+      "E-Commerce": ["ecommerce", "e-commerce", "shop", "retail", "store"],
+      "Media & Entertainment": ["media", "entertainment", "content", "publishing", "podcast"],
+      "Education": ["education", "edtech", "learning", "university", "school"],
+      "Venture Capital": ["venture", "fund", "portfolio", "lp", "gp", "limited partner"],
+      "Consulting": ["consulting", "advisory", "strategy", "management consulting"],
+      "Marketing & Advertising": ["marketing", "advertising", "agency", "branding", "digital marketing"],
+    };
+    const textLower = results.rawText.toLowerCase();
+    for (const [industry, keywords] of Object.entries(INDUSTRY_KEYWORDS)) {
+      if (keywords.some((kw) => textLower.includes(kw))) {
+        results.industry = industry;
+        break;
+      }
+    }
+
+    // Try to detect location from common patterns
+    const locationMatch = results.rawText.match(
+      /(?:headquartered|located|based|offices?)\s+(?:in|at)\s+([A-Z][a-zA-Z\s]+,\s*[A-Z]{2})/
+    ) || results.rawText.match(
+      /([A-Z][a-zA-Z]+,\s*(?:NY|CA|TX|FL|IL|MA|WA|CO|GA|PA|OH|NC|VA|NJ|AZ|OR|CT|MD|MN|TN|WI|MO|IN|SC|DC))\b/
+    );
+    if (locationMatch) {
+      results.location = locationMatch[1].trim();
     }
   } catch (err) {
     results.success = false;
