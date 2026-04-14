@@ -1354,11 +1354,51 @@ export default function AgencyCRM() {
                 </div>
               )}
 
+              {/* Discovered Leads from Reddit */}
+              {scrapeResults.leads?.length > 0 && (
+                <div>
+                  <h4 className="text-xs font-semibold text-gray-500 uppercase mb-2">Leads Discovered ({scrapeResults.leads.length})</h4>
+                  <div className="space-y-3 max-h-80 overflow-y-auto">
+                    {scrapeResults.leads.map((lead, i) => (
+                      <div key={i} className="p-3 bg-gray-50 rounded-lg border border-gray-200">
+                        <div className="flex items-center justify-between mb-1">
+                          <div className="flex items-center gap-2">
+                            <Building2 size={14} className="text-indigo-500" />
+                            <span className="text-sm font-semibold text-gray-900">{lead.name}</span>
+                          </div>
+                          <a href={`https://${lead.website}`} target="_blank" rel="noopener noreferrer" className="text-xs text-indigo-600 hover:underline flex items-center gap-1">
+                            {lead.website} <ExternalLink size={10} />
+                          </a>
+                        </div>
+                        {lead.description && <p className="text-xs text-gray-600 mb-2">{lead.description}</p>}
+                        <div className="flex flex-wrap gap-1.5 mb-2">
+                          {lead.industry && <Badge className="bg-purple-50 text-purple-700 border border-purple-200">{lead.industry}</Badge>}
+                          {lead.location && <Badge className="bg-gray-100 text-gray-600">{lead.location}</Badge>}
+                          {lead.techStack?.slice(0, 4).map((t) => (
+                            <Badge key={t} className="bg-blue-50 text-blue-600 border border-blue-200">{t}</Badge>
+                          ))}
+                        </div>
+                        {lead.emails?.length > 0 && (
+                          <div className="flex flex-wrap gap-2">
+                            {lead.emails.slice(0, 3).map((e) => (
+                              <span key={e} className="text-xs text-gray-500 flex items-center gap-1"><Mail size={10} />{e}</span>
+                            ))}
+                          </div>
+                        )}
+                        {lead.mentionedIn?.length > 0 && (
+                          <p className="text-[10px] text-gray-400 mt-1.5">Mentioned in: {lead.mentionedIn.join("; ").slice(0, 120)}</p>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
               {/* Reddit/Social discussions found */}
               {scrapeResults.discussions?.length > 0 && (
                 <div>
-                  <h4 className="text-xs font-semibold text-gray-500 uppercase mb-2">Discussions Found ({scrapeResults.discussions.length})</h4>
-                  <div className="space-y-2 max-h-60 overflow-y-auto">
+                  <h4 className="text-xs font-semibold text-gray-500 uppercase mb-2">Source Discussions ({scrapeResults.discussions.length})</h4>
+                  <div className="space-y-2 max-h-48 overflow-y-auto">
                     {scrapeResults.discussions.map((d, i) => (
                       <a key={i} href={d.link} target="_blank" rel="noopener noreferrer" className="block p-3 bg-gray-50 rounded-lg hover:bg-indigo-50 transition-colors">
                         <p className="text-sm font-medium text-indigo-700">{d.title}</p>

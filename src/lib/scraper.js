@@ -206,6 +206,69 @@ async function braveSearch(query, count = 15) {
   }));
 }
 
+// Extract company/product names from text using heuristics
+function extractEntities(text) {
+  const entities = new Set();
+
+  // Pattern 1: Capitalized multi-word names (e.g., "Open AI", "Palo Alto Networks")
+  const capMatches = text.match(/\b[A-Z][a-z]+(?:\s+[A-Z][a-z]+){0,3}\b/g) || [];
+  for (const m of capMatches) {
+    if (m.length > 3 && !STOP_WORDS.has(m.toLowerCase())) {
+      entities.add(m);
+    }
+  }
+
+  // Pattern 2: CamelCase / product names (e.g., "ChatGPT", "HubSpot", "OpenAI")
+  const camelMatches = text.match(/\b[A-Z][a-z]+[A-Z][A-Za-z]+\b/g) || [];
+  for (const m of camelMatches) entities.add(m);
+
+  // Pattern 3: domain-like mentions (e.g., "stripe.com", "notion.so")
+  const domainMatches = text.match(/\b[a-z][a-z0-9-]+\.(com|io|ai|co|org|dev|app|so|xyz)\b/gi) || [];
+  for (const m of domainMatches) {
+    if (!m.includes("reddit.com") && !m.includes("imgur.com") && !m.includes("google.com")) {
+      const name = m.split(".")[0];
+      entities.add(name.charAt(0).toUpperCase() + name.slice(1));
+    }
+  }
+
+  // Pattern 4: "company called X" or "tool called X" or "using X"
+  const namedMatches = text.match(/(?:called|named|using|like|try|recommend|check out|look at)\s+([A-Z][A-Za-z0-9]+(?:\s+[A-Z][a-z]+)?)/g) || [];
+  for (const m of namedMatches) {
+    const name = m.replace(/^(?:called|named|using|like|try|recommend|check out|look at)\s+/i, "").trim();
+    if (name.length > 2) entities.add(name);
+  }
+
+  // Filter out common false positives
+  return [...entities].filter((e) =>
+    e.length > 2 &&
+    !STOP_WORDS.has(e.toLowerCase()) &&
+    !/^\d+$/.test(e)
+  ).slice(0, 20);
+}
+
+const STOP_WORDS = new Set([
+  "the", "this", "that", "what", "which", "where", "when", "how", "who", "why",
+  "have", "has", "had", "been", "being", "will", "would", "could", "should",
+  "their", "there", "they", "them", "then", "than", "these", "those",
+  "about", "after", "again", "also", "some", "such", "very", "just", "like",
+  "with", "from", "into", "over", "much", "most", "more", "many", "each",
+  "made", "make", "does", "done", "doing", "going", "here", "well",
+  "still", "even", "really", "think", "know", "need", "want", "good",
+  "best", "better", "great", "right", "sure", "yes", "not", "all",
+  "any", "can", "may", "new", "now", "old", "see", "way", "use",
+  "reddit", "post", "comment", "comments", "thread", "subreddit", "edit",
+  "deleted", "removed", "update", "question", "answer", "anyone", "everyone",
+  "people", "something", "nothing", "anything", "everything",
+  // Common sentence starters that aren't company names
+  "but", "and", "for", "are", "was", "were", "you", "your", "its",
+  "one", "two", "first", "last", "next", "same", "other", "another",
+  "however", "because", "since", "while", "before", "after", "between",
+  "through", "during", "without", "actually", "probably", "already",
+  "currently", "recently", "basically", "honestly", "personally",
+  "instead", "especially", "definitely", "absolutely", "completely",
+  "https", "http", "www", "com", "org", "net",
+]);
+
 // Reddit & social search — uses Brave Search API for reliable results
 async function scrapeReddit(url, results) {
   try {
@@ -256,35 +319,86 @@ async function scrapeReddit(url, results) {
       return results;
     }
 
-    // Build results from search snippets
-    results.title = `Reddit discussions: ${searchQuery} (${searchResults.length} results)`;
-    results.description = searchResults.slice(0, 3).map((r) => r.title).join(" | ");
+    // Combine all snippet text
+    const allSnippetText = searchResults
+      .map((r) => `${r.title} ${r.snippet}`)
+      .join(" ");
+
+    // Extract company/product names mentioned in Reddit discussions
+    // Look for capitalized multi-word names, known patterns, and domain-like references
+    const mentionedEntities = extractEntities(allSnippetText);
+
+    // For each unique entity, search Brave for their website and scrape it
+    const leads = [];
+    const seenDomains = new Set();
+
+    for (const entity of mentionedEntities.slice(0, 8)) {
+      try {
+        const companyResults = await braveSearch(`${entity} official website`, 3);
+        if (!companyResults || companyResults.length === 0) continue;
+
+        // Pick the most likely company website (skip reddit, wikipedia, etc.)
+        const companyUrl = companyResults.find((r) =>
+          !r.link.includes("reddit.com") &&
+          !r.link.includes("wikipedia.org") &&
+          !r.link.includes("linkedin.com/posts") &&
+          !r.link.includes("twitter.com") &&
+          !r.link.includes("youtube.com") &&
+          !r.link.includes("crunchbase.com/person")
+        );
+        if (!companyUrl) continue;
+
+        const domain = new URL(companyUrl.link).hostname.replace("www.", "");
+        if (seenDomains.has(domain)) continue;
+        seenDomains.add(domain);
+
+        // Scrape the actual company website for lead data
+        const leadData = await scrapeWebsite(companyUrl.link);
+        if (leadData.success) {
+          leads.push({
+            name: entity,
+            website: domain,
+            title: leadData.title,
+            description: leadData.description?.slice(0, 150),
+            industry: leadData.industry,
+            location: leadData.location,
+            techStack: leadData.techStack || [],
+            emails: leadData.emails || [],
+            contacts: leadData.contacts || [],
+            socialLinks: leadData.socialLinks || {},
+            mentionedIn: searchResults
+              .filter((r) => `${r.title} ${r.snippet}`.toLowerCase().includes(entity.toLowerCase()))
+              .slice(0, 2)
+              .map((r) => r.title),
+          });
+        }
+      } catch {
+        // Skip this entity, continue to next
+      }
+    }
+
+    // Build results
+    results.title = `Reddit → ${leads.length} leads from r/${searchQuery} (${searchResults.length} discussions scanned)`;
+    results.description = leads.length > 0
+      ? `Found: ${leads.slice(0, 5).map((l) => l.name).join(", ")}`
+      : searchResults.slice(0, 3).map((r) => r.title).join(" | ");
     results.industry = "Reddit / Social Intelligence";
     results.socialLinks.reddit = url;
+    results.rawText = allSnippetText.slice(0, 5000);
+    results.leads = leads;
 
-    // Combine all text for signal matching
-    results.rawText = searchResults
-      .map((r) => `${r.title} ${r.snippet}`)
-      .join(" ")
-      .slice(0, 5000);
+    // Aggregate all emails and contacts from leads
+    const allEmails = leads.flatMap((l) => l.emails || []);
+    results.emails = [...new Set(allEmails)].slice(0, 15);
+    results.contacts = leads.flatMap((l) => (l.contacts || []).map((c) => ({
+      ...c,
+      title: `${c.title} (${l.name})`,
+    }))).slice(0, 15);
 
-    // Extract any emails mentioned in snippets
-    const allText = results.rawText;
-    const emails = allText.match(EMAIL_REGEX) || [];
-    results.emails = [...new Set(emails)]
-      .filter((e) => !e.includes("example.com") && !e.includes("reddit.com"))
-      .slice(0, 10);
+    // Aggregate tech stack
+    results.techStack = [...new Set(leads.flatMap((l) => l.techStack || []))];
 
-    results.contacts = results.emails.map((email) => {
-      const localPart = email.split("@")[0];
-      const nameParts = localPart.split(/[._-]/).filter(Boolean);
-      const guessedName = nameParts.length >= 2
-        ? nameParts.map((p) => p.charAt(0).toUpperCase() + p.slice(1)).join(" ")
-        : localPart;
-      return { name: guessedName, email, title: "Found via Reddit discussion" };
-    });
-
-    // Store individual discussion links as a bonus field
+    // Store discussions
     results.discussions = searchResults.slice(0, 10).map((r) => ({
       title: r.title,
       snippet: r.snippet.slice(0, 200),
