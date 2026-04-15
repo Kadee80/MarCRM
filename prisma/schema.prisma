@@ -1,5 +1,6 @@
 generator client {
   provider = "prisma-client-js"
+  binaryTargets = ["native", "linux-arm64-openssl-3.0.x"]
 }
 
 // Default: local SQLite for dev. Switch to Postgres URL for production (Supabase/Neon/Railway).
