@@ -50,6 +50,14 @@ const api = {
     const res = await fetch("/api/reports");
     return res.json();
   },
+  async enrichContact(data) {
+    const res = await fetch("/api/enrich", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(data) });
+    return res.json();
+  },
+  async getEnrichmentStats() {
+    const res = await fetch("/api/enrich");
+    return res.json();
+  },
 };
 
 /* ═══════════════════════════════════════════════════════════════════════════
@@ -526,6 +534,10 @@ export default function AgencyCRM() {
   const [reports, setReports] = useState([]);
   const [selectedReport, setSelectedReport] = useState(null);
 
+  // Enrichment state
+  const [enrichmentStats, setEnrichmentStats] = useState(null);
+  const [enriching, setEnriching] = useState(null); // contactId being enriched
+
   // New company form
   const [newCompany, setNewCompany] = useState({ name: "", website: "", pipeline: "pr-marketing", industry: "", size: "", revenue: "", location: "", fundingStage: "", stage: "Targeted", notes: "", techStack: [] });
   const [newContact, setNewContact] = useState({ name: "", title: "", email: "", phone: "", linkedin: "", decisionMaker: false, companyId: null, persona: "" });
@@ -544,6 +556,7 @@ export default function AgencyCRM() {
       setScrapeHistory(historyData);
       setReports(reportsData);
       if (reportsData.length > 0 && !selectedReport) setSelectedReport(reportsData[0]);
+      api.getEnrichmentStats().then(setEnrichmentStats).catch(() => {});
     } catch (err) {
       console.error("Failed to load data:", err);
     } finally {
@@ -633,6 +646,42 @@ export default function AgencyCRM() {
     setCompanies(prev => prev.filter(c => c.id !== id));
     setContacts(prev => prev.filter(c => c.companyId !== id));
     setSelectedCompany(null);
+  };
+
+  // ─── Contact enrichment (Hunter.io / RocketReach) ─────────────────
+  const handleEnrich = async (contact, companyName, companyWebsite) => {
+    if (enriching) return;
+    setEnriching(contact.id);
+    try {
+      const nameParts = contact.name.trim().split(/\s+/);
+      const firstName = nameParts[0];
+      const lastName = nameParts.slice(1).join(" ") || nameParts[0];
+      const result = await api.enrichContact({
+        contactId: contact.id,
+        firstName,
+        lastName,
+        domain: companyWebsite,
+        company: companyName,
+        linkedin: contact.linkedin || undefined,
+      });
+      if (result.email || result.phone) {
+        // Update local state
+        setContacts(prev => prev.map(c => c.id === contact.id ? {
+          ...c,
+          email: result.email || c.email,
+          phone: result.phone || c.phone,
+          linkedin: result.linkedin || c.linkedin,
+        } : c));
+        // Refresh enrichment stats
+        api.getEnrichmentStats().then(setEnrichmentStats).catch(() => {});
+      } else if (result.error) {
+        console.log("Enrichment error:", result.error);
+      }
+    } catch (err) {
+      console.error("Enrichment failed:", err);
+    } finally {
+      setEnriching(null);
+    }
   };
 
   // ─── Real scraping via API ─────────────────────────────────────────
@@ -1167,10 +1216,42 @@ export default function AgencyCRM() {
           <Plus size={16} /> Add Contact
         </button>
       </div>
+
+      {/* Enrichment Usage Banner */}
+      {enrichmentStats && (
+        <div className="bg-white rounded-xl border border-gray-100 p-4 shadow-sm flex items-center justify-between">
+          <div className="flex items-center gap-4">
+            <div className="flex items-center gap-2">
+              <Zap size={14} className="text-amber-500" />
+              <span className="text-xs font-semibold text-gray-700">Contact Enrichment</span>
+            </div>
+            {enrichmentStats.hunter?.configured && (
+              <div className="flex items-center gap-2">
+                <span className="text-xs text-gray-500">Hunter.io:</span>
+                <span className={`text-xs font-bold ${enrichmentStats.hunter.remaining <= 5 ? "text-red-600" : enrichmentStats.hunter.remaining <= 15 ? "text-amber-600" : "text-green-600"}`}>
+                  {enrichmentStats.hunter.remaining}/50 remaining
+                </span>
+                <span className="text-xs text-gray-400">({enrichmentStats.hunter.successful} found this month)</span>
+              </div>
+            )}
+            {enrichmentStats.rocketreach?.configured && (
+              <div className="flex items-center gap-2">
+                <span className="text-xs text-gray-500">RocketReach:</span>
+                <span className="text-xs font-bold text-green-600">{enrichmentStats.rocketreach.successful} found</span>
+              </div>
+            )}
+            {!enrichmentStats.hunter?.configured && !enrichmentStats.rocketreach?.configured && (
+              <span className="text-xs text-amber-600">No enrichment API configured. Add HUNTER_API_KEY to .env for free email lookups.</span>
+            )}
+          </div>
+        </div>
+      )}
+
       <div className="bg-white rounded-xl border border-gray-100 shadow-sm overflow-hidden">
         <div className="divide-y divide-gray-50">
           {contacts.map(ct => {
             const company = companies.find(c => c.id === ct.companyId);
+            const hasContactInfo = ct.email || ct.phone;
             return (
               <div key={ct.id} className="flex items-center justify-between px-5 py-3 hover:bg-gray-50">
                 <div className="flex items-center gap-3">
@@ -1186,7 +1267,18 @@ export default function AgencyCRM() {
                 <div className="flex items-center gap-3 text-xs text-gray-500">
                   {company && <PipelineBadge pipelineId={company.pipeline} />}
                   {ct.email && <span className="flex items-center gap-1"><Mail size={11} /> {ct.email}</span>}
-                  {ct.linkedin && <a href={`https://${ct.linkedin}`} target="_blank" rel="noreferrer" className="text-indigo-500"><Link2 size={13} /></a>}
+                  {ct.phone && <span className="flex items-center gap-1"><Phone size={11} /> {ct.phone}</span>}
+                  {ct.linkedin && <a href={ct.linkedin.startsWith("http") ? ct.linkedin : `https://${ct.linkedin}`} target="_blank" rel="noreferrer" className="text-indigo-500"><Link2 size={13} /></a>}
+                  {!hasContactInfo && company && (
+                    <button
+                      onClick={() => handleEnrich(ct, company.name, company.website)}
+                      disabled={enriching === ct.id}
+                      className="flex items-center gap-1 px-2.5 py-1 bg-amber-50 text-amber-700 border border-amber-200 rounded-lg hover:bg-amber-100 disabled:opacity-50 font-medium"
+                    >
+                      {enriching === ct.id ? <Loader2 size={11} className="animate-spin" /> : <Zap size={11} />}
+                      {enriching === ct.id ? "Looking up..." : "Find Email"}
+                    </button>
+                  )}
                 </div>
               </div>
             );

@@ -60,3 +60,14 @@ model ScrapeResult {
   imported       Boolean  @default(false)
   createdAt      DateTime @default(now())
 }
+
+model EnrichmentLog {
+  id          Int      @id @default(autoincrement())
+  contactId   Int?
+  contactName String   @default("")
+  provider    String   // hunter | rocketreach
+  query       String   @default("") // what was searched
+  resultData  String   @default("{}") // JSON response
+  success     Boolean  @default(false)
+  createdAt   DateTime @default(now())
+}
