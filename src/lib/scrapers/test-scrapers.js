@@ -42,11 +42,11 @@ async function runTests() {
       console.log('\n1️⃣  Job Board Scraper...');
       try {
         const jobData = await scrapeJobBoards(company.name, company.industry);
-        console.log(`   ✅ Found: ${jobData.totalPositions} positions`);
+        console.log(`   ✅ Found: ${jobData.openPositions} positions`);
         if (jobData.departments?.length > 0) {
           console.log(`   📢 Departments: ${jobData.departments.join(', ')}`);
         }
-        console.log(`   📈 Growth Signal Score: ${jobData.growthScore}/10`);
+        console.log(`   📈 Hiring Signal Score: ${jobData.score}/10`);
       } catch (e) {
         console.log(`   ⚠️  Job board error (may be rate-limited): ${e.message}`);
       }
