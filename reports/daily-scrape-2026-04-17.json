@@ -1,0 +1,243 @@
+{
+  "scrapeDate": "2026-04-17",
+  "totalLeads": 11,
+  "topPipeline": "fund-formation",
+  "note": "11 new leads across 5 pipelines (pr-marketing, fund-formation, legal-consulting, coaching-ops, ai-consulting). Fund Formation is the hottest category today — 5 emerging managers/spinouts actively raising (Dolomite, Fedaia, Eyre Street, Air Street, Ferghana). Wealth.com closed a $65M Series B yesterday (April 16) — freshest trigger on the board. OpenArc is a $129B RIA breakaway still in active Merrill lawsuit = strong Coaching/Ops trigger. Neon DB unreachable from sandbox; run `node scripts/import-2026-04-17.cjs` locally to import.",
+  "leads": [
+    {
+      "name": "Wealth.com",
+      "website": "https://wealth.com",
+      "pipeline": "pr-marketing",
+      "industry": "WealthTech / FinTech / AI Estate Planning",
+      "size": "Growth stage (50,000+ advisors served)",
+      "location": "Phoenix, AZ",
+      "fundingStage": "Series B ($65M, April 16, 2026)",
+      "fitScore": 46,
+      "intentScore": 44,
+      "fitDetails": { "industry": 10, "stage": 9, "buyer": 9, "proof": 10, "budget": 8 },
+      "intentDetails": { "trigger": 15, "timeline": 9, "dm_engaged": 8, "urgency": 8, "responsive": 4 },
+      "techStack": ["AI", "LLMs", "Ester Intelligence", "advisor platform"],
+      "source": "TechStartups / Wealth Management / Business Wire (April 16, 2026)",
+      "notes": "Raised $65M Series B yesterday (April 16, 2026) led by Titanium Ventures with existing investors Charles Schwab, GV, Citi Ventures. 3x annual revenue growth, 664% YoY growth in AI-powered workflows. Just signed approvals from the three largest broker-dealers (50,000+ advisors) and agreements with three of top five US banks. Classic post-raise PR amplification opportunity — fresh funding story, massive enterprise wins, Ester Intelligence AI product to market.",
+      "starred": true,
+      "contacts": [
+        { "name": "Rafael Loureiro", "title": "CEO & Co-founder (ex-Emailage CTO, LexisNexis)", "decisionMaker": true },
+        { "name": "Rei Carvalho", "title": "Co-founder (ex-Emailage founder)", "decisionMaker": true },
+        { "name": "Danny Lohrfink", "title": "Co-founder & Chief Product Officer", "decisionMaker": false },
+        { "name": "Tim White", "title": "Co-founder & Chief Growth Officer", "decisionMaker": true },
+        { "name": "Anne Rhodes", "title": "Chief Legal Officer", "decisionMaker": false }
+      ]
+    },
+    {
+      "name": "OpenArc Corporate Advisory",
+      "website": "https://openarc.com",
+      "pipeline": "coaching-ops",
+      "industry": "RIA / Wealth Management / Corporate Advisory",
+      "size": "$129B in client assets (recently launched RIA)",
+      "location": "Atlanta, GA (national)",
+      "fundingStage": "Dynasty Financial Partners minority investor; Charles Schwab custodian",
+      "fitScore": 44,
+      "intentScore": 41,
+      "fitDetails": { "revenue": 15, "niche": 9, "margin": 8, "dm_access": 8, "coachable": 4 },
+      "intentDetails": { "trigger": 18, "timeline": 8, "pain": 8, "responsive": 3, "budget": 4 },
+      "techStack": ["Dynasty platform", "Schwab custody"],
+      "source": "WealthManagement.com / InvestmentNews / Wealth Solutions Report",
+      "notes": "$129B RIA breakaway from Merrill Lynch (launched Sept 2025 on Dynasty Network). Ongoing Merrill lawsuit alleging 'pre-meditated corporate raid' — still actively defending. New national RIA = major ops buildout needed (compliance, technology, client onboarding, new-firm branding). Four managing partners split from Merrill's Global Corporate and Institutional Advisory Services unit. Shirl Penney (Dynasty CEO) called it a 'watershed moment' for RIAs.",
+      "starred": true,
+      "contacts": [
+        { "name": "Erik Bjerke", "title": "Senior Managing Partner (ex-Merrill, led Global Corporate & Institutional Advisory)", "decisionMaker": true },
+        { "name": "Emily Fletcher", "title": "Managing Partner", "decisionMaker": true },
+        { "name": "James Kaufman", "title": "Managing Partner", "decisionMaker": true },
+        { "name": "Kevin Higginbotham", "title": "Managing Partner", "decisionMaker": true }
+      ]
+    },
+    {
+      "name": "Dolomite Capital",
+      "website": "https://dolomitecap.com",
+      "pipeline": "fund-formation",
+      "industry": "Private Credit / Hedge Fund Spinout",
+      "size": "Spinout with $1.3B AUM at launch",
+      "location": "London, UK (spin-out from NY-based Taconic)",
+      "fundingStage": "Launched Jan 2026; $1.1B assumed from prior vintages + $200M seed for new evergreen fund",
+      "fitScore": 45,
+      "intentScore": 39,
+      "fitDetails": { "manager_type": 13, "strategy": 10, "ops_readiness": 9, "jurisdiction": 5, "budget": 8 },
+      "intentDetails": { "anchor": 12, "launch_window": 9, "providers": 8, "urgency": 7, "referral": 3 },
+      "techStack": [],
+      "source": "Private Equity Wire / Bloomberg / With Intelligence (Jan 2026)",
+      "notes": "Taconic Capital Advisors' European credit team spun out as Dolomite Capital in January 2026. Led by Keith Magliana (MP & CIO, ran Taconic Euro credit since 2011). Took over management of $1.1B across three vintages of European Credit Dislocation Funds. Secured $200M seed from Stable Asset Management for new evergreen credit fund. New entity = new fund docs, new GP/LP structure, new compliance regime — high-value fund formation work.",
+      "starred": true,
+      "contacts": [
+        { "name": "Keith Magliana", "title": "Managing Partner & CIO (ex-Taconic, led Euro credit since 2011)", "decisionMaker": true },
+        { "name": "Frank Brosens", "title": "Senior Advisor (Founder of Taconic)", "decisionMaker": false }
+      ]
+    },
+    {
+      "name": "depthfirst",
+      "website": "https://depthfirst.com",
+      "pipeline": "ai-consulting",
+      "industry": "AI Security / Applied AI / Enterprise Infrastructure",
+      "size": "Early growth ($120M total raised across 90 days)",
+      "location": "US (founders from DeepMind / Databricks / Faire)",
+      "fundingStage": "Series B ($80M, March 31, 2026) — 90 days after emerging from stealth with $40M Series A",
+      "fitScore": 41,
+      "intentScore": 41,
+      "fitDetails": { "industry": 9, "data_maturity": 8, "use_case": 9, "buyer_access": 7, "budget": 8 },
+      "intentDetails": { "signal": 17, "timeline": 8, "pain": 7, "sponsor": 5, "responsive": 4 },
+      "techStack": ["LLMs", "autonomous agents", "security ML", "AI infrastructure"],
+      "source": "BusinessWire / SecurityWeek / FinTech Global (Apr 7, 2026)",
+      "notes": "Applied AI lab building autonomous security. $80M Series B led by Meritech just 90 days after emerging from stealth — extreme velocity signal. Founders from DeepMind, Databricks (Qasim Mithani ex-Databricks enterprise platform lead), Faire. Rapidly scaling to serve regulated enterprises = governance, model risk, AI policy needs. Adjacent to AI consulting on autonomous agents + model risk management.",
+      "starred": true,
+      "contacts": [
+        { "name": "Qasim Mithani", "title": "Co-founder & CEO (ex-Databricks enterprise platform, ex-AWS)", "decisionMaker": true },
+        { "name": "Andrea Michi", "title": "CTO", "decisionMaker": false }
+      ]
+    },
+    {
+      "name": "Eyre Street Capital",
+      "website": "https://eyrestreet.com",
+      "pipeline": "fund-formation",
+      "industry": "Private Credit / Sustainable Finance",
+      "size": "Spinout (Fund I closed at $421M; Fund II targeting $800M)",
+      "location": "New York, NY",
+      "fundingStage": "SSF II launched Oct 2025, targeting up to $800M",
+      "fitScore": 43,
+      "intentScore": 38,
+      "fitDetails": { "manager_type": 14, "strategy": 9, "ops_readiness": 9, "jurisdiction": 4, "budget": 7 },
+      "intentDetails": { "anchor": 12, "launch_window": 8, "providers": 8, "urgency": 6, "referral": 4 },
+      "techStack": [],
+      "source": "PR Newswire / Morningstar / Private Equity International",
+      "notes": "Spin-out from Avenue Capital's impact lending platform (April 2025). Backed by Galway Sustainable Capital (with Macquarie Green Investment Group + Aware Super). SSF I was $421M; SSF II targets up to $800M (2x scale). Institutional backing + track record + large fund target = material legal/fund formation work (doubling fund size typically triggers amendments to LPA, new side letters, revised governance).",
+      "starred": true,
+      "contacts": [
+        { "name": "Sean Coleman", "title": "Co-founder & Portfolio Manager (Sustainable Solutions Strategy)", "decisionMaker": true },
+        { "name": "Jamie Devine", "title": "Co-founder & Head of Originations", "decisionMaker": true }
+      ]
+    },
+    {
+      "name": "Fedaia Partners",
+      "website": "https://www.fedaiafinance.com",
+      "pipeline": "fund-formation",
+      "industry": "Private Credit / Special Situations",
+      "size": "Team of 8, debut fund raise",
+      "location": "London, UK",
+      "fundingStage": "Debut commingled fund seeking €250M",
+      "fitScore": 43,
+      "intentScore": 37,
+      "fitDetails": { "manager_type": 15, "strategy": 9, "ops_readiness": 8, "jurisdiction": 4, "budget": 7 },
+      "intentDetails": { "anchor": 10, "launch_window": 9, "providers": 7, "urgency": 8, "referral": 3 },
+      "techStack": [],
+      "source": "Bloomberg / With Intelligence / Crunchbase",
+      "notes": "Founded 2020 by ex-Deutsche Bank Distressed Products duo Pietro Stella & Philipp Roever. Actively raising €250M debut commingled fund for asset-based special situations in Europe. Team now 8 including COO (Naumaan Amjed ex-Goldman/Fidera) and Head of IR (Zain Pirani ex-Ares). Fund I emerging manager = textbook fund formation ICP.",
+      "starred": true,
+      "contacts": [
+        { "name": "Pietro Stella", "title": "Co-founder (ex-Deutsche Bank Distressed Products Group)", "decisionMaker": true },
+        { "name": "Philipp Roever", "title": "Co-founder (ex-Deutsche Bank Distressed Products Group)", "decisionMaker": true },
+        { "name": "Naumaan Amjed", "title": "COO (ex-Goldman Sachs, Fidera Group)", "decisionMaker": true },
+        { "name": "Zain Pirani", "title": "Head of Investor Relations (ex-Ares)", "decisionMaker": false }
+      ]
+    },
+    {
+      "name": "Air Street Capital",
+      "website": "https://airstreet.com",
+      "pipeline": "fund-formation",
+      "industry": "Venture Capital (AI-first)",
+      "size": "Europe's largest solo GP firm",
+      "location": "London / San Francisco (solo GP)",
+      "fundingStage": "Fund III closed at $232M (March 23, 2026) — prior $17M Fund I, $121M Fund II",
+      "fitScore": 43,
+      "intentScore": 36,
+      "fitDetails": { "manager_type": 13, "strategy": 9, "ops_readiness": 9, "jurisdiction": 4, "budget": 8 },
+      "intentDetails": { "anchor": 14, "launch_window": 6, "providers": 8, "urgency": 5, "referral": 3 },
+      "techStack": [],
+      "source": "Tech.eu / TechStartups / Air Street Press (March 23, 2026)",
+      "notes": "Nathan Benaich's Air Street Capital closed $232M Fund III (precisely $232,323,232) in March 2026 — now Europe's largest solo GP firm. Backs AI-first companies with $500K-$15M early-stage + up to $25M growth. Portfolio includes Synthesia ($150M ARR), Black Forest Labs, Poolside. Fund III close = LP docs/side letters/new fund structure recently completed; likely ongoing legal retainer need. Strategic fit: solo GP scaling into growth stage = new strategy needs new fund.",
+      "starred": false,
+      "contacts": [
+        { "name": "Nathan Benaich", "title": "Founder & Solo GP", "decisionMaker": true }
+      ]
+    },
+    {
+      "name": "Summize",
+      "website": "https://www.summize.com",
+      "pipeline": "pr-marketing",
+      "industry": "LegalTech / Contract Lifecycle Management",
+      "size": "~100+ employees (59% headcount growth in past year)",
+      "location": "Manchester, UK (+ Boston, San Diego)",
+      "fundingStage": "$50M growth round (January 2026) — Kennet + Federated Hermes",
+      "fitScore": 40,
+      "intentScore": 35,
+      "fitDetails": { "industry": 8, "stage": 8, "buyer": 8, "proof": 9, "budget": 7 },
+      "intentDetails": { "trigger": 12, "timeline": 7, "dm_engaged": 6, "urgency": 6, "responsive": 4 },
+      "techStack": ["AI", "agentic CLM", "Slack/Teams/Salesforce integrations"],
+      "source": "Axios / Kennet / Summize Press (January 2026)",
+      "notes": "Manchester-based CLM with 5 consecutive years of 100%+ ARR growth. 92% bookings growth July-Dec 2025; 97% YoY ARR. Customers include Revolut, Groq, AMC Networks, NBA/MLB/NFL teams. $50M growth investment for global expansion = classic post-raise PR story (growth metrics, marquee customers, new agentic CLM launch). Opened new Manchester HQ. CEO Tom Dunlop is active publicly.",
+      "starred": true,
+      "contacts": [
+        { "name": "Tom Dunlop", "title": "CEO (public, thought-leadership active)", "decisionMaker": true }
+      ]
+    },
+    {
+      "name": "Tazapay",
+      "website": "https://tazapay.com",
+      "pipeline": "pr-marketing",
+      "industry": "FinTech / Cross-Border Payments / Emerging Markets",
+      "size": "1,000+ enterprise customers across 30 countries",
+      "location": "Singapore (global)",
+      "fundingStage": "Series B ($36M total, extension led by Circle Ventures, March 2026)",
+      "fitScore": 39,
+      "intentScore": 38,
+      "fitDetails": { "industry": 9, "stage": 8, "buyer": 7, "proof": 8, "budget": 7 },
+      "intentDetails": { "trigger": 13, "timeline": 8, "dm_engaged": 6, "urgency": 7, "responsive": 4 },
+      "techStack": ["cross-border payment rails", "licensing infrastructure"],
+      "source": "PR Newswire / FinTech Global / The Block / TechNode (March 2026)",
+      "notes": "Series B extension closed in March 2026 led by Circle Ventures (new: CMT Digital, Coinbase Ventures). 3 consecutive years of revenue doubling. Expanding licensing across APAC, LatAm, Middle East, and Americas — multi-region rollout = clear PR/launch story per region. Enterprise B2B fintech sweet spot for PR. Rahul Shinghal (CEO) and ex-Microsoft/Amazon/Grab team.",
+      "starred": false,
+      "contacts": [
+        { "name": "Rahul Shinghal", "title": "CEO & Co-founder", "decisionMaker": true },
+        { "name": "Arul Kumaravel", "title": "Co-founder & CTO (ex-Microsoft, Amazon, Grab)", "decisionMaker": false },
+        { "name": "Saroj Mishra", "title": "Co-founder & COO", "decisionMaker": true }
+      ]
+    },
+    {
+      "name": "Orbital",
+      "website": "https://www.orbital.tech",
+      "pipeline": "legal-consulting",
+      "industry": "LegalTech / AI / Real Estate Law",
+      "size": "5,000+ property professionals; 200K transactions/year",
+      "location": "London, UK (expanding to US)",
+      "fundingStage": "Series B ($60M / £44M, January 2026, led by Brighton Park Capital)",
+      "fitScore": 40,
+      "intentScore": 37,
+      "fitDetails": { "complexity": 13, "ongoing": 12, "org_size": 7, "dm_access": 4, "budget": 4 },
+      "intentDetails": { "active_problem": 14, "timeline": 7, "volume": 8, "pressure": 4, "responsive": 4 },
+      "techStack": ["AI", "NLP", "real estate document automation"],
+      "source": "Tech.eu / Commercial Observer / Legal IT Insider / Orbital Press (January 2026)",
+      "notes": "UK's market leader in real estate legal AI, aggressively expanding into US post-Series B. US expansion = heavy legal consulting need: entity formation, state-by-state real estate practice rules, unauthorized practice of law (UPL) reviews, title company compliance. Board seat for Kevin Magan (Brighton Park). Serves law firms, in-house legal teams, title companies, REITs.",
+      "starred": false,
+      "contacts": [
+        { "name": "Will Pearce", "title": "CEO & Co-founder", "decisionMaker": true },
+        { "name": "Ed Boulle", "title": "Co-founder", "decisionMaker": true },
+        { "name": "Andrew Thompson", "title": "CTO", "decisionMaker": false }
+      ]
+    },
+    {
+      "name": "Ferghana Investment Partners",
+      "website": "",
+      "pipeline": "fund-formation",
+      "industry": "Private Equity / Buyout",
+      "size": "Emerging manager (Fund I)",
+      "location": "US",
+      "fundingStage": "Fund I targeting $500M; backed by GP seeder New Catalyst Strategic Partners (Feb 2026)",
+      "fitScore": 39,
+      "intentScore": 35,
+      "fitDetails": { "manager_type": 15, "strategy": 8, "ops_readiness": 6, "jurisdiction": 4, "budget": 6 },
+      "intentDetails": { "anchor": 11, "launch_window": 8, "providers": 5, "urgency": 7, "referral": 4 },
+      "techStack": [],
+      "source": "With Intelligence (Private Equity Emerging Managers 2026)",
+      "notes": "Debut fund targeting $500M with strategic backing from New Catalyst Strategic Partners (GP seeder) secured in February 2026. Large target ($500M) for a Fund I = meaningful legal complexity (LPA, side letters, co-invest vehicles). Less public information so requires outreach; lower intent score because specifics are thin.",
+      "starred": false,
+      "contacts": []
+    }
+  ]
+}
