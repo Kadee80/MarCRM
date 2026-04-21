@@ -5,7 +5,8 @@ import {
   Loader2, Star, StarOff, ArrowUpDown, ExternalLink, Trash2, Mail, Phone, MapPin,
   Briefcase, Layers, Database, ChevronDown, ChevronUp, Zap, TrendingUp, DollarSign,
   Clock, UserCheck, Link2, Filter, Eye, AlertCircle, Activity, PieChart, Settings,
-  Megaphone, Scale, BookOpen, Cpu, Video, RefreshCw, FileText, Award, Landmark
+  Megaphone, Scale, BookOpen, Cpu, Video, RefreshCw, FileText, Award, Landmark,
+  MessageSquare, PhoneCall, Calendar, Edit3, Save, XCircle, ChevronLeft, Columns
 } from "lucide-react";
 
 /* ═══════════════════════════════════════════════════════════════════════════
@@ -57,6 +58,25 @@ const api = {
   async getEnrichmentStats() {
     const res = await fetch("/api/enrich");
     return res.json();
+  },
+  async updateContact(data) {
+    const res = await fetch("/api/contacts", { method: "PUT", headers: { "Content-Type": "application/json" }, body: JSON.stringify(data) });
+    return res.json();
+  },
+  async deleteContact(id) {
+    await fetch(`/api/contacts?id=${id}`, { method: "DELETE" });
+  },
+  async getEngagements(params = {}) {
+    const qs = new URLSearchParams(params).toString();
+    const res = await fetch(`/api/engagements${qs ? `?${qs}` : ""}`);
+    return res.json();
+  },
+  async createEngagement(data) {
+    const res = await fetch("/api/engagements", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(data) });
+    return res.json();
+  },
+  async deleteEngagement(id) {
+    await fetch(`/api/engagements?id=${id}`, { method: "DELETE" });
   },
 };
 
@@ -538,6 +558,14 @@ export default function AgencyCRM() {
   const [enrichmentStats, setEnrichmentStats] = useState(null);
   const [enriching, setEnriching] = useState(null); // contactId being enriched
 
+  // Contact sidebar state
+  const [sidebarContact, setSidebarContact] = useState(null);
+  const [sidebarEngagements, setSidebarEngagements] = useState([]);
+  const [editingContact, setEditingContact] = useState(null); // editable copy of contact fields
+  const [newEngagement, setNewEngagement] = useState({ type: "note", notes: "" });
+  const [savingContact, setSavingContact] = useState(false);
+  const [savingEngagement, setSavingEngagement] = useState(false);
+
   // New company form
   const [newCompany, setNewCompany] = useState({ name: "", website: "", pipeline: "pr-marketing", industry: "", size: "", revenue: "", location: "", fundingStage: "", stage: "Targeted", notes: "", techStack: [] });
   const [newContact, setNewContact] = useState({ name: "", title: "", email: "", phone: "", linkedin: "", decisionMaker: false, companyId: null, persona: "" });
@@ -682,6 +710,50 @@ export default function AgencyCRM() {
     } finally {
       setEnriching(null);
     }
+  };
+
+  // ─── Contact sidebar ──────────────────────────────────────────────
+  const openContactSidebar = async (contact) => {
+    setSidebarContact(contact);
+    setEditingContact({ name: contact.name, title: contact.title, email: contact.email, phone: contact.phone, linkedin: contact.linkedin });
+    try {
+      const engs = await api.getEngagements({ contactId: String(contact.id) });
+      setSidebarEngagements(engs);
+    } catch { setSidebarEngagements([]); }
+  };
+
+  const closeContactSidebar = () => {
+    setSidebarContact(null);
+    setEditingContact(null);
+    setSidebarEngagements([]);
+    setNewEngagement({ type: "note", notes: "" });
+  };
+
+  const saveContactEdits = async () => {
+    if (!sidebarContact || !editingContact) return;
+    setSavingContact(true);
+    try {
+      const updated = await api.updateContact({ id: sidebarContact.id, ...editingContact });
+      setContacts(prev => prev.map(c => c.id === sidebarContact.id ? { ...c, ...editingContact } : c));
+      setSidebarContact(prev => ({ ...prev, ...editingContact }));
+    } catch (err) { console.error("Failed to save contact:", err); }
+    finally { setSavingContact(false); }
+  };
+
+  const addEngagement = async () => {
+    if (!sidebarContact || !newEngagement.notes.trim()) return;
+    setSavingEngagement(true);
+    try {
+      const eng = await api.createEngagement({
+        type: newEngagement.type,
+        notes: newEngagement.notes,
+        contactId: sidebarContact.id,
+        companyId: sidebarContact.companyId || null,
+      });
+      setSidebarEngagements(prev => [eng, ...prev]);
+      setNewEngagement({ type: "note", notes: "" });
+    } catch (err) { console.error("Failed to add engagement:", err); }
+    finally { setSavingEngagement(false); }
   };
 
   // ─── Real scraping via API ─────────────────────────────────────────
@@ -1253,7 +1325,7 @@ export default function AgencyCRM() {
             const company = companies.find(c => c.id === ct.companyId);
             const hasContactInfo = ct.email || ct.phone;
             return (
-              <div key={ct.id} className="flex items-center justify-between px-5 py-3 hover:bg-gray-50">
+              <div key={ct.id} className="flex items-center justify-between px-5 py-3 hover:bg-gray-50 cursor-pointer" onClick={() => openContactSidebar(ct)}>
                 <div className="flex items-center gap-3">
                   <div className="w-9 h-9 rounded-full bg-indigo-100 flex items-center justify-center text-xs font-bold text-indigo-600">{ct.name.split(" ").map(n => n[0]).join("")}</div>
                   <div>
@@ -1770,12 +1842,238 @@ export default function AgencyCRM() {
     </div>
   );
 
+  // ─── PIPELINE BOARD ──────────────────────────────────────────────
+  const BOARD_STAGES = ["Targeted", "Contacted", "Engaged", "Qualified", "Proposal Sent", "Won"];
+
+  const renderPipelineBoard = () => {
+    const boardPipeline = pipelineFilter !== "all" ? pipelineFilter : null;
+    const boardCompanies = boardPipeline ? companies.filter(c => c.pipeline === boardPipeline) : companies;
+
+    return (
+      <div className="space-y-4">
+        <div className="flex items-center justify-between">
+          <div>
+            <h1 className="text-2xl font-bold text-gray-900">Pipeline Board</h1>
+            <p className="text-sm text-gray-500 mt-1">Drag-free board — click stage badges to move leads through your pipeline</p>
+          </div>
+          <select value={pipelineFilter} onChange={e => setPipelineFilter(e.target.value)} className="px-3 py-1.5 border border-gray-200 rounded-lg text-sm bg-white">
+            <option value="all">All Pipelines</option>
+            {PIPELINES.map(p => <option key={p.id} value={p.id}>{p.label}</option>)}
+          </select>
+        </div>
+
+        <div className="flex gap-3 overflow-x-auto pb-4">
+          {BOARD_STAGES.map(stage => {
+            const stageCompanies = boardCompanies.filter(c => c.stage === stage);
+            return (
+              <div key={stage} className="flex-shrink-0 w-64">
+                <div className={`px-3 py-2 rounded-t-lg text-xs font-bold uppercase tracking-wide ${STAGE_COLORS[stage] || "bg-gray-100 text-gray-600"}`}>
+                  {stage} <span className="ml-1 opacity-60">({stageCompanies.length})</span>
+                </div>
+                <div className="bg-gray-50 rounded-b-lg p-2 space-y-2 min-h-[200px] border border-gray-100">
+                  {stageCompanies.map(company => {
+                    const score = company.fitScore + company.intentScore;
+                    const grade = score >= 80 ? "A" : score >= 60 ? "B" : score >= 40 ? "C" : "D";
+                    const gradeColor = { A: "text-green-600", B: "text-blue-600", C: "text-amber-600", D: "text-gray-400" }[grade];
+                    const pipe = PIPELINE_MAP[company.pipeline];
+                    const cContacts = contacts.filter(ct => ct.companyId === company.id);
+                    return (
+                      <div key={company.id} className="bg-white rounded-lg border border-gray-100 p-3 shadow-sm hover:shadow-md transition-shadow cursor-pointer" onClick={() => { setSelectedCompany(company); setPage("companies"); }}>
+                        <div className="flex items-start justify-between mb-1">
+                          <h4 className="text-xs font-bold text-gray-900 leading-tight">{company.name}</h4>
+                          <span className={`text-[10px] font-bold ${gradeColor}`}>{grade}·{score}</span>
+                        </div>
+                        {pipe && <span className={`inline-block text-[9px] font-medium px-1.5 py-0.5 rounded bg-${pipe.color}-50 text-${pipe.color}-600 mb-1.5`}>{pipe.short}</span>}
+                        <div className="flex items-center justify-between">
+                          <span className="text-[10px] text-gray-400">{cContacts.length} contact{cContacts.length !== 1 ? "s" : ""}</span>
+                          <select
+                            value={company.stage}
+                            onChange={(e) => { e.stopPropagation(); updateCompanyStage(company.id, e.target.value); }}
+                            onClick={(e) => e.stopPropagation()}
+                            className="text-[10px] border border-gray-200 rounded px-1 py-0.5 bg-white text-gray-600"
+                          >
+                            {FUNNEL_STAGES.map(s => <option key={s} value={s}>{s}</option>)}
+                          </select>
+                        </div>
+                        {cContacts.length > 0 && (
+                          <div className="mt-2 pt-2 border-t border-gray-50 space-y-1">
+                            {cContacts.slice(0, 2).map(ct => (
+                              <div key={ct.id} className="flex items-center gap-1.5 cursor-pointer hover:bg-gray-50 rounded px-1 py-0.5" onClick={(e) => { e.stopPropagation(); openContactSidebar(ct); }}>
+                                <div className="w-5 h-5 rounded-full bg-indigo-100 flex items-center justify-center text-[8px] font-bold text-indigo-600">{ct.name.split(" ").map(n => n[0]).join("")}</div>
+                                <span className="text-[10px] text-gray-600 truncate">{ct.name}</span>
+                              </div>
+                            ))}
+                            {cContacts.length > 2 && <span className="text-[9px] text-gray-400 pl-1">+{cContacts.length - 2} more</span>}
+                          </div>
+                        )}
+                      </div>
+                    );
+                  })}
+                  {stageCompanies.length === 0 && <p className="text-[10px] text-gray-300 text-center pt-8">No leads</p>}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    );
+  };
+
+  // ─── CONTACT SIDEBAR COMPONENT ─────────────────────────────────────
+  const ENGAGEMENT_TYPES = [
+    { id: "note", label: "Note", icon: MessageSquare },
+    { id: "email", label: "Email", icon: Mail },
+    { id: "call", label: "Call", icon: PhoneCall },
+    { id: "meeting", label: "Meeting", icon: Calendar },
+    { id: "linkedin", label: "LinkedIn", icon: Link2 },
+    { id: "other", label: "Other", icon: Activity },
+  ];
+
+  const ENGAGEMENT_TYPE_MAP = Object.fromEntries(ENGAGEMENT_TYPES.map(t => [t.id, t]));
+
+  const renderContactSidebar = () => {
+    if (!sidebarContact) return null;
+    const company = companies.find(c => c.id === sidebarContact.companyId);
+
+    return (
+      <div className="fixed inset-0 z-50 flex justify-end">
+        <div className="absolute inset-0 bg-black/20" onClick={closeContactSidebar} />
+        <div className="relative w-[420px] bg-white shadow-2xl flex flex-col h-full overflow-hidden">
+          {/* Header */}
+          <div className="flex items-center justify-between px-5 py-4 border-b border-gray-100 bg-gray-50">
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 rounded-full bg-indigo-100 flex items-center justify-center text-sm font-bold text-indigo-600">
+                {sidebarContact.name.split(" ").map(n => n[0]).join("")}
+              </div>
+              <div>
+                <h2 className="text-sm font-bold text-gray-900">{sidebarContact.name}</h2>
+                {company && <p className="text-xs text-gray-500">{sidebarContact.title} at {company.name}</p>}
+              </div>
+            </div>
+            <button onClick={closeContactSidebar} className="p-1 hover:bg-gray-200 rounded"><X size={18} className="text-gray-400" /></button>
+          </div>
+
+          <div className="flex-1 overflow-y-auto">
+            {/* Editable Contact Info */}
+            <div className="px-5 py-4 border-b border-gray-100">
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wide">Contact Info</h3>
+                <button onClick={saveContactEdits} disabled={savingContact} className="flex items-center gap-1 text-xs font-medium text-indigo-600 hover:text-indigo-800 disabled:opacity-50">
+                  {savingContact ? <Loader2 size={12} className="animate-spin" /> : <Save size={12} />} Save
+                </button>
+              </div>
+              {editingContact && (
+                <div className="space-y-2">
+                  {[
+                    { key: "name", label: "Name", icon: Users },
+                    { key: "title", label: "Title", icon: Briefcase },
+                    { key: "email", label: "Email", icon: Mail },
+                    { key: "phone", label: "Phone", icon: Phone },
+                    { key: "linkedin", label: "LinkedIn", icon: Link2 },
+                  ].map(field => (
+                    <div key={field.key} className="flex items-center gap-2">
+                      <field.icon size={13} className="text-gray-400 flex-shrink-0" />
+                      <input
+                        type="text"
+                        value={editingContact[field.key] || ""}
+                        onChange={e => setEditingContact(prev => ({ ...prev, [field.key]: e.target.value }))}
+                        placeholder={field.label}
+                        className="flex-1 text-sm px-2 py-1.5 border border-gray-200 rounded-md focus:border-indigo-300 focus:ring-1 focus:ring-indigo-200 outline-none"
+                      />
+                    </div>
+                  ))}
+                </div>
+              )}
+              {company && (
+                <div className="mt-3 pt-3 border-t border-gray-50">
+                  <div className="flex items-center gap-2 text-xs text-gray-500">
+                    <Building2 size={13} className="text-gray-400" />
+                    <span>{company.name}</span>
+                    <span className={`ml-auto px-2 py-0.5 rounded-full text-[10px] font-bold ${STAGE_COLORS[company.stage] || "bg-gray-100 text-gray-600"}`}>{company.stage}</span>
+                  </div>
+                  {company.pipeline && <PipelineBadge pipelineId={company.pipeline} className="mt-1" />}
+                </div>
+              )}
+            </div>
+
+            {/* Add Engagement */}
+            <div className="px-5 py-4 border-b border-gray-100">
+              <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-3">Add Engagement</h3>
+              <div className="flex gap-1.5 mb-2">
+                {ENGAGEMENT_TYPES.map(t => (
+                  <button
+                    key={t.id}
+                    onClick={() => setNewEngagement(prev => ({ ...prev, type: t.id }))}
+                    className={`flex items-center gap-1 px-2 py-1 rounded text-[10px] font-medium border transition-colors ${newEngagement.type === t.id ? "bg-indigo-50 border-indigo-200 text-indigo-700" : "bg-white border-gray-200 text-gray-500 hover:bg-gray-50"}`}
+                  >
+                    <t.icon size={10} /> {t.label}
+                  </button>
+                ))}
+              </div>
+              <textarea
+                value={newEngagement.notes}
+                onChange={e => setNewEngagement(prev => ({ ...prev, notes: e.target.value }))}
+                placeholder="What happened? Add notes about this interaction..."
+                className="w-full text-sm px-3 py-2 border border-gray-200 rounded-lg focus:border-indigo-300 focus:ring-1 focus:ring-indigo-200 outline-none resize-none"
+                rows={3}
+              />
+              <button
+                onClick={addEngagement}
+                disabled={!newEngagement.notes.trim() || savingEngagement}
+                className="mt-2 w-full flex items-center justify-center gap-1.5 px-3 py-2 bg-indigo-600 text-white text-xs font-medium rounded-lg hover:bg-indigo-700 disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                {savingEngagement ? <Loader2 size={12} className="animate-spin" /> : <Plus size={12} />}
+                Add to Timeline
+              </button>
+            </div>
+
+            {/* Engagement Timeline */}
+            <div className="px-5 py-4">
+              <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-3">
+                Timeline ({sidebarEngagements.length})
+              </h3>
+              {sidebarEngagements.length === 0 && (
+                <p className="text-xs text-gray-400 text-center py-6">No engagements yet. Add one above to start tracking interactions.</p>
+              )}
+              <div className="space-y-0">
+                {sidebarEngagements.map((eng, idx) => {
+                  const typeInfo = ENGAGEMENT_TYPE_MAP[eng.type] || ENGAGEMENT_TYPE_MAP.other;
+                  const TypeIcon = typeInfo.icon;
+                  const isLast = idx === sidebarEngagements.length - 1;
+                  return (
+                    <div key={eng.id} className="flex gap-3">
+                      <div className="flex flex-col items-center">
+                        <div className="w-7 h-7 rounded-full bg-gray-100 flex items-center justify-center flex-shrink-0">
+                          <TypeIcon size={13} className="text-gray-500" />
+                        </div>
+                        {!isLast && <div className="w-px flex-1 bg-gray-200 my-1" />}
+                      </div>
+                      <div className={`flex-1 pb-4 ${isLast ? "" : ""}`}>
+                        <div className="flex items-center gap-2 mb-0.5">
+                          <span className="text-[10px] font-bold text-gray-500 uppercase">{typeInfo.label}</span>
+                          <span className="text-[10px] text-gray-400">{new Date(eng.createdAt).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}</span>
+                          <span className="text-[10px] text-gray-300">{new Date(eng.createdAt).toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit" })}</span>
+                        </div>
+                        <p className="text-sm text-gray-700 leading-relaxed">{eng.notes}</p>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  };
+
   /* ═══════════════════════════════════════════════════════════════════════
      NAVIGATION & LAYOUT
      ═══════════════════════════════════════════════════════════════════════ */
 
   const NAV = [
     { id: "dashboard", icon: BarChart3, label: "Dashboard" },
+    { id: "pipeline", icon: Columns, label: "Pipeline" },
     { id: "companies", icon: Building2, label: "Companies" },
     { id: "contacts", icon: Users, label: "Contacts" },
     { id: "scraper", icon: Globe, label: "Scraper" },
@@ -1785,6 +2083,7 @@ export default function AgencyCRM() {
 
   const pages = {
     dashboard: renderDashboard,
+    pipeline: renderPipelineBoard,
     companies: renderCompanies,
     contacts: renderContacts,
     scraper: renderScraper,
@@ -1855,10 +2154,13 @@ export default function AgencyCRM() {
 
       {/* Main Content */}
       <div className="flex-1 overflow-y-auto">
-        <div className="max-w-5xl mx-auto p-6">
+        <div className={`mx-auto p-6 ${page === "pipeline" ? "max-w-full" : "max-w-5xl"}`}>
           {pages[page]?.()}
         </div>
       </div>
+
+      {/* Contact Detail Sidebar */}
+      {renderContactSidebar()}
     </div>
   );
 }

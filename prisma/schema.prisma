@@ -31,23 +31,36 @@ model Company {
   source        String    @default("Manual")
   lastActivity  String    @default("")
   contacts      Contact[]
+  engagements   Engagement[]
   createdAt     DateTime  @default(now())
   updatedAt     DateTime  @updatedAt
 }
 
 model Contact {
-  id            Int      @id @default(autoincrement())
+  id            Int           @id @default(autoincrement())
   name          String
-  title         String   @default("")
-  email         String   @default("")
-  phone         String   @default("")
-  linkedin      String   @default("")
-  persona       String   @default("")
-  decisionMaker Boolean  @default(false)
-  company       Company? @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  title         String        @default("")
+  email         String        @default("")
+  phone         String        @default("")
+  linkedin      String        @default("")
+  persona       String        @default("")
+  decisionMaker Boolean       @default(false)
+  company       Company?      @relation(fields: [companyId], references: [id], onDelete: Cascade)
   companyId     Int?
-  createdAt     DateTime @default(now())
-  updatedAt     DateTime @updatedAt
+  engagements   Engagement[]
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+}
+
+model Engagement {
+  id        Int      @id @default(autoincrement())
+  type      String   // email | call | meeting | note | stage_change | linkedin | other
+  notes     String   @default("")
+  contact   Contact  @relation(fields: [contactId], references: [id], onDelete: Cascade)
+  contactId Int
+  company   Company? @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  companyId Int?
+  createdAt DateTime @default(now())
 }
 
 model ScrapeResult {

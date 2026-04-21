@@ -27,6 +27,20 @@ export async function POST(request) {
   return NextResponse.json(contact);
 }
 
+// PUT /api/contacts — update a contact (pass id in body)
+export async function PUT(request) {
+  const body = await request.json();
+  const { id, ...data } = body;
+
+  const contact = await prisma.contact.update({
+    where: { id },
+    data,
+    include: { company: true },
+  });
+
+  return NextResponse.json(contact);
+}
+
 export async function DELETE(request) {
   const { searchParams } = new URL(request.url);
   const id = parseInt(searchParams.get("id"));
