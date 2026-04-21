@@ -1,0 +1,172 @@
+{
+  "scrapeDate": "2026-04-18",
+  "totalLeads": 8,
+  "topPipeline": "fund-formation",
+  "note": "8 new leads across 4 pipelines (pr-marketing, fund-formation, legal-consulting, ai-consulting). Fund Formation is the hottest category again — 3 fresh emerging-manager / new-platform launches this week (Aqualis Partners debut SPV, Sycamore Tree Capital credit secondaries platform, 5c(c) Capital prediction-market VC fund). Two warm AI-consulting targets freshly funded: Gumloop ($50M Series B from Benchmark, March 12) and InsightFinder ($15M Series B from Yu Galaxy, April 16 — explicitly hiring first sales + marketing team). Checkbox ($23M Series A, AI Legal Front Door) and Felix (ex-Parrot founder, $1.7M pre-seed April 7) round out a strong legal-consulting pair. Shepherd's $42M Series B on March 24 = freshest post-raise PR amplification trigger on the board. Neon DB unreachable from sandbox; run `node scripts/import-2026-04-18.cjs` locally to import. Deduplicated against 52 existing companies from prior scrapes (Wealth.com, Summize, Dolomite, Eyre Street, Air Street, Fedaia, Ferghana, OpenArc, Orbital, depthfirst, Tazapay, Round Treasury, and ~40 others already in DB).",
+  "leads": [
+    {
+      "name": "Shepherd",
+      "website": "https://www.shepherdinsurance.com",
+      "pipeline": "pr-marketing",
+      "industry": "InsurTech / AI-Native Commercial Insurance",
+      "size": "600+ customers, 1,500+ policies, $400B+ project value insured (7x revenue growth in 24 months)",
+      "location": "United States",
+      "fundingStage": "Series B ($42M, March 24, 2026) — total raised $67M",
+      "fitScore": 44,
+      "intentScore": 43,
+      "fitDetails": { "industry": 9, "stage": 9, "buyer": 9, "proof": 9, "budget": 8 },
+      "intentDetails": { "trigger": 14, "timeline": 9, "dm_engaged": 7, "urgency": 8, "responsive": 5 },
+      "techStack": ["AI/ML underwriting", "Procore", "Autodesk", "OpenSpace", "DroneDeploy", "Samsara"],
+      "source": "PR Newswire / Carrier Management / FinTech Global / Insurance-Edge (March 24-26, 2026)",
+      "notes": "Closed $42M Series B on March 24, 2026 led by Intact Private Capital (insurance giant; also carrier partner), with Spark Capital and Costanoa. Tagline 'insurance behind the AI infrastructure boom' — positioning themselves at the intersection of AI + construction + data center buildout. 7x revenue growth in 24 months, insuring hyperscalers, chipmakers, general contractors building AI facilities. Classic freshly-raised B2B fintech = premium post-raise PR amplification target. CEO/founder is public-facing with substantive blog content already — easy to scale. Ties into AI infrastructure narrative which is the hottest PR vertical of 2026.",
+      "starred": true,
+      "contacts": [
+        { "name": "Justin Levine", "title": "CEO & Co-founder", "decisionMaker": true }
+      ]
+    },
+    {
+      "name": "InsightFinder",
+      "website": "https://insightfinder.com",
+      "pipeline": "ai-consulting",
+      "industry": "AI Observability / AIOps / Enterprise Reliability",
+      "size": "Sub-30 person team, revenue 3x YoY; customers include UBS, NBCUniversal, Lenovo, Dell, Google Cloud, Comcast",
+      "location": "Research Triangle, NC (NC State academic roots)",
+      "fundingStage": "Series B ($15M, April 16, 2026) — total raised $35M, led by Yu Galaxy",
+      "fitScore": 43,
+      "intentScore": 44,
+      "fitDetails": { "industry": 10, "data_maturity": 9, "use_case": 9, "buyer_access": 7, "budget": 8 },
+      "intentDetails": { "signal": 18, "timeline": 9, "pain": 8, "sponsor": 5, "responsive": 4 },
+      "techStack": ["composite AI", "AIOps", "autonomous agents", "incident lifecycle ML"],
+      "source": "TechCrunch / CIO Influence / TechFundingNews (April 16, 2026)",
+      "notes": "Raised $15M Series B from Yu Galaxy on April 16, 2026 (2 days ago) — freshest trigger on the board. 15 years of academic research at NC State; launched Autonomous Reliability Insights (ARI) product. Tier-1 customer logos (UBS, NBC, Google Cloud, Dell, Comcast). CEO explicitly told press the capital will 'fuel first dedicated sales and marketing hires.' That is a textbook AI-consulting signal: they are about to hire, need positioning/messaging help, and have no marketing DNA yet. Academic founder (NC State professor) suggests coachability. Strong trigger + strong pain + fresh money.",
+      "starred": true,
+      "contacts": [
+        { "name": "Gelin Gu", "title": "CEO & Founder (NC State CS Professor; ex-IBM, ex-Google)", "decisionMaker": true }
+      ]
+    },
+    {
+      "name": "Gumloop",
+      "website": "https://www.gumloop.com",
+      "pipeline": "ai-consulting",
+      "industry": "AI Agent Platform / Enterprise Workflow Automation",
+      "size": "Growth stage; customers include Shopify, Ramp, Gusto, Samsara, Instacart, Opendoor",
+      "location": "San Francisco, CA",
+      "fundingStage": "Series B ($50M, March 12, 2026) — led by Benchmark (Everett Randle's first investment at the firm)",
+      "fitScore": 40,
+      "intentScore": 40,
+      "fitDetails": { "industry": 9, "data_maturity": 9, "use_case": 8, "buyer_access": 6, "budget": 8 },
+      "intentDetails": { "signal": 14, "timeline": 8, "pain": 7, "sponsor": 6, "responsive": 5 },
+      "techStack": ["no-code", "multi-model routing (OpenAI/Anthropic/Gemini)", "natural-language workflow builder", "visual blocks"],
+      "source": "TechCrunch / Business Wire / Gumloop Blog / TechFundingNews (March 12, 2026)",
+      "notes": "Raised $50M Series B led by Benchmark on March 12, 2026 with Nexus VP, First Round, YC, Box Group, Shopify Ventures. Founder Max Brodeur-Urbas has said he's now 'building a dedicated sales force' — implies marketing/positioning need as well. Adjacent to Katie's AI-consulting ICP: enterprise AI agent deployment is the #1 buyer question today, and Gumloop is arguably a consulting partner more than a competitor. Potential both as a direct pr-marketing lead and as a channel partner for the AI-consulting practice.",
+      "starred": true,
+      "contacts": [
+        { "name": "Max Brodeur-Urbas", "title": "Co-founder & CEO", "decisionMaker": true }
+      ]
+    },
+    {
+      "name": "Checkbox",
+      "website": "https://www.checkbox.ai",
+      "pipeline": "legal-consulting",
+      "industry": "LegalTech / AI Legal Intake & Workflow Orchestration",
+      "size": "100+ enterprise customers (SAP, PepsiCo, Hitachi, multiple Fortune 500)",
+      "location": "Sydney, Australia / US (global)",
+      "fundingStage": "Series A ($23M, January 28, 2026) at $100M valuation — led by Touring Capital; Peak XV, Conductive, Tidal, Five V; angel: Jerry Ting (ex-Evisort CEO)",
+      "fitScore": 40,
+      "intentScore": 36,
+      "fitDetails": { "complexity": 12, "ongoing": 11, "org_size": 7, "dm_access": 5, "budget": 5 },
+      "intentDetails": { "active_problem": 14, "timeline": 7, "volume": 7, "pressure": 4, "responsive": 4 },
+      "techStack": ["AI workflow orchestration", "Slack/Teams/Email intake", "no-code builder", "agentic routing"],
+      "source": "Law.com / Artificial Lawyer / Axios / Business Wire (January 28, 2026)",
+      "notes": "Global 'AI Legal Front Door' for in-house legal teams — 83% of routine legal/compliance requests at Hitachi are now partially or fully automated by Checkbox. Jerry Ting (ex-Evisort CEO, now Workday VP/Head of Agentic AI) invested in the round — strong industry validation. Selling into enterprise in-house legal = high adjacency with our legal-consulting pipeline for Fortune 500 deployment advisory, change management, and compliance-driven rollouts. Less 'we need a lawyer' and more 'we want a strategic partner as we scale into the enterprise' — angle is advisory/ops, not transactional legal work.",
+      "starred": true,
+      "contacts": [
+        { "name": "Evan Wong", "title": "CEO & Co-founder", "decisionMaker": true },
+        { "name": "James Han", "title": "Co-founder & COO", "decisionMaker": true }
+      ]
+    },
+    {
+      "name": "Felix",
+      "website": "https://www.felix.ai",
+      "pipeline": "legal-consulting",
+      "industry": "LegalTech / AI Hyperautomation for Professional Services",
+      "size": "Pre-launch / newly public (April 2026)",
+      "location": "Prague, Czech Republic (global ambitions)",
+      "fundingStage": "Pre-seed ($1.7M, April 7, 2026) — led by XYZ Venture Capital",
+      "fitScore": 38,
+      "intentScore": 38,
+      "fitDetails": { "complexity": 10, "ongoing": 10, "org_size": 6, "dm_access": 8, "budget": 4 },
+      "intentDetails": { "active_problem": 14, "timeline": 9, "pain": 7, "sponsor": 4, "responsive": 4 },
+      "techStack": ["NLP", "LLMs", "deterministic workflow outputs", "compliance audit trail"],
+      "source": "Law.com / Business Wire / FinSMEs / Raising.fi (April 7, 2026)",
+      "notes": "Launched publicly on April 7, 2026 with $1.7M pre-seed led by XYZ Venture Capital. CEO Tomas Scavnicky previously built Parrot (legal workflow automation — acquired by FileVine in 2025). Angel participation from leaders at Amazon, Apple, Palantir, Flexport, Yelp, Midjourney. Selling into legal, finance, insurance — three of Katie's pipelines directly touch. Fresh launch + pre-seed = founder in full GTM mode, very coachable, needs positioning work. Small budget now but fast trajectory (serial founder w/ successful exit).",
+      "starred": false,
+      "contacts": [
+        { "name": "Tomas Scavnicky", "title": "CEO & Co-founder (ex-Parrot; sold to FileVine 2025)", "decisionMaker": true },
+        { "name": "Matej Vetrak", "title": "Co-founder (ex-Parrot staff engineer)", "decisionMaker": true }
+      ]
+    },
+    {
+      "name": "Aqualis Partners",
+      "website": "https://www.aqualispartners.com",
+      "pipeline": "fund-formation",
+      "industry": "Private Equity Secondaries (LP-led, GP-led, directs, preferreds)",
+      "size": "New firm — debut SPV in market $100M–$200M; Fund I targeting $400M–$750M later in 2026",
+      "location": "Darien, CT",
+      "fundingStage": "Launched Oct 2025; debut SPV raising now; Fund I H2 2026",
+      "fitScore": 46,
+      "intentScore": 42,
+      "fitDetails": { "manager_type": 15, "strategy": 10, "ops_readiness": 10, "jurisdiction": 5, "budget": 6 },
+      "intentDetails": { "anchor": 13, "launch_window": 10, "providers": 8, "urgency": 7, "referral": 4 },
+      "techStack": [],
+      "source": "PR Newswire / SecondariesInvestor / PitchBook / Private Equity International (March-April 2026)",
+      "notes": "Founder Cari Lodge is a 25-year secondaries veteran — previously led CF Private Equity secondaries (Commonfund subsidiary). Named one of Private Equity News' 'Twenty Most Influential in Secondaries 2025.' New GP, debut SPV now, Fund I landing later this year = perfect fund-formation ICP with a long runway of legal/fund-structure work ahead: LPA + side letters + GP restructures for both SPV and Fund I, plus ongoing opportunistic deal-by-deal work. Picking strength: brand-name founder, clean spinout, institutional LP base likely.",
+      "starred": true,
+      "contacts": [
+        { "name": "Cari Lodge", "title": "Founder & Managing Partner (ex-CF Private Equity Head of Secondaries)", "decisionMaker": true }
+      ]
+    },
+    {
+      "name": "Sycamore Tree Capital Partners",
+      "website": "https://www.sycamorelp.com",
+      "pipeline": "fund-formation",
+      "industry": "Private Credit / Credit Secondaries Platform",
+      "size": "~33 professionals; Dallas HQ + NY office; new platform launching",
+      "location": "Dallas, TX (+ New York, NY)",
+      "fundingStage": "Credit secondaries investment platform launched April 13, 2026; new strategy hires underway",
+      "fitScore": 41,
+      "intentScore": 37,
+      "fitDetails": { "manager_type": 11, "strategy": 10, "ops_readiness": 10, "jurisdiction": 5, "budget": 5 },
+      "intentDetails": { "anchor": 11, "launch_window": 9, "providers": 8, "urgency": 5, "referral": 4 },
+      "techStack": [],
+      "source": "Alternative Credit Investor / Morningstar / Business Wire / Alternatives Watch (April 13-14, 2026)",
+      "notes": "Founded by Mark Okada (Highland Capital co-founder), Trey Parker, Jack Yang. On April 13, 2026 announced a dedicated credit secondaries investment platform led by new hire Robert O'Connor as partner/PM. New strategy inside an existing firm = new LPA, new fund docs, new GP entity, new vehicle structures — meaningful fund-formation work even if not a 'Fund I emerging manager.' Institutional sophistication = likely paying for top-tier counsel, which is either risk (locked in) or opportunity (room for specialized secondaries-counsel angle).",
+      "starred": false,
+      "contacts": [
+        { "name": "Mark Okada", "title": "Co-founder & CEO (ex-Highland Capital co-founder)", "decisionMaker": true },
+        { "name": "Robert O'Connor", "title": "Partner & Portfolio Manager, Credit Secondaries (new hire April 2026)", "decisionMaker": true }
+      ]
+    },
+    {
+      "name": "5c(c) Capital",
+      "website": "",
+      "pipeline": "fund-formation",
+      "industry": "Venture Capital (Prediction Markets specialist — first fund in the category)",
+      "size": "Debut fund targeting up to $35M",
+      "location": "US",
+      "fundingStage": "Fund I raising, announced March 23, 2026; ~20 portfolio companies over 2 years; already backed by marquee investors",
+      "fitScore": 42,
+      "intentScore": 38,
+      "fitDetails": { "manager_type": 15, "strategy": 9, "ops_readiness": 7, "jurisdiction": 4, "budget": 7 },
+      "intentDetails": { "anchor": 13, "launch_window": 9, "providers": 5, "urgency": 7, "referral": 4 },
+      "techStack": [],
+      "source": "Fortune / Bloomberg / Coindesk / The Block / Crowdfund Insider (March 23, 2026)",
+      "notes": "Debut VC fund from two early Kalshi employees (Noah Zingler-Sternig ex-Head of Ops; Adhi Rajaprabhakaran ex-Kalshi market-maker trader) — category-defining as the FIRST prediction-markets-dedicated VC fund. Named for CEA §5c(c), the prediction markets exchange section. Backers: Shayne Coplan (Polymarket CEO), Tarek Mansour (Kalshi CEO), Marc Andreessen, Micky Malka (Ribbit), Kyle Samani (ex-Multicoin). Operators going GP for the first time = heavy legal need (LPA, fund docs, CFTC/SEC nuances given the prediction markets regulatory overlay). Strong ICP fit for fund-formation with a regulatory-adjacent angle. Website still developing — outreach is via LinkedIn/personal networks.",
+      "starred": true,
+      "contacts": [
+        { "name": "Noah Zingler-Sternig", "title": "Co-founder & GP (ex-Kalshi Head of Operations)", "decisionMaker": true },
+        { "name": "Adhi Rajaprabhakaran", "title": "Co-founder & GP (ex-Kalshi-affiliated market maker trader)", "decisionMaker": true }
+      ]
+    }
+  ]
+}
