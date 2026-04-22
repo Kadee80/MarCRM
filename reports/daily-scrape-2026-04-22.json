@@ -1,0 +1,150 @@
+{
+  "scrapeDate": "2026-04-22",
+  "totalLeads": 7,
+  "topPipeline": "ai-consulting",
+  "note": "7 new leads across 3 pipelines (ai-consulting, pr-marketing, fund-formation). The 4/20-4/21 funding window delivered a cluster of fresh AI/finance Series A's all suitable for AI-consulting or PR amplification: Monk ($25M Series A April 21 co-led by Footwork + Acrew — AI-native accounts receivable automation, 40% reduction in DSO), Zenskar ($15M Series A April 20 from Susquehanna + Bessemer + Shine — agentic B2B revenue automation, 5x revenue growth), and Coral ($12.5M Series A April 20 from Lightspeed + Z47 — AI healthcare admin workflow automation for specialty clinics). Legal/regulated-AI angle: Logicc (€2.5M seed April 20 — Hamburg-based secure AI for lawyers, doctors, public institutions; €1M ARR in 6 months). PR pipeline pair: Seapoint (€7.5M seed April 21 from 13books with Claire Hughes Johnson, Des Traynor, Laurence Krieger angels — ex-Stripe founders building AI financial ops for EU startups, classic brand-story target) and RIIG Technology/HOOTL ($6M Series A April 21 — AI healthcare insurance claims automation, Dubai JV + Canadian subsidiary expansion). Fund-formation lead: Trimontium Capital (launched November 2025 by Vlado Spasov, ex-head of capital solutions at DWS and ex-Blackstone MD — new London-based special situations/credit fund with a US anchor investor, hiring ex-Blackstone team). Neon DB unreachable from sandbox — run `node scripts/import-2026-04-22.cjs` locally to import. Deduplicated against 67 existing companies from prior scrapes (Wealth.com, Summize, Dolomite, Eyre Street, Air Street, Fedaia, Ferghana, OpenArc, Orbital, depthfirst, Tazapay, Round Treasury, Spektr, Complyance, FINTECH.TV, Sigla Capital, Awani Capital, Eudia, Lawhive, Littlefish, Haast, Delve, Gizmo, Goldenpeak, Shepherd, InsightFinder, Gumloop, Checkbox, Felix, Aqualis Partners, Sycamore Tree, 5c(c) Capital, Wonderful, Solidroad, Parasail, Joyful Health, ScreenPoint Medical, Nas.com, Shiprock Capital Management, and others).",
+  "leads": [
+    {
+      "name": "Monk",
+      "website": "https://monk.com",
+      "pipeline": "ai-consulting",
+      "industry": "AI Accounts Receivable / B2B Finance Automation / Contract-to-Cash",
+      "size": "Growth-stage; total funding $29M post-raise; customer outcomes include 40% DSO reduction and 24% improvement in collections response rates",
+      "location": "United States",
+      "fundingStage": "Series A ($25M, April 21, 2026) — co-led by Footwork and Acrew Capital, continued participation from BTV (total raised $29M)",
+      "fitScore": 42,
+      "intentScore": 41,
+      "fitDetails": { "industry": 9, "data_maturity": 9, "use_case": 9, "buyer_access": 7, "budget": 8 },
+      "intentDetails": { "signal": 18, "timeline": 9, "pain": 7, "sponsor": 4, "responsive": 3 },
+      "techStack": ["agentic AI", "contract-to-cash automation", "invoicing AI", "collections AI", "cash application"],
+      "source": "Axios Pro / PR Newswire / TipRanks / Pulse 2.0 (April 21, 2026)",
+      "notes": "$25M Series A co-led by Footwork + Acrew Capital announced April 21, 2026 — 1 day ago. AI-native accounts receivable platform automating the full contract-to-cash lifecycle for B2B companies (invoicing, collections, cash application, dispute resolution). Reports customer outcomes of 40% DSO reduction, 25+ hours/month time savings for AR teams, and 24% improvement in collections response rates — strong quantified proof points for AI-consulting deployment. Fresh capital explicitly earmarked for R&D and category-building — means post-raise GTM buildout is imminent. Primary angle: AI-consulting partnership for enterprise finance AI deployments (CFO/Controller buyer). Secondary angle: pr-marketing amplification of the contract-to-cash category narrative.",
+      "starred": true,
+      "contacts": [
+        { "name": "Monk Founding Team", "title": "Leadership (see monk.com/team for names)", "decisionMaker": true }
+      ]
+    },
+    {
+      "name": "Zenskar",
+      "website": "https://www.zenskar.com",
+      "pipeline": "ai-consulting",
+      "industry": "AI Revenue Automation / B2B Billing / Order-to-Cash Agents",
+      "size": "Growth-stage; 5x revenue growth over past year; customers include Thriva, Pontera, Yembo, Vertice, Posh",
+      "location": "United States / India (global)",
+      "fundingStage": "Series A ($15M, April 20, 2026) — led by Susquehanna Venture Capital, Bessemer Venture Partners, Shine Capital, and Rho; participation from Rocketship, J-Ventures, Future Back Ventures by Bain & Company, Converge",
+      "fitScore": 41,
+      "intentScore": 41,
+      "fitDetails": { "industry": 9, "data_maturity": 9, "use_case": 9, "buyer_access": 7, "budget": 7 },
+      "intentDetails": { "signal": 17, "timeline": 9, "pain": 7, "sponsor": 5, "responsive": 3 },
+      "techStack": ["agentic AI", "Agents Marketplace", "billing automation", "revenue recognition", "order-to-cash"],
+      "source": "BusinessWire / Fintech Global / PYMNTS / Financial IT / Yahoo Finance (April 20, 2026)",
+      "notes": "$15M Series A led by Susquehanna + Bessemer + Shine + Rho on April 20, 2026 — 2 days ago. AI-native billing and revenue automation platform for complex B2B businesses. Explicitly named customer ROI: Thriva went from days to hours for monthly billing, Yembo collects 50% of revenue a month earlier, Vertice closes books 70% faster. Capital earmarked for Agents Marketplace — a library of AI agents finance teams can build, chain, and deploy without engineering. Strong signal for AI-consulting practice: customers need help architecting agent workflows (training, governance, chaining). Pair Monk + Zenskar as twin targets — both Apr 20-21, both order-to-cash, both just-funded. Secondary: pr-marketing on the 'zero-touch finance' category narrative.",
+      "starred": true,
+      "contacts": [
+        { "name": "Apurv Bansal", "title": "CEO & Co-founder", "decisionMaker": true },
+        { "name": "Saurabh Agrawal", "title": "CTO & Co-founder", "decisionMaker": false }
+      ]
+    },
+    {
+      "name": "Coral",
+      "website": "https://www.usecoral.com",
+      "pipeline": "ai-consulting",
+      "industry": "HealthTech / AI Administrative Automation / Specialty Clinic Workflow",
+      "size": "Early-growth; serves specialty clinics; integrates with EHRs, fax lines, and payer portals",
+      "location": "New York, NY",
+      "fundingStage": "Series A ($12.5M, April 20, 2026) — led by Lightspeed Venture Partners and Z47",
+      "fitScore": 38,
+      "intentScore": 38,
+      "fitDetails": { "industry": 9, "data_maturity": 8, "use_case": 9, "buyer_access": 6, "budget": 6 },
+      "intentDetails": { "signal": 16, "timeline": 8, "pain": 7, "sponsor": 4, "responsive": 3 },
+      "techStack": ["AI patient intake", "prior authorization automation", "fax processing AI", "EHR integration", "payer portal automation"],
+      "source": "The Next Web / Crain's New York / Unite.AI / StartupHub.ai / Z47 (April 20, 2026)",
+      "notes": "$12.5M Series A led by Lightspeed + Z47 on April 20, 2026. AI-native admin-workflow automation for specialty healthcare providers — handles patient intake, prior authorization, fax processing, and payer/patient follow-up. Plugs into existing EHRs, fax lines, and payer portals (sticky, deep integration work). NYC-based, scaling across specialty clinic segment. Complements Joyful Health (pr-marketing, April 16 raise) as the healthcare-AI cohort story. Primary angle: AI-consulting partnership for specialty-practice rollouts and payer-integration engineering work. Secondary: pr-marketing on the 'administrative back office is the last unautomated healthcare frontier' narrative.",
+      "starred": false,
+      "contacts": [
+        { "name": "Coral Founding Team", "title": "Leadership", "decisionMaker": true }
+      ]
+    },
+    {
+      "name": "Seapoint",
+      "website": "https://www.seapoint.co",
+      "pipeline": "pr-marketing",
+      "industry": "FinTech / AI Financial Operations / Startup Back Office Automation",
+      "size": "Early-growth; Dublin + London; opening to all UK and Irish founders at launch",
+      "location": "Dublin, Ireland / London, UK",
+      "fundingStage": "Seed (€7.5M, April 21, 2026) — led by 13books Capital with 40+ angels including Claire Hughes Johnson (ex-COO Stripe), Des Traynor (co-founder Intercom), Laurence Krieger (ex-UK CEO Tide / ex-COO Revolut), Luke Mackey (CEO Kota). Total raised €10M.",
+      "fitScore": 41,
+      "intentScore": 40,
+      "fitDetails": { "industry": 9, "stage": 9, "buyer": 9, "proof": 9, "budget": 5 },
+      "intentDetails": { "trigger": 14, "timeline": 9, "dm_engaged": 7, "urgency": 6, "responsive": 4 },
+      "techStack": ["AI-native financial ops", "banking automation", "startup back office", "multi-entity finance"],
+      "source": "Fintech Global / TechFundingNews / ThinkBusiness / The Next Web / 13books (April 21, 2026)",
+      "notes": "€7.5M seed led by 13books Capital on April 21, 2026 — 1 day ago. Founded by ex-Stripe executives building the AI-native financial ops platform for European startups. The angel roster is a PR masterclass waiting to happen — Claire Hughes Johnson (ex-Stripe COO), Des Traynor (Intercom co-founder), Laurence Krieger (ex-Revolut COO + ex-Tide UK CEO), Luke Mackey (Kota CEO) — all are quotable, press-ready, founder-revered names. Fresh public launch to all UK/Ireland founders creates a natural launch-PR moment. Primary angle: PR + brand positioning for the public launch narrative ('Stripe alumni take on the startup back office'). Secondary angle: founder-led media — Michael McFadgen of 13books on the board is a relationship-led investor, warm-intro-friendly. Budget constrained (seed-stage €), so scope-controlled retainer is the path.",
+      "starred": true,
+      "contacts": [
+        { "name": "Seapoint Founders (ex-Stripe)", "title": "CEO / Co-founders", "decisionMaker": true },
+        { "name": "Michael McFadgen", "title": "Partner at 13books / Board Member (referral path)", "decisionMaker": false }
+      ]
+    },
+    {
+      "name": "RIIG Technology (HOOTL)",
+      "website": "https://www.riigtech.com",
+      "pipeline": "pr-marketing",
+      "industry": "HealthTech / AI Insurance Claims Automation / Field Service Management",
+      "size": "Early-growth; dental solution live with OpenDental and Dentrix Cloud integrations; readying roofing field-service suite",
+      "location": "United States (with Dubai JV and Canadian subsidiary)",
+      "fundingStage": "Series A ($6M+, April 21, 2026) — Family Offices, a publicly listed entity, and HNWIs (total public entity investors)",
+      "fitScore": 37,
+      "intentScore": 36,
+      "fitDetails": { "industry": 8, "stage": 8, "buyer": 9, "proof": 7, "budget": 5 },
+      "intentDetails": { "trigger": 13, "timeline": 8, "dm_engaged": 6, "urgency": 6, "responsive": 3 },
+      "techStack": ["HOOTL AI automation", "healthcare claims verification", "field service management", "dental practice management integration"],
+      "source": "BusinessWire / Fintech Global / Pulse 2.0 / Morningstar / MedTech Spectrum (April 21, 2026)",
+      "notes": "$6M+ Series A on April 21, 2026 from Family Offices, a publicly listed entity, and HNWIs — unusual investor mix (non-VC) signals strategic operator capital rather than growth-VC pressure. Dual-vertical platform: AI healthcare insurance claims (dental live with OpenDental/Dentrix Cloud) + AI field service management (roofing, in progress). Dubai-government JV and Canadian subsidiary expansion give multiple geographic narratives for PR. 'Humans Out of the Loop' brand is memorable and media-friendly. Primary angle: post-raise PR amplification across healthcare trade press + roofing/field-service verticals. Secondary: AI-consulting on the healthcare-to-field-service platform expansion playbook. Budget constraint noted — smaller raise, so structure engagement around a launch sprint or milestone-based retainer.",
+      "starred": false,
+      "contacts": [
+        { "name": "RIIG Leadership Team", "title": "CEO / Founding Team (HOOTL brand)", "decisionMaker": true }
+      ]
+    },
+    {
+      "name": "Logicc",
+      "website": "https://www.logicc.de",
+      "pipeline": "ai-consulting",
+      "industry": "Secure Enterprise AI / Regulated Industries / Legal-Healthcare-Public Sector AI",
+      "size": "Early-growth; €1M+ ARR in first 6 months post-launch; Hamburg, Germany",
+      "location": "Hamburg, Germany",
+      "fundingStage": "Seed (€2.5M, April 20, 2026) — undisclosed investor group backing Germany's secure AI market",
+      "fitScore": 35,
+      "intentScore": 37,
+      "fitDetails": { "industry": 8, "data_maturity": 8, "use_case": 8, "buyer_access": 6, "budget": 5 },
+      "intentDetails": { "signal": 15, "timeline": 8, "pain": 7, "sponsor": 4, "responsive": 3 },
+      "techStack": ["secure AI platform", "data residency", "regulated-industry AI", "on-prem / private cloud AI"],
+      "source": "EU-Startups / FoundersToday / Vestbee / TheAIWorld / Inforcapital (April 20, 2026)",
+      "notes": "€2.5M seed on April 20, 2026 for Hamburg-based secure AI platform serving lawyers, doctors, and public institutions — the three most data-sensitive buyer segments in the EU. €1M+ ARR in 6 months is a notable proof point for a seed-stage infra company. Germany's secure-AI momentum is a narrative arc (GDPR + AI Act convergence). Primary angle: AI-consulting partnership for EU-regulated buyers — Logicc's platform + Katie's practice can bundle deployment services for law firms and health systems evaluating the platform. Secondary angle: pr-marketing on the 'sovereign AI for regulated Europe' storyline. Budget is tight at seed, so pitch a bundled referral arrangement rather than a fixed retainer.",
+      "starred": false,
+      "contacts": [
+        { "name": "Logicc Founders", "title": "CEO / CTO", "decisionMaker": true }
+      ]
+    },
+    {
+      "name": "Trimontium Capital",
+      "website": "https://www.trimontium.com",
+      "pipeline": "fund-formation",
+      "industry": "Alternative Asset Manager / Credit / Special Situations / Capital Solutions",
+      "size": "New manager; launched November 2025; building team from Blackstone alumni",
+      "location": "London, UK",
+      "fundingStage": "Inaugural fund in formation — anchor investment secured from a large US-based investment manager; first institutional vehicle",
+      "fitScore": 41,
+      "intentScore": 38,
+      "fitDetails": { "manager_type": 14, "strategy": 9, "ops_readiness": 8, "jurisdiction": 4, "budget": 6 },
+      "intentDetails": { "anchor": 13, "launch_window": 9, "providers": 5, "urgency": 7, "referral": 4 },
+      "techStack": [],
+      "source": "With Intelligence / LinkedIn (Jinni) / AlphaMaven / Trimontium.com (November 2025 launch announcement, continued coverage through Q1 2026)",
+      "notes": "Launched November 2025 by Vlado Spasov — ex-head of capital solutions at DWS Group (where he led the business prior to DWS restructuring private credit) and ex-Managing Director at Blackstone's hedge fund business. London-based, investing in US and Western European capital-solutions / special-situations / complexity-and-dislocation trades. Large US-based anchor investment already secured (implies inaugural fund is in active formation, not just an idea). Building team from Blackstone alumni — classic emerging-manager pattern with pedigreed founding team and hiring into live fund formation. Archetype fund-formation target: first-time institutional vehicle, UK regulatory structuring, credit strategy with potential offshore feeder for US LPs. Warm-intro path is via Blackstone alumni network or via the US anchor LP. Competes with existing legal heavyweights, so Katie's value prop has to lean on founder-friendliness + speed vs. marquee-brand credibility.",
+      "starred": true,
+      "contacts": [
+        { "name": "Vlado Spasov", "title": "Founder & CIO (ex-DWS Head of Capital Solutions, ex-Blackstone MD)", "decisionMaker": true }
+      ]
+    }
+  ]
+}
