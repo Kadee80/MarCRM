@@ -6,6 +6,8 @@ export const PIPELINES = [
   { id: "coaching-ops", label: "Coaching & Ops", short: "Coach/Ops", color: "amber", description: "Fractional ops + revenue growth coaching" },
   { id: "media", label: "Media / Podcast", short: "Media", color: "rose", description: "Pay-to-play video podcast & interview media" },
   { id: "ai-consulting", label: "AI & Tech Consulting", short: "AI/Tech", color: "violet", description: "AI strategy, pilots, production, governance" },
+  { id: "legal-freelance", label: "Legal Freelance Work", short: "Legal Freelance", color: "slate", description: "Contract / fractional / interim corporate & fund counsel roles for Katie" },
+  { id: "pr-freelance", label: "PR Freelance Work", short: "PR Freelance", color: "teal", description: "Outsourced PR/comms execution + strategic advisory contracts for Katie" },
 ];
 
 export const FUNNEL_STAGES = [
@@ -111,6 +113,38 @@ export const SCORING_CRITERIA = {
       { id: "responsive", label: "Responsiveness / momentum", max: 5 },
     ],
   },
+  "legal-freelance": {
+    fit: [
+      { id: "practice_area", label: "Practice area match (funds/private funds/fund formation)", max: 15 },
+      { id: "corporate_match", label: "Corporate / commercial contracts / M&A / financing fit", max: 10 },
+      { id: "seniority", label: "Seniority match (counsel / GC / special counsel level)", max: 10 },
+      { id: "comp_credible", label: "Comp stated and looks market-credible", max: 10 },
+      { id: "buyer_quality", label: "Buyer quality (fund / portfolio co / law firm / ALSP / staffing)", max: 5 },
+    ],
+    intent: [
+      { id: "engagement_model", label: "Engagement model (contract / fractional / interim / freelance)", max: 15 },
+      { id: "remote_flex", label: "Remote or hybrid-flex available", max: 10 },
+      { id: "recency", label: "Posted within 72 hours", max: 10 },
+      { id: "apply_path", label: "Easy apply / direct contact / fast recruiter path", max: 10 },
+      { id: "urgency", label: "Urgency language (immediate need / overflow / starting now)", max: 5 },
+    ],
+  },
+  "pr-freelance": {
+    fit: [
+      { id: "pr_remit", label: "PR / comms / media relations clearly stated (not social-only / event)", max: 15 },
+      { id: "sector_fit", label: "Sector fit (finance, legal, PE/VC, B2B, asset mgmt)", max: 10 },
+      { id: "workstream", label: "Workstream match (exec comms, thought leadership, earned media, IR)", max: 10 },
+      { id: "buyer_quality", label: "Buyer quality (agency, IR firm, PE-backed co, pre-IPO, brand-build startup)", max: 10 },
+      { id: "comp_credible", label: "Paid + market-credible (not unpaid / commission-only / intern)", max: 5 },
+    ],
+    intent: [
+      { id: "engagement_model", label: "Engagement model (freelance / contract / retainer / fractional / interim)", max: 15 },
+      { id: "remote_flex", label: "Remote / part-time / flexible", max: 10 },
+      { id: "recency", label: "Posted within 72 hours", max: 10 },
+      { id: "urgency", label: "Urgency / overflow / agency support / white-label / immediate need", max: 10 },
+      { id: "apply_path", label: "Direct apply or direct contact path", max: 5 },
+    ],
+  },
 };
 
 // ─── Signal categories for scraping per pipeline ────────────────────
@@ -158,6 +192,24 @@ export const SIGNAL_CATEGORIES = {
     { id: "pilot_pain", label: "Pilot-to-Production Pain", keywords: ["pilots didn't scale", "need governance", "model monitoring"] },
     { id: "regulated_ai", label: "Regulated AI Need", keywords: ["AI policy", "model risk management", "responsible AI"] },
   ],
+  "legal-freelance": [
+    { id: "title_fund_counsel", label: "Fund / Private Funds Counsel Posting", keywords: ["fund formation counsel", "fund counsel", "private funds counsel", "investment funds attorney", "securities counsel"] },
+    { id: "title_fractional_gc", label: "Fractional / Interim / Outside GC Posting", keywords: ["fractional general counsel", "interim general counsel", "outside general counsel", "fractional GC", "interim GC"] },
+    { id: "title_contract_attorney", label: "Contract / Freelance Attorney Posting", keywords: ["contract attorney", "freelance attorney", "contract counsel", "project attorney", "part-time attorney", "legal consultant"] },
+    { id: "title_corporate", label: "Corporate / Commercial Contracts Posting", keywords: ["commercial contracts attorney", "corporate counsel", "corporate attorney", "commercial counsel"] },
+    { id: "engagement_qualifier", label: "Freelance / Contract Engagement Qualifier", keywords: ["fractional", "interim", "contract", "freelance", "retainer", "1099", "hourly", "project-based"] },
+    { id: "workstream_signal", label: "Target Workstream in Description", keywords: ["side letters", "fund formation", "M&A diligence", "venture financings", "SAFEs", "cap table", "LP/GP", "outside general counsel", "commercial contracts"] },
+    { id: "low_fit_filter", label: "Low-Fit Practice Areas (suppress)", keywords: ["litigation", "trusts and estates", "family law", "insurance defense", "criminal", "immigration", "court appearance"] },
+  ],
+  "pr-freelance": [
+    { id: "title_pr_freelance", label: "Freelance PR / Publicist Posting", keywords: ["freelance public relations", "freelance publicist", "PR consultant", "contract publicist", "freelance PR"] },
+    { id: "title_comms_consultant", label: "Communications / Media Relations Consultant", keywords: ["communications consultant", "media relations consultant", "earned media consultant", "contract communications manager"] },
+    { id: "title_fractional_comms", label: "Fractional / Interim Communications Lead", keywords: ["fractional communications", "interim communications director", "fractional comms", "fractional CMO communications"] },
+    { id: "title_overflow", label: "Agency Overflow / White-Label / Outsourced", keywords: ["agency overflow", "white-label PR", "outsourced communications", "agency freelancer", "project-based PR"] },
+    { id: "engagement_qualifier", label: "Freelance / Contract Engagement Qualifier", keywords: ["freelance", "contract", "retainer", "hourly", "project-based", "outsourced", "fractional", "interim", "part-time"] },
+    { id: "workstream_signal", label: "Target Workstream in Description", keywords: ["executive comms", "thought leadership", "media relations", "press release", "investor narrative", "product launch comms", "earned media"] },
+    { id: "low_fit_filter", label: "Low-Fit Roles (suppress)", keywords: ["social media only", "event staffing", "influencer only", "unpaid", "commission only", "internship"] },
+  ],
 };
 
 export const BUYER_PERSONAS = {
@@ -167,4 +219,6 @@ export const BUYER_PERSONAS = {
   "coaching-ops": ["Founder / CEO", "COO / Head of Ops", "CFO", "EA / Chief of Staff", "GM / President", "Sales Manager (influencer)"],
   "media": ["CEO / Founder", "CMO / Head of Growth", "Head of Comms / PR", "CTO (tech)", "Product Marketing", "Compliance Lead (FS influencer)"],
   "ai-consulting": ["CIO / CTO", "Head of Data / AI", "VP Engineering", "VP Ops / COO", "Head of CX", "CISO (influencer)", "AI Product Manager"],
+  "legal-freelance": ["GC / Deputy GC (Fund or Portfolio Co)", "COO / CFO (Operating Co)", "Managing Partner / Director (Boutique Law Firm overflow)", "Recruiter (Legal Staffing / ALSP)", "Founder / Operating Partner (PE/VC fund)", "Head of Legal Ops"],
+  "pr-freelance": ["Head of Comms / VP Marketing (Operating Co or Agency)", "IR / Investor Relations Lead", "CMO / Founder", "Recruiter (PR Agency / IR Firm)", "Operating Partner (PE/VC for portfolio comms)", "Account Director (Agency overflow)"],
 };
