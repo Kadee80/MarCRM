@@ -1,0 +1,161 @@
+{
+  "scrapeDate": "2026-04-24",
+  "totalLeads": 6,
+  "topPipeline": "ai-consulting",
+  "note": "6 new leads across 3 pipelines (ai-consulting, pr-marketing, media). The 4/22-4/23 funding window delivered a fresh cohort of AI-infrastructure stealth-exits and Series A/B announcements. AI-consulting cluster: Spectrum Security ($19M seed April 22 from TechOperators + WhiteRabbit + Skinos — AI-era detection automation, 99% reduction in detection authoring time), Copperhelm ($7M seed April 23 from TLV Partners — agentic cloud security Context Lake with Fortune 500 paying customer), and Aaru ($80M Series A April 23 from Redpoint at $1B headline valuation — AI synthetic research / simulated agents, customers include Accenture, EY, IPG). PR-marketing: Orkes ($60M Series B April 23 from AVP + Prosperity7 + Nexus + Battery — agentic workflow orchestration built by original Netflix microservices architects, customers include LinkedIn, Twilio, Quest Diagnostics, United Wholesale Mortgage — strong B2B-tech brand story). Media cluster: Shade ($14M April 23 from Khosla + Construct + Bling — AI-native video/media asset search, $300k MRR, enterprise NAS for creative teams) and Rebel Audio ($3.8M seed — AI-powered podcast creation platform from Jared Gutstadt with Mark Burnett as first adviser, public launch May 30). No fund-formation leads qualified today (AngelList USVC is too large; Collide Capital Fund II already in CRM from 4/16 scrape). No legal-consulting or coaching-ops signals surfaced. Neon DB unreachable from sandbox — run `node scripts/import-2026-04-24.cjs` locally to import. Deduplicated against 193 existing names (Monk, Zenskar, Coral, Seapoint, RIIG, Trimontium, Logicc, Collide Capital, Joyful Health, Orbital, Wealth.com, Summize, Dolomite, Ferghana, Eyre Street, and 178 others).",
+  "leads": [
+    {
+      "name": "Orkes",
+      "website": "https://orkes.io",
+      "pipeline": "pr-marketing",
+      "industry": "Agentic AI / Workflow Orchestration / Enterprise Developer Platform",
+      "size": "Series B; tripled customer base since 2024 A; hundreds of thousands of developers in community; millions of installs",
+      "location": "United States (Cupertino, CA HQ; global)",
+      "fundingStage": "Series B ($60M, April 23, 2026) — led by AVP, with new investor Prosperity7 Ventures, plus existing Nexus Venture Partners, Battery Ventures, Vertex Ventures US. Total raised ~$90M.",
+      "fitScore": 45,
+      "intentScore": 40,
+      "fitDetails": { "industry": 10, "stage": 8, "buyer": 9, "proof": 10, "budget": 8 },
+      "intentDetails": { "trigger": 14, "timeline": 9, "dm_engaged": 7, "urgency": 6, "responsive": 4 },
+      "techStack": ["agentic orchestration", "durable workflows", "Netflix Conductor lineage", "microservices orchestration", "human-in-the-loop", "API orchestration"],
+      "source": "Finsmes / AVP / TechStartups / AlleyWatch / JustAINews (April 23, 2026)",
+      "notes": "$60M Series B led by AVP on April 23, 2026 — 1 day ago. Built by original architects of Netflix's microservices orchestration (Conductor lineage). Customer roster is the story: LinkedIn, Twilio, Quest Diagnostics, United Wholesale Mortgage, Naveo Commerce, Woodside Energy. Capital earmarked for agentic AI GTM. Primary angle: pr-marketing — AI-orchestration category narrative is contested (Temporal, LangGraph, Airflow, n8n all fighting for dev mindshare) and Orkes has the strongest 'serious enterprise' proof in the bunch. Secondary angle: media-podcast for founder-led category-building interview series. Skip ai-consulting (they ARE the infra vendor, not a consumer).",
+      "starred": true,
+      "contacts": [
+        { "name": "Orkes Leadership Team", "title": "CEO / Founders (ex-Netflix Conductor architects)", "decisionMaker": true }
+      ]
+    },
+    {
+      "name": "Rebel Audio",
+      "website": "https://www.rebelaudio.ai",
+      "pipeline": "media",
+      "industry": "AI Podcast Production / Creator Platform / Audio Media",
+      "size": "Early-stage; public launch May 30, 2026; oversubscribed in 30 days",
+      "location": "United States (Tennessee — Launch Tennessee backing)",
+      "fundingStage": "Seed ($3.8M, oversubscribed) — investors include Julie Gauthier, Benjamin Lurie, Jonathan Schulman, Dr. Armin Tehrany, Dr. Richard Firshein, Launch Tennessee. Advisor: Mark Burnett.",
+      "fitScore": 40,
+      "intentScore": 44,
+      "fitDetails": { "industry": 10, "complexity": 8, "credibility": 8, "distribution": 8, "budget": 6 },
+      "intentDetails": { "signal": 18, "timeline": 9, "exec": 9, "responsive": 4, "goal": 4 },
+      "techStack": ["AI voice cloning", "AI translation", "host-read ad generation", "social podcasting", "integrated video hosting"],
+      "source": "Variety / TechCrunch / Podnews / PR Newswire / Podcast Videos (March-April 2026)",
+      "notes": "Stealth exit with $3.8M oversubscribed seed. Founder Jared Gutstadt is a 2x Emmy nominee with celebrity credential catalog (Dylan, Lil Wayne, The Weeknd, Jelly Roll). Mark Burnett on board as first advisor — massive press hook. Public launch May 30, 2026 — 36 days out — is the urgent trigger. Primary angle: media pipeline — classic credibility-sensitive consumer launch needing PR amplification for the May 30 window. Voice-cloning + translation story lines up with the 'AI podcasting for first-time creators' narrative. Secondary angle: pr-marketing for AI-ethics / opt-in-consent frame (differentiator vs. deepfake panic). Not an AI-consulting target — they're the vendor.",
+      "starred": true,
+      "contacts": [
+        { "name": "Jared Gutstadt", "title": "Founder & CEO", "decisionMaker": true },
+        { "name": "Mark Burnett", "title": "Adviser", "decisionMaker": false }
+      ]
+    },
+    {
+      "name": "Shade",
+      "website": "https://shade.inc",
+      "pipeline": "media",
+      "industry": "AI Media Asset Management / Enterprise Creative Cloud / Video Search",
+      "size": "Growth-stage; $300k MRR by April 2026; enterprise creative teams as customers",
+      "location": "United States (San Francisco, CA)",
+      "fundingStage": "Series A extension ($14M, April 23, 2026) — led by Khosla Ventures, Construct Capital, Bling Capital; plus existing General Catalyst, SignalFire, Contrary. Total raised $20M.",
+      "fitScore": 41,
+      "intentScore": 42,
+      "fitDetails": { "industry": 8, "complexity": 9, "credibility": 8, "distribution": 8, "budget": 8 },
+      "intentDetails": { "signal": 18, "timeline": 8, "exec": 8, "responsive": 4, "goal": 4 },
+      "techStack": ["natural-language video search", "AI scene detection", "intelligent cloud NAS", "media asset management", "embeddings search"],
+      "source": "TechCrunch / CMSWire / FoundersToday / AlleyWatch (April 22-23, 2026)",
+      "notes": "$14M Series A extension on April 23, 2026 led by Khosla + Construct + Bling. 'AI-powered cloud NAS' for creative teams — natural language search surfaces specific video moments ('a person holding a laptop in snow' returns matching clips with timestamps). $300k MRR is a strong proof point for enterprise GTM. Primary angle: media — strong product-storytelling hook, credibility-sensitive enterprise buyer (head of post-production, creative ops). Secondary angle: pr-marketing for the 'media asset management is the next MLOps' narrative. Founders Brandon Fan (CEO) and Emerson Dove (CTO) public and available for press.",
+      "starred": true,
+      "contacts": [
+        { "name": "Brandon Fan", "title": "CEO & Co-founder", "decisionMaker": true },
+        { "name": "Emerson Dove", "title": "CTO & Co-founder", "decisionMaker": false }
+      ]
+    },
+    {
+      "name": "Aaru",
+      "website": "https://www.aaru.com",
+      "pipeline": "ai-consulting",
+      "industry": "AI Synthetic Research / Simulated Agents / Consumer & Political Prediction",
+      "size": "Growth-stage; $88M total equity; customers include Accenture, EY, Interpublic Group, political campaigns",
+      "location": "United States",
+      "fundingStage": "Series A ($80M, April 23, 2026) — led by Redpoint Ventures at a $1B headline valuation (multi-tier blended valuation lower). Total raised $88M.",
+      "fitScore": 42,
+      "intentScore": 39,
+      "fitDetails": { "industry": 9, "data_maturity": 9, "use_case": 9, "buyer_access": 7, "budget": 8 },
+      "intentDetails": { "signal": 18, "timeline": 8, "pain": 6, "sponsor": 4, "responsive": 3 },
+      "techStack": ["simulated AI agents", "synthetic research", "consumer behavior prediction", "polling models", "agent-based simulation"],
+      "source": "TechCrunch / Yahoo Finance / CryptoRank / TechBuzz / AIBase (April 23, 2026)",
+      "notes": "$80M Series A led by Redpoint on April 23, 2026 at $1B headline (blended below). AI synthetic-research platform — generates thousands of simulated agents from public + proprietary data. Correctly predicted NY Democratic primary. Customer partners: Accenture, EY, Interpublic Group, political campaigns. Primary angle: ai-consulting — consulting firms (Accenture/EY/IPG) already deploy Aaru but will need internal AI-strategy help on methodology/governance/audit to roll it into client engagements. Buyer is Chief Research Officer, Chief Analytics Officer at brand-side enterprises considering synthetic research. Secondary angle: pr-marketing — $1B valuation in synthetic-research is the biggest funding story in the category, ride the narrative.",
+      "starred": true,
+      "contacts": [
+        { "name": "Aaru Founders", "title": "CEO / Leadership (public)", "decisionMaker": true }
+      ]
+    },
+    {
+      "name": "Spectrum Security",
+      "website": "https://www.spectrum.security",
+      "pipeline": "ai-consulting",
+      "industry": "Cybersecurity / AI Detection Engineering / SIEM-EDR Automation",
+      "size": "Early-growth; live enterprise customers; stealth exit April 22, 2026",
+      "location": "United States",
+      "fundingStage": "Seed ($19M, April 22, 2026) — led by TechOperators, with WhiteRabbit Ventures, Skinos Ventures (new Shlomo Kramer + Yishay Yovel fund), Alumni Ventures, plus cybersecurity operator angels.",
+      "fitScore": 41,
+      "intentScore": 41,
+      "fitDetails": { "industry": 8, "data_maturity": 9, "use_case": 9, "buyer_access": 7, "budget": 8 },
+      "intentDetails": { "signal": 18, "timeline": 9, "pain": 7, "sponsor": 4, "responsive": 3 },
+      "techStack": ["AI detection authoring", "SIEM automation", "EDR automation", "data lake integration", "coverage health monitoring"],
+      "source": "Yahoo Finance / Fintech Global / TamRadar / Citybiz / Spectrum.Security blog (April 22, 2026)",
+      "notes": "$19M seed led by TechOperators on April 22, 2026 — 2 days ago. Automates the full detection lifecycle: monitoring gaps, authoring detections, deploying across SIEMs/data lakes/EDRs, and maintaining resiliency. Reported customer outcome: 121 days → under 30 minutes for detection authoring (99% reduction), 90% engineering-hours cut. Primary angle: ai-consulting — CISO buyer for AI-detection engineering deployments at mid-market+ enterprises, especially FS/regulated buyers who need detection-engineering governance + audit. Pair with Copperhelm as a cybersec-AI cohort story. Skinos Ventures involvement (Shlomo Kramer-backed) means strong Israeli security operator network — access to top CISOs.",
+      "starred": false,
+      "contacts": [
+        { "name": "Spectrum Security Founders", "title": "CEO / Leadership", "decisionMaker": true }
+      ]
+    },
+    {
+      "name": "Copperhelm",
+      "website": "https://copperhelm.com",
+      "pipeline": "ai-consulting",
+      "industry": "Cybersecurity / Agentic Cloud Security / Cloud Risk Remediation",
+      "size": "Early-growth; Fortune 500 paying customer at launch; stealth exit April 23, 2026",
+      "location": "Israel / United States",
+      "fundingStage": "Seed ($7M, April 23, 2026) — led by TLV Partners, with toDay Ventures, ICON, SaaS Ventures Israel.",
+      "fitScore": 39,
+      "intentScore": 39,
+      "fitDetails": { "industry": 8, "data_maturity": 9, "use_case": 9, "buyer_access": 7, "budget": 6 },
+      "intentDetails": { "signal": 17, "timeline": 8, "pain": 7, "sponsor": 4, "responsive": 3 },
+      "techStack": ["agentic cloud security", "Context Lake", "AI investigation agents", "automated remediation", "cloud posture"],
+      "source": "PR Newswire / Fintech Global / CIO Influence / SecurityWeek / Calcalistech / SiliconANGLE (April 23, 2026)",
+      "notes": "$7M seed on April 23, 2026 led by TLV Partners. Founded by Shimon Tolts (CEO, AWS Hero, ex-JFrog/Datree), Eyar Zilberman (CISO, GitHub Star), Roman Labunsky — team includes alums from Unity, McAfee, RSA. 'Context Lake' = real-time decision layer for cloud security; AI agents investigate + remediate. Reported outcome: one Fortune 500 customer took 6M raw findings → 'few hundred' evidence-backed validated risks. Primary angle: ai-consulting — CISO/Head of Cloud Security buyer for agentic-remediation rollouts at mid-market FS/tech customers. Pair with Spectrum Security as cohort targets. Smaller budget than Spectrum but higher founder-brand (Tolts is public figure in Israeli cloud infra).",
+      "starred": false,
+      "contacts": [
+        { "name": "Shimon Tolts", "title": "CEO & Co-founder (AWS Hero, ex-JFrog)", "decisionMaker": true },
+        { "name": "Eyar Zilberman", "title": "CISO & Co-founder (GitHub Star)", "decisionMaker": false },
+        { "name": "Roman Labunsky", "title": "Co-founder", "decisionMaker": false }
+      ]
+    }
+  ],
+  "pipelineBreakdown": {
+    "ai-consulting": 3,
+    "pr-marketing": 1,
+    "media": 2,
+    "fund-formation": 0,
+    "legal-consulting": 0,
+    "coaching-ops": 0
+  },
+  "topHottestLeads": [
+    { "name": "Orkes", "pipeline": "pr-marketing", "combined": 85, "fit": 45, "intent": 40 },
+    { "name": "Rebel Audio", "pipeline": "media", "combined": 84, "fit": 40, "intent": 44 },
+    { "name": "Shade", "pipeline": "media", "combined": 83, "fit": 41, "intent": 42 },
+    { "name": "Spectrum Security", "pipeline": "ai-consulting", "combined": 82, "fit": 41, "intent": 41 },
+    { "name": "Aaru", "pipeline": "ai-consulting", "combined": 81, "fit": 42, "intent": 39 }
+  ],
+  "sourcesTop": [
+    { "source": "fintech.global", "count": 3 },
+    { "source": "TechCrunch", "count": 2 },
+    { "source": "AlleyWatch", "count": 2 },
+    { "source": "PR Newswire", "count": 2 },
+    { "source": "Variety", "count": 1 }
+  ],
+  "signalsAndTrends": [
+    "Agentic cybersecurity is the dominant Tuesday-Wednesday theme: Spectrum Security + Copperhelm both raise + exit stealth within 24 hours, both pitch 'AI agents replace manual detection/remediation'. Twin-target framing works for AI-consulting outreach — offer deployment playbooks for CISOs evaluating either.",
+    "Workflow orchestration is consolidating around agentic AI — Orkes' $60M Series B is the clearest signal that Conductor-lineage infra is winning the 'durable agents in production' narrative vs. LangGraph/Temporal. PR story available for any contested-category coverage.",
+    "Synthetic research hit $1B headline (Aaru). Consulting firms (Accenture/EY/IPG) are already buyers — expect a wave of 'is synthetic research methodologically valid?' debates that Katie could mediate via PR commentary or ai-consulting thought-leadership.",
+    "Media/creative-tech cohort (Shade + Rebel Audio) shows 'AI for creative teams' is maturing past generators into asset management + production tooling. Good pr-marketing territory for a 'creative ops is the new DevOps' framing.",
+    "Zero legal-consulting or coaching-ops signals this scrape — consistent with the past week's trend. Consider flagging to Mark that pipeline diversification may be seasonal (funding cycles over-index toward tech/cyber/AI in April)."
+  ]
+}
