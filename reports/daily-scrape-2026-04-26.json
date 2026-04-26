@@ -1,0 +1,176 @@
+{
+  "scrapeDate": "2026-04-26",
+  "totalLeads": 6,
+  "topPipeline": "pr-marketing",
+  "note": "6 new leads across 2 pipelines (pr-marketing x5, fund-formation x1). The April 21-23 funding window produced another fresh AI cohort: NeoCognition ($40M seed April 21 — co-led by Cambium Capital and Walden Catalyst, angels include Intel CEO Lip-Bu Tan + Databricks co-founder Ion Stoica + Vista Equity Partners — self-learning enterprise AI agents, ~15-person Ohio State spinout); Era Computer ($11M seed April 23 from Abstract Ventures + BoxGroup + Collaborative Fund + Mozilla Ventures — AI gadgets software platform, ex-Humane/HP/Sutter Hill founders, 'AI for rings/pendants/home objects' positioning); Brev ($3.3M pre-seed April 23 led by Resolute Ventures — AI-native business operations platform sitting between goals and execution, customers include Flex, Patlytics, Unified, RecordPoint); Worki ($2.75M pre-seed April 16-21 led by Redesign Health + Healthliant Ventures — healthcare AI workforce infrastructure layer, deployed at Tanner Health and BJC Healthcare, CTO ex-Uber/Airbnb); GetWhys ($5.2M oversubscribed seed II April 16 led by EPIC Ventures — B2B GTM intelligence platform, customers Intel + Verizon + Docusign + CDW + Commvault, 10x revenue growth, 20x customer base growth, 16 employees). Fund-formation: Gateway Capital Partners (Milwaukee VC, Fund II first close $25M target announced early April, founder Dana Guthrie, expanding from Wisconsin to broader Midwest, $500-600k average check, targeting 20 portfolio companies). Skipped as poor pipeline fit: Tortugas Neuroscience ($106M biotech, CNS disorders — outside Mark's pipelines). Skipped as already in CRM: Zero Shot Fund (added 4/15), Haast (added 4/16). Skipped as stale: Aphias Capital Fund I (April 2025, not 2026). Sideline Group ($155M debut consumer/sports fund April 17) noted but skipped — Fund I already closed, no near-term legal counsel need. No legal-consulting, coaching-ops, or media leads qualified today (Merrick Studios+ April 17 launch is a podcast network, peer/competitor not buyer; Indian fintech/AI deals omitted as US-focused agency). Neon DB unreachable from sandbox — run `node scripts/import-2026-04-26.cjs` locally to import. Deduplicated against 209 existing names (Orkes, Aaru, Rebel Audio, Shade, Spectrum Security, Copperhelm, Coral, Monk, Dolomite Capital, Evan Morikawa, Zero Shot Fund, Haast, Brandon Fan, and 196 others).",
+  "leads": [
+    {
+      "name": "GetWhys",
+      "website": "https://getwhys.com",
+      "pipeline": "pr-marketing",
+      "industry": "B2B Customer Intelligence / GTM AI / Buyer Research Platform",
+      "size": "16 employees (doubled in past year); customers include Intel, Verizon, Docusign, Mission Cloud (CDW), Commvault; 10x YoY revenue growth; 20x customer base growth",
+      "location": "United States",
+      "fundingStage": "Seed II ($5.2M, oversubscribed, April 16, 2026) — led by EPIC Ventures. Total raised $7.95M (includes $2.75M Seed I from February 2025).",
+      "fitScore": 47,
+      "intentScore": 41,
+      "fitDetails": { "industry": 10, "stage": 8, "buyer": 10, "proof": 10, "budget": 9 },
+      "intentDetails": { "trigger": 14, "timeline": 9, "dm_engaged": 6, "urgency": 8, "responsive": 4 },
+      "techStack": ["LLM-powered analysis", "human buyer research", "B2B GTM intelligence", "AI messaging generation", "buyer insight library"],
+      "source": "Crunchbase News / VentureBeat / PR Newswire / Pulse 2.0 (April 16, 2026)",
+      "notes": "$5.2M oversubscribed Seed II on April 16, 2026 led by EPIC Ventures, 14 months after the $2.75M Seed I. CEO Philippe Boutros. Customer roster is the story: Intel, Verizon, Docusign, Mission Cloud (CDW), Commvault — Fortune 500 logos on a 16-person team is a very strong proof point. 10x revenue growth and 20x customer growth in past year. Primary angle: pr-marketing — contested B2B GTM-intelligence category (competing with Gong, Klue, Crayon, Crayhill, etc.) where Boutros needs to plant a flag on 'human-collected interviews + LLM analysis' differentiation. Strong founder-led media potential. Secondary angle: media-podcast for B2B CMO interview circuit (pay-to-play video podcast positioning aligns with the GTM exec audience). Skip ai-consulting — they ARE the vendor, not a buyer.",
+      "starred": true,
+      "contacts": [
+        { "name": "Philippe Boutros", "title": "CEO & Founder", "decisionMaker": true }
+      ]
+    },
+    {
+      "name": "Gateway Capital Partners",
+      "website": "https://gwaycapital.com",
+      "pipeline": "fund-formation",
+      "industry": "Venture Capital / Emerging Manager / Midwest Pre-Seed & Seed",
+      "size": "Fund II target $25M (first close announced April 2-6, 2026); now over $20M AUM total; Fund I was Wisconsin-focused; Fund II opens to broader Midwest; targeting 20 portfolio companies in Fund II",
+      "location": "Milwaukee, Wisconsin",
+      "fundingStage": "Fund II first close (early April 2026) — institutional and LP capital being committed, average check size $500k-$600k. Total LP commitment target: $25M.",
+      "fitScore": 46,
+      "intentScore": 42,
+      "fitDetails": { "manager_type": 14, "strategy": 10, "ops_readiness": 8, "jurisdiction": 5, "budget": 9 },
+      "intentDetails": { "anchor": 13, "launch_window": 9, "providers": 9, "urgency": 7, "referral": 4 },
+      "techStack": ["Wisconsin/Midwest VC", "supply chain", "logistics", "manufacturing AI"],
+      "source": "TechCrunch / Urban Milwaukee / WisBusiness / VCWire / BizTimes / UrbanGeekz (April 2-6, 2026)",
+      "notes": "First close of Fund II announced first week of April 2026 — textbook fund-formation timing window. Founder Dana Guthrie is well-known Midwest VC; Fund I was Wisconsin-focused, Fund II expands across the broader Midwest. Already deploying with first three Fund II investments named in announcements. $500-600k average check across 20 portfolio companies = $10-12M deployed, leaving room for follow-on reserves. Primary angle: fund-formation — Fund II first close means side-letter negotiations, LPA amendments, and ongoing GP-side counsel are active right now. Already has Fund I admin/audit/tax providers (lower friction). Secondary angle: legal-consulting for portfolio-co commercial contract overflow as deployments accelerate. Tertiary angle: pr-marketing — Fund II expansion narrative (Wisconsin-to-Midwest) is a clean PR story for a regional emerging manager wanting national LP visibility for Fund III. Buyer access: Dana Guthrie is publicly accessible (TechCrunch interview April 2).",
+      "starred": true,
+      "contacts": [
+        { "name": "Dana Guthrie", "title": "Founder & General Partner", "persona": "Founder / CIO / PM", "decisionMaker": true }
+      ]
+    },
+    {
+      "name": "NeoCognition",
+      "website": "https://neocognition.ai",
+      "pipeline": "pr-marketing",
+      "industry": "Self-Learning AI Agents / Enterprise Specialized Intelligence / Stealth-Exit",
+      "size": "~15 employees (majority PhDs); founding team Yu Su, Xiang Deng, Yu Gu (all from Su's Ohio State AI agent lab); intends to sell to enterprises and SaaS companies",
+      "location": "United States (Ohio State origins; HQ undisclosed)",
+      "fundingStage": "Seed ($40M, April 21, 2026) — co-led by Cambium Capital and Walden Catalyst Ventures, with Vista Equity Partners and angels including Intel CEO Lip-Bu Tan and Databricks co-founder Ion Stoica.",
+      "fitScore": 43,
+      "intentScore": 38,
+      "fitDetails": { "industry": 9, "stage": 8, "buyer": 8, "proof": 9, "budget": 9 },
+      "intentDetails": { "trigger": 14, "timeline": 8, "dm_engaged": 5, "urgency": 8, "responsive": 3 },
+      "techStack": ["self-learning agents", "domain specialization", "world models", "enterprise agent infrastructure", "agent system"],
+      "source": "TechCrunch / PR Newswire / The Next Web / TechFundingNews (April 21, 2026)",
+      "notes": "$40M seed on April 21, 2026 — stealth exit. Cambium Capital + Walden Catalyst Ventures co-led; Vista Equity Partners participation is the GTM lever (Vista's portfolio of enterprise SaaS companies is a built-in distribution channel). Angel roster (Intel CEO Lip-Bu Tan, Ion Stoica) is press-friendly. Primary angle: pr-marketing — agent infrastructure category is contested (NeoCognition vs. Imbue, Adept, Sierra, Cognition Labs, etc.) and academic-spinout positioning (Ohio State AI agent lab) is differentiated but undertold. Secondary angle: media-podcast for academic-to-commercial translation founder narrative. Skip ai-consulting — they're vendors, not buyers. Buyer access: founders Yu Su / Xiang Deng / Yu Gu are public-facing; press-friendly investor coalition.",
+      "starred": false,
+      "contacts": [
+        { "name": "Yu Su", "title": "Co-founder", "persona": "CEO / Founder", "decisionMaker": true },
+        { "name": "Xiang Deng", "title": "Co-founder", "persona": "CEO / Founder", "decisionMaker": true },
+        { "name": "Yu Gu", "title": "Co-founder", "persona": "CEO / Founder", "decisionMaker": true }
+      ]
+    },
+    {
+      "name": "Era Computer",
+      "website": "https://eracomputer.com",
+      "pipeline": "pr-marketing",
+      "industry": "AI Hardware Software Platform / Embedded AI / Consumer & Brand AI Devices",
+      "size": "Early-stage; embedded AI for rings, pendants, home objects; platform set up to scale across millions of devices",
+      "location": "United States",
+      "fundingStage": "Seed ($9M April 23, 2026) led by Abstract Ventures and BoxGroup with Collaborative Fund and Mozilla Ventures; plus prior $2M pre-seed (Topology Ventures, Betaworks). Total $11M.",
+      "fitScore": 38,
+      "intentScore": 35,
+      "fitDetails": { "industry": 8, "stage": 7, "buyer": 7, "proof": 9, "budget": 7 },
+      "intentDetails": { "trigger": 13, "timeline": 8, "dm_engaged": 4, "urgency": 7, "responsive": 3 },
+      "techStack": ["embedded AI orchestration", "consumer device intelligence", "platform-as-a-service for AI hardware", "brand customization"],
+      "source": "TechCrunch / TechFundingNews / FoundersToday / TechBuzz.ai (April 23, 2026)",
+      "notes": "$11M total raise (April 23, 2026 seed + prior pre-seed) led by Abstract + BoxGroup + Collaborative + Mozilla. Founders Liz Dorman (CEO), Alex Ollman (CTO), Megan Gole (CPO) — all ex-Humane / HP / Sutter Hill Ventures. Humane drama is the pre-existing narrative they need to rebuild around: Era is the 'platform underneath' rather than a single device, which is a credible repositioning. Primary angle: pr-marketing — the 'AI gadgets platform' category needs definition; Era can plant a flag if narrative work happens NOW (early lead share before Apple/Google enter). Secondary angle: media for founder-led commentary on the post-Humane device era. Mozilla Ventures participation = open-source angle is available for press. Skip ai-consulting (they're a vendor). Buyer access: Dorman is press-comfortable (TechCrunch).",
+      "starred": false,
+      "contacts": [
+        { "name": "Liz Dorman", "title": "CEO & Co-founder", "persona": "CEO / Founder", "decisionMaker": true },
+        { "name": "Alex Ollman", "title": "CTO & Co-founder", "persona": "CTO (tech)", "decisionMaker": false },
+        { "name": "Megan Gole", "title": "CPO & Co-founder", "persona": "Product Marketing", "decisionMaker": false }
+      ]
+    },
+    {
+      "name": "Brev",
+      "website": "https://brev.com",
+      "pipeline": "pr-marketing",
+      "industry": "AI-Native Business Operations / Goal-to-Execution Platform / Agentic Ops",
+      "size": "Pre-seed; founded 2025; HQ San Francisco with Seattle + Toronto satellites; customers include Flex, Patlytics, Unified, RecordPoint",
+      "location": "San Francisco, CA",
+      "fundingStage": "Pre-Seed ($3.3M, April 23, 2026) — led by Resolute Ventures with shuckerVC, Duro VC, Gaingels, FOG Ventures.",
+      "fitScore": 36,
+      "intentScore": 34,
+      "fitDetails": { "industry": 9, "stage": 6, "buyer": 8, "proof": 7, "budget": 6 },
+      "intentDetails": { "trigger": 13, "timeline": 7, "dm_engaged": 4, "urgency": 7, "responsive": 3 },
+      "techStack": ["AI agents in standups", "Slack integration", "Jira integration", "Salesforce integration", "agenda generation", "execution tracking"],
+      "source": "VentureBeat / Pulse 2.0 / GeekWire / The SaaS News (April 23, 2026)",
+      "notes": "$3.3M pre-seed April 23, 2026 led by Resolute Ventures. Founders Chris Pitchford and Vic Hu. AI agents that join standups/business reviews and update goals/flag risks — sits in a contested 'AI for ops' lane against Glean, Notion, ClickUp Brain, and a wave of YC pre-seed competitors. Customer roster (Flex, Patlytics, Unified, RecordPoint) gives small-but-real proof, but the category narrative is the hard work. Primary angle: pr-marketing — pre-seed budget is tight ($5-10k/mo retainer max), but a focused 60-day 'plant the flag' campaign on the 'AI-native execution layer' positioning could 4x their share of voice cheaply. Secondary angle: skip — too early for media/podcast pay-to-play. Buyer access: Pitchford is press-accessible (multiple recent interviews). Note: smaller budget means lower-priority outreach behind GetWhys + NeoCognition.",
+      "starred": false,
+      "contacts": [
+        { "name": "Chris Pitchford", "title": "Co-founder & CEO", "persona": "CEO / Founder", "decisionMaker": true },
+        { "name": "Vic Hu", "title": "Co-founder", "persona": "CEO / Founder", "decisionMaker": true }
+      ]
+    },
+    {
+      "name": "Worki",
+      "website": "https://worki.com",
+      "pipeline": "pr-marketing",
+      "industry": "Healthcare AI Workforce Infrastructure / Agentic Ops Layer / Health System Data Standardization",
+      "size": "Pre-seed; deployed at Tanner Health and BJC Healthcare; integrates with Workday, UKG, Oracle, ServiceNow",
+      "location": "United States",
+      "fundingStage": "Pre-Seed ($2.75M, April 16-21, 2026) — led by Redesign Health and Healthliant Ventures (Tanner Health's venture arm).",
+      "fitScore": 36,
+      "intentScore": 34,
+      "fitDetails": { "industry": 7, "stage": 6, "buyer": 9, "proof": 8, "budget": 6 },
+      "intentDetails": { "trigger": 13, "timeline": 7, "dm_engaged": 5, "urgency": 6, "responsive": 3 },
+      "techStack": ["task-role architecture", "AI agents", "Workday integration", "UKG integration", "Oracle integration", "ServiceNow integration", "audit & governance"],
+      "source": "PR Newswire / The AI Insider / HIT Consultant / Axios Pro (April 16-21, 2026)",
+      "notes": "$2.75M pre-seed led by Redesign Health (the venture studio) + Healthliant Ventures (Tanner Health's arm). CEO Craig Allan Ahrens, CCO Michael Biggs, CTO Harvey Hongwei Li PhD (ex-Uber, ex-Airbnb AI/ML). Already live at Tanner Health + BJC Healthcare. Healthcare-tech is adjacent to Mark's FS/Tech B2B core, but the enterprise sales motion (long cycles, credibility-sensitive buyer) is identical and the AI workforce category is a hot 2026 theme. Primary angle: pr-marketing — Redesign Health's PR machinery is institutional but not narrative-led; Worki's specific 'task-role architecture' is a planted-flag opportunity vs. generic 'AI for healthcare ops'. Secondary angle: media for HIMSS/HLTH conference circuit. Tertiary: ai-consulting — skip (they're vendor, but their sales engineers may need to support customer-side AI strategy work — track for later). Buyer access: Ahrens + Biggs both have public profiles. Smaller budget tier.",
+      "starred": false,
+      "contacts": [
+        { "name": "Craig Allan Ahrens", "title": "CEO", "persona": "CEO / Founder", "decisionMaker": true },
+        { "name": "Michael Biggs", "title": "CCO", "persona": "Head of Growth", "decisionMaker": false },
+        { "name": "Harvey Hongwei Li", "title": "CTO", "persona": "CTO (tech)", "decisionMaker": false }
+      ]
+    }
+  ],
+  "executionMeta": {
+    "scrapedAt": "2026-04-26T09:00:00.000Z",
+    "sandboxNeonReachable": false,
+    "dbWritesApplied": 0,
+    "importCommand": "node scripts/import-2026-04-26.cjs (run from local machine where Neon is reachable)",
+    "sourcesQueried": [
+      "reddit.com/r/marketing",
+      "reddit.com/r/fintech",
+      "reddit.com/r/venturecapital",
+      "reddit.com/r/startups",
+      "reddit.com/r/legaltech",
+      "reddit.com/r/smallbusiness",
+      "reddit.com/r/podcasting",
+      "reddit.com/r/media",
+      "reddit.com/r/artificial",
+      "reddit.com/r/machinelearning",
+      "linkedin.com/feed/",
+      "wellfound.com/discover"
+    ],
+    "topProductiveSources": [
+      "TechCrunch (NeoCognition, Era, Gateway Capital)",
+      "PR Newswire (Worki, NeoCognition, GetWhys)",
+      "VentureBeat / Pulse 2.0 (Brev, GetWhys, Era)",
+      "Legal IT Insider / FinTech.global (Haast — already in CRM)",
+      "Crunchbase News (GetWhys, AI seed valuations)"
+    ],
+    "trendsSpotted": [
+      "AI agent infrastructure remains the dominant pre-seed/seed theme — 4 of today's 5 pr-marketing leads (NeoCognition, Era, Brev, Worki) are agentic-AI plays.",
+      "Vertical-specific AI workforce layers (Worki = healthcare; prior weeks = legal, FS) continue to attract pre-seed capital in the $2-5M range from professional builders (Redesign Health, etc.).",
+      "Emerging-manager Fund II first closes (Gateway $25M) are running ~50% of Fund I size — LPs are picking up but slowly, which means GPs are spending more time fundraising and need narrative help.",
+      "Stealth-exit + celebrity angel pattern (NeoCognition with Intel CEO + Ion Stoica; Era with ex-Humane founders) is the dominant 'first day of company' PR play of the cycle — earned-media windows are 10-14 days post-announcement."
+    ],
+    "skippedLeads": [
+      { "name": "Tortugas Neuroscience", "reason": "Biotech CNS — outside agency pipelines (no FS/tech B2B fit)" },
+      { "name": "Aphias Capital", "reason": "Fund I launched April 2025, not April 2026 — stale" },
+      { "name": "Sideline Group", "reason": "$155M debut fund April 17 — Fund I closed already, no near-term legal counsel need" },
+      { "name": "Merrick Studios+", "reason": "Podcast network premium tier (peer/competitor, not buyer)" },
+      { "name": "Zero Shot Fund", "reason": "Already in CRM (added 2026-04-15)" },
+      { "name": "Haast", "reason": "Already in CRM (added 2026-04-16)" }
+    ]
+  }
+}
