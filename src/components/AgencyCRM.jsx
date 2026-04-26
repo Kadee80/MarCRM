@@ -1769,131 +1769,217 @@ export default function AgencyCRM() {
   );
 
   // ─── REPORTS ─────────────────────────────────────────────────────────
+
+  // Group reports by week (Monday-based)
+  const reportsByWeek = useMemo(() => {
+    if (!reports.length) return [];
+    const weeks = {};
+    reports.forEach(r => {
+      const d = new Date(r.date + "T12:00:00");
+      const day = d.getDay();
+      const mondayOffset = day === 0 ? -6 : 1 - day;
+      const monday = new Date(d);
+      monday.setDate(d.getDate() + mondayOffset);
+      const weekKey = monday.toISOString().slice(0, 10);
+      if (!weeks[weekKey]) weeks[weekKey] = { weekStart: weekKey, reports: [], totalLeads: 0, priorityAB: 0, pipelines: new Set() };
+      weeks[weekKey].reports.push(r);
+      weeks[weekKey].totalLeads += r.totalLeads || 0;
+      (r.leads || []).forEach(l => {
+        if ((l.fitScore + l.intentScore) >= 60) weeks[weekKey].priorityAB++;
+        if (l.pipeline) weeks[weekKey].pipelines.add(l.pipeline);
+      });
+    });
+    return Object.values(weeks)
+      .map(w => ({ ...w, pipelines: w.pipelines.size }))
+      .sort((a, b) => b.weekStart.localeCompare(a.weekStart));
+  }, [reports]);
+
+  const [expandedWeek, setExpandedWeek] = useState(null);
+
+  // Auto-expand the most recent week
+  const activeWeek = expandedWeek || (reportsByWeek.length > 0 ? reportsByWeek[0].weekStart : null);
+
   const renderReports = () => (
     <div className="space-y-6">
       <div className="flex items-center justify-between">
         <div>
           <h2 className="text-lg font-bold text-gray-900">Daily Lead Reports</h2>
-          <p className="text-sm text-gray-500">Automated daily scrapes from 12 sources across your 6 pipelines</p>
+          <p className="text-sm text-gray-500">Automated daily scrapes across your 8 pipelines — grouped by week</p>
         </div>
-        <div className="flex items-center gap-2">
-          {reports.map((r) => (
-            <button key={r.date} onClick={() => setSelectedReport(r)} className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${selectedReport?.date === r.date ? "bg-indigo-600 text-white" : "bg-gray-100 text-gray-600 hover:bg-gray-200"}`}>
-              {new Date(r.date + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric" })}
-            </button>
-          ))}
-        </div>
+        <div className="text-xs text-gray-400">{reports.length} reports total</div>
       </div>
 
-      {!selectedReport || reports.length === 0 ? (
+      {reports.length === 0 ? (
         <div className="bg-white rounded-xl border border-gray-100 p-12 text-center">
           <FileText size={40} className="text-gray-300 mx-auto mb-3" />
-          <p className="text-sm text-gray-500">No reports yet. The daily scrape runs at 9 AM and produces a report here.</p>
+          <p className="text-sm text-gray-500">No reports yet. The daily scrape runs at 7 AM weekdays and produces a report here.</p>
         </div>
       ) : (
-        <>
-          {/* Summary Stats */}
-          <div className="grid grid-cols-4 gap-4">
-            <div className="bg-white rounded-xl border border-gray-100 p-4 text-center">
-              <p className="text-2xl font-bold text-indigo-600">{selectedReport.totalLeads}</p>
-              <p className="text-xs text-gray-500 mt-1">Leads Found</p>
-            </div>
-            <div className="bg-white rounded-xl border border-gray-100 p-4 text-center">
-              <p className="text-2xl font-bold text-green-600">{selectedReport.leads.filter(l => (l.fitScore + l.intentScore) >= 60).length}</p>
-              <p className="text-xs text-gray-500 mt-1">Priority A/B</p>
-            </div>
-            <div className="bg-white rounded-xl border border-gray-100 p-4 text-center">
-              <p className="text-2xl font-bold text-gray-900">{[...new Set(selectedReport.leads.map(l => l.pipeline))].length}</p>
-              <p className="text-xs text-gray-500 mt-1">Pipelines</p>
-            </div>
-            <div className="bg-white rounded-xl border border-gray-100 p-4 text-center">
-              <p className="text-2xl font-bold text-amber-600">{Math.max(...selectedReport.leads.map(l => l.fitScore + l.intentScore), 0)}</p>
-              <p className="text-xs text-gray-500 mt-1">Top Score</p>
-            </div>
-          </div>
+        <div className="space-y-3">
+          {reportsByWeek.map(week => {
+            const isExpanded = activeWeek === week.weekStart;
+            const weekEnd = new Date(week.weekStart + "T12:00:00");
+            weekEnd.setDate(weekEnd.getDate() + 6);
+            const weekLabel = `${new Date(week.weekStart + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric" })} – ${weekEnd.toLocaleDateString("en-US", { month: "short", day: "numeric" })}`;
 
-          {/* Lead Cards */}
-          <div className="space-y-3">
-            {[...selectedReport.leads]
-              .sort((a, b) => (b.fitScore + b.intentScore) - (a.fitScore + a.intentScore))
-              .map((lead, i) => {
-                const total = lead.fitScore + lead.intentScore;
-                const grade = total >= 70 ? "A" : total >= 55 ? "B" : total >= 40 ? "C" : "D";
-                const gradeColor = { A: "bg-green-100 text-green-700 border-green-200", B: "bg-indigo-100 text-indigo-700 border-indigo-200", C: "bg-amber-100 text-amber-700 border-amber-200", D: "bg-gray-100 text-gray-600 border-gray-200" }[grade];
-                const pipelineInfo = PIPELINES.find(p => p.id === lead.pipeline);
-                return (
-                  <div key={i} className="bg-white rounded-xl border border-gray-100 p-5 shadow-sm hover:shadow-md transition-shadow">
-                    <div className="flex items-start justify-between mb-3">
-                      <div className="flex items-center gap-3">
-                        <span className="text-xs font-bold text-gray-400">#{i + 1}</span>
-                        <div>
-                          <div className="flex items-center gap-2">
-                            <h3 className="text-sm font-bold text-gray-900">{lead.name}</h3>
-                            {lead.starred && <Star size={14} className="text-amber-400 fill-amber-400" />}
-                          </div>
-                          <div className="flex items-center gap-2 mt-0.5">
-                            <span className="text-xs text-gray-500">{lead.website?.replace(/^https?:\/\//, "")}</span>
-                            {lead.location && <span className="text-xs text-gray-400">· {lead.location}</span>}
-                          </div>
-                        </div>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <PipelineBadge pipelineId={lead.pipeline} />
-                        <span className={`px-2 py-0.5 rounded-full text-xs font-bold border ${gradeColor}`}>{grade} · {total}</span>
-                      </div>
+            return (
+              <div key={week.weekStart} className="bg-white rounded-xl border border-gray-100 shadow-sm overflow-hidden">
+                {/* Week Header */}
+                <button
+                  onClick={() => setExpandedWeek(isExpanded ? "__none__" : week.weekStart)}
+                  className="w-full flex items-center justify-between px-5 py-4 hover:bg-gray-50 transition-colors"
+                >
+                  <div className="flex items-center gap-4">
+                    {isExpanded ? <ChevronDown size={16} className="text-gray-400" /> : <ChevronRight size={16} className="text-gray-400" />}
+                    <div className="text-left">
+                      <h3 className="text-sm font-bold text-gray-900">{weekLabel}</h3>
+                      <p className="text-[10px] text-gray-400">{week.reports.length} report{week.reports.length !== 1 ? "s" : ""} this week</p>
                     </div>
-
-                    {/* Score Bar */}
-                    <div className="flex items-center gap-3 mb-3">
-                      <div className="flex-1">
-                        <div className="flex justify-between text-[10px] text-gray-400 mb-1">
-                          <span>Fit: {lead.fitScore}/50</span>
-                          <span>Intent: {lead.intentScore}/50</span>
-                        </div>
-                        <div className="h-2 bg-gray-100 rounded-full overflow-hidden flex">
-                          <div className="bg-indigo-500 h-full rounded-l-full" style={{ width: `${lead.fitScore}%` }} />
-                          <div className="bg-green-500 h-full rounded-r-full" style={{ width: `${lead.intentScore}%` }} />
-                        </div>
-                      </div>
+                  </div>
+                  <div className="flex items-center gap-4">
+                    <div className="text-right">
+                      <span className="text-sm font-bold text-indigo-600">{week.totalLeads}</span>
+                      <span className="text-[10px] text-gray-400 ml-1">leads</span>
                     </div>
+                    <div className="text-right">
+                      <span className="text-sm font-bold text-green-600">{week.priorityAB}</span>
+                      <span className="text-[10px] text-gray-400 ml-1">A/B</span>
+                    </div>
+                    <div className="text-right">
+                      <span className="text-sm font-bold text-gray-600">{week.pipelines}</span>
+                      <span className="text-[10px] text-gray-400 ml-1">pipelines</span>
+                    </div>
+                  </div>
+                </button>
 
-                    {/* Details */}
-                    <p className="text-xs text-gray-600 mb-3 leading-relaxed">{lead.notes?.slice(0, 250)}{lead.notes?.length > 250 ? "..." : ""}</p>
-
-                    <div className="flex flex-wrap gap-2 mb-3">
-                      {lead.industry && <Badge className="bg-purple-50 text-purple-700 border border-purple-200">{lead.industry}</Badge>}
-                      {lead.fundingStage && <Badge className="bg-green-50 text-green-700 border border-green-200">{lead.fundingStage}</Badge>}
-                      {(lead.techStack || []).slice(0, 3).map(t => (
-                        <Badge key={t} className="bg-blue-50 text-blue-600 border border-blue-200">{t}</Badge>
+                {/* Expanded Week Content */}
+                {isExpanded && (
+                  <div className="border-t border-gray-100">
+                    {/* Day selector within the week */}
+                    <div className="flex gap-1.5 px-5 py-3 bg-gray-50 border-b border-gray-100 overflow-x-auto">
+                      {week.reports.sort((a, b) => b.date.localeCompare(a.date)).map(r => (
+                        <button
+                          key={r.date}
+                          onClick={() => setSelectedReport(r)}
+                          className={`flex-shrink-0 px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${selectedReport?.date === r.date ? "bg-indigo-600 text-white" : "bg-white text-gray-600 hover:bg-gray-100 border border-gray-200"}`}
+                        >
+                          {new Date(r.date + "T12:00:00").toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric" })}
+                          <span className="ml-1.5 opacity-70">{r.totalLeads} leads</span>
+                        </button>
                       ))}
-                      {lead.source && <Badge className="bg-gray-50 text-gray-500 border border-gray-200">via {lead.source}</Badge>}
                     </div>
 
-                    {/* Contacts */}
-                    {lead.contacts?.length > 0 && (
-                      <div className="border-t border-gray-100 pt-3">
-                        <p className="text-[10px] font-semibold text-gray-400 uppercase mb-2">Key Contacts</p>
-                        <div className="flex flex-wrap gap-3">
-                          {lead.contacts.map((c, ci) => (
-                            <div key={ci} className="flex items-center gap-2 bg-gray-50 rounded-lg px-3 py-1.5">
-                              <UserCheck size={12} className={c.decisionMaker ? "text-indigo-500" : "text-gray-400"} />
-                              <div>
-                                <p className="text-xs font-medium text-gray-800">{c.name}</p>
-                                <p className="text-[10px] text-gray-500">{c.title}</p>
-                              </div>
-                              {c.linkedin && (
-                                <a href={c.linkedin} target="_blank" rel="noopener noreferrer" className="text-indigo-500 hover:text-indigo-700"><ExternalLink size={10} /></a>
-                              )}
-                            </div>
-                          ))}
+                    {/* Selected day's report */}
+                    {selectedReport && week.reports.some(r => r.date === selectedReport.date) && (
+                      <div className="p-5 space-y-4">
+                        {/* Summary Stats */}
+                        <div className="grid grid-cols-4 gap-3">
+                          <div className="bg-gray-50 rounded-lg p-3 text-center">
+                            <p className="text-xl font-bold text-indigo-600">{selectedReport.totalLeads}</p>
+                            <p className="text-[10px] text-gray-500">Leads Found</p>
+                          </div>
+                          <div className="bg-gray-50 rounded-lg p-3 text-center">
+                            <p className="text-xl font-bold text-green-600">{selectedReport.leads.filter(l => (l.fitScore + l.intentScore) >= 60).length}</p>
+                            <p className="text-[10px] text-gray-500">Priority A/B</p>
+                          </div>
+                          <div className="bg-gray-50 rounded-lg p-3 text-center">
+                            <p className="text-xl font-bold text-gray-900">{[...new Set(selectedReport.leads.map(l => l.pipeline))].length}</p>
+                            <p className="text-[10px] text-gray-500">Pipelines</p>
+                          </div>
+                          <div className="bg-gray-50 rounded-lg p-3 text-center">
+                            <p className="text-xl font-bold text-amber-600">{Math.max(...selectedReport.leads.map(l => l.fitScore + l.intentScore), 0)}</p>
+                            <p className="text-[10px] text-gray-500">Top Score</p>
+                          </div>
+                        </div>
+
+                        {/* Lead Cards */}
+                        <div className="space-y-3">
+                          {[...selectedReport.leads]
+                            .sort((a, b) => (b.fitScore + b.intentScore) - (a.fitScore + a.intentScore))
+                            .map((lead, i) => {
+                              const total = lead.fitScore + lead.intentScore;
+                              const grade = total >= 70 ? "A" : total >= 55 ? "B" : total >= 40 ? "C" : "D";
+                              const gradeColor = { A: "bg-green-100 text-green-700 border-green-200", B: "bg-indigo-100 text-indigo-700 border-indigo-200", C: "bg-amber-100 text-amber-700 border-amber-200", D: "bg-gray-100 text-gray-600 border-gray-200" }[grade];
+                              return (
+                                <div key={i} className="bg-white rounded-xl border border-gray-100 p-5 shadow-sm hover:shadow-md transition-shadow">
+                                  <div className="flex items-start justify-between mb-3">
+                                    <div className="flex items-center gap-3">
+                                      <span className="text-xs font-bold text-gray-400">#{i + 1}</span>
+                                      <div>
+                                        <div className="flex items-center gap-2">
+                                          <h3 className="text-sm font-bold text-gray-900">{lead.name}</h3>
+                                          {lead.starred && <Star size={14} className="text-amber-400 fill-amber-400" />}
+                                        </div>
+                                        <div className="flex items-center gap-2 mt-0.5">
+                                          <span className="text-xs text-gray-500">{lead.website?.replace(/^https?:\/\//, "")}</span>
+                                          {lead.location && <span className="text-xs text-gray-400">· {lead.location}</span>}
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div className="flex items-center gap-2">
+                                      <PipelineBadge pipelineId={lead.pipeline} />
+                                      <span className={`px-2 py-0.5 rounded-full text-xs font-bold border ${gradeColor}`}>{grade} · {total}</span>
+                                    </div>
+                                  </div>
+
+                                  {/* Score Bar */}
+                                  <div className="flex items-center gap-3 mb-3">
+                                    <div className="flex-1">
+                                      <div className="flex justify-between text-[10px] text-gray-400 mb-1">
+                                        <span>Fit: {lead.fitScore}/50</span>
+                                        <span>Intent: {lead.intentScore}/50</span>
+                                      </div>
+                                      <div className="h-2 bg-gray-100 rounded-full overflow-hidden flex">
+                                        <div className="bg-indigo-500 h-full rounded-l-full" style={{ width: `${lead.fitScore}%` }} />
+                                        <div className="bg-green-500 h-full rounded-r-full" style={{ width: `${lead.intentScore}%` }} />
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  {/* Details */}
+                                  <p className="text-xs text-gray-600 mb-3 leading-relaxed">{lead.notes?.slice(0, 250)}{lead.notes?.length > 250 ? "..." : ""}</p>
+
+                                  <div className="flex flex-wrap gap-2 mb-3">
+                                    {lead.industry && <Badge className="bg-purple-50 text-purple-700 border border-purple-200">{lead.industry}</Badge>}
+                                    {lead.fundingStage && <Badge className="bg-green-50 text-green-700 border border-green-200">{lead.fundingStage}</Badge>}
+                                    {(lead.techStack || []).slice(0, 3).map(t => (
+                                      <Badge key={t} className="bg-blue-50 text-blue-600 border border-blue-200">{t}</Badge>
+                                    ))}
+                                    {lead.source && <Badge className="bg-gray-50 text-gray-500 border border-gray-200">via {lead.source}</Badge>}
+                                  </div>
+
+                                  {/* Contacts */}
+                                  {lead.contacts?.length > 0 && (
+                                    <div className="border-t border-gray-100 pt-3">
+                                      <p className="text-[10px] font-semibold text-gray-400 uppercase mb-2">Key Contacts</p>
+                                      <div className="flex flex-wrap gap-3">
+                                        {lead.contacts.map((c, ci) => (
+                                          <div key={ci} className="flex items-center gap-2 bg-gray-50 rounded-lg px-3 py-1.5">
+                                            <UserCheck size={12} className={c.decisionMaker ? "text-indigo-500" : "text-gray-400"} />
+                                            <div>
+                                              <p className="text-xs font-medium text-gray-800">{c.name}</p>
+                                              <p className="text-[10px] text-gray-500">{c.title}</p>
+                                            </div>
+                                            {c.linkedin && (
+                                              <a href={c.linkedin} target="_blank" rel="noopener noreferrer" className="text-indigo-500 hover:text-indigo-700"><ExternalLink size={10} /></a>
+                                            )}
+                                          </div>
+                                        ))}
+                                      </div>
+                                    </div>
+                                  )}
+                                </div>
+                              );
+                            })}
                         </div>
                       </div>
                     )}
                   </div>
-                );
-              })}
-          </div>
-        </>
+                )}
+              </div>
+            );
+          })}
+        </div>
       )}
     </div>
   );
