@@ -1,0 +1,211 @@
+{
+  "scrapeDate": "2026-04-27",
+  "totalLeads": 4,
+  "topPipeline": "pr-marketing",
+  "note": "4 new leads, all primary pr-marketing (with Iridius and Mosaic carrying strong ai-consulting and legal-consulting secondary angles). The April 21-24 funding window produced a tightly-themed cohort — vertical AI for regulated/professional buyers — which is the cleanest pr-marketing storyline of the cycle: AcuityMD ($80M Series C April 21-24 led by StepStone, near-$1B valuation, 16 of top 20 MedTech customers, $34B in pipeline identified for customers — Boston-based, ex-Bain founder Mike Monovoukas); Mosaic ($18M Series A April 22 led by Radical Ventures, AI-driven deal modeling for PE/IB, customers Warburg Pincus + Bridgepoint + CVC + New Mountain + Evercore — CEO Ian Gutwinski 13yr PE/IB veteran ex-Onex Principal, board adds Troy Pospisil/Ontra and John Megrue/Apax); Iridius ($8.6M seed April 24 led by Chalfen Ventures with Osage + Accenture Ventures + Rock Yard, compliance-by-design AI for life sciences + pharma — CEO Mike Kropp ex-Microsoft/AWS, advisory board includes Merck/Pfizer/J&J/Novartis/Allergan/Bayer); Humble Robotics ($24M seed April 21 led by Eclipse with Energy Impact Partners + RedBlue, autonomous cabless EV hauler for $900B US freight — founding team ex-Tesla/Waymo/Cruise/Apple/Uber/Waabi). No fund-formation, legal-consulting, coaching-ops, media, legal-freelance, or pr-freelance leads cleared the bar today — Friday afternoon news flow was thin and weekend bridge is shallow. Skipped: Series ($5.1M pre-seed iMessage AI social — consumer/teen, no fit); FurtherAI (October 2025 announcement, stale); Matters.AI (October 2025, India-focused); Wealth Enhancement / FullCircle Wealth ($268M RIA acquisition — buyer too large for agency target); Shiprock (UK distressed-debt fund, US-focused agency); Tortugas Neuroscience and Serif Biomedicines (biotech, off-pipeline); AcuityMD secondary skip not applied — kept as primary because near-unicorn medtech-AI with category leadership opportunity is core pr-marketing fit even though healthcare-tech sits at edge of FS/tech core. Signal-refresh section flags Rebel Audio public launch May 30 (now 33 days out, was 36 at last touch — closing window), GetWhys total funding revised upward to $8.5M (was $7.95M in 4/26 report — minor delta; investor list expanded to include CEAS Investments + Portland Seed Fund alongside EPIC Ventures), Orkes board addition (AVP partner Alex Scherbakovsky joins), Aaru source-vintage correction (TechCrunch original Series A coverage was December 2025, not April 2026 — score should be discounted as stale signal). Neon DB unreachable from sandbox — run `node scripts/import-2026-04-27.cjs` locally to import. Deduplicated against 187 unique names from prior reports (Mosaic, Iridius, AcuityMD, Humble Robotics all new).",
+  "leads": [
+    {
+      "name": "AcuityMD",
+      "website": "https://www.acuitymd.com",
+      "pipeline": "pr-marketing",
+      "industry": "MedTech Commercial Intelligence / Agentic AI Sales Platform / Healthcare-Tech",
+      "size": "Boston-based, founded 2019; serves 400+ MedTech companies including 16 of the top 20; helped customers identify $34B+ in pipeline; will use Series C to grow team and agentic AI capabilities",
+      "location": "Boston, MA",
+      "fundingStage": "Series C ($80M, April 21-24, 2026) led by existing investor StepStone Group, with Benchmark + Redpoint Ventures + ICONIQ + Atreides Management. Total raised: $160M+. Valuation: $955M (near-unicorn).",
+      "fitScore": 46,
+      "intentScore": 43,
+      "fitDetails": { "industry": 8, "stage": 9, "buyer": 9, "proof": 10, "budget": 10 },
+      "intentDetails": { "trigger": 15, "timeline": 9, "dm_engaged": 7, "urgency": 8, "responsive": 4 },
+      "techStack": ["agentic AI for sales reps", "MedTech ontology / knowledge graph", "physician + facility mapping", "reimbursement dynamics", "market share analytics", "commercial intelligence"],
+      "source": "Business Wire / MobiHealthNews / Axios Pro Health-Tech / HIT Consultant / theaiinsider.tech (April 21-24, 2026)",
+      "notes": "$80M Series C April 21-24 led by StepStone, with Benchmark + Redpoint + ICONIQ + Atreides. Brings total to $160M+ at $955M valuation — near-unicorn medtech-AI. Founders: Mike Monovoukas (CEO, ex-Bain medtech/biopharma practice), Robert Coe (CTO), Lee Smith (Head of Commercial Development). Customer roster proof — 16 of top 20 MedTech, $34B in pipeline ID'd — is among the strongest in the AI-vertical category right now. Primary angle: pr-marketing — agentic-AI-for-sales category is contested (Veeva, Definitive Healthcare, ZoomInfo for Healthcare, Salesforce Health Cloud) and AcuityMD's near-unicorn moment + StepStone backing is the textbook 'category leadership' window. Recommend a 90-day plant-the-flag campaign on 'AI ontology for MedTech commercialization' before Veeva counter-launches an agentic SKU. Secondary angle: media-podcast for Monovoukas as a Bain-pedigreed founder voice on AI + healthcare commercialization. Skip ai-consulting (they are the vendor). Buyer access: Monovoukas is press-comfortable (Business Wire, MobiHealthNews, HIT Consultant interviews).",
+      "starred": true,
+      "contacts": [
+        { "name": "Michael Monovoukas", "title": "CEO & Co-founder", "persona": "CEO / Founder", "decisionMaker": true },
+        { "name": "Robert Coe", "title": "CTO & Co-founder", "persona": "CTO (tech)", "decisionMaker": false },
+        { "name": "Lee Smith", "title": "Head of Commercial Development & Co-founder", "persona": "Head of Growth", "decisionMaker": false }
+      ]
+    },
+    {
+      "name": "Mosaic",
+      "website": "https://www.mosaic.pe",
+      "pipeline": "pr-marketing",
+      "industry": "AI Deal Modeling / Private Markets Operating System / PE + Investment Banking + Private Credit",
+      "size": "16 employees today, growing to 40+ by end of 2026; serves Warburg Pincus, Bridgepoint, CVC, New Mountain, Evercore; '5 of the 10 largest global PE firms selected the platform in 2025'",
+      "location": "United States",
+      "fundingStage": "Series A ($18M, April 22, 2026) led by Radical Ventures. Troy Pospisil (Founder/CEO of Ontra.ai) joins board; John Megrue (Vice Chairman of Radical, ex-CEO of Apax) is strategic advisor.",
+      "fitScore": 46,
+      "intentScore": 41,
+      "fitDetails": { "industry": 10, "stage": 8, "buyer": 9, "proof": 10, "budget": 9 },
+      "intentDetails": { "trigger": 15, "timeline": 9, "dm_engaged": 6, "urgency": 8, "responsive": 3 },
+      "techStack": ["LBO modeling automation", "DCF automation", "agentic workflows", "rules-based deterministic calculations", "document ingestion AI", "private markets operating system"],
+      "source": "TechCrunch / PR Newswire / Pulse 2.0 / The SaaS News / Morningstar / citybiz (April 22, 2026)",
+      "notes": "$18M Series A April 22 led by Radical Ventures. CEO Ian Gutwinski (13+ yrs PE/IB, 6yrs as Principal at Onex Partners). Customer roster is the proof story: Warburg Pincus, Bridgepoint, CVC, New Mountain, Evercore — '5 of the 10 largest global PE firms selected the platform in 2025'. Board adds bring narrative weight: Troy Pospisil (Ontra.ai founder, also Mosaic's first investor) + John Megrue (ex-Apax CEO). 16 → 40 employees by end of 2026 = aggressive hire-and-launch sequence. Primary angle: pr-marketing — 'AI operating system for deal makers' is a category-creation moment with credible big-name proof; competing with Tegus (legacy expert calls), Aumni (cap-table data), Allvue (fund admin), and increasingly Ontra itself for adjacent surface area. Boutros-style narrative needed: plant-the-flag on 'agentic deal modeling' before adjacent vendors retrofit. Secondary angle: legal-consulting referral — PE customers spinning into Mosaic adoption may need parallel commercial-contract support, and Mosaic's expansion into IB and private credit will create channel-partner work. Tertiary: media-podcast — Gutwinski's PE/IB pedigree + Pospisil/Megrue board access make for a strong founder-led PE-tech show. Skip ai-consulting (vendor). Buyer access: Gutwinski via PR Newswire + citybiz, Pospisil/Megrue via Radical Ventures press.",
+      "starred": true,
+      "contacts": [
+        { "name": "Ian Gutwinski", "title": "CEO & Founder", "persona": "CEO / Founder", "decisionMaker": true },
+        { "name": "Troy Pospisil", "title": "Board Director (Founder/CEO of Ontra.ai)", "persona": "Board / Investor", "decisionMaker": false },
+        { "name": "Ryan Shannon", "title": "Board Director (Partner, Radical Ventures)", "persona": "Board / Investor", "decisionMaker": false },
+        { "name": "John Megrue", "title": "Strategic Advisor (Vice Chairman, Radical; ex-CEO Apax)", "persona": "Advisor", "decisionMaker": false }
+      ]
+    },
+    {
+      "name": "Iridius",
+      "website": "https://www.iridius.ai",
+      "pipeline": "pr-marketing",
+      "industry": "Compliance-by-Design AI / Regulated Enterprise Workflows / Life Sciences + Pharma AI Infrastructure",
+      "size": "Early-stage; CEO arrived with six senior enterprise leaders; advisory board includes senior leaders from Merck, Pfizer, J&J, Novartis, Allergan, Bayer; Accenture partnering on end-to-end compliance workflows",
+      "location": "United States (Microsoft / AWS / OpenAI alumni base)",
+      "fundingStage": "Seed ($8.6M, April 24, 2026) led by Chalfen Ventures with Osage Venture Partners, Accenture Ventures, and Rock Yard Ventures.",
+      "fitScore": 40,
+      "intentScore": 39,
+      "fitDetails": { "industry": 7, "stage": 7, "buyer": 9, "proof": 9, "budget": 8 },
+      "intentDetails": { "trigger": 14, "timeline": 9, "dm_engaged": 5, "urgency": 8, "responsive": 3 },
+      "techStack": ["regulatory standards as executable logic", "knowledge engine for GxP compliance", "intelligent solution factory", "compliant workflow orchestration", "evidence generation automation", "pharmacovigilance + clinical + manufacturing AI"],
+      "source": "PharmiWeb / Yahoo Finance / Sales Tech Star / GeekWire / Pulse 2.0 / Morningstar / Accenture Newsroom / Consulting.us (April 24, 2026)",
+      "notes": "$8.6M seed April 24 led by Chalfen Ventures with Osage + Accenture Ventures + Rock Yard. Accenture announced separate parallel investment via Accenture Ventures — they are also building joint solutions across regulatory submissions, pharmacovigilance, clinical and manufacturing operations. CEO Mike Kropp (ex-Microsoft, AWS); team from Microsoft, AWS, OpenAI. Advisory board roster — Merck, Pfizer, J&J, Novartis, Allergan, Bayer — is the strongest 'first-day proof' in this funding cohort. Primary angle: pr-marketing — 'compliance-as-executable-logic' is a category-creation moment in a regulated-AI vertical that's becoming a 2026 cycle theme alongside Worki (healthcare workforce) and Spectrum Security (CISO AI). Iridius can plant the 'compliance-native AI' flag now before Accenture publishes the joint solution case studies and competitors (Veeva Vault GxP, Iqvia, larger pharma SaaS) launch counter-positioning. Secondary angle: ai-consulting — the team identity (Microsoft / AWS / OpenAI vets + pharma advisory board) suggests they will need outside marketing-comms partners to translate technical positioning into pharma-buyer language; possible to bid an embedded fractional ai-consulting + comms motion. Tertiary: legal-consulting — regulated-workflow + GxP customers often need scoped commercial-contract counsel for pilots-to-production licenses. Skip media (B2B pharma buyer is too narrow for podcast circuit). Buyer access: Kropp on LinkedIn + via Chalfen Ventures press contact.",
+      "starred": true,
+      "contacts": [
+        { "name": "Mike Kropp", "title": "CEO & Co-founder", "persona": "CEO / Founder", "decisionMaker": true },
+        { "name": "Mike Chalfen", "title": "Founder, Chalfen Ventures (lead investor)", "persona": "Board / Investor", "decisionMaker": false }
+      ]
+    },
+    {
+      "name": "Humble Robotics",
+      "website": "https://humblerobotics.ai",
+      "pipeline": "pr-marketing",
+      "industry": "Autonomous Cabless Electric Hauler / Freight Robotics / VLA-Model Logistics",
+      "size": "Stealth-exit; first prototype shipped in under six months; founding team ex-Tesla / Waymo / Cruise / Apple / Uber / Waabi",
+      "location": "United States",
+      "fundingStage": "Seed ($24M, April 21, 2026) led by Eclipse, with Energy Impact Partners and RedBlue Capital.",
+      "fitScore": 37,
+      "intentScore": 37,
+      "fitDetails": { "industry": 7, "stage": 6, "buyer": 8, "proof": 9, "budget": 7 },
+      "intentDetails": { "trigger": 14, "timeline": 8, "dm_engaged": 5, "urgency": 7, "responsive": 3 },
+      "techStack": ["vision-language-action (VLA) models", "cabless EV platform", "360° camera + LiDAR + radar", "dock-to-dock autonomy", "Class 8 weight reduction", "$900B US freight market positioning"],
+      "source": "Fortune (exclusive) / TechCrunch Mobility / RoboticsTomorrow / Truck News / FreightWaves / The Next Web / theaiinsider.tech / PR Newswire (April 21-23, 2026)",
+      "notes": "$24M seed April 21 led by Eclipse — stealth exit + cabless autonomous EV hauler targeting $900B US freight industry. Energy Impact Partners + RedBlue Capital co-invested. Pedigree is the narrative: founding team is ex-Tesla / Waymo / Cruise / Apple / Uber / Waabi — every founder here has a story arc. First prototype in under six months = rare execution proof. Primary angle: pr-marketing — autonomous-trucking is a contested category (Aurora, Kodiak, Plus, Embark, Stack AV) with a brutal earned-media graveyard, but Humble's 'cabless + dock-to-dock + first vehicle for shipping containers' positioning is genuinely differentiated and the Fortune exclusive shows distribution is wired. Secondary angle: media — founder-led commentary lane on 'what went wrong with autonomous trucking' is open and Humble's team carries credibility. Skip ai-consulting (vendor). Buyer access: founders public via Fortune + FreightWaves + TechCrunch. Smaller budget tier than AcuityMD/Mosaic — likely $5-10k/mo retainer max for now.",
+      "starred": false,
+      "contacts": [
+        { "name": "Humble Robotics Founding Team", "title": "Co-founders (ex-Tesla, Waymo, Cruise, Apple, Uber, Waabi)", "persona": "CEO / Founder", "decisionMaker": true }
+      ]
+    }
+  ],
+  "signalRefresh": [
+    {
+      "name": "Rebel Audio",
+      "pipeline": "media",
+      "previousScore": "Fit 40 / Intent 44 (combined 84)",
+      "delta": "Public launch date confirmed May 30, 2026 — now 33 days out (was 36 days at the 4/24 scrape). Window is closing.",
+      "newSignals": [
+        "Public launch date confirmed (no slip)",
+        "Mark Burnett adviser status reaffirmed in Variety + Podnews coverage",
+        "PR cycle bandwidth still available (no agency announced)"
+      ],
+      "recommendedAction": "First-touch outreach to Jared Gutstadt this week. The ethics narrative (opt-in voice cloning + AI translation transparency) is the lead angle and needs landing in trade press by mid-May to compound earned media into the launch."
+    },
+    {
+      "name": "GetWhys",
+      "pipeline": "pr-marketing",
+      "previousScore": "Fit 47 / Intent 41 (combined 88)",
+      "delta": "Total funding revised: $8.5M (not $7.95M as recorded in the 4/26 scrape — minor correction). Investor list expanded: EPIC Ventures led, plus CEAS Investments, Portland Seed Fund, and existing Next Frontier Capital + Tuesday Capital + Capital Eleven.",
+      "newSignals": [
+        "Funding round oversubscribed (12 days post-announcement)",
+        "Headcount confirmed at 16 (doubled in past year)",
+        "10x revenue growth + 20x customer growth claims persisting in coverage",
+        "Boutros quote in Crunchbase: 'collapse the distance between insight and output' — clean positioning lever"
+      ],
+      "recommendedAction": "Update the CRM record with corrected total funding ($8.5M) and expanded investor list. Boutros's 'PMM problem' quote is the brief — pitch a 'positioning the GTM intelligence category' kickoff. Earned-media window still wide (12 days into a typical 14-30 day cycle for category-creation funding stories)."
+    },
+    {
+      "name": "Orkes",
+      "pipeline": "pr-marketing",
+      "previousScore": "Fit 45 / Intent 40 (combined 85)",
+      "delta": "Confirmed Series B specifics: AVP led with new investor Prosperity7 Ventures + existing Nexus + Battery + Vertex. Alex Scherbakovsky (AVP general partner) joined the board. Customer base tripled since 2024 Series A.",
+      "newSignals": [
+        "Board addition (AVP partner) — fresh introduction surface for press",
+        "Customer-base 3x in 24 months claim now corroborated across BusinessWire + Pulse 2.0 + APICoding",
+        "Founders Jeu George (CEO) + Viren Baraiya (CTO) + Dilip Lukose (CPO) all newly active in coverage"
+      ],
+      "recommendedAction": "First-touch this week. The narrative lever is 'production-grade AI orchestration' positioning vs. Temporal / LangGraph / Airflow / n8n — Orkes has the strongest enterprise-customer set (LinkedIn, Twilio, Quest Diagnostics, UWM, Naveo, Woodside) and needs to plant that flag before Anthropic's Skills/Claude Code or OpenAI's agent infrastructure pulls focus."
+    },
+    {
+      "name": "Aaru",
+      "pipeline": "ai-consulting",
+      "previousScore": "Fit 42 / Intent 39 (combined 81)",
+      "delta": "Source-vintage correction: TechCrunch original Series A coverage was December 2025, not April 2026. Subsequent April coverage was retrospective, not a new signal. Window has been open for 4+ months and is past prime earned-media ceiling.",
+      "newSignals": [
+        "ARR still <$10M per TechCrunch reporting",
+        "Multi-tier valuation (some equity at $450M, headline at $1B) — a press-fragility signal",
+        "No new product or customer announcement since December"
+      ],
+      "recommendedAction": "Discount intent score on next refresh by 5-8 points. Aaru's combined score should be lower than recorded — the trigger is stale. Keep on watchlist for upcoming product or customer-logo news, which would re-open the window."
+    },
+    {
+      "name": "Gateway Capital Partners",
+      "pipeline": "fund-formation",
+      "previousScore": "Fit 46 / Intent 42 (combined 88)",
+      "delta": "No new news since 4/26 scrape (Fund II first close announced early April). Window remains open — fund-formation engagements run on multi-month timelines so the 21-day-old close is still well-positioned.",
+      "newSignals": [
+        "No press leakage on subsequent closes or new portfolio announcements (typical for fund-formation period)",
+        "Dana Guthrie publicly accessible via TechCrunch / WisBusiness / BizTimes archive"
+      ],
+      "recommendedAction": "First-touch this week if not already done. Fund II first close = textbook fund-formation engagement window for side-letter / LPA / ongoing GP-side counsel. Pair with pr-marketing pitch on Wisconsin-to-Midwest expansion narrative for Fund III LP visibility."
+    }
+  ],
+  "executionMeta": {
+    "scrapedAt": "2026-04-27T11:00:00.000Z",
+    "sandboxNeonReachable": false,
+    "dbWritesApplied": 0,
+    "importCommand": "node scripts/import-2026-04-27.cjs (run from local machine where Neon is reachable)",
+    "sourcesQueried": [
+      "techcrunch.com",
+      "businesswire.com",
+      "prnewswire.com",
+      "pulse2.com",
+      "thesaasnews.com",
+      "venturebeat.com",
+      "axios.com/pro/health-tech-deals",
+      "mobihealthnews.com",
+      "hitconsultant.net",
+      "morningstar.com",
+      "fortune.com",
+      "freightwaves.com",
+      "pharmiweb.com",
+      "newsroom.accenture.com",
+      "geekwire.com",
+      "crunchbase.com/news",
+      "hedgeweek.com",
+      "venturecapitaljournal.com",
+      "wealthmanagement.com",
+      "linkedin.com/jobs",
+      "wellfound.com"
+    ],
+    "topProductiveSources": [
+      "TechCrunch (Mosaic, Humble Robotics, Series — also retrospective Aaru/Iridius pickup)",
+      "Business Wire (AcuityMD, Orkes signal refresh)",
+      "PR Newswire (Mosaic, GetWhys signal refresh, Humble Robotics)",
+      "Fortune exclusive (Humble Robotics — best earned-media beat of the day)",
+      "Morningstar / Yahoo Finance (cross-distribution amplifier for Iridius + Mosaic + AcuityMD)",
+      "Accenture Newsroom (Iridius — corporate-investor co-announcement signal)",
+      "Pulse 2.0 + The SaaS News (consistent secondary-tier confirmation across all four leads)"
+    ],
+    "trendsSpotted": [
+      "Vertical-AI for regulated/professional buyers is now the unambiguous dominant 2026 funding theme — AcuityMD (medtech sales), Mosaic (PE deal modeling), Iridius (life-sciences GxP) are all the same archetype: deep-domain ontology + agentic workflows + senior-pedigree founders.",
+      "Strategic-corporate-investor co-announcements are becoming a stronger PR signal than VC-led-only rounds: Iridius/Accenture, Mosaic/Pospisil-Ontra, AcuityMD/StepStone-Atreides — the narrative anchor is the corporate, not the VC.",
+      "Stealth exits with a cohesive talent-pedigree story (Humble Robotics ex-Tesla/Waymo/Cruise/Apple/Uber/Waabi, NeoCognition Ohio State spinout from 4/26) continue to monopolize 'first day of company' earned media — this is the cycle's go-to template.",
+      "Friday/weekend funding-news flow remains thin — Monday refresh consistently surfaces the prior week's Tuesday-Thursday news as 'fresh' for purposes of the 24-48hr window. Plan ahead: hot leads should be touched within 5-7 business days of announcement, not waited for fresh news."
+    ],
+    "skippedLeads": [
+      { "name": "Series", "reason": "$5.1M pre-seed AI social network in iMessage — consumer/teen, no FS/tech B2B fit" },
+      { "name": "FurtherAI", "reason": "October 2025 Series A — stale, surfaced as retrospective coverage" },
+      { "name": "Matters.AI", "reason": "October 2025 seed — stale; also India-led with US expansion plan, not US-headquartered" },
+      { "name": "Wealth Enhancement / FullCircle Wealth", "reason": "$268M RIA acquisition — Wealth Enhancement is a $80B+ buyer, too large for agency targeting; FullCircle is the acquired party, not a buying entity" },
+      { "name": "Shiprock Capital", "reason": "UK-based distressed-debt hedge fund — agency is US-focused" },
+      { "name": "Tortugas Neuroscience", "reason": "Biotech CNS — outside agency pipelines (carryover from 4/26 skip)" },
+      { "name": "Serif Biomedicines", "reason": "Modified DNA biotech — outside agency pipelines" },
+      { "name": "Hiro (acquired by OpenAI)", "reason": "Personal finance startup acquisition — Hiro no longer independent buyer; OpenAI not a target" },
+      { "name": "AcuityMD secondary skip", "reason": "Healthcare-tech sits at edge of FS/tech core; kept anyway as primary because near-unicorn category-leadership window outweighs sector-edge concern" }
+    ]
+  }
+}
