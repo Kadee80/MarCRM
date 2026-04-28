@@ -1,0 +1,130 @@
+{
+  "scrapeDate": "2026-04-27",
+  "scrapeType": "targeted",
+  "scrapeNote": "Targeted PR & Marketing scrape — Indeed/CareerBuilder focus on companies hiring/building PR departments",
+  "totalLeads": 4,
+  "topPipeline": "pr-marketing",
+  "note": "Targeted scrape of Indeed.com and CareerBuilder for companies actively hiring PR leadership — strong signal they're building or launching a PR function. All 4 leads are pr-marketing pipeline.",
+  "leads": [
+    {
+      "name": "SerpApi",
+      "website": "serpapi.com",
+      "pipeline": "pr-marketing",
+      "industry": "Developer Tools / Search API",
+      "location": "Austin, TX (Remote-first)",
+      "fundingStage": "Bootstrapped ($3-6.6M ARR)",
+      "fitScore": 38,
+      "intentScore": 42,
+      "fitDetails": {
+        "industry": 7,
+        "stage": 7,
+        "buyer": 8,
+        "proof": 9,
+        "budget": 7
+      },
+      "intentDetails": {
+        "trigger": 14,
+        "timeline": 10,
+        "dm_engaged": 8,
+        "urgency": 7,
+        "responsive": 3
+      },
+      "contacts": [
+        { "name": "Unknown CEO", "title": "CEO / Founder", "email": "", "linkedin": "" }
+      ],
+      "signals": ["first PR hire", "building PR function from scratch", "hiring PR Manager $141K-$183K + profit share"],
+      "source": "Indeed / ZipRecruiter",
+      "notes": "FIRST PR HIRE — building PR from scratch. $141K-$183K + profit share for PR Manager. Bootstrapped, $3-6.6M ARR, 38 employees. Customers include Apple, Shopify, Airbnb, GrubHub. They need earned media to grow beyond developer word-of-mouth. Perfect fractional/advisory wedge: help them define the PR strategy before they commit to the full-time hire."
+    },
+    {
+      "name": "PayNearMe",
+      "website": "paynearme.com",
+      "pipeline": "pr-marketing",
+      "industry": "Fintech / Payments",
+      "location": "Santa Clara, CA",
+      "fundingStage": "Series E ($203M total)",
+      "fitScore": 44,
+      "intentScore": 40,
+      "fitDetails": {
+        "industry": 10,
+        "stage": 9,
+        "buyer": 9,
+        "proof": 8,
+        "budget": 8
+      },
+      "intentDetails": {
+        "trigger": 12,
+        "timeline": 8,
+        "dm_engaged": 8,
+        "urgency": 8,
+        "responsive": 4
+      },
+      "contacts": [
+        { "name": "Unknown CMO", "title": "EVP / Chief Marketing Officer", "email": "", "linkedin": "" }
+      ],
+      "signals": ["hiring Senior Director Brand & Communications", "reporting to CMO", "post-Series E expansion", "building comms function"],
+      "source": "Indeed",
+      "notes": "Hiring Senior Director, Brand & Corporate Communications reporting to EVP/CMO. $50M Series E (Sep 2025), $203M total raised, 275 employees. Payment experience management platform. Role covers media relations, analyst engagement, crisis management, thought leadership. Post-raise brand evolution signal — they need the narrative to match the scale. Potential for fractional CMO advisory or agency retainer."
+    },
+    {
+      "name": "Paddle",
+      "website": "paddle.com",
+      "pipeline": "pr-marketing",
+      "industry": "B2B SaaS / Billing & Payments",
+      "location": "London, UK (Global)",
+      "fundingStage": "Series D ($293M total, $1.4B valuation)",
+      "fitScore": 42,
+      "intentScore": 38,
+      "fitDetails": {
+        "industry": 9,
+        "stage": 9,
+        "buyer": 8,
+        "proof": 8,
+        "budget": 8
+      },
+      "intentDetails": {
+        "trigger": 12,
+        "timeline": 8,
+        "dm_engaged": 8,
+        "urgency": 6,
+        "responsive": 4
+      },
+      "contacts": [
+        { "name": "Unknown CMO", "title": "Chief Marketing Officer", "email": "", "linkedin": "" }
+      ],
+      "signals": ["hiring Head of Brand & Communications", "reporting to CMO", "category creation — 'revenue delivery'", "6000+ SaaS customers"],
+      "source": "startup.jobs / AngelList",
+      "notes": "Hiring Head of Brand & Communications (B2B SaaS) reporting to CMO. $293M total funding, $1.4B valuation, 6000+ SaaS/AI customers. Trying to establish 'revenue delivery' as a category — classic category-creation PR play. Processes $1B+ in payments annually. London HQ but global. Potential for US-side earned media strategy or analyst relations retainer."
+    },
+    {
+      "name": "Loti AI",
+      "website": "loti.ai",
+      "pipeline": "pr-marketing",
+      "industry": "AI / Digital Identity / Deepfake Detection",
+      "location": "Seattle, WA",
+      "fundingStage": "Series A ($23M total, Khosla Ventures-led)",
+      "fitScore": 40,
+      "intentScore": 39,
+      "fitDetails": {
+        "industry": 9,
+        "stage": 8,
+        "buyer": 7,
+        "proof": 8,
+        "budget": 8
+      },
+      "intentDetails": {
+        "trigger": 13,
+        "timeline": 8,
+        "dm_engaged": 8,
+        "urgency": 7,
+        "responsive": 3
+      },
+      "contacts": [
+        { "name": "Unknown CEO", "title": "CEO / Founder", "email": "", "linkedin": "" }
+      ],
+      "signals": ["hiring PR/marketing coordinator", "post-Series A", "Khosla Ventures-led", "WME + CAA partnerships", "deepfake/AI narrative"],
+      "source": "Indeed",
+      "notes": "Hiring PR/marketing role post-$16.2M Series A (Khosla Ventures-led, $23M total). AI deepfake detection for celebrities and consumers. Partnerships with WME, CAA, and 42West/Shore Fire. The deepfake narrative is red-hot — founder profile and thought leadership opportunities are wide open. Celebrity client angle gives this legs beyond tech press into entertainment and policy media."
+    }
+  ]
+}
