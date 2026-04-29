@@ -1,0 +1,79 @@
+{
+  "scrapeDate": "2026-04-29",
+  "totalLeads": 4,
+  "note": "Daily scrape for Wednesday 2026-04-29. New leads: Manifest OS ($60M Series A April 28 — largest legal-tech Series A in history), Avoca ($125M+ unicorn AI for services economy April 27), Kintra Wealth ($4B AUM RIA spinout from 6 Commonwealth firms April 21), Amperos Health ($16M Series A April 22 healthcare RCM AI). Signal refresh covers 6 hot existing leads — Rebel Audio's May 30 public launch is now 31 days out, GetWhys customer list expanded with Intel + Verizon, AcuityMD has 16 active job postings post-Series-C. No fund-formation, coaching-ops, legal-freelance, or pr-freelance leads cleared the bar today.",
+  "leads": [
+    {
+      "name": "Manifest OS",
+      "website": "https://www.manifest.law",
+      "pipeline": "pr-marketing",
+      "industry": "Legal AI / AI-Native Law Firm Network",
+      "location": "New York, NY",
+      "fundingStage": "Series A ($60M, April 28, 2026) at $750M valuation — described as the largest Series A in legal-tech history. Led by Menlo Ventures and Kleiner Perkins, with First Round Capital and Quiet Capital participating.",
+      "fitScore": 44,
+      "intentScore": 45,
+      "fitDetails": { "industry": 7, "stage": 9, "buyer": 8, "proof": 10, "budget": 10 },
+      "intentDetails": { "trigger": 15, "timeline": 10, "dm_engaged": 8, "urgency": 8, "responsive": 4 },
+      "contacts": [
+        { "name": "Dan Mishin", "title": "Founder & CEO", "email": null, "linkedin": "https://www.linkedin.com/in/dan-mishin/" }
+      ],
+      "signals": ["fundraise", "category_creation", "marquee_vc_syndicate", "founder_story_pr_anchor", "billable_hour_disruption_narrative"],
+      "source": "Law.com + Pulse 2.0 + Legal IT Insider + Artificial Lawyer + Yahoo Finance",
+      "notes": "Largest Series A in legal-tech history at $750M valuation (Menlo + KP + First Round + Quiet). Mishin is an immigrant entrepreneur whose backstory — navigating US legal/immigration system firsthand — is the human-interest narrative anchor. Manifest is recruiting lawyers into an AI-native law-firm network (currently 100+ lawyers under Manifest Law brand) and the explicit thesis is 'ending the billable hour' — that $400B / 90% of legal spend / 80% of consumers can't afford a lawyer is the populist policy narrative. Primary angle: pr-marketing — this is a textbook category-creation moment (AI-native law firm vs. AI legal tools like Harvey, Ironclad, Manifest itself). Recommend a 90-day plant-the-flag campaign on 'AI-native law firm model' before incumbents (BigLaw + ABS firms in UK/AZ) counter-position. Founders are press-comfortable and have already done exclusives. Skip legal-consulting (they ARE the firm — competitor to legal services, not buyer). Skip ai-consulting (vendor of AI internally). Note: 'Manifest Law' is the consumer-facing brand; 'Manifest OS' is the platform. Both names appear in coverage."
+    },
+    {
+      "name": "Avoca",
+      "website": "https://www.avoca.ai",
+      "pipeline": "pr-marketing",
+      "industry": "Vertical AI / Services Economy (HVAC, Plumbing, Roofing, Moving, Property Management)",
+      "location": "United States",
+      "fundingStage": "Combined Seed + Series A + Series B totaling $125M+ at $1B valuation (April 27, 2026). Series B led by Meritech and General Catalyst; Series A led by Kleiner Perkins. Also backed by Amplify Partners, Nexus Venture Partners, and Y Combinator. Unicorn status confirmed.",
+      "fitScore": 45,
+      "intentScore": 46,
+      "fitDetails": { "industry": 7, "stage": 9, "buyer": 9, "proof": 10, "budget": 10 },
+      "intentDetails": { "trigger": 15, "timeline": 10, "dm_engaged": 9, "urgency": 8, "responsive": 4 },
+      "contacts": [
+        { "name": "Tyson Chen", "title": "Co-founder & CEO", "email": null, "linkedin": null },
+        { "name": "Apurva Shrivastava", "title": "Co-founder", "email": null, "linkedin": "https://www.linkedin.com/in/apurva-shrivastava-138b19a0/" },
+        { "name": "Brandon Braswell", "title": "Co-founder", "email": null, "linkedin": null }
+      ],
+      "signals": ["unicorn_round", "marquee_vc_syndicate", "category_leadership", "fortune_exclusive", "vertical_ai_ontology"],
+      "source": "Fortune (exclusive) + PR Newswire + Pulse 2.0 + The SaaS News + Avoca blog",
+      "notes": "$1B unicorn round announced April 27 — Series B led by Meritech + General Catalyst; Series A led by Kleiner Perkins. AI agents handle 24/7 call answering, scheduling, marketing campaigns, and customer follow-ups for HVAC/plumbing/roofing/moving/junk-removal/automotive/property-management businesses. Avoca on track to book $1B in jobs in 2026 — proof point is exceptional. Fortune ran an exclusive ('chance encounter in Texas sparked a $1B Kleiner Perkins-backed AI startup') with founder-narrative emphasis. Primary angle: pr-marketing — services-economy AI is a wide-open white space and Avoca's $1B booking velocity is THE proof point for the category. Competing against Lula (insurance for HVAC), ServiceTitan (vertical SaaS leader, public), Sunwave (similar AI play), and increasingly OpenAI's voice agents on top of incumbent CRMs. Recommend a 'verticalized agentic AI for the services economy' category-frame campaign in next 60 days while the unicorn news still has narrative pull. Founders are clearly press-engaged given Fortune access. Note that Avoca's customers are themselves coaching-ops candidates (HVAC, plumbing service businesses) — Avoca is the vendor here, not a coaching-ops target."
+    },
+    {
+      "name": "Kintra Wealth",
+      "website": "https://www.kintrawealth.com",
+      "pipeline": "legal-consulting",
+      "industry": "Registered Investment Advisor (RIA) / Wealth Management — Multi-Custodial",
+      "location": "Williamsport, PA (74 employees across PA, FL, KY, MA, NJ, OH, RI, TX)",
+      "fundingStage": "Self-funded launch April 21, 2026 — newly-formed RIA from merger of six former Commonwealth Financial Network firms (Evergreen Wealth Solutions, Warren Wealth Associates, Loring Advisory Group, Tupler Financial, Rembrandt Financial Group, McCarthy & Cox). $4B AUM. Co-founders share ownership; no single advisor holds majority. Built on Orion as wealth platform.",
+      "fitScore": 44,
+      "intentScore": 46,
+      "fitDetails": { "complexity": 12, "ongoing": 13, "size": 9, "dm_access": 5, "budget": 5 },
+      "intentDetails": { "active_problem": 18, "timeline": 10, "volume": 10, "pressure": 4, "responsive": 4 },
+      "contacts": [
+        { "name": "Andy Harris", "title": "CEO", "email": null, "linkedin": null }
+      ],
+      "signals": ["new_ria_launch", "platform_transition_pressure", "multi_state_buildout", "ownership_restructure", "lpl_commonwealth_diaspora"],
+      "source": "WealthManagement.com + InvestmentNews + AltsWire + ABF Journal + bakersfield.com (Newswire syndicate) + AdvisorSearch.org",
+      "notes": "Six former Commonwealth Financial Network practices merged April 21 to form Kintra — $4B AUM, 74 employees, 8 states. Move was triggered by LPL Financial's Commonwealth acquisition + a desired exit ahead of LPL's full platform transition (planned for end of 2026). Primary angle: legal-consulting — a brand-new RIA needs (a) clean Form ADV / state registrations across 8 jurisdictions, (b) advisor employment / equity-rollup agreements among 6 founder firms, (c) Orion custodial / wealth-platform commercial agreements, (d) ongoing SEC compliance + 2026 marketing rule + advertising program build. The volume + multi-state complexity + transition urgency = textbook ongoing-need legal-consulting fit. Secondary angle: pr-marketing — new $4B RIA with no brand identity yet, multi-state launch, 'inflection point' founder narrative from CEO Andy Harris. Tertiary: fund-formation tangent if Kintra later builds an in-house alternatives sleeve (common for $4B+ RIAs serving HNW / families / institutions). Skip ai-consulting / coaching-ops (not the right shape). The fact that LPL's full platform transition is end of 2026 means the engagement window is wide — multi-month to multi-year — which is unusual; most legal-consulting windows are 30-90 days."
+    },
+    {
+      "name": "Amperos Health",
+      "website": "https://www.amperos.com",
+      "pipeline": "pr-marketing",
+      "industry": "Healthcare AI / Revenue Cycle Management (RCM) / Denial Management",
+      "location": "New York, NY",
+      "fundingStage": "Series A ($16M, April 22, 2026) led by Bessemer Venture Partners with participation from Uncork Capital and Neo. Industry's first AI-native denial management and revenue recovery platform.",
+      "fitScore": 42,
+      "intentScore": 41,
+      "fitDetails": { "industry": 7, "stage": 8, "buyer": 9, "proof": 10, "budget": 8 },
+      "intentDetails": { "trigger": 13, "timeline": 10, "dm_engaged": 7, "urgency": 7, "responsive": 4 },
+      "contacts": [],
+      "signals": ["fundraise", "platform_launch", "category_creation", "marquee_proof_metrics", "agentic_ai_workflow"],
+      "source": "PR Newswire + Bessemer Venture Partners blog + Fierce Healthcare + HIT Consultant + HLTH + Pulse 2.0",
+      "notes": "$16M Series A April 22 led by Bessemer (with Uncork + Neo). Amperos launched what they're calling the 'industry's first AI-native denial management and revenue recovery platform.' Proof points are very strong: 3,000+ clinical locations across all 50 states; nearly $700M of revenue recovered per year; over 500,000 claims processed. Use of LLMs across voice + computer-use to complete entire collections workflows + a subject-matter-expert team for complex claims. Primary angle: pr-marketing — denial management is a $260B+ problem (per Bessemer's framing) and Amperos has plant-the-flag claim on the agentic-AI-native category before competitors (Janus Health, MD Clarity, Adonis, Waystar AI features) crowd it. Recommend a 60-day narrative campaign tied to (a) the $260B problem framing, (b) agentic + voice + computer-use as the technical wedge, (c) the 'subject-matter-expert humans complement the AI' positioning to address provider trust concerns. Competition is contested but Bessemer's framing ('first AI-native') is the differentiator to defend. Founder details not in primary coverage — recommend Katie pull from LinkedIn on first-touch. Secondary: ai-consulting referral surface possible but Amperos likely has internal AI team given Bessemer-tier round."
+    }
+  ]
+}
