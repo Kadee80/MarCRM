@@ -2,11 +2,11 @@
 import { useState, useEffect, useMemo, useCallback } from "react";
 import {
   Search, Plus, Building2, Users, Target, Globe, BarChart3, ChevronRight, X, Check,
-  Loader2, Star, StarOff, ArrowUpDown, ExternalLink, Trash2, Mail, Phone, MapPin,
-  Briefcase, Layers, Database, ChevronDown, ChevronUp, Zap, TrendingUp, DollarSign,
-  Clock, UserCheck, Link2, Filter, Eye, AlertCircle, Activity, PieChart, Settings,
-  Megaphone, Scale, BookOpen, Cpu, Video, RefreshCw, FileText, Award, Landmark,
-  MessageSquare, PhoneCall, Calendar, Edit3, Save, XCircle, ChevronLeft, Columns
+  Loader2, Star, StarOff, ArrowUpDown, ExternalLink, Trash2, Mail, Phone,
+  Briefcase, Database, ChevronDown, ChevronUp, Zap,
+  UserCheck, Link2, AlertCircle, Activity,
+  Megaphone, Scale, BookOpen, Cpu, Video, FileText, Award, Landmark,
+  MessageSquare, PhoneCall, Calendar, Save, Columns
 } from "lucide-react";
 
 /* ═══════════════════════════════════════════════════════════════════════════
@@ -593,6 +593,7 @@ export default function AgencyCRM() {
   const [stageFilter, setStageFilter] = useState("All");
   const [sortField, setSortField] = useState("totalScore");
   const [sortDir, setSortDir] = useState("desc");
+  const [starredOnly, setStarredOnly] = useState(false);
   const [selectedCompany, setSelectedCompany] = useState(null);
   const [showAddCompany, setShowAddCompany] = useState(false);
   const [showAddContact, setShowAddContact] = useState(false);
@@ -613,6 +614,13 @@ export default function AgencyCRM() {
   // Enrichment state
   const [enrichmentStats, setEnrichmentStats] = useState(null);
   const [enriching, setEnriching] = useState(null); // contactId being enriched
+
+  // Contact list filter/sort state
+  const [contactSearch, setContactSearch] = useState("");
+  const [contactPipelineFilter, setContactPipelineFilter] = useState("all");
+  const [contactDMFilter, setContactDMFilter] = useState(false);
+  const [contactSortField, setContactSortField] = useState("name");
+  const [contactSortDir, setContactSortDir] = useState("asc");
 
   // Contact sidebar state
   const [sidebarContact, setSidebarContact] = useState(null);
@@ -655,19 +663,31 @@ export default function AgencyCRM() {
     let list = companies.filter(c => {
       if (pipelineFilter !== "all" && c.pipeline !== pipelineFilter) return false;
       if (stageFilter !== "All" && c.stage !== stageFilter) return false;
-      if (search && !c.name.toLowerCase().includes(search.toLowerCase()) && !(c.industry || "").toLowerCase().includes(search.toLowerCase())) return false;
+      if (starredOnly && !c.starred) return false;
+      if (search) {
+        const q = search.toLowerCase();
+        if (!c.name.toLowerCase().includes(q) && !(c.industry || "").toLowerCase().includes(q) && !(c.location || "").toLowerCase().includes(q)) return false;
+      }
       return true;
     });
     list.sort((a, b) => {
+      // Starred always float to top when not explicitly sorting by something else
+      if (sortField === "totalScore" || sortField === "fitScore" || sortField === "intentScore") {
+        if (a.starred && !b.starred) return -1;
+        if (!a.starred && b.starred) return 1;
+      }
       const mod = sortDir === "asc" ? 1 : -1;
       if (sortField === "totalScore") return (totalScore(a) - totalScore(b)) * mod;
       if (sortField === "fitScore") return (a.fitScore - b.fitScore) * mod;
       if (sortField === "intentScore") return (a.intentScore - b.intentScore) * mod;
       if (sortField === "name") return a.name.localeCompare(b.name) * mod;
+      if (sortField === "industry") return (a.industry || "").localeCompare(b.industry || "") * mod;
+      if (sortField === "location") return (a.location || "").localeCompare(b.location || "") * mod;
+      if (sortField === "lastActivity") return ((a.lastActivity || "").localeCompare(b.lastActivity || "")) * mod;
       return 0;
     });
     return list;
-  }, [companies, search, pipelineFilter, stageFilter, sortField, sortDir]);
+  }, [companies, search, pipelineFilter, stageFilter, starredOnly, sortField, sortDir]);
 
   const pipelineStats = useMemo(() => {
     const stats = {};
@@ -684,6 +704,39 @@ export default function AgencyCRM() {
   }, [companies]);
 
   const companyContacts = (companyId) => contacts.filter(c => c.companyId === companyId);
+
+  const filteredContacts = useMemo(() => {
+    let list = contacts.map(ct => {
+      const company = companies.find(c => c.id === ct.companyId);
+      return { ...ct, _company: company };
+    }).filter(ct => {
+      if (contactPipelineFilter !== "all" && ct._company?.pipeline !== contactPipelineFilter) return false;
+      if (contactDMFilter && !ct.decisionMaker) return false;
+      if (contactSearch) {
+        const q = contactSearch.toLowerCase();
+        if (
+          !ct.name.toLowerCase().includes(q) &&
+          !(ct.title || "").toLowerCase().includes(q) &&
+          !(ct.email || "").toLowerCase().includes(q) &&
+          !(ct._company?.name || "").toLowerCase().includes(q)
+        ) return false;
+      }
+      return true;
+    });
+    list.sort((a, b) => {
+      const mod = contactSortDir === "asc" ? 1 : -1;
+      if (contactSortField === "name") return a.name.localeCompare(b.name) * mod;
+      if (contactSortField === "company") return (a._company?.name || "").localeCompare(b._company?.name || "") * mod;
+      if (contactSortField === "title") return (a.title || "").localeCompare(b.title || "") * mod;
+      return 0;
+    });
+    return list;
+  }, [contacts, companies, contactSearch, contactPipelineFilter, contactDMFilter, contactSortField, contactSortDir]);
+
+  const handleContactSort = (field) => {
+    if (contactSortField === field) setContactSortDir(d => d === "asc" ? "desc" : "asc");
+    else { setContactSortField(field); setContactSortDir("asc"); }
+  };
 
   const handleSort = (field) => {
     if (sortField === field) setSortDir(d => d === "asc" ? "desc" : "asc");
@@ -1016,7 +1069,7 @@ export default function AgencyCRM() {
       <div className="flex items-center gap-3 flex-wrap">
         <div className="relative flex-1 min-w-[180px]">
           <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" />
-          <input type="text" placeholder="Search..." value={search} onChange={e => setSearch(e.target.value)} className="w-full pl-9 pr-4 py-2 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500" />
+          <input type="text" placeholder="Search name, industry, location..." value={search} onChange={e => setSearch(e.target.value)} className="w-full pl-9 pr-4 py-2 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500" />
         </div>
         <select value={pipelineFilter} onChange={e => setPipelineFilter(e.target.value)} className="px-3 py-2 border border-gray-200 rounded-lg text-sm bg-white">
           <option value="all">All Pipelines</option>
@@ -1026,6 +1079,9 @@ export default function AgencyCRM() {
           <option value="All">All Stages</option>
           {FUNNEL_STAGES.map(s => <option key={s} value={s}>{s}</option>)}
         </select>
+        <button onClick={() => setStarredOnly(v => !v)} className={`flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium border transition-colors ${starredOnly ? "bg-amber-50 border-amber-300 text-amber-700" : "bg-white border-gray-200 text-gray-500 hover:border-gray-300"}`}>
+          <Star size={14} className={starredOnly ? "fill-amber-400 text-amber-400" : ""} /> Starred
+        </button>
       </div>
 
       {/* Table */}
@@ -1035,19 +1091,22 @@ export default function AgencyCRM() {
             <thead>
               <tr className="border-b border-gray-100">
                 <th className="w-8 px-3 py-3" />
-                <th className="text-left px-3 py-3 text-xs font-semibold text-gray-500 uppercase cursor-pointer" onClick={() => handleSort("name")}>
-                  <span className="flex items-center gap-1">Company <ArrowUpDown size={11} /></span>
+                <th className="text-left px-3 py-3 text-xs font-semibold text-gray-500 uppercase cursor-pointer select-none" onClick={() => handleSort("name")}>
+                  <span className="flex items-center gap-1">Company {sortField === "name" ? (sortDir === "asc" ? <ChevronUp size={11} /> : <ChevronDown size={11} />) : <ArrowUpDown size={11} className="text-gray-300" />}</span>
                 </th>
                 <th className="text-left px-3 py-3 text-xs font-semibold text-gray-500 uppercase">Pipeline</th>
                 <th className="text-left px-3 py-3 text-xs font-semibold text-gray-500 uppercase">Stage</th>
-                <th className="text-left px-3 py-3 text-xs font-semibold text-gray-500 uppercase cursor-pointer" onClick={() => handleSort("fitScore")}>
-                  <span className="flex items-center gap-1">Fit <ArrowUpDown size={11} /></span>
+                <th className="text-left px-3 py-3 text-xs font-semibold text-gray-500 uppercase cursor-pointer select-none" onClick={() => handleSort("location")}>
+                  <span className="flex items-center gap-1">Location {sortField === "location" ? (sortDir === "asc" ? <ChevronUp size={11} /> : <ChevronDown size={11} />) : <ArrowUpDown size={11} className="text-gray-300" />}</span>
                 </th>
-                <th className="text-left px-3 py-3 text-xs font-semibold text-gray-500 uppercase cursor-pointer" onClick={() => handleSort("intentScore")}>
-                  <span className="flex items-center gap-1">Intent <ArrowUpDown size={11} /></span>
+                <th className="text-left px-3 py-3 text-xs font-semibold text-gray-500 uppercase cursor-pointer select-none" onClick={() => handleSort("fitScore")}>
+                  <span className="flex items-center gap-1">Fit {sortField === "fitScore" ? (sortDir === "asc" ? <ChevronUp size={11} /> : <ChevronDown size={11} />) : <ArrowUpDown size={11} className="text-gray-300" />}</span>
                 </th>
-                <th className="text-left px-3 py-3 text-xs font-semibold text-gray-500 uppercase cursor-pointer" onClick={() => handleSort("totalScore")}>
-                  <span className="flex items-center gap-1">Total <ArrowUpDown size={11} /></span>
+                <th className="text-left px-3 py-3 text-xs font-semibold text-gray-500 uppercase cursor-pointer select-none" onClick={() => handleSort("intentScore")}>
+                  <span className="flex items-center gap-1">Intent {sortField === "intentScore" ? (sortDir === "asc" ? <ChevronUp size={11} /> : <ChevronDown size={11} />) : <ArrowUpDown size={11} className="text-gray-300" />}</span>
+                </th>
+                <th className="text-left px-3 py-3 text-xs font-semibold text-gray-500 uppercase cursor-pointer select-none" onClick={() => handleSort("totalScore")}>
+                  <span className="flex items-center gap-1">Total {sortField === "totalScore" ? (sortDir === "asc" ? <ChevronUp size={11} /> : <ChevronDown size={11} />) : <ArrowUpDown size={11} className="text-gray-300" />}</span>
                 </th>
                 <th className="text-left px-3 py-3 text-xs font-semibold text-gray-500 uppercase">Priority</th>
                 <th className="w-8 px-3 py-3" />
@@ -1073,6 +1132,7 @@ export default function AgencyCRM() {
                     </td>
                     <td className="px-3 py-3"><PipelineBadge pipelineId={c.pipeline} /></td>
                     <td className="px-3 py-3"><Badge className={STAGE_COLORS[c.stage]}>{c.stage}</Badge></td>
+                    <td className="px-3 py-3"><span className="text-xs text-gray-600">{c.location || "—"}</span></td>
                     <td className="px-3 py-3"><ScoreBadge score={c.fitScore} label="F" /></td>
                     <td className="px-3 py-3"><ScoreBadge score={c.intentScore} label="I" /></td>
                     <td className="px-3 py-3"><ScoreBadge score={score} /></td>
@@ -1338,10 +1398,25 @@ export default function AgencyCRM() {
       <div className="flex items-center justify-between">
         <div>
           <h1 className="text-2xl font-bold text-gray-900">Contacts</h1>
-          <p className="text-sm text-gray-500 mt-1">{contacts.length} contacts across {companies.length} companies</p>
+          <p className="text-sm text-gray-500 mt-1">{filteredContacts.length} of {contacts.length} contacts across {companies.length} companies</p>
         </div>
         <button onClick={() => setShowAddContact(true)} className="flex items-center gap-1.5 px-4 py-2 bg-indigo-600 text-white text-sm font-medium rounded-lg hover:bg-indigo-700 shadow-sm">
           <Plus size={16} /> Add Contact
+        </button>
+      </div>
+
+      {/* Filters */}
+      <div className="flex items-center gap-3 flex-wrap">
+        <div className="relative flex-1 min-w-[180px]">
+          <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" />
+          <input type="text" placeholder="Search name, title, email, company..." value={contactSearch} onChange={e => setContactSearch(e.target.value)} className="w-full pl-9 pr-4 py-2 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500" />
+        </div>
+        <select value={contactPipelineFilter} onChange={e => setContactPipelineFilter(e.target.value)} className="px-3 py-2 border border-gray-200 rounded-lg text-sm bg-white">
+          <option value="all">All Pipelines</option>
+          {PIPELINES.map(p => <option key={p.id} value={p.id}>{p.label}</option>)}
+        </select>
+        <button onClick={() => setContactDMFilter(v => !v)} className={`flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium border transition-colors ${contactDMFilter ? "bg-amber-50 border-amber-300 text-amber-700" : "bg-white border-gray-200 text-gray-500 hover:border-gray-300"}`}>
+          <UserCheck size={14} /> Decision Makers
         </button>
       </div>
 
@@ -1375,42 +1450,73 @@ export default function AgencyCRM() {
         </div>
       )}
 
+      {/* Table */}
       <div className="bg-white rounded-xl border border-gray-100 shadow-sm overflow-hidden">
-        <div className="divide-y divide-gray-50">
-          {contacts.map(ct => {
-            const company = companies.find(c => c.id === ct.companyId);
-            const hasContactInfo = ct.email || ct.phone;
-            return (
-              <div key={ct.id} className="flex items-center justify-between px-5 py-3 hover:bg-gray-50 cursor-pointer" onClick={() => openContactSidebar(ct)}>
-                <div className="flex items-center gap-3">
-                  <div className="w-9 h-9 rounded-full bg-indigo-100 flex items-center justify-center text-xs font-bold text-indigo-600">{ct.name.split(" ").map(n => n[0]).join("")}</div>
-                  <div>
-                    <div className="flex items-center gap-2">
-                      <p className="text-sm font-medium text-gray-900">{ct.name}</p>
-                      {ct.decisionMaker && <Badge className="bg-amber-100 text-amber-700">DM</Badge>}
-                    </div>
-                    <p className="text-xs text-gray-500">{ct.title} {company ? `at ${company.name}` : ""}</p>
-                  </div>
-                </div>
-                <div className="flex items-center gap-3 text-xs text-gray-500">
-                  {company && <PipelineBadge pipelineId={company.pipeline} />}
-                  {ct.email && <span className="flex items-center gap-1"><Mail size={11} /> {ct.email}</span>}
-                  {ct.phone && <span className="flex items-center gap-1"><Phone size={11} /> {ct.phone}</span>}
-                  {ct.linkedin && <a href={ct.linkedin.startsWith("http") ? ct.linkedin : `https://${ct.linkedin}`} target="_blank" rel="noreferrer" className="text-indigo-500"><Link2 size={13} /></a>}
-                  {!hasContactInfo && company && (
-                    <button
-                      onClick={() => handleEnrich(ct, company.name, company.website)}
-                      disabled={enriching === ct.id}
-                      className="flex items-center gap-1 px-2.5 py-1 bg-amber-50 text-amber-700 border border-amber-200 rounded-lg hover:bg-amber-100 disabled:opacity-50 font-medium"
-                    >
-                      {enriching === ct.id ? <Loader2 size={11} className="animate-spin" /> : <Zap size={11} />}
-                      {enriching === ct.id ? "Looking up..." : "Find Email"}
-                    </button>
-                  )}
-                </div>
-              </div>
-            );
-          })}
+        <div className="overflow-x-auto">
+          <table className="w-full">
+            <thead>
+              <tr className="border-b border-gray-100">
+                <th className="text-left px-4 py-3 text-xs font-semibold text-gray-500 uppercase cursor-pointer select-none" onClick={() => handleContactSort("name")}>
+                  <span className="flex items-center gap-1">Name {contactSortField === "name" ? (contactSortDir === "asc" ? <ChevronUp size={11} /> : <ChevronDown size={11} />) : <ArrowUpDown size={11} className="text-gray-300" />}</span>
+                </th>
+                <th className="text-left px-4 py-3 text-xs font-semibold text-gray-500 uppercase cursor-pointer select-none" onClick={() => handleContactSort("title")}>
+                  <span className="flex items-center gap-1">Title {contactSortField === "title" ? (contactSortDir === "asc" ? <ChevronUp size={11} /> : <ChevronDown size={11} />) : <ArrowUpDown size={11} className="text-gray-300" />}</span>
+                </th>
+                <th className="text-left px-4 py-3 text-xs font-semibold text-gray-500 uppercase cursor-pointer select-none" onClick={() => handleContactSort("company")}>
+                  <span className="flex items-center gap-1">Company {contactSortField === "company" ? (contactSortDir === "asc" ? <ChevronUp size={11} /> : <ChevronDown size={11} />) : <ArrowUpDown size={11} className="text-gray-300" />}</span>
+                </th>
+                <th className="text-left px-4 py-3 text-xs font-semibold text-gray-500 uppercase">Pipeline</th>
+                <th className="text-left px-4 py-3 text-xs font-semibold text-gray-500 uppercase">Contact Info</th>
+                <th className="w-10 px-3 py-3" />
+              </tr>
+            </thead>
+            <tbody>
+              {filteredContacts.map(ct => {
+                const company = ct._company;
+                const hasContactInfo = ct.email || ct.phone;
+                return (
+                  <tr key={ct.id} className="border-b border-gray-50 hover:bg-gray-50/50 cursor-pointer" onClick={() => openContactSidebar(ct)}>
+                    <td className="px-4 py-3">
+                      <div className="flex items-center gap-3">
+                        <div className="w-8 h-8 rounded-full bg-indigo-100 flex items-center justify-center text-xs font-bold text-indigo-600 flex-shrink-0">{ct.name.split(" ").map(n => n[0]).join("")}</div>
+                        <div className="flex items-center gap-2">
+                          <span className="text-sm font-medium text-gray-900">{ct.name}</span>
+                          {ct.decisionMaker && <Badge className="bg-amber-100 text-amber-700">DM</Badge>}
+                        </div>
+                      </div>
+                    </td>
+                    <td className="px-4 py-3"><span className="text-sm text-gray-600">{ct.title || "—"}</span></td>
+                    <td className="px-4 py-3"><span className="text-sm text-gray-600">{company?.name || "—"}</span></td>
+                    <td className="px-4 py-3">{company && <PipelineBadge pipelineId={company.pipeline} />}</td>
+                    <td className="px-4 py-3">
+                      <div className="flex items-center gap-2 text-xs text-gray-500">
+                        {ct.email && <span className="flex items-center gap-1"><Mail size={11} /> {ct.email}</span>}
+                        {ct.phone && <span className="flex items-center gap-1"><Phone size={11} /> {ct.phone}</span>}
+                        {ct.linkedin && <a href={ct.linkedin.startsWith("http") ? ct.linkedin : `https://${ct.linkedin}`} target="_blank" rel="noreferrer" className="text-indigo-500 hover:text-indigo-700" onClick={e => e.stopPropagation()}><Link2 size={13} /></a>}
+                        {!hasContactInfo && company && (
+                          <button
+                            onClick={e => { e.stopPropagation(); handleEnrich(ct, company.name, company.website); }}
+                            disabled={enriching === ct.id}
+                            className="flex items-center gap-1 px-2.5 py-1 bg-amber-50 text-amber-700 border border-amber-200 rounded-lg hover:bg-amber-100 disabled:opacity-50 font-medium"
+                          >
+                            {enriching === ct.id ? <Loader2 size={11} className="animate-spin" /> : <Zap size={11} />}
+                            {enriching === ct.id ? "Looking up..." : "Find Email"}
+                          </button>
+                        )}
+                      </div>
+                    </td>
+                    <td className="px-3 py-3"><ChevronRight size={15} className="text-gray-300" /></td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+          {filteredContacts.length === 0 && (
+            <div className="py-12 text-center">
+              <Users size={24} className="mx-auto text-gray-300 mb-2" />
+              <p className="text-sm text-gray-500">No contacts found. Adjust filters or add new.</p>
+            </div>
+          )}
         </div>
       </div>
     </div>
