@@ -1,0 +1,188 @@
+{
+  "scrapeDate": "2026-04-30",
+  "scrapeType": "pr-freelance",
+  "totalLeads": 5,
+  "note": "Targeted pr-freelance pipeline scrape focused on companies hiring PR/comms (full-time or otherwise) where Mark can pitch fractional/freelance/interim/overflow as an alternative or stopgap. Window: 2026-04-23 to 2026-04-30 with funding-driven leads back to 2026-04-15 (per scoring rubric — recency points decay outside 72h). Min combined score: 55. All leads have pipeline=pr-freelance. Dedup-checked against daily-scrape-* and daily-scrape-2026-04-27-targeted reports — no overlap.",
+  "leads": [
+    {
+      "name": "5WPR",
+      "website": "https://www.5wpr.com",
+      "pipeline": "pr-freelance",
+      "industry": "Public Relations Agency — B2B Tech (Adtech, Martech, SaaS, AI) practice",
+      "location": "New York, NY (HQ) + Miami, FL",
+      "fundingStage": "Privately held, founded 2003, ~300 employees",
+      "fitScore": 44,
+      "intentScore": 35,
+      "fitDetails": {
+        "pr_remit": 14,
+        "sector_fit": 9,
+        "workstream": 9,
+        "buyer_quality": 7,
+        "comp_credible": 5
+      },
+      "intentDetails": {
+        "engagement_model": 13,
+        "remote_flex": 6,
+        "recency": 4,
+        "urgency": 8,
+        "apply_path": 4
+      },
+      "contacts": [
+        { "name": "5WPR B2B Tech Practice Leadership", "title": "Practice president / COO (target for overflow pitch, not the VP hiring manager)", "email": null, "linkedin": null }
+      ],
+      "signals": [
+        "agency_hiring_senior_leadership",
+        "b2b_tech_practice_capacity_gap",
+        "white_label_overflow_opportunity",
+        "vp_search_seat_open"
+      ],
+      "source": "Built In job posting",
+      "sourceUrl": "https://builtin.com/job/vice-president-public-relations-b2b-technology-adtech-martech-saas-ai/4636741",
+      "notes": "STRONGEST lead in this scrape. 5WPR hiring a VP for their B2B Tech practice (Adtech/Martech/SaaS/AI) is a textbook agency-overflow signal — mid-tier agencies hiring senior leadership almost always means they have more revenue than capacity. 5WPR's B2B Tech book overlaps directly with Mark's sweet spot. Mark is NOT a candidate (he's a competitor); pitch is white-label / overflow execution while the seat is open and as continuing partner after. Target the COO / practice president, NOT the VP hiring manager. Deliverable promise: senior IC capacity on fintech / B2B SaaS earned media, two-week stand-up, no internal politics, project or month-by-month retainer."
+    },
+    {
+      "name": "HockeyStack",
+      "website": "https://www.hockeystack.com",
+      "pipeline": "pr-freelance",
+      "industry": "B2B SaaS — GTM Intelligence / Revenue Agents (agentic AI for revenue ops + prospecting)",
+      "location": "San Francisco, CA",
+      "fundingStage": "$50M+ post-2026-04-15 raise (Bessemer Venture Partners + Y Combinator + Uncorrelated Ventures); total funding now exceeds $50M",
+      "fitScore": 39,
+      "intentScore": 26,
+      "fitDetails": {
+        "pr_remit": 11,
+        "sector_fit": 8,
+        "workstream": 8,
+        "buyer_quality": 8,
+        "comp_credible": 4
+      },
+      "intentDetails": {
+        "engagement_model": 7,
+        "remote_flex": 6,
+        "recency": 3,
+        "urgency": 7,
+        "apply_path": 3
+      },
+      "contacts": [
+        { "name": "Emir Atli", "title": "Chief of Staff (hiring lead per LinkedIn)", "email": "emir@hockeystack.com", "linkedin": "https://www.linkedin.com/in/emircatli/" }
+      ],
+      "signals": [
+        "post_funding_comms_greenfield",
+        "no_inhouse_comms_function",
+        "category_definition_window_open",
+        "competitive_with_actively_ai_in_pr_marketing_pipeline",
+        "bessemer_yc_backed"
+      ],
+      "source": "PR Newswire funding announcement + careers page check (no PR/Comms posting visible)",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/hockeystack-raises-50m-to-build-revenue-agents-for-the-enterprise-302742217.html",
+      "notes": "Strongest 'first PR hire' / post-funding comms-greenfield signal in this scrape. HockeyStack just raised $50M (4/15) and has no in-house comms function or visible PR posting. Same agentic-AI-for-revenue category as Actively AI ($45M Series B 4/28, already in CRM as pr-marketing). Category-defining narrative window opens now and closes in 60-90 days. Pitch fractional 60-day plant-the-flag campaign before they invest in full-time Head of Comms. Outreach: Emir Atli + founders directly via LinkedIn. The 4/15 funding date is 15 days from scrape date — recency scored 3 (would be 0 if strict on 7-day window) because the comms-build need is fresh."
+    },
+    {
+      "name": "Crypto.com",
+      "website": "https://crypto.com",
+      "pipeline": "pr-freelance",
+      "industry": "Crypto exchange / payments / consumer fintech",
+      "location": "Global; major hubs Singapore, Miami, US-remote",
+      "fundingStage": "Established private company, well-capitalized",
+      "fitScore": 42,
+      "intentScore": 19,
+      "fitDetails": {
+        "pr_remit": 13,
+        "sector_fit": 8,
+        "workstream": 8,
+        "buyer_quality": 8,
+        "comp_credible": 5
+      },
+      "intentDetails": {
+        "engagement_model": 4,
+        "remote_flex": 5,
+        "recency": 2,
+        "urgency": 5,
+        "apply_path": 3
+      },
+      "contacts": [
+        { "name": "Crypto.com VP/SVP Communications", "title": "Hiring manager for Director PR & Communications (target for interim pitch)", "email": null, "linkedin": null }
+      ],
+      "signals": [
+        "director_level_pr_search",
+        "established_comms_function_with_capacity_gap",
+        "b2b_institutional_workstream_underserved"
+      ],
+      "source": "LinkedIn Jobs",
+      "sourceUrl": "https://www.linkedin.com/jobs/view/director-of-pr-communications-at-crypto-com-4391218875",
+      "notes": "Established crypto exchange hiring Director of PR & Communications. Existing in-house comms function — this is a senior addition, not a first hire. Fractional angle is narrow: interim Director coverage during search OR specialized B2B/institutional/regulatory workstream that the existing function isn't covering. Mark's fintech credentials stronger for B2B angle than consumer crypto. Realistic odds: low. One well-targeted email worth the effort because the comp tier means a $15-25K/month interim retainer would be absorbed without flinching. Don't multi-touch — one shot."
+    },
+    {
+      "name": "Courier Health",
+      "website": "https://www.courierhealth.com",
+      "pipeline": "pr-freelance",
+      "industry": "Biopharma CRM — life sciences / patient journey orchestration platform",
+      "location": "New York, NY",
+      "fundingStage": "Series B $50M (2026-04-22), led by Oak HC/FT with Norwest and Work-Bench. 2025 grew customers/therapies 4x and doubled headcount.",
+      "fitScore": 33,
+      "intentScore": 28,
+      "fitDetails": {
+        "pr_remit": 8,
+        "sector_fit": 5,
+        "workstream": 7,
+        "buyer_quality": 8,
+        "comp_credible": 5
+      },
+      "intentDetails": {
+        "engagement_model": 8,
+        "remote_flex": 5,
+        "recency": 5,
+        "urgency": 7,
+        "apply_path": 3
+      },
+      "contacts": [
+        { "name": "Courier Health Leadership", "title": "CEO / CMO target via Built In NYC profile", "email": null, "linkedin": null }
+      ],
+      "signals": [
+        "post_series_b_comms_greenfield",
+        "oak_hcft_portfolio_pr_pressure_pattern",
+        "no_inhouse_comms_function",
+        "rapid_headcount_growth"
+      ],
+      "source": "PR Newswire Series B announcement + careers page check",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/courier-health-raises-50-million-series-b-to-revolutionize-the-biopharma-patient-experience-302749752.html",
+      "notes": "Healthtech / biopharma is OUTSIDE Mark's primary sweet spot (finance, legal, PE/VC, B2B SaaS). Including because the post-Series-B greenfield pattern is exactly Pitch Angle #4 and the score crosses threshold. Oak HC/FT typically pushes portfolio cos toward agency relationships in first 60 days post-raise — the comms-build window is open NOW. Decision to pursue is sector-strategic for Mark, not lead-quality-driven. If he wants to develop a healthtech adjacency, Oak HC/FT + General Catalyst Health portfolios are warm-list opportunities. If not, deprioritize without follow-up. Pitch: 30-day pilot on Series B halo + customer/therapy logo PR + post-funding category-leader narrative — 'fintech-trained discipline applied to biopharma CRM.'"
+    },
+    {
+      "name": "Forward Financing",
+      "website": "https://www.forwardfinancing.com",
+      "pipeline": "pr-freelance",
+      "industry": "Fintech — small-business alternative lending / merchant capital",
+      "location": "Boston, MA (with team in US, Dominican Republic, Canada)",
+      "fundingStage": "Private mid-stage fintech, recognized Best Place to Work by Built In Boston",
+      "fitScore": 39,
+      "intentScore": 19,
+      "fitDetails": {
+        "pr_remit": 11,
+        "sector_fit": 9,
+        "workstream": 7,
+        "buyer_quality": 7,
+        "comp_credible": 5
+      },
+      "intentDetails": {
+        "engagement_model": 4,
+        "remote_flex": 4,
+        "recency": 3,
+        "urgency": 5,
+        "apply_path": 3
+      },
+      "contacts": [
+        { "name": "CMCO (hired Oct 2025)", "title": "Chief Marketing & Customer Officer (buyer for external press workstream)", "email": null, "linkedin": null }
+      ],
+      "signals": [
+        "comms_function_being_built",
+        "cmco_hired_oct_2025",
+        "fintech_lending_sector_fit",
+        "senior_manager_brand_and_external_comm_search"
+      ],
+      "source": "Jobright.ai / Ashby ATS posting",
+      "sourceUrl": "https://jobright.ai/jobs/info/69702e41587dfa0bb55db0a9",
+      "notes": "Boston fintech (small-business alternative lending) hiring Sr. Manager Brand & External Communication, reporting to CMCO hired Oct 2025. Bottom-up comms-function build. Hiring window is Mark's opportunity — while they search, external earned-media partner carries press-relations workstream that the future Sr. Manager will eventually own. Pitch the CMCO directly (not the founders). Position as accelerating the eventual Sr. Manager hire's onboarding, not as competition. 90-day project basis: hand off populated journalist CRM, three placed thought-leadership pieces, customer-story pipeline. Solid sector-fit (fintech/lending) and B2B trade press / SBA-adjacent media play."
+    }
+  ]
+}
