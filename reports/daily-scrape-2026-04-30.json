@@ -1,0 +1,102 @@
+{
+  "scrapeDate": "2026-04-30",
+  "totalLeads": 5,
+  "note": "Daily scrape for Thursday 2026-04-30 covering 4/28-4/29 news flow. New leads: Rogo ($160M Series D 4/29 — agentic AI for investment banking, 35K+ pros at 250+ FS institutions), Mosaic Value Partners ($1.3B RIA 4/28 — three-advisor spinout from Focus Partners Wealth onto Mariner Independent), Actively AI ($45M Series B 4/28 — per-account AI agents for enterprise revenue), Parallel Web Systems ($100M Series B 4/28 — Parag Agrawal-led web infrastructure for AI agents at $2B valuation), Clarasight ($11.5M Series A 4/28 — AI for enterprise travel/expense, ex-Climate Club rebrand). Signal refresh on 6 hot existing leads: Rebel Audio May 30 launch now 30 days out (urgent), AcuityMD hiring surge confirmed (Sr Data PM 4/17, Sr PM 4/10), Manifest OS lawyer-recruiting velocity disclosed (5,000+ applicants <1% accepted), GetWhys Intel/Verizon customers re-confirmed. No fund-formation, coaching-ops, media, ai-consulting, legal-freelance, or pr-freelance leads cleared the bar today — freelance-pipeline searches surfaced no specific fresh-posted (≤72h) named-company roles meeting the rubric.",
+  "leads": [
+    {
+      "name": "Rogo",
+      "website": "https://rogo.ai",
+      "pipeline": "pr-marketing",
+      "industry": "Generative AI Platform for Financial Services (Investment Banks, Private Equity, Asset Managers)",
+      "location": "New York, NY",
+      "fundingStage": "Series D ($160M, April 29, 2026) led by Kleiner Perkins, with Sequoia Capital, Thrive Capital, Khosla Ventures, J.P. Morgan Growth Equity Partners, BoxGroup, Mantis VC, Jack Altman, Evantic, and Positive Sum. Total funding now exceeds $300M.",
+      "fitScore": 48,
+      "intentScore": 44,
+      "fitDetails": { "industry": 10, "stage": 9, "buyer": 10, "proof": 10, "budget": 9 },
+      "intentDetails": { "trigger": 15, "timeline": 9, "dm_engaged": 9, "urgency": 7, "responsive": 4 },
+      "contacts": [
+        { "name": "Gabriel Stengel", "title": "Co-founder & CEO", "email": "sales@rogodata.com", "linkedin": "https://www.linkedin.com/in/gabestengel" },
+        { "name": "John Willett", "title": "Co-founder", "email": null, "linkedin": null },
+        { "name": "Tumas Rackaitis", "title": "Co-founder", "email": null, "linkedin": null }
+      ],
+      "signals": ["fundraise_series_d", "marquee_vc_syndicate", "marquee_customer_logos", "category_leadership", "agentic_ai_workflow", "ex_lazard_founder_story"],
+      "source": "PR Newswire + TechFunding News + SiliconANGLE + Pulse 2.0 + Morningstar + Yahoo Finance + Fintech Futures + AlleyWatch (4/29)",
+      "notes": "$160M Series D announced April 29 — Kleiner Perkins-led with Sequoia, Thrive, Khosla, J.P. Morgan Growth Equity, BoxGroup, Mantis, Jack Altman, Evantic, Positive Sum. Rogo serves more than 35,000 financial professionals at over 250 institutions including Rothschild & Co, Jefferies, Lazard, Moelis, Nomura — that customer-logo density is the strongest pr-marketing proof point of any 4/28-4/29 lead. Felix is the AI agent that handles deal screening, CIM generation, buyer outreach, and data-room diligence end-to-end. CEO Gabriel Stengel is a Princeton + ex-Lazard junior banker — that 'sleepless nights as a junior banker' founder narrative is already a podcast-tour staple (Scott Galloway First Time Founders, Generative Now). Primary angle: pr-marketing — agentic AI for financial workflows is the fastest-growing FS-tech category and Rogo has the strongest customer-list claim to category leadership. Recommend a 60-day plant-the-flag campaign on 'agentic AI operating system for finance' with 'Felix replaces analyst hours' as the lead narrative, while the $160M news cycle still has multi-week pull. The Parallel Web Systems Series B on the same day disclosed Rogo as a Parallel customer — that's a useful technical-stack tie for cross-amplification. Founders are press-comfortable — Stengel does podcasts, conferences (Greenwich Economic Forum). Skip ai-consulting (Rogo IS the AI vendor, not a consulting buyer) and fund-formation (not a fund manager itself). Combined score 92 = highest of the day."
+    },
+    {
+      "name": "Mosaic Value Partners",
+      "website": "https://www.mosaicvaluepartners.com",
+      "pipeline": "legal-consulting",
+      "industry": "Registered Investment Advisor (RIA) / Wealth Management — Value Investing",
+      "location": "Aliso Viejo, CA (Mariner Independent platform)",
+      "fundingStage": "Self-funded RIA launch April 28, 2026 — three former Focus Partners Wealth (Kovitz Investment Group) advisors (John Buckingham, Jason Clark, Christopher Quigley) operating as an independent firm under Mariner Independent. $1.3B AUM. Operations commenced April 24 with three additional team members. Largest firm to debut on Mariner Independent platform since its 2020 founding.",
+      "fitScore": 45,
+      "intentScore": 44,
+      "fitDetails": { "complexity": 14, "ongoing": 14, "size": 8, "dm_access": 4, "budget": 5 },
+      "intentDetails": { "active_problem": 18, "timeline": 9, "volume": 9, "pressure": 4, "responsive": 4 },
+      "contacts": [
+        { "name": "John Buckingham", "title": "Co-founder / Principal", "email": null, "linkedin": null },
+        { "name": "Jason Clark", "title": "Co-founder / Principal", "email": null, "linkedin": null },
+        { "name": "Christopher Quigley", "title": "Co-founder / Principal", "email": null, "linkedin": null }
+      ],
+      "signals": ["new_ria_launch", "focus_financial_spinout", "value_investing_brand_revival", "mariner_platform_largest_to_date", "advisor_equity_restructure"],
+      "source": "Mariner Wealth Advisors newsroom + WealthManagement.com + InvestmentNews + FA Magazine + Pulse 2.0 + Yahoo Finance + GlobeNewswire (all 4/28)",
+      "notes": "$1.3B AUM RIA launched April 28 — Buckingham, Clark, and Quigley spun out of Focus Partners Wealth (formerly Kovitz Investment Group) onto Mariner Independent. Operations commenced April 24 with three additional team members. This is the largest debut on Mariner Independent since its 2020 founding. Primary angle: legal-consulting — a brand-new RIA needs (a) clean Form ADV / state registrations, (b) advisor employment + equity-rollup agreements among the three founder advisors, (c) Mariner platform commercial agreements, (d) relaunch of the Value Investor Perspectives publication with current advertising-rule compliance review, (e) ongoing SEC compliance + 2026 marketing rule + advertising program build. The Focus Financial / Kovitz spinout context creates extra contractual complexity (non-competes, client-portability agreements, custodial transitions). Volume + multi-year regulatory cadence + transition urgency = strong ongoing-need legal-consulting fit. Secondary: pr-marketing — the publication relaunch (Value Investor Perspectives reached tens of thousands of subscribers in earlier era) IS a content-marketing engagement, and the spinout narrative ('reestablishing independence') has trade-press pull through May. Note that this is similar shape to Kintra Wealth (4/29) and OpenArc (Merrill breakaway, ongoing) — Katie should treat the LPL-Commonwealth + Focus diaspora as a single multi-month legal-consulting feeder. NOTE: do NOT confuse with 'Mosaic' (mosaic.pe, the PE software company already in the CRM from 4/27) — different companies, completely different shape. Skip fund-formation (not a fund manager), ai-consulting / coaching-ops / media (not the right shape)."
+    },
+    {
+      "name": "Actively AI",
+      "website": "https://www.actively.ai",
+      "pipeline": "pr-marketing",
+      "industry": "Enterprise GTM AI / Per-Account Revenue Agents",
+      "location": "New York, NY (Flatiron) — opening San Francisco office",
+      "fundingStage": "Series B ($45M, April 28, 2026) co-led by TCV and First Harmonic, with participation from Bain Capital Ventures, First Round Capital, and Alkeon. Total funding now $68M (followed $22.5M raise in April 2025). Notable angels: Jason Boehmig (Ironclad CEO), Ali Rowghani (ex-YC, ex-Twitter COO), Frederic Kerrest (Okta vice chairman).",
+      "fitScore": 44,
+      "intentScore": 42,
+      "fitDetails": { "industry": 7, "stage": 9, "buyer": 10, "proof": 9, "budget": 9 },
+      "intentDetails": { "trigger": 14, "timeline": 9, "dm_engaged": 8, "urgency": 7, "responsive": 4 },
+      "contacts": [
+        { "name": "Mihir Garimella", "title": "Co-founder & CEO", "email": null, "linkedin": "https://www.linkedin.com/in/mgarimella/" }
+      ],
+      "signals": ["fundraise_series_b", "marquee_customer_logos", "category_creation_per_account_agents", "geo_expansion_sf_office", "ai_sdr_replacement_narrative"],
+      "source": "Yahoo Finance + Pulse 2.0 + Tech Startups + Fenwick (legal counsel announcement) + Fintech Global + Finsmes + The SaaS News + Business Wire + AlleyWatch (all 4/28)",
+      "notes": "$45M Series B announced April 28 — TCV + First Harmonic co-led. Customers Attentive, Ironclad, Ramp, Samsara — strong logo set with marquee Series A unicorn references. Stanford-AI-pedigree founders (Garimella + co-founder Ben Brooks). Differentiated narrative: 'Per-Account Agent™' positioning explicitly counter-positions against AI-SDR tooling category (Clay, 11x, Artisan, Regie) which Actively claims has 'failed.' Tech Startups headlined the round 'replace human-led sales with 24/7 AI superintelligence agents' — that's the founder-controlled narrative. Primary angle: pr-marketing — strong category-frame opportunity ('AI-SDR is dead, Per-Account Agent is the v2'). Recommend a 60-day campaign threading the post-AI-SDR narrative + the marquee customer logos + the Stanford founding story + the SF expansion (which is a journalist-friendly geo-news angle). Time-sensitive because the AI-SDR-replacement pitch becomes commoditized fast — Clay/11x/etc. will counter-position within 90 days. Skip ai-consulting (vendor of AI). Founders press-engaged (recent TechCrunch coverage). Annual revenue ~$3M per Crunchbase (2026), so the proof point is logo quality, not ARR — adjust pitch accordingly."
+    },
+    {
+      "name": "Parallel Web Systems",
+      "website": "https://parallel.ai",
+      "pipeline": "pr-marketing",
+      "industry": "Web Infrastructure for AI Agents — Search APIs, Index, Browser Layer",
+      "location": "San Francisco, CA",
+      "fundingStage": "Series B ($100M, April 28, 2026) led by Sequoia Capital at $2B valuation. Existing investors Kleiner Perkins, Index Ventures, Khosla Ventures, First Round Capital, Spark Capital, Terrain Capital, and Abstract Ventures all increased participation. Valuation more than doubled from Series A only five months prior. Total raised: $230M. Founded by former Twitter CEO Parag Agrawal.",
+      "fitScore": 41,
+      "intentScore": 43,
+      "fitDetails": { "industry": 8, "stage": 7, "buyer": 8, "proof": 9, "budget": 9 },
+      "intentDetails": { "trigger": 14, "timeline": 9, "dm_engaged": 9, "urgency": 7, "responsive": 4 },
+      "contacts": [
+        { "name": "Parag Agrawal", "title": "Founder & CEO", "email": null, "linkedin": null }
+      ],
+      "signals": ["fundraise_series_b_2x_valuation_5mo", "founder_celebrity_ex_twitter_ceo", "marquee_vc_lead_sequoia", "marquee_customer_logos", "ai_agent_infrastructure_category"],
+      "source": "TechCrunch + PR Newswire + SiliconANGLE + TechFunding News + BusinessToday + Finsmes + Yahoo Finance + Morningstar + DigitalToday (all 4/28-4/29)",
+      "notes": "$100M Series B at $2B valuation announced April 28 — Sequoia-led, valuation 2x the Series A from only 5 months ago. Founder Parag Agrawal is the former Twitter CEO; the 'where Parag landed post-Musk' narrative is built-in PR equity. Customer disclosures include Harvey, Attio, Modal, and notably Rogo (also in this report) — meaning Parallel and Rogo can cross-amplify. Primary angle: pr-marketing — the founder-celebrity factor combined with the 5-month valuation doubling AND the Sequoia lead AND the Fortune-500-customer disclosure makes this a legit category-defining moment for 'web infrastructure for AI agents' as a category vs. legacy web search APIs (Google, Bing, Brave, Tavily). Recommend a 30-day fast-cycle campaign — these stories age fast in tech press, and the Series A-to-B valuation double is the angle that has 1-2 weeks of pull max. Skip ai-consulting (Parallel is the infra vendor). Slight fit ding because: (a) infrastructure/dev-tools is not the FS/Tech sweet spot Mark's agency targets — mid-market financial sales motion doesn't translate as cleanly here, (b) Parag has his own existing PR network from Twitter days so Mark may face headwinds on a cold-pitch unless tied through a Sequoia or Index portfolio reference. Worth pursuing because of the founder-celebrity quality but with realistic expectations. NOTE: Parallel's domain is parallel.ai per press releases."
+    },
+    {
+      "name": "Clarasight",
+      "website": "https://www.clarasight.com",
+      "pipeline": "pr-marketing",
+      "industry": "Enterprise Travel & Expense AI / Data Operations",
+      "location": "New York, NY",
+      "fundingStage": "Series A ($11.5M, April 28, 2026) led by AlleyCorp with participation from Rackhouse Venture Capital, Clocktower Ventures, Pulse Fund, Thayer Ventures, Future Back Ventures, Vestigo Ventures, and XYZ Venture Capital. Total funding $21.1M. Recurring revenue grew 10x in past year; platform now manages $5B+ in T&E spend.",
+      "fitScore": 40,
+      "intentScore": 39,
+      "fitDetails": { "industry": 6, "stage": 9, "buyer": 9, "proof": 9, "budget": 7 },
+      "intentDetails": { "trigger": 13, "timeline": 9, "dm_engaged": 7, "urgency": 6, "responsive": 4 },
+      "contacts": [
+        { "name": "Adam Braun", "title": "Co-founder & CEO", "email": null, "linkedin": null },
+        { "name": "Philip Charm", "title": "Co-founder", "email": null, "linkedin": null }
+      ],
+      "signals": ["fundraise_series_a", "10x_revenue_growth", "marquee_customer_logos_big_four", "rebrand_pivot_climate_club_to_clarasight", "btn_100_customers"],
+      "source": "Yahoo Finance + PhocusWire + Axios Pro Fintech Deals + Pulse 2.0 + Business Travel Executive + The SaaS News + AlleyWatch + BusinessWire + citybiz (all 4/28-4/29)",
+      "notes": "$11.5M Series A announced April 28 — AlleyCorp-led. Notable customer disclosure: 4 of top-16 BTN 100 corporate travel programs + 2 Big Four accounting firms. 10x recurring revenue growth in past year. Strong proof-by-logos. Founders Adam Braun (CEO) and Philip Charm — Braun is a known social-impact entrepreneur (founded Pencils of Promise; that's a journalist-known name). The rebrand-pivot story is also press-friendly: Climate Club (sustainability software) → Clarasight (T&E AI) in early 2024 is a textbook 'pivot success' narrative arc. Primary angle: pr-marketing — strong but B-tier (combined 79). Recommend a campaign threading (a) the pivot-success narrative, (b) Big Four customer logos, (c) the AI-data-ops-for-CFOs frame, and (d) the Adam Braun social-entrepreneurship throughline (Pencils of Promise → mission-driven enterprise software). Time-sensitive because Series A coverage cycle is 7-14 days. Slight industry-fit ding: T&E ops is enterprise back-office vs. pure FS, so adjacent to the agency's sweet spot rather than core. Skip ai-consulting / fund-formation / coaching-ops. NOTE: Clarasight is sometimes confused in search results — 'Clarasight CPA' on LinkedIn appears to be a different unrelated CPA firm; the AI travel co is at clarasight.com."
+    }
+  ]
+}
