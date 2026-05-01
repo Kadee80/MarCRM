@@ -1,8 +1,8 @@
 {
   "scrapeDate": "2026-05-01",
   "scrapeType": "pr-freelance",
-  "totalLeads": 4,
-  "note": "Targeted PR Freelance scrape, 7-day window (2026-04-24 → 2026-05-01) plus funding-driven intent signals back to 2026-04-15. Excludes leads already in CRM from daily and pr-freelance scrapes through 2026-04-30 (5WPR, HockeyStack, Crypto.com, Courier Health, Forward Financing, SerpApi, PayNearMe, Paddle, Loti AI, Manifest OS, Avoca, Amperos Health, Rogo, Actively AI, Parallel Web Systems, Clarasight, GetWhys, NeoCognition, Era Computer, Brev, Worki). Three of four leads are 'agency overflow / interim during search' patterns — direct freelance/contract postings remain rare. Min combined score for inclusion: 55.",
+  "totalLeads": 8,
+  "note": "Targeted PR Freelance scrape, 7-day window (2026-04-24 → 2026-05-01) plus funding-driven intent signals back to 2026-04-15. Augmented run — original 4 leads from morning scrape (Siege Media, Cloudbeds, FactSet, Robinhood) retained; 4 additional leads added in afternoon supplemental search (BVNK, Mission North, Coinbase Base, Atticus). Excludes leads already in CRM from daily and pr-freelance scrapes through 2026-04-30 (5WPR, HockeyStack, Crypto.com, Courier Health, Forward Financing, SerpApi, PayNearMe, Paddle, Loti AI, Manifest OS, Avoca, Amperos Health, Rogo, Actively AI, Parallel Web Systems, Clarasight, GetWhys, NeoCognition, Era Computer, Brev, Worki, Flex). Min combined score for inclusion: 55. Theme: explicit freelance/contract postings remain rare; majority of leads are agency-overflow / interim-during-search / VP-search-seat-open patterns.",
   "leads": [
     {
       "name": "Siege Media",
@@ -43,6 +43,183 @@
       ],
       "source": "https://builtin.com/job/vp-public-relations/4657007",
       "notes": "TOP LEAD of 5/1 pr-freelance scrape (combined 79, B grade). Same playbook as 5WPR last week, with one critical difference: Siege Media has NO existing PR practice — they're hiring a VP to BUILD it from scratch. That means there's no incumbent senior team to politically resist outside help. While the VP search runs (typically 8-16 weeks for an agency leadership hire) and during the 90-day VP onboarding ramp, Siege has client-facing PR commitments with NO senior execution capacity. Mark is NOT a candidate — he's positioned as senior IC partner who can immediately stand up media-relations, thought-leadership, and announcement workstreams for their B2B SaaS / fintech / tech clients. Siege's content-and-SEO ICP overlaps cleanly with Mark's fintech and B2B SaaS sweet spots. Pitch the CEO Ross Hudgens directly — frame as 'fractional senior PR capacity for the next 6 months while you hire and ramp the VP, no client logo credit needed.' Two-week stand-up. Project or month-by-month retainer. After VP joins, reposition as overflow execution partner."
+    },
+    {
+      "name": "Mission North",
+      "website": "https://www.missionnorth.com",
+      "pipeline": "pr-freelance",
+      "industry": "Integrated B2B tech communications agency — PR, content, digital, social — clients include Canva, Zoom, LanzaTech, Betterment",
+      "location": "San Francisco, CA + New York, NY + Portland, OR (offices) + remote freelance roster",
+      "fundingStage": "Privately held mid/large agency, scaling — public sector & policy practice on pace for 3X growth in 2026",
+      "fitScore": 44,
+      "intentScore": 33,
+      "fitDetails": {
+        "pr_remit": 14,
+        "sector_fit": 8,
+        "workstream": 9,
+        "buyer_quality": 8,
+        "comp_credible": 5
+      },
+      "intentDetails": {
+        "engagement_model": 12,
+        "remote_flex": 7,
+        "recency": 3,
+        "urgency": 7,
+        "apply_path": 4
+      },
+      "contacts": [
+        {
+          "name": "Mission North Talent / Resourcing",
+          "title": "Freelance roster intake — public-facing freelance pipeline",
+          "persona": "Agency Resourcing"
+        },
+        {
+          "name": "Tyler Perry",
+          "title": "CEO, Mission North — direct LinkedIn target for senior freelance positioning",
+          "linkedin": "https://www.linkedin.com/in/tylermperry/"
+        },
+        {
+          "name": "Emily Field",
+          "title": "Lead, Public Sector & Policy Communications practice (3X growth pace in 2026)",
+          "persona": "Practice Lead"
+        }
+      ],
+      "signals": [
+        "agency_with_explicit_freelance_roster",
+        "policy_practice_3x_growth_capacity_strain",
+        "b2b_tech_sector_alignment",
+        "fintech_client_precedent_betterment",
+        "named_freelance_pipeline_no_cold_outreach_required"
+      ],
+      "source": "https://www.missionnorth.com/",
+      "notes": "Combined 77 (B grade). Mission North is one of the few B2B-tech-PR agencies with an explicit, named, public freelance pipeline ('Mission North seeks freelancers in public relations and communications for ongoing projects' — surfaced through FlexJobs / agency about page). That removes the single biggest friction in pr-freelance outreach: no cold pitch needed; there is an intake door. Fit is strong: B2B tech focus, fintech client precedent (Betterment), enterprise SaaS workstream, scale-up clients across Mark's sweet spots. Intent signal is strong because their public-sector & policy practice is on a 3X growth pace in 2026 — established freelance demand, not aspirational. Two-track approach: (1) submit through public freelance intake to land in the active roster (low-friction baseline); (2) parallel direct LinkedIn note to CEO Tyler Perry positioning Mark for senior fintech / financial-services thought-leadership work specifically — bypasses junior intake. Realistic odds of activation: high for ad-hoc project work within 4-8 weeks, medium for retainer."
+    },
+    {
+      "name": "BVNK",
+      "website": "https://bvnk.com",
+      "pipeline": "pr-freelance",
+      "industry": "Stablecoin payments infrastructure / fintech — enterprise stablecoin payouts and global money movement (clients: Worldpay, Deel, LianLian, Rapyd)",
+      "location": "London (HQ) + New York, NY + global remote — VP role posted in both London (Built In London) and NYC (Built In NYC)",
+      "fundingStage": "Founded 2021, scale-up post-funding (Series B+) — billions in transactions facilitated",
+      "fitScore": 49,
+      "intentScore": 27,
+      "fitDetails": {
+        "pr_remit": 15,
+        "sector_fit": 10,
+        "workstream": 10,
+        "buyer_quality": 9,
+        "comp_credible": 5
+      },
+      "intentDetails": {
+        "engagement_model": 5,
+        "remote_flex": 5,
+        "recency": 5,
+        "urgency": 8,
+        "apply_path": 4
+      },
+      "contacts": [
+        {
+          "name": "BVNK Comms Hiring Committee (CEO + CMO)",
+          "title": "Hiring committee for VP (Head) of Global PR & Corporate Communications — role partners directly with CEO",
+          "persona": "Founder/CEO"
+        }
+      ],
+      "signals": [
+        "vp_head_of_pr_search_seat_open",
+        "stablecoin_payments_fintech_sweet_spot",
+        "tier_one_media_target_bloomberg_cnbc_ft_wsj_reuters_economist",
+        "exec_thought_leadership_workstream",
+        "scale_up_post_funding_pr_function_being_built",
+        "enterprise_b2b_with_named_marquee_clients"
+      ],
+      "source": "https://builtinnyc.com/job/vp-head-communications/6319834",
+      "notes": "Combined 76 (B grade). Bullseye sector for Mark — stablecoin payments fintech sits at the intersection of payments, fintech, and the regulatory-heavy enterprise space he covers credibly. BVNK is searching for a VP (Head) of Global PR & Corporate Communications, posted in both London and NYC, with explicit tier-one media targets (Bloomberg, CNBC, FT, WSJ, Reuters, The Economist) and an exec thought-leadership workstream that partners directly with the CEO. The 'building global PR function' framing implies BVNK does NOT have a senior in-house comms leader today — meaning the seat is structurally open. VP search at this level typically runs 12-20 weeks, with another 90-day onboarding ramp — that's a 6-month capacity gap during which they need exactly Mark's profile to seed tier-one media relationships, draft exec narrative, and run announcement cycles. Pitch angle: direct LinkedIn outreach to CEO via 'I see you're hiring a VP of Comms — while you run that search, I have senior fintech/payments earned-media capacity to seed tier-one relationships and stand up exec thought leadership now. 90-day interim retainer, no logo credit, hand off cleanly to your VP when they land.' Risk: BVNK strongly prefers payments / stablecoins / blockchain experience — Mark needs to have at least one credible stablecoin or payments-rails reference story to lead the conversation. If yes, this is the hottest lead of the supplemental run."
+    },
+    {
+      "name": "Coinbase (Base)",
+      "website": "https://www.base.org",
+      "pipeline": "pr-freelance",
+      "industry": "Crypto / Layer-2 blockchain — Base is Coinbase's L2 onchain ecosystem (Coinbase: NASDAQ:COIN, $50B+ market cap)",
+      "location": "Remote-USA (per Coinbase careers — 'remote-first' for most senior comms roles)",
+      "fundingStage": "Subsidiary of public company Coinbase (NASDAQ: COIN); Base operates as semi-autonomous business unit",
+      "fitScore": 45,
+      "intentScore": 25,
+      "fitDetails": {
+        "pr_remit": 15,
+        "sector_fit": 8,
+        "workstream": 9,
+        "buyer_quality": 8,
+        "comp_credible": 5
+      },
+      "intentDetails": {
+        "engagement_model": 3,
+        "remote_flex": 7,
+        "recency": 5,
+        "urgency": 7,
+        "apply_path": 3
+      },
+      "contacts": [
+        {
+          "name": "Base Leadership Team (Jesse Pollak, Creator/Lead at Base)",
+          "title": "Creator and lead of Base — likely hiring sponsor for Head of Comms",
+          "linkedin": "https://www.linkedin.com/in/jesse-pollak-7115a153/"
+        },
+        {
+          "name": "Coinbase Corporate Comms Leadership",
+          "title": "Coinbase global comms function — Base Head of Comms partners cross-functionally",
+          "persona": "Head of Comms"
+        }
+      ],
+      "signals": [
+        "head_of_comms_search_seat_open",
+        "crypto_l2_subsidiary_with_independent_pr_function",
+        "high_comp_tier_206k_242k_base",
+        "ai_driven_workflow_signal",
+        "mainstream_expansion_beyond_crypto_bubble_workstream",
+        "tier_one_media_targets_bloomberg_cnbc_techcrunch"
+      ],
+      "source": "https://www.tealhq.com/job/head-of-communications-base_7ea1a920297821e447bdc03ebb971987ea086",
+      "notes": "Combined 70 (B grade). Coinbase is hiring a Head of Communications for Base (their L2 ecosystem, semi-autonomous business unit). Base salary $206K-$242K (high comp tier — budget is not the constraint). Workstream is unusually well-defined: take Base's narrative beyond the crypto bubble into mainstream tech/finance/cultural audiences, target Bloomberg/CNBC/TechCrunch, AI-driven workflow stack. Even though Base sits inside Coinbase (which has a mature corporate comms function), the role explicitly says 'redefine what a modern comms function looks like' for Base — implying the Base-specific PR seat is being newly built, not backfilled. Mark angle: interim coverage of the Base-specific narrative during the 12-16 week senior search, OR specialized B2B/institutional/onchain-finance workstream that complements Coinbase Corporate Comms (which keeps the consumer and equity-story narratives). Geographic match: remote-friendly. Risk: same as Robinhood Crypto — must be crypto-fluent and able to pass an L2/onchain technical conversation in five minutes. If Mark is NOT crypto-fluent, this is a NO regardless of fit. If he is, this is a single-shot warm-email play to Jesse Pollak via LinkedIn ('saw the Head of Comms search — available for B2B/institutional Base narrative for the next 90 days while you run the search')."
+    },
+    {
+      "name": "Atticus",
+      "website": "https://www.atticus.com",
+      "pipeline": "pr-freelance",
+      "industry": "Legal tech / consumer rights platform — connects sick or injured people in crisis with disability benefits, accident compensation, and legal aid",
+      "location": "Los Angeles, CA (HQ) + remote-friendly",
+      "fundingStage": "Series C, closed April 2025 (~$50M); team grew 151 → 210 in 2025, expected to grow again in 2026",
+      "fitScore": 42,
+      "intentScore": 24,
+      "fitDetails": {
+        "pr_remit": 13,
+        "sector_fit": 8,
+        "workstream": 8,
+        "buyer_quality": 8,
+        "comp_credible": 5
+      },
+      "intentDetails": {
+        "engagement_model": 3,
+        "remote_flex": 6,
+        "recency": 4,
+        "urgency": 7,
+        "apply_path": 4
+      },
+      "contacts": [
+        {
+          "name": "Atticus Hiring Manager (Director, Policy and PR)",
+          "title": "Hiring committee for Director, Policy and PR — role partners with Product, Legal, Client Experience",
+          "persona": "Hiring Manager"
+        }
+      ],
+      "signals": [
+        "director_policy_pr_combined_role_open",
+        "legal_consumer_rights_sweet_spot_adjacent",
+        "series_c_post_funding_team_expansion_2x",
+        "growing_team_means_growing_pr_workstream",
+        "policy_workstream_government_relations_overlap"
+      ],
+      "source": "https://jobs.ashbyhq.com/atticus/b1fc57bd-6430-4270-bebe-062e69e760d5",
+      "notes": "Combined 66 (B grade). Atticus is hiring a Director of Policy and PR — a combined role that owns both the policy agenda (government relations, compliance positioning) and external comms (media relations, narrative, profile-raising). Series C closed April 2025, team grew from 151 → 210 in 2025, growing again in 2026 — classic post-funding scaling profile. The combined Policy + PR role is a known anti-pattern for these searches: candidates who excel at both policy AND media relations are extremely rare, and these searches typically stretch 4-6 months (vs 8-12 weeks for a pure-PR Director). That extended search window IS the opportunity. Sector adjacency to Mark's sweet spots: legal tech / legal services / consumer-rights — close to legal-tech and compliance-tech sweet spots without being a perfect match (Atticus is consumer-facing, not B2B). Pitch angle: ONE LinkedIn note framing 'while you run a 4-6 month search for the rare Policy+PR director profile, I can carry the PR/media-relations workstream on a 90-day interim retainer, leaving the policy seat open for your eventual hire.' Lower priority than BVNK or Siege Media, but the extended search window means there's a longer lead-time to land the conversation."
     },
     {
       "name": "Cloudbeds",

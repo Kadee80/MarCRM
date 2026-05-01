@@ -1,0 +1,122 @@
+{
+  "scrapeDate": "2026-05-01",
+  "totalLeads": 6,
+  "note": "Daily scrape for Friday 2026-05-01 covering 4/29-4/30 news flow. New leads: JuliaHub ($65M Series B + Dyad 3.0 launch 4/30 — agentic AI for industrial digital twins, ex-Snowflake CEO Bob Muglia as participating investor, Fortune 100 customers in aerospace/automotive/HVAC/utilities), Netomi ($110M Series C 4/30 — Accenture Ventures-led, Jeffrey Katzenberg joins board, agentic CX for United/Delta/Paramount/DraftKings), General Analysis ($10M seed 4/29 — Altos-led, ex-NVIDIA/Cohere/DeepMind founders, agentic AI red-teaming with viral '50 customer-service AI agents tricked out of $10M in fabricated perks' demo), Photon ($16M Series A 4/30 — Healthier Capital-led NYC prescription infrastructure with AI-driven pharmacy routing), Onsetto ($9M seed 4/30 — Minneapolis B2B fintech helping financial institutions activate new business clients, double-digit FI customers under contract). One pr-freelance lead: Flex (NYC growth-stage fintech hiring Head of Communications at $200-250K base + recent $60M raise 4/29 — textbook fractional-before-full-time signal). Signal refresh on 7 hot existing leads: Rebel Audio May 30 launch now 29 days out (critical urgency — last full week with media-landing room), Rogo + Parallel Web Systems + Actively AI + Clarasight all 3 days post-Series-D/B/A press cycles (peak-coverage tail), Mosaic Value Partners 3 days post-RIA-launch, Manifest OS no new news, Gateway Capital + AcuityMD + GetWhys continuing prior plans. No fund-formation, legal-consulting, coaching-ops, media, ai-consulting, or legal-freelance leads cleared the bar today.",
+  "leads": [
+    {
+      "name": "JuliaHub",
+      "website": "https://juliahub.com",
+      "pipeline": "pr-marketing",
+      "industry": "Agentic AI Platform for Industrial Digital Twins / Engineering Intelligence (Aerospace, Automotive, HVAC, Utilities, Defense)",
+      "location": "Cambridge, MA / Boston area",
+      "fundingStage": "Series B ($65M, April 30, 2026) led by Dorilton Capital, with participation from General Catalyst, AE Ventures, and former Snowflake CEO Bob Muglia (as a technology investor). Announced concurrently with the Dyad 3.0 product launch.",
+      "fitScore": 44,
+      "intentScore": 44,
+      "fitDetails": { "industry": 7, "stage": 9, "buyer": 10, "proof": 9, "budget": 9 },
+      "intentDetails": { "trigger": 15, "timeline": 9, "dm_engaged": 8, "urgency": 7, "responsive": 5 },
+      "contacts": [
+        { "name": "Viral Shah", "title": "Co-founder & CEO", "email": null, "linkedin": "https://www.linkedin.com/in/viralbshah" },
+        { "name": "Jeff Bezanson", "title": "Co-founder", "email": null, "linkedin": null },
+        { "name": "Stefan Karpinski", "title": "Co-founder", "email": null, "linkedin": null },
+        { "name": "Bob Muglia", "title": "Investor / Former Snowflake CEO (board observer)", "email": null, "linkedin": null }
+      ],
+      "signals": ["fundraise_series_b", "product_launch_dyad_3", "agentic_ai_industrial_category", "ex_snowflake_ceo_investor", "fortune_100_customers", "simulink_disruption_narrative"],
+      "source": "PR Newswire + Axios + HPCwire + citybiz + Yahoo Finance + Morningstar + Finsmes + Newswire (all 4/30)",
+      "notes": "$65M Series B announced April 30 — Dorilton Capital-led with General Catalyst, AE Ventures, and Bob Muglia (former Snowflake CEO) participating. Concurrent product launch of Dyad 3.0 — that double-trigger (fundraise + product launch on same day) is the strongest pr-marketing setup of the 4/30 cycle. Primary positioning: agentic AI for industrial systems engineering ('AI-native Simulink alternative' per Axios). Customer signals already disclosed: Binnies (water management) + Williams Grand Prix Technologies for SciML-driven digital twin predicting pump faults with 90%+ accuracy from 4 sensor inputs; Fortune 100 footprint across aerospace, government, automotive, HVAC, utilities. The Bob Muglia angle is journalist gold: 'former Snowflake CEO bets on industrial AI as the next data-platform-class category.' Recommend a 60-day plant-the-flag campaign on 'agentic AI for the physical world' with the Muglia-as-investor narrative as the lead hook + Dyad 3.0 as the product-news anchor. Time-sensitive because: (a) product-launch news cycles are ~14 days, (b) the Simulink-replacement positioning will be contested by competitors (Ansys, Mathworks, Rescale) within 30 days, (c) Bob Muglia is press-active and likely to do podcast interviews on this topic which Mark could ladder a placement strategy onto. Skip ai-consulting (JuliaHub IS the AI vendor, not a consulting buyer). Combined score 88 — top of the 5/1 scrape. Primary contact: CEO Viral Shah (highly press-active around Julia language community already)."
+    },
+    {
+      "name": "General Analysis",
+      "website": "https://www.generalanalysis.com",
+      "pipeline": "pr-marketing",
+      "industry": "AI Security / Agentic AI Red-Teaming for Enterprise (Customer Support, Finance, Operations)",
+      "location": "San Francisco, CA",
+      "fundingStage": "Seed ($10M, April 29, 2026) led by Altos Ventures, with participation from 645 Ventures, Menlo Ventures, Y Combinator, and additional strategic investors and angels.",
+      "fitScore": 41,
+      "intentScore": 39,
+      "fitDetails": { "industry": 8, "stage": 8, "buyer": 9, "proof": 8, "budget": 8 },
+      "intentDetails": { "trigger": 14, "timeline": 9, "dm_engaged": 7, "urgency": 6, "responsive": 3 },
+      "contacts": [
+        { "name": "Rez Havaei", "title": "Co-founder & CEO (ex-Cohere, ex-NVIDIA AI Researcher)", "email": null, "linkedin": null },
+        { "name": "Maximilian Li", "title": "Co-founder (Harvard AI safety researcher)", "email": null, "linkedin": null },
+        { "name": "Rex Liu", "title": "Co-founder (Caltech ML researcher)", "email": null, "linkedin": null }
+      ],
+      "signals": ["fundraise_seed", "agentic_ai_security_category", "viral_red_team_demo", "deepmind_nvidia_cohere_founders", "y_combinator_alumni", "enterprise_customer_logos_undisclosed"],
+      "source": "Axios Pro + Tech Startups + The SaaS News + Las Vegas Sun + Yahoo Finance + Finsmes + Pulse 2.0 (all 4/29)",
+      "notes": "$10M seed announced April 29 — Altos Ventures-led with 645 Ventures, Menlo Ventures, Y Combinator, and strategic angels. Founders Rez Havaei (ex-Cohere + NVIDIA AI Research), Maximilian Li (Harvard AI safety), Rex Liu (Caltech ML) — that DeepMind/NVIDIA/Cohere/Harvard founding-team profile is press catnip in the AI safety vertical. The viral story already in tech press: in March 2026, General Analysis's adversarial agent convinced 50 live customer-service AI agents to give away $10M+ in fabricated perks in roughly 3 minutes per target — out of 55 bots tested, only 5 refused. That demo is a self-amplifying earned-media asset. Customer disclosure is partial — 'enterprise customers in support and finance whose products and workflows are used by hundreds of millions of users' — the named-logo reveal is the next press cycle. Primary angle: pr-marketing — the agentic AI security category is brand-new and category leadership is undefined; General Analysis can still claim it. Recommend a 90-day campaign threading: (a) the $10M-in-3min red-team demo as the visceral hook journalists will lead with, (b) the founder credentials, (c) named-customer reveal as the 60-day press-cycle peak, (d) a forward-looking thought-leadership angle on agentic-AI-deployment risk for CISOs at Fortune 500 firms. Time-sensitive because: (a) seed coverage cycle is 7-10 days max so the trigger is already 2 days into the cycle, (b) competitors (Lakera, Hidden Layer, Robust Intelligence, Protect AI) are far better-funded and already PR-positioned — General Analysis needs aggressive earned-media to keep parity. Note this WAS missed in the 4/30 scrape — including here as a 2-day-old recoverable lead. Skip ai-consulting (vendor) and fund-formation (not a fund). Combined score 80."
+    },
+    {
+      "name": "Netomi",
+      "website": "https://www.netomi.com",
+      "pipeline": "pr-marketing",
+      "industry": "Agentic AI Customer Experience / Customer Service Automation for Enterprise",
+      "location": "San Mateo, CA / New York, NY",
+      "fundingStage": "Series C ($110M, April 30, 2026) led by Accenture Ventures, with participation from Adobe Ventures, WndrCo, SLW, NAVER Ventures, Metis Strategy, and Fin Capital. Total funding now exceeds $160M (founded ~2016). As part of the round, media entrepreneur and WndrCo managing partner Jeffrey Katzenberg joined the board of directors.",
+      "fitScore": 38,
+      "intentScore": 37,
+      "fitDetails": { "industry": 7, "stage": 6, "buyer": 9, "proof": 9, "budget": 7 },
+      "intentDetails": { "trigger": 14, "timeline": 8, "dm_engaged": 6, "urgency": 5, "responsive": 4 },
+      "contacts": [
+        { "name": "Puneet Mehta", "title": "Founder & CEO", "email": null, "linkedin": "https://www.linkedin.com/in/puneetkmehta" },
+        { "name": "Jeffrey Katzenberg", "title": "Board Director / WndrCo Managing Partner", "email": null, "linkedin": null }
+      ],
+      "signals": ["fundraise_series_c", "accenture_ventures_lead", "katzenberg_board_addition", "marquee_customer_logos", "agentic_cx_pivot_narrative", "enterprise_ai_consolidation_narrative"],
+      "source": "U.S. News Money + SiliconANGLE + Yahoo Finance + Pulse 2.0 + GuruFocus + MarketScreener + Tech News 180 + WHBL + Prism News (all 4/30)",
+      "notes": "$110M Series C announced April 30 — Accenture Ventures-led, Adobe Ventures + WndrCo + SLW + NAVER Ventures + Metis Strategy + Fin Capital participating. Total funding now $160M+ (~10 years old, ~170 employees). Customer roster: United Airlines, Delta Air Lines, Paramount, DraftKings — strong enterprise-logo proof. Use of capital: customer deployments + R&D, with explicit pivot toward agentic 'preemptive' customer service (e.g., the United iPhone-app demo where Netomi's AI fielded a nuanced 'can I sit with my dog in the exit row' question). The Katzenberg board addition is the freshest narrative — 'WndrCo founder bets on agentic CX as the next category.' LATE-STAGE CAVEAT: similar profile to Aidoc (skipped 4/30 — Series E + 7+ years + internal IR) — Netomi is 10 years old, so almost certainly has an existing in-house comms function and likely an agency relationship. Mark's realistic angle is NOT agency-of-record — it's the agentic-pivot narrative, the Accenture-strategic-deal narrative, or the Katzenberg-board angle as discrete project work. Recommend: (a) treat as B-tier pr-marketing prospect (combined 75), (b) consider a project-scoped pitch on the agentic-pivot positioning for trade press in CX/contact-center vertical, (c) lead-touch at the VP-of-Comms level (not CEO) since the in-house function exists. Time-sensitive — Series C narrative window closes 14 days. Skip ai-consulting / fund-formation. Note: also disambiguate from the public 'Netomi' references in older press — this is the same company throughout, just at a much later stage."
+    },
+    {
+      "name": "Photon",
+      "website": "https://photonhealth.com",
+      "pipeline": "pr-marketing",
+      "industry": "Healthcare AI / Prescription Infrastructure / Pharmacy Routing & Patient Choice",
+      "location": "New York, NY",
+      "fundingStage": "Series A ($16M, April 30, 2026) led by Healthier Capital, with participation from Notation, Flare Capital Partners, and Evidenced.",
+      "fitScore": 32,
+      "intentScore": 32,
+      "fitDetails": { "industry": 4, "stage": 8, "buyer": 7, "proof": 7, "budget": 6 },
+      "intentDetails": { "trigger": 12, "timeline": 8, "dm_engaged": 5, "urgency": 4, "responsive": 3 },
+      "contacts": [
+        { "name": "Alex Rattray", "title": "Co-founder & CEO", "email": null, "linkedin": null },
+        { "name": "Sam Atis", "title": "Co-founder", "email": null, "linkedin": null }
+      ],
+      "signals": ["fundraise_series_a", "ai_data_orchestration_pharmacy", "patient_choice_narrative", "healthier_capital_lead", "alleywatch_nyc_visibility"],
+      "source": "PR Newswire + BioSpace + Morningstar + AlleyWatch + Pulse 2.0 + Finsmes (all 4/30)",
+      "notes": "$16M Series A announced April 30 — Healthier Capital-led, Notation + Flare Capital + Evidenced participating. NYC-based. Platform sits at the e-prescribing point and gives patients real-time price/inventory/delivery comparison across pharmacies — uses AI to process fragmented pharmacy/benefit/formulary data. Primary angle: pr-marketing — the patient-choice + pharmacy-transparency narrative is editorial-friendly (consumer healthcare press, plus B2B health-systems trade press for the white-label angle). FIT CAVEAT: healthcare-adjacent rather than core FS/Tech — Mark's mid-market financial-sales motion is less native here, so this is a B/C-tier prospect rather than an A. Founders Alex Rattray (CEO) + Sam Atis are repeat operators (Capsule alumni) — that's a journalist-known repeat-founder narrative. Recommend: (a) lower-priority outreach behind JuliaHub + General Analysis + Netomi, (b) angle is 'Capsule alums build the infrastructure layer' — repeat-founder + pharmacy-stack-disruption story has appeal at Forbes/Inc./Fast Company, (c) timeline 30 days before category-defining narrative window closes. Skip ai-consulting / fund-formation / coaching-ops / media. Combined score 64 — C-tier."
+    },
+    {
+      "name": "Onsetto",
+      "website": "https://www.onsetto.com",
+      "pipeline": "pr-marketing",
+      "industry": "B2B Fintech — Business Banking Acquisition Software for Financial Institutions (Banks, Credit Unions)",
+      "location": "Minneapolis, MN",
+      "fundingStage": "Seed extension ($9M, April 30, 2026) — bringing total seed funding to ~$11M after the $2.2M Series Seed in January 2026 led by EJF Ventures (with Idea Fund of La Crosse, The Perch Fund, and angels Daren Cotter + Bobby Astrup). The $9M April raise is positioned as a top-up to accelerate go-to-market with a 'double-digit number of financial institutions under contract.'",
+      "fitScore": 32,
+      "intentScore": 28,
+      "fitDetails": { "industry": 8, "stage": 6, "buyer": 7, "proof": 5, "budget": 6 },
+      "intentDetails": { "trigger": 10, "timeline": 7, "dm_engaged": 5, "urgency": 4, "responsive": 2 },
+      "contacts": [
+        { "name": "Jared Trull", "title": "Co-founder & CEO", "email": null, "linkedin": null }
+      ],
+      "signals": ["fundraise_seed_extension", "double_digit_fi_contracts", "ejf_ventures_strategic", "business_banking_acquisition_category"],
+      "source": "Hipther Fintech Pulse + The Bank Slate + Fintech Global (4/30 + 1/13 backstory)",
+      "notes": "$9M seed extension on top of $2.2M January seed — total ~$11M. Strong-FI-vertical positioning: helping banks + credit unions capture core operating accounts and establish primacy with business customers. Double-digit FI contracts under signature is a real proof point but the company is still very early and the customer-logo reveal hasn't happened yet. EJF Ventures is a notable strategic backer for FI-tech (their portfolio shape signals sophisticated FI buyer relationships). Primary angle: pr-marketing — the 'banks need to fight back against fintechs for the SMB primary-relationship' narrative has 2026 trade-press momentum, especially if Onsetto can name 1-2 lighthouse FI partners. SKIP CAVEAT: smaller round + no named-customer disclosure + repeat-funding pattern (vs. fresh trigger) means weaker intent. Combined score 60 — borderline C-tier; include because the FS-vertical fit is clean even if the round size is small. Recommend: lower-priority outreach with a 60-day timeline; pitch is cleaner once Onsetto names a lighthouse FI customer — Katie should track Crunchbase + LinkedIn for first named-bank-customer announcement and then trigger first-touch. Skip fund-formation / ai-consulting / legal-consulting (not the right shape)."
+    },
+    {
+      "name": "Flex (getflex.com)",
+      "website": "https://getflex.com",
+      "pipeline": "pr-freelance",
+      "industry": "Consumer Fintech — Rent Payment / Bill-Pay Infrastructure",
+      "location": "New York, NY (HQ) + San Francisco + Salt Lake City",
+      "fundingStage": "Recent ~$60M raise on April 29, 2026 at ~$500M valuation. Now hiring Head of Communications at $200K-$250K base (Tier 1 markets), 10+ years comms experience required, fintech / regulated-consumer experience required, hybrid 2-3 days/week in NYC/SF/SLC. Reports to CMO. Posted on Greenhouse (gh_jid 4670851005), visible on LinkedIn + BuiltIn NYC.",
+      "fitScore": 41,
+      "intentScore": 32,
+      "fitDetails": { "pr_focus": 14, "sector": 9, "workstream": 8, "buyer": 8, "comp_credibility": 2 },
+      "intentDetails": { "engagement": 8, "remote": 8, "recency": 8, "urgency": 6, "direct_path": 2 },
+      "contacts": [
+        { "name": "Hiring Manager (Chief Marketing Officer at Flex)", "title": "CMO", "email": null, "linkedin": "https://www.linkedin.com/company/getflex" }
+      ],
+      "signals": ["head_of_comms_full_time_posting", "post_funding_comms_buildout", "fintech_regulated_industry", "pr_agency_management_required", "fractional_alternative_pitch_window"],
+      "source": "Greenhouse direct posting (gh_jid 4670851005) + BuiltIn NYC + LinkedIn (cross-posted) + 4/29 funding announcement coverage in Pulse 2.0/Crunchbase",
+      "notes": "Flex is a NYC-headquartered consumer-fintech that just raised ~$60M on 4/29 (mentioned + skipped in 4/30 scrape as 'serial-fundraising, weaker fit') — but the discovery of an active Head of Communications search at $200-250K base reframes Flex as a textbook **pr-freelance** opportunity per Mark's rule. The comp band signals they have budget; the 10+yr-experience + fintech-required spec means the search is going to take 4-8 weeks to fill; the explicit 'oversee the PR agency relationship' language indicates they already have a PR agency engaged but want senior in-house leadership. Primary pitch angle: fractional-Head-of-Comms interim coverage during the search, with optional white-label / advisory continuation post-hire. Mark's fintech credentials + history with regulated-consumer narratives match the spec. Suggested first-touch: cold email to the CMO (the role reports to them) with a 2-paragraph framing ('I see you're hiring a Head of Comms — while you search, I can plug into the agency relationship + executive-comms cadence + post-funding narrative work; fixed 60-day retainer, exit on hire'). Realistic odds: medium-high — fintech Head of Comms searches at this comp level with regulatory-experience requirements typically run 6-12 weeks, and the post-funding narrative window is decaying fast. Time-sensitive: every day the search runs without interim coverage is a day of degraded post-funding earned-media activation. Combined score 73 — strongest pr-freelance lead since 5WPR (4/30, 79). NOTE for routing: this is pr-freelance per Mark's rule (company hiring PR person → pr-freelance, NOT pr-marketing). Skip pr-marketing routing for Flex unless and until the Head of Comms is hired and they want category-narrative agency work."
+    }
+  ]
+}

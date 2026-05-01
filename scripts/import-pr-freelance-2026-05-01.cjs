@@ -160,6 +160,155 @@ const LEADS = [
       ]),
     },
   },
+
+  // ─── 5. Mission North — B2B tech agency w/ named freelance roster (supplemental run) ──
+  {
+    company: {
+      name: "Mission North",
+      website: "https://www.missionnorth.com",
+      pipeline: "pr-freelance",
+      industry: "Integrated B2B tech communications agency — PR, content, digital, social — clients include Canva, Zoom, LanzaTech, Betterment",
+      size: "Mid/large agency, scaling — public sector & policy practice on pace for 3X growth in 2026",
+      location: "San Francisco, CA + New York, NY + Portland, OR (offices) + remote freelance roster",
+      fundingStage: "Privately held",
+      techStack: JSON.stringify(["B2B tech PR", "fintech earned media", "policy & public sector comms", "thought leadership", "content + digital + social integrated"]),
+      fitScore: 44,
+      intentScore: 33,
+      fitDetails: JSON.stringify({ pr_remit: 14, sector_fit: 8, workstream: 9, buyer_quality: 8, comp_credible: 5 }),
+      intentDetails: JSON.stringify({ engagement_model: 12, remote_flex: 7, recency: 3, urgency: 7, apply_path: 4 }),
+      starred: true,
+      notes: "Combined 77 (B grade). Mission North is one of the few B2B-tech-PR agencies with an explicit, named, public freelance pipeline — surfaced through FlexJobs and the agency's careers page ('seeks freelancers in public relations and communications for ongoing projects'). That removes the single biggest friction in pr-freelance outreach: there is an intake door, no cold pitch needed. Sector fit is strong: B2B tech focus, fintech client precedent (Betterment), enterprise SaaS workstream. Intent signal is exceptional because their public-sector & policy practice is on a 3X growth pace in 2026 — established freelance demand backed by signed retainers, not aspirational hiring. Two-track approach: (1) submit through public freelance intake; (2) parallel direct LinkedIn note to CEO Tyler Perry positioning Mark for senior fintech / financial-services thought-leadership work specifically. Realistic odds: high for ad-hoc project work within 4-8 weeks. Source: https://www.missionnorth.com/",
+      source: "PR Freelance Scrape 2026-05-01",
+      lastActivity: "Active freelance roster intake — agency public freelance pipeline",
+    },
+    contacts: [
+      { name: "Mission North Talent / Resourcing", title: "Freelance roster intake — public-facing freelance pipeline", persona: "Agency Resourcing", decisionMaker: false },
+      { name: "Tyler Perry", title: "CEO, Mission North — direct LinkedIn target for senior freelance positioning", linkedin: "https://www.linkedin.com/in/tylermperry/", persona: "CEO / Founder", decisionMaker: true },
+      { name: "Emily Field", title: "Lead, Public Sector & Policy Communications practice (3X growth pace in 2026)", persona: "Practice Lead", decisionMaker: true },
+    ],
+    scrape: {
+      url: "https://www.missionnorth.com/",
+      source: "job_boards",
+      matchedSignals: JSON.stringify([
+        "agency_with_explicit_freelance_roster",
+        "policy_practice_3x_growth_capacity_strain",
+        "b2b_tech_sector_alignment",
+        "fintech_client_precedent_betterment",
+        "named_freelance_pipeline_no_cold_outreach_required",
+      ]),
+    },
+  },
+
+  // ─── 6. BVNK — VP/Head of Global PR & Corporate Comms (stablecoin payments fintech, sweet spot) ──
+  {
+    company: {
+      name: "BVNK",
+      website: "https://bvnk.com",
+      pipeline: "pr-freelance",
+      industry: "Stablecoin payments infrastructure / fintech — enterprise stablecoin payouts and global money movement (clients: Worldpay, Deel, LianLian, Rapyd)",
+      size: "Founded 2021, scale-up — billions in transactions facilitated for enterprise clients",
+      location: "London (HQ) + New York, NY + global remote — VP role posted in both London (Built In London) and NYC (Built In NYC)",
+      fundingStage: "Series B+ scale-up post-funding",
+      techStack: JSON.stringify(["stablecoin payments", "enterprise payouts", "cross-border money movement", "fintech regulatory/compliance comms", "tier-one media relations"]),
+      fitScore: 49,
+      intentScore: 27,
+      fitDetails: JSON.stringify({ pr_remit: 15, sector_fit: 10, workstream: 10, buyer_quality: 9, comp_credible: 5 }),
+      intentDetails: JSON.stringify({ engagement_model: 5, remote_flex: 5, recency: 5, urgency: 8, apply_path: 4 }),
+      starred: true,
+      notes: "Combined 76 (B grade). Bullseye sector for Mark — stablecoin payments fintech sits at the intersection of payments, fintech, and the regulatory-heavy enterprise space he covers credibly. BVNK is searching for a VP (Head) of Global PR & Corporate Communications, posted in both London and NYC, with explicit tier-one media targets (Bloomberg, CNBC, FT, WSJ, Reuters, The Economist) and an exec thought-leadership workstream that partners directly with the CEO. The 'building global PR function' framing implies BVNK does NOT have a senior in-house comms leader today — meaning the seat is structurally open. VP search at this level typically runs 12-20 weeks, plus 90-day onboarding ramp — that's a 6-month capacity gap. Pitch angle: direct LinkedIn outreach to BVNK CEO with 'while you run the VP search, I have senior fintech/payments earned-media capacity to seed tier-one relationships and stand up exec thought leadership now. 90-day interim retainer, no logo credit, hand off cleanly to your VP when they land.' Risk: BVNK strongly prefers payments / stablecoins / blockchain experience — Mark needs at least one credible stablecoin or payments-rails reference to lead with. Source: https://builtinnyc.com/job/vp-head-communications/6319834",
+      source: "PR Freelance Scrape 2026-05-01",
+      lastActivity: "VP (Head) of Global PR & Corporate Communications search active on Built In London and Built In NYC",
+    },
+    contacts: [
+      { name: "BVNK Comms Hiring Committee (CEO + CMO)", title: "Hiring committee for VP (Head) of Global PR & Corporate Communications — role partners directly with CEO", persona: "Founder/CEO", decisionMaker: true },
+    ],
+    scrape: {
+      url: "https://builtinnyc.com/job/vp-head-communications/6319834",
+      source: "job_boards",
+      matchedSignals: JSON.stringify([
+        "vp_head_of_pr_search_seat_open",
+        "stablecoin_payments_fintech_sweet_spot",
+        "tier_one_media_target_bloomberg_cnbc_ft_wsj_reuters_economist",
+        "exec_thought_leadership_workstream",
+        "scale_up_post_funding_pr_function_being_built",
+        "enterprise_b2b_with_named_marquee_clients",
+      ]),
+    },
+  },
+
+  // ─── 7. Coinbase Base — Head of Communications (L2 crypto, $206-242K base) ──
+  {
+    company: {
+      name: "Coinbase (Base)",
+      website: "https://www.base.org",
+      pipeline: "pr-freelance",
+      industry: "Crypto / Layer-2 blockchain — Base is Coinbase's L2 onchain ecosystem (Coinbase: NASDAQ:COIN, $50B+ market cap)",
+      size: "Subsidiary of public company Coinbase; Base operates as semi-autonomous business unit",
+      location: "Remote-USA (per Coinbase careers — 'remote-first' for most senior comms roles)",
+      fundingStage: "Subsidiary of public company Coinbase (NASDAQ: COIN)",
+      techStack: JSON.stringify(["L2 / onchain blockchain", "Coinbase corporate comms partnership", "AI-driven workflow stack", "tier-one tech/finance media", "crypto narrative + mainstream expansion"]),
+      fitScore: 45,
+      intentScore: 25,
+      fitDetails: JSON.stringify({ pr_remit: 15, sector_fit: 8, workstream: 9, buyer_quality: 8, comp_credible: 5 }),
+      intentDetails: JSON.stringify({ engagement_model: 3, remote_flex: 7, recency: 5, urgency: 7, apply_path: 3 }),
+      starred: false,
+      notes: "Combined 70 (B grade). Coinbase is hiring a Head of Communications for Base (their L2 ecosystem, semi-autonomous business unit). Base salary $206K-$242K (high comp tier — budget is not the constraint). Workstream is unusually well-defined: take Base's narrative beyond the crypto bubble into mainstream tech/finance/cultural audiences, target Bloomberg/CNBC/TechCrunch, AI-driven workflow stack. Even though Base sits inside Coinbase (which has a mature corporate comms function), the role explicitly says 'redefine what a modern comms function looks like' for Base — implying the Base-specific PR seat is being newly built. Mark angle: interim coverage of the Base-specific narrative during the 12-16 week senior search, OR specialized B2B/institutional/onchain-finance workstream that complements Coinbase Corporate Comms (which keeps the consumer and equity-story narratives). Risk: same as Robinhood Crypto — must be crypto-fluent and able to pass an L2/onchain technical conversation in five minutes. If Mark is NOT crypto-fluent, this is a NO regardless of fit. If he is, single-shot warm-email play to Jesse Pollak via LinkedIn. Source: https://www.tealhq.com/job/head-of-communications-base_7ea1a920297821e447bdc03ebb971987ea086",
+      source: "PR Freelance Scrape 2026-05-01",
+      lastActivity: "Head of Communications, Base search active on Coinbase careers + Teal HQ + Polychain Capital job board",
+    },
+    contacts: [
+      { name: "Jesse Pollak", title: "Creator and lead of Base — likely hiring sponsor for Head of Comms", linkedin: "https://www.linkedin.com/in/jesse-pollak-7115a153/", persona: "Founder/Lead", decisionMaker: true },
+      { name: "Coinbase Corporate Comms Leadership", title: "Coinbase global comms function — Base Head of Comms partners cross-functionally", persona: "Head of Comms", decisionMaker: false },
+    ],
+    scrape: {
+      url: "https://www.tealhq.com/job/head-of-communications-base_7ea1a920297821e447bdc03ebb971987ea086",
+      source: "job_boards",
+      matchedSignals: JSON.stringify([
+        "head_of_comms_search_seat_open",
+        "crypto_l2_subsidiary_with_independent_pr_function",
+        "high_comp_tier_206k_242k_base",
+        "ai_driven_workflow_signal",
+        "mainstream_expansion_beyond_crypto_bubble_workstream",
+        "tier_one_media_targets_bloomberg_cnbc_techcrunch",
+      ]),
+    },
+  },
+
+  // ─── 8. Atticus — Director, Policy and PR (combined-mandate role, extended search window) ──
+  {
+    company: {
+      name: "Atticus",
+      website: "https://www.atticus.com",
+      pipeline: "pr-freelance",
+      industry: "Legal tech / consumer rights platform — connects sick or injured people in crisis with disability benefits, accident compensation, and legal aid",
+      size: "210 employees end of 2025, growing in 2026 (151 → 210 in 2025)",
+      location: "Los Angeles, CA (HQ) + remote-friendly",
+      fundingStage: "Series C, closed April 2025",
+      techStack: JSON.stringify(["consumer-facing legal services platform", "government benefits matching", "policy & government relations", "media relations + narrative", "Series C scaling"]),
+      fitScore: 42,
+      intentScore: 24,
+      fitDetails: JSON.stringify({ pr_remit: 13, sector_fit: 8, workstream: 8, buyer_quality: 8, comp_credible: 5 }),
+      intentDetails: JSON.stringify({ engagement_model: 3, remote_flex: 6, recency: 4, urgency: 7, apply_path: 4 }),
+      starred: false,
+      notes: "Combined 66 (B grade). Atticus is hiring a Director of Policy and PR — a combined role that owns both the policy agenda (government relations, compliance positioning) and external comms (media relations, narrative, profile-raising). Series C closed April 2025, team grew from 151 → 210 in 2025, growing again in 2026 — classic post-funding scaling profile. The combined Policy + PR role is a known anti-pattern for these searches: candidates who excel at both policy AND media relations are extremely rare, and these searches typically stretch 4-6 months (vs 8-12 weeks for a pure-PR Director). That extended search window IS the opportunity. Sector adjacency: legal tech / legal services / consumer-rights — close to Mark's legal-tech and compliance-tech sweet spots without being a perfect match (Atticus is consumer-facing, not B2B). Pitch angle: ONE LinkedIn note framing 'while you run a 4-6 month search for the rare Policy+PR director profile, I can carry the PR/media-relations workstream on a 90-day interim retainer, leaving the policy seat open for your eventual hire.' Lower priority than BVNK or Siege Media but extended search window means longer lead-time. Source: https://jobs.ashbyhq.com/atticus/b1fc57bd-6430-4270-bebe-062e69e760d5",
+      source: "PR Freelance Scrape 2026-05-01",
+      lastActivity: "Director, Policy and PR search active on Ashby HQ jobs board + Jobgether",
+    },
+    contacts: [
+      { name: "Atticus Hiring Manager (Director, Policy and PR)", title: "Hiring committee for Director, Policy and PR — role partners with Product, Legal, Client Experience", persona: "Hiring Manager", decisionMaker: true },
+    ],
+    scrape: {
+      url: "https://jobs.ashbyhq.com/atticus/b1fc57bd-6430-4270-bebe-062e69e760d5",
+      source: "job_boards",
+      matchedSignals: JSON.stringify([
+        "director_policy_pr_combined_role_open",
+        "legal_consumer_rights_sweet_spot_adjacent",
+        "series_c_post_funding_team_expansion_2x",
+        "growing_team_means_growing_pr_workstream",
+        "policy_workstream_government_relations_overlap",
+      ]),
+    },
+  },
 ];
 
 // ─── Importer ──────────────────────────────────────────────────────────
