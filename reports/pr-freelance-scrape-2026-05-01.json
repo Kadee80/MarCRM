@@ -1,0 +1,167 @@
+{
+  "scrapeDate": "2026-05-01",
+  "scrapeType": "pr-freelance",
+  "totalLeads": 4,
+  "note": "Targeted PR Freelance scrape, 7-day window (2026-04-24 → 2026-05-01) plus funding-driven intent signals back to 2026-04-15. Excludes leads already in CRM from daily and pr-freelance scrapes through 2026-04-30 (5WPR, HockeyStack, Crypto.com, Courier Health, Forward Financing, SerpApi, PayNearMe, Paddle, Loti AI, Manifest OS, Avoca, Amperos Health, Rogo, Actively AI, Parallel Web Systems, Clarasight, GetWhys, NeoCognition, Era Computer, Brev, Worki). Three of four leads are 'agency overflow / interim during search' patterns — direct freelance/contract postings remain rare. Min combined score for inclusion: 55.",
+  "leads": [
+    {
+      "name": "Siege Media",
+      "website": "https://www.siegemedia.com",
+      "pipeline": "pr-freelance",
+      "industry": "Content marketing & SEO agency — building first-time PR practice (B2B SaaS clients across fintech, ecommerce, technology)",
+      "location": "San Diego, CA + Austin, TX + New York, NY (offices) + remote-friendly",
+      "fundingStage": "Privately held, fast-growing (Built In employer profile)",
+      "fitScore": 45,
+      "intentScore": 34,
+      "fitDetails": {
+        "pr_remit": 15,
+        "sector_fit": 7,
+        "workstream": 10,
+        "buyer_quality": 8,
+        "comp_credible": 5
+      },
+      "intentDetails": {
+        "engagement_model": 10,
+        "remote_flex": 8,
+        "recency": 4,
+        "urgency": 8,
+        "apply_path": 4
+      },
+      "contacts": [
+        {
+          "name": "Siege Media Leadership (Ross Hudgens, CEO)",
+          "title": "CEO / co-founder — target for white-label execution pitch",
+          "linkedin": "https://www.linkedin.com/in/rosshudgens/"
+        }
+      ],
+      "signals": [
+        "agency_building_pr_practice_from_scratch",
+        "white_label_overflow_opportunity",
+        "vp_search_seat_open",
+        "b2b_saas_client_overlap_fintech_tech",
+        "no_existing_pr_team_to_compete_with"
+      ],
+      "source": "https://builtin.com/job/vp-public-relations/4657007",
+      "notes": "TOP LEAD of 5/1 pr-freelance scrape (combined 79, B grade). Same playbook as 5WPR last week, with one critical difference: Siege Media has NO existing PR practice — they're hiring a VP to BUILD it from scratch. That means there's no incumbent senior team to politically resist outside help. While the VP search runs (typically 8-16 weeks for an agency leadership hire) and during the 90-day VP onboarding ramp, Siege has client-facing PR commitments with NO senior execution capacity. Mark is NOT a candidate — he's positioned as senior IC partner who can immediately stand up media-relations, thought-leadership, and announcement workstreams for their B2B SaaS / fintech / tech clients. Siege's content-and-SEO ICP overlaps cleanly with Mark's fintech and B2B SaaS sweet spots. Pitch the CEO Ross Hudgens directly — frame as 'fractional senior PR capacity for the next 6 months while you hire and ramp the VP, no client logo credit needed.' Two-week stand-up. Project or month-by-month retainer. After VP joins, reposition as overflow execution partner."
+    },
+    {
+      "name": "Cloudbeds",
+      "website": "https://www.cloudbeds.com",
+      "pipeline": "pr-freelance",
+      "industry": "Hospitality tech — B2B SaaS property management, distribution, and revenue management for independent hotels",
+      "location": "Fully remote (global team, US-headquartered San Diego)",
+      "fundingStage": "Private growth-stage SaaS, established global operations",
+      "fitScore": 41,
+      "intentScore": 23,
+      "fitDetails": {
+        "pr_remit": 14,
+        "sector_fit": 6,
+        "workstream": 9,
+        "buyer_quality": 7,
+        "comp_credible": 5
+      },
+      "intentDetails": {
+        "engagement_model": 4,
+        "remote_flex": 8,
+        "recency": 4,
+        "urgency": 4,
+        "apply_path": 3
+      },
+      "contacts": [
+        {
+          "name": "Cloudbeds VP Marketing",
+          "title": "VP Marketing — hiring manager for Head of Communications role",
+          "persona": "Head of Marketing"
+        }
+      ],
+      "signals": [
+        "head_of_comms_search_open",
+        "existing_pr_agency_relationship",
+        "fully_remote_role",
+        "b2b_saas_with_global_media_focus",
+        "long_application_window_through_jun_28"
+      ],
+      "source": "https://www.workingnomads.com/jobs/head-of-communications-cloudbeds-1570473",
+      "notes": "Combined 64 (C grade). Cloudbeds is searching for a Head of Communications (senior IC) reporting to VP Marketing, with applications open through 2026-06-28 — long window suggests they are willing to wait for the right candidate. Job description explicitly says role 'collaborates with the company's PR agency,' confirming an external agency relationship is already in place. Two pitchable angles: (1) interim coverage of the Head of Comms scope during their 8-12 week search — exec visibility, press releases, thought leadership, spokesperson prep; (2) overflow execution to the existing PR agency, which is likely capacity-constrained during a search window when client expectations rise. Hospitality tech is OUTSIDE Mark's primary sweet spots (finance, legal, PE/VC, B2B SaaS), so sector fit is constrained — but B2B SaaS workstream and fully-remote engagement are pluses. Realistic odds: medium for the existing-agency-overflow path (Mark would need to identify and pitch the agency, not Cloudbeds directly), lower for direct interim. Pitch via LinkedIn outreach to Cloudbeds VP Marketing AND parallel outreach to known hospitality-tech PR shops with a 'capacity boost' offer."
+    },
+    {
+      "name": "FactSet",
+      "website": "https://www.factset.com",
+      "pipeline": "pr-freelance",
+      "industry": "Financial data & analytics SaaS — investment professional terminals, portfolio analytics, market data (Bloomberg / Refinitiv competitor)",
+      "location": "Norwalk, CT (HQ) + New York + global offices, hybrid",
+      "fundingStage": "Public company (NYSE: FDS), $20B+ market cap",
+      "fitScore": 45,
+      "intentScore": 17,
+      "fitDetails": {
+        "pr_remit": 14,
+        "sector_fit": 10,
+        "workstream": 8,
+        "buyer_quality": 8,
+        "comp_credible": 5
+      },
+      "intentDetails": {
+        "engagement_model": 3,
+        "remote_flex": 4,
+        "recency": 2,
+        "urgency": 4,
+        "apply_path": 4
+      },
+      "contacts": [
+        {
+          "name": "FactSet Communications Leadership",
+          "title": "VP/Senior Director Communications (hiring manager)",
+          "persona": "Head of Comms"
+        }
+      ],
+      "signals": [
+        "senior_external_comms_role_open",
+        "financial_data_sweet_spot",
+        "established_public_company_ir_overlap",
+        "b2b_trade_press_workstream"
+      ],
+      "source": "https://jobright.ai/jobs/info/69cd2f9e366bb95ba54f9507",
+      "notes": "Combined 62 (C grade). FactSet is hiring a Senior Manager, External Communications — financial data SaaS is a textbook sweet-spot sector for Mark (asset management, wealth management, institutional investor audience). Public-company comms function is established and well-resourced, so 'first PR hire' angle does NOT apply. Realistic angles are narrow: (1) interim individual-contributor coverage during the search window, (2) specialized B2B trade press / fintech-rails / asset-manager-customer story workstream that the existing function may not be staffed for. Recency scored low (2/10) — posting age uncertain but the jobright.ai timestamp suggests it's been open for several weeks. Engagement model is full-time perm, which suppresses fractional probability — but FactSet's comp tier means a $15-25K/month interim retainer is small money. ONE well-targeted email to the hiring manager is worth the effort because the sector fit is so strong. Don't multi-touch."
+    },
+    {
+      "name": "Robinhood",
+      "website": "https://robinhood.com",
+      "pipeline": "pr-freelance",
+      "industry": "Consumer fintech / crypto — brokerage, retail trading, Robinhood Crypto, Bitstamp (acquired)",
+      "location": "Menlo Park, CA + New York, NY (in-office)",
+      "fundingStage": "Public company (NASDAQ: HOOD), $30B+ market cap",
+      "fitScore": 46,
+      "intentScore": 14,
+      "fitDetails": {
+        "pr_remit": 14,
+        "sector_fit": 10,
+        "workstream": 9,
+        "buyer_quality": 8,
+        "comp_credible": 5
+      },
+      "intentDetails": {
+        "engagement_model": 3,
+        "remote_flex": 2,
+        "recency": 2,
+        "urgency": 4,
+        "apply_path": 3
+      },
+      "contacts": [
+        {
+          "name": "Robinhood Crypto Communications Leadership",
+          "title": "Director/VP of Communications, Crypto (hiring manager)",
+          "persona": "Head of Comms"
+        }
+      ],
+      "signals": [
+        "senior_crypto_communications_role_open",
+        "fintech_crypto_sweet_spot",
+        "10_plus_years_experience_required",
+        "executive_visibility_workstream",
+        "b2b_institutional_crypto_narrative"
+      ],
+      "source": "https://jobright.ai/jobs/info/69537fef935649778e213cee",
+      "notes": "Combined 60 (C grade). Robinhood is hiring a Senior Communications Manager, Crypto (10+ years required, leads strategy for Robinhood Crypto + Bitstamp). Strong sector-fit (consumer fintech + crypto + brokerage) but the role is a senior IC slot inside a large established comms function — first-PR-hire angle does not apply. Mark's pitchable angle is narrow: (1) interim coverage during the search if it stretches past 90 days, (2) specialized B2B/institutional crypto exchange / regulatory comms workstream that complements but doesn't compete with the existing crypto comms team. Robinhood is in-office (Menlo Park or NYC), which suppresses remote-flex score significantly. Posting recency unknown (jobright timestamp suggests several weeks open). Realistic odds of fractional engagement: low. Worth one email to Robinhood Crypto comms leadership — frame as 'available for B2B/institutional Bitstamp-side workstream while you complete your senior search.' Strong NO if Mark is not crypto-fluent — Robinhood will interrogate crypto/Web3 chops in any conversation. Same single-shot rule as Crypto.com from last week's scrape: high comp tier means budget is not the obstacle, but odds of conversion are."
+    }
+  ]
+}
