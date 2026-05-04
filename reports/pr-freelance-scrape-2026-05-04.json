@@ -1,0 +1,134 @@
+{
+  "scrapeDate": "2026-05-04",
+  "scrapeType": "pr-freelance",
+  "totalLeads": 3,
+  "note": "Quieter run than 5/1 (8 leads). Deduped against 5/1 pr-freelance batch (Siege Media, Mission North, BVNK, Coinbase Base, Atticus, Cloudbeds, FactSet, Robinhood), 4/30 batch (5WPR, HockeyStack, Crypto.com, Courier Health, Forward Financing), 4/27 targeted batch (SerpApi, PayNearMe, Paddle, Loti AI), and pr-freelance leads inside the 4/29-5/1 daily scrapes. Only 3 credible new openings cleared the 55+ scoring threshold. PR hiring market reverted to quieter baseline after last week's bunched activity. Tide (UK) and Satispay (Italy) surfaced but scored below threshold and were excluded. Recommended priority order: Offchain Labs (best signal — overflow door explicit in JD, requires crypto fluency), then GlossGenius (3-month-stale search = real capacity gap), then Upstart (strongest sector fit but lowest conversion probability — single-shot only).",
+  "leads": [
+    {
+      "name": "Offchain Labs",
+      "website": "https://www.offchainlabs.com",
+      "pipeline": "pr-freelance",
+      "industry": "Web3 / Ethereum L2 — builds the Arbitrum stack powering Arbitrum One, the most widely adopted Ethereum scaling solution",
+      "location": "Remote (United States), team distributed",
+      "fundingStage": "$124M raised (Lightspeed, Polychain, Pantera, Ribbit) — late-stage scale-up",
+      "fitScore": 43,
+      "intentScore": 28,
+      "fitDetails": {
+        "pr_remit": 15,
+        "sector_fit": 6,
+        "workstream": 10,
+        "buyer_quality": 7,
+        "comp_credible": 5
+      },
+      "intentDetails": {
+        "engagement_model": 5,
+        "remote_flex": 8,
+        "recency": 3,
+        "urgency": 7,
+        "apply_path": 5
+      },
+      "contacts": [
+        {
+          "name": "Steven Goldfeder",
+          "title": "Co-founder & CEO, Offchain Labs — likely sponsor of senior comms hire",
+          "linkedin": "https://www.linkedin.com/in/sgoldfed/"
+        },
+        {
+          "name": "Offchain Labs External PR Agency (incumbent)",
+          "title": "Identify via PRNewswire / Arbitrum Foundation press release boilerplate — pitch on overflow capacity",
+          "email": "tbd"
+        }
+      ],
+      "signals": [
+        "senior_comms_pr_manager_search_open",
+        "role_explicitly_oversees_external_pr_agencies_overflow_door",
+        "ethereum_l2_arbitrum_ecosystem_credible",
+        "124m_funded_scale_up_budget_exists",
+        "remote_us_role",
+        "incumbent_pr_agency_relationship_capacity_constrained_during_search"
+      ],
+      "source": "https://jobs.lever.co/offchainlabs/ba06452d-31d5-4ed0-8330-415a0904f4eb",
+      "notes": "Combined 71 (B grade) — top lead of the week. The single most actionable phrase across all 3 leads is in this JD: 'oversee external PR agencies and partners globally.' Two doors open: (1) the new hire's first 90 days when the agency roster gets re-evaluated, (2) the interim gap when the existing agency is carrying everything under load. Two-track outreach: direct LinkedIn note to CEO Steven Goldfeder positioning Mark for fintech-adjacent / institutional Web3 narrative work, AND identify the incumbent PR agency (search PRNewswire and Arbitrum Foundation press releases for boilerplate) and pitch on overflow. CRITICAL RISK: same Web3 fluency bar as Robinhood Crypto and Coinbase Base — Mark must be able to discuss rollups, sequencers, and Arbitrum vs Optimism in a 5-minute conversation. If not, this is a hard NO regardless of fit."
+    },
+    {
+      "name": "GlossGenius",
+      "website": "https://glossgenius.com",
+      "pipeline": "pr-freelance",
+      "industry": "Vertical SaaS for beauty pros — booking, payments, marketing for salons and independent beauty professionals",
+      "location": "New York, NY (HQ) — remote-hybrid",
+      "fundingStage": "Bessemer-backed scale-up (Series C+)",
+      "fitScore": 45,
+      "intentScore": 23,
+      "fitDetails": {
+        "pr_remit": 14,
+        "sector_fit": 5,
+        "workstream": 9,
+        "buyer_quality": 7,
+        "comp_credible": 5
+      },
+      "intentDetails": {
+        "engagement_model": 4,
+        "remote_flex": 7,
+        "recency": 0,
+        "urgency": 8,
+        "apply_path": 4
+      },
+      "contacts": [
+        {
+          "name": "GlossGenius CMO / VP Marketing",
+          "title": "Comms-function owner / hiring manager for Director, PR & Communications role",
+          "linkedin": "tbd"
+        }
+      ],
+      "signals": [
+        "director_pr_comms_search_open_since_feb_6_2026",
+        "search_stale_3_months_real_capacity_gap",
+        "bessemer_backed_scale_up",
+        "remote_hybrid_nyc_role",
+        "narrative_exec_thought_leadership_workstream"
+      ],
+      "source": "https://job-boards.greenhouse.io/glossgenius",
+      "notes": "Combined 68 (B grade). The Director, PR & Communications role has been continuously open and posted since Feb 6, 2026 — roughly 3 months on the market. A search this stale signals one of three things, all pitchable: (1) high hiring bar, no candidate yet → real capacity gap; (2) internal priority shifted but role still being maintained → narrative work being deferred; (3) outside agency or freelancer is covering in the interim → competitor exists but pricing/scope re-evaluation likely. In any scenario, an interim 60-90 day retainer covering 'narrative, exec thought leadership, media relationships' is well within Mark's wheelhouse. Pitch angle: single LinkedIn note to GlossGenius CMO. Frame: 'You've had this Director search open ~3 months. While you keep searching for the right permanent hire, I can carry the media-relations and exec thought-leadership workstreams on a 60-day interim, no long-term commitment, hand off cleanly when you find your Director.' Reasonable retainer: $10-15K/month. RISK: sector adjacency is meaningful — SMB / consumer beauty press is different from B2B fintech press. Mark should be honest about his B2B/finance-tilted Rolodex but lean on workstream overlap (narrative architecture, exec thought leadership) which is sector-agnostic."
+    },
+    {
+      "name": "Upstart",
+      "website": "https://www.upstart.com",
+      "pipeline": "pr-freelance",
+      "industry": "Consumer lending fintech — AI-driven credit underwriting platform; partners with banks and credit unions",
+      "location": "Multi-city: Columbus OH, Austin TX, Bay Area, NYC (opening Summer 2026); remote-flexible",
+      "fundingStage": "Public company (NASDAQ: UPST)",
+      "fitScore": 47,
+      "intentScore": 17,
+      "fitDetails": {
+        "pr_remit": 14,
+        "sector_fit": 9,
+        "workstream": 10,
+        "buyer_quality": 9,
+        "comp_credible": 5
+      },
+      "intentDetails": {
+        "engagement_model": 3,
+        "remote_flex": 5,
+        "recency": 2,
+        "urgency": 4,
+        "apply_path": 3
+      },
+      "contacts": [
+        {
+          "name": "Upstart Communications Leadership",
+          "title": "VP Communications / Chief Communications Officer (hiring manager for Director Corporate Comms)",
+          "linkedin": "tbd"
+        }
+      ],
+      "signals": [
+        "director_corporate_comms_role_open",
+        "lending_fintech_ai_sweet_spot",
+        "macroeconomic_regulatory_narrative_workstream",
+        "public_company_established_function",
+        "exec_thought_leadership_explicit_in_jd"
+      ],
+      "source": "https://careers.upstart.com/jobs/director-of-corporate-communications",
+      "notes": "Combined 64 (C grade). Most sweet-spot lead of this batch sectorally — lending fintech, AI underwriting, and macroeconomic/regulatory narrative are all Mark's home turf. JD literally calls out 'translate complex topics, including lending, credit, AI, regulation, and macroeconomic trends, into clear and compelling stories' — that's essentially Mark's positioning sentence. CONSTRAINT (same as FactSet/Robinhood last week): public company with established corporate comms function, IR overlay, and almost certainly a tier-1 PR agency on retainer. No first-PR-hire dynamic. Realistic angles: (1) interim coverage if Director search stretches past 90 days, (2) specialized B2B/lender-customer narrative workstream existing function may not be staffed for. ONE well-targeted email to hiring manager (likely VP Comms or CCO). Lead with sector credibility — name a recent Upstart story or AI-credit-underwriting trade angle. Don't multi-touch. Single shot only. Probability of fractional engagement is genuinely low but comp tier and budget make even a small interim retainer ($15-20K/month for 90 days) plausible if timing aligns with executive vacuum."
+    }
+  ]
+}
