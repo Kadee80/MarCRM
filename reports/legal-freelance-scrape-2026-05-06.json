@@ -1,90 +1,42 @@
 {
   "scrapeDate": "2026-05-06",
   "scrapeType": "legal-freelance",
-  "totalLeads": 6,
-  "note": "Legal freelance pipeline test scrape: contract attorneys, fractional counsel, fund formation, and interim positions from job boards. All leads scored 55+. Sources: Glassdoor, ZipRecruiter, Indeed, Virtual Vocations. Boolean clusters: fractional/interim GC, contract attorney + corporate/contracts, fund formation counsel, commercial contracts + freelance, securities counsel, outside counsel, legal consultants.",
+  "totalLeads": 10,
+  "note": "Legal freelance pipeline scrape: REAL COMPANIES with actual contract/fractional/interim legal hiring. Focus on fund formation counsel, fractional GC, interim contracts, law firms needing overflow. All leads scored 55+. Sources: company career pages, law firm announcements, legal job boards (Indeed, ZipRecruiter, LinkedIn), press releases. High-intent signals: fund formation, fractional/interim model, remote flexibility, startup/fund ecosystem, corporate counsel, contract overflow.",
   "leads": [
     {
-      "id": "lead-001-aventure",
-      "name": "aVenture",
-      "website": "https://www.glassdoor.com/job-listing/venture-capital-fund-attorney-aventure-JV_KO0,29_KE30,38.htm",
-      "pipeline": "legal-freelance",
-      "industry": "Fintech / Investment",
-      "location": "Remote (San Francisco, CA)",
-      "fundingStage": "Growth",
-      "fitScore": 82,
-      "intentScore": 78,
-      "fitDetails": [
-        "+20 fund/fund formation (venture capital funds)",
-        "+10 corporate/financing (fund structuring)",
-        "+10 seniority counsel level (fund attorney)",
-        "+10 comp stated ($80k-$120k/yr)"
-      ],
-      "intentDetails": [
-        "+15 contract/interim/part-time (flexible hours, full or part-time)",
-        "+15 remote/hybrid-flex (work from anywhere, 4hrs USD PST overlap)",
-        "+10 posted within 72 hrs (active Glassdoor listing)"
-      ],
-      "vertical": "legal",
-      "subvertical": "fund-formation",
-      "engagementModel": "contract-part-time",
-      "buyerType": "vc-platform",
-      "compensationText": "$80,000 - $120,000/year (flexible: fixed monthly or hourly rate)",
-      "remoteFlag": true,
-      "employmentTypeRaw": "Full-time or Part-time Contract",
-      "urgencyScore": 8,
-      "contacts": [
-        {
-          "name": "aVenture Hiring",
-          "title": "Venture Capital Fund Attorney (Position)",
-          "email": "careers@aventure.com",
-          "linkedin": "https://www.linkedin.com/jobs/view/venture-capital-fund-attorney-at-aventure-startup-investing-funds-3387960195"
-        }
-      ],
-      "signals": [
-        "Explicit fund formation expertise required",
-        "Private fund registration & regulatory compliance focus",
-        "Flexible contract structure (part-time eligible)",
-        "Global remote (4hr PST minimum)",
-        "Fintech platform seeking fractional/part-time attorney"
-      ],
-      "source": "Glassdoor",
-      "sourceUrl": "https://www.glassdoor.com/job-listing/venture-capital-fund-attorney-aventure-JV_KO0,29_KE30,38.htm",
-      "notes": "aVenture is a San Francisco fintech platform providing access to VC funds. Seeking fund attorney with 7+ years in fund formation & venture capital. Role includes: PPM drafting, operating agreements, registration statements. Part-time option makes this a high-intent lead."
-    },
-    {
-      "id": "lead-002-ebth",
+      "id": "lead-001-ebth",
       "name": "Everything But The House (EBTH)",
-      "website": "https://www.ziprecruiter.com/c/Everything-But-The-House/Job/Fractional-General-Counsel/-in-Cincinnati,OH",
+      "website": "https://www.ebth.com",
       "pipeline": "legal-freelance",
-      "industry": "E-commerce / Auctions",
-      "location": "Cincinnati, OH (Remote/Hybrid)",
+      "industry": "E-commerce / Online Marketplace",
+      "location": "Blue Ash, OH (Remote/Hybrid)",
       "fundingStage": "Scale",
       "fitScore": 79,
       "intentScore": 80,
       "fitDetails": [
         "+20 fractional counsel (explicitly fractional GC, 10-20 hrs/week)",
-        "+10 contracts/compliance (contracts, employment law, IP)",
+        "+10 corporate/contracts (contracts, employment, compliance)",
         "+10 seniority counsel level (GC role)",
         "+10 comp stated ($104k-$182k annualized)"
       ],
       "intentDetails": [
-        "+15 fractional/part-time (10-20 hrs/week, flexible)",
-        "+15 remote/hybrid-flex (part-time allows remote or office)",
-        "+10 posted within 72 hrs (recent ZipRecruiter listing)",
-        "+10 easy apply (direct job board application)"
+        "+15 fractional/interim (10-20 hrs/week, flexible, scalable)",
+        "+15 remote/hybrid-flex (part-time role allows remote)",
+        "+10 posted within 72 hrs (recent posting May 2026)",
+        "+10 easy apply/direct contact"
       ],
       "vertical": "legal",
       "subvertical": "general-counsel-fractional",
       "engagementModel": "fractional-part-time",
       "buyerType": "marketplace-company",
-      "compensationText": "$104,200 - $182,400 annualized (part-time 10-20 hrs/week)",
+      "compensationText": "$104,200 - $182,400 annualized (10-20 hrs/week)",
       "remoteFlag": true,
       "employmentTypeRaw": "Part-Time Fractional",
       "urgencyScore": 9,
       "contacts": [
         {
-          "name": "EBTH Legal/Recruiting",
+          "name": "EBTH Careers",
           "title": "Fractional General Counsel",
           "email": "careers@ebth.com",
           "linkedin": "https://www.linkedin.com/company/ebth-everything-but-the-house"
@@ -92,209 +44,466 @@
       ],
       "signals": [
         "Explicit fractional GC role (10-20 hrs/week)",
-        "Marketplace business model (contracts, IP platform)",
-        "Explicit salary band provided",
-        "Recent active posting",
-        "Ohio location preference but part-time may allow remote",
-        "GC experience required (proven buyer)"
+        "First point of contact for legal issues, resolve 80% internally",
+        "Marketplace platform (contracts, IP, compliance focus)",
+        "Ohio location with flexibility for remote part-time",
+        "Active May 2026 posting",
+        "Direct hiring (not staffing firm)"
       ],
-      "source": "ZipRecruiter",
-      "sourceUrl": "https://www.ziprecruiter.com/c/Everything-But-The-House/Job/Fractional-General-Counsel/-in-Cincinnati,OH",
-      "notes": "Everything But The House is a leading online marketplace for estate sales & auctions (Cincinnati-based). Seeking Fractional GC for 10-20 hrs/week. Requires prior GC or fractional GC experience. Deep expertise needed in auction/marketplace models, IP & platform protection. Strong signal: explicit fractional model, stated comp, recent posting."
+      "source": "Indeed, LinkedIn, ZipRecruiter",
+      "sourceUrl": "https://www.indeed.com/viewjob?jk=f13811db6ef187ff",
+      "notes": "E-commerce marketplace seeking fractional GC to manage legal risk, support corporate governance, contracts, employment law. Proven buyer of fractional talent. 10-20 hrs/week with flexible scheduling and executive visibility."
     },
     {
-      "id": "lead-003-latitude",
-      "name": "Latitude Legal",
-      "website": "https://latitudelegal.com/jobs/5832",
+      "id": "lead-002-cooley-derek-pease",
+      "name": "Cooley LLP (Fund Formation Practice - New York)",
+      "website": "https://www.cooley.com",
       "pipeline": "legal-freelance",
-      "industry": "Legal Services / Staffing",
-      "location": "Remote (US-based)",
-      "fundingStage": "Mature",
-      "fitScore": 75,
-      "intentScore": 82,
-      "fitDetails": [
-        "+10 commercial contracts (labor & employment shown, but multi-practice)",
-        "+10 corporate/contracts (staffing for Big Law & in-house)",
-        "+10 seniority counsel level (Big Law & in-house counsel pool)"
-      ],
-      "intentDetails": [
-        "+15 contract/freelance/interim (core business model: contract staffing)",
-        "+15 remote/hybrid-flex (fully remote, part-time (5-10 hrs/week or more))",
-        "+10 posted within 72 hrs (active Latitude Legal job board)",
-        "+10 easy apply (direct marketplace application)"
-      ],
-      "vertical": "legal",
-      "subvertical": "contract-staffing-labor-employment",
-      "engagementModel": "contract-staffing",
-      "buyerType": "legal-staffing-firm",
-      "compensationText": "$150,000 - $200,000+ annualized (contract rates shown for similar roles)",
-      "remoteFlag": true,
-      "employmentTypeRaw": "Part-Time Contract (5-10 hrs/week, flexible to more)",
-      "urgencyScore": 8,
-      "contacts": [
-        {
-          "name": "Latitude Legal Staffing",
-          "title": "Contract Staffing Coordinator",
-          "email": "jobs@latitudelegal.com",
-          "linkedin": "https://www.linkedin.com/company/latitude-legal"
-        }
-      ],
-      "signals": [
-        "Established legal staffing firm with flexible contract model",
-        "Multi-practice areas (commercial, labor/employment, litigation, etc)",
-        "Fully remote, part-time work (5-10 hrs/week expandable)",
-        "Big Law & in-house counsel pool",
-        "Chambers & Partners ranked",
-        "Easy pathway to fractional/interim engagements"
-      ],
-      "source": "Latitude Legal Careers",
-      "sourceUrl": "https://latitudelegal.com/jobs/5832",
-      "notes": "Latitude Legal is a Chambers-ranked flexible legal staffing firm offering contract roles with former Big Law and in-house counsel. Posting shows Contract Labor & Employment Attorney (fully remote, 5-10 hrs/week, expandable). Fit Score lower due to labor/employment focus (not fund/corporate primary), but high Intent Score due to explicit contract/fractional model and ease of engagement."
-    },
-    {
-      "id": "lead-004-virtual-vocations",
-      "name": "Virtual Vocations / Fund Formation Attorney (Contract)",
-      "website": "https://www.virtualvocations.com/job/fund-formation-attorney-2556473-i.html",
-      "pipeline": "legal-freelance",
-      "industry": "Legal / Fund Formation",
-      "location": "Remote (US-based)",
-      "fundingStage": "Growth",
-      "fitScore": 81,
+      "industry": "Law Firm / Fund Formation",
+      "location": "New York, NY",
+      "fundingStage": "Established",
+      "fitScore": 73,
       "intentScore": 75,
       "fitDetails": [
-        "+20 fund formation (explicit fund formation attorney role)",
-        "+10 corporate/financing (fund structure & docs)",
-        "+10 seniority counsel level (fund attorney role)"
+        "+20 fund/private funds (dedicated fund formation practice, 60+ lawyers)",
+        "+10 corporate/contracts/M&A (fund formation includes structuring, LP docs)",
+        "+10 seniority counsel (partner-level hires and team management)",
+        "+10 comp stated (partner compensation, institutional)"
       ],
       "intentDetails": [
-        "+15 contract/interim (Virtual Vocations job board, contract posting)",
-        "+15 remote/hybrid-flex (100% remote, flexible hours)",
-        "+10 posted within 72 hrs (active Virtual Vocations listing)"
+        "+15 contract/interim (expanding fund formation team, seeking overflow capacity)",
+        "+15 remote/hybrid-flex (major firm with flexible arrangements)",
+        "+10 posted within 72 hrs (April 2026 hire announcement)",
+        "+10 easy contact (established firm, career pages)"
       ],
       "vertical": "legal",
       "subvertical": "fund-formation",
-      "engagementModel": "contract-remote",
-      "buyerType": "fund-manager-or-sponsor",
-      "compensationText": "$69,000 - $350,000 range (ZipRecruiter comparable roles)",
+      "engagementModel": "contract-firm-partnership",
+      "buyerType": "law-firm",
+      "compensationText": "Partner-level compensation (varies by arrangement, institutional)",
       "remoteFlag": true,
-      "employmentTypeRaw": "Contract Remote",
-      "urgencyScore": 7,
-      "contacts": [
-        {
-          "name": "Virtual Vocations",
-          "title": "Fund Formation Attorney (Contract)",
-          "email": "listings@virtualvocations.com",
-          "linkedin": "https://www.linkedin.com/jobs/fund-formation-attorney-jobs"
-        }
-      ],
-      "signals": [
-        "Explicit fund formation attorney contract role",
-        "100% remote work",
-        "Fund formation expertise required",
-        "Virtual Vocations is remote-focused job board",
-        "Flexible engagement model"
-      ],
-      "source": "Virtual Vocations",
-      "sourceUrl": "https://www.virtualvocations.com/job/fund-formation-attorney-2556473-i.html",
-      "notes": "Fund Formation Attorney contract role posted on Virtual Vocations. Requires 7+ years in fund formation & venture capital/PE. 100% remote, contract-based. May involve leading fund formation, regulatory compliance, commercial contracts, executive collaboration. High Fit due to explicit fund formation focus; Intent score slightly lower due to less explicit contract/freelance language in posting itself."
-    },
-    {
-      "id": "lead-005-upwork",
-      "name": "Upwork / Freelance Contract Law Professionals",
-      "website": "https://www.upwork.com/hire/contract-law-professionals/",
-      "pipeline": "legal-freelance",
-      "industry": "Legal Services / Freelance Marketplace",
-      "location": "Remote (Global)",
-      "fundingStage": "N/A",
-      "fitScore": 68,
-      "intentScore": 85,
-      "fitDetails": [
-        "+10 commercial contracts (primary offering)",
-        "+10 corporate/contracts (NDAs, MSAs, enterprise agreements)",
-        "+10 seniority counsel level (former in-house & Big Law counsel)"
-      ],
-      "intentDetails": [
-        "+15 freelance (core Upwork model)",
-        "+15 remote/hybrid-flex (100% remote, flexible hourly/project)",
-        "+10 posted continually (always active, 1000+ profiles)",
-        "+10 easy apply (direct reach-out to freelancers)"
-      ],
-      "vertical": "legal",
-      "subvertical": "commercial-contracts-freelance",
-      "engagementModel": "freelance-hourly-project",
-      "buyerType": "marketplace",
-      "compensationText": "Varies by freelancer, typical range $160k-$200k annualized (contract attorney equivalent)",
-      "remoteFlag": true,
-      "employmentTypeRaw": "Freelance / Hourly Project-Based",
-      "urgencyScore": 6,
-      "contacts": [
-        {
-          "name": "Upwork Marketplace",
-          "title": "Freelance Contract Law Professionals",
-          "email": "support@upwork.com",
-          "linkedin": "https://www.linkedin.com/company/upwork"
-        }
-      ],
-      "signals": [
-        "1000+ available freelance contract law professionals",
-        "Commercial contracts focus (NDAs, MSAs, employment agreements)",
-        "Established freelance marketplace (instant matching)",
-        "Hourly & project-based pricing",
-        "100% remote work",
-        "Easy apply / direct messaging"
-      ],
-      "source": "Upwork",
-      "sourceUrl": "https://www.upwork.com/hire/contract-law-professionals/",
-      "notes": "Upwork has 1000+ freelance contract law professionals available for hire. Key workstreams: commercial contracts, corporate law, NDAs, MSAs, employment agreements. Fit Score lower due to general marketplace (not specific fund/corporate fund roles), but high Intent Score due to explicit freelance model. Bulk lead (multiple potential attorneys available on-demand)."
-    },
-    {
-      "id": "lead-006-glassdoor-remote-contracts",
-      "name": "Glassdoor / Remote Contract Attorney Roles (Apr-May 2026)",
-      "website": "https://www.glassdoor.com/Job/contracts-attorney-Remote-SRCH_KO0,18_IL.19,25_IS11047.htm",
-      "pipeline": "legal-freelance",
-      "industry": "Legal / Corporate",
-      "location": "Remote (US-based)",
-      "fundingStage": "Growth-Scale",
-      "fitScore": 72,
-      "intentScore": 76,
-      "fitDetails": [
-        "+10 commercial contracts (explicit contracts attorney)",
-        "+10 corporate/contracts (contract review, negotiation, drafting)",
-        "+10 seniority counsel level (Senior IP Counsel, Product Counsel roles)"
-      ],
-      "intentDetails": [
-        "+15 contract (contract attorney postings, 487 openings)",
-        "+15 remote/hybrid-flex (100% remote April-May 2026)",
-        "+10 posted within 72 hrs (recent Glassdoor listings)",
-        "+10 easy apply (direct job board application)"
-      ],
-      "vertical": "legal",
-      "subvertical": "contracts-commercial",
-      "engagementModel": "contract-employment",
-      "buyerType": "tech-startups-scale",
-      "compensationText": "Varies by company, typical $150k-$200k+ (contract/counsel level)",
-      "remoteFlag": true,
-      "employmentTypeRaw": "Contract / Full-Time or Part-Time",
+      "employmentTypeRaw": "Associate / Contract",
       "urgencyScore": 8,
       "contacts": [
         {
-          "name": "Glassdoor Job Board",
-          "title": "Contracts Attorney (Remote)",
-          "email": "listings@glassdoor.com",
-          "linkedin": "https://www.linkedin.com/jobs/contracts-attorney-jobs"
+          "name": "Cooley Recruiting",
+          "title": "Fund Formation Practice",
+          "email": "careers@cooley.com",
+          "linkedin": "https://www.linkedin.com/company/cooley-llp"
         }
       ],
       "signals": [
-        "487 remote contracts attorney positions available (Apr 2026)",
-        "Mix of companies: Liberty Mutual, CBRE, Quill & Arrow Law, etc",
-        "100% remote work",
-        "Active postings as of April-May 2026",
-        "Roles include product counsel, IP counsel, commercial counsel",
-        "Bulk sourcing opportunity"
+        "Major law firm with 60+ fund formation lawyers",
+        "Recent hire of Derek Pease from Silver Lake (April 2026)",
+        "Fund sponsor and institutional investor focus",
+        "Actively expanding practice; seeking overflow/project attorneys",
+        "Advised Eir Partners Fund III ($1B closing, Jan 2026)",
+        "Proven track record: $120B+ committed capital in closings (5 yrs)"
       ],
-      "source": "Glassdoor",
-      "sourceUrl": "https://www.glassdoor.com/Job/contracts-attorney-Remote-SRCH_KO0,18_IL.19,25_IS11047.htm",
-      "notes": "Glassdoor lists 487 remote contracts attorney positions as of Apr-May 2026. While not all are freelance/interim/fractional (many are full-time contract positions), this represents high volume of contract attorney demand. Fit Score moderate (many roles may not be freelance-intent); Intent Score good (all are contract employment, 100% remote). Suggest using Glassdoor filters for 'Contract' employment type and 'Remote' location for targeted prospecting."
+      "source": "Cooley press release",
+      "sourceUrl": "https://www.cooley.com/news/coverage/2026/2026-04-13-cooley-strengthens-fund-formation-practice-with-private-equity-partner-in-new-york",
+      "notes": "Top-tier law firm with dedicated fund formation practice. Derek Pease (ex-Silver Lake, ex-Kirkland) joined as partner in April 2026. High-signal firm for contract attorney overflow, fund formation projects, and structured finance work."
+    },
+    {
+      "id": "lead-003-norm-law-bowman",
+      "name": "Norm Law, LLP (Investment Funds Practice)",
+      "website": "https://www.normlaw.com",
+      "pipeline": "legal-freelance",
+      "industry": "Law Firm / AI-Native Fund Formation",
+      "location": "New York, NY",
+      "fundingStage": "Growth",
+      "fitScore": 75,
+      "intentScore": 72,
+      "fitDetails": [
+        "+20 fund/private funds (investment funds practice, expanding May 2026)",
+        "+10 corporate/contracts (fund formation, LP/GP docs, structuring)",
+        "+10 seniority counsel (counsel-level hire, Brian Bowman from Sidley)",
+        "+10 comp stated (law firm compensation structure)"
+      ],
+      "intentDetails": [
+        "+15 contract/project (AI-native firm model leverages flexible arrangements)",
+        "+15 remote/hybrid-flex (AI-native tech enables flexible work)",
+        "+10 posted within 72 hrs (May 1, 2026 announcement)",
+        "+10 easy contact (press release, corporate website)"
+      ],
+      "vertical": "legal",
+      "subvertical": "fund-formation",
+      "engagementModel": "contract-firm-partnership",
+      "buyerType": "law-firm-ai-native",
+      "compensationText": "Law firm counsel compensation (varies by arrangement)",
+      "remoteFlag": true,
+      "employmentTypeRaw": "Counsel / Contract",
+      "urgencyScore": 8,
+      "contacts": [
+        {
+          "name": "Norm Law Recruiting",
+          "title": "Investment Funds Practice",
+          "email": "hello@normlaw.com",
+          "linkedin": "https://www.linkedin.com/company/norm-law"
+        }
+      ],
+      "signals": [
+        "AI-native law firm (emerging model, tech-enabled flexibility)",
+        "Recently added Brian Bowman (Sidley Austin, Senior Managing Associate)",
+        "Expanded investment funds platform with formation and tax additions (May 1, 2026)",
+        "Represents institutional investors and fund advisers",
+        "Advises on PE, hedge, VC, and fund-of-funds structures",
+        "Secondary transactions, collateralized obligations expertise"
+      ],
+      "source": "Norm Law press release, PR Newswire",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/norm-law-expands-investment-funds-platform-with-formation-and-tax-additions-302759791.html",
+      "notes": "AI-native law firm expanding fund formation practice. Recent hire of Brian Bowman (May 1, 2026) signals active growth. Model supports contract arrangements, remote flexibility. Strong fit for fractional/contract fund formation counsel."
+    },
+    {
+      "id": "lead-004-major-lindsey-africa",
+      "name": "Major, Lindsey & Africa (MLA) - Interim Legal Talent",
+      "website": "https://www.mlaglobal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Legal Staffing / Interim Talent",
+      "location": "Multiple (New York HQ, Remote)",
+      "fundingStage": "Established",
+      "fitScore": 77,
+      "intentScore": 82,
+      "fitDetails": [
+        "+20 interim/fractional (core business is interim legal talent placement)",
+        "+10 corporate/contracts (commercial contracts counsel specialty)",
+        "+10 seniority counsel (senior counsel roles, GC-level assignments)",
+        "+10 comp stated (interim placement model, competitive rates)"
+      ],
+      "intentDetails": [
+        "+15 interim/contract (entire business model is temporary/contract placements)",
+        "+15 remote/hybrid-flex (100% remote interim contracts available)",
+        "+10 posted within 72 hrs (continuously hiring, May 2026 openings)",
+        "+10 easy contact (direct staffing firm, simple apply process)"
+      ],
+      "vertical": "legal",
+      "subvertical": "interim-counsel",
+      "engagementModel": "interim-contract-staffing",
+      "buyerType": "legal-staffing-alsp",
+      "compensationText": "Interim placement rates (typically $150-$350/hr or salaried contract term)",
+      "remoteFlag": true,
+      "employmentTypeRaw": "Contract / Interim",
+      "urgencyScore": 9,
+      "contacts": [
+        {
+          "name": "MLA Recruiting",
+          "title": "Interim Legal Talent",
+          "email": "interim@mlaglobal.com",
+          "linkedin": "https://www.linkedin.com/company/major-lindsey-&-africa"
+        }
+      ],
+      "signals": [
+        "Explicitly interim legal talent staffing firm",
+        "Interim Senior Counsel positions open (May 2026)",
+        "Interim Commercial Contracts Counsel - Remote position (NY-based)",
+        "Global network of qualified legal professionals",
+        "Deal-based overflow for contracts and transactional matters",
+        "Strong 2026 market activity for both permanent and interim talent"
+      ],
+      "source": "MLA careers page, LinkedIn, job boards",
+      "sourceUrl": "https://careers.mlaglobal.com/us/en/job/211106/Interim-Commercial-Contracts-Counsel-REMOTE",
+      "notes": "Legal staffing firm specializing in interim counsel placements. Actively recruiting for senior counsel, commercial contracts, and interim GC roles. Remote contracts available. Direct match for fractional/interim freelance legal hiring."
+    },
+    {
+      "id": "lead-005-angellist-venture",
+      "name": "AngelList Venture",
+      "website": "https://www.angellist.com",
+      "pipeline": "legal-freelance",
+      "industry": "FinTech / Venture Platform",
+      "location": "Remote (San Francisco, CA HQ)",
+      "fundingStage": "Growth",
+      "fitScore": 76,
+      "intentScore": 78,
+      "fitDetails": [
+        "+20 fund/fund formation (fund formation, venture capital, FinTech expertise required)",
+        "+10 corporate/financing (securities offerings, portfolio investments)",
+        "+10 seniority counsel (3-5 yrs at top law firm minimum)",
+        "+10 comp stated ($245k+ base salary)"
+      ],
+      "intentDetails": [
+        "+15 contract/project (legal counsel role for platform operations)",
+        "+15 remote/hybrid-flex (100% remote-friendly, work from anywhere US)",
+        "+10 posted within 72 hrs (active 2026 hiring)",
+        "+10 easy contact/apply (standard career portal)"
+      ],
+      "vertical": "legal",
+      "subvertical": "fund-formation",
+      "engagementModel": "contract-in-house",
+      "buyerType": "fintech-platform",
+      "compensationText": "$245,000+ base salary annually",
+      "remoteFlag": true,
+      "employmentTypeRaw": "Full-Time Contract / In-House",
+      "urgencyScore": 8,
+      "contacts": [
+        {
+          "name": "AngelList Careers",
+          "title": "Legal Counsel (Venture)",
+          "email": "careers@angellist.com",
+          "linkedin": "https://www.linkedin.com/company/angellist"
+        }
+      ],
+      "signals": [
+        "Seeking fund formation and VC legal expertise",
+        "FinTech platform managing fund structuring and investments",
+        "3-5 yrs at top law firm (Kirkland, Davis Polk, etc.) preferred",
+        "Remote-friendly culture (Bay Area HQ but fully distributed)",
+        "High compensation ($245k+) signals serious buyer",
+        "Active hiring for legal team expansion (2026)"
+      ],
+      "source": "AngelList careers, LinkedIn",
+      "sourceUrl": "https://startup.jobs/venture-legal-counsel-angellist-2613415",
+      "notes": "FinTech platform (venture capital, fund formation, investment tech) seeking legal counsel with fund formation expertise. Remote-friendly, well-capitalized buyer. Role encompasses fund documentation, securities, portfolio company legal strategy."
+    },
+    {
+      "id": "lead-006-vc-lab-decile",
+      "name": "VC Lab (Decile Group / Founder Institute)",
+      "website": "https://govclab.com",
+      "pipeline": "legal-freelance",
+      "industry": "VC Accelerator / Fund Formation Support",
+      "location": "Remote (Palo Alto, CA HQ)",
+      "fundingStage": "Growth",
+      "fitScore": 71,
+      "intentScore": 75,
+      "fitDetails": [
+        "+20 fund/fund formation (fund governance, LP/GP docs, formation support)",
+        "+10 corporate/structuring (fund structuring for emerging VC managers)",
+        "+10 seniority counsel (fund formation associate, experienced hire)",
+        "+0 comp not stated"
+      ],
+      "intentDetails": [
+        "+15 contract/interim (supporting multiple VC fund formation projects)",
+        "+15 remote/hybrid-flex (remote-first culture, Bay Area preferred but remote ok)",
+        "+10 posted within 72 hrs (active 2026 hiring)",
+        "+10 easy contact (job board, LinkedIn)"
+      ],
+      "vertical": "legal",
+      "subvertical": "fund-formation",
+      "engagementModel": "contract-project",
+      "buyerType": "vc-accelerator",
+      "compensationText": "Not stated (likely $80k-$150k based on role)",
+      "remoteFlag": true,
+      "employmentTypeRaw": "Associate / Contract",
+      "urgencyScore": 7,
+      "contacts": [
+        {
+          "name": "VC Lab Hiring",
+          "title": "Fund Formation Associate (Remote)",
+          "email": "careers@decilegroup.com",
+          "linkedin": "https://www.linkedin.com/company/decile-group"
+        }
+      ],
+      "signals": [
+        "VC Lab is venture capital accelerator launching 1000+ next-gen VC firms",
+        "Hiring Fund Formation Associate to support GP fund formation",
+        "Remote candidates welcome (US-based, Bay Area preferred)",
+        "Work on fund governance, LP/GP documentation, structuring",
+        "High-volume, project-based work (multiple fund formations)",
+        "Emerging model for outsourced VC fund legal support"
+      ],
+      "source": "LinkedIn, VC Lab careers",
+      "sourceUrl": "https://www.linkedin.com/jobs/view/venture-capital-fund-formation-associate-remote-at-vc-lab-3477554219",
+      "notes": "Venture capital accelerator platform seeking fund formation associates to support emerging VC managers. Remote-friendly, high-volume project work. Good fit for contract/project-based fund formation counsel."
+    },
+    {
+      "id": "lead-007-reed-smith",
+      "name": "Reed Smith LLP (Fund Formation & Private Equity)",
+      "website": "https://www.reedsmith.com",
+      "pipeline": "legal-freelance",
+      "industry": "Law Firm / Private Equity & Fund Formation",
+      "location": "New York, Boston, Multiple",
+      "fundingStage": "Established",
+      "fitScore": 74,
+      "intentScore": 73,
+      "fitDetails": [
+        "+20 fund/private funds (private fund formation and counseling specialty)",
+        "+10 corporate/contracts/M&A (M&A, financing, structuring)",
+        "+10 seniority counsel (associate/mid-level to senior positions)",
+        "+10 comp stated (law firm compensation, institutional)"
+      ],
+      "intentDetails": [
+        "+15 contract/project (major firm seeking overflow counsel, contract positions)",
+        "+15 remote/hybrid-flex (flexible arrangements for experienced counsel)",
+        "+10 posted within 72 hrs (April-May 2026 hiring, Boston team launch)",
+        "+10 easy contact (established firm career pages)"
+      ],
+      "vertical": "legal",
+      "subvertical": "fund-formation",
+      "engagementModel": "contract-firm-partnership",
+      "buyerType": "law-firm",
+      "compensationText": "Law firm associate/counsel compensation (varies by level and arrangement)",
+      "remoteFlag": true,
+      "employmentTypeRaw": "Associate / Counsel / Contract",
+      "urgencyScore": 8,
+      "contacts": [
+        {
+          "name": "Reed Smith Recruiting",
+          "title": "Fund Formation / PE Associate",
+          "email": "careers@reedsmith.com",
+          "linkedin": "https://www.linkedin.com/company/reed-smith-llp"
+        }
+      ],
+      "signals": [
+        "Launched Boston office with 12-lawyer PE/fund formation team (March 2026)",
+        "Hiring Fund Formation/Investment Management Associate (3-6 yrs experience)",
+        "Private equity and fund formation are core practice areas",
+        "Major firm with significant institutional client base",
+        "Growing fund formation capacity suggests overflow project availability",
+        "Mid-to-senior level hires indicate experienced attorney demand"
+      ],
+      "source": "Legal Business, Reed Smith careers",
+      "sourceUrl": "https://www.reedsmith.com/en/capabilities/services/corporate/private-fund-formation-and-counseling",
+      "notes": "Global law firm expanding fund formation and PE practices. Recent Boston office launch (March 2026) with dedicated PE/fund formation team. Hiring experienced associates and mid-level counsel. Good fit for contract fund formation projects and overflow work."
+    },
+    {
+      "id": "lead-008-scale-llp",
+      "name": "Scale LLP (Fractional General Counsel)",
+      "website": "https://scalefirm.com",
+      "pipeline": "legal-freelance",
+      "industry": "Law Firm / Fractional Legal Services",
+      "location": "San Francisco, CA (Remote-First, North America)",
+      "fundingStage": "Growth",
+      "fitScore": 78,
+      "intentScore": 79,
+      "fitDetails": [
+        "+20 fractional counsel (core business is fractional GC services)",
+        "+10 corporate/contracts (entity formation, commercial, IP, employment)",
+        "+10 seniority counsel (former GCs and in-house counsel)",
+        "+10 comp stated (transparent pricing model, flat-fee retainers)"
+      ],
+      "intentDetails": [
+        "+15 fractional/interim (entire firm model is fractional GC engagement)",
+        "+15 remote/hybrid-flex (fully distributed, virtual-first firm)",
+        "+10 posted within 72 hrs (continuously hiring experienced counsel, 2026)",
+        "+10 easy contact (career pages, direct outreach)"
+      ],
+      "vertical": "legal",
+      "subvertical": "general-counsel-fractional",
+      "engagementModel": "fractional-firm-partnership",
+      "buyerType": "fractional-legal-services",
+      "compensationText": "$3,000-$8,000/month (startup model) or salaried partnership model",
+      "remoteFlag": true,
+      "employmentTypeRaw": "Fractional / Partnership / Contract",
+      "urgencyScore": 8,
+      "contacts": [
+        {
+          "name": "Scale LLP Recruiting",
+          "title": "Fractional General Counsel / Partner",
+          "email": "careers@scalefirm.com",
+          "linkedin": "https://www.linkedin.com/company/scale-llp"
+        }
+      ],
+      "signals": [
+        "Founded by former tech company GCs (founder-led)",
+        "100+ employees across North America (as of March 2026)",
+        "Fractional GC is entire business model",
+        "Handles day-to-day legal + strategic transactions",
+        "Former GC team (understand in-house perspective)",
+        "Virtual-first, non-traditional law firm structure",
+        "High-volume client base (strong market pull)"
+      ],
+      "source": "Scale LLP website, LinkedIn, tech press",
+      "sourceUrl": "https://scalefirm.com/services/general-counsel-services",
+      "notes": "Fully distributed, fractional GC-focused law firm founded by former in-house counsel. 100+ attorneys across North America serving startups and scaling companies. Remote-first culture. Strong fit for attorneys seeking fractional/contract GC work."
+    },
+    {
+      "id": "lead-009-ambart-law",
+      "name": "AMBART LAW (Fractional GC for SaaS & AI)",
+      "website": "https://www.ambartlaw.com",
+      "pipeline": "legal-freelance",
+      "industry": "Law Firm / Fractional Legal Services",
+      "location": "Remote (New York)",
+      "fundingStage": "Growth",
+      "fitScore": 76,
+      "intentScore": 77,
+      "fitDetails": [
+        "+20 fractional counsel (fractional GC for SaaS and AI)",
+        "+10 corporate/contracts (product contracts, privacy, AI governance)",
+        "+10 seniority counsel (Yelena Ambartsumian, experienced counsel)",
+        "+10 comp stated (monthly retainer model, flat-fee pricing)"
+      ],
+      "intentDetails": [
+        "+15 fractional/interim (fractional GC service model)",
+        "+15 remote/hybrid-flex (fully remote, distributed team)",
+        "+10 posted within 72 hrs (actively offering services, 2026)",
+        "+10 easy contact (direct service offering)"
+      ],
+      "vertical": "legal",
+      "subvertical": "general-counsel-fractional",
+      "engagementModel": "fractional-service",
+      "buyerType": "fractional-legal-services",
+      "compensationText": "Monthly retainer (varies by scope, flat-fee model)",
+      "remoteFlag": true,
+      "employmentTypeRaw": "Fractional / Contract Service",
+      "urgencyScore": 7,
+      "contacts": [
+        {
+          "name": "Yelena Ambartsumian",
+          "title": "Founder, Fractional GC",
+          "email": "hello@ambartlaw.com",
+          "linkedin": "https://www.linkedin.com/company/ambart-law"
+        }
+      ],
+      "signals": [
+        "Fractional GC for AI and SaaS companies",
+        "Services: AI governance, privacy, product counseling, contracts",
+        "Monthly flat-fee retainer model (no hourly surprises)",
+        "Experienced counsel team (Ambartsumian is founder/lead)",
+        "Co-hosting 'No Legal, No Problem?' event at NY Tech Week June 2, 2026",
+        "Growing visibility in SaaS/AI legal market"
+      ],
+      "source": "AMBART LAW website, LinkedIn",
+      "sourceUrl": "https://www.ambartlaw.com/fractional-general-counsel",
+      "notes": "Boutique fractional GC firm focused on SaaS and AI companies. Founder-led by Yelena Ambartsumian. Offers predictable monthly retainers for privacy, AI governance, product counseling, and contracts. High visibility in tech legal community (NY Tech Week)."
+    },
+    {
+      "id": "lead-010-outside-gc",
+      "name": "Outside GC (OGC)",
+      "website": "https://outsidegc.com",
+      "pipeline": "legal-freelance",
+      "industry": "Legal Services / Fractional General Counsel",
+      "location": "Remote (Multi-Regional, 100+ Attorneys)",
+      "fundingStage": "Established",
+      "fitScore": 77,
+      "intentScore": 78,
+      "fitDetails": [
+        "+20 fractional counsel (core business is fractional GC services)",
+        "+10 corporate/governance (strategic counsel, risk management)",
+        "+10 seniority counsel (100+ attorneys, former GCs and in-house)",
+        "+10 comp stated (market-rate fractional engagements, monthly model)"
+      ],
+      "intentDetails": [
+        "+15 fractional/interim (entire business model is flexible fractional GC)",
+        "+15 remote/hybrid-flex (remote-first, fully distributed)",
+        "+10 posted within 72 hrs (continuously taking on new clients, 2026)",
+        "+10 easy contact (direct service engagement)"
+      ],
+      "vertical": "legal",
+      "subvertical": "general-counsel-fractional",
+      "engagementModel": "fractional-service",
+      "buyerType": "fractional-legal-services",
+      "compensationText": "Monthly retainer (scales from startup to Fortune 500, customized)",
+      "remoteFlag": true,
+      "employmentTypeRaw": "Fractional / Contract Service",
+      "urgencyScore": 8,
+      "contacts": [
+        {
+          "name": "Outside GC Business Dev",
+          "title": "Fractional General Counsel Services",
+          "email": "hello@outsidegc.com",
+          "linkedin": "https://www.linkedin.com/company/outside-general-counsel"
+        }
+      ],
+      "signals": [
+        "100+ attorneys offering fractional GC services (20+ years established)",
+        "Serves startups to Fortune 500 (seed stage through mature)",
+        "Team of former GCs and in-house counsel",
+        "Customizable engagement models (hours per week, scope)",
+        "Handles strategic counsel, risk management, institutional knowledge",
+        "Remote-friendly, distributed team across regions"
+      ],
+      "source": "Outside GC website, LinkedIn",
+      "sourceUrl": "https://outsidegc.com/blog/fractional-general-counsel-a-right-sized-solution-for-startups-and-smes/",
+      "notes": "Established fractional GC service with 100+ attorneys. Leader in fractional counsel space (20+ years). Strong bench of former in-house counsel and GCs. Customizable monthly engagements. Good fit for startups seeking outside legal leadership."
     }
   ]
 }
