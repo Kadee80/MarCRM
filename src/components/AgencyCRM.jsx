@@ -1391,10 +1391,9 @@ export default function AgencyCRM() {
                     <td className="px-3 py-3"><Badge className={`border ${PRIORITY_COLORS[pri]}`}>{pri}</Badge></td>
                     <td className="px-3 py-3">
                       <div className="flex items-center gap-1">
-                        <button onClick={e => { e.stopPropagation(); toggleArchiveCompany(c.id); }} className={`p-1 rounded hover:bg-gray-100 transition-colors ${c.archived ? "text-green-500 hover:text-green-600" : "text-gray-300 hover:text-gray-500"}`} title={c.archived ? "Restore company" : "Archive company"}>
-                          <Archive size={14} />
+                        <button onClick={e => { e.stopPropagation(); toggleArchiveCompany(c.id); }} className={`flex items-center gap-1 px-2 py-1 rounded-md text-xs font-medium transition-colors ${c.archived ? "bg-green-50 text-green-600 hover:bg-green-100" : "bg-red-50 text-red-500 hover:bg-red-100"}`}>
+                          <Archive size={13} /> {c.archived ? "Restore" : "Archive"}
                         </button>
-                        <ChevronRight size={15} className="text-gray-300" />
                       </div>
                     </td>
                   </tr>
@@ -1776,10 +1775,9 @@ export default function AgencyCRM() {
                     </td>
                     <td className="px-3 py-3">
                       <div className="flex items-center gap-1">
-                        <button onClick={e => { e.stopPropagation(); toggleArchiveContact(ct.id); }} className={`p-1 rounded hover:bg-gray-100 transition-colors ${ct.archived ? "text-green-500 hover:text-green-600" : "text-gray-300 hover:text-gray-500"}`} title={ct.archived ? "Restore contact" : "Archive contact"}>
-                          <Archive size={14} />
+                        <button onClick={e => { e.stopPropagation(); toggleArchiveContact(ct.id); }} className={`flex items-center gap-1 px-2 py-1 rounded-md text-xs font-medium transition-colors ${ct.archived ? "bg-green-50 text-green-600 hover:bg-green-100" : "bg-red-50 text-red-500 hover:bg-red-100"}`}>
+                          <Archive size={13} /> {ct.archived ? "Restore" : "Archive"}
                         </button>
-                        <ChevronRight size={15} className="text-gray-300" />
                       </div>
                     </td>
                   </tr>
@@ -2630,7 +2628,7 @@ export default function AgencyCRM() {
                 {ct.email && <a href={`mailto:${ct.email}`} className="flex items-center gap-1.5 px-3 py-1.5 bg-blue-50 text-blue-700 rounded-lg hover:bg-blue-100"><Mail size={14} /> {ct.email}</a>}
                 {ct.phone && <a href={`tel:${ct.phone}`} className="flex items-center gap-1.5 px-3 py-1.5 bg-green-50 text-green-700 rounded-lg hover:bg-green-100"><Phone size={14} /> {ct.phone}</a>}
                 {ct.linkedin && <a href={ct.linkedin.startsWith("http") ? ct.linkedin : `https://${ct.linkedin}`} target="_blank" rel="noreferrer" className="flex items-center gap-1.5 px-3 py-1.5 bg-indigo-50 text-indigo-700 rounded-lg hover:bg-indigo-100"><Link2 size={14} /> LinkedIn</a>}
-                <button onClick={() => toggleArchiveContact(ct.id)} className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${ct.archived ? "bg-green-50 text-green-700 hover:bg-green-100" : "bg-gray-50 text-gray-500 hover:bg-gray-100"}`}>
+                <button onClick={() => toggleArchiveContact(ct.id)} className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${ct.archived ? "bg-green-50 text-green-700 hover:bg-green-100" : "bg-red-50 text-red-500 hover:bg-red-100"}`}>
                   <Archive size={14} /> {ct.archived ? "Restore" : "Archive"}
                 </button>
               </div>
@@ -2829,7 +2827,7 @@ export default function AgencyCRM() {
                   </a>
                 )}
                 <button onClick={() => setShowScorecard(c)} className="p-2 rounded-lg text-indigo-500 hover:bg-indigo-50 hover:text-indigo-700" title="Score Lead"><Target size={16} /></button>
-                <button onClick={() => toggleArchiveCompany(c.id)} className={`p-2 rounded-lg transition-colors ${c.archived ? "text-green-500 hover:bg-green-50 hover:text-green-600" : "text-gray-400 hover:bg-gray-100 hover:text-gray-600"}`} title={c.archived ? "Restore company" : "Archive company"}><Archive size={16} /></button>
+                <button onClick={() => toggleArchiveCompany(c.id)} className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${c.archived ? "bg-green-50 text-green-700 hover:bg-green-100" : "bg-red-50 text-red-500 hover:bg-red-100"}`}><Archive size={14} /> {c.archived ? "Restore" : "Archive"}</button>
                 <button onClick={() => { deleteCompany(c.id); closeCompanyDrilldown(); }} className="p-2 rounded-lg text-red-400 hover:bg-red-50 hover:text-red-600"><Trash2 size={16} /></button>
               </div>
             </div>
