@@ -128,9 +128,9 @@ const PIPELINES = [
   { id: "ai-consulting", label: "AI & Tech Consulting", short: "AI/Tech", icon: Cpu, color: "violet",
     description: "AI strategy, pilots, production, governance" },
   { id: "legal-freelance", label: "Legal Freelance Work", short: "Legal Freelance", icon: Briefcase, color: "slate",
-    description: "Contract / fractional / interim corporate & fund counsel roles for Katie" },
+    description: "Contract, fractional, interim fund/corporate counsel — fund formation, GC, commercial contracts, M&A" },
   { id: "pr-freelance", label: "PR Freelance Work", short: "PR Freelance", icon: MessageSquare, color: "teal",
-    description: "Companies hiring PR/comms roles — fractional, freelance, or contract opportunities" },
+    description: "Outsourced PR/comms — media relations, executive comms, thought leadership, launches, agency overflow" },
 ];
 
 const PIPELINE_MAP = Object.fromEntries(PIPELINES.map(p => [p.id, p]));

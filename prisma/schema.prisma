@@ -14,7 +14,7 @@ model Company {
   id            Int       @id @default(autoincrement())
   name          String
   website       String    @default("")
-  pipeline      String    // pr-marketing | fund-formation | legal-consulting | coaching-ops | media | ai-consulting
+  pipeline      String    // pr-marketing | fund-formation | legal-consulting | coaching-ops | media | ai-consulting | legal-freelance | pr-freelance
   industry      String    @default("")
   size          String    @default("")
   revenue       String    @default("")
@@ -30,6 +30,15 @@ model Company {
   archived      Boolean   @default(false)
   notes         String    @default("")
   personalNotes String    @default("") // relationship notes: "jets fan, lives in jersey"
+  // Freelance opportunity fields (populated by enhanced scrapers)
+  vertical        String    @default("")   // legal | pr | ""
+  subvertical     String    @default("")   // fund | corporate | GC | contracts | media-relations | comms | investor-pr
+  engagementModel String    @default("")   // freelance | contract | consultant | fractional | interim | part-time
+  buyerType       String    @default("")   // law-firm | fund | operating-company | agency | staffing | ALSP
+  compensationText String   @default("")   // raw comp text from posting
+  remoteFlag      String    @default("")   // remote | hybrid | onsite | ""
+  employmentTypeRaw String  @default("")   // raw employment type from source
+  urgencyScore    Int       @default(0)    // 0-100, based on recency + easy-apply + immediate-need signals
   source        String    @default("Manual")
   lastActivity  String    @default("")
   contacts      Contact[]

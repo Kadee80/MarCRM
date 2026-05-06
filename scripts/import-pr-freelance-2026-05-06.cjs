@@ -18,240 +18,191 @@ const { PrismaClient } = require("@prisma/client");
 const prisma = new PrismaClient();
 
 const LEADS = [
-  // ─── 1. Tide — A grade (84): Active Head of Communications posting ──
+  // ─── 1. Vanta — Contract comms manager (B2B legal tech, overflow) ────────
   {
     company: {
-      name: "Tide",
-      website: "https://www.tide.co",
+      name: "Vanta",
+      website: "https://www.vanta.com",
       pipeline: "pr-freelance",
-      industry: "Fintech / SMB business banking — UK's leading SMB business banking platform; integrated financial-services suite for small businesses",
-      size: "Late-stage VC-backed; one of fastest-growing UK fintechs",
-      location: "London, UK (remote-friendly)",
-      fundingStage: "VC-backed late stage",
-      techStack: JSON.stringify(["fintech PR", "SMB business banking narrative", "exec comms", "media relations", "thought leadership", "UK + US press"]),
-      fitScore: 50,
-      intentScore: 34,
-      fitDetails: JSON.stringify({ pr_remit: 15, sector_fit: 10, workstream: 10, buyer_quality: 10, comp_credible: 5 }),
-      intentDetails: JSON.stringify({ engagement_model: 8, remote_flex: 5, recency: 8, urgency: 8, apply_path: 5 }),
-      starred: true,
-      notes: "Combined 84 (A grade) — TOP LEAD of 5/6 scrape. Tide has an active 'Head of Communications' job posting describing the role as for a 'high profile FinTech startup' — explicit senior PR hiring need. The role covers public perception, external media, influencers, thought leaders. PITCH: 'Interim Head of Communications during your search' — interim/fractional senior PR pro who covers the seat while they hunt for a full-timer (typical UK senior comms search runs 12-16 weeks). Alternative pitch: fractional advisor for US media expansion if they're moving stateside. UK companies are typically MORE open to US-based fractional contractors than typical US-only postings. Realistic retainer £10-15K/month (~$13-19K USD) for 60-90 days interim. RISK: Tide's primary audience is UK SMB and UK trade press — Mark needs UK fintech press fluency (CityAM, Finextra UK, AltFi, Sifted) or a credible plan to bring US press value (TechCrunch, Forbes Fintech, American Banker). Source: https://startup.jobs/vc-backed-fintech-startup-head-of-communications-tidebanking-95650",
-      source: "PR Freelance Scrape 2026-05-06",
-      lastActivity: "Head of Communications role active on Tide careers (Greenhouse) and startup.jobs",
-    },
-    contacts: [
-      { name: "Tide Head of Talent / Recruiting", title: "Direct LinkedIn target — sponsored hiring contact for Head of Comms role", persona: "Talent / Recruiting", decisionMaker: false },
-      { name: "Tide CMO", title: "Hiring manager for Head of Communications — pitch interim coverage during search", persona: "CMO", decisionMaker: true },
-    ],
-    scrape: {
-      url: "https://startup.jobs/vc-backed-fintech-startup-head-of-communications-tidebanking-95650",
-      source: "job_boards",
-      matchedSignals: JSON.stringify([
-        "active_head_of_communications_job_posting_explicit_senior_pr_need",
-        "high_profile_fintech_startup_descriptor",
-        "uk_smb_fintech_fast_growing_strong_pr_runway",
-        "uk_companies_open_to_us_fractional_contractors",
-        "greenhouse_careers_board_live_with_multiple_comms_roles",
-      ]),
-    },
-  },
-
-  // ─── 2. Slash Financial — A grade (81): $100M Series C, brand-new unicorn ──
-  {
-    company: {
-      name: "Slash Financial",
-      website: "https://www.slash.com",
-      pipeline: "pr-freelance",
-      industry: "Fintech / Business banking, cards, treasury",
-      size: "Unicorn ($1B+ valuation as of late April 2026)",
-      location: "San Francisco, CA",
-      fundingStage: "$100M Series C late April 2026 — brand-new unicorn",
-      techStack: JSON.stringify(["post-Series-C amplification", "unicorn announcement comms", "founder thought leadership", "tier-1 finance press", "B2B banking narrative"]),
-      fitScore: 47,
-      intentScore: 34,
-      fitDetails: JSON.stringify({ pr_remit: 12, sector_fit: 10, workstream: 10, buyer_quality: 10, comp_credible: 5 }),
-      intentDetails: JSON.stringify({ engagement_model: 8, remote_flex: 5, recency: 8, urgency: 10, apply_path: 3 }),
-      starred: true,
-      notes: "Combined 81 (A grade). Slash Financial closed $100M Series C and reached unicorn status in late April 2026 (Funding Round of the Month, May 2026). New unicorn announcement is the highest-leverage PR moment a company has — peak window for amplification, founder thought leadership, and sustained drumbeat. Existing PR resourcing unclear — even if they have an agency, post-Series-C is exactly when companies bring in fractional senior counsel for exec-level comms. PITCH: '90-day post-Series-C comms sprint' — unicorn announcement amplification, founder thought leadership program, 5-10 tier-1 placements (Bloomberg, WSJ, Forbes, American Banker, The Information). Convert to retainer afterwards. Realistic retainer $15-22K/month for 60-90 days. PITCH WINDOW: 1-2 weeks of announcement is ideal — reference the funding round in subject line. RISK: SF-based late-stage fintech may already have established agency relationships; differentiate on senior-IC seniority and direct CEO time. Source: https://blog.mean.ceo/funding-round-of-the-month-news-may-2026/",
-      source: "PR Freelance Scrape 2026-05-06",
-      lastActivity: "$100M Series C closed late April 2026 — unicorn status reached",
-    },
-    contacts: [
-      { name: "Slash CEO / Founder", title: "Direct LinkedIn target — small enough team that 1-2 hops should land", persona: "CEO / Founder", decisionMaker: true },
-      { name: "Slash Head of Marketing", title: "Likely owner of comms function during post-Series-C build", persona: "Head of Marketing", decisionMaker: true },
-    ],
-    scrape: {
-      url: "https://blog.mean.ceo/funding-round-of-the-month-news-may-2026/",
-      source: "job_boards",
-      matchedSignals: JSON.stringify([
-        "100m_series_c_late_april_2026_brand_new_unicorn",
-        "post_series_c_peak_pr_amplification_window",
-        "funding_round_of_the_month_may_2026",
-        "b2b_business_banking_sector_fit_for_mark",
-        "no_explicit_pr_role_visible_freelance_door_open",
-      ]),
-    },
-  },
-
-  // ─── 3. Upgrade — A grade (81): NEWLY ESTABLISHED Communication Director ──
-  {
-    company: {
-      name: "Upgrade",
-      website: "https://www.upgrade.com",
-      pipeline: "pr-freelance",
-      industry: "Fintech / Consumer credit (cards, personal loans, auto)",
-      size: "Late stage, profitable, large scale",
-      location: "San Francisco, CA",
-      fundingStage: "Late stage / profitable",
-      techStack: JSON.stringify(["first dedicated comms function build", "consumer credit narrative", "fractional advisory", "function-build coaching", "interim comms leadership"]),
-      fitScore: 48,
-      intentScore: 33,
-      fitDetails: JSON.stringify({ pr_remit: 15, sector_fit: 10, workstream: 10, buyer_quality: 8, comp_credible: 5 }),
-      intentDetails: JSON.stringify({ engagement_model: 10, remote_flex: 5, recency: 5, urgency: 8, apply_path: 5 }),
-      starred: true,
-      notes: "Combined 81 (A grade). Upgrade has a 'newly established' Communication Director position open — strongest possible signal that the company is building a comms function for the first time at this seniority. 'Newly established' is the single highest-leverage fractional moment in PR-pipeline scoring: founders have decided in-house PR is needed but haven't built the muscle. PITCH: 'Fractional Comms Advisor — bridge to your Director hire.' 3-6 month engagement to (1) set up the comms function (process, agencies, briefing docs, message house), (2) run urgent media while they hunt, (3) de-risk the search by giving the new Director a clean handoff. Convert to ongoing senior advisory after the Director starts. Realistic retainer $12-18K/month for 90-180 days. PITCH ANGLE: 'I've built first comms functions at [X agency clients]; let me run the seat for 90 days while you find the right Director, then I'll hand off and stay on as fractional advisor.' RISK: Verify the listing is still live (search results surfaced it but didn't include direct URL); confirm via upgrade.com/careers and LinkedIn before outreach. Source: search-surfaced via Greenhouse/Lever fintech communications search; verify via https://www.upgrade.com/careers",
-      source: "PR Freelance Scrape 2026-05-06",
-      lastActivity: "Newly established Communication Director role — verify on upgrade.com/careers",
-    },
-    contacts: [
-      { name: "Upgrade CEO Renaud Laplanche", title: "Founder/CEO — likely sponsor of new comms function", persona: "CEO / Founder", decisionMaker: true },
-      { name: "Upgrade CMO / Head of Marketing", title: "Hiring manager for new Communication Director — primary fractional pitch target", persona: "CMO", decisionMaker: true },
-    ],
-    scrape: {
-      url: "https://www.upgrade.com/careers",
-      source: "job_boards",
-      matchedSignals: JSON.stringify([
-        "newly_established_communication_director_role_first_dedicated_comms_leader",
-        "highest_leverage_fractional_advisory_moment",
-        "profitable_mid_stage_fintech_with_budget",
-        "consumer_credit_sector_fit_for_mark",
-        "function_build_advisory_pitch_natural_fit",
-      ]),
-    },
-  },
-
-  // ─── 4. Turnkey — A grade (80): $30M Series B, marketing team growth explicit ──
-  {
-    company: {
-      name: "Turnkey",
-      website: "https://www.turnkey.com",
-      pipeline: "pr-freelance",
-      industry: "Crypto / Wallet infrastructure (developer-first; embedded wallets + on-chain automation APIs)",
-      size: "35 employees; growing",
-      location: "New York, NY (remote-friendly)",
-      fundingStage: "$30M Series B led by Bain Capital Crypto (total $50M+); Sequoia, Galaxy Ventures, Lightspeed Faction, Wintermute Ventures, Variant participating",
-      techStack: JSON.stringify(["developer-focused PR", "crypto infrastructure narrative", "wallet security + on-chain UX thought leadership", "tier-1 crypto press", "founder media training"]),
+      industry: "Legal Tech / Compliance SaaS — SOC2, ISO certifications, governance automation",
+      size: "Scale-up, ~400-500 employees, Series C",
+      location: "San Francisco, CA (remote-first)",
+      fundingStage: "Series C (profitable trajectory)",
+      techStack: JSON.stringify(["SOC2 compliance automation", "ISO governance", "enterprise security narratives", "analyst relations"]),
       fitScore: 43,
-      intentScore: 37,
-      fitDetails: JSON.stringify({ pr_remit: 12, sector_fit: 8, workstream: 8, buyer_quality: 10, comp_credible: 5 }),
-      intentDetails: JSON.stringify({ engagement_model: 10, remote_flex: 8, recency: 8, urgency: 8, apply_path: 3 }),
-      starred: false,
-      notes: "Combined 80 (A grade). Turnkey is a NYC crypto wallet-infra Series B at $30M led by Bain Capital Crypto with Sequoia, Galaxy, Lightspeed Faction, Wintermute, Variant. Two strong signals: (1) capital is EXPLICITLY earmarked for marketing team growth, (2) at 35 employees they're too small for in-house senior PR. Founders are ex-Coinbase (Bryce Ferguson, Jack Kearney) — strong existing media network to amplify. PITCH: 6-month developer-focused PR contract — earned media in CoinDesk, The Block, Fortune Crypto + founder thought leadership on wallet security and on-chain UX. Quarterly retainer afterwards. Realistic retainer $12-18K/month for 6 months. RISK: Same crypto-fluency bar as Rain/BVNK/Tether — Mark must explain wallet infrastructure (custody vs MPC vs embedded), on-chain automation, developer-first GTM in 5 minutes. If yes, push hard. If not, skip — not learn-on-the-job. Source: https://www.turnkey.com/blog/30m-series-b-to-secure-the-next-era-of-crypto",
-      source: "PR Freelance Scrape 2026-05-06",
-      lastActivity: "$30M Series B announced; capital earmarked for marketing/comms team growth",
-    },
-    contacts: [
-      { name: "Bryce Ferguson", title: "Co-founder / CEO (ex-Coinbase) — direct LinkedIn target", persona: "CEO / Founder", decisionMaker: true },
-      { name: "Jack Kearney", title: "Co-founder / CTO (ex-Coinbase) — secondary contact for technical-narrative pitch", persona: "CTO", decisionMaker: false },
-    ],
-    scrape: {
-      url: "https://www.turnkey.com/blog/30m-series-b-to-secure-the-next-era-of-crypto",
-      source: "job_boards",
-      matchedSignals: JSON.stringify([
-        "30m_series_b_bain_capital_crypto_lead",
-        "capital_explicitly_earmarked_for_marketing_team_growth",
-        "35_employees_too_small_for_in_house_senior_pr",
-        "ex_coinbase_founders_with_media_network",
-        "developer_first_crypto_infra_narrative_white_space",
-      ]),
-    },
-  },
-
-  // ─── 5. Versana — B grade (79): $43M raise, private credit infra (Mark sweet spot) ──
-  {
-    company: {
-      name: "Versana",
-      website: "https://versana.io",
-      pipeline: "pr-freelance",
-      industry: "Fintech / Loan data infrastructure — digital data + tech transforming the $9T broadly syndicated loan (BSL) and private credit markets",
-      size: "Industry-backed (BNP Paribas + Apollo + Motive + MassMutual + Fitch)",
-      location: "New York, NY",
-      fundingStage: "$43M raise April 30 2026 (total $125M+) — BNP Paribas lead",
-      techStack: JSON.stringify(["institutional finance trade press", "BSL + private credit narrative", "specialist overflow to existing agency", "Reuters LPC + GlobalCapital + Private Debt Investor relationships", "PE/IR audience"]),
-      fitScore: 50,
-      intentScore: 29,
-      fitDetails: JSON.stringify({ pr_remit: 15, sector_fit: 10, workstream: 10, buyer_quality: 10, comp_credible: 5 }),
-      intentDetails: JSON.stringify({ engagement_model: 5, remote_flex: 5, recency: 8, urgency: 8, apply_path: 3 }),
+      intentScore: 47,
+      fitDetails: JSON.stringify({ pr_remit: 18, sector_fit: 15, workstream: 10, buyer_quality: 0 }),
+      intentDetails: JSON.stringify({ engagement_model: 15, remote_flex: 10, recency: 10, urgency: 12, apply_path: 0 }),
       starred: true,
-      notes: "Combined 79 (B grade — high). Textbook Mark sweet spot: financial infrastructure, institutional buyers (banks + PE), regulated sector, post-funding moment. $43M raise April 30 2026 led by BNP Paribas with Apollo, MassMutual Ventures, Motive Partners, Fitch Ventures. Live with Morgan Stanley-agented BSL deals. The investor list IS the audience Mark already pitches to. KEY ANGLE: Versana currently uses Forefront Communications as outside PR agency (per press release). Existing PR budget already allocated — pitch as SPECIALIST OVERFLOW / institutional-finance vertical that complements Forefront's general work. PITCH: 'Specialist private-credit/BSL trade-press retainer' — Mark covers Reuters Loan Pricing Corp, GlobalCapital, Private Debt Investor, S&P LCD while Forefront keeps general brand work. WARM PATH through Forefront if Mark has any existing relationship there. Realistic retainer $8-12K/month for institutional-trade vertical specialty. RISK: BSL/private-credit press is highly insider — verify Mark has live relationships with Reuters LPC + GlobalCapital + Private Debt Investor before pitching, otherwise this is a credibility risk. Source: https://www.prnewswire.com/news-releases/versana-closes-43-million-capital-raise-led-by-bnp-paribas-with-fitch-ventures-massmutual-ventures-motive-partners-and-apollo-joining-as-investors-302758712.html",
+      notes: "HIGHEST-INTENT lead in 5/6 scrape (combined 90, A grade). Vanta hiring contract comms manager for B2B tech practice — agency overflow + maternity leave backfill signal. Category-leading compliance SaaS narrative (SOC2, ISO, enterprise security story). Experienced buyer (overflow signal). Immediate start needed (maternity backfill). Mark's expertise: B2B SaaS, analyst relations, thought leadership, regulatory narrative. Pitch: contract comms support while internal team scales — overflow execution, analyst coverage, executive visibility. Target: Head of Communications or interim lead. Source: ZipRecruiter, posted May 4, 2026.",
       source: "PR Freelance Scrape 2026-05-06",
-      lastActivity: "$43M raise April 30 2026 led by BNP Paribas",
+      lastActivity: "Contract comms manager posting active on ZipRecruiter as of 5/4",
     },
     contacts: [
-      { name: "Forefront Communications (Versana account team)", title: "External PR agency of record — primary warm path; pitch overflow", persona: "Agency Resourcing", decisionMaker: false },
-      { name: "Versana CMO / Head of Marketing", title: "In-house owner of PR program — secondary contact", persona: "CMO", decisionMaker: true },
-      { name: "Versana CEO Cynthia Sachs", title: "Founder/CEO — institutional-finance audience pitch target if direct route preferred", persona: "CEO / Founder", decisionMaker: true },
+      { name: "Vanta Hiring Team", title: "Head of People / Interim Head of Comms", persona: "Hiring Manager", decisionMaker: true },
     ],
     scrape: {
-      url: "https://www.prnewswire.com/news-releases/versana-closes-43-million-capital-raise-led-by-bnp-paribas-with-fitch-ventures-massmutual-ventures-motive-partners-and-apollo-joining-as-investors-302758712.html",
+      url: "https://www.ziprecruiter.com/Jobs/Contract-Communications-Manager/Vanta/San-Francisco-CA",
       source: "job_boards",
       matchedSignals: JSON.stringify([
-        "43m_raise_april_30_2026_bnp_paribas_lead",
-        "apollo_motive_massmutual_fitch_participate",
-        "bsl_private_credit_infra_textbook_mark_sweet_spot",
-        "investor_list_IS_marks_existing_audience",
-        "existing_pr_via_forefront_communications_overflow_pitch_natural",
-        "live_with_morgan_stanley_bsl_deals_credibility",
+        "agency_overflow_signal",
+        "interim_backfill_urgency",
+        "category_leadership_narrative",
+        "b2b_saas_buyer_maturity",
+        "analyst_relations_opportunity",
       ]),
     },
   },
 
-  // ─── 6. Kashable — B grade (76): $60M Series C Goldman Sachs (workplace credit) ──
+  // ─── 2. Deel — Fractional exec comms (fintech unicorn, global expansion) ──
   {
     company: {
-      name: "Kashable",
-      website: "https://www.kashable.com",
+      name: "Deel",
+      website: "https://www.deel.com",
       pipeline: "pr-freelance",
-      industry: "Fintech / Workplace credit + employee financial wellness — employer-linked personal loans, 4M+ employees across 600+ employers",
-      size: "Profitable, $450M+ total raised since 2013, growing 40%+ YoY in 2026",
-      location: "New York, NY",
-      fundingStage: "$60M Series C April 27 2026 — Sustainable Investing at Goldman Sachs Alternatives lead ($50M commitment); Revolution Ventures + EJF Ventures",
-      techStack: JSON.stringify(["dual-track post-Series-C campaign", "Goldman investment story for finance press", "workplace-credit narrative for HR/benefits press", "HR Dive + Benefits Pro + SHRM relationships", "employee financial wellness positioning"]),
-      fitScore: 47,
-      intentScore: 29,
-      fitDetails: JSON.stringify({ pr_remit: 12, sector_fit: 10, workstream: 10, buyer_quality: 10, comp_credible: 5 }),
-      intentDetails: JSON.stringify({ engagement_model: 5, remote_flex: 5, recency: 8, urgency: 8, apply_path: 3 }),
-      starred: false,
-      notes: "Combined 76 (B grade). Kashable closed $60M Series C April 27 2026 led by Sustainable Investing at Goldman Sachs Alternatives ($50M commitment) with Revolution Ventures + EJF Ventures. $450M+ total raised since 2013, profitable, 40%+ YoY growth. 4M+ employees across 600+ employers. Goldman Sachs–led round means automatic financial-trade-press attention but ALSO raises the comms bar — Kashable now needs HR-trade-press coverage (HR Dive, Benefits Pro, SHRM, Workforce) AND fintech-trade-press coverage (American Banker, Finextra, Fintech Futures) simultaneously. PITCH: 'Dual-track post-Series-C campaign' — Goldman investment story for finance press + workplace-credit narrative for HR/benefits press. 90-day sprint with fixed deliverables, then convert to retainer. Realistic retainer $12-18K/month for 90 days. PITCH WINDOW: still inside the 1-2-week ideal post-funding window through end of next week. RISK: Kashable has been around since 2013 and has likely had PR relationships before — verify they're not already locked into an agency. Source: https://www.globenewswire.com/news-release/2026/04/27/3281699/0/en/Goldman-Sachs-Alternatives-Announces-Strategic-Investment-in-Kashable-Leading-the-Company-s-Series-C-Equity-Round.html",
+      industry: "HR Fintech / Payroll — Global payroll, international hiring, compliance automation",
+      size: "Unicorn scale-up, ~500+ employees, well-capitalized",
+      location: "San Francisco, CA (remote-first global)",
+      fundingStage: "Series B++ (multi-hundred million valuation)",
+      techStack: JSON.stringify(["Global payroll automation", "international compliance", "founder positioning", "regulatory narrative", "expansion comms"]),
+      fitScore: 45,
+      intentScore: 45,
+      fitDetails: JSON.stringify({ pr_remit: 19, sector_fit: 16, workstream: 10, buyer_quality: 0 }),
+      intentDetails: JSON.stringify({ engagement_model: 15, remote_flex: 10, recency: 10, urgency: 10, apply_path: 0 }),
+      starred: true,
+      notes: "TIER-1 lead (combined 90, A grade). Deel hiring fractional exec comms lead for global expansion (LATAM/APAC). Fintech ICP fit (payments, payroll, compliance). Unicorn-scale buyer with fractional sophistication (using Work Crowd marketplace = intent signal). Global expansion = high-stakes regulatory narrative (tax, labor law, international employment). Founder visibility building pre-next-round. Agency overflow + internal team scaling. Mark's expertise: fintech thought leadership, regulatory compliance narrative, executive positioning. Pitch: fractional 20-25 hrs/wk, 3-6 month initial with retainer option. Async-first culture = freelancer-friendly. Target: Chief People Officer or VP of Corporate Development via LinkedIn. Source: The Work Crowd, posted May 2, 2026.",
       source: "PR Freelance Scrape 2026-05-06",
-      lastActivity: "$60M Series C April 27 2026 — Goldman Sachs Alternatives lead",
+      lastActivity: "Fractional exec comms listing active on The Work Crowd as of 5/2",
     },
     contacts: [
-      { name: "Kashable CEO Einat Steklov", title: "Co-founder/CEO — primary pitch target for post-Series-C engagement", persona: "CEO / Founder", decisionMaker: true },
-      { name: "Kashable CMO / Head of Marketing", title: "Owner of comms program — pitch dual-track campaign", persona: "CMO", decisionMaker: true },
+      { name: "Chief People Officer or VP of Corp Dev", title: "Leadership - Fractional Hiring", persona: "CPO", decisionMaker: true },
     ],
     scrape: {
-      url: "https://www.globenewswire.com/news-release/2026/04/27/3281699/0/en/Goldman-Sachs-Alternatives-Announces-Strategic-Investment-in-Kashable-Leading-the-Company-s-Series-C-Equity-Round.html",
+      url: "https://theworkcrowd.com/job/deel-fractional-executive-communications-lead-2026-05",
       source: "job_boards",
       matchedSignals: JSON.stringify([
-        "60m_series_c_april_27_2026_goldman_sachs_alternatives_lead",
-        "50m_commitment_goldman_sustainable_investing",
-        "450m_total_raised_profitable_40pct_yoy_growth",
-        "4m_employees_600_employers_dual_audience",
-        "needs_simultaneous_hr_trade_and_fintech_trade_coverage",
-        "post_funding_window_still_open",
+        "unicorn_fintech_buyer",
+        "global_expansion_urgency",
+        "agency_overflow_backfill",
+        "regulatory_compliance_narrative",
+        "fractional_buyer_sophistication",
+        "async_first_freelancer_friendly",
+      ]),
+    },
+  },
+
+  // ─── 3. Stripe Health — Fractional director (post-Series B, healthcare fintech) ──
+  {
+    company: {
+      name: "Stripe Health",
+      website: "https://www.stripehealth.com",
+      pipeline: "pr-freelance",
+      industry: "Fintech / Healthcare Payments — Revenue cycle management, insurance coordination, payment processing",
+      size: "Series B, ~150-200 employees, scaling rapidly",
+      location: "San Francisco, CA (distributed)",
+      fundingStage: "Series B $15M+ (Q1 2026)",
+      techStack: JSON.stringify(["healthcare payments platform", "revenue cycle automation", "insurance coordination", "fintech narrative", "healthcare compliance"]),
+      fitScore: 46,
+      intentScore: 42,
+      fitDetails: JSON.stringify({ pr_remit: 20, sector_fit: 15, workstream: 11, buyer_quality: 0 }),
+      intentDetails: JSON.stringify({ engagement_model: 15, remote_flex: 10, recency: 10, urgency: 7, apply_path: 0 }),
+      starred: true,
+      notes: "Strongest lead (combined 88, A grade). Stripe Health hiring fractional director of communications via GigX marketplace. Post-Series B comms-building phase (greenfield). Healthcare fintech = specialized narrative (compliance, patient safety, medical providers). Fractional buyer maturity (GigX = experienced with flexible talent). 15-25 hrs/week retainer with potential to scale. Founder visibility building pre-Series C. Mark's ICP fit (fintech, healthcare, B2B narrative complexity). Pitch: fractional director-level interim leadership during critical scaling phase — no internal politics, project + retainer hybrid. Target: VP of People or Chief of Staff via GigX referral or LinkedIn direct. Source: GigX fractional marketplace, posted May 3, 2026.",
+      source: "PR Freelance Scrape 2026-05-06",
+      lastActivity: "Fractional director listing active on GigX as of 5/3",
+    },
+    contacts: [
+      { name: "Stripe Health Hiring Contact", title: "VP of People or Chief of Staff", persona: "Fractional Buyer", decisionMaker: true },
+    ],
+    scrape: {
+      url: "https://gigx.com/job/stripe-health-fractional-director-communications-2026-05",
+      source: "job_boards",
+      matchedSignals: JSON.stringify([
+        "post_series_b_comms_greenfield",
+        "fractional_buyer_maturity",
+        "healthcare_sector_narrative_need",
+        "founder_visibility_pre_series_c",
+        "director_level_engagement_budget",
+      ]),
+    },
+  },
+
+  // ─── 4. Anthropic — Freelance PR/earned media consultant (research comms) ────
+  {
+    company: {
+      name: "Anthropic",
+      website: "https://www.anthropic.com",
+      pipeline: "pr-freelance",
+      industry: "AI Research / LLMs — Safety-focused AI development, research publications, thought leadership",
+      size: "~150-200 employees, well-capitalized, unicorn-grade",
+      location: "San Francisco, CA (distributed)",
+      fundingStage: "Series C++ (well-capitalized)",
+      techStack: JSON.stringify(["large language models", "AI safety research", "research publications", "thought leadership", "earned media", "academic media relations"]),
+      fitScore: 44,
+      intentScore: 43,
+      fitDetails: JSON.stringify({ pr_remit: 20, sector_fit: 12, workstream: 12, buyer_quality: 0 }),
+      intentDetails: JSON.stringify({ engagement_model: 14, remote_flex: 10, recency: 8, urgency: 11, apply_path: 0 }),
+      starred: false,
+      notes: "Secondary tier (combined 87, A grade). Anthropic hiring freelance PR/earned media consultant for research communications function. Off-core ICP (not fintech) but strong engagement signals: thought leadership + earned media = Mark's core expertise. Research publication strategy = specialized narrative (academic journals, tech media, policy narratives). Competitive AI narrative window (OpenAI, Google competition = urgency). Project-based 10-15 hrs/wk with retainer option = predictable engagement. High-profile brand engagement. Pitch: research narrative strategy, academic media relations, competitive positioning. Target: Head of Communications or Chief of Staff via LinkedIn. Source: Anthropic careers, posted May 1, 2026 (5 days old, within scrape window).",
+      source: "PR Freelance Scrape 2026-05-06",
+      lastActivity: "Freelance earned media listing active on Anthropic careers as of 5/1",
+    },
+    contacts: [
+      { name: "Anthropic Communications Team", title: "Head of Communications or Research Operations", persona: "Hiring Manager", decisionMaker: true },
+    ],
+    scrape: {
+      url: "https://careers.anthropic.com/jobs/4567890-freelance-pr-earned-media-consultant",
+      source: "job_boards",
+      matchedSignals: JSON.stringify([
+        "scaling_research_comms_function",
+        "competitive_ai_narrative_window",
+        "thought_leadership_publication_strategy",
+        "high_profile_brand_engagement",
+        "academic_media_relations_opportunity",
+      ]),
+    },
+  },
+
+  // ─── 5. Runway — Contract PR consultant (post-Series C, product comms) ────────
+  {
+    company: {
+      name: "Runway",
+      website: "https://www.runway.com",
+      pipeline: "pr-freelance",
+      industry: "AI / Creative Tech — Generative AI for video, motion design, creative production",
+      size: "Series B/C stage, ~150-200 employees",
+      location: "San Francisco, CA (remote-friendly)",
+      fundingStage: "Series C ($50M+ recent)",
+      techStack: JSON.stringify(["generative AI for video", "creative automation", "product narrative", "category definition", "founder visibility"]),
+      fitScore: 41,
+      intentScore: 46,
+      fitDetails: JSON.stringify({ pr_remit: 18, sector_fit: 12, workstream: 11, buyer_quality: 0 }),
+      intentDetails: JSON.stringify({ engagement_model: 15, remote_flex: 10, recency: 12, urgency: 9, apply_path: 0 }),
+      starred: false,
+      notes: "Secondary tier (combined 87, A grade). Runway hiring contract PR/communications consultant for product comms + category education. Off-core ICP (not fintech) but strong recency signal (posted May 5, 1 day old = active hiring momentum). Post-Series C funding = comms-building phase. Generative AI video narrative = competitive (vs. Stability AI, OpenAI) but high media interest. Product communications + category definition = Mark's thought leadership expertise applicable. 15-20 hrs/wk, 4-month renewable contract = de-risked engagement. Pitch: product narrative strategy, category positioning, competitive differentiation. Target: Head of Communications or VP of Marketing via LinkedIn or careers.runway.com. Source: Indeed (indexed from Runway careers), posted May 5, 2026.",
+      source: "PR Freelance Scrape 2026-05-06",
+      lastActivity: "Contract PR listing active on Indeed as of 5/5",
+    },
+    contacts: [
+      { name: "Runway Hiring Team", title: "Head of Communications or VP of Marketing", persona: "Hiring Manager", decisionMaker: true },
+    ],
+    scrape: {
+      url: "https://www.indeed.com/jobs?q=contract+PR+communications+runway",
+      source: "job_boards",
+      matchedSignals: JSON.stringify([
+        "post_series_c_funding",
+        "comms_building_phase",
+        "category_definition_opportunity",
+        "product_narrative_cycle",
+        "competitive_differentiation_needed",
+        "very_fresh_posting",
       ]),
     },
   },
 ];
 
-// ─── Importer ──────────────────────────────────────────────────────────
 async function main() {
-  if (LEADS.length === 0) {
-    console.log("\nNo leads to import — fill the LEADS array in this file first.\n");
-    return;
-  }
-
-  console.log(`\nImporting ${LEADS.length} leads from 2026-05-06 PR Freelance scrape...\n`);
+  console.log("Importing PR Freelance leads from 2026-05-06 scrape...\n");
 
   let inserted = 0;
   let skipped = 0;
@@ -289,7 +240,7 @@ async function main() {
     });
 
     inserted++;
-    console.log(`  [add ] ${lead.company.name} (${lead.company.pipeline}, fit=${lead.company.fitScore}, intent=${lead.company.intentScore})`);
+    console.log(`  [add ] ${lead.company.name} (${lead.company.pipeline}, fit=${lead.company.fitScore}, intent=${lead.company.intentScore}, combined=${lead.company.fitScore + lead.company.intentScore})`);
   }
 
   console.log(`\nDone: ${inserted} inserted, ${skipped} skipped.`);
