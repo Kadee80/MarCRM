@@ -1098,6 +1098,76 @@ export default function AgencyCRM() {
           <StatCard icon={Target} label="Avg Score" value={avgScore} sub="Fit + Intent" color="amber" />
         </div>
 
+        {/* Lead-to-Close Tracker */}
+        {totalCompanies > 0 && (() => {
+          const wonCount = companies.filter(c => c.stage === "Won").length;
+          const lostCount = companies.filter(c => c.stage === "Lost").length;
+          const activeCount = totalCompanies - wonCount - lostCount;
+          const closeRate = totalCompanies > 0 ? Math.round((wonCount / totalCompanies) * 100) : 0;
+          const stages = [
+            { label: "Targeted", count: companies.filter(c => c.stage === "Targeted").length, color: "bg-gray-400" },
+            { label: "Contacted", count: companies.filter(c => c.stage === "Contacted").length, color: "bg-blue-400" },
+            { label: "Engaged", count: companies.filter(c => c.stage === "Engaged").length, color: "bg-cyan-400" },
+            { label: "Qualified", count: companies.filter(c => c.stage === "Qualified").length, color: "bg-purple-400" },
+            { label: "Discovery", count: companies.filter(c => c.stage === "Discovery Complete").length, color: "bg-indigo-400" },
+            { label: "Proposal", count: companies.filter(c => c.stage === "Proposal Sent").length, color: "bg-amber-400" },
+            { label: "Negotiation", count: companies.filter(c => c.stage === "Negotiation").length, color: "bg-orange-400" },
+            { label: "Won", count: wonCount, color: "bg-green-500" },
+          ];
+          return (
+            <div className="bg-white rounded-xl border border-gray-100 p-5 shadow-sm">
+              <div className="flex items-center justify-between mb-4">
+                <h3 className="text-sm font-semibold text-gray-900">Lead → Close Tracker</h3>
+                <div className="flex items-center gap-3 text-xs text-gray-500">
+                  <span>{activeCount} active</span>
+                  <span className="text-green-600 font-medium">{wonCount} won</span>
+                  <span className="text-red-400">{lostCount} lost</span>
+                </div>
+              </div>
+
+              {/* Big percentage + progress ring */}
+              <div className="flex items-center gap-6 mb-5">
+                <div className="relative w-20 h-20 flex-shrink-0">
+                  <svg viewBox="0 0 36 36" className="w-20 h-20 -rotate-90">
+                    <circle cx="18" cy="18" r="15.5" fill="none" stroke="#f3f4f6" strokeWidth="3" />
+                    <circle cx="18" cy="18" r="15.5" fill="none" stroke="#22c55e" strokeWidth="3" strokeLinecap="round"
+                      strokeDasharray={`${closeRate * 0.975} 100`} />
+                  </svg>
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <span className="text-lg font-bold text-gray-900">{closeRate}%</span>
+                  </div>
+                </div>
+                <div className="flex-1 min-w-0">
+                  <p className="text-sm font-medium text-gray-700 mb-1">Close Rate</p>
+                  <p className="text-xs text-gray-500">{wonCount} of {totalCompanies} total leads converted to Won</p>
+                  {lostCount > 0 && <p className="text-xs text-gray-400 mt-0.5">Win rate vs. decided: {Math.round((wonCount / (wonCount + lostCount)) * 100) || 0}% ({wonCount}W / {lostCount}L)</p>}
+                </div>
+              </div>
+
+              {/* Funnel flow bar */}
+              <div className="space-y-2">
+                <p className="text-xs font-semibold text-gray-500 uppercase">Pipeline Flow</p>
+                <div className="flex h-5 rounded-full overflow-hidden bg-gray-100">
+                  {stages.filter(s => s.count > 0).map(s => (
+                    <div key={s.label} className={`${s.color} relative group`} style={{ width: `${(s.count / totalCompanies) * 100}%` }} title={`${s.label}: ${s.count}`}>
+                      <div className="absolute -top-7 left-1/2 -translate-x-1/2 bg-gray-800 text-white text-[10px] px-1.5 py-0.5 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none">{s.label}: {s.count}</div>
+                    </div>
+                  ))}
+                  {lostCount > 0 && (
+                    <div className="bg-red-300 relative group" style={{ width: `${(lostCount / totalCompanies) * 100}%` }} title={`Lost: ${lostCount}`}>
+                      <div className="absolute -top-7 left-1/2 -translate-x-1/2 bg-gray-800 text-white text-[10px] px-1.5 py-0.5 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none">Lost: {lostCount}</div>
+                    </div>
+                  )}
+                </div>
+                <div className="flex justify-between text-[10px] text-gray-400 px-1">
+                  <span>Targeted</span>
+                  <span>→ Won</span>
+                </div>
+              </div>
+            </div>
+          );
+        })()}
+
         {/* Pipeline Cards */}
         <div>
           <h3 className="text-sm font-semibold text-gray-900 mb-3">Pipelines</h3>
