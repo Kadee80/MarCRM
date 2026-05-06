@@ -6,7 +6,7 @@ import {
   Briefcase, Database, ChevronDown, ChevronUp, Zap, MapPin,
   UserCheck, Link2, AlertCircle, Activity, ArrowLeft, Circle, CheckCircle2,
   Megaphone, Scale, BookOpen, Cpu, Video, FileText, Award, Landmark,
-  MessageSquare, PhoneCall, Calendar, Save, Columns, Edit3, Flag
+  MessageSquare, PhoneCall, Calendar, Save, Columns, Edit3, Flag, Archive
 } from "lucide-react";
 
 /* ═══════════════════════════════════════════════════════════════════════════
@@ -663,6 +663,8 @@ export default function AgencyCRM() {
   const [contactSearch, setContactSearch] = useState("");
   const [contactPipelineFilter, setContactPipelineFilter] = useState("all");
   const [contactDMFilter, setContactDMFilter] = useState(false);
+  const [contactArchiveTab, setContactArchiveTab] = useState("open"); // open | closed
+  const [companyArchiveTab, setCompanyArchiveTab] = useState("open"); // open | closed
   const [contactSortField, setContactSortField] = useState("name");
   const [contactSortDir, setContactSortDir] = useState("asc");
 
@@ -705,6 +707,9 @@ export default function AgencyCRM() {
   // ─── Computed ──────────────────────────────────────────────────────
   const filteredCompanies = useMemo(() => {
     let list = companies.filter(c => {
+      const isArchived = c.archived || false;
+      if (companyArchiveTab === "open" && isArchived) return false;
+      if (companyArchiveTab === "closed" && !isArchived) return false;
       if (pipelineFilter !== "all" && c.pipeline !== pipelineFilter) return false;
       if (stageFilter !== "All" && c.stage !== stageFilter) return false;
       if (starredOnly && !c.starred) return false;
@@ -731,7 +736,7 @@ export default function AgencyCRM() {
       return 0;
     });
     return list;
-  }, [companies, search, pipelineFilter, stageFilter, starredOnly, sortField, sortDir]);
+  }, [companies, search, pipelineFilter, stageFilter, starredOnly, sortField, sortDir, companyArchiveTab]);
 
   const pipelineStats = useMemo(() => {
     const stats = {};
@@ -754,6 +759,9 @@ export default function AgencyCRM() {
       const company = companies.find(c => c.id === ct.companyId);
       return { ...ct, _company: company };
     }).filter(ct => {
+      const isArchived = ct.archived || false;
+      if (contactArchiveTab === "open" && isArchived) return false;
+      if (contactArchiveTab === "closed" && !isArchived) return false;
       if (contactPipelineFilter !== "all" && ct._company?.pipeline !== contactPipelineFilter) return false;
       if (contactDMFilter && !ct.decisionMaker) return false;
       if (contactSearch) {
@@ -775,7 +783,7 @@ export default function AgencyCRM() {
       return 0;
     });
     return list;
-  }, [contacts, companies, contactSearch, contactPipelineFilter, contactDMFilter, contactSortField, contactSortDir]);
+  }, [contacts, companies, contactSearch, contactPipelineFilter, contactDMFilter, contactSortField, contactSortDir, contactArchiveTab]);
 
   const handleContactSort = (field) => {
     if (contactSortField === field) setContactSortDir(d => d === "asc" ? "desc" : "asc");
@@ -793,6 +801,22 @@ export default function AgencyCRM() {
     if (!c) return;
     await api.updateCompany({ id, starred: !c.starred });
     setCompanies(prev => prev.map(co => co.id === id ? { ...co, starred: !co.starred } : co));
+  };
+
+  const toggleArchiveCompany = async (id) => {
+    const c = companies.find(co => co.id === id);
+    if (!c) return;
+    await api.updateCompany({ id, archived: !c.archived });
+    setCompanies(prev => prev.map(co => co.id === id ? { ...co, archived: !co.archived } : co));
+    if (drilldownCompany?.id === id) setDrilldownCompany(prev => ({ ...prev, archived: !prev.archived }));
+  };
+
+  const toggleArchiveContact = async (id) => {
+    const ct = contacts.find(c => c.id === id);
+    if (!ct) return;
+    await api.updateContact({ id, archived: !ct.archived });
+    setContacts(prev => prev.map(c => c.id === id ? { ...c, archived: !c.archived } : c));
+    if (drilldownContact?.id === id) setDrilldownContact(prev => ({ ...prev, archived: !prev.archived }));
   };
 
   const addCompany = async () => {
@@ -1079,10 +1103,11 @@ export default function AgencyCRM() {
 
   // ─── DASHBOARD ─────────────────────────────────────────────────────
   const renderDashboard = () => {
-    const totalCompanies = companies.length;
-    const totalPriorityA = companies.filter(c => totalScore(c) >= 80).length;
-    const totalWon = companies.filter(c => c.stage === "Won").length;
-    const avgScore = totalCompanies ? Math.round(companies.reduce((s, c) => s + totalScore(c), 0) / totalCompanies) : 0;
+    const activeCompanies = companies.filter(c => !c.archived);
+    const totalCompanies = activeCompanies.length;
+    const totalPriorityA = activeCompanies.filter(c => totalScore(c) >= 80).length;
+    const totalWon = activeCompanies.filter(c => c.stage === "Won").length;
+    const avgScore = totalCompanies ? Math.round(activeCompanies.reduce((s, c) => s + totalScore(c), 0) / totalCompanies) : 0;
 
     return (
       <div className="space-y-6">
@@ -1092,7 +1117,7 @@ export default function AgencyCRM() {
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-          <StatCard icon={Building2} label="Total Leads" value={totalCompanies} sub={`${companies.filter(c => c.starred).length} starred`} color="indigo" />
+          <StatCard icon={Building2} label="Total Leads" value={totalCompanies} sub={`${activeCompanies.filter(c => c.starred).length} starred`} color="indigo" />
           <StatCard icon={Zap} label="Priority A (80+)" value={totalPriorityA} sub="Work now" color="green" />
           <StatCard icon={Award} label="Won Clients" value={totalWon} sub="Active accounts" color="emerald" />
           <StatCard icon={Target} label="Avg Score" value={avgScore} sub="Fit + Intent" color="amber" />
@@ -1100,18 +1125,18 @@ export default function AgencyCRM() {
 
         {/* Lead-to-Close Tracker */}
         {totalCompanies > 0 && (() => {
-          const wonCount = companies.filter(c => c.stage === "Won").length;
-          const lostCount = companies.filter(c => c.stage === "Lost").length;
+          const wonCount = activeCompanies.filter(c => c.stage === "Won").length;
+          const lostCount = activeCompanies.filter(c => c.stage === "Lost").length;
           const activeCount = totalCompanies - wonCount - lostCount;
           const closeRate = totalCompanies > 0 ? Math.round((wonCount / totalCompanies) * 100) : 0;
           const stages = [
-            { label: "Targeted", count: companies.filter(c => c.stage === "Targeted").length, color: "bg-gray-400" },
-            { label: "Contacted", count: companies.filter(c => c.stage === "Contacted").length, color: "bg-blue-400" },
-            { label: "Engaged", count: companies.filter(c => c.stage === "Engaged").length, color: "bg-cyan-400" },
-            { label: "Qualified", count: companies.filter(c => c.stage === "Qualified").length, color: "bg-purple-400" },
-            { label: "Discovery", count: companies.filter(c => c.stage === "Discovery Complete").length, color: "bg-indigo-400" },
-            { label: "Proposal", count: companies.filter(c => c.stage === "Proposal Sent").length, color: "bg-amber-400" },
-            { label: "Negotiation", count: companies.filter(c => c.stage === "Negotiation").length, color: "bg-orange-400" },
+            { label: "Targeted", count: activeCompanies.filter(c => c.stage === "Targeted").length, color: "bg-gray-400" },
+            { label: "Contacted", count: activeCompanies.filter(c => c.stage === "Contacted").length, color: "bg-blue-400" },
+            { label: "Engaged", count: activeCompanies.filter(c => c.stage === "Engaged").length, color: "bg-cyan-400" },
+            { label: "Qualified", count: activeCompanies.filter(c => c.stage === "Qualified").length, color: "bg-purple-400" },
+            { label: "Discovery", count: activeCompanies.filter(c => c.stage === "Discovery Complete").length, color: "bg-indigo-400" },
+            { label: "Proposal", count: activeCompanies.filter(c => c.stage === "Proposal Sent").length, color: "bg-amber-400" },
+            { label: "Negotiation", count: activeCompanies.filter(c => c.stage === "Negotiation").length, color: "bg-orange-400" },
             { label: "Won", count: wonCount, color: "bg-green-500" },
           ];
           return (
@@ -1198,11 +1223,11 @@ export default function AgencyCRM() {
         {/* Top Leads */}
         <div className="bg-white rounded-xl border border-gray-100 p-5 shadow-sm">
           <h3 className="text-sm font-semibold text-gray-900 mb-3">Top Priority A Leads (Score 80+)</h3>
-          {companies.filter(c => totalScore(c) >= 80).sort((a, b) => totalScore(b) - totalScore(a)).length === 0 ? (
+          {activeCompanies.filter(c => totalScore(c) >= 80).sort((a, b) => totalScore(b) - totalScore(a)).length === 0 ? (
             <p className="text-sm text-gray-400 italic py-4 text-center">No Priority A leads yet. Score your leads using the Lead Scorecard.</p>
           ) : (
             <div className="space-y-2">
-              {companies.filter(c => totalScore(c) >= 80).sort((a, b) => totalScore(b) - totalScore(a)).slice(0, 8).map(c => (
+              {activeCompanies.filter(c => totalScore(c) >= 80).sort((a, b) => totalScore(b) - totalScore(a)).slice(0, 8).map(c => (
                 <div key={c.id} className="flex items-center justify-between py-2 px-3 rounded-lg hover:bg-gray-50 cursor-pointer" onClick={() => { openCompanyDrilldown(c); setPage("companies"); }}>
                   <div className="flex items-center gap-3">
                     <div className="w-8 h-8 rounded-lg bg-indigo-100 flex items-center justify-center text-xs font-bold text-indigo-600">{c.name.charAt(0)}</div>
@@ -1227,8 +1252,8 @@ export default function AgencyCRM() {
           <h3 className="text-sm font-semibold text-gray-900 mb-4">Funnel Overview (All Pipelines)</h3>
           <div className="flex items-end gap-1.5" style={{ height: 140 }}>
             {FUNNEL_STAGES.map(stage => {
-              const count = companies.filter(c => c.stage === stage).length;
-              const maxCount = Math.max(...FUNNEL_STAGES.map(s => companies.filter(c => c.stage === s).length), 1);
+              const count = activeCompanies.filter(c => c.stage === stage).length;
+              const maxCount = Math.max(...FUNNEL_STAGES.map(s => activeCompanies.filter(c => c.stage === s).length), 1);
               const height = Math.max((count / maxCount) * 100, 6);
               const barColors = {
                 Targeted: "bg-gray-300", Contacted: "bg-blue-400", Engaged: "bg-cyan-400", Qualified: "bg-purple-400",
@@ -1279,6 +1304,16 @@ export default function AgencyCRM() {
         </div>
         <button onClick={() => setShowAddCompany(true)} className="flex items-center gap-1.5 px-4 py-2 bg-indigo-600 text-white text-sm font-medium rounded-lg hover:bg-indigo-700 shadow-sm">
           <Plus size={16} /> Add Company
+        </button>
+      </div>
+
+      {/* Open / Closed tabs */}
+      <div className="flex items-center gap-1 bg-gray-100 rounded-lg p-0.5 w-fit">
+        <button onClick={() => setCompanyArchiveTab("open")} className={`px-4 py-1.5 rounded-md text-sm font-medium transition-colors ${companyArchiveTab === "open" ? "bg-white text-gray-900 shadow-sm" : "text-gray-500 hover:text-gray-700"}`}>
+          Open ({companies.filter(c => !c.archived).length})
+        </button>
+        <button onClick={() => setCompanyArchiveTab("closed")} className={`px-4 py-1.5 rounded-md text-sm font-medium transition-colors ${companyArchiveTab === "closed" ? "bg-white text-gray-900 shadow-sm" : "text-gray-500 hover:text-gray-700"}`}>
+          Closed ({companies.filter(c => c.archived).length})
         </button>
       </div>
 
@@ -1354,7 +1389,14 @@ export default function AgencyCRM() {
                     <td className="px-3 py-3"><ScoreBadge score={c.intentScore} label="I" /></td>
                     <td className="px-3 py-3"><ScoreBadge score={score} /></td>
                     <td className="px-3 py-3"><Badge className={`border ${PRIORITY_COLORS[pri]}`}>{pri}</Badge></td>
-                    <td className="px-3 py-3"><ChevronRight size={15} className="text-gray-300" /></td>
+                    <td className="px-3 py-3">
+                      <div className="flex items-center gap-1">
+                        <button onClick={e => { e.stopPropagation(); toggleArchiveCompany(c.id); }} className={`p-1 rounded hover:bg-gray-100 transition-colors ${c.archived ? "text-green-500 hover:text-green-600" : "text-gray-300 hover:text-gray-500"}`} title={c.archived ? "Restore company" : "Archive company"}>
+                          <Archive size={14} />
+                        </button>
+                        <ChevronRight size={15} className="text-gray-300" />
+                      </div>
+                    </td>
                   </tr>
                 );
               })}
@@ -1622,6 +1664,16 @@ export default function AgencyCRM() {
         </button>
       </div>
 
+      {/* Open / Closed tabs */}
+      <div className="flex items-center gap-1 bg-gray-100 rounded-lg p-0.5 w-fit">
+        <button onClick={() => setContactArchiveTab("open")} className={`px-4 py-1.5 rounded-md text-sm font-medium transition-colors ${contactArchiveTab === "open" ? "bg-white text-gray-900 shadow-sm" : "text-gray-500 hover:text-gray-700"}`}>
+          Open ({contacts.filter(c => !c.archived).length})
+        </button>
+        <button onClick={() => setContactArchiveTab("closed")} className={`px-4 py-1.5 rounded-md text-sm font-medium transition-colors ${contactArchiveTab === "closed" ? "bg-white text-gray-900 shadow-sm" : "text-gray-500 hover:text-gray-700"}`}>
+          Closed ({contacts.filter(c => c.archived).length})
+        </button>
+      </div>
+
       {/* Filters */}
       <div className="flex items-center gap-3 flex-wrap">
         <div className="relative flex-1 min-w-[180px]">
@@ -1722,7 +1774,14 @@ export default function AgencyCRM() {
                         )}
                       </div>
                     </td>
-                    <td className="px-3 py-3"><ChevronRight size={15} className="text-gray-300" /></td>
+                    <td className="px-3 py-3">
+                      <div className="flex items-center gap-1">
+                        <button onClick={e => { e.stopPropagation(); toggleArchiveContact(ct.id); }} className={`p-1 rounded hover:bg-gray-100 transition-colors ${ct.archived ? "text-green-500 hover:text-green-600" : "text-gray-300 hover:text-gray-500"}`} title={ct.archived ? "Restore contact" : "Archive contact"}>
+                          <Archive size={14} />
+                        </button>
+                        <ChevronRight size={15} className="text-gray-300" />
+                      </div>
+                    </td>
                   </tr>
                 );
               })}
@@ -2571,8 +2630,12 @@ export default function AgencyCRM() {
                 {ct.email && <a href={`mailto:${ct.email}`} className="flex items-center gap-1.5 px-3 py-1.5 bg-blue-50 text-blue-700 rounded-lg hover:bg-blue-100"><Mail size={14} /> {ct.email}</a>}
                 {ct.phone && <a href={`tel:${ct.phone}`} className="flex items-center gap-1.5 px-3 py-1.5 bg-green-50 text-green-700 rounded-lg hover:bg-green-100"><Phone size={14} /> {ct.phone}</a>}
                 {ct.linkedin && <a href={ct.linkedin.startsWith("http") ? ct.linkedin : `https://${ct.linkedin}`} target="_blank" rel="noreferrer" className="flex items-center gap-1.5 px-3 py-1.5 bg-indigo-50 text-indigo-700 rounded-lg hover:bg-indigo-100"><Link2 size={14} /> LinkedIn</a>}
+                <button onClick={() => toggleArchiveContact(ct.id)} className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${ct.archived ? "bg-green-50 text-green-700 hover:bg-green-100" : "bg-gray-50 text-gray-500 hover:bg-gray-100"}`}>
+                  <Archive size={14} /> {ct.archived ? "Restore" : "Archive"}
+                </button>
               </div>
             </div>
+            {ct.archived && <div className="mt-3 flex items-center gap-2 text-xs text-amber-600 bg-amber-50 rounded-lg px-3 py-2"><Archive size={12} /> This contact is archived</div>}
           </div>
         </div>
 
@@ -2766,9 +2829,11 @@ export default function AgencyCRM() {
                   </a>
                 )}
                 <button onClick={() => setShowScorecard(c)} className="p-2 rounded-lg text-indigo-500 hover:bg-indigo-50 hover:text-indigo-700" title="Score Lead"><Target size={16} /></button>
+                <button onClick={() => toggleArchiveCompany(c.id)} className={`p-2 rounded-lg transition-colors ${c.archived ? "text-green-500 hover:bg-green-50 hover:text-green-600" : "text-gray-400 hover:bg-gray-100 hover:text-gray-600"}`} title={c.archived ? "Restore company" : "Archive company"}><Archive size={16} /></button>
                 <button onClick={() => { deleteCompany(c.id); closeCompanyDrilldown(); }} className="p-2 rounded-lg text-red-400 hover:bg-red-50 hover:text-red-600"><Trash2 size={16} /></button>
               </div>
             </div>
+            {c.archived && <div className="mt-3 flex items-center gap-2 text-xs text-amber-600 bg-amber-50 rounded-lg px-3 py-2"><Archive size={12} /> This company is archived</div>}
 
             {/* Stage selector */}
             <div className="mt-4">

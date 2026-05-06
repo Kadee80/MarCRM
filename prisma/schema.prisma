@@ -27,6 +27,7 @@ model Company {
   fitDetails    String    @default("{}") // JSON object
   intentDetails String    @default("{}") // JSON object
   starred       Boolean   @default(false)
+  archived      Boolean   @default(false)
   notes         String    @default("")
   personalNotes String    @default("") // relationship notes: "jets fan, lives in jersey"
   source        String    @default("Manual")
@@ -48,6 +49,7 @@ model Contact {
   linkedin      String        @default("")
   persona       String        @default("")
   decisionMaker Boolean       @default(false)
+  archived      Boolean       @default(false)
   company       Company?      @relation(fields: [companyId], references: [id], onDelete: Cascade)
   companyId     Int?
   engagements   Engagement[]
