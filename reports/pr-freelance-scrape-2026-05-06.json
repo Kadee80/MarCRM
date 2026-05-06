@@ -1,0 +1,210 @@
+{
+  "scrapeDate": "2026-05-06",
+  "scrapeType": "pr-freelance",
+  "totalLeads": 6,
+  "note": "Targeted PR Freelance scrape, 7-day window. Focuses on companies hiring PR/comms where Mark can pitch the fractional alternative. All leads scored 55+. Deduplicated against pr-freelance-scrape-2026-04-30/05-01/05-04/05-05 and daily-scrape-2026-05-01/04/05.",
+  "leads": [
+    {
+      "name": "Tide",
+      "website": "https://www.tide.co",
+      "pipeline": "pr-freelance",
+      "industry": "Fintech / SMB business banking",
+      "location": "London, UK (remote-friendly)",
+      "fundingStage": "VC-backed (late stage)",
+      "fitScore": 50,
+      "intentScore": 34,
+      "fitDetails": {
+        "pr_remit": 15,
+        "sector_fit": 10,
+        "workstream": 10,
+        "buyer_quality": 10,
+        "comp_credible": 5
+      },
+      "intentDetails": {
+        "engagement_model": 8,
+        "remote_flex": 5,
+        "recency": 8,
+        "urgency": 8,
+        "apply_path": 5
+      },
+      "contacts": [],
+      "signals": [
+        "Active 'Head of Communications' job posting",
+        "Posting describes 'high profile FinTech startup' — explicit senior PR need",
+        "Greenhouse careers board live with multiple comms roles",
+        "Fastest-growing UK SMB fintech — strong PR runway"
+      ],
+      "source": "https://startup.jobs/vc-backed-fintech-startup-head-of-communications-tidebanking-95650",
+      "notes": "PITCH: Interim Head of Communications during their search, OR fractional advisor for US media expansion. UK companies tend to be more open to US-based contractors than typical US postings."
+    },
+    {
+      "name": "Slash Financial",
+      "website": "https://www.slash.com",
+      "pipeline": "pr-freelance",
+      "industry": "Fintech / Business banking, cards, treasury",
+      "location": "San Francisco, CA",
+      "fundingStage": "Series C ($100M, late April 2026 — unicorn)",
+      "fitScore": 47,
+      "intentScore": 34,
+      "fitDetails": {
+        "pr_remit": 12,
+        "sector_fit": 10,
+        "workstream": 10,
+        "buyer_quality": 10,
+        "comp_credible": 5
+      },
+      "intentDetails": {
+        "engagement_model": 8,
+        "remote_flex": 5,
+        "recency": 8,
+        "urgency": 10,
+        "apply_path": 3
+      },
+      "contacts": [],
+      "signals": [
+        "$100M Series C just closed — brand-new unicorn",
+        "Funding Round of the Month for May 2026",
+        "Post-Series-C is peak PR moment for amplification + thought leadership",
+        "Existing PR resourcing unclear — opening for fractional senior counsel"
+      ],
+      "source": "https://blog.mean.ceo/funding-round-of-the-month-news-may-2026/",
+      "notes": "PITCH: 90-day post-Series-C comms sprint — unicorn announcement amplification, 5-10 tier-1 placements, founder thought leadership. Convert to retainer."
+    },
+    {
+      "name": "Upgrade",
+      "website": "https://www.upgrade.com",
+      "pipeline": "pr-freelance",
+      "industry": "Fintech / Consumer credit (cards, personal loans, auto)",
+      "location": "San Francisco, CA",
+      "fundingStage": "Late stage (profitable)",
+      "fitScore": 48,
+      "intentScore": 33,
+      "fitDetails": {
+        "pr_remit": 15,
+        "sector_fit": 10,
+        "workstream": 10,
+        "buyer_quality": 8,
+        "comp_credible": 5
+      },
+      "intentDetails": {
+        "engagement_model": 10,
+        "remote_flex": 5,
+        "recency": 5,
+        "urgency": 8,
+        "apply_path": 5
+      },
+      "contacts": [],
+      "signals": [
+        "'Newly established' Communication Director position — first dedicated comms leader",
+        "Profitable mid-stage fintech — has budget for outside help while searching",
+        "Newly-established role = highest-leverage fractional advisory moment"
+      ],
+      "source": "https://www.upgrade.com/careers (verify Communication Director listing)",
+      "notes": "PITCH: 'Fractional Comms Advisor — bridge to your Director hire.' 3-6 month engagement to set up the function and de-risk the search, then convert to ongoing advisory."
+    },
+    {
+      "name": "Turnkey",
+      "website": "https://www.turnkey.com",
+      "pipeline": "pr-freelance",
+      "industry": "Crypto / Wallet infrastructure (developer-first)",
+      "location": "New York, NY (remote-friendly)",
+      "fundingStage": "Series B ($30M, led by Bain Capital Crypto)",
+      "fitScore": 43,
+      "intentScore": 37,
+      "fitDetails": {
+        "pr_remit": 12,
+        "sector_fit": 8,
+        "workstream": 8,
+        "buyer_quality": 10,
+        "comp_credible": 5
+      },
+      "intentDetails": {
+        "engagement_model": 10,
+        "remote_flex": 8,
+        "recency": 8,
+        "urgency": 8,
+        "apply_path": 3
+      },
+      "contacts": [
+        { "name": "Bryce Ferguson", "title": "Co-founder / CEO", "email": null, "linkedin": null },
+        { "name": "Jack Kearney", "title": "Co-founder / CTO", "email": null, "linkedin": null }
+      ],
+      "signals": [
+        "$30M Series B led by Bain Capital Crypto + Sequoia, Galaxy, Lightspeed Faction, Wintermute, Variant",
+        "Capital explicitly earmarked for marketing team growth",
+        "Currently 35 employees — too small for in-house senior PR",
+        "Ex-Coinbase founders = strong existing media network to amplify"
+      ],
+      "source": "https://www.turnkey.com/blog/30m-series-b-to-secure-the-next-era-of-crypto",
+      "notes": "PITCH: 6-month developer-focused PR contract — earned media in CoinDesk, The Block, Fortune Crypto + founder thought leadership on wallet security and on-chain UX. Quarterly retainer afterwards."
+    },
+    {
+      "name": "Versana",
+      "website": "https://versana.io",
+      "pipeline": "pr-freelance",
+      "industry": "Fintech / Loan data infrastructure (BSL + private credit)",
+      "location": "New York, NY",
+      "fundingStage": "$43M raise April 30, 2026 (total $125M+)",
+      "fitScore": 50,
+      "intentScore": 29,
+      "fitDetails": {
+        "pr_remit": 15,
+        "sector_fit": 10,
+        "workstream": 10,
+        "buyer_quality": 10,
+        "comp_credible": 5
+      },
+      "intentDetails": {
+        "engagement_model": 5,
+        "remote_flex": 5,
+        "recency": 8,
+        "urgency": 8,
+        "apply_path": 3
+      },
+      "contacts": [
+        { "name": "Forefront Communications", "title": "External PR agency (existing)", "email": "versana@forefrontcomms.com", "linkedin": null }
+      ],
+      "signals": [
+        "$43M raise from BNP Paribas (lead) + Apollo + MassMutual Ventures + Motive Partners + Fitch Ventures",
+        "Live with Morgan Stanley-agented BSL deals",
+        "Industry-backed digital infra for $9T BSL + private credit market",
+        "Existing PR via Forefront Communications — budget already allocated"
+      ],
+      "source": "https://www.prnewswire.com/news-releases/versana-closes-43-million-capital-raise-led-by-bnp-paribas-with-fitch-ventures-massmutual-ventures-motive-partners-and-apollo-joining-as-investors-302758712.html",
+      "notes": "PITCH: 'Specialist private-credit/BSL trade-press retainer' — Mark covers Reuters LPC, GlobalCapital, Private Debt Investor while Forefront keeps general brand work. Warm path through Forefront."
+    },
+    {
+      "name": "Kashable",
+      "website": "https://www.kashable.com",
+      "pipeline": "pr-freelance",
+      "industry": "Fintech / Workplace credit + employee financial wellness",
+      "location": "New York, NY",
+      "fundingStage": "Series C ($60M, April 27 2026 — Goldman Sachs Alternatives lead)",
+      "fitScore": 47,
+      "intentScore": 29,
+      "fitDetails": {
+        "pr_remit": 12,
+        "sector_fit": 10,
+        "workstream": 10,
+        "buyer_quality": 10,
+        "comp_credible": 5
+      },
+      "intentDetails": {
+        "engagement_model": 5,
+        "remote_flex": 5,
+        "recency": 8,
+        "urgency": 8,
+        "apply_path": 3
+      },
+      "contacts": [],
+      "signals": [
+        "$60M Series C led by Sustainable Investing at Goldman Sachs Alternatives ($50M commitment)",
+        "Revolution Ventures + EJF Ventures participating",
+        "$450M+ total raised since 2013, profitable, 40%+ YoY growth",
+        "4M+ employees across 600+ employers — needs HR-trade + fintech-trade press dual track"
+      ],
+      "source": "https://www.globenewswire.com/news-release/2026/04/27/3281699/0/en/Goldman-Sachs-Alternatives-Announces-Strategic-Investment-in-Kashable-Leading-the-Company-s-Series-C-Equity-Round.html",
+      "notes": "PITCH: Dual-track post-Series-C campaign — Goldman investment story for finance press + workplace-credit narrative for HR Dive, Benefits Pro, SHRM. 90-day sprint to retainer."
+    }
+  ]
+}

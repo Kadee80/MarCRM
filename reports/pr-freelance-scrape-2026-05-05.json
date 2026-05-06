@@ -1,0 +1,141 @@
+{
+  "scrapeDate": "2026-05-05",
+  "scrapeType": "pr-freelance",
+  "totalLeads": 3,
+  "note": "Targeted PR Freelance scrape, 7-day window (2026-04-28 → 2026-05-05) plus funding-driven intent signals back to 2026-04-15. Three credible new openings cleared the 55+ threshold. Deduped against pr-freelance batches from 2026-05-04 (Offchain Labs, GlossGenius, Upstart), 2026-05-01 (Siege Media, Mission North, BVNK, Coinbase Base, Atticus, Cloudbeds, FactSet, Robinhood), 2026-04-30 (5WPR, HockeyStack, Crypto.com, Courier Health, Forward Financing), 2026-04-27 targeted (SerpApi, PayNearMe, Paddle, Loti AI), and pr-freelance leads inside daily scrapes through 2026-05-04. Marquee discovery is Rain — yesterday's Mastercard principal-member announcement plus $250M Series C in Jan creates the strongest post-funding comms-build signal of the month. Stablecoin/payments PR is the hottest sub-sector — three of three leads sit in stablecoin/crypto-payments/payment-network space, continuing the BVNK/Coinbase Base/Robinhood Crypto pattern. Crypto fluency is now the gating skill for the most actionable leads.",
+  "leads": [
+    {
+      "name": "Rain",
+      "website": "https://www.rain.xyz",
+      "pipeline": "pr-freelance",
+      "industry": "Enterprise stablecoin payments infrastructure — issues stablecoin cards and on-chain settlement rails for institutional customers (Western Union, Nuvei, KAST, +200 partners)",
+      "location": "New York, NY (HQ) — distributed",
+      "fundingStage": "$250M Series C Jan 2026 led by ICONIQ at $1.95B valuation; $338M total raised; backers Sapphire, Dragonfly, Bessemer, Galaxy Ventures, Lightspeed, Norwest, FirstMark, Endeavor Catalyst",
+      "fitScore": 47,
+      "intentScore": 36,
+      "fitDetails": {
+        "pr_remit": 13,
+        "sector_fit": 10,
+        "workstream": 10,
+        "buyer_quality": 9,
+        "comp_credible": 5
+      },
+      "intentDetails": {
+        "engagement_model": 7,
+        "remote_flex": 6,
+        "recency": 10,
+        "urgency": 10,
+        "apply_path": 3
+      },
+      "contacts": [
+        {
+          "name": "Rain CEO / Founders",
+          "title": "Direct LinkedIn target — verify exact CEO name; small enough team that 1-2 connection hops should land",
+          "linkedin": "tbd"
+        },
+        {
+          "name": "Rain Head of Marketing / Comms",
+          "title": "Comms-function owner during current Mastercard announcement cycle",
+          "linkedin": "tbd"
+        },
+        {
+          "name": "Rain Incumbent PR Agency",
+          "title": "Identify via Mastercard partnership press release and Series C announcement boilerplate — pitch on overflow",
+          "email": "tbd"
+        }
+      ],
+      "signals": [
+        "mastercard_principal_member_announcement_5_4_2026_tier1_news_cycle_active",
+        "series_c_250m_iconiq_led_jan_2026_post_funding_comms_build_window_open",
+        "1_95b_valuation_budget_for_senior_retainer_engagement",
+        "stablecoin_payments_fintech_sweet_spot_for_mark",
+        "no_senior_pr_role_publicly_posted_freelance_door_open",
+        "tier1_press_pickup_fortune_theblock_finextra_yahoo_blockonomi"
+      ],
+      "source": "https://fortune.com/2026/05/04/mastercard-rain-stablecoin-startup-institutional-customers-partnership/",
+      "notes": "Combined 83 (A grade) — TOP LEAD of the week and strongest post-funding comms-build signal of the month. Rain (1) closed $250M Series C four months ago — Mark's signal #4 still in active window; (2) yesterday — May 4, 2026 — became Mastercard Principal Member and announced co-issued stablecoin cards. Tier-1 announcement cycle dropping into a function with marketing roles posted but no senior PR/comms role visible — capacity gap is real. Sector bullseye: stablecoins + cards + institutional payments + Mastercard rail. Pitch THIS WEEK — 5-day window before news cycle moves on. Two-track: (1) direct LinkedIn note to CEO + Head of Marketing offering 90-day fixed retainer for tier-1 media seeding (Bloomberg/WSJ/FT/The Block/Fortune) plus exec thought leadership and follow-on launch cycles, no logo credit; (2) parallel-pitch incumbent agency (identify via Mastercard partnership press boilerplate) on overflow capacity. Realistic retainer $15-25K/month for 60-90 days. CRITICAL RISK: same crypto fluency bar as BVNK/Coinbase Base/Tether/Offchain Labs — Mark must explain stablecoin reserves, on-chain settlement, card-network principal membership, and institutional-vs-retail crypto split in 5 minutes. If yes, push hard NOW. If no, skip — not a learn-on-the-job lead."
+    },
+    {
+      "name": "Tether",
+      "website": "https://tether.io",
+      "pipeline": "pr-freelance",
+      "industry": "Stablecoin issuer — USDT (largest stablecoin by market cap); expanding into AI/Web3 ecosystem (WDK, QVAC, Hadron, Keet, Holepunch)",
+      "location": "100% Remote (US-eligible)",
+      "fundingStage": "Profitable private company; multi-billion-dollar reserves; strategic ecosystem expansion underway",
+      "fitScore": 47,
+      "intentScore": 29,
+      "fitDetails": {
+        "pr_remit": 15,
+        "sector_fit": 10,
+        "workstream": 9,
+        "buyer_quality": 8,
+        "comp_credible": 5
+      },
+      "intentDetails": {
+        "engagement_model": 4,
+        "remote_flex": 9,
+        "recency": 5,
+        "urgency": 7,
+        "apply_path": 4
+      },
+      "contacts": [
+        {
+          "name": "Tether CMO / Head of Communications",
+          "title": "Direct LinkedIn target — search 'Tether communications' on LinkedIn to identify",
+          "linkedin": "tbd"
+        }
+      ],
+      "signals": [
+        "pr_manager_product_communications_search_open_active",
+        "salary_band_112k_144k_credible_senior_ic_tier",
+        "100_remote_us_eligible",
+        "stablecoin_market_leader_usdt",
+        "ai_web3_ecosystem_expansion_workstream_wdk_qvac_hadron_keet_holepunch",
+        "5_8_years_pr_experience_required_senior_level"
+      ],
+      "source": "https://himalayas.app/companies/tether-operations-limited/jobs/pr-manager-product-communications-100-remote",
+      "notes": "Combined 76 (B grade). Tether is searching for a PR Manager (Product Communications) covering its product/AI ecosystem (WDK, QVAC, Hadron, Keet, Holepunch). JD calls for 5-8 years PR/product comms with crypto/AI/frontier tech exposure. Senior IC seat, NOT a Head of role — but it's a credible interim-during-search target: Tether's product-and-ecosystem narrative is sprawling and the role being open and posted at $112-144K full salary suggests current capacity gap. Sector is hottest part of Mark's Rolodex (payments/stablecoins/regulatory). Compensation tier confirms budget for senior PR work. 100% remote removes geographic friction. Pitch interim coverage during search, NOT candidacy: 'While you run the PR Manager search (12-16 weeks for crypto-fluent senior PR), I can carry product-launch comms and tier-1 media seeding across WDK/Hadron/Keet on a 60-90 day interim. Not a candidate, no logo credit, hand off cleanly.' Direct LinkedIn outreach to CMO/Head of Comms; Tether is famously inaccessible — warm intro through crypto-fintech press contact strongly preferred. Realistic retainer $12-18K/month for 60-90 days. RISK: Tether's institutional reputation is polarizing — some outlets won't take Tether-pitched stories on principle. Mark needs to be comfortable with that posture and have a Rolodex of editors who DO take Tether stories (The Block, CoinDesk, Bloomberg crypto desk, FT crypto desk). If Mark's PR reputation is built on conservative blue-chip clients only, brand mismatch."
+    },
+    {
+      "name": "Capital One (Discover Network)",
+      "website": "https://www.capitalonecareers.com",
+      "pipeline": "pr-freelance",
+      "industry": "Financial services / payments — Capital One closed Discover acquisition 2025; building out Discover Network as global payments rail competing with Visa/Mastercard",
+      "location": "McLean, VA / Plano, TX / Richmond, VA (in-person expected; remote-flex unclear)",
+      "fundingStage": "Public company (NYSE: COF); Discover acquisition closed 2025",
+      "fitScore": 47,
+      "intentScore": 25,
+      "fitDetails": {
+        "pr_remit": 14,
+        "sector_fit": 10,
+        "workstream": 9,
+        "buyer_quality": 9,
+        "comp_credible": 5
+      },
+      "intentDetails": {
+        "engagement_model": 3,
+        "remote_flex": 4,
+        "recency": 8,
+        "urgency": 7,
+        "apply_path": 3
+      },
+      "contacts": [
+        {
+          "name": "Capital One VP External Communications, Discover Network business unit",
+          "title": "Hiring manager / sponsor for Director Corporate Communications, Global Payment Network — identify via LinkedIn search 'Capital One communications' + 'Discover Network'",
+          "linkedin": "tbd"
+        }
+      ],
+      "signals": [
+        "director_corporate_communications_search_open_posted_2026_04_03",
+        "9_plus_years_pr_required_senior_level",
+        "post_discover_acquisition_narrative_window_active",
+        "global_payment_network_third_us_payment_rail_buildout",
+        "fortune_100_buyer_quality_high",
+        "issuer_bank_acquisition_narrative_specialized_workstream"
+      ],
+      "source": "https://www.capitalonecareers.com/job/mclean/director-corporate-communications-global-payment-network/1732/93535934624",
+      "notes": "Combined 72 (B grade). Posted April 3, 2026 — Director, Corporate Communications role specifically for Discover Network business unit. Calls for 9+ years PR/comms in financial services or technology — direct match for Mark's profile. Discover Network narrative is fresh multi-year post-acquisition story: building third major US payment rail, displacing share from Visa/Mastercard, courting issuer banks, regulatory framing of network competition. Exactly the multi-stakeholder financial-comms work Mark does. CATCH: Fortune 100 in-house seat, not fractional or freelance. Realistic angle is interim coverage if search stretches past 90 days OR specialized B2B/issuer-bank narrative workstream Capital One Enterprise Comms team isn't staffed for. Single shot, low-probability, worth ONE well-targeted email. Target VP External Communications (Discover Network business unit) via LinkedIn. Frame: 'Fractional senior coverage during search, specifically on issuer-bank acquisition narrative and regulatory framing of network competition. 90-day interim, no candidate conflict.' Probability of fractional engagement is low — Capital One has mature Enterprise Comms function and almost certainly agency of record (likely Edelman or Brunswick at this scale). But if search stretches past Q3 and there's an issuer-bank announcement cycle in window, door cracks open. Realistic retainer if it lands: $20-30K/month for 90 days; more likely specialized project engagement at $40-60K total. RISK: Mark must NOT pitch as competing with agency-of-record. Pitch as supplemental capacity for specific business-unit narrative too new/sub-vertical for corporate agency to cover deeply. No payment-network or issuer-bank reference story = skip."
+    }
+  ]
+}
