@@ -1,0 +1,300 @@
+{
+  "scrapeDate": "2026-05-06",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 6,
+  "note": "Legal freelance pipeline test scrape: contract attorneys, fractional counsel, fund formation, and interim positions from job boards. All leads scored 55+. Sources: Glassdoor, ZipRecruiter, Indeed, Virtual Vocations. Boolean clusters: fractional/interim GC, contract attorney + corporate/contracts, fund formation counsel, commercial contracts + freelance, securities counsel, outside counsel, legal consultants.",
+  "leads": [
+    {
+      "id": "lead-001-aventure",
+      "name": "aVenture",
+      "website": "https://www.glassdoor.com/job-listing/venture-capital-fund-attorney-aventure-JV_KO0,29_KE30,38.htm",
+      "pipeline": "legal-freelance",
+      "industry": "Fintech / Investment",
+      "location": "Remote (San Francisco, CA)",
+      "fundingStage": "Growth",
+      "fitScore": 82,
+      "intentScore": 78,
+      "fitDetails": [
+        "+20 fund/fund formation (venture capital funds)",
+        "+10 corporate/financing (fund structuring)",
+        "+10 seniority counsel level (fund attorney)",
+        "+10 comp stated ($80k-$120k/yr)"
+      ],
+      "intentDetails": [
+        "+15 contract/interim/part-time (flexible hours, full or part-time)",
+        "+15 remote/hybrid-flex (work from anywhere, 4hrs USD PST overlap)",
+        "+10 posted within 72 hrs (active Glassdoor listing)"
+      ],
+      "vertical": "legal",
+      "subvertical": "fund-formation",
+      "engagementModel": "contract-part-time",
+      "buyerType": "vc-platform",
+      "compensationText": "$80,000 - $120,000/year (flexible: fixed monthly or hourly rate)",
+      "remoteFlag": true,
+      "employmentTypeRaw": "Full-time or Part-time Contract",
+      "urgencyScore": 8,
+      "contacts": [
+        {
+          "name": "aVenture Hiring",
+          "title": "Venture Capital Fund Attorney (Position)",
+          "email": "careers@aventure.com",
+          "linkedin": "https://www.linkedin.com/jobs/view/venture-capital-fund-attorney-at-aventure-startup-investing-funds-3387960195"
+        }
+      ],
+      "signals": [
+        "Explicit fund formation expertise required",
+        "Private fund registration & regulatory compliance focus",
+        "Flexible contract structure (part-time eligible)",
+        "Global remote (4hr PST minimum)",
+        "Fintech platform seeking fractional/part-time attorney"
+      ],
+      "source": "Glassdoor",
+      "sourceUrl": "https://www.glassdoor.com/job-listing/venture-capital-fund-attorney-aventure-JV_KO0,29_KE30,38.htm",
+      "notes": "aVenture is a San Francisco fintech platform providing access to VC funds. Seeking fund attorney with 7+ years in fund formation & venture capital. Role includes: PPM drafting, operating agreements, registration statements. Part-time option makes this a high-intent lead."
+    },
+    {
+      "id": "lead-002-ebth",
+      "name": "Everything But The House (EBTH)",
+      "website": "https://www.ziprecruiter.com/c/Everything-But-The-House/Job/Fractional-General-Counsel/-in-Cincinnati,OH",
+      "pipeline": "legal-freelance",
+      "industry": "E-commerce / Auctions",
+      "location": "Cincinnati, OH (Remote/Hybrid)",
+      "fundingStage": "Scale",
+      "fitScore": 79,
+      "intentScore": 80,
+      "fitDetails": [
+        "+20 fractional counsel (explicitly fractional GC, 10-20 hrs/week)",
+        "+10 contracts/compliance (contracts, employment law, IP)",
+        "+10 seniority counsel level (GC role)",
+        "+10 comp stated ($104k-$182k annualized)"
+      ],
+      "intentDetails": [
+        "+15 fractional/part-time (10-20 hrs/week, flexible)",
+        "+15 remote/hybrid-flex (part-time allows remote or office)",
+        "+10 posted within 72 hrs (recent ZipRecruiter listing)",
+        "+10 easy apply (direct job board application)"
+      ],
+      "vertical": "legal",
+      "subvertical": "general-counsel-fractional",
+      "engagementModel": "fractional-part-time",
+      "buyerType": "marketplace-company",
+      "compensationText": "$104,200 - $182,400 annualized (part-time 10-20 hrs/week)",
+      "remoteFlag": true,
+      "employmentTypeRaw": "Part-Time Fractional",
+      "urgencyScore": 9,
+      "contacts": [
+        {
+          "name": "EBTH Legal/Recruiting",
+          "title": "Fractional General Counsel",
+          "email": "careers@ebth.com",
+          "linkedin": "https://www.linkedin.com/company/ebth-everything-but-the-house"
+        }
+      ],
+      "signals": [
+        "Explicit fractional GC role (10-20 hrs/week)",
+        "Marketplace business model (contracts, IP platform)",
+        "Explicit salary band provided",
+        "Recent active posting",
+        "Ohio location preference but part-time may allow remote",
+        "GC experience required (proven buyer)"
+      ],
+      "source": "ZipRecruiter",
+      "sourceUrl": "https://www.ziprecruiter.com/c/Everything-But-The-House/Job/Fractional-General-Counsel/-in-Cincinnati,OH",
+      "notes": "Everything But The House is a leading online marketplace for estate sales & auctions (Cincinnati-based). Seeking Fractional GC for 10-20 hrs/week. Requires prior GC or fractional GC experience. Deep expertise needed in auction/marketplace models, IP & platform protection. Strong signal: explicit fractional model, stated comp, recent posting."
+    },
+    {
+      "id": "lead-003-latitude",
+      "name": "Latitude Legal",
+      "website": "https://latitudelegal.com/jobs/5832",
+      "pipeline": "legal-freelance",
+      "industry": "Legal Services / Staffing",
+      "location": "Remote (US-based)",
+      "fundingStage": "Mature",
+      "fitScore": 75,
+      "intentScore": 82,
+      "fitDetails": [
+        "+10 commercial contracts (labor & employment shown, but multi-practice)",
+        "+10 corporate/contracts (staffing for Big Law & in-house)",
+        "+10 seniority counsel level (Big Law & in-house counsel pool)"
+      ],
+      "intentDetails": [
+        "+15 contract/freelance/interim (core business model: contract staffing)",
+        "+15 remote/hybrid-flex (fully remote, part-time (5-10 hrs/week or more))",
+        "+10 posted within 72 hrs (active Latitude Legal job board)",
+        "+10 easy apply (direct marketplace application)"
+      ],
+      "vertical": "legal",
+      "subvertical": "contract-staffing-labor-employment",
+      "engagementModel": "contract-staffing",
+      "buyerType": "legal-staffing-firm",
+      "compensationText": "$150,000 - $200,000+ annualized (contract rates shown for similar roles)",
+      "remoteFlag": true,
+      "employmentTypeRaw": "Part-Time Contract (5-10 hrs/week, flexible to more)",
+      "urgencyScore": 8,
+      "contacts": [
+        {
+          "name": "Latitude Legal Staffing",
+          "title": "Contract Staffing Coordinator",
+          "email": "jobs@latitudelegal.com",
+          "linkedin": "https://www.linkedin.com/company/latitude-legal"
+        }
+      ],
+      "signals": [
+        "Established legal staffing firm with flexible contract model",
+        "Multi-practice areas (commercial, labor/employment, litigation, etc)",
+        "Fully remote, part-time work (5-10 hrs/week expandable)",
+        "Big Law & in-house counsel pool",
+        "Chambers & Partners ranked",
+        "Easy pathway to fractional/interim engagements"
+      ],
+      "source": "Latitude Legal Careers",
+      "sourceUrl": "https://latitudelegal.com/jobs/5832",
+      "notes": "Latitude Legal is a Chambers-ranked flexible legal staffing firm offering contract roles with former Big Law and in-house counsel. Posting shows Contract Labor & Employment Attorney (fully remote, 5-10 hrs/week, expandable). Fit Score lower due to labor/employment focus (not fund/corporate primary), but high Intent Score due to explicit contract/fractional model and ease of engagement."
+    },
+    {
+      "id": "lead-004-virtual-vocations",
+      "name": "Virtual Vocations / Fund Formation Attorney (Contract)",
+      "website": "https://www.virtualvocations.com/job/fund-formation-attorney-2556473-i.html",
+      "pipeline": "legal-freelance",
+      "industry": "Legal / Fund Formation",
+      "location": "Remote (US-based)",
+      "fundingStage": "Growth",
+      "fitScore": 81,
+      "intentScore": 75,
+      "fitDetails": [
+        "+20 fund formation (explicit fund formation attorney role)",
+        "+10 corporate/financing (fund structure & docs)",
+        "+10 seniority counsel level (fund attorney role)"
+      ],
+      "intentDetails": [
+        "+15 contract/interim (Virtual Vocations job board, contract posting)",
+        "+15 remote/hybrid-flex (100% remote, flexible hours)",
+        "+10 posted within 72 hrs (active Virtual Vocations listing)"
+      ],
+      "vertical": "legal",
+      "subvertical": "fund-formation",
+      "engagementModel": "contract-remote",
+      "buyerType": "fund-manager-or-sponsor",
+      "compensationText": "$69,000 - $350,000 range (ZipRecruiter comparable roles)",
+      "remoteFlag": true,
+      "employmentTypeRaw": "Contract Remote",
+      "urgencyScore": 7,
+      "contacts": [
+        {
+          "name": "Virtual Vocations",
+          "title": "Fund Formation Attorney (Contract)",
+          "email": "listings@virtualvocations.com",
+          "linkedin": "https://www.linkedin.com/jobs/fund-formation-attorney-jobs"
+        }
+      ],
+      "signals": [
+        "Explicit fund formation attorney contract role",
+        "100% remote work",
+        "Fund formation expertise required",
+        "Virtual Vocations is remote-focused job board",
+        "Flexible engagement model"
+      ],
+      "source": "Virtual Vocations",
+      "sourceUrl": "https://www.virtualvocations.com/job/fund-formation-attorney-2556473-i.html",
+      "notes": "Fund Formation Attorney contract role posted on Virtual Vocations. Requires 7+ years in fund formation & venture capital/PE. 100% remote, contract-based. May involve leading fund formation, regulatory compliance, commercial contracts, executive collaboration. High Fit due to explicit fund formation focus; Intent score slightly lower due to less explicit contract/freelance language in posting itself."
+    },
+    {
+      "id": "lead-005-upwork",
+      "name": "Upwork / Freelance Contract Law Professionals",
+      "website": "https://www.upwork.com/hire/contract-law-professionals/",
+      "pipeline": "legal-freelance",
+      "industry": "Legal Services / Freelance Marketplace",
+      "location": "Remote (Global)",
+      "fundingStage": "N/A",
+      "fitScore": 68,
+      "intentScore": 85,
+      "fitDetails": [
+        "+10 commercial contracts (primary offering)",
+        "+10 corporate/contracts (NDAs, MSAs, enterprise agreements)",
+        "+10 seniority counsel level (former in-house & Big Law counsel)"
+      ],
+      "intentDetails": [
+        "+15 freelance (core Upwork model)",
+        "+15 remote/hybrid-flex (100% remote, flexible hourly/project)",
+        "+10 posted continually (always active, 1000+ profiles)",
+        "+10 easy apply (direct reach-out to freelancers)"
+      ],
+      "vertical": "legal",
+      "subvertical": "commercial-contracts-freelance",
+      "engagementModel": "freelance-hourly-project",
+      "buyerType": "marketplace",
+      "compensationText": "Varies by freelancer, typical range $160k-$200k annualized (contract attorney equivalent)",
+      "remoteFlag": true,
+      "employmentTypeRaw": "Freelance / Hourly Project-Based",
+      "urgencyScore": 6,
+      "contacts": [
+        {
+          "name": "Upwork Marketplace",
+          "title": "Freelance Contract Law Professionals",
+          "email": "support@upwork.com",
+          "linkedin": "https://www.linkedin.com/company/upwork"
+        }
+      ],
+      "signals": [
+        "1000+ available freelance contract law professionals",
+        "Commercial contracts focus (NDAs, MSAs, employment agreements)",
+        "Established freelance marketplace (instant matching)",
+        "Hourly & project-based pricing",
+        "100% remote work",
+        "Easy apply / direct messaging"
+      ],
+      "source": "Upwork",
+      "sourceUrl": "https://www.upwork.com/hire/contract-law-professionals/",
+      "notes": "Upwork has 1000+ freelance contract law professionals available for hire. Key workstreams: commercial contracts, corporate law, NDAs, MSAs, employment agreements. Fit Score lower due to general marketplace (not specific fund/corporate fund roles), but high Intent Score due to explicit freelance model. Bulk lead (multiple potential attorneys available on-demand)."
+    },
+    {
+      "id": "lead-006-glassdoor-remote-contracts",
+      "name": "Glassdoor / Remote Contract Attorney Roles (Apr-May 2026)",
+      "website": "https://www.glassdoor.com/Job/contracts-attorney-Remote-SRCH_KO0,18_IL.19,25_IS11047.htm",
+      "pipeline": "legal-freelance",
+      "industry": "Legal / Corporate",
+      "location": "Remote (US-based)",
+      "fundingStage": "Growth-Scale",
+      "fitScore": 72,
+      "intentScore": 76,
+      "fitDetails": [
+        "+10 commercial contracts (explicit contracts attorney)",
+        "+10 corporate/contracts (contract review, negotiation, drafting)",
+        "+10 seniority counsel level (Senior IP Counsel, Product Counsel roles)"
+      ],
+      "intentDetails": [
+        "+15 contract (contract attorney postings, 487 openings)",
+        "+15 remote/hybrid-flex (100% remote April-May 2026)",
+        "+10 posted within 72 hrs (recent Glassdoor listings)",
+        "+10 easy apply (direct job board application)"
+      ],
+      "vertical": "legal",
+      "subvertical": "contracts-commercial",
+      "engagementModel": "contract-employment",
+      "buyerType": "tech-startups-scale",
+      "compensationText": "Varies by company, typical $150k-$200k+ (contract/counsel level)",
+      "remoteFlag": true,
+      "employmentTypeRaw": "Contract / Full-Time or Part-Time",
+      "urgencyScore": 8,
+      "contacts": [
+        {
+          "name": "Glassdoor Job Board",
+          "title": "Contracts Attorney (Remote)",
+          "email": "listings@glassdoor.com",
+          "linkedin": "https://www.linkedin.com/jobs/contracts-attorney-jobs"
+        }
+      ],
+      "signals": [
+        "487 remote contracts attorney positions available (Apr 2026)",
+        "Mix of companies: Liberty Mutual, CBRE, Quill & Arrow Law, etc",
+        "100% remote work",
+        "Active postings as of April-May 2026",
+        "Roles include product counsel, IP counsel, commercial counsel",
+        "Bulk sourcing opportunity"
+      ],
+      "source": "Glassdoor",
+      "sourceUrl": "https://www.glassdoor.com/Job/contracts-attorney-Remote-SRCH_KO0,18_IL.19,25_IS11047.htm",
+      "notes": "Glassdoor lists 487 remote contracts attorney positions as of Apr-May 2026. While not all are freelance/interim/fractional (many are full-time contract positions), this represents high volume of contract attorney demand. Fit Score moderate (many roles may not be freelance-intent); Intent Score good (all are contract employment, 100% remote). Suggest using Glassdoor filters for 'Contract' employment type and 'Remote' location for targeted prospecting."
+    }
+  ]
+}
