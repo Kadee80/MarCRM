@@ -637,6 +637,8 @@ export default function AgencyCRM() {
   const [newMilestoneTitle, setNewMilestoneTitle] = useState("");
   const [editingNotes, setEditingNotes] = useState(false);
   const [notesText, setNotesText] = useState("");
+  const [editingPersonalNotes, setEditingPersonalNotes] = useState(false);
+  const [personalNotesText, setPersonalNotesText] = useState("");
   const [showAddCompany, setShowAddCompany] = useState(false);
   const [showAddContact, setShowAddContact] = useState(false);
   const [showScorecard, setShowScorecard] = useState(null);
@@ -869,6 +871,8 @@ export default function AgencyCRM() {
     setDrilldownTab("overview");
     setNotesText(company.notes || "");
     setEditingNotes(false);
+    setPersonalNotesText(company.personalNotes || "");
+    setEditingPersonalNotes(false);
     setNewTodoText("");
     setNewMilestoneTitle("");
     try {
@@ -935,6 +939,14 @@ export default function AgencyCRM() {
     setDrilldownCompany(prev => ({ ...prev, notes: notesText }));
     setCompanies(prev => prev.map(c => c.id === drilldownCompany.id ? { ...c, notes: notesText } : c));
     setEditingNotes(false);
+  };
+
+  const savePersonalNotes = async () => {
+    if (!drilldownCompany) return;
+    await api.updateCompany({ id: drilldownCompany.id, personalNotes: personalNotesText });
+    setDrilldownCompany(prev => ({ ...prev, personalNotes: personalNotesText }));
+    setCompanies(prev => prev.map(c => c.id === drilldownCompany.id ? { ...c, personalNotes: personalNotesText } : c));
+    setEditingPersonalNotes(false);
   };
 
   // ─── Contact drill-down (full page) ────────────────────────────────
@@ -2728,6 +2740,28 @@ export default function AgencyCRM() {
                 <div className="bg-gray-50 rounded-lg p-3"><span className="text-xs text-gray-500 block">Funding</span><span className="font-medium text-gray-900">{c.fundingStage || "—"}</span></div>
                 <div className="bg-gray-50 rounded-lg p-3"><span className="text-xs text-gray-500 block">Source</span><span className="font-medium text-gray-900">{c.source}</span></div>
               </div>
+            </div>
+
+            {/* Personal / Relationship Notes */}
+            <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-5 space-y-3">
+              <div className="flex items-center justify-between">
+                <h3 className="text-sm font-semibold text-gray-900">Quick Notes</h3>
+                {editingPersonalNotes ? (
+                  <div className="flex items-center gap-2">
+                    <button onClick={() => { setPersonalNotesText(c.personalNotes || ""); setEditingPersonalNotes(false); }} className="text-xs text-gray-500 hover:text-gray-700">Cancel</button>
+                    <button onClick={savePersonalNotes} className="flex items-center gap-1 text-xs text-indigo-600 font-medium hover:text-indigo-700"><Save size={12} /> Save</button>
+                  </div>
+                ) : (
+                  <button onClick={() => setEditingPersonalNotes(true)} className="flex items-center gap-1 text-xs text-indigo-600 font-medium hover:text-indigo-700"><Edit3 size={12} /> Edit</button>
+                )}
+              </div>
+              {editingPersonalNotes ? (
+                <textarea value={personalNotesText} onChange={e => setPersonalNotesText(e.target.value)} rows={3} className="w-full px-3 py-2 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 resize-y" placeholder="Jets fan, lives in Jersey, prefers email..." />
+              ) : (
+                <div className="text-sm text-gray-700 bg-gray-50 rounded-lg p-3 min-h-[48px] whitespace-pre-wrap">
+                  {c.personalNotes || <span className="text-gray-400 italic">Add personal details, preferences, conversation starters...</span>}
+                </div>
+              )}
             </div>
 
             {/* Contacts */}

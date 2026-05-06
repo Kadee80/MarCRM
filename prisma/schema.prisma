@@ -28,6 +28,7 @@ model Company {
   intentDetails String    @default("{}") // JSON object
   starred       Boolean   @default(false)
   notes         String    @default("")
+  personalNotes String    @default("") // relationship notes: "jets fan, lives in jersey"
   source        String    @default("Manual")
   lastActivity  String    @default("")
   contacts      Contact[]
