@@ -32,6 +32,8 @@ model Company {
   lastActivity  String    @default("")
   contacts      Contact[]
   engagements   Engagement[]
+  todos         Todo[]
+  milestones    Milestone[]
   createdAt     DateTime  @default(now())
   updatedAt     DateTime  @updatedAt
 }
@@ -61,6 +63,28 @@ model Engagement {
   company   Company? @relation(fields: [companyId], references: [id], onDelete: Cascade)
   companyId Int?
   createdAt DateTime @default(now())
+}
+
+model Todo {
+  id        Int      @id @default(autoincrement())
+  text      String
+  completed Boolean  @default(false)
+  company   Company  @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  companyId Int
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Milestone {
+  id        Int      @id @default(autoincrement())
+  title     String
+  status    String   @default("planned") // planned | in-progress | done
+  notes     String   @default("")
+  company   Company  @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  companyId Int
+  sortOrder Int      @default(0)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 }
 
 model ScrapeResult {

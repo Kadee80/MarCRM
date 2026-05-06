@@ -3,10 +3,10 @@ import { useState, useEffect, useMemo, useCallback } from "react";
 import {
   Search, Plus, Building2, Users, Target, Globe, BarChart3, ChevronRight, X, Check,
   Loader2, Star, StarOff, ArrowUpDown, ExternalLink, Trash2, Mail, Phone,
-  Briefcase, Database, ChevronDown, ChevronUp, Zap,
-  UserCheck, Link2, AlertCircle, Activity,
+  Briefcase, Database, ChevronDown, ChevronUp, Zap, MapPin,
+  UserCheck, Link2, AlertCircle, Activity, ArrowLeft, Circle, CheckCircle2,
   Megaphone, Scale, BookOpen, Cpu, Video, FileText, Award, Landmark,
-  MessageSquare, PhoneCall, Calendar, Save, Columns
+  MessageSquare, PhoneCall, Calendar, Save, Columns, Edit3, Flag
 } from "lucide-react";
 
 /* ═══════════════════════════════════════════════════════════════════════════
@@ -78,6 +78,36 @@ const api = {
   async deleteEngagement(id) {
     await fetch(`/api/engagements?id=${id}`, { method: "DELETE" });
   },
+  async getTodos(companyId) {
+    const res = await fetch(`/api/todos?companyId=${companyId}`);
+    return res.json();
+  },
+  async createTodo(data) {
+    const res = await fetch("/api/todos", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(data) });
+    return res.json();
+  },
+  async updateTodo(data) {
+    const res = await fetch("/api/todos", { method: "PUT", headers: { "Content-Type": "application/json" }, body: JSON.stringify(data) });
+    return res.json();
+  },
+  async deleteTodo(id) {
+    await fetch(`/api/todos?id=${id}`, { method: "DELETE" });
+  },
+  async getMilestones(companyId) {
+    const res = await fetch(`/api/milestones?companyId=${companyId}`);
+    return res.json();
+  },
+  async createMilestone(data) {
+    const res = await fetch("/api/milestones", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(data) });
+    return res.json();
+  },
+  async updateMilestone(data) {
+    const res = await fetch("/api/milestones", { method: "PUT", headers: { "Content-Type": "application/json" }, body: JSON.stringify(data) });
+    return res.json();
+  },
+  async deleteMilestone(id) {
+    await fetch(`/api/milestones?id=${id}`, { method: "DELETE" });
+  },
 };
 
 /* ═══════════════════════════════════════════════════════════════════════════
@@ -100,7 +130,7 @@ const PIPELINES = [
   { id: "legal-freelance", label: "Legal Freelance Work", short: "Legal Freelance", icon: Briefcase, color: "slate",
     description: "Contract / fractional / interim corporate & fund counsel roles for Katie" },
   { id: "pr-freelance", label: "PR Freelance Work", short: "PR Freelance", icon: MessageSquare, color: "teal",
-    description: "Outsourced PR/comms execution + strategic advisory contracts for Katie" },
+    description: "Companies hiring PR/comms roles — fractional, freelance, or contract opportunities" },
 ];
 
 const PIPELINE_MAP = Object.fromEntries(PIPELINES.map(p => [p.id, p]));
@@ -595,6 +625,18 @@ export default function AgencyCRM() {
   const [sortDir, setSortDir] = useState("desc");
   const [starredOnly, setStarredOnly] = useState(false);
   const [selectedCompany, setSelectedCompany] = useState(null);
+
+  // Drill-down page state
+  const [drilldownCompany, setDrilldownCompany] = useState(null);
+  const [drilldownContact, setDrilldownContact] = useState(null);
+  const [drilldownTodos, setDrilldownTodos] = useState([]);
+  const [drilldownMilestones, setDrilldownMilestones] = useState([]);
+  const [drilldownEngagements, setDrilldownEngagements] = useState([]);
+  const [drilldownTab, setDrilldownTab] = useState("overview");
+  const [newTodoText, setNewTodoText] = useState("");
+  const [newMilestoneTitle, setNewMilestoneTitle] = useState("");
+  const [editingNotes, setEditingNotes] = useState(false);
+  const [notesText, setNotesText] = useState("");
   const [showAddCompany, setShowAddCompany] = useState(false);
   const [showAddContact, setShowAddContact] = useState(false);
   const [showScorecard, setShowScorecard] = useState(null);
@@ -821,6 +863,99 @@ export default function AgencyCRM() {
     }
   };
 
+  // ─── Company drill-down ────────────────────────────────────────────
+  const openCompanyDrilldown = async (company) => {
+    setDrilldownCompany(company);
+    setDrilldownTab("overview");
+    setNotesText(company.notes || "");
+    setEditingNotes(false);
+    setNewTodoText("");
+    setNewMilestoneTitle("");
+    try {
+      const [todos, milestones, engs] = await Promise.all([
+        api.getTodos(company.id),
+        api.getMilestones(company.id),
+        api.getEngagements({ companyId: String(company.id) }),
+      ]);
+      setDrilldownTodos(todos);
+      setDrilldownMilestones(milestones);
+      setDrilldownEngagements(engs);
+    } catch {
+      setDrilldownTodos([]);
+      setDrilldownMilestones([]);
+      setDrilldownEngagements([]);
+    }
+  };
+
+  const closeCompanyDrilldown = () => {
+    setDrilldownCompany(null);
+    setDrilldownTodos([]);
+    setDrilldownMilestones([]);
+    setDrilldownEngagements([]);
+  };
+
+  const addTodo = async () => {
+    if (!newTodoText.trim() || !drilldownCompany) return;
+    const todo = await api.createTodo({ text: newTodoText, companyId: drilldownCompany.id });
+    setDrilldownTodos(prev => [todo, ...prev]);
+    setNewTodoText("");
+  };
+
+  const toggleTodo = async (todo) => {
+    const updated = await api.updateTodo({ id: todo.id, completed: !todo.completed });
+    setDrilldownTodos(prev => prev.map(t => t.id === todo.id ? updated : t));
+  };
+
+  const deleteTodo = async (id) => {
+    await api.deleteTodo(id);
+    setDrilldownTodos(prev => prev.filter(t => t.id !== id));
+  };
+
+  const addMilestone = async () => {
+    if (!newMilestoneTitle.trim() || !drilldownCompany) return;
+    const ms = await api.createMilestone({ title: newMilestoneTitle, companyId: drilldownCompany.id });
+    setDrilldownMilestones(prev => [...prev, ms]);
+    setNewMilestoneTitle("");
+  };
+
+  const cycleMilestoneStatus = async (ms) => {
+    const next = ms.status === "planned" ? "in-progress" : ms.status === "in-progress" ? "done" : "planned";
+    const updated = await api.updateMilestone({ id: ms.id, status: next });
+    setDrilldownMilestones(prev => prev.map(m => m.id === ms.id ? updated : m));
+  };
+
+  const deleteMilestone = async (id) => {
+    await api.deleteMilestone(id);
+    setDrilldownMilestones(prev => prev.filter(m => m.id !== id));
+  };
+
+  const saveCompanyNotes = async () => {
+    if (!drilldownCompany) return;
+    await api.updateCompany({ id: drilldownCompany.id, notes: notesText });
+    setDrilldownCompany(prev => ({ ...prev, notes: notesText }));
+    setCompanies(prev => prev.map(c => c.id === drilldownCompany.id ? { ...c, notes: notesText } : c));
+    setEditingNotes(false);
+  };
+
+  // ─── Contact drill-down (full page) ────────────────────────────────
+  const openContactDrilldown = async (contact) => {
+    const company = companies.find(c => c.id === contact.companyId);
+    setDrilldownContact({ ...contact, _company: company });
+    setEditingContact({ name: contact.name, title: contact.title, email: contact.email, phone: contact.phone, linkedin: contact.linkedin });
+    setDrilldownTab("overview");
+    try {
+      const engs = await api.getEngagements({ contactId: String(contact.id) });
+      setSidebarEngagements(engs);
+    } catch { setSidebarEngagements([]); }
+  };
+
+  const closeContactDrilldown = () => {
+    setDrilldownContact(null);
+    setEditingContact(null);
+    setSidebarEngagements([]);
+    setNewEngagement({ type: "note", notes: "" });
+  };
+
   // ─── Contact sidebar ──────────────────────────────────────────────
   const openContactSidebar = async (contact) => {
     setSidebarContact(contact);
@@ -986,7 +1121,7 @@ export default function AgencyCRM() {
           ) : (
             <div className="space-y-2">
               {companies.filter(c => totalScore(c) >= 80).sort((a, b) => totalScore(b) - totalScore(a)).slice(0, 8).map(c => (
-                <div key={c.id} className="flex items-center justify-between py-2 px-3 rounded-lg hover:bg-gray-50 cursor-pointer" onClick={() => { setSelectedCompany(c); setPage("companies"); }}>
+                <div key={c.id} className="flex items-center justify-between py-2 px-3 rounded-lg hover:bg-gray-50 cursor-pointer" onClick={() => { openCompanyDrilldown(c); setPage("companies"); }}>
                   <div className="flex items-center gap-3">
                     <div className="w-8 h-8 rounded-lg bg-indigo-100 flex items-center justify-center text-xs font-bold text-indigo-600">{c.name.charAt(0)}</div>
                     <div>
@@ -1117,7 +1252,7 @@ export default function AgencyCRM() {
                 const score = totalScore(c);
                 const pri = getPriority(score);
                 return (
-                  <tr key={c.id} className="border-b border-gray-50 hover:bg-gray-50/50 cursor-pointer" onClick={() => setSelectedCompany(c)}>
+                  <tr key={c.id} className="border-b border-gray-50 hover:bg-gray-50/50 cursor-pointer" onClick={() => openCompanyDrilldown(c)}>
                     <td className="px-3 py-3" onClick={e => { e.stopPropagation(); toggleStar(c.id); }}>
                       {c.starred ? <Star size={15} className="text-amber-400 fill-amber-400" /> : <StarOff size={15} className="text-gray-300 hover:text-amber-300" />}
                     </td>
@@ -1475,7 +1610,7 @@ export default function AgencyCRM() {
                 const company = ct._company;
                 const hasContactInfo = ct.email || ct.phone;
                 return (
-                  <tr key={ct.id} className="border-b border-gray-50 hover:bg-gray-50/50 cursor-pointer" onClick={() => openContactSidebar(ct)}>
+                  <tr key={ct.id} className="border-b border-gray-50 hover:bg-gray-50/50 cursor-pointer" onClick={() => openContactDrilldown(ct)}>
                     <td className="px-4 py-3">
                       <div className="flex items-center gap-3">
                         <div className="w-8 h-8 rounded-full bg-indigo-100 flex items-center justify-center text-xs font-bold text-indigo-600 flex-shrink-0">{ct.name.split(" ").map(n => n[0]).join("")}</div>
@@ -2126,7 +2261,7 @@ export default function AgencyCRM() {
                     const pipe = PIPELINE_MAP[company.pipeline];
                     const cContacts = contacts.filter(ct => ct.companyId === company.id);
                     return (
-                      <div key={company.id} className="bg-white rounded-lg border border-gray-100 p-3 shadow-sm hover:shadow-md transition-shadow cursor-pointer" onClick={() => { setSelectedCompany(company); setPage("companies"); }}>
+                      <div key={company.id} className="bg-white rounded-lg border border-gray-100 p-3 shadow-sm hover:shadow-md transition-shadow cursor-pointer" onClick={() => { openCompanyDrilldown(company); setPage("companies"); }}>
                         <div className="flex items-start justify-between mb-1">
                           <h4 className="text-xs font-bold text-gray-900 leading-tight">{company.name}</h4>
                           <span className={`text-[10px] font-bold ${gradeColor}`}>{grade}·{score}</span>
@@ -2319,6 +2454,507 @@ export default function AgencyCRM() {
      NAVIGATION & LAYOUT
      ═══════════════════════════════════════════════════════════════════════ */
 
+  // ─── COMPANY DRILL-DOWN PAGE ──────────────────────────────────────
+  // ─── CONTACT DRILL-DOWN PAGE ──────────────────────────────────────
+  const renderContactDrilldown = () => {
+    if (!drilldownContact) return null;
+    const ct = drilldownContact;
+    const company = ct._company;
+
+    return (
+      <div className="space-y-6">
+        {/* Back button + header */}
+        <div>
+          <button onClick={closeContactDrilldown} className="flex items-center gap-1.5 text-sm text-gray-500 hover:text-indigo-600 mb-3">
+            <ArrowLeft size={16} /> Back to Contacts
+          </button>
+          <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-6">
+            <div className="flex items-start justify-between">
+              <div className="flex items-center gap-4">
+                <div className="w-14 h-14 rounded-full bg-indigo-100 flex items-center justify-center text-xl font-bold text-indigo-600">{ct.name.split(" ").map(n => n[0]).join("")}</div>
+                <div>
+                  <div className="flex items-center gap-2">
+                    <h1 className="text-2xl font-bold text-gray-900">{ct.name}</h1>
+                    {ct.decisionMaker && <Badge className="bg-amber-100 text-amber-700">DM</Badge>}
+                  </div>
+                  <p className="text-sm text-gray-500">{ct.title}</p>
+                  {company && (
+                    <button onClick={() => { closeContactDrilldown(); openCompanyDrilldown(company); }} className="text-sm text-indigo-600 hover:text-indigo-700 font-medium mt-0.5">
+                      {company.name} →
+                    </button>
+                  )}
+                </div>
+              </div>
+              <div className="flex items-center gap-3 text-sm">
+                {ct.email && <a href={`mailto:${ct.email}`} className="flex items-center gap-1.5 px-3 py-1.5 bg-blue-50 text-blue-700 rounded-lg hover:bg-blue-100"><Mail size={14} /> {ct.email}</a>}
+                {ct.phone && <a href={`tel:${ct.phone}`} className="flex items-center gap-1.5 px-3 py-1.5 bg-green-50 text-green-700 rounded-lg hover:bg-green-100"><Phone size={14} /> {ct.phone}</a>}
+                {ct.linkedin && <a href={ct.linkedin.startsWith("http") ? ct.linkedin : `https://${ct.linkedin}`} target="_blank" rel="noreferrer" className="flex items-center gap-1.5 px-3 py-1.5 bg-indigo-50 text-indigo-700 rounded-lg hover:bg-indigo-100"><Link2 size={14} /> LinkedIn</a>}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          {/* Editable contact info */}
+          <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-5 space-y-4">
+            <h3 className="text-sm font-semibold text-gray-900">Contact Details</h3>
+            <div className="space-y-3">
+              {["name", "title", "email", "phone", "linkedin"].map(field => (
+                <div key={field}>
+                  <label className="text-xs font-medium text-gray-500 uppercase block mb-1">{field}</label>
+                  <input type="text" value={editingContact?.[field] || ""} onChange={e => setEditingContact(prev => ({ ...prev, [field]: e.target.value }))} className="w-full px-3 py-2 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500" />
+                </div>
+              ))}
+              <button onClick={async () => {
+                if (!editingContact) return;
+                setSavingContact(true);
+                try {
+                  await api.updateContact({ id: ct.id, ...editingContact });
+                  setContacts(prev => prev.map(c => c.id === ct.id ? { ...c, ...editingContact } : c));
+                  setDrilldownContact(prev => ({ ...prev, ...editingContact }));
+                } catch (err) { console.error("Failed to save:", err); }
+                finally { setSavingContact(false); }
+              }} disabled={savingContact} className="flex items-center gap-1.5 px-4 py-2 bg-indigo-600 text-white text-sm font-medium rounded-lg hover:bg-indigo-700 disabled:opacity-50">
+                {savingContact ? <Loader2 size={14} className="animate-spin" /> : <Save size={14} />} Save Changes
+              </button>
+            </div>
+          </div>
+
+          {/* Company context */}
+          {company && (
+            <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-5 space-y-4">
+              <h3 className="text-sm font-semibold text-gray-900">Company</h3>
+              <div className="flex items-center gap-3 mb-3">
+                <div className="w-10 h-10 rounded-lg bg-indigo-100 flex items-center justify-center text-sm font-bold text-indigo-600">{company.name.charAt(0)}</div>
+                <div>
+                  <p className="text-sm font-medium text-gray-900">{company.name}</p>
+                  <div className="flex items-center gap-2 mt-0.5">
+                    <PipelineBadge pipelineId={company.pipeline} />
+                    <Badge className={STAGE_COLORS[company.stage]}>{company.stage}</Badge>
+                  </div>
+                </div>
+              </div>
+              <div className="grid grid-cols-2 gap-2 text-sm">
+                <div className="bg-gray-50 rounded-lg p-2"><span className="text-xs text-gray-500 block">Industry</span><span className="font-medium text-gray-900 text-xs">{company.industry || "—"}</span></div>
+                <div className="bg-gray-50 rounded-lg p-2"><span className="text-xs text-gray-500 block">Location</span><span className="font-medium text-gray-900 text-xs">{company.location || "—"}</span></div>
+                <div className="bg-gray-50 rounded-lg p-2"><span className="text-xs text-gray-500 block">Funding</span><span className="font-medium text-gray-900 text-xs">{company.fundingStage || "—"}</span></div>
+                <div className="bg-gray-50 rounded-lg p-2">
+                  <span className="text-xs text-gray-500 block">Score</span>
+                  <div className="flex items-center gap-1 mt-0.5">
+                    <ScoreBadge score={company.fitScore} label="F" />
+                    <ScoreBadge score={company.intentScore} label="I" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* Engagement timeline */}
+          <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-5 space-y-4 lg:col-span-2">
+            <h3 className="text-sm font-semibold text-gray-900">Engagement Timeline</h3>
+            {/* Add engagement */}
+            <div className="flex gap-2">
+              <select value={newEngagement.type} onChange={e => setNewEngagement(prev => ({ ...prev, type: e.target.value }))} className="px-3 py-2 border border-gray-200 rounded-lg text-sm bg-white">
+                <option value="note">Note</option>
+                <option value="email">Email</option>
+                <option value="call">Call</option>
+                <option value="meeting">Meeting</option>
+                <option value="linkedin">LinkedIn</option>
+                <option value="other">Other</option>
+              </select>
+              <input type="text" value={newEngagement.notes} onChange={e => setNewEngagement(prev => ({ ...prev, notes: e.target.value }))} placeholder="Add an engagement note..." className="flex-1 px-3 py-2 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500" onKeyDown={e => {
+                if (e.key === "Enter" && newEngagement.notes.trim()) {
+                  setSavingEngagement(true);
+                  api.createEngagement({
+                    type: newEngagement.type,
+                    notes: newEngagement.notes,
+                    contactId: ct.id,
+                    companyId: ct.companyId || null,
+                  }).then(eng => {
+                    setSidebarEngagements(prev => [eng, ...prev]);
+                    setNewEngagement({ type: "note", notes: "" });
+                  }).finally(() => setSavingEngagement(false));
+                }
+              }} />
+              <button onClick={() => {
+                if (!newEngagement.notes.trim()) return;
+                setSavingEngagement(true);
+                api.createEngagement({
+                  type: newEngagement.type,
+                  notes: newEngagement.notes,
+                  contactId: ct.id,
+                  companyId: ct.companyId || null,
+                }).then(eng => {
+                  setSidebarEngagements(prev => [eng, ...prev]);
+                  setNewEngagement({ type: "note", notes: "" });
+                }).finally(() => setSavingEngagement(false));
+              }} disabled={!newEngagement.notes.trim() || savingEngagement} className="px-4 py-2 bg-indigo-600 text-white text-sm font-medium rounded-lg hover:bg-indigo-700 disabled:opacity-40">
+                {savingEngagement ? <Loader2 size={14} className="animate-spin" /> : <Plus size={16} />}
+              </button>
+            </div>
+
+            {sidebarEngagements.length === 0 ? (
+              <p className="text-sm text-gray-400 italic text-center py-4">No engagements yet. Add one above.</p>
+            ) : (
+              <div className="space-y-2">
+                {sidebarEngagements.map(eng => (
+                  <div key={eng.id} className="flex items-start gap-3 p-3 bg-gray-50 rounded-lg group">
+                    <div className="mt-0.5">
+                      {eng.type === "email" && <Mail size={14} className="text-blue-500" />}
+                      {eng.type === "call" && <PhoneCall size={14} className="text-green-500" />}
+                      {eng.type === "meeting" && <Calendar size={14} className="text-purple-500" />}
+                      {eng.type === "note" && <MessageSquare size={14} className="text-gray-400" />}
+                      {eng.type === "linkedin" && <Link2 size={14} className="text-blue-600" />}
+                      {!["email","call","meeting","note","linkedin"].includes(eng.type) && <Activity size={14} className="text-gray-400" />}
+                    </div>
+                    <div className="flex-1">
+                      <p className="text-sm text-gray-800">{eng.notes}</p>
+                      <p className="text-[11px] text-gray-400 mt-1">{new Date(eng.createdAt).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", hour: "numeric", minute: "2-digit" })} — <span className="capitalize">{eng.type}</span></p>
+                    </div>
+                    <button onClick={() => { api.deleteEngagement(eng.id); setSidebarEngagements(prev => prev.filter(e => e.id !== eng.id)); }} className="text-gray-300 hover:text-red-500 opacity-0 group-hover:opacity-100"><Trash2 size={14} /></button>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+    );
+  };
+
+  const DRILLDOWN_TABS = [
+    { id: "overview", label: "Overview" },
+    { id: "todos", label: "To-Do" },
+    { id: "notes", label: "Notes" },
+    { id: "roadmap", label: "Roadmap" },
+  ];
+
+  const MILESTONE_STATUS = {
+    "planned": { label: "Planned", color: "bg-gray-100 text-gray-600", icon: Circle },
+    "in-progress": { label: "In Progress", color: "bg-blue-100 text-blue-700", icon: Loader2 },
+    "done": { label: "Done", color: "bg-green-100 text-green-700", icon: CheckCircle2 },
+  };
+
+  const renderCompanyDrilldown = () => {
+    if (!drilldownCompany) return null;
+    const c = drilldownCompany;
+    const score = totalScore(c);
+    const pri = getPriority(score);
+    const pipe = PIPELINE_MAP[c.pipeline];
+    const cContacts = companyContacts(c.id);
+    const pendingTodos = drilldownTodos.filter(t => !t.completed);
+    const doneTodos = drilldownTodos.filter(t => t.completed);
+
+    return (
+      <div className="space-y-6">
+        {/* Back button + header */}
+        <div>
+          <button onClick={closeCompanyDrilldown} className="flex items-center gap-1.5 text-sm text-gray-500 hover:text-indigo-600 mb-3">
+            <ArrowLeft size={16} /> Back to Companies
+          </button>
+          <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-6">
+            <div className="flex items-start justify-between">
+              <div className="flex items-center gap-4">
+                <div className="w-14 h-14 rounded-xl bg-indigo-100 flex items-center justify-center text-xl font-bold text-indigo-600">{c.name.charAt(0)}</div>
+                <div>
+                  <div className="flex items-center gap-2">
+                    <h1 className="text-2xl font-bold text-gray-900">{c.name}</h1>
+                    <button onClick={() => { toggleStar(c.id); setDrilldownCompany(prev => ({ ...prev, starred: !prev.starred })); }}>
+                      {c.starred ? <Star size={18} className="text-amber-400 fill-amber-400" /> : <StarOff size={18} className="text-gray-300 hover:text-amber-300" />}
+                    </button>
+                  </div>
+                  <div className="flex items-center gap-2 mt-1">
+                    <PipelineBadge pipelineId={c.pipeline} />
+                    <Badge className={STAGE_COLORS[c.stage]}>{c.stage}</Badge>
+                    <Badge className={`border ${PRIORITY_COLORS[pri]}`}>{PRIORITY_LABELS[pri]}</Badge>
+                  </div>
+                  <div className="flex items-center gap-1.5 mt-2">
+                    <ScoreBadge score={c.fitScore} label="Fit" />
+                    <span className="text-gray-300">+</span>
+                    <ScoreBadge score={c.intentScore} label="Intent" />
+                    <span className="text-gray-300">=</span>
+                    <ScoreBadge score={score} label="Total" />
+                  </div>
+                </div>
+              </div>
+              <div className="flex items-center gap-2">
+                {c.website && (
+                  <a href={c.website.startsWith("http") ? c.website : `https://${c.website}`} target="_blank" rel="noreferrer" className="p-2 rounded-lg text-gray-400 hover:bg-gray-100 hover:text-indigo-600">
+                    <ExternalLink size={16} />
+                  </a>
+                )}
+                <button onClick={() => setShowScorecard(c)} className="p-2 rounded-lg text-indigo-500 hover:bg-indigo-50 hover:text-indigo-700" title="Score Lead"><Target size={16} /></button>
+                <button onClick={() => { deleteCompany(c.id); closeCompanyDrilldown(); }} className="p-2 rounded-lg text-red-400 hover:bg-red-50 hover:text-red-600"><Trash2 size={16} /></button>
+              </div>
+            </div>
+
+            {/* Stage selector */}
+            <div className="mt-4">
+              <div className="flex flex-wrap gap-1">
+                {FUNNEL_STAGES.map(s => (
+                  <button key={s} onClick={() => { updateCompanyStage(c.id, s); setDrilldownCompany(prev => ({ ...prev, stage: s })); }} className={`px-2.5 py-1 rounded-md text-[11px] font-medium transition-colors ${c.stage === s ? "bg-indigo-600 text-white" : "bg-gray-100 text-gray-600 hover:bg-gray-200"}`}>{s}</button>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Tab bar */}
+        <div className="flex gap-1 bg-white rounded-xl border border-gray-100 shadow-sm p-1">
+          {DRILLDOWN_TABS.map(tab => (
+            <button key={tab.id} onClick={() => setDrilldownTab(tab.id)} className={`flex-1 px-4 py-2 rounded-lg text-sm font-medium transition-colors ${drilldownTab === tab.id ? "bg-indigo-600 text-white" : "text-gray-500 hover:bg-gray-50"}`}>
+              {tab.label}
+              {tab.id === "todos" && pendingTodos.length > 0 && (
+                <span className={`ml-1.5 text-xs px-1.5 py-0.5 rounded-full ${drilldownTab === "todos" ? "bg-indigo-500 text-white" : "bg-gray-200 text-gray-600"}`}>{pendingTodos.length}</span>
+              )}
+              {tab.id === "roadmap" && drilldownMilestones.length > 0 && (
+                <span className={`ml-1.5 text-xs px-1.5 py-0.5 rounded-full ${drilldownTab === "roadmap" ? "bg-indigo-500 text-white" : "bg-gray-200 text-gray-600"}`}>{drilldownMilestones.filter(m => m.status !== "done").length}</span>
+              )}
+            </button>
+          ))}
+        </div>
+
+        {/* Tab content */}
+        {drilldownTab === "overview" && (
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            {/* Company info */}
+            <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-5 space-y-4">
+              <h3 className="text-sm font-semibold text-gray-900">Company Details</h3>
+              <div className="grid grid-cols-2 gap-3 text-sm">
+                <div className="bg-gray-50 rounded-lg p-3"><span className="text-xs text-gray-500 block">Industry</span><span className="font-medium text-gray-900">{c.industry || "—"}</span></div>
+                <div className="bg-gray-50 rounded-lg p-3"><span className="text-xs text-gray-500 block">Size</span><span className="font-medium text-gray-900">{c.size || "—"}</span></div>
+                <div className="bg-gray-50 rounded-lg p-3"><span className="text-xs text-gray-500 block">Revenue</span><span className="font-medium text-gray-900">{c.revenue || "—"}</span></div>
+                <div className="bg-gray-50 rounded-lg p-3"><span className="text-xs text-gray-500 block">Location</span><span className="font-medium text-gray-900">{c.location || "—"}</span></div>
+                <div className="bg-gray-50 rounded-lg p-3"><span className="text-xs text-gray-500 block">Funding</span><span className="font-medium text-gray-900">{c.fundingStage || "—"}</span></div>
+                <div className="bg-gray-50 rounded-lg p-3"><span className="text-xs text-gray-500 block">Source</span><span className="font-medium text-gray-900">{c.source}</span></div>
+              </div>
+            </div>
+
+            {/* Contacts */}
+            <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-5 space-y-4">
+              <div className="flex items-center justify-between">
+                <h3 className="text-sm font-semibold text-gray-900">Contacts ({cContacts.length})</h3>
+                <button onClick={() => { setNewContact(prev => ({ ...prev, companyId: c.id })); setShowAddContact(true); }} className="text-xs text-indigo-600 font-medium hover:text-indigo-700">+ Add</button>
+              </div>
+              {cContacts.length === 0 ? (
+                <p className="text-sm text-gray-400 italic">No contacts yet</p>
+              ) : (
+                <div className="space-y-2">
+                  {cContacts.map(ct => (
+                    <div key={ct.id} className="flex items-center justify-between p-3 bg-gray-50 rounded-lg cursor-pointer hover:bg-gray-100" onClick={() => openContactSidebar(ct)}>
+                      <div className="flex items-center gap-3">
+                        <div className="w-8 h-8 rounded-full bg-indigo-200 flex items-center justify-center text-xs font-bold text-indigo-700">{ct.name.split(" ").map(n => n[0]).join("")}</div>
+                        <div>
+                          <p className="text-sm font-medium text-gray-900">
+                            {ct.name}
+                            {ct.decisionMaker && <Badge className="bg-amber-100 text-amber-700 ml-1">DM</Badge>}
+                          </p>
+                          <p className="text-xs text-gray-500">{ct.title}</p>
+                        </div>
+                      </div>
+                      <div className="flex items-center gap-2 text-gray-400">
+                        {ct.email && <a href={`mailto:${ct.email}`} onClick={e => e.stopPropagation()} className="hover:text-indigo-500"><Mail size={14} /></a>}
+                        {ct.phone && <a href={`tel:${ct.phone}`} onClick={e => e.stopPropagation()} className="hover:text-indigo-500"><Phone size={14} /></a>}
+                        {ct.linkedin && <a href={ct.linkedin.startsWith("http") ? ct.linkedin : `https://${ct.linkedin}`} target="_blank" rel="noreferrer" onClick={e => e.stopPropagation()} className="hover:text-indigo-500"><Link2 size={14} /></a>}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            {/* Quick to-do preview */}
+            <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-5 space-y-3">
+              <div className="flex items-center justify-between">
+                <h3 className="text-sm font-semibold text-gray-900">To-Do ({pendingTodos.length})</h3>
+                <button onClick={() => setDrilldownTab("todos")} className="text-xs text-indigo-600 font-medium hover:text-indigo-700">View all</button>
+              </div>
+              {pendingTodos.length === 0 ? (
+                <p className="text-sm text-gray-400 italic">No pending tasks</p>
+              ) : (
+                <div className="space-y-1.5">
+                  {pendingTodos.slice(0, 3).map(t => (
+                    <div key={t.id} className="flex items-center gap-2 text-sm text-gray-700">
+                      <button onClick={() => toggleTodo(t)} className="text-gray-300 hover:text-green-500"><Circle size={16} /></button>
+                      <span>{t.text}</span>
+                    </div>
+                  ))}
+                  {pendingTodos.length > 3 && <p className="text-xs text-gray-400">+{pendingTodos.length - 3} more</p>}
+                </div>
+              )}
+            </div>
+
+            {/* Engagement timeline preview */}
+            <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-5 space-y-3">
+              <h3 className="text-sm font-semibold text-gray-900">Recent Activity</h3>
+              {drilldownEngagements.length === 0 ? (
+                <p className="text-sm text-gray-400 italic">No engagements yet</p>
+              ) : (
+                <div className="space-y-2">
+                  {drilldownEngagements.slice(0, 4).map(eng => (
+                    <div key={eng.id} className="flex items-start gap-2 text-sm">
+                      <div className="mt-0.5">
+                        {eng.type === "email" && <Mail size={13} className="text-blue-500" />}
+                        {eng.type === "call" && <PhoneCall size={13} className="text-green-500" />}
+                        {eng.type === "meeting" && <Calendar size={13} className="text-purple-500" />}
+                        {eng.type === "note" && <MessageSquare size={13} className="text-gray-400" />}
+                        {eng.type === "linkedin" && <Link2 size={13} className="text-blue-600" />}
+                        {!["email","call","meeting","note","linkedin"].includes(eng.type) && <Activity size={13} className="text-gray-400" />}
+                      </div>
+                      <div className="flex-1 min-w-0">
+                        <p className="text-gray-700 truncate">{eng.notes}</p>
+                        <p className="text-[11px] text-gray-400">{new Date(eng.createdAt).toLocaleDateString()} — {eng.contact?.name}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          </div>
+        )}
+
+        {drilldownTab === "todos" && (
+          <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-6 space-y-4">
+            <h3 className="text-sm font-semibold text-gray-900">To-Do List</h3>
+            {/* Add new todo */}
+            <div className="flex gap-2">
+              <input type="text" value={newTodoText} onChange={e => setNewTodoText(e.target.value)} placeholder="Add a task..." className="flex-1 px-3 py-2 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500" onKeyDown={e => e.key === "Enter" && addTodo()} />
+              <button onClick={addTodo} disabled={!newTodoText.trim()} className="px-4 py-2 bg-indigo-600 text-white text-sm font-medium rounded-lg hover:bg-indigo-700 disabled:opacity-40"><Plus size={16} /></button>
+            </div>
+
+            {/* Pending */}
+            {pendingTodos.length > 0 && (
+              <div className="space-y-1">
+                {pendingTodos.map(t => (
+                  <div key={t.id} className="flex items-center justify-between group px-3 py-2 rounded-lg hover:bg-gray-50">
+                    <div className="flex items-center gap-3">
+                      <button onClick={() => toggleTodo(t)} className="text-gray-300 hover:text-green-500 transition-colors"><Circle size={18} /></button>
+                      <span className="text-sm text-gray-800">{t.text}</span>
+                    </div>
+                    <button onClick={() => deleteTodo(t.id)} className="text-gray-300 hover:text-red-500 opacity-0 group-hover:opacity-100 transition-opacity"><Trash2 size={14} /></button>
+                  </div>
+                ))}
+              </div>
+            )}
+
+            {/* Done */}
+            {doneTodos.length > 0 && (
+              <div className="space-y-1">
+                <p className="text-xs font-semibold text-gray-400 uppercase mt-4 mb-1">Completed ({doneTodos.length})</p>
+                {doneTodos.map(t => (
+                  <div key={t.id} className="flex items-center justify-between group px-3 py-2 rounded-lg hover:bg-gray-50">
+                    <div className="flex items-center gap-3">
+                      <button onClick={() => toggleTodo(t)} className="text-green-500 hover:text-gray-400 transition-colors"><CheckCircle2 size={18} /></button>
+                      <span className="text-sm text-gray-400 line-through">{t.text}</span>
+                    </div>
+                    <button onClick={() => deleteTodo(t.id)} className="text-gray-300 hover:text-red-500 opacity-0 group-hover:opacity-100 transition-opacity"><Trash2 size={14} /></button>
+                  </div>
+                ))}
+              </div>
+            )}
+
+            {pendingTodos.length === 0 && doneTodos.length === 0 && (
+              <p className="text-sm text-gray-400 italic text-center py-6">No tasks yet. Add one above to get started.</p>
+            )}
+          </div>
+        )}
+
+        {drilldownTab === "notes" && (
+          <div className="space-y-6">
+            {/* General notes */}
+            <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-6 space-y-3">
+              <div className="flex items-center justify-between">
+                <h3 className="text-sm font-semibold text-gray-900">General Notes</h3>
+                {editingNotes ? (
+                  <div className="flex items-center gap-2">
+                    <button onClick={() => { setNotesText(c.notes || ""); setEditingNotes(false); }} className="text-xs text-gray-500 hover:text-gray-700">Cancel</button>
+                    <button onClick={saveCompanyNotes} className="flex items-center gap-1 text-xs text-indigo-600 font-medium hover:text-indigo-700"><Save size={12} /> Save</button>
+                  </div>
+                ) : (
+                  <button onClick={() => setEditingNotes(true)} className="flex items-center gap-1 text-xs text-indigo-600 font-medium hover:text-indigo-700"><Edit3 size={12} /> Edit</button>
+                )}
+              </div>
+              {editingNotes ? (
+                <textarea value={notesText} onChange={e => setNotesText(e.target.value)} rows={8} className="w-full px-3 py-2 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 resize-y" placeholder="Add general notes about this company..." />
+              ) : (
+                <div className="text-sm text-gray-700 bg-gray-50 rounded-lg p-4 min-h-[80px] whitespace-pre-wrap">
+                  {c.notes || <span className="text-gray-400 italic">No notes yet. Click Edit to add some.</span>}
+                </div>
+              )}
+            </div>
+
+            {/* Engagement timeline */}
+            <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-6 space-y-4">
+              <h3 className="text-sm font-semibold text-gray-900">Engagement Timeline ({drilldownEngagements.length})</h3>
+              {drilldownEngagements.length === 0 ? (
+                <p className="text-sm text-gray-400 italic">No engagements yet. Add one from a contact's sidebar.</p>
+              ) : (
+                <div className="space-y-3">
+                  {drilldownEngagements.map(eng => (
+                    <div key={eng.id} className="flex items-start gap-3 p-3 bg-gray-50 rounded-lg">
+                      <div className="mt-0.5">
+                        {eng.type === "email" && <Mail size={14} className="text-blue-500" />}
+                        {eng.type === "call" && <PhoneCall size={14} className="text-green-500" />}
+                        {eng.type === "meeting" && <Calendar size={14} className="text-purple-500" />}
+                        {eng.type === "note" && <MessageSquare size={14} className="text-gray-400" />}
+                        {eng.type === "linkedin" && <Link2 size={14} className="text-blue-600" />}
+                        {!["email","call","meeting","note","linkedin"].includes(eng.type) && <Activity size={14} className="text-gray-400" />}
+                      </div>
+                      <div className="flex-1">
+                        <p className="text-sm text-gray-800">{eng.notes}</p>
+                        <p className="text-[11px] text-gray-400 mt-1">{new Date(eng.createdAt).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", hour: "numeric", minute: "2-digit" })} — {eng.contact?.name} — <span className="capitalize">{eng.type}</span></p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          </div>
+        )}
+
+        {drilldownTab === "roadmap" && (
+          <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-6 space-y-4">
+            <h3 className="text-sm font-semibold text-gray-900">Engagement Roadmap</h3>
+            {/* Add new milestone */}
+            <div className="flex gap-2">
+              <input type="text" value={newMilestoneTitle} onChange={e => setNewMilestoneTitle(e.target.value)} placeholder="Add a milestone..." className="flex-1 px-3 py-2 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500" onKeyDown={e => e.key === "Enter" && addMilestone()} />
+              <button onClick={addMilestone} disabled={!newMilestoneTitle.trim()} className="px-4 py-2 bg-indigo-600 text-white text-sm font-medium rounded-lg hover:bg-indigo-700 disabled:opacity-40"><Plus size={16} /></button>
+            </div>
+
+            {drilldownMilestones.length === 0 ? (
+              <p className="text-sm text-gray-400 italic text-center py-6">No milestones yet. Add one above to start mapping out the engagement.</p>
+            ) : (
+              <div className="space-y-2">
+                {drilldownMilestones.map((ms, idx) => {
+                  const statusInfo = MILESTONE_STATUS[ms.status] || MILESTONE_STATUS["planned"];
+                  const StatusIcon = statusInfo.icon;
+                  return (
+                    <div key={ms.id} className="flex items-center gap-3 group">
+                      {/* Timeline connector */}
+                      <div className="flex flex-col items-center">
+                        <button onClick={() => cycleMilestoneStatus(ms)} className={`w-8 h-8 rounded-full flex items-center justify-center ${statusInfo.color} hover:ring-2 hover:ring-indigo-300 transition-all`} title={`Status: ${statusInfo.label} (click to cycle)`}>
+                          <StatusIcon size={16} className={ms.status === "in-progress" ? "animate-spin" : ""} />
+                        </button>
+                        {idx < drilldownMilestones.length - 1 && <div className="w-0.5 h-6 bg-gray-200 mt-1" />}
+                      </div>
+                      <div className="flex-1 flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                        <div>
+                          <p className={`text-sm font-medium ${ms.status === "done" ? "text-gray-400 line-through" : "text-gray-800"}`}>{ms.title}</p>
+                          <p className="text-[11px] text-gray-400">{statusInfo.label}</p>
+                        </div>
+                        <button onClick={() => deleteMilestone(ms.id)} className="text-gray-300 hover:text-red-500 opacity-0 group-hover:opacity-100 transition-opacity"><Trash2 size={14} /></button>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            )}
+          </div>
+        )}
+      </div>
+    );
+  };
+
   const NAV = [
     { id: "dashboard", icon: BarChart3, label: "Dashboard" },
     { id: "pipeline", icon: Columns, label: "Pipeline" },
@@ -2402,8 +3038,8 @@ export default function AgencyCRM() {
 
       {/* Main Content */}
       <div className="flex-1 overflow-y-auto">
-        <div className={`mx-auto p-6 ${page === "pipeline" ? "max-w-full" : "max-w-5xl"}`}>
-          {pages[page]?.()}
+        <div className={`mx-auto p-6 ${page === "pipeline" || drilldownCompany || drilldownContact ? "max-w-full" : "max-w-5xl"}`}>
+          {drilldownCompany ? renderCompanyDrilldown() : drilldownContact ? renderContactDrilldown() : pages[page]?.()}
         </div>
       </div>
 
