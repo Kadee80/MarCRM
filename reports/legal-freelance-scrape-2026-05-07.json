@@ -1,0 +1,353 @@
+{
+  "scrapeDate": "2026-05-07",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 7,
+  "note": "Legal freelance pipeline scrape: NEW REAL companies/firms hiring contract, fractional, or interim corporate/funds counsel. Sources: Indeed, ZipRecruiter, Glassdoor, LinkedIn (via Google indexed), GoInhouse, ALSP and law firm career pages, press releases. All leads scored 55+. Excludes leads already captured in 2026-05-06 legal-freelance scrape (EBTH, Cooley NY/Pease, Norm Law, MLA, AngelList, VC Lab, Reed Smith, Scale LLP, AMBART LAW, OGC). High-intent signals: explicit interim/fractional/contract engagement, remote-friendly, fund formation or corporate/contracts focus, recent (last 7 days) postings or active expansion announcements.",
+  "leads": [
+    {
+      "id": "lead-001-legalpeople-interim-securities",
+      "name": "Legalpeople (Interim Corporate Securities Attorney - Tech Co)",
+      "website": "https://legalpeoplegroup.com",
+      "pipeline": "legal-freelance",
+      "industry": "Legal Staffing / ALSP / Interim Counsel",
+      "location": "Remote (Leading Tech Company client)",
+      "fundingStage": "Established",
+      "fitScore": 38,
+      "intentScore": 47,
+      "fitDetails": [
+        "+10 corporate/commercial contracts/securities/governance focus (corporate securities + governance scope)",
+        "+10 counsel-level seniority (senior corporate counsel, governance work)",
+        "+10 stated comp at $80-$95/hr is market-credible for interim",
+        "+8 fund-adjacent (public-company securities, not private-funds — partial credit)"
+      ],
+      "intentDetails": [
+        "+15 explicit interim/contract engagement model",
+        "+15 100% remote",
+        "+10 posted within ~72 hrs (active May 2026 LinkedIn job)",
+        "+7 easy apply via LinkedIn / Legalpeople intake"
+      ],
+      "vertical": "legal",
+      "subvertical": "securities",
+      "engagementModel": "interim-contract-staffing",
+      "buyerType": "ALSP",
+      "compensationText": "$80 - $95 USD / hour (interim contract)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contract / Interim",
+      "urgencyScore": 85,
+      "contacts": [
+        {
+          "name": "Legalpeople Recruiting",
+          "title": "Interim Counsel+ Team",
+          "email": "info@legalpeoplegroup.com",
+          "linkedin": "https://www.linkedin.com/company/legalpeople"
+        }
+      ],
+      "signals": [
+        "Active LinkedIn posting: Interim Corporate Securities Attorney for leading tech company",
+        "100% remote (US national)",
+        "Comp explicitly stated $80-$95/hr — market-credible for interim",
+        "Legalpeople specializes in interim counsel placements (Interim Counsel+ product)",
+        "Multiple parallel interim openings (Securities Counsel, Privacy, M&A) suggests pipeline of similar roles",
+        "Direct ALSP relationship — recurring placement potential"
+      ],
+      "source": "LinkedIn Jobs (via Google), Legalpeople career page",
+      "sourceUrl": "https://www.linkedin.com/jobs/view/interim-corporate-securities-attorney-leading-tech-company-remote-at-legalpeople-4298959513",
+      "notes": "ALSP placement firm with active interim corporate securities role. Strong fit for Katie's corporate/securities judgment at counsel level. Legalpeople is the buyer-of-record but the underlying client is a public/late-stage tech company — pitch angle: build relationship with Legalpeople once for repeat placements rather than chasing individual end-clients. Lower fit score (38) reflects securities-vs-private-funds gap, but high intent (47) due to explicit comp, remote, contract terms."
+    },
+    {
+      "id": "lead-002-paragon-legal",
+      "name": "Paragon Legal",
+      "website": "https://paragonlegal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Legal Staffing / ALSP / In-House on Demand",
+      "location": "San Francisco HQ; remote-national placements",
+      "fundingStage": "Established",
+      "fitScore": 36,
+      "intentScore": 45,
+      "fitDetails": [
+        "+10 corporate/commercial contracts/IP/privacy practice areas",
+        "+10 counsel-level seniority (in-house counsel placements)",
+        "+10 comp credible (market-rate ALSP placement model)",
+        "+6 fund-adjacent (commercial transactions, securities/governance work — partial credit, not primary)"
+      ],
+      "intentDetails": [
+        "+15 explicit interim / project-based / fractional engagement model",
+        "+15 100% remote (Paragon attorneys work remotely on client systems)",
+        "+10 active May 2026 postings on LinkedIn jobs page",
+        "+5 easy apply (web form), but staffing firm so vetting cycle is real"
+      ],
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "fractional-interim-contract",
+      "buyerType": "ALSP",
+      "compensationText": "Market-rate ALSP placement — typically $125-$250/hr depending on practice area / seniority",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contract / Fractional / Project",
+      "urgencyScore": 78,
+      "contacts": [
+        {
+          "name": "Paragon Legal Attorney Team",
+          "title": "Attorney Recruiting",
+          "email": "info@paragonlegal.com",
+          "linkedin": "https://www.linkedin.com/company/paragon-legal"
+        }
+      ],
+      "signals": [
+        "Active openings May 2026: ADA Compliance, Compliance Counsel-Data Security, Patent (Battery/Semiconductor), Privacy roles — all remote",
+        "Practice area coverage explicitly includes Commercial & Transactions, Corporate & Securities, Privacy, Regulatory & Compliance",
+        "Reusable apply form for attorneys without a current match — pipeline-onboarding signal",
+        "20+ year operator: stable ALSP relationship, long lead times but recurring placement potential",
+        "Paragon publishes 'In-House Counsel Job Opportunities in 2026' — actively shaping market"
+      ],
+      "source": "Paragon Legal careers/website, LinkedIn",
+      "sourceUrl": "https://paragonlegal.com/for-attorneys/the-paragon-experience/",
+      "notes": "Paragon is the canonical 'fractional in-house counsel' ALSP for SF/Bay/national tech-company work. Pitch angle: register as a credentialed Paragon attorney; lean into corporate/commercial contracts and (with a stretch) fund-adjacent governance work. Lower fit (36) because their core placements are commercial-contracts and privacy, not private-funds — but very high intent (45) due to explicit fractional model, remote, recurring placements."
+    },
+    {
+      "id": "lead-003-axiom-advice-counsel",
+      "name": "Axiom Advice & Counsel (Axiom Law Fractional GC for PE/VC)",
+      "website": "https://www.axiomlaw.com",
+      "pipeline": "legal-freelance",
+      "industry": "ALSP / On-Demand Legal Talent",
+      "location": "Global (US-national remote)",
+      "fundingStage": "Established (PE-backed)",
+      "fitScore": 42,
+      "intentScore": 43,
+      "fitDetails": [
+        "+15 PE/VC/high-growth focus (AA&C product purpose-built for private equity and venture-backed companies — partial fund credit)",
+        "+10 corporate/contracts/M&A (300+ corporate attorneys)",
+        "+10 counsel/GC seniority explicitly (fractional GC services)",
+        "+7 comp credible (Axiom rates 25% lower than law firms; market-aware pricing)"
+      ],
+      "intentDetails": [
+        "+15 explicit fractional engagement model (Fractional GC product)",
+        "+15 remote-flex network (global on-demand attorney bench)",
+        "+8 active May 2026 hiring (multi-position page, ongoing recruitment)",
+        "+5 onboarding gate is real — Axiom hires 1 in 25 applicants"
+      ],
+      "vertical": "legal",
+      "subvertical": "general-counsel-fractional",
+      "engagementModel": "fractional-on-demand",
+      "buyerType": "ALSP",
+      "compensationText": "Axiom-determined hourly rates; 25% below traditional law firm partner rates (typically $200-$400/hr for senior counsel placements)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contract / Fractional",
+      "urgencyScore": 75,
+      "contacts": [
+        {
+          "name": "Axiom Lawyer Recruiting",
+          "title": "Attorney Network",
+          "email": "lawyers@axiomlaw.com",
+          "linkedin": "https://www.linkedin.com/company/axiom-law"
+        }
+      ],
+      "signals": [
+        "Axiom Advice & Counsel (AA&C) product explicitly purpose-built for PE / VC-backed companies and high-growth small businesses",
+        "Network of 300+ corporate-law attorneys with avg 18+ years experience",
+        "Active recruitment via Axiom careers page (continuous hiring)",
+        "Public press release: $100M+ cost avoidance for in-house clients in 2024 — they place a lot of senior counsel",
+        "Ongoing fractional and full-time GC arrangements (subscription pricing model)"
+      ],
+      "source": "Axiom Law careers, press releases",
+      "sourceUrl": "https://www.axiomlaw.com/careers/lawyers/available-positions",
+      "notes": "Axiom's AA&C product is the closest large-scale match to Katie's profile: senior corporate/fund-adjacent counsel placed fractionally at PE/VC-backed clients. Pitch angle: Axiom AA&C application for fractional GC engagements; emphasize fund formation + corporate governance background. Slow onboarding (1-in-25), but once placed, deal flow is recurring. Score reflects strong intent fit but slightly weaker than direct law-firm fund work for fit."
+    },
+    {
+      "id": "lead-004-sleep-doctor",
+      "name": "Sleep Doctor (Fractional General Counsel)",
+      "website": "https://www.sleepdoctor.com",
+      "pipeline": "legal-freelance",
+      "industry": "Digital Health / Consumer Health Tech",
+      "location": "Remote (US)",
+      "fundingStage": "Growth",
+      "fitScore": 33,
+      "intentScore": 47,
+      "fitDetails": [
+        "+0 fund/private funds (consumer health, not fund work)",
+        "+10 corporate/contracts/governance (entity, contracts, compliance, risk)",
+        "+15 GC/counsel seniority explicitly (Fractional GC role, senior legal+compliance leader)",
+        "+8 comp credible (greenhouse posting, established company, but not stated)"
+      ],
+      "intentDetails": [
+        "+15 explicit fractional engagement",
+        "+15 fully remote",
+        "+10 posted within last 7 days (Greenhouse active May 2026)",
+        "+7 easy apply (Greenhouse direct application)"
+      ],
+      "vertical": "legal",
+      "subvertical": "general-counsel-fractional",
+      "engagementModel": "fractional-part-time",
+      "buyerType": "operating-company",
+      "compensationText": "Not stated in posting (typical fractional GC: $150-$300/hr or monthly retainer)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Part-time / Fractional",
+      "urgencyScore": 80,
+      "contacts": [
+        {
+          "name": "Sleep Doctor Talent",
+          "title": "Fractional GC Hiring",
+          "email": "careers@sleepdoctor.com",
+          "linkedin": "https://www.linkedin.com/company/sleepdoctorhq"
+        }
+      ],
+      "signals": [
+        "Active Greenhouse posting: 'General Counsel (Fractional)' — May 2026",
+        "Hands-on senior legal + compliance leadership role",
+        "Digital health / consumer products / regulated healthcare intersection",
+        "Requires 10+ years legal experience — clearly a senior fractional role, not document review",
+        "Direct hiring (not via staffing firm) — better margins",
+        "Posted on multiple aggregators (Indeed, GoInhouse, Greenhouse) — committed search"
+      ],
+      "source": "Greenhouse, Indeed, GoInhouse, LinkedIn",
+      "sourceUrl": "https://job-boards.greenhouse.io/sleepdoctor/jobs/7703453003",
+      "notes": "Lower fit score because consumer health is not a fund/PE buyer profile — but very high intent (explicit fractional, remote, posted directly by company). Pitch angle: lean into Katie's commercial-contracts, regulatory/compliance, and corporate governance experience. Worth applying if Katie wants to round out fractional GC engagements outside the fund world. Direct relationship (not via ALSP)."
+    },
+    {
+      "id": "lead-005-dla-piper-investment-funds",
+      "name": "DLA Piper - Investment Funds Group",
+      "website": "https://www.dlapiper.com",
+      "pipeline": "legal-freelance",
+      "industry": "Law Firm / Investment Funds",
+      "location": "Multiple US offices (NY, DC, Boston, Chicago)",
+      "fundingStage": "Established (BigLaw)",
+      "fitScore": 50,
+      "intentScore": 28,
+      "fitDetails": [
+        "+20 fund/private funds (dedicated Investment Funds Group with active fund formation hire)",
+        "+10 corporate/contracts/structuring (LP docs, side letters, fund formation work)",
+        "+10 counsel/associate-track seniority (1-3 yr posting; Katie can pitch as senior contract resource)",
+        "+10 comp credible (BigLaw rates, partner-level pricing)"
+      ],
+      "intentDetails": [
+        "+5 contract/interim — DLA Piper is hiring a permanent associate, not contract — partial credit only via overflow potential",
+        "+10 hybrid-flex (BigLaw flexible/hybrid options)",
+        "+8 posted recently (May 2026 active listing)",
+        "+5 standard recruiting funnel — slower, but documented opening"
+      ],
+      "vertical": "legal",
+      "subvertical": "fund-formation",
+      "engagementModel": "contract-firm-overflow",
+      "buyerType": "law-firm",
+      "compensationText": "BigLaw market scale (associate $260-$435k base; contract attorney rates per arrangement)",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Associate (with overflow/contract-attorney potential)",
+      "urgencyScore": 60,
+      "contacts": [
+        {
+          "name": "DLA Piper Recruiting",
+          "title": "Investment Funds Group",
+          "email": "careers@dlapiper.com",
+          "linkedin": "https://www.linkedin.com/company/dla-piper"
+        }
+      ],
+      "signals": [
+        "Active May 2026 posting: Investment Funds Group attorney role (1-3 yr fund formation)",
+        "DLA Piper has a global investment funds practice with consistent overflow needs",
+        "Fund formation work — direct match to Katie's ICP",
+        "Even though the listed role is associate-level, BigLaw fund formation groups routinely use contract attorneys for diligence and structuring overflow",
+        "Pitch angle: senior contract overflow capacity for fund formation projects rather than associate role"
+      ],
+      "source": "Indeed, ZipRecruiter, DLA Piper careers",
+      "sourceUrl": "https://www.ziprecruiter.com/Jobs/Fund-Formation-Attorney",
+      "notes": "Fit is strong (fund formation BigLaw practice) but intent is lower (the explicit posting is associate, not contract). Real pitch is to DLA Piper's NY/DC fund-formation partners as a senior contract resource for overflow on Fund I/II launches. Score reflects fit-strong / intent-weaker; still worth including because DLA's volume of fund formation work is one of the largest in the US."
+    },
+    {
+      "id": "lead-006-direct-counsel-fund-formation",
+      "name": "Direct Counsel (Fund Formation & Investment Management Associate)",
+      "website": "https://directcounsel.com",
+      "pipeline": "legal-freelance",
+      "industry": "Legal Recruiting / Placement Firm",
+      "location": "Boston (preferred), Chicago, Dallas, NY",
+      "fundingStage": "Established",
+      "fitScore": 47,
+      "intentScore": 32,
+      "fitDetails": [
+        "+20 fund/private funds (explicit fund formation & investment management)",
+        "+10 corporate/contracts (private fund sponsors + institutional investors)",
+        "+10 counsel-track seniority (mid-level, 4-6 yrs, but Direct Counsel also places contract resources)",
+        "+7 comp credible (BigLaw scale; recruiter places into market-rate firms)"
+      ],
+      "intentDetails": [
+        "+5 contract/interim — Direct Counsel does some contract placements, but the headline is associate FT — partial credit",
+        "+10 hybrid/remote-flex (some clients flex)",
+        "+10 posted recently (active Indeed listing May 2026)",
+        "+7 direct recruiter contact"
+      ],
+      "vertical": "legal",
+      "subvertical": "fund-formation",
+      "engagementModel": "contract-firm-overflow",
+      "buyerType": "legal-recruiter",
+      "compensationText": "Market-rate BigLaw fund formation comp (~$260-$300k base for mid-level; contract rates per project)",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Associate / Mid-level (with contract placement potential)",
+      "urgencyScore": 62,
+      "contacts": [
+        {
+          "name": "Direct Counsel Recruiting",
+          "title": "Fund Formation Placement",
+          "email": "info@directcounsel.com",
+          "linkedin": "https://www.linkedin.com/company/direct-counsel"
+        }
+      ],
+      "signals": [
+        "Active mid-level fund formation associate placement (Boston preferred)",
+        "Multi-city hiring footprint (Boston, Chicago, Dallas, NY) signals network of buyer firms",
+        "Direct Counsel routinely places contract / interim resources beyond their associate-track headlines",
+        "Recruiter relationship = funnel-of-firms rather than single buyer",
+        "Active May 2026 listings"
+      ],
+      "source": "Indeed, ZipRecruiter, Direct Counsel website",
+      "sourceUrl": "https://www.indeed.com/q-Private-Equity-Fund-Formation-Associate-jobs.html",
+      "notes": "Recruiter rather than direct buyer — but the underlying client firms (East Coast law firms with fund formation practices) are the real buyers. Pitch angle: register with Direct Counsel for senior/contract fund formation overflow placements at multiple firms, not just the listed associate role. Stronger fit (47) but intent (32) is lower because they're hiring permanent associates by default."
+    },
+    {
+      "id": "lead-007-foley-hoag-investment-funds",
+      "name": "Foley Hoag LLP - Investment Advisers & Private Funds Practice",
+      "website": "https://foleyhoag.com",
+      "pipeline": "legal-freelance",
+      "industry": "Law Firm / Investment Advisers & Private Funds",
+      "location": "Boston, NY, Washington DC (hybrid options)",
+      "fundingStage": "Established",
+      "fitScore": 47,
+      "intentScore": 25,
+      "fitDetails": [
+        "+20 fund/private funds (Investment Advisers & Private Funds practice — exact ICP match)",
+        "+10 corporate/contracts (LP docs, structuring, regulatory)",
+        "+10 counsel/senior associate seniority (industry-recognized practice group)",
+        "+7 comp credible (mid-market BigLaw rates)"
+      ],
+      "intentDetails": [
+        "+5 contract/interim — no explicit contract posting found, but private funds groups routinely use overflow",
+        "+5 hybrid-flex (firm offers hybrid)",
+        "+8 practice page actively features the practice as a growth area",
+        "+7 direct contact via firm careers / partners"
+      ],
+      "vertical": "legal",
+      "subvertical": "fund-formation",
+      "engagementModel": "contract-firm-overflow",
+      "buyerType": "law-firm",
+      "compensationText": "Mid-market BigLaw rates (associate $200-$320k; contract attorney ~$100-$200/hr per arrangement)",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Associate / Counsel (with overflow potential)",
+      "urgencyScore": 50,
+      "contacts": [
+        {
+          "name": "Foley Hoag Recruiting",
+          "title": "Investment Advisers & Private Funds Practice",
+          "email": "careers@foleyhoag.com",
+          "linkedin": "https://www.linkedin.com/company/foley-hoag-llp"
+        }
+      ],
+      "signals": [
+        "Investment Advisers & Private Funds practice featured on firm site as a core practice",
+        "Boston-based mid-size firm with fund-of-funds, hedge, PE, VC exposure",
+        "Practice covers fund formation + LP-side fund work — both sides of the table",
+        "Mid-market firm = more receptive to senior contract overflow than top-tier global firms",
+        "Active practice indicates ongoing transactional volume"
+      ],
+      "source": "Foley Hoag LLP careers/practice page",
+      "sourceUrl": "https://foleyhoag.com/industries-practices/investment-advisers-private-funds/",
+      "notes": "No explicit contract posting found, but Foley Hoag's mid-market profile + active fund formation practice makes them a strong outbound target for overflow capacity. Pitch angle: senior contract resource for fund formation matters during peak filing/closing windows. Lower intent score reflects no specific posting; included because fit is strong and Foley Hoag is exactly the kind of mid-market firm that hires contract counsel for capacity."
+    }
+  ]
+}
