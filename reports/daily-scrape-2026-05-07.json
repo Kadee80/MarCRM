@@ -1,0 +1,205 @@
+{
+  "scrapeDate": "2026-05-07",
+  "totalLeads": 4,
+  "note": "Daily MarCRM scrape for Thursday, May 7, 2026. Four new pr-marketing leads identified — Corgi Insurance ($1.3B insurtech unicorn 5/6), Sierra ($15.8B AI agents mega-round 5/4 — gap-fill, missed in 5/4 scrape), RadixArk ($100M open AI infra seed 5/5-5/6), QuantWare ($178M Series B quantum 5/5). No new freelance pipeline leads added today: Indeed/CareerBuilder/LinkedIn job-board surfaces returned aggregator pages rather than discrete discoverable postings via web search; the standing legal-freelance backlog (10 high-fit leads from 5/6, all 146-159) and pr-freelance backlog (5 leads from 5/6, all 87-90) remain the active outreach queue. Signal refresh on the 5 hottest leads from the past 3 reports is included in the markdown report. Recommend prioritizing Corgi as the strongest new outreach target (unicorn fintech with no named comms lead in the 5/6 press cycle) and continuing Blitzy 5/6 outreach in its day-3-of-10 peak press window.",
+  "leads": [
+    {
+      "name": "Corgi Insurance",
+      "website": "https://corgi.insure",
+      "pipeline": "pr-marketing",
+      "industry": "AI-Native Full-Stack Insurance Platform / Insurtech (B2B + B2B2C; general liability, cyber liability, tech & AI liability, expanding into commercial trucking, payroll, small business)",
+      "location": "San Francisco, CA (HQ)",
+      "fundingStage": "$160M Series B at $1.3B valuation announced May 6, 2026, led by TCV; participation from Oliver Jung, Leblon Capital, Kindred Ventures, Repeat VC, Zone 2 Ventures, Audeo Ventures, Quadri Ventures, First Order Fund, Vocal Ventures, Maiora Ventures, Nordstar Capital LP, Seven Stars Ventures, Hexa Capital, Alpha Square Group, GSBackers, OurCrowd Management, Alumni Ventures, and Global Growth Fund. Total raised to date: $268M. Founded 2024 by Nico Laqua and Emily Yuan; YC Spring 2024 batch. Series B closed just 4 months after their $108M Series A — extraordinary velocity.",
+      "fitScore": 47,
+      "intentScore": 42,
+      "fitDetails": {
+        "industry_fs_tech": 10,
+        "stage_size_growth": 10,
+        "b2b_buyer_motion": 10,
+        "proof_assets_customers_data": 9,
+        "budget_5k_25k_per_month": 8
+      },
+      "intentDetails": {
+        "trigger_present": 15,
+        "timeline_0_30_days": 10,
+        "decision_maker_engaged": 7,
+        "urgency_pain": 6,
+        "responsiveness": 4
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "Nico Laqua", "title": "Co-founder & CEO (press-active in 5/6 TechCrunch, SiliconANGLE, BusinessWire / PR Newswire, Yahoo Finance, The Insurer, TheNextWeb coverage; YC Spring 2024 alum)", "email": "", "linkedin": "" },
+        { "name": "Emily Yuan", "title": "Co-founder (YC Spring 2024 alum; named in TechCrunch/Insurer coverage as co-founder)", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "fundraise_series_b_160m",
+        "valuation_1_3b_unicorn",
+        "tcv_lead_4_months_after_series_a",
+        "yc_spring_2024_batch_alum",
+        "ai_native_insurance_platform_category",
+        "expansion_into_trucking_payroll_small_business",
+        "post_funding_press_cycle_active_day_1",
+        "no_named_head_of_comms_in_5_6_press_release"
+      ],
+      "source": "Daily Scrape 2026-05-07",
+      "sourceUrl": "https://techcrunch.com/2026/05/06/insurance-startup-corgi-hits-1-3b-valuation-4-months-after-its-series-a/",
+      "notes": "Strongest new lead this week. The combination of (a) TCV as the lead — TCV is a top-tier growth fund that absolutely expects portfolio companies to invest in tier-1 PR for the unicorn announcement, (b) the 4-months-after-Series-A velocity story which is itself press-gold (the cadence is the narrative), and (c) the AI-native insurance platform category claim plus active vertical expansion (trucking, payroll, SMB) gives the agency three distinct narrative threads. Buyer fit is exceptional: Corgi sells B2B liability insurance to startups and tech companies (fits FS/Tech industry match perfectly), they're at the perfect 100-500 employee growth stage post-Series-B, and the unicorn raise puts them solidly in the $25-50k/mo agency retainer tier. Comms-relationship odds: STRONG. The 5/6 TechCrunch/SiliconANGLE/BusinessWire coverage names ONLY founders Nico Laqua and Emily Yuan — no Head of Comms, no VP Marketing, no Director of Communications quoted anywhere. This is the same 'YC alum, 2-year-old company, no in-house PR yet' signal we saw on Reserv (5/4, 87) and Versana (5/5, 83). The press cycle is on day 1 (announcement was 5/6, today is 5/7) so peak outreach window is 5/6-5/16. Recommend a 90-day pitch threading: (i) the 'AI-native insurance platform' category-creation narrative as the trade press hook (Insurtech Insights, Insurance Journal, Risk & Insurance, plus general fintech beats at TechCrunch/Forbes/Bloomberg), (ii) the velocity/unicorn-in-2-years founder-origin story for the WSJ/FT 'next-gen fintech' angle, (iii) the vertical-expansion narrative — each new vertical (trucking now, then payroll, then SMB) is its own news beat over 6-12 months which sets up retainer continuity, (iv) thought-leadership from CEO Laqua on AI liability + cyber liability for the C-suite trade press (CSO, Dark Reading, Risk Management). Outreach lead-touch: CEO Nico Laqua (named press contact). Co-founder Emily Yuan is the warmer touch if Mark has any YC W24/S24 connections. Combined score 89 — A-tier, strongest new pr-marketing lead since Reserv. SF HQ is in MarCRM's coastal-tech beat. Time-sensitive: outreach in next 48 hours is optimal, ideally before the next major insurtech press cycle drowns out their announcement.",
+      "lastActivity": "$160M Series B at $1.3B valuation announced May 6, 2026 (TechCrunch / SiliconANGLE / BusinessWire / The Insurer / TheNextWeb / Morningstar / Yahoo Finance)"
+    },
+    {
+      "name": "Sierra",
+      "website": "https://sierra.ai",
+      "pipeline": "pr-marketing",
+      "industry": "Enterprise AI Customer Agent Platform / Conversational AI for Enterprise Service Operations (B2B Enterprise SaaS — handles customer service, mortgage refinancing, insurance claims agents)",
+      "location": "San Francisco, CA (HQ)",
+      "fundingStage": "$950M Series E at $15.8B post-money valuation announced May 4, 2026, led by Tiger Global and Google's GV; participation from Benchmark, Sequoia, Greenoaks, and others. Founded 3 years ago by Bret Taylor (OpenAI chairman, former Salesforce co-CEO) and Clay Bavor (former Google VP). Reported $150M ARR by Feb 2026 (up from $100M in Nov 2025). Customer base reportedly includes 40%+ of Fortune 50.",
+      "fitScore": 45,
+      "intentScore": 41,
+      "fitDetails": {
+        "industry_fs_tech": 10,
+        "stage_size_growth": 8,
+        "b2b_buyer_motion": 10,
+        "proof_assets_customers_data": 10,
+        "budget_5k_25k_per_month": 7
+      },
+      "intentDetails": {
+        "trigger_present": 15,
+        "timeline_0_30_days": 9,
+        "decision_maker_engaged": 7,
+        "urgency_pain": 6,
+        "responsiveness": 4
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "Bret Taylor", "title": "Co-founder & CEO (also OpenAI chairman; former Salesforce co-CEO; press-active in 5/4 TechCrunch, CNBC, Seeking Alpha, CMSWire coverage)", "email": "", "linkedin": "" },
+        { "name": "Clay Bavor", "title": "Co-founder (former Google VP, Google Labs leader)", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "fundraise_series_e_950m",
+        "valuation_15_8b_decacorn",
+        "tiger_global_and_gv_co_lead",
+        "150m_arr_feb_2026_50_percent_growth_3_months",
+        "fortune_50_customer_concentration_40_percent",
+        "openai_chairman_founder_credibility",
+        "post_funding_press_cycle_day_3_of_10",
+        "missed_in_5_4_scrape_gap_fill"
+      ],
+      "source": "Daily Scrape 2026-05-07 (gap-fill: missed 2026-05-04 announcement)",
+      "sourceUrl": "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/",
+      "notes": "GAP-FILL — Sierra announced its $950M Series E on May 4 but was not captured in the 5/4 daily scrape (which surfaced Fun and Nura Studios). Adding it now on day-3 of the peak press window. The fit is genuinely a tier below Corgi for ONE reason — Sierra at $15.8B valuation likely already has tier-1 in-house comms (Bret Taylor's network is deep, and decacorn-stage companies typically retain Brunswick/Edelman/Joele Frank for moments like this) — but the upside is HUGE if Mark can land even a niche slice (e.g., the vertical agent narrative for mortgage/insurance verticals, or a thought-leadership piece authored by Bavor on the productized agent platform thesis). Buyer fit is exceptional on industry/B2B-buyer/proof dimensions (10/10/10 — Fortune 50 logos, $150M ARR is unambiguous proof) but the budget tier is the problem (7/10): at decacorn stage, comms budgets are NOT modest agency retainers; they're $50-100k/mo six-figure-monthly engagements with global comms shops. The realistic angle here is a SUBSET pitch — not 'be your AOR' but 'be your vertical-agent storytelling specialist for fintech/insurance' or 'be your trade-press secondary agency for the verticals your primary agency doesn't cover.' Comms-relationship odds: WEAK-MODERATE. Bret Taylor as OpenAI chairman is an unusually press-active CEO who is likely to have direct relationships with WSJ/NYT/Bloomberg tech reporters, which makes traditional 'we'll book you in TechCrunch' pitches less compelling. The differentiation has to be either (i) industry-vertical depth (insurance, mortgage, FS specifically), or (ii) thought-leadership operations support (research reports, panel placement at SaaStr/Money 20/20/Industry conferences) that the primary AOR isn't focused on. Outreach lead-touch: Clay Bavor is the more accessible touch (less press-saturated than Taylor); Liz Bourgeois (likely Sierra Head of Comms — needs verification) is the better cold-outreach target. Time-sensitive: peak window is 5/4-5/14, today is day 3 of 10. Combined score 86 — A-tier, but treat as a longer-arc pitch (60-90 days) given the budget-tier mismatch and likely existing AOR. SF HQ. Only worth pursuing if Mark has differentiated insurance/FS-vertical comms credentials to lead with.",
+      "lastActivity": "$950M Series E at $15.8B valuation announced May 4, 2026 (TechCrunch / CNBC / Seeking Alpha / CMSWire / Sierra blog)"
+    },
+    {
+      "name": "RadixArk",
+      "website": "https://radixark.com",
+      "pipeline": "pr-marketing",
+      "industry": "Open AI Infrastructure / Frontier AI Inference and Training Infrastructure / Open-Source Engine Powering Foundational AI (B2B Developer Infrastructure — SGLang inference engine + Miles RL framework + managed infra + tooling)",
+      "location": "Bay Area / Seattle (HQ — needs verification; founders are SGLang core maintainers)",
+      "fundingStage": "$100M seed at $400M post-money valuation announced May 5-6, 2026, led by Accel; co-led / participation from Spark Capital, NVentures (NVIDIA's VC arm), Salience Capital, A&E Investments, HOF Capital, Walden Catalyst Ventures, AMD. Angel investors include Igor Babuschkin (xAI co-founder), Lip-Bu Tan (Intel CEO), Hock Tan (Broadcom CEO), John Schulman (OpenAI co-founder, Thinking Machines Lab), Soumith Chintala (PyTorch creator, Thinking Machines Lab CTO), Olivier Pomel (Datadog co-founder), Thomas Wolf (Hugging Face co-founder).",
+      "fitScore": 43,
+      "intentScore": 40,
+      "fitDetails": {
+        "industry_fs_tech": 10,
+        "stage_size_growth": 7,
+        "b2b_buyer_motion": 9,
+        "proof_assets_customers_data": 10,
+        "budget_5k_25k_per_month": 7
+      },
+      "intentDetails": {
+        "trigger_present": 14,
+        "timeline_0_30_days": 9,
+        "decision_maker_engaged": 7,
+        "urgency_pain": 6,
+        "responsiveness": 4
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "Ying Sheng", "title": "Co-founder (AI infrastructure/modeling veteran ex-xAI and NVIDIA; SGLang core maintainer; named in 5/5 BusinessWire / 5/6 TheAIInsider coverage)", "email": "", "linkedin": "" },
+        { "name": "Banghua Zhu", "title": "Co-founder (AI infrastructure/modeling veteran ex-xAI and NVIDIA; SGLang core maintainer)", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "fundraise_seed_100m_at_400m_valuation",
+        "accel_lead_spark_nvidia_amd_participating",
+        "sglang_open_source_trillions_tokens_daily",
+        "founder_credentials_xai_nvidia",
+        "celebrity_angel_list_intel_broadcom_openai_pytorch_datadog_hugging_face",
+        "open_infrastructure_for_frontier_ai_category_play",
+        "post_launch_press_cycle_day_1_2"
+      ],
+      "source": "Daily Scrape 2026-05-07",
+      "sourceUrl": "https://www.businesswire.com/news/home/20260505077157/en/RadixArk-Launches-with-$100-Million-in-Seed-Funding-Led-by-Accel-to-Grow-SGLang-and-Democratize-Frontier-AI-Infrastructure",
+      "notes": "Unusual seed lead worth A-tier consideration despite the early stage. Three things make this work for pr-marketing despite being technically a 'seed' (which we'd normally skip for stage fit): (a) the $400M post-money valuation is actually closer to a Series B in pricing, (b) the SGLang open-source story — 'serving trillions of tokens daily' is a Cursor-tier proof point that lands instantly with engineering trade press, (c) the angel-list reads like a Forbes 30-under-30 panel: Intel CEO, Broadcom CEO, OpenAI co-founder, PyTorch creator, Datadog founder, Hugging Face founder all participated. That's a press hook in itself ('the AI infrastructure deal that brought together the founders of OpenAI, PyTorch, Hugging Face, Datadog'). Buyer fit: exceptional on industry, proof, and B2B buyer motion (10/10/9). The weakness is stage-and-budget — at $100M cash they're not yet at the $25-50k/mo retainer tier, but a $10-15k/mo strategic-PR engagement to ride the 6-month launch window is realistic. Comms-relationship odds: STRONG. Founders Sheng and Zhu are technical operators (xAI/NVIDIA backgrounds) — almost certainly no in-house comms yet, and SGLang's open-source community has been engineering-led not press-led, so they'd benefit visibly from PR strategy on their first major narrative arc. Pitch: (i) the 'SGLang as the Linux of AI inference' open-standard framing for developer-trade press (The New Stack, InfoQ, ZDNet, The Register), (ii) the angel-list as an industry-validation lede for the Information / Forbes / WSJ enterprise AI beat, (iii) thought-leadership for the 'frontier AI infrastructure should be open' policy angle (with AI-policy press, House Energy & Commerce comms staff, etc.), (iv) the founder-origin story (xAI to standing up an open alternative is a Musk-era tension narrative that journalists will bite on). Time-sensitive: launch press cycle is 5/5-5/15, today is day 2-3 of 10. Outreach in next 48 hours optimal. Lead-touch CEO Sheng. Combined score 83 — A-tier border. Worth a discovery call even at $10-15k/mo retainer tier given the 18-month upside as they scale to Series A.",
+      "lastActivity": "$100M seed at $400M valuation announced May 5-6, 2026 (BusinessWire / TheAIInsider / Crunchbase News / Tech Funding News / Pulse 2.0 / FinSMEs)"
+    },
+    {
+      "name": "QuantWare",
+      "website": "https://quantware.com",
+      "pipeline": "pr-marketing",
+      "industry": "Quantum Computing Hardware / Quantum Processor Foundry & Architecture (B2B Deep Tech — designs, fabricates, integrates superconducting QPUs; VIO architecture for utility-scale quantum; KiloFab world's largest open-architecture quantum fab in Delft)",
+      "location": "Delft, Netherlands (HQ — TU Delft / QuTech spinout)",
+      "fundingStage": "$178M (€152M) Series B announced May 5, 2026 — largest private round ever raised by a dedicated quantum processor company. New investors: Intel Capital, IQT, ETF Partners. Existing investors participating: FORWARD.one, Invest-NL Deep Tech Fund, InnovationQuarter Capital, Ground State Ventures, Graduate Ventures. Round was heavily oversubscribed. Founded 2021 by Matt Rijlaarsdam and Alessandro Bruno as a spinout from QuTech at TU Delft. 50+ customers across 20 countries.",
+      "fitScore": 38,
+      "intentScore": 36,
+      "fitDetails": {
+        "industry_fs_tech": 7,
+        "stage_size_growth": 9,
+        "b2b_buyer_motion": 7,
+        "proof_assets_customers_data": 8,
+        "budget_5k_25k_per_month": 7
+      },
+      "intentDetails": {
+        "trigger_present": 14,
+        "timeline_0_30_days": 8,
+        "decision_maker_engaged": 6,
+        "urgency_pain": 4,
+        "responsiveness": 4
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "Matt Rijlaarsdam", "title": "Co-founder & CEO (TU Delft / QuTech spinout; press-active in 5/5 Bloomberg, BusinessWire / Yahoo Finance, Quantum Insider, EU-Startups, HPCwire coverage)", "email": "", "linkedin": "" },
+        { "name": "Alessandro Bruno", "title": "Co-founder (TU Delft / QuTech spinout)", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "fundraise_series_b_178m_152m_eur",
+        "largest_private_round_dedicated_quantum_processor_company",
+        "intel_capital_iqt_etf_partners_new_investors",
+        "vio_40k_announcement_10000_qubits_100x_state_of_art",
+        "kilofab_world_largest_open_architecture_quantum_fab",
+        "50_plus_customers_20_countries",
+        "post_funding_press_cycle_active_day_2_of_10"
+      ],
+      "source": "Daily Scrape 2026-05-07",
+      "sourceUrl": "https://thequantuminsider.com/2026/05/05/quantware-raises-178-million-to-build-quantum-processors-at-an-industrial-scale/",
+      "notes": "B-tier (74 combined). Including for completeness because the absolute size of the round is press-relevant, but the fit is genuinely weaker than the other 3 leads for these reasons: (i) it's a Netherlands-headquartered company — out of MarCRM's geographic-network sweet spot, (ii) quantum-computing buyers are research labs, national-security contractors, and a small set of HPC enterprises — not the typical FS/B2B-tech audience the agency's playbook is built around, (iii) the press cycle for this round is largely captured by specialist trade outlets (Quantum Insider, HPCwire, EU-Startups) that don't generally use external-PR-agency intermediation. That said: the trigger is unambiguously real (largest-ever quantum-processor round, Intel Capital + In-Q-Tel = strategic-defense corner of cap table, KiloFab announcement is genuinely category-creator), and if Mark has any specialist deep-tech/national-security comms credentials, this is a credible 'we own the European quantum narrative for 2026' play. Comms-relationship odds: MODERATE. The 5/5 press release had no quoted in-house comms lead, but EU deep-tech companies often work through Brussels/Amsterdam-based trade-press shops rather than US PR agencies, so geographic pull is against this engagement. Pitch threading (if pursued): (a) 'Europe's quantum sovereignty story' for FT / Reuters / Bloomberg policy beats, (b) the Intel-Capital + In-Q-Tel strategic corner as a US-defense-establishment validation hook for Defense News / National Defense Magazine, (c) thought-leadership for CEO Rijlaarsdam on 'utility-scale quantum is a foundry problem, not a qubit problem.' Outreach lead-touch: CEO Rijlaarsdam. Combined score 74 — B-tier. RECOMMEND skipping unless Mark wants to deliberately expand the agency's deep-tech European book; otherwise this is a 'note for the file, return to in 6 months when they're hiring a US comms lead' lead.",
+      "lastActivity": "$178M (€152M) Series B announced May 5, 2026 (Bloomberg / BusinessWire / Quantum Insider / EU-Startups / TheNextWeb / HPCwire / Tech.eu / Yahoo Finance)"
+    }
+  ]
+}
