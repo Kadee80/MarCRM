@@ -1,0 +1,333 @@
+{
+  "scrapeDate": "2026-05-07",
+  "scrapeType": "pr-freelance",
+  "totalLeads": 6,
+  "note": "PR Freelance pipeline scrape May 1-7, 2026. 6 fresh leads, all 60+ combined. Mix of confirmed contract/freelance postings (Talent Table fintech contract) and strategic agency-overflow targets (Vested, Inkhouse, Reveille — Mark's exact white-label ICP). Heavy fintech/B2B/financial services tilt per Mark's preferences. No duplicates of pr-freelance-scrape-2026-04-30 through 2026-05-06 or any daily-scrape leads. Job-board postings sourced via web search of Google/Bing indexed results — no LinkedIn bot scraping.",
+  "leads": [
+    {
+      "name": "Talent Table (Fintech / Digital Payments client)",
+      "website": "https://www.talenttable.com",
+      "pipeline": "pr-freelance",
+      "industry": "Fintech / Digital Payments — Issues Management & Crisis Comms",
+      "location": "Remote, US-based (Pacific hours required)",
+      "fundingStage": "Public / Late-stage (anonymous global financial services + digital payments client)",
+      "fitScore": 47,
+      "intentScore": 41,
+      "combinedScore": 88,
+      "grade": "A",
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 15,
+        "workstream": 12,
+        "buyer_quality": 0,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 10,
+        "recency": 8,
+        "urgency_signals": 8,
+        "apply_path": 0
+      },
+      "vertical": "pr",
+      "subvertical": "crisis",
+      "engagementModel": "contract",
+      "buyerType": "operating-company",
+      "compensationText": "$68.97/hr W2 + paid holidays via Talent Table — 12-month contract",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "12-month W2 contract via staffing partner Talent Table",
+      "urgencyScore": 78,
+      "contacts": [
+        {
+          "name": "Talent Table Recruiting",
+          "title": "Recruiter — Corporate Comms Issues Mgmt role",
+          "email": null,
+          "linkedin": "https://www.linkedin.com/company/talent-table/"
+        }
+      ],
+      "signals": [
+        "12_month_contract_explicit",
+        "hourly_rate_stated_135k_annualized",
+        "issues_management_crisis_remit",
+        "reputational_risk_early_warning",
+        "fintech_payments_buyer",
+        "remote_pacific_hours",
+        "crisis_comms_workstream_match"
+      ],
+      "source": "Indeed (Talent Table staffing posting)",
+      "sourceUrl": "https://www.indeed.com/q-high-paying-remote-fintech-jobs.html",
+      "notes": "Highest-intent lead this week (combined 88, A grade). Anonymous global financial services + digital payments client — likely Visa, Mastercard, PayPal, or a top-5 payments network — hiring 12-month contract Corporate Communications Lead via Talent Table staffing. Remit: early-warning systems for reputational risk, cross-functional comms strategy for issues/crisis, sensitive-topic plans, key-point-of-contact during crises. Mark's expertise: crisis comms, reputation management, fintech narrative, regulatory framing — direct match. Intent signals: explicit 12-month duration, $68.97/hr W2 rate stated upfront ($135k annualized base), no H-1B sponsorship (US-only filter), Pacific hours preferred. Pitch: position as senior crisis-comms operator with fintech depth — Mark's edge over staffing-firm contractor pool is strategic + executional combo, not just media-list management. Apply via Talent Table OR identify the underlying payments client and pitch direct."
+    },
+    {
+      "name": "Vested",
+      "website": "https://fullyvested.com",
+      "pipeline": "pr-freelance",
+      "industry": "PR Agency — Financial Services Specialist (Fintech, Wealth Mgmt, InsurTech, Capital Markets, Mortgage, VC, PE)",
+      "location": "New York, NY (remote-friendly)",
+      "fundingStage": "Established boutique (independent agency)",
+      "fitScore": 42,
+      "intentScore": 38,
+      "combinedScore": 80,
+      "grade": "A",
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 15,
+        "workstream": 7,
+        "buyer_quality": 0,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 13,
+        "remote_flex": 8,
+        "recency": 7,
+        "urgency_signals": 5,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "agency-overflow",
+      "engagementModel": "contract",
+      "buyerType": "agency",
+      "compensationText": "Project + retainer rates negotiable; freelance contractor pool",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "agency overflow / white-label freelance contractor",
+      "urgencyScore": 60,
+      "contacts": [
+        {
+          "name": "Dan Simon",
+          "title": "Founder & CEO, Vested",
+          "email": null,
+          "linkedin": "https://www.linkedin.com/in/dansimon1/"
+        },
+        {
+          "name": "Vested Talent / Resourcing Lead",
+          "title": "Director of Talent or Head of Operations",
+          "email": null,
+          "linkedin": null
+        }
+      ],
+      "signals": [
+        "fintech_only_specialist_agency",
+        "covers_marks_entire_icp_stack",
+        "white_label_overflow_buyer_archetype",
+        "boutique_size_uses_freelance_pool",
+        "agency_buyer_sophistication"
+      ],
+      "source": "Web search (industry agency directory)",
+      "sourceUrl": "https://fullyvested.com",
+      "notes": "Tier-1 agency-overflow lead (combined 80, A grade). Vested is a boutique PR firm whose entire client roster sits inside Mark's ICP — fintech, wealth management, insurance/InsurTech, capital markets, mortgage, VC, PE. Mark's exact specialty stack. Boutique size = uses freelance contractor pool for overflow (campaign launches, founder positioning sprints, IPO/exit comms support). Pitch: white-label senior PR support — drop-in capacity for media relations execution + executive comms ghostwriting on their fintech book. No public posting required — this is a relationship-led intro to their resourcing lead. Mark gets sophisticated buyer (agency-side, no client education needed) + recurring overflow flow. Target: founder Dan Simon directly + ops/talent lead via LinkedIn. Send 1-page capabilities deck + 2-3 fintech earned-media samples."
+    },
+    {
+      "name": "Inkhouse",
+      "website": "https://www.inkhouse.com",
+      "pipeline": "pr-freelance",
+      "industry": "PR Agency — B2B SaaS, Tech, Pre-IPO/IPO Communications",
+      "location": "Boston, MA + San Francisco, CA + remote",
+      "fundingStage": "Established mid-size agency (independent)",
+      "fitScore": 38,
+      "intentScore": 35,
+      "combinedScore": 73,
+      "grade": "B",
+      "fitDetails": {
+        "pr_remit": 18,
+        "sector_fit": 12,
+        "workstream": 8,
+        "buyer_quality": 0,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 12,
+        "remote_flex": 8,
+        "recency": 5,
+        "urgency_signals": 5,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "agency-overflow",
+      "engagementModel": "contract",
+      "buyerType": "agency",
+      "compensationText": "Project rates + freelance contractor pool",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "agency overflow / white-label freelance",
+      "urgencyScore": 50,
+      "contacts": [
+        {
+          "name": "Inkhouse Talent / Resourcing Team",
+          "title": "Head of Talent or Managing Director",
+          "email": null,
+          "linkedin": "https://www.linkedin.com/company/inkhouse/"
+        }
+      ],
+      "signals": [
+        "ipo_exit_comms_specialty",
+        "b2b_saas_client_book",
+        "named_databricks_servicetitan_clients",
+        "scaling_agency_overflow_pattern",
+        "high_visibility_campaign_capacity"
+      ],
+      "source": "Web search (IPO PR agency review)",
+      "sourceUrl": "https://www.inkhouse.com",
+      "notes": "Strong agency-overflow lead (combined 73, B grade). Inkhouse has supported dozens of company exits including Databricks, ServiceTitan, ForSight Robotics — exactly the B2B SaaS pre-IPO/IPO narrative Mark can plug into. They run high-stakes campaigns that need overflow execution: media list building, analyst pre-briefings, S-1 announcement pushback, post-IPO earnings narrative. Pitch: senior freelance operator who can come in for IPO sprint cycles or campaign-by-campaign. Less natural than Vested (broader sector mix vs. fintech-pure) but volume is larger. Target: Head of Talent or MD on LinkedIn. Reference fintech narrative wins from Mark's portfolio to differentiate from generalist contractor pool."
+    },
+    {
+      "name": "Rho",
+      "website": "https://www.rho.co",
+      "pipeline": "pr-freelance",
+      "industry": "Fintech / Business Banking — Corporate Cards, Treasury, AP for Startups & Scale-Ups",
+      "location": "New York, NY + San Francisco, CA",
+      "fundingStage": "Series B+ (~355 employees as of Jan 2026)",
+      "fitScore": 35,
+      "intentScore": 30,
+      "combinedScore": 65,
+      "grade": "B",
+      "fitDetails": {
+        "pr_remit": 12,
+        "sector_fit": 15,
+        "workstream": 8,
+        "buyer_quality": 0,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 8,
+        "remote_flex": 8,
+        "recency": 7,
+        "urgency_signals": 7,
+        "apply_path": 0
+      },
+      "vertical": "pr",
+      "subvertical": "comms",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "Not posted — fractional/contract pitch warranted given team scale and 40+ open reqs",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "no posted comms-specific contract — strategic outreach lead",
+      "urgencyScore": 55,
+      "contacts": [
+        {
+          "name": "Everett Cook",
+          "title": "Co-founder & CEO, Rho",
+          "email": null,
+          "linkedin": "https://www.linkedin.com/in/everett-cook/"
+        },
+        {
+          "name": "Rho Marketing/Comms Lead",
+          "title": "Head of Marketing or VP Brand",
+          "email": null,
+          "linkedin": null
+        }
+      ],
+      "signals": [
+        "venture_backed_fintech_buyer",
+        "hiring_during_2026_cash_preservation_cycle",
+        "40_plus_open_roles_growth_signal",
+        "b2b_saas_narrative_alignment",
+        "post_series_b_comms_buildout_window"
+      ],
+      "source": "Web search (KORE1 fintech hiring brief 2026)",
+      "sourceUrl": "https://www.rho.co/careers",
+      "notes": "Strategic outreach lead (combined 65, B grade). Rho is hiring aggressively (40+ roles loaded) during a 2026 cycle when most peer fintechs are preserving cash — that's an unambiguous strength signal and a comms tailwind opportunity. They sell business banking to startups, so their narrative is B2B SaaS + fintech crossover (Mark's sweet spot). No specific comms-contract posting was visible in indexed results, but companies in this growth posture frequently need fractional comms support to keep pace with product/funding announcements. Pitch: fractional 15-20 hrs/week comms operator for press cycle support, exec positioning (CEO Everett Cook is publicly active), category narrative around 'banking for startups' vs. Mercury/Brex. Target: Head of Marketing or CEO via LinkedIn cold outreach with portfolio examples in fintech B2B."
+    },
+    {
+      "name": "Kaia Investment Partners",
+      "website": "https://www.kaia.io",
+      "pipeline": "pr-freelance",
+      "industry": "Venture Capital — Stablecoin & Fintech Ecosystem Fund",
+      "location": "Asia-Pacific HQ (likely Seoul/Singapore) — remote engagement viable",
+      "fundingStage": "New fund — established March 2026",
+      "fitScore": 35,
+      "intentScore": 28,
+      "combinedScore": 63,
+      "grade": "B",
+      "fitDetails": {
+        "pr_remit": 13,
+        "sector_fit": 15,
+        "workstream": 7,
+        "buyer_quality": 0,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 8,
+        "remote_flex": 7,
+        "recency": 8,
+        "urgency_signals": 5,
+        "apply_path": 0
+      },
+      "vertical": "pr",
+      "subvertical": "investor-pr",
+      "engagementModel": "fractional",
+      "buyerType": "fund",
+      "compensationText": "Not posted — fund launch comms project pitch warranted",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "no posted role — greenfield comms outreach",
+      "urgencyScore": 58,
+      "contacts": [
+        {
+          "name": "Kaia Investment Partners — Founding Partner",
+          "title": "Managing Partner / Head of Investor Relations",
+          "email": null,
+          "linkedin": null
+        }
+      ],
+      "signals": [
+        "newly_established_march_2026_fund",
+        "stablecoin_fintech_narrative_complexity",
+        "greenfield_comms_buildout",
+        "lp_fundraising_visibility_window",
+        "alt_investments_buyer_archetype"
+      ],
+      "source": "Web search (web3.career / VC stack listings)",
+      "sourceUrl": "https://web3.career/vc-jobs",
+      "notes": "Greenfield comms lead (combined 63, B grade). Kaia Investment Partners launched March 2026 as the investment arm of Kaia, with a dedicated VC fund focused on stablecoin and fintech ecosystems. New funds in stablecoin/crypto-adjacent verticals have very specific comms needs: fund-launch announcement, founding-partner thought leadership, regulatory positioning (stablecoin policy is a 2026 hot button), LP visibility, portfolio company narrative coordination. No posted comms role — this is a strategic outreach pitch. Mark's edge: senior PR operator who has worked the fintech + alternative-investments narrative before, can build and run a comms function fractionally during the first 12-18 months while the fund decides whether to staff full-time. Lower combined score than Vested/Inkhouse because no posted contract, but high recency (March 2026 launch = current need)."
+    },
+    {
+      "name": "Reveille Advisors",
+      "website": "https://www.reveilleadvisors.com",
+      "pipeline": "pr-freelance",
+      "industry": "PR Agency — Earned Media & Reputation for Public Companies, PE, Funds",
+      "location": "Distributed (US-based)",
+      "fundingStage": "Established boutique advisory",
+      "fitScore": 32,
+      "intentScore": 28,
+      "combinedScore": 60,
+      "grade": "B",
+      "fitDetails": {
+        "pr_remit": 17,
+        "sector_fit": 7,
+        "workstream": 8,
+        "buyer_quality": 0,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 8,
+        "remote_flex": 7,
+        "recency": 6,
+        "urgency_signals": 4,
+        "apply_path": 3
+      },
+      "vertical": "pr",
+      "subvertical": "agency-overflow",
+      "engagementModel": "contract",
+      "buyerType": "agency",
+      "compensationText": "Project rates negotiable",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "agency overflow / specialist freelance",
+      "urgencyScore": 45,
+      "contacts": [
+        {
+          "name": "Reveille Advisors — Founding Partner",
+          "title": "Managing Partner",
+          "email": null,
+          "linkedin": null
+        }
+      ],
+      "signals": [
+        "earned_media_specialist_practice",
+        "public_company_pe_fund_book",
+        "boutique_uses_freelance_capacity",
+        "reputation_advisory_workstream_match"
+      ],
+      "source": "Web search (earned media agency directory)",
+      "sourceUrl": "https://www.reveilleadvisors.com/earned-media-pr/",
+      "notes": "Agency-overflow lead (combined 60, B grade). Reveille Advisors is a boutique earned-media + reputation PR shop serving public companies, PE-backed firms, and funds — overlapping cleanly with Mark's ICP (alternative investments + capital markets). Smaller than Inkhouse, narrower than Vested, but the earned-media remit is specifically Mark's wheelhouse. Boutiques of this scale almost always use freelance contractors during peak cycles. Pitch: white-label senior earned-media operator with public-company + fund-side experience. Target: managing partner via LinkedIn with sample placements in WSJ/Bloomberg/FT/Barron's. Lowest combined score in this scrape but threshold-clearing — include because Mark's emphasis on agency overflow makes boutique-PE-focused shops strategically valuable even when not actively posting."
+    }
+  ]
+}

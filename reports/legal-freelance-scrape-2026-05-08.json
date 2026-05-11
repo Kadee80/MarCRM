@@ -1,0 +1,307 @@
+{
+  "scrapeDate": "2026-05-08",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 6,
+  "note": "Legal Freelance pipeline scrape for 2026-05-08. Focus: fractional/interim/contract roles where Katie can pitch as high-judgment corporate/fund counsel on a part-time, project, or interim basis. 7-day window. Deduplicated against legal-freelance-scrape-2026-05-06.json and legal-freelance-scrape-2026-05-07.json (skipped: Legalpeople, Paragon Legal, Axiom, Sleep Doctor, DLA Piper, Direct Counsel, Foley Hoag, Cooley, EBTH, Norm Law, MLA, AngelList, VC Lab, Reed Smith, Scale LLP, AMBART LAW, Outside GC). All 6 leads score 55+ and are tagged pipeline=legal-freelance. Quality over quantity: A-grade leads dominate. Note: aVenture and Ropes & Gray are evergreen postings — verify they're still active at apply time. Constitution Capital Partners is the only full-time GC role — included as a B-grade lead because the underlying fund-formation work is exactly Katie's wheelhouse and the firm size suggests they could later need fractional overflow even if this perm role gets filled.",
+  "leads": [
+    {
+      "id": "lead-001-aventure-vc-fund-attorney",
+      "name": "aVenture (Venture Capital Fund Attorney - Remote)",
+      "website": "https://aventure.vc",
+      "pipeline": "legal-freelance",
+      "industry": "FinTech / Venture Capital Platform",
+      "location": "Remote (anywhere; 4 hrs US Pacific overlap required)",
+      "fundingStage": "Early-stage fintech (startup investing platform)",
+      "fitScore": 50,
+      "intentScore": 45,
+      "fitDetails": {
+        "practice_area": 20,
+        "seniority": 10,
+        "comp_credible": 10,
+        "fund_focus": 10
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 15,
+        "recency": 5,
+        "apply_path": 10
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "contract-or-part-time",
+      "buyerType": "operating-company",
+      "compensationText": "$96,875 - $145,750 / year (full-time equivalent); part-time available with prorated comp",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Full-time OR Part-time (candidate's choice)",
+      "urgencyScore": 70,
+      "contacts": [
+        {
+          "name": "aVenture Recruiting",
+          "title": "Hiring Manager / Talent",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/aventure-startup-investing-funds"
+        }
+      ],
+      "signals": [
+        "Active posting on Glassdoor, LinkedIn, Indeed, and Gusto career page",
+        "100% remote work-from-anywhere with only 4 hrs Pacific Time overlap required",
+        "Explicit option for full-time OR part-time engagement",
+        "Comp $96,875 - $145,750/year stated openly",
+        "Practice scope is exactly fund formation + securities + investment management",
+        "Operating company (not staffing firm) — direct relationship buyer"
+      ],
+      "source": "Glassdoor, LinkedIn Jobs, Indeed, Gusto job board",
+      "sourceUrl": "https://jobs.gusto.com/postings/aventure-investment-company-venture-capital-fund-attorney-6ade1aa1-d8c3-4622-b95d-f856899b023a",
+      "notes": "VC fintech platform that gives ordinary investors access to VC funds. Hiring a Venture Capital Fund Attorney to set up its funds and run regulatory compliance — exactly Katie's fund formation skill set. The part-time option makes this a perfect fractional/interim opportunity. Pitch angle: position as a fractional GC who can stand up the fund structure now and scale into a permanent role later if the platform grows. Salary range covers part-time flex (e.g., 20 hrs/wk at the high band ≈ $73k annualized at $70/hr). Risk: posting may be evergreen so verify recency before pitching. Treat as an A-grade lead."
+    },
+    {
+      "id": "lead-002-ropes-gray-funds-attorney",
+      "name": "Ropes & Gray LLP - Asset Management Funds Attorney Program (Remote)",
+      "website": "https://www.ropesgray.com",
+      "pipeline": "legal-freelance",
+      "industry": "AmLaw 100 Law Firm / Asset Management Practice",
+      "location": "Remote (US national; bar admission in any state where R&G has an office; physical office not required)",
+      "fundingStage": "Established (AmLaw 100)",
+      "fitScore": 50,
+      "intentScore": 45,
+      "fitDetails": {
+        "practice_area": 20,
+        "seniority": 10,
+        "comp_credible": 10,
+        "fund_focus": 10
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 15,
+        "recency": 5,
+        "apply_path": 10
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "contract-hourly-billable",
+      "buyerType": "law-firm",
+      "compensationText": "Hourly billable compensation (no benefits); rate not publicly stated but R&G market-rate for senior funds work",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Funds Attorney program — independent contractor, full-time or part-time",
+      "urgencyScore": 60,
+      "contacts": [
+        {
+          "name": "Ropes & Gray Recruiting",
+          "title": "Asset Management Group — Funds Attorney Recruiter",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/ropes-&-gray-llp"
+        }
+      ],
+      "signals": [
+        "Active posting on R&G dedicated recruiting site",
+        "100% remote — no office attendance required",
+        "Hourly billable comp model = true contract attorney (not staffing temp)",
+        "Practice group of 20+ funds attorneys with 5-20 yrs experience",
+        "Open to candidates from PE/transactional/securities/litigation backgrounds — they'll retool",
+        "Backed by AmLaw 100 brand and dealflow — recurring billable hours not a single project"
+      ],
+      "source": "Ropes & Gray careers / recruiting page",
+      "sourceUrl": "https://www.ropesgrayrecruiting.com/en/life-at-ropes-and-gray/positions/funds-attorney-asset-management-group-remote",
+      "notes": "Standing program (not a one-off opening) — R&G runs a dedicated 100% remote Funds Attorney pool that bills hourly to AmLaw 100 client work. Closest analog to an in-house ALSP at a top firm. Strong fit for Katie's fund formation/asset management corner. Pitch angle: this is a long-term recurring billable relationship, not a single placement — get into the pool, then take work as it fits Katie's bandwidth. Since R&G is firm-of-record and the underlying clients are top-tier funds, hourly rate should be high. Verify current rate during recruiter conversation."
+    },
+    {
+      "id": "lead-003-arootah-fractional-chief-legal-counsel",
+      "name": "Arootah - Consultant, Chief Legal Counsel / General Counsel (Fractional/Contract)",
+      "website": "https://arootah.com",
+      "pipeline": "legal-freelance",
+      "industry": "Hedge Fund / Family Office Advisory",
+      "location": "New York (remote-friendly per consulting model)",
+      "fundingStage": "Established (founded by Rich Bello, ex-Blue Ridge Capital COO)",
+      "fitScore": 50,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": 20,
+        "seniority": 10,
+        "comp_credible": 10,
+        "fund_focus": 10
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 10,
+        "recency": 5,
+        "apply_path": 10
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "fractional-contract",
+      "buyerType": "family-office",
+      "compensationText": "$400 - $600 / hour (consulting rate)",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Independent contractor — flexible 0-40 hours per week",
+      "urgencyScore": 78,
+      "contacts": [
+        {
+          "name": "Arootah Talent / Lever Hiring",
+          "title": "Consulting Recruiter",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/arootah"
+        }
+      ],
+      "signals": [
+        "Explicit fractional/contract role — 0-40 hours per week flexibility",
+        "Hourly rate $400-$600 — among the highest published rates for fund-side counsel work",
+        "Underlying clients are hedge funds and family offices (premium ICP buyers)",
+        "Practice scope: investment management agreements, PE/HF transactions, compliance training, IM agreements — exactly Katie's wheelhouse",
+        "Founder Rich Bello has a Blue Ridge / Tiger Management / Morgan Stanley pedigree → high-quality client roster",
+        "Active posting on Lever, GoInhouse, ZipRecruiter — multiple aggregators"
+      ],
+      "source": "Lever (Arootah careers), GoInhouse, ZipRecruiter",
+      "sourceUrl": "https://jobs.lever.co/arootah/7cb30dcb-ecca-4e5c-95d1-acdb4d0ad25b",
+      "notes": "Highest hourly rate ($400-$600) seen across the legal-freelance scrapes. Arootah is essentially a fractional services brand serving hedge funds and family offices — one engagement with them = one client; multiple engagements = a steady pipeline. Highest-priority pitch this week. Pitch angle: position as a fund counsel who can step into multiple HF/family-office engagements as their needs scale. Even a single 10-hr/wk engagement at $500/hr = $260k annualized. Bonus: NYC-local network access via Bello's Tiger Management connections."
+    },
+    {
+      "id": "lead-004-constitution-capital-partners-gc",
+      "name": "Constitution Capital Partners - General Counsel",
+      "website": "https://concp.com",
+      "pipeline": "legal-freelance",
+      "industry": "Private Equity & Private Credit (LP/GP)",
+      "location": "Andover, MA / Boston / New York (likely hybrid)",
+      "fundingStage": "Established alternative asset manager (founded 2008)",
+      "fitScore": 50,
+      "intentScore": 12,
+      "fitDetails": {
+        "practice_area": 20,
+        "seniority": 10,
+        "comp_credible": 10,
+        "fund_focus": 10
+      },
+      "intentDetails": {
+        "engagement_model": 0,
+        "remote_flex": 0,
+        "recency": 5,
+        "apply_path": 7
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "full-time-perm",
+      "buyerType": "fund",
+      "compensationText": "Not stated (PE firm market comp expected: $200k-$300k+ base + bonus)",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Full-time General Counsel",
+      "urgencyScore": 30,
+      "contacts": [
+        {
+          "name": "Constitution Capital Partners HR",
+          "title": "Hiring Manager",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/constitution-capital-partners"
+        }
+      ],
+      "signals": [
+        "Lower-middle-market PE & private credit firm — exactly the ICP buyer profile",
+        "Role scope: fund documents, side letters, subscriptions, regulatory diligence, outside counsel management — Katie's exact wheelhouse",
+        "Founded 2008, mature firm with multi-fund vintage history",
+        "Active posting on GoInhouse and ZipRecruiter (~March 2026 listing)",
+        "Andover/Boston/NY footprint — hybrid likely required"
+      ],
+      "source": "GoInhouse, ZipRecruiter, Constitution Capital Partners careers page",
+      "sourceUrl": "https://www.goinhouse.com/jobs/508910325-general-counsel-at-constitution-capital-partners",
+      "notes": "Note: This is a full-time perm GC role, not a fractional one. Included as B-grade because (1) the fund-formation/side-letter workstream is exactly Katie's specialty and (2) lower-middle-market PE firms regularly need fractional overflow even after hiring a GC — getting on their radar now positions Katie for project work later if they decide hiring full-time is too rich. Pitch angle: write to the firm's leadership offering fractional / project-based fund formation overflow to bridge them until they fill the perm role. Lower intent score (12) reflects the perm/onsite gap. Not a today-priority lead — but worth a touchpoint email."
+    },
+    {
+      "id": "lead-005-lawtrades-marketplace",
+      "name": "Lawtrades (Marketplace - Corporate / Fund Formation Talent Pool)",
+      "website": "https://www.lawtrades.com",
+      "pipeline": "legal-freelance",
+      "industry": "Legal Talent Marketplace / ALSP",
+      "location": "Remote (US national)",
+      "fundingStage": "Series A ($11.7M raised; investors include 500 Global, Draper, Four Cities Capital)",
+      "fitScore": 50,
+      "intentScore": 45,
+      "fitDetails": {
+        "practice_area": 20,
+        "seniority": 10,
+        "comp_credible": 10,
+        "fund_focus": 10
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 15,
+        "recency": 5,
+        "apply_path": 10
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "contract-or-part-time-marketplace",
+      "buyerType": "ALSP",
+      "compensationText": "$150 - $180 / hour average (per Lawtrades platform data)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Marketplace placements: project, part-time, full-time, or contract-to-hire",
+      "urgencyScore": 65,
+      "contacts": [
+        {
+          "name": "Lawtrades Talent Team",
+          "title": "Attorney Onboarding",
+          "email": "talent@lawtrades.com",
+          "linkedin": "https://www.linkedin.com/company/lawtrades"
+        }
+      ],
+      "signals": [
+        "Practice areas explicitly include fund formation, corporate governance, M&A, contracts, regulatory compliance — full match",
+        "Average hourly rate $150-$180 — solid market rate for senior corporate counsel",
+        "Marketplace model: register once, take placements as bandwidth allows",
+        "Mid-market & enterprise client mix (Yelp, Headspace mentioned by Legal Dive)",
+        "Series A backing → growth-mode platform with active client demand",
+        "Contract-to-hire, part-time, project-based all available"
+      ],
+      "source": "Lawtrades website (https://www.lawtrades.com), Legal Dive coverage",
+      "sourceUrl": "https://www.lawtrades.com/practice-areas/corporate-law",
+      "notes": "ALSP marketplace — same playbook as joining Legalpeople or MLA's Hire an Esquire pool. Once vetted in, becomes a passive funnel of fund formation and corporate-counsel placements. Mid-market client mix means engagements that can stretch into multi-month retainers. Pitch angle: register through their Attorney Onboarding flow with a positioning bio that emphasizes fund formation + private funds counsel. Net hourly rate $150-$180 is below Arootah but applies to a wider funnel of mid-market clients. Strong recurring lead-source play."
+    },
+    {
+      "id": "lead-006-latitude-legal-fractional-gc",
+      "name": "Latitude Legal (Fractional GC / Funds & Wealth Management Talent Pool)",
+      "website": "https://latitudelegal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Flexible Legal Staffing / NewLaw ALSP",
+      "location": "Remote (US national); offices in San Francisco, NYC, Boston, others",
+      "fundingStage": "Established (Chambers & Partners NewLaw 2025 ranked)",
+      "fitScore": 50,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": 20,
+        "seniority": 10,
+        "comp_credible": 10,
+        "fund_focus": 10
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 10,
+        "recency": 5,
+        "apply_path": 10
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "fractional-contract",
+      "buyerType": "ALSP",
+      "compensationText": "Not publicly stated; Chambers-ranked NewLaw rates competitive with Big Law lateral",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Flexible staffing — interim, fractional, or project-based",
+      "urgencyScore": 60,
+      "contacts": [
+        {
+          "name": "Latitude Legal Recruiting",
+          "title": "Attorney Talent Team",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/latitude-legal"
+        }
+      ],
+      "signals": [
+        "Wealth management fractional GC case study published — exact ICP match for Katie's positioning",
+        "Specializes in placing former Big Law / Fortune 500 senior counsel — Katie's profile fits the bench",
+        "Chambers NewLaw 2025 ranking → premium-tier ALSP brand, premium-tier rates",
+        "Practice expertise specifically calls out Investment Advisers Act / Investment Company Act / securities — funds adjacent",
+        "Multi-office presence (SF, NYC, Boston, etc.) → diverse client geography",
+        "Direct apply via careers page"
+      ],
+      "source": "Latitude Legal careers / case studies / Chambers profile",
+      "sourceUrl": "https://latitudelegal.com/jobs/",
+      "notes": "Latitude is to legal what BTIG is to broker-dealers — premium-tier ALSP that places Big Law alumni into fractional GC and project roles. Their published wealth management case study is essentially the exact playbook Katie would run. Pitch angle: register as a fractional GC available for funds/wealth management/private investment work — leverage the case study as proof Latitude already places Katie's profile. High signal of recurring placement potential. Slightly lower intent score (40) because rate isn't stated and placement velocity depends on inbound client demand, not on a specific live opening."
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "scrapeDate": "2026-05-08",
+  "scrapeType": "pr-freelance",
+  "totalLeads": 6,
+  "note": "PR Freelance pipeline scrape May 2-8, 2026. 6 fresh leads, all 55+ combined. Headline lead is Infinite Global, which acquired Dukas Linden Public Relations on May 6, 2026 — a top-10 financial PR shop — creating immediate post-merger integration overflow on Mark's exact ICP (asset/wealth mgmt, capital markets, fintech, blockchain/crypto, professional services). Five additional agency-overflow targets across financial services PR. No duplicates of pr-freelance-scrape-2026-04-30 through 2026-05-07 (Talent Table, Vested, Inkhouse, Rho, Kaia Investment Partners, Reveille Advisors, Vanta, Deel, Stripe Health, Anthropic, Runway, Rain, Tether, Capital One/Discover, Offchain Labs, GlossGenius, Upstart, Siege Media, Mission North, BVNK, Coinbase/Base, Atticus, Cloudbeds, FactSet, Robinhood) or any daily-scrape leads. Job-board postings sourced via web search of Google/Bing indexed results — no LinkedIn bot scraping.",
+  "leads": [
+    {
+      "name": "Infinite Global",
+      "website": "https://infiniteglobal.com",
+      "pipeline": "pr-freelance",
+      "industry": "Strategic Communications & Reputation Management — Financial Services Platform (post-Dukas Linden acquisition)",
+      "location": "Transatlantic — New York, London, San Francisco, Chicago",
+      "fundingStage": "PE-backed (ParkSouth Ventures strategic investment Aug 2025)",
+      "fitScore": 50,
+      "intentScore": 32,
+      "combinedScore": 82,
+      "grade": "A",
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 15,
+        "workstream": 10,
+        "buyer_quality": 5,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 12,
+        "remote_flex": 5,
+        "recency": 10,
+        "urgency_signals": 5,
+        "apply_path": 0
+      },
+      "vertical": "pr",
+      "subvertical": "agency-overflow",
+      "engagementModel": "freelance",
+      "buyerType": "agency",
+      "compensationText": "Not stated — agency-overflow engagement (project / hourly / monthly retainer typical for white-label work)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Cold approach — agency overflow / white-label senior consultant",
+      "urgencyScore": 75,
+      "contacts": [
+        {
+          "name": "Jamie Diaferia",
+          "title": "Global CEO, Infinite",
+          "email": null,
+          "linkedin": "https://www.linkedin.com/company/infinite-global"
+        },
+        {
+          "name": "Zach Olsen",
+          "title": "President, Infinite",
+          "email": null,
+          "linkedin": "https://www.linkedin.com/company/infinite-global"
+        },
+        {
+          "name": "Seth Linden",
+          "title": "Senior Leader, Infinite (formerly President, DLPR)",
+          "email": null,
+          "linkedin": "https://www.linkedin.com/company/dukas-linden-public-relations"
+        },
+        {
+          "name": "Richard Dukas",
+          "title": "Senior Advisor, Infinite (founder, DLPR)",
+          "email": null,
+          "linkedin": "https://www.linkedin.com/company/dukas-linden-public-relations"
+        }
+      ],
+      "signals": [
+        "merger_integration_phase",
+        "fresh_acquisition_2_days_old",
+        "financial_services_pure_focus",
+        "asset_wealth_capital_markets_fintech_crypto_match",
+        "transatlantic_footprint",
+        "PE_backed_growth_mandate",
+        "top_10_financial_PR_brand",
+        "post_merger_account_surge_likely"
+      ],
+      "source": "O'Dwyer's PR + PRNewswire (May 6, 2026 acquisition announcement)",
+      "sourceUrl": "https://www.odwyerpr.com/story/public/24713/2026-05-06/infinite-acquires-dukas-linden-public-relations.html",
+      "notes": "HEADLINE LEAD this week (combined 82, A grade). Infinite (transatlantic comms / reputation mgmt firm, ParkSouth Ventures-backed) closed acquisition of Dukas Linden Public Relations on 2026-05-06. DLPR is consistently top-10 in O'Dwyer's financial PR rankings; clients sit across asset & wealth management, capital markets, fintech, blockchain/crypto, and professional services — a near-perfect overlap with Mark's ICP. Post-merger integration phase + PE growth mandate = immediate freelance overflow demand for senior fin-comms operators who can plug in without onboarding lift. Pitch: time-boxed cold outreach to Diaferia, Olsen, and Linden in the next 2 weeks while capacity decisions are still fluid. Lead with: 1) crisis/issues case studies in financial services, 2) capacity to absorb integration-period account work white-label, 3) flexible engagement model (hourly + project + retainer all on the table). The merger window is the buy signal — once teams are restructured this opportunity calcifies."
+    },
+    {
+      "name": "The Work Crowd (Fintech PR Network)",
+      "website": "https://theworkcrowd.com/fintech-pr",
+      "pipeline": "pr-freelance",
+      "industry": "Vetted Freelance PR Network — Fintech / Financial Services Specialist",
+      "location": "Global (UK HQ, US placements)",
+      "fundingStage": "Established platform (independent)",
+      "fitScore": 45,
+      "intentScore": 30,
+      "combinedScore": 75,
+      "grade": "B",
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 15,
+        "workstream": 5,
+        "buyer_quality": 5,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 10,
+        "recency": 0,
+        "urgency_signals": 0,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "agency-overflow",
+      "engagementModel": "freelance",
+      "buyerType": "staffing",
+      "compensationText": "Day rate / project — set by freelancer when registering",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Vetted freelancer marketplace registration",
+      "urgencyScore": 35,
+      "contacts": [
+        {
+          "name": "The Work Crowd Talent Team",
+          "title": "Network Vetting / Onboarding",
+          "email": null,
+          "linkedin": "https://www.linkedin.com/company/the-work-crowd"
+        }
+      ],
+      "signals": [
+        "fintech_PR_specialist_network",
+        "vetted_only_freelancers",
+        "multinational_corporate_+_startup_clients",
+        "passive_inbound_pipeline",
+        "registration_apply_path"
+      ],
+      "source": "The Work Crowd Fintech PR landing page",
+      "sourceUrl": "https://theworkcrowd.com/fintech-pr",
+      "notes": "Pipeline gateway lead (combined 75, high B). Not a single buyer — a vetted-freelancer network that places senior PR consultants into fintech corporate and startup engagements. Mark's edge: senior strategist + executor profile differentiates from junior freelancer pool. Action: register (free), build a tight fintech-only profile, list 3-5 anchor case studies (regulatory framing, capital markets narrative, crisis comms in payments). Once vetted, inbound routing is automatic — this is a low-effort recurring-flow play, not a single pitch. Stack with direct outreach to Vested / Caliber / William Mills as the active channel."
+    },
+    {
+      "name": "William Mills Agency",
+      "website": "https://www.williammills.com",
+      "pipeline": "pr-freelance",
+      "industry": "PR Agency — Largest Independent Firm Dedicated Exclusively to Financial Services & Fintech",
+      "location": "Atlanta, GA (national clients, remote-friendly)",
+      "fundingStage": "Established independent (founded 1977)",
+      "fitScore": 42,
+      "intentScore": 23,
+      "combinedScore": 65,
+      "grade": "B",
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 15,
+        "workstream": 5,
+        "buyer_quality": 2,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 10,
+        "remote_flex": 5,
+        "recency": 3,
+        "urgency_signals": 0,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "media-relations",
+      "engagementModel": "freelance",
+      "buyerType": "agency",
+      "compensationText": "Not stated — agency-overflow engagement",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Cold approach + open positions on careers page",
+      "urgencyScore": 40,
+      "contacts": [
+        {
+          "name": "William Mills III",
+          "title": "Founder & CEO",
+          "email": null,
+          "linkedin": "https://www.linkedin.com/in/williammillsiii"
+        },
+        {
+          "name": "WMA Talent / Ops Lead",
+          "title": "Operations / Freelance Coordinator",
+          "email": null,
+          "linkedin": "https://www.linkedin.com/company/william-mills-agency"
+        }
+      ],
+      "signals": [
+        "largest_independent_financial_services_PR_firm",
+        "exclusive_financial_services_focus",
+        "fintech_specialty",
+        "open_positions_listed_publicly",
+        "established_brand_low_explanation_overhead"
+      ],
+      "source": "William Mills Agency website + LinkedIn",
+      "sourceUrl": "https://www.williammills.com/about",
+      "notes": "Strong agency-overflow target (combined 65, B grade). WMA bills itself as the largest independent PR firm dedicated exclusively to financial services and fintech — ~50 years in market, deep media-relations bench, broad fintech client mix. Atlanta-headquartered but operates nationally with remote-friendly hybrid model. Mark's pitch: senior fin-comms operator with NYC/national media relationships available for project, retainer, or campaign-specific overflow. Approach William Mills III directly + a separate ping to ops/talent lead. Lead with 1-page capabilities + 3 fintech earned-media samples; offer a 30-day pilot to prove drop-in capability."
+    },
+    {
+      "name": "Caliber Corporate Advisers",
+      "website": "https://www.calibercorporate.com",
+      "pipeline": "pr-freelance",
+      "industry": "PR Agency — Fintech, Financial Services, Insurance / InsurTech, Real Estate / PropTech",
+      "location": "New York, NY",
+      "fundingStage": "Established boutique (founded 2010)",
+      "fitScore": 40,
+      "intentScore": 23,
+      "combinedScore": 63,
+      "grade": "B",
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 15,
+        "workstream": 5,
+        "buyer_quality": 0,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 10,
+        "remote_flex": 5,
+        "recency": 3,
+        "urgency_signals": 0,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "media-relations",
+      "engagementModel": "freelance",
+      "buyerType": "agency",
+      "compensationText": "Not stated — agency-overflow engagement",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Cold approach + open positions on careers page",
+      "urgencyScore": 38,
+      "contacts": [
+        {
+          "name": "Caliber Founder / CEO",
+          "title": "Founder & CEO",
+          "email": null,
+          "linkedin": "https://www.linkedin.com/company/caliber-corporate-advisers"
+        },
+        {
+          "name": "Caliber Talent Lead",
+          "title": "Talent / Operations",
+          "email": null,
+          "linkedin": "https://www.linkedin.com/company/caliber-corporate-advisers"
+        }
+      ],
+      "signals": [
+        "fintech_+_insurtech_+_proptech_focus",
+        "NYC_based_agency",
+        "open_positions_listed_publicly",
+        "boutique_size_overflow_friendly",
+        "marketing_+_PR_integrated_offering"
+      ],
+      "source": "Caliber Corporate Advisers website + LinkedIn",
+      "sourceUrl": "https://www.calibercorporate.com/careers/",
+      "notes": "Tight ICP fit (combined 63, B grade). Caliber is a NYC boutique covering fintech, insurance/InsurTech, real estate/PropTech, and broader financial services — three of the four are exactly Mark's ICP. Marketing + PR integrated offering = breadth of overflow needs (earned media, content, executive comms, thought leadership). Pitch: position as a senior fin-comms drop-in, available for retainer or per-account overflow; reference Mark's wealth/asset/fintech samples. Approach via LinkedIn cold message to founder + careers page application as parallel paths."
+    },
+    {
+      "name": "5WPR (Financial Services & Fintech Practice)",
+      "website": "https://www.5wpr.com/practice/financial-services-and-fintech.cfm",
+      "pipeline": "pr-freelance",
+      "industry": "PR Agency — Financial Services & Fintech Practice (VC, PE, asset managers, fintech operators)",
+      "location": "New York, NY (national reach)",
+      "fundingStage": "Established mid-size agency",
+      "fitScore": 45,
+      "intentScore": 15,
+      "combinedScore": 60,
+      "grade": "B",
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 15,
+        "workstream": 10,
+        "buyer_quality": 0,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 10,
+        "remote_flex": 5,
+        "recency": 0,
+        "urgency_signals": 0,
+        "apply_path": 0
+      },
+      "vertical": "pr",
+      "subvertical": "investor-pr",
+      "engagementModel": "freelance",
+      "buyerType": "agency",
+      "compensationText": "Not stated — agency-overflow engagement",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Cold outbound to financial services practice lead",
+      "urgencyScore": 30,
+      "contacts": [
+        {
+          "name": "5WPR Financial Services Practice Lead",
+          "title": "Practice Lead, Financial Services & Fintech",
+          "email": null,
+          "linkedin": "https://www.linkedin.com/company/5w-public-relations"
+        }
+      ],
+      "signals": [
+        "VC_PE_client_roster_disclosed",
+        "Standard_General_Bluerun_PG_Insight_clients",
+        "SPAC_IPO_practice_active",
+        "fintech_+_VC_+_PE_overlap"
+      ],
+      "source": "5WPR Financial Services & Fintech practice page",
+      "sourceUrl": "https://www.5wpr.com/practice/financial-services-and-fintech.cfm",
+      "notes": "Solid investor/PE practice fit (combined 60, B grade). 5WPR's disclosed client roster includes Standard General, BlueRun Ventures, P&G Ventures, and Insight Partners — buyer-quality VC/PE accounts that match Mark's ICP exactly. Practice also runs SPAC/IPO communications. 5WPR is a mid-size agency, so overflow happens at the practice-line level rather than firm-wide; outreach should target the financial services practice lead directly, not generic careers email. Pitch: senior IR/PE/fintech narrative operator available for retainer or per-account drop-in. Reference Mark's narrative + media-list strength specifically for VC/PE founder positioning."
+    },
+    {
+      "name": "Cognito Media (NYC Fintech PR)",
+      "website": "https://www.cognitomedia.com",
+      "pipeline": "pr-freelance",
+      "industry": "PR Agency — Fintech & Financial Services Specialist (early-stage to exit)",
+      "location": "New York, NY (London + Singapore)",
+      "fundingStage": "Established global boutique",
+      "fitScore": 42,
+      "intentScore": 16,
+      "combinedScore": 58,
+      "grade": "B",
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 15,
+        "workstream": 7,
+        "buyer_quality": 0,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 8,
+        "remote_flex": 5,
+        "recency": 0,
+        "urgency_signals": 0,
+        "apply_path": 3
+      },
+      "vertical": "pr",
+      "subvertical": "media-relations",
+      "engagementModel": "freelance",
+      "buyerType": "agency",
+      "compensationText": "Not stated — agency-overflow engagement",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Cold approach to NYC office + careers page",
+      "urgencyScore": 32,
+      "contacts": [
+        {
+          "name": "Cognito NYC Office Lead",
+          "title": "Managing Director, Americas",
+          "email": null,
+          "linkedin": "https://www.linkedin.com/company/cognito-media"
+        }
+      ],
+      "signals": [
+        "fintech_specialist_full_lifecycle",
+        "early_stage_through_exit_engagements",
+        "NYC_London_Singapore_footprint",
+        "elevator_pitch_to_strategy_translation_remit"
+      ],
+      "source": "Cognito Media NYC fintech PR landing page",
+      "sourceUrl": "https://www.cognitomedia.com/location/fintech-pr-agency-nyc-pr/",
+      "notes": "Niche fintech-specialist agency (combined 58, B grade). Cognito Media is a global fintech-focused PR shop with NYC, London, and Singapore offices — they explicitly position around taking fintech clients from elevator pitch through strategic comms and exit. Mark's pitch: senior fintech narrative + media operator available for cross-office overflow (NYC media-relations work that London/Singapore teams can't cover). Smaller pipeline opportunity than Infinite or William Mills but tight thematic alignment — file as a tier-2 secondary outreach in the next 2-3 weeks."
+    }
+  ]
+}

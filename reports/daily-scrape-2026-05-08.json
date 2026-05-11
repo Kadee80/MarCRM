@@ -1,0 +1,271 @@
+{
+  "scrapeDate": "2026-05-08",
+  "scrapeTime": "11:15 UTC",
+  "totalLeads": 4,
+  "note": "Friday 5/8 daily scrape. NEW lead discovery (5/5–5/8 announcements) plus signal refresh on 3 hot prior-week leads. 4 new leads scoring 65+ across 2 pipelines (pr-marketing, legal-freelance). Quality over quantity — multiple post-funding press cycles already covered in 5/4–5/7 reports (Corgi, RadixArk, Sierra, Astranis, JuliaHub, etc.) so the 5/8 surface area was deliberately narrow. PR-marketing tilt: Fazeshift Series A (5/7) is the strongest single new lead this week — F-Prime-led AI accounts-receivable, customers include Sigma Computing/Snyk/Clipboard Health, no in-house comms named in 5/7 press cycle. Legal-freelance: Hayden Industrial fractional GC posting is a clean Mark-direct-pitch opportunity (200 employees, $300M revenue, 1–2 days/week, monthly retainer). NO new fund-formation, legal-consulting, coaching-ops, media, ai-consulting, or pr-freelance leads scoring 60+ today (job-board churn was thin; agency-event pipeline was dominated by raises already captured 5/6–5/7).",
+  "leads": [
+    {
+      "name": "Fazeshift",
+      "website": "https://www.fazeshift.com",
+      "pipeline": "pr-marketing",
+      "industry": "AI Accounts Receivable / Autonomous Finance Agents — Fintech B2B (AI-native platform deploying autonomous agents to execute end-to-end AR workflows: invoicing, collections, payment matching, reconciliation across existing systems)",
+      "location": "United States (HQ unspecified in 5/7 release; F-Prime portco)",
+      "fundingStage": "$17M Series A announced May 7, 2026 (total funding $22M). Led by F-Prime; participation from Gradient Ventures (Google's early-stage AI fund), Y Combinator, Wayfinder Ventures, Pioneer Fund, Ritual Capital, plus prominent angels.",
+      "fitScore": 45,
+      "intentScore": 46,
+      "fitDetails": { "industry": 10, "stage": 9, "buyer": 10, "proof": 9, "budget": 7 },
+      "intentDetails": { "trigger": 15, "timeline": 10, "dm_engaged": 8, "urgency": 9, "responsive": 4 },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "Fazeshift Founders (CEO/CTO publicly named in 5/7 BusinessWire / Crunchbase News / PYMNTS / Unite.AI coverage — verify exact names from release)", "title": "Co-founders", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "fundraise_series_a_17m_total_22m_5_7_2026",
+        "f_prime_lead_gradient_yc_wayfinder_pioneer_ritual_participating",
+        "ai_native_accounts_receivable_category",
+        "12x_revenue_growth_past_year",
+        "enterprise_customer_logo_set_includes_8_unicorns_sigma_computing_snyk_meter_clipboard_health",
+        "autonomous_finance_agents_narrative_arc_for_2026",
+        "post_funding_press_cycle_day_1_2_active",
+        "no_named_head_of_comms_in_5_7_press_release"
+      ],
+      "source": "Daily Scrape 2026-05-08 (BusinessWire / Crunchbase News / PYMNTS / Unite.AI / F-Prime Capital blog)",
+      "sourceUrl": "https://www.businesswire.com/news/home/20260507212601/en/Fazeshift-Raises-%2422M-to-Power-the-Future-of-Autonomous-Finance",
+      "notes": "STRONGEST NEW LEAD this week (combined 91, A-tier). The signal stack is exceptional: (a) F-Prime is a top-tier fintech-specialist VC that absolutely expects portcos to invest in tier-1 PR for the Series A moment, (b) the customer roster — Sigma Computing, Snyk, Meter, Clipboard Health, plus '8 unicorns' — is unambiguous proof-of-traction press copy, (c) the 12x-revenue-growth narrative is a clean fintech-trade-press hook, (d) 'autonomous AI agents executing finance workflows' is a 2026 narrative arc that lands cleanly with WSJ/Bloomberg/Forbes enterprise-AI beats AND with fintech-trade press (PYMNTS already covered, Forbes Fintech / Finextra / Tearsheet are next-cycle targets). Buyer fit: 45/50 — fintech AI B2B (perfect FS/Tech industry match), Series A stage with $22M total raise puts them squarely in $5–25k/mo agency-retainer tier (might stretch to $15–25k given F-Prime backing). Comms-relationship odds: STRONG. The 5/7 BusinessWire/Crunchbase/PYMNTS/Unite.AI coverage names ONLY the company and product — no Head of Comms, no VP Marketing, no Director of Communications quoted anywhere. Same 'YC alum, Series A, no in-house PR yet' signal we saw on Reserv (5/4, 87) and Corgi (5/7, 89). Press cycle on day 1 (announcement was 5/7, today is 5/8) — peak outreach window 5/7–5/17. Pitch threading: (i) AI-native autonomous-finance category-creation narrative as fintech-trade press hook (PYMNTS, Tearsheet, Finextra, FintechFutures, AFP Online, plus general fintech beats at TechCrunch/Forbes/Bloomberg), (ii) customer-logo-driven case-study series (Sigma, Snyk, Clipboard Health each their own placement opportunity over 6 months), (iii) thought-leadership from CEO on 'autonomous finance is the new SaaS' for CFO/finance-leader trade press (CFO Magazine, CFO Dive, Strategic Finance), (iv) F-Prime portfolio-company narrative cross-promotion (Gradient + a16z + F-Prime each have their own portco-press cycles). Outreach lead-touch: founders (verify names from BusinessWire release). Time-sensitive: outreach in next 48 hours optimal. SF-or-NY HQ likely (unverified). DEFINITELY pursue — this is the Reserv/Corgi-tier fit-pattern.",
+      "lastActivity": "$17M Series A announced May 7, 2026 (BusinessWire / Crunchbase News / PYMNTS / Unite.AI / F-Prime / Yahoo Finance / Bakersfield)"
+    },
+    {
+      "name": "Ethos (London-based AI expert network)",
+      "website": "https://ethos.ai",
+      "pipeline": "pr-marketing",
+      "industry": "AI-Powered Expert Networking Platform — B2B (voice-onboarding AI talent agent serving hedge funds, asset managers, consultancies, IB; competing with GLG, AlphaSights, Third Bridge in the $2B+ expert-network category)",
+      "location": "London, UK (HQ); US expansion planned per 5/6 funding announcement",
+      "fundingStage": "$22.75M Series A announced May 6, 2026. Led by Andreessen Horowitz; participation from General Catalyst, XTX Markets, Evantic Capital, Common Magic.",
+      "fitScore": 41,
+      "intentScore": 43,
+      "fitDetails": { "industry": 8, "stage": 9, "buyer": 9, "proof": 8, "budget": 7 },
+      "intentDetails": { "trigger": 14, "timeline": 9, "dm_engaged": 8, "urgency": 8, "responsive": 4 },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "James Lo", "title": "Co-founder (formerly McKinsey then SoftBank — worked on WeWork and Arm transformations; named in 5/6 TechCrunch coverage)", "email": "", "linkedin": "" },
+        { "name": "Daniel Mankowitz", "title": "Co-founder (formerly DeepMind AI researcher — YouTube video compression, Gemini, AlphaDev sorting; named in 5/6 TechCrunch coverage)", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "fundraise_series_a_22_75m_5_6_2026",
+        "a16z_lead_general_catalyst_xtx_evantic_common_magic",
+        "ai_powered_expert_network_replacing_cv_with_talent_agent",
+        "voice_onboarding_technology_differentiator",
+        "founder_credentials_mckinsey_softbank_deepmind",
+        "buyer_audience_perfect_match_hedge_funds_asset_managers_ib",
+        "us_expansion_planned",
+        "post_funding_press_cycle_day_2_3_active"
+      ],
+      "source": "Daily Scrape 2026-05-08 (TechCrunch / TheNextWeb / FinSMEs / TechFundingNews / Tech.eu)",
+      "sourceUrl": "https://techcrunch.com/2026/05/06/ethos-raises-22-75m-from-a16z-for-its-expert-network-with-voice-onboarding/",
+      "notes": "A-tier (combined 84). What makes Ethos genuinely interesting for pr-marketing — and not just 'another a16z-backed AI Series A' — is that their BUYERS ARE MARK'S BUYER PROFILE: hedge funds, asset managers, alternative-investments firms, IB advisory. Expert networks are the connective tissue of FS research workflows. So the press strategy isn't 'AI hype' — it's 'how does a hedge fund evaluate an expert-network alternative,' which IS the trade-press conversation Mark's playbook is built to drive. Buyer fit: 41/50 — perfect industry match (AI + B2B serving FS), Series A stage at $22.75M sits squarely in $10–25k/mo retainer tier, founders' credentials (McKinsey/SoftBank + DeepMind) make for credible thought-leadership material. Comms-relationship odds: STRONG. UK-HQ + US-expansion-planned is the 'we need a US PR partner' inflection point — Series A companies expanding into US almost always hire fractional or contract US-based comms because their UK PR shops can't penetrate US trade press effectively. Pitch threading: (i) 'AI is breaking expert networks — here's how' narrative for FS-research trade press (Institutional Investor, Pensions & Investments, Hedgeweek, AlphaWeek), (ii) DeepMind-founder origin story for AI-research press (The Information, Wired, MIT Tech Review), (iii) US-expansion launch sequence (cold-launch press in 6–8 weeks, NY office announcement, customer logo-reveal cadence), (iv) thought-leadership on 'voice-first AI onboarding' as a UX category for B2B SaaS press (TheStack, SaaStr, Digiday). Comms-team check: 5/6 TechCrunch quotes founders only; no comms head named anywhere in TFN, Tech.eu, FinSMEs coverage. Outreach lead-touch: James Lo (more press-comfortable per McKinsey/SoftBank backgrounds); Mankowitz is the technical-narrative authority. Time-sensitive: peak outreach 5/6–5/16. Combined score 84 — DEFINITELY pursue. Differentiator vs. typical Series A pitch: lead with FS-buyer-audience expertise, not generic AI startup PR.",
+      "lastActivity": "$22.75M Series A announced May 6, 2026 (TechCrunch / TheNextWeb / FinSMEs / TechFundingNews / Tech.eu / NewsBytes)"
+    },
+    {
+      "name": "Astrocade",
+      "website": "https://www.astrocade.com",
+      "pipeline": "pr-marketing",
+      "industry": "AI-Powered Social/UGC Gaming Platform — B2C with AI-creation tools (natural-language game-creation platform; 20M users, 75K+ games, 80 countries — eight months post-launch)",
+      "location": "Bay Area / California (HQ — to verify)",
+      "fundingStage": "$56M combined funding announced May 5, 2026: Series B led by Sequoia Capital + Series A led by Sea Ltd. Other backers: Google AI Futures Fund, NVIDIA, LG Technology Ventures, Dentsu Ventures, Conviction Embed, Chaac Ventures, Rogue VC.",
+      "fitScore": 36,
+      "intentScore": 41,
+      "fitDetails": { "industry": 7, "stage": 8, "buyer": 6, "proof": 9, "budget": 6 },
+      "intentDetails": { "trigger": 13, "timeline": 9, "dm_engaged": 7, "urgency": 8, "responsive": 4 },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "Amir Sadeghian", "title": "Co-founder & CEO (named in 5/5 Fortune coverage)", "email": "", "linkedin": "" },
+        { "name": "Ali Sadeghian", "title": "Co-founder & CTO", "email": "", "linkedin": "" },
+        { "name": "Fei-Fei Li", "title": "Chief Strategy Officer (renowned AI scholar; high-profile addition; press-magnet by herself)", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "fundraise_series_a_b_combined_56m_5_5_2026",
+        "sequoia_b_lead_sea_a_lead_google_nvidia_participating",
+        "20m_users_75k_games_80_countries_8_months_post_launch",
+        "fei_fei_li_joins_as_cso",
+        "10m_creator_incentive_program",
+        "ai_in_gaming_market_3_86b_to_49_66b_by_2036",
+        "post_funding_press_cycle_day_3_4_active"
+      ],
+      "source": "Daily Scrape 2026-05-08 (Fortune / Yahoo Finance / FinSMEs / Pulse 2.0 / The SaaS News / Astrocade blog)",
+      "sourceUrl": "https://fortune.com/2026/05/05/astrocade-raises-56-million-series-b-sequoia-video-games-platform-ali-amir-sadeghian/",
+      "notes": "B-tier (combined 77). B2C-leaning — and that's the discount. Astrocade's primary audience is gamers/creators, not the FS/B2B-buyer profile Mark's playbook is built around, so industry/buyer scores are softer (7/6). BUT three things keep it on the report rather than pruning it out: (a) Fei-Fei Li as CSO is genuinely a press-magnet — she alone generates 6+ months of authored thought-leadership opportunities at WSJ/NYT/MIT Tech Review/Wired, (b) Sequoia + Sea + Google AI + NVIDIA is a heavyweight cap table that signals a big budget for the launch-cycle, (c) the 20M-user / 75K-games / 80-countries traction-numbers are unambiguous proof for any consumer-tech press pitch. Where this becomes interesting for Mark: if the agency wants to expand the consumer-tech book (gaming, creator-economy, AI-creative-tools) this is the entry point for that book — it's a one-deal portfolio expansion. Comms-relationship odds: MODERATE-STRONG. Founders are technical (CTO + CEO Sadeghian brothers), Fei-Fei Li is press-active in academia but not as company spokesperson historically — there's a clear gap for a comms-strategy partner to operationalize her into the company's PR engine. Pitch threading (if pursued): (i) Fei-Fei Li thought-leadership operations (placed essays, podcast bookings, conference panels for AI ethics + creative AI tracks), (ii) creator-economy narrative for digiday/AdAge/MarTech beat, (iii) 'AI gaming as the new consumer interface' for general consumer-tech press. RECOMMEND only if Mark wants to deliberately expand into consumer/gaming. Combined score 77 — B-tier. Time-sensitive but lower-priority than Fazeshift and Ethos.",
+      "lastActivity": "$56M combined Series A+B announced May 5, 2026 (Fortune / Yahoo Finance / FinSMEs / Pulse 2.0 / The SaaS News / Astrocade blog)"
+    },
+    {
+      "name": "Hayden Industrial LLC (Fractional General Counsel — Remote)",
+      "website": "https://jobline.acc.com/job/fractional-general-counsel-remote--54004",
+      "pipeline": "legal-freelance",
+      "industry": "Industrial Manufacturing / Engineered Heat Exchanger Systems — operating company seeking fractional GC (200 employees, ~$300M revenue, currently doubling workforce; commercial-contracts heavy practice on engineered-equipment-supply and industrial-project-delivery agreements)",
+      "location": "Remote (US-based)",
+      "fundingStage": "Privately held operating company; not VC-backed (no funding-round trigger). Trigger is workforce expansion / scale-up requiring legal infrastructure build-out.",
+      "fitScore": 28,
+      "intentScore": 43,
+      "fitDetails": { "fund_or_funds": 0, "corporate_or_contracts": 10, "seniority_match": 10, "comp_credible": 8 },
+      "intentDetails": { "engagement_model": 15, "remote_or_flex": 15, "posted_within_72hr": 5, "easy_apply": 8 },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "Monthly retainer or fractional hourly basis; ~1–2 days/week typical engagement (per ACC Jobline listing)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional / Contract — Remote (per ACC Jobline)",
+      "urgencyScore": 70,
+      "contacts": [
+        { "name": "Hayden Industrial LLC — Hiring Manager (per ACC Jobline listing)", "title": "Hiring Manager / In-house Coordinator", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "fractional_gc_role_explicit_engagement_model",
+        "remote_us_based",
+        "1_to_2_days_per_week_engagement_clearly_stated",
+        "monthly_retainer_or_hourly_compensation_structure",
+        "200_employee_300m_revenue_company_scaling",
+        "workforce_doubling_growth_phase_legal_infrastructure_build",
+        "commercial_contracts_focus_engineered_equipment_supply",
+        "supply_chain_employment_real_estate_litigation_coordination",
+        "acc_jobline_active_listing_easy_apply_path"
+      ],
+      "source": "Daily Scrape 2026-05-08 (ACC Jobline — Association of Corporate Counsel)",
+      "sourceUrl": "https://jobline.acc.com/job/fractional-general-counsel-remote--54004",
+      "notes": "B-tier (combined 71). This is a clean, Mark-direct-pitch fractional-GC opportunity for the legal-freelance pipeline. Why it qualifies despite NOT being a fund/private-funds role (which would normally pull the higher +20 fit-bucket): (a) it's an UNAMBIGUOUSLY fractional role — the listing explicitly says 'monthly retainer or fractional hourly basis, 1–2 days per week' (Bucket B + Bucket C of the freelance role taxonomy hit cleanly), (b) workstream-fit is solid — commercial contracts review/redline/negotiation, supply-chain, employment, real-estate, outside-counsel coordination matches Mark's stated practice areas, (c) the company is in growth mode (200 employees, doubling workforce, $300M revenue) which means legal-infrastructure spend is rising and the fractional engagement could expand. Where it scores lower: NOT a fund/private-funds role (the ICP's highest-value bucket), industrial-manufacturing buyer-type is outside Mark's typical fund/PE/portco target audience, and 'Hayden Industrial LLC' isn't a name that surfaces in the major PE/VC/fintech ecosystems Mark networks in. Net: a credible apply-now opportunity as a sole-engagement client at $5–8k/mo retainer tier (~$60–96k annual range based on stated 1–2 days/week + monthly-retainer comp model). Engagement model: fractional (Bucket B explicit). Buyer type: operating-company (industrial manufacturer). Recommended action: Mark applies directly via the ACC Jobline link in the next 48 hours; positioning emphasis on (i) commercial-contracts depth, (ii) growth-stage scaling experience, (iii) availability for sustained 1–2 days/week engagement. Combined 71 — B-tier. ALSO worth doing: scrape ACC Jobline's full active-listings list weekly going forward — the ACC board surfaces fractional/interim postings that don't appear on Indeed/CareerBuilder.",
+      "lastActivity": "Active listing on ACC Jobline (5/8 verified live); listing date not publicly stated but role is currently open per Association of Corporate Counsel job board"
+    }
+  ],
+  "signalRefresh": {
+    "scope": "Top 3 hot leads from prior-week reports — checked for new signals, score deltas, window-closing flags",
+    "leads": [
+      {
+        "name": "Corgi Insurance",
+        "priorScore": 89,
+        "priorReportDate": "2026-05-07",
+        "currentScore": 89,
+        "delta": 0,
+        "newSignals": [
+          "Press cycle continues — additional outlets have picked up the story (Insurer, Yahoo Finance, Morningstar, BriefGlance, TechBuzz)",
+          "PRNewswire / Corgi press-releases page now lists the Series B announcement as the top item — formal press-distribution intact",
+          "No new in-house comms hires named since 5/6 announcement (still founder-fronted)",
+          "Vertical-expansion narrative (trucking) confirmed in Corgi's own 5/6 press-release page — opens a second-cycle angle in 4–6 weeks once the trucking product launches"
+        ],
+        "windowStatus": "OPEN — day 2 of 10-day peak outreach window; outreach 5/6–5/16 still optimal. Beyond 5/16 the announcement-cycle goodwill compounds rapidly.",
+        "recommendedAction": "Mark outreach to Nico Laqua AND Emily Yuan (YC Spring 2024 alum — leverage Mark's YC W24/S24 network if any). Lead with vertical-expansion narrative as the 6-month engagement hook (each new vertical = its own news beat = retainer continuity)."
+      },
+      {
+        "name": "Rogo",
+        "priorScore": 92,
+        "priorReportDate": "2026-04-30",
+        "currentScore": 88,
+        "delta": -4,
+        "newSignals": [
+          "Press cycle has matured (week 2 of original announcement) — Kleiner/Sequoia/Thrive/Khosla/J.P. Morgan/BoxGroup/Mantis/Jack Altman attribution now widely indexed",
+          "EMEA + Asia expansion confirmed (Rogo plans EMEA push from Series D; embedded forward-deployed bankers expanding NY → London)",
+          "Acquired Plux AI (UK-based) and Offset for talent and tech — international-operations narrative is now active",
+          "35,000+ financial professionals across 250+ institutions — adoption number has grown since 4/30 report",
+          "Customer-logo reveals continue: Rothschild & Co, Jefferies, Lazard, Moelis, Nomura all now publicly cited"
+        ],
+        "windowStatus": "CLOSING — 9 days post-announcement, peak outreach window 4/29–5/9 is essentially over. Score delta -4 reflects window-closure and probable-AOR engagement (post-Series-D, $300M total raised, customer concentration in tier-1 IB suggests they likely retained a financial-comms shop within 2 weeks of announcement).",
+        "recommendedAction": "If Mark hasn't outreached by EOW today (5/8), shift this to a 90-day re-engagement queue tied to the next product/customer announcement. Don't pursue post-announcement cold pitch this late in the cycle."
+      },
+      {
+        "name": "AcuityMD",
+        "priorScore": 89,
+        "priorReportDate": "2026-04-27",
+        "currentScore": 82,
+        "delta": -7,
+        "newSignals": [
+          "AcuityAI launched in open beta — second-cycle press opportunity opens in 4–6 weeks tied to GA / customer case studies",
+          "Now supports 16 of top-20 MedTech companies — adoption proof has hardened",
+          "$160M+ total raised, $955M valuation (no update from 4/21 Series C)",
+          "No new C-suite communications hires found in May search"
+        ],
+        "windowStatus": "POST-PEAK — 17 days past Series C announcement; peak window (4/21–5/1) closed. Score delta -7 reflects standard post-announcement decay.",
+        "recommendedAction": "Reposition as a 60-90-day medium-arc lead. Re-engage when AcuityAI moves from beta → GA (likely Q3 2026 — that becomes a fresh announcement-cycle). Track via AcuityMD press-releases page and Built In monitoring."
+      }
+    ]
+  },
+  "trendsSpotted": [
+    "Three consecutive weeks of 'YC alum / Series A or B / no in-house comms named' pattern: Reserv (5/4, 87) → Corgi (5/7, 89) → Fazeshift (5/8, 91). All three are post-YC, fintech/insurtech, founder-fronted, and the funding-announcement coverage names ONLY the founders. This is the agency's strongest inbound-signal pattern — recommend formalizing a 'YC-fintech-fresh-Series-A' watchlist.",
+    "F-Prime Capital is showing up across multiple May leads (Fazeshift). F-Prime portfolio has 30+ active fintech/AI-fintech companies and the firm's portcos historically retain external PR within 60 days of Series A. Worth targeting F-Prime's IR/portfolio-services contact for partnership conversations.",
+    "Job-board freelance volume softer this week — only 1 new strong fractional-GC posting (Hayden Industrial) and 0 new strong PR-freelance postings scoring 60+. ACC Jobline appears to be a higher-quality source than Indeed for fractional-counsel roles; ICP refresh should add ACC Jobline as a primary source.",
+    "Late-stage rounds dominated 5/5–5/7 news cycle (Corgi $160M, Astranis $450M, RadixArk $100M seed-but-priced-as-B, JuliaHub $65M). Late-stage post-funding press is captured by incumbent agencies; Mark's fit-target remains the early Series A / first-major-funding moment, which Fazeshift exemplifies cleanly today."
+  ],
+  "mostProductiveSources": [
+    "TechCrunch (Corgi 5/6, Ethos 5/6, Astrocade-adjacent)",
+    "BusinessWire / PRNewswire (Fazeshift 5/7, Corgi 5/6, Astranis 5/6)",
+    "Crunchbase News (Fazeshift 5/7 — Crunchbase scoop)",
+    "Fortune (Astrocade 5/5)",
+    "ACC Jobline — Association of Corporate Counsel (Hayden Industrial fractional GC posting)",
+    "F-Prime Capital portfolio blog (Fazeshift)"
+  ],
+  "skippedLeads": [
+    {
+      "name": "Astranis",
+      "reason": "Series E $450M (5/6/2026) is a real trigger but at $1.2B+ total raised, 5+ on-orbit satellites, and US-government/defense-contract orientation, the company has either tier-1 in-house comms already or a satellite-sector specialist agency (BCW, FleishmanHillard, or aerospace-defense specialist). Budget-tier mismatch with Mark's typical $5–25k/mo retainer engagement. Combined score would have been ~65 — below A/B threshold for an actionable lead this week. Note for the file."
+    },
+    {
+      "name": "Moonshot AI",
+      "reason": "$2B raise at $20B valuation (5/7) — China-based, led by Meituan VC arm. Geographic + market mismatch with Mark's US PE/fintech-comms book."
+    },
+    {
+      "name": "LP Fintech (rebrand)",
+      "reason": "India-HQ rebrand announcement (5/1). Geographic mismatch."
+    },
+    {
+      "name": "LendingClub → Happen Bank rebrand",
+      "reason": "LendingClub is a publicly traded $700M+ revenue company at ~1,000+ employees — far above the 10–500 employee fit ceiling for the agency's pr-marketing playbook. Already has internal comms team and tier-1 IR shop."
+    },
+    {
+      "name": "Forward Together (Interim Communications Manager)",
+      "reason": "Reproductive-justice nonprofit. Sector mismatch (not finance/PE/B2B/fintech). Engagement model is also borderline — 32 hrs/week salaried-temp ($80–89k base) is closer to a W-2 contract employee than a fractional-consultant retainer. Estimated combined score ~50 — below threshold."
+    },
+    {
+      "name": "Apis Partners $1.23B fund close",
+      "reason": "British PE firm — already represented by Clifford Chance for fund formation (per 5/7 Law360 coverage). Established LP/legal counsel relationships preclude fund-formation pipeline fit."
+    },
+    {
+      "name": "Weil Gotshal lateral hire (former Simpson Thacher private funds attorney)",
+      "reason": "Lateral partner move within Big Law — not a fractional-counsel posting; not a fund-launch trigger; not a buyer for any of Mark's pipelines."
+    },
+    {
+      "name": "JuliaHub $65M Series B (5/6)",
+      "reason": "Already in MarCRM (lead added in 5/1 daily-scrape report). Signal refresh would apply but no material new news beyond what's already captured."
+    },
+    {
+      "name": "RadixArk $100M seed (5/5)",
+      "reason": "Already in MarCRM (added 5/7 daily-scrape, score 83)."
+    }
+  ],
+  "nextStepsForKatie": [
+    "Run import script: cd MarCRM && node scripts/import-2026-05-08.cjs (Neon DB connection required — sandbox can't reach DB)",
+    "PRIORITY 1 — Mark outreach to Fazeshift founders (verify exact names from BusinessWire 5/7 release before sending) within next 48 hours. Lead with autonomous-finance-category narrative + customer-logo case-study pitch (Sigma Computing, Snyk, Clipboard Health). Estimated retainer tier: $15–25k/mo.",
+    "PRIORITY 2 — Mark outreach to Ethos co-founders (James Lo + Daniel Mankowitz) within 48 hours. Lead with 'US-expansion launch sequence + FS-buyer-audience expertise' angle — differentiate from generic AI-startup pitch. Estimated retainer tier: $10–25k/mo.",
+    "PRIORITY 3 — Mark applies directly to Hayden Industrial fractional-GC role via ACC Jobline link within 48 hours. Position: commercial-contracts depth + growth-stage scaling experience + 1–2 days/week sustained availability. Estimated retainer tier: $5–8k/mo single-engagement.",
+    "PRIORITY 4 — Astrocade is OPTIONAL pursuit; only if Mark wants to expand consumer-tech / gaming / creator-economy book. Fei-Fei-Li-thought-leadership-operations is the differentiated entry pitch.",
+    "Add ACC Jobline as a primary source for legal-freelance scrape going forward (better signal-to-noise than Indeed for fractional/interim counsel postings).",
+    "Consider F-Prime Capital portfolio/IR contact as a partnership-conversation target — high concentration of Mark's ICP among their portcos."
+  ]
+}
