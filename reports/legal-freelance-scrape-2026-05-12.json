@@ -1,0 +1,247 @@
+{
+  "scrapeDate": "2026-05-12",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 6,
+  "note": "Screened against legal-freelance-scrape-2026-05-06.json, 2026-05-07.json, and 2026-05-08.json. 23 prior companies excluded: aVenture, Ropes & Gray (Funds Attorney program), Arootah, Constitution Capital Partners, Lawtrades, EBTH, Cooley LLP (Fund Formation NY), Norm Law LLP, Major Lindsey & Africa (Interim Legal Talent), AngelList Venture, VC Lab, Reed Smith LLP, Scale LLP, AMBART LAW, Outside GC (OGC), Legalpeople, Paragon Legal, Axiom Advice & Counsel (Axiom Law Fractional GC for PE/VC), Sleep Doctor, DLA Piper (Investment Funds Group), Direct Counsel, Foley Hoag LLP, Latitude Legal (Fractional GC / Funds & Wealth talent pool — specific live role postings included this scrape as distinct leads). Search window: 7 days. No A-grade (80+) leads this week — pipeline is shifting from marketplace/talent-pool inventory toward direct in-house contract postings, which is a higher-quality signal. Latitude Legal appears with two specific live job postings distinct from prior talent-pool entry.",
+  "leads": [
+    {
+      "name": "Robert Half — Senior Counsel: Investment & Fund Structuring (NYC)",
+      "website": "https://www.roberthalf.com",
+      "pipeline": "legal-freelance",
+      "industry": "Legal Staffing / Direct Contract Placement",
+      "location": "New York, NY",
+      "fundingStage": "n/a (staffing firm on behalf of NYC investment firm)",
+      "fitScore": 50,
+      "intentScore": 25,
+      "fitDetails": {
+        "practice_area": "fund formation + investment structuring + tax-advantaged vehicles",
+        "seniority": "Senior Counsel, 15+ years required",
+        "comp_credible": true,
+        "fund_focus": true
+      },
+      "intentDetails": {
+        "engagement_model": "long-term contract (temp)",
+        "remote_flex": "on-site NYC",
+        "recency": "posted 2026-04-01 (~6 weeks old at scrape)",
+        "apply_path": "easy apply via Robert Half site"
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "contract",
+      "buyerType": "staffing",
+      "compensationText": "Long-term contract — rate not published; Robert Half NY senior counsel band typically $125–$200/hr",
+      "remoteFlag": "onsite",
+      "employmentTypeRaw": "Temp / Long-term contract",
+      "urgencyScore": 55,
+      "contacts": [],
+      "signals": [
+        "Reports directly to Founder and leadership team",
+        "Fund formation + investment structuring scope explicit in posting",
+        "Tax-advantaged investment vehicles mentioned (signal of HNW/QSBS/OZ work)",
+        "15+ years required — targets Katie's seniority band exactly"
+      ],
+      "source": "Robert Half",
+      "sourceUrl": "https://www.roberthalf.com/us/en/job/new-york-ny/temp-15-yrs-senior-counsel-investment-fund-structuring/02940-0013412191-usen",
+      "notes": "Highest-substance lead this week. On-site NYC is the only constraint — confirm hybrid eligibility with recruiter before declining."
+    },
+    {
+      "name": "BlackRock — Private Funds Attorney, Real Estate, Vice President",
+      "website": "https://www.blackrock.com",
+      "pipeline": "legal-freelance",
+      "industry": "Asset Management (Tier 1)",
+      "location": "Remote / Georgia",
+      "fundingStage": "Public — tier-1 asset manager",
+      "fitScore": 50,
+      "intentDetails": {
+        "engagement_model": "full-time permanent",
+        "remote_flex": "remote",
+        "recency": "active listing as of scrape date",
+        "apply_path": "easy apply via Legal.io / BlackRock careers"
+      },
+      "intentScore": 25,
+      "fitDetails": {
+        "practice_area": "private funds, real estate vertical",
+        "seniority": "Vice President",
+        "comp_credible": true,
+        "fund_focus": true
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "part-time",
+      "buyerType": "fund",
+      "compensationText": "Not published — BlackRock VP attorney band per Robert Half guide is ~$250–$400k+ all-in",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Full Time",
+      "urgencyScore": 50,
+      "contacts": [],
+      "signals": [
+        "Tier-1 asset manager (BlackRock)",
+        "Private Funds + Real Estate practice area",
+        "VP-level seniority",
+        "Remote eligible (GA listed)",
+        "Resume signaling value beyond the role itself"
+      ],
+      "source": "Legal.io",
+      "sourceUrl": "https://www.legal.io/jobs/5415370/Full-time/Private-Funds-Attorney-Real-Estate-Vice-President/Remote",
+      "notes": "Permanent FT role — not freelance. Include in pipeline because (a) ICP-perfect on substance, and (b) opportunity to pitch interim coverage to hiring partner while perm search runs."
+    },
+    {
+      "name": "Latitude Legal — Corporate Attorney, Venture Capital Financing (Remote Contract #5064)",
+      "website": "https://latitudelegal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Flexible Legal Talent / ALSP",
+      "location": "Remote (any US location)",
+      "fundingStage": "n/a (legal talent firm)",
+      "fitScore": 30,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "VC financing, startup company representation",
+        "seniority": "6+ years",
+        "comp_credible": true,
+        "fund_focus": false
+      },
+      "intentDetails": {
+        "engagement_model": "contract (W2 with full benefits at 20+ hr/wk)",
+        "remote_flex": "fully remote",
+        "recency": "active listing",
+        "apply_path": "easy apply via Latitude Legal jobs page"
+      },
+      "vertical": "legal",
+      "subvertical": "financing",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "$160,000–$200,000+ annualized when calculated on full-time basis",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contract — full or part-time",
+      "urgencyScore": 65,
+      "contacts": [],
+      "signals": [
+        "$160-200k+ annualized comp published",
+        "100% remote",
+        "W2 with full benefits at 20 hr/wk (rare in fractional market)",
+        "Specific role posting (not generic talent pool)"
+      ],
+      "source": "Latitude Legal",
+      "sourceUrl": "https://latitudelegal.com/jobs/5064",
+      "notes": "Distinct from prior Latitude entry (talent pool). Specific role applications go to hiring manager not intake queue — worth applying even if already in their pool."
+    },
+    {
+      "name": "Latitude Legal — Corporate Attorney, Securities & Corporate Governance (Remote Contract #5077)",
+      "website": "https://latitudelegal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Flexible Legal Talent / ALSP",
+      "location": "Remote (any US location)",
+      "fundingStage": "n/a (legal talent firm)",
+      "fitScore": 30,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "securities + corporate governance",
+        "seniority": "Big-firm corp / major-corp in-house experience preferred",
+        "comp_credible": true,
+        "fund_focus": false
+      },
+      "intentDetails": {
+        "engagement_model": "contract (W2 with full benefits at 20+ hr/wk)",
+        "remote_flex": "fully remote",
+        "recency": "active listing",
+        "apply_path": "easy apply via Latitude Legal jobs page"
+      },
+      "vertical": "legal",
+      "subvertical": "securities",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "$160,000–$200,000+ annualized when calculated on full-time basis",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contract — full or part-time",
+      "urgencyScore": 65,
+      "contacts": [],
+      "signals": [
+        "Cleanest 1934 Act + governance posting on board",
+        "$160-200k+ annualized comp published",
+        "100% remote, any US location",
+        "Specific role posting (not generic talent pool)"
+      ],
+      "source": "Latitude Legal",
+      "sourceUrl": "https://latitudelegal.com/jobs/5077",
+      "notes": "Pair application with #3 — one Latitude AM unlocks both pipes."
+    },
+    {
+      "name": "SEC Reporting Counsel — Atlanta-based growing public company (Part-Time, Remote via Indeed)",
+      "website": "https://www.indeed.com",
+      "pipeline": "legal-freelance",
+      "industry": "Public Company / Securities Reporting",
+      "location": "Remote (Atlanta-based co)",
+      "fundingStage": "Public (post-IPO growing)",
+      "fitScore": 20,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "SEC reporting — 10-K, 10-Q, 8-K, proxy",
+        "seniority": "Counsel level",
+        "comp_credible": false,
+        "fund_focus": false
+      },
+      "intentDetails": {
+        "engagement_model": "part-time fractional",
+        "remote_flex": "fully remote",
+        "recency": "active Indeed listing",
+        "apply_path": "Indeed easy apply"
+      },
+      "vertical": "legal",
+      "subvertical": "securities",
+      "engagementModel": "part-time",
+      "buyerType": "operating-company",
+      "compensationText": "Not published",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Part-time, Remote",
+      "urgencyScore": 60,
+      "contacts": [],
+      "signals": [
+        "Part-time + remote SEC reporting is rare on market",
+        "Recurring filing calendar = predictable retainer",
+        "Atlanta-based hiring co — broader US bar admission likely sufficient"
+      ],
+      "source": "Indeed",
+      "sourceUrl": "https://www.indeed.com/viewjob?jk=0cdf21036dd24eb4",
+      "notes": "Filing-season cadence will make this a 10-20 hr/wk role around quarter close, lighter in between."
+    },
+    {
+      "name": "Lyfecoin — Fractional General Counsel (Remote)",
+      "website": "https://www.legal.io",
+      "pipeline": "legal-freelance",
+      "industry": "Web3 / Crypto",
+      "location": "Remote",
+      "fundingStage": "Unknown (early-stage crypto operator)",
+      "fitScore": 20,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "GC (crypto/Web3-adjacent)",
+        "seniority": "GC level",
+        "comp_credible": false,
+        "fund_focus": false
+      },
+      "intentDetails": {
+        "engagement_model": "fractional",
+        "remote_flex": "remote",
+        "recency": "active Legal.io listing",
+        "apply_path": "easy apply via Legal.io"
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "Not published",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional / Other",
+      "urgencyScore": 55,
+      "contacts": [],
+      "signals": [
+        "Fractional GC engagement model",
+        "Remote",
+        "Crypto/Web3 — niche entry opportunity"
+      ],
+      "source": "Legal.io",
+      "sourceUrl": "https://www.legal.io/jobs/5660179/Other/Fractional-General-Counsel/Remote",
+      "notes": "Pass unless Katie has prior crypto/tokens experience. Listed because the engagement model matches the strategy even if the vertical doesn't."
+    }
+  ]
+}
