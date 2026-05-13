@@ -1,0 +1,331 @@
+{
+  "scrapeDate": "2026-05-12",
+  "scrapeTime": "14:30 UTC",
+  "totalLeads": 6,
+  "note": "Tuesday 5/12 daily scrape covering the 5/9–5/12 window plus the 5/4–5/8 announcements not previously captured (Nova Intelligence 5/5 and Tekst 5/7 were both surfaced this cycle). 6 new leads scoring 70+ across 2 pipelines (5 pr-marketing, 1 pr-freelance). PR-marketing tilt is heavy this week — three perfect-FS-buyer-fit fintechs (Embat, Swimbird, OpenTrade) plus two enterprise-AI plays (Nova Intelligence, Tekst). EMBAT is the strongest single new lead — same-day Series B announcement (5/12), Cathay Innovation-led, corporate-treasury fintech, UK/Ireland expansion underway. NOVA INTELLIGENCE is a close second — agentic AI for SAP migration is a genuinely hot 2026 enterprise narrative arc with a clean Fortune-exclusive press cycle (5/5) and Kyndryl/Festo case-study proof. Signal refresh on Fazeshift (5/8 A-tier 91) and Ethos (5/8 A-tier 84) confirms both press cycles remain active with no in-house comms hired — outreach window still open. NO new legal-freelance leads scoring 60+ today — Indeed/CareerBuilder/ACC churn was light over the long weekend and the 5/8 legal-freelance dedicated scrape already harvested the active pool. Mark's playbook applies cleanly: lead with Embat for treasury-CFO narrative ($30M Series B + Cathay imprimatur), use Nova for category-creation press (agentic-AI-for-SAP is its own beat), and develop Swimbird as a longer-cycle UK→Sweden→Nordic buyer-fit story.",
+  "leads": [
+    {
+      "name": "Embat",
+      "website": "https://www.embat.es",
+      "pipeline": "pr-marketing",
+      "industry": "Corporate Treasury Management Fintech — B2B SaaS (real-time treasury, payments, accounting automation, banking-data unification platform for CFOs/treasurers at mid-market and enterprise companies)",
+      "location": "Madrid, Spain (HQ); UK + Ireland expansion announced 5/12",
+      "fundingStage": "€30M Series B announced May 12, 2026 (TODAY). Led by Cathay Innovation; participation from Creandum. Total funding now €50M+.",
+      "fitScore": 45,
+      "intentScore": 47,
+      "fitDetails": { "industry": 10, "stage": 9, "buyer": 10, "proof": 8, "budget": 8 },
+      "intentDetails": { "trigger": 15, "timeline": 10, "dm_engaged": 8, "urgency": 10, "responsive": 4 },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "Embat Founders (verify exact names — CEO/Co-founder publicly quoted in 5/12 Cathay/Creandum release)", "title": "Co-founders / CEO", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "fundraise_series_b_30m_eur_5_12_2026_same_day",
+        "cathay_innovation_lead_creandum_participating",
+        "corporate_treasury_fintech_b2b_saas_perfect_fs_buyer_fit",
+        "uk_ireland_expansion_announced_concurrent_with_raise",
+        "total_funding_50m_eur_plus",
+        "real_time_treasury_payments_accounting_automation_category",
+        "press_cycle_day_0_peak_outreach_window_5_12_to_5_22",
+        "no_named_head_of_comms_in_5_12_release"
+      ],
+      "source": "Daily Scrape 2026-05-12 (TechFundingNews / FinTech Global / Cathay Innovation announcement)",
+      "sourceUrl": "https://techfundingnews.com/fintech-embat-lands-e30m-from-creandum-cathay-innovation-to-build-the-future-of-corporate-treasury/",
+      "notes": "STRONGEST NEW LEAD this week (combined 92, A-tier). Three reasons this is the top draft pick: (a) PERFECT industry/buyer alignment — corporate-treasury fintech selling to CFOs/treasurers is exactly Mark's FS-B2B sweet spot, the trade press conversation (Treasury Today, EuroFinance, CFO Magazine, Treasury & Risk, gtnews, AFP Online) is one he already speaks fluently, (b) same-day announcement (5/12) means we're at peak press-cycle day 0 — calling on 5/13 lands while the Cathay/Creandum announcement is still circulating across European fintech press and beginning to hit US trade outlets, (c) UK+Ireland expansion is THE classic 'we need a US/UK PR partner now' inflection — Madrid-HQ companies expanding into English-language markets reliably hire fractional or contract anglo-PR teams because their Spanish PR shops can't penetrate UK/US trade press. Buyer fit: 45/50 — fintech B2B (perfect FS match), Series B stage at €50M+ total puts them in $10–25k/mo retainer tier (could stretch higher given Cathay backing — Cathay portfolio companies typically pay $15–30k/mo for tier-1 PR). Comms-relationship odds: STRONG. 5/12 TFN/Cathay/Creandum coverage names ONLY founders + Cathay/Creandum partners — no Head of Comms, no VP Marketing, no Director of Communications quoted anywhere. Same 'Series B, English-market-expansion, no in-house comms' signal as Versana (5/5, A-tier). Pitch threading: (i) corporate-treasury-CFO trade press (Treasury Today, EuroFinance, gtnews, AFP Online, CFO Magazine), (ii) UK+Ireland expansion launch sequence (cold-launch press in 4–6 weeks, customer-logo-reveal cadence), (iii) Cathay-portfolio narrative cross-promotion (Cathay's fintech book includes Pigment, Ledgy, Aircall — there's a portfolio-press flywheel), (iv) thought-leadership from CEO on 'real-time treasury is the new ERP' for CFO trade press. Outreach lead-touch: Embat founders (verify exact names from 5/12 TFN/Cathay release). Time-sensitive: outreach in next 24–72 hours optimal. Combined 92 — A-tier, definitively pursue.",
+      "lastActivity": "€30M Series B announced May 12, 2026 (TechFundingNews / Cathay Innovation / Creandum / FinTech Global European deals roundup)"
+    },
+    {
+      "name": "Nova Intelligence",
+      "website": "https://www.novaintelligence.com",
+      "pipeline": "pr-marketing",
+      "industry": "Agentic AI Platform for SAP Modernization — Enterprise B2B SaaS (AI-native platform automating analysis, modernization, and generation of custom code in SAP environments — payroll, supply chain, finance code at Fortune 500 customers; $89B addressable services market driven by SAP's S/4HANA migration mandate by 2030)",
+      "location": "San Francisco, California (HQ)",
+      "fundingStage": "$31.5M Series A announced May 5, 2026. Led by Chemistry; participation from Accel, Conviction, SAP.io. Total funding now $40M+.",
+      "fitScore": 46,
+      "intentScore": 43,
+      "fitDetails": { "industry": 10, "stage": 9, "buyer": 10, "proof": 9, "budget": 8 },
+      "intentDetails": { "trigger": 14, "timeline": 9, "dm_engaged": 8, "urgency": 8, "responsive": 4 },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "Emma Qian", "title": "Co-founder & CEO (named in 5/5 Fortune exclusive)", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "fundraise_series_a_31_5m_5_5_2026",
+        "chemistry_lead_accel_conviction_sap_io_participating",
+        "agentic_ai_for_sap_modernization_category_creator",
+        "89b_dollar_sap_migration_services_market_2030_mandate",
+        "fortune_500_customers_festo_first_30_sap_customers_globally",
+        "kyndryl_case_study_75_percent_manual_reduction_50_percent_cost_reduction",
+        "5x_faster_modernization_for_complex_programs",
+        "total_funding_40m_plus",
+        "post_funding_press_cycle_day_5_7_active",
+        "no_named_head_of_comms_in_5_5_fortune_coverage"
+      ],
+      "source": "Daily Scrape 2026-05-12 (Fortune exclusive / Dealroom / Shopifreaks / DataPhoenix / The SaaS News / Founderland)",
+      "sourceUrl": "https://fortune.com/2026/05/05/exclusive-nova-intelligence-ai-sap-chemistry-emma-qian/",
+      "notes": "A-tier (combined 89). Genuinely interesting press-strategy lead because the category itself — 'agentic AI for SAP code modernization' — IS the press story. Three things make Nova a tier-1 pursuit: (a) the SAP S/4HANA migration mandate by 2030 creates an $89B addressable services market that EVERY enterprise CIO is currently sizing — there's a captive audience of Fortune 500 IT/finance trade press for this exact narrative, (b) Kyndryl + Festo case-study proof points (75% manual reduction, 50% cost reduction, 5x faster modernization) are tier-1 press-copy assets that immediately differentiate Nova from generic agentic-AI pitches, (c) Chemistry as lead is a hot fintech/enterprise-AI signal — Chemistry portcos consistently invest in retained PR for Series A. Buyer fit: 46/50 — enterprise-AI B2B (perfect tech industry match), CEO Emma Qian is publicly accessible (named in Fortune exclusive), Series A at $40M+ total raise puts them in $10–25k/mo retainer tier. Comms-relationship odds: STRONG. 5/5 Fortune/Dealroom/Shopifreaks/Founderland coverage names ONLY Emma Qian + Chemistry — no Head of Comms, no VP Marketing, no Director of Communications quoted anywhere. Same 'enterprise AI, Series A, no in-house PR yet' fit-pattern as Sierra (5/4) and RadixArk (5/7). Press cycle day 7 today — peak outreach window is 5/5–5/15, so 3 days left of optimal timing. Pitch threading: (i) 'agentic AI is rewriting enterprise software modernization' narrative for enterprise-tech press (Fortune already covered; The Information, Forbes Enterprise, MIT Tech Review, Bloomberg Technology, CIO.com are next-cycle), (ii) SAP-CIO trade press (SAPinsider, ASUG News, ERP Today, Diginomica — all have dedicated SAP-modernization beats), (iii) customer-logo-driven case-study series (Festo + Kyndryl each their own placement — Festo is itself a publicly-traded German-industrial press magnet), (iv) Emma Qian thought-leadership on 'AI agents executing in production enterprise systems' for CIO/CTO trade press (CIO Dive, Wall Street Journal CIO Network, Forrester/Gartner research-press cycle). Outreach lead-touch: Emma Qian (named in 5/5 Fortune exclusive — most press-accessible). Combined 89 — A-tier, definitively pursue. Time-sensitive: 48–72 hours optimal.",
+      "lastActivity": "$31.5M Series A announced May 5, 2026 (Fortune exclusive / Dealroom / Shopifreaks / DataPhoenix / The SaaS News / Founderland / DNyuz / Yahoo Finance)"
+    },
+    {
+      "name": "Tekst",
+      "website": "https://tekst.com",
+      "pipeline": "pr-marketing",
+      "industry": "Agentic Process Intelligence Platform — Enterprise B2B SaaS (uncovers and structures operational workflows hidden across emails, PDFs, approvals, and enterprise systems; foundation layer for enterprise AI agent deployment; Tier-1 banks, insurers, and manufacturers as customers)",
+      "location": "Ghent, Belgium (HQ); US expansion announced 5/7",
+      "fundingStage": "$13.5M (€11.5M) Series A announced May 7, 2026. Led by Elephant (US-based VC); participation from Entourage. First US investor for the company.",
+      "fitScore": 39,
+      "intentScore": 40,
+      "fitDetails": { "industry": 8, "stage": 9, "buyer": 8, "proof": 7, "budget": 7 },
+      "intentDetails": { "trigger": 13, "timeline": 9, "dm_engaged": 7, "urgency": 7, "responsive": 4 },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "Wouter Janssen", "title": "Co-founder & CEO (named in 5/7 Tech.eu / FinSMEs coverage)", "email": "", "linkedin": "" },
+        { "name": "Tiebe Parmentier", "title": "Co-founder & CTO (named in 5/7 Tech.eu / FinSMEs coverage)", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "fundraise_series_a_13_5m_usd_11_5m_eur_5_7_2026",
+        "elephant_lead_first_us_investor_signal",
+        "agentic_process_intelligence_foundation_layer_for_enterprise_ai",
+        "doubling_team_35_to_70_by_eoy_2026",
+        "us_expansion_underway",
+        "founders_publicly_named_press_accessible",
+        "post_funding_press_cycle_day_5_7_active",
+        "no_named_head_of_comms_in_5_7_coverage"
+      ],
+      "source": "Daily Scrape 2026-05-12 (Tech.eu / FinSMEs / Founderland / Dataphoenix / The SaaS News / StartupHub.ai)",
+      "sourceUrl": "https://tech.eu/2026/05/07/belgian-ai-startup-tekst-raises-11-5-million-to-tackle-the-bottleneck-holding-back-enterprise-ai/",
+      "notes": "B-tier (combined 79). Tekst is interesting for one specific reason that elevates it above generic 'European AI startup': the founders are publicly on record that they raised from Elephant (US VC) because 'the technology Tekst has developed does not yet exist at this level in Silicon Valley' — that quote is a self-issued press-narrative cue, and translates directly into a US-trade-press thought-leadership track (TheStack, SaaStr, VentureBeat, The Information enterprise-AI vertical). Three reasons it stays on the report rather than getting pruned: (a) process-intelligence-as-foundation-for-AI-agents is a 2026 narrative arc that fintech-IT/CIO trade press is actively hunting for, (b) US-expansion announced concurrent with the raise is the classic 'need US PR partner now' inflection point, (c) doubling team from 35 to 70 by EOY signals a budget tier that can support a $5–15k/mo retainer. Where it scores lower than Embat/Nova: Belgian-HQ adds friction for US outreach, Series A at $13.5M total is on the lower end of agency-retainer-affordable, and 'process intelligence' as a category requires more buyer-education than 'corporate treasury' or 'SAP modernization.' Buyer fit: 39/50 — enterprise AI B2B (good but not perfect industry match), Series A stage on lower-budget end. Comms-relationship odds: STRONG. 5/7 Tech.eu/FinSMEs/Founderland coverage names ONLY Wouter Janssen + Tiebe Parmentier — no Head of Comms, no VP Marketing, no Director of Communications. Pitch threading: (i) 'process intelligence is the bottleneck holding back enterprise AI' as a category-defining thought-leadership angle for CIO/CTO press, (ii) US-launch press sequence (4–6 weeks: cold-launch announcement, customer-logo-reveal cadence, conference circuit at SaaStr/Fall RSA), (iii) founder thought-leadership on 'why agentic AI fails without process intelligence' for enterprise-AI trade press. Outreach lead-touch: Wouter Janssen (CEO — likely more press-comfortable for English-language outreach). Time-sensitive: peak outreach 5/7–5/17. Combined 79 — B-tier, pursue after Embat + Nova.",
+      "lastActivity": "$13.5M Series A announced May 7, 2026 (Tech.eu / FinSMEs / Founderland / Dataphoenix / The SaaS News / StartupHub.ai / Startuprise)"
+    },
+    {
+      "name": "Swimbird",
+      "website": "https://www.swimbird.com",
+      "pipeline": "pr-marketing",
+      "industry": "Capital Markets Tech / Financial System Software — B2B SaaS (digital financial system solutions for banks, brokers, exchanges, and asset managers — middle-office and back-office workflow automation, post-trade processing, data infrastructure)",
+      "location": "Stockholm, Sweden (HQ)",
+      "fundingStage": "€7.9M Series A announced May 2026 (in FinTech Global's 5/8 European deals roundup). Led by 7RIDGE.",
+      "fitScore": 40,
+      "intentScore": 39,
+      "fitDetails": { "industry": 10, "stage": 7, "buyer": 10, "proof": 7, "budget": 6 },
+      "intentDetails": { "trigger": 13, "timeline": 8, "dm_engaged": 7, "urgency": 7, "responsive": 4 },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "Swimbird Leadership (verify CEO from 7RIDGE press release / FinTech Global European roundup)", "title": "CEO / Co-founders", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "fundraise_series_a_7_9m_eur_5_2026",
+        "7ridge_lead_capital_markets_specialist_vc",
+        "banks_brokers_exchanges_asset_managers_perfect_fs_buyer_fit",
+        "capital_markets_back_office_workflow_automation",
+        "european_fintech_with_global_scale_potential",
+        "no_named_head_of_comms_in_5_8_fintech_global_coverage"
+      ],
+      "source": "Daily Scrape 2026-05-12 (FinTech Global European deals roundup 5/8)",
+      "sourceUrl": "https://fintech.global/2026/05/08/fintech-funding-remains-strong-in-healthy-week-for-fintech-deals/",
+      "notes": "B-tier (combined 79). This is the cleanest pure-FS-buyer-fit lead in the report — Swimbird's customers ARE Mark's buyer profile (banks, brokers, exchanges, asset managers). Where it scores lower than Embat: smaller raise (€7.9M vs €30M), earlier stage, less press coverage so far, and 7RIDGE is a more specialist (less press-amplified) lead investor than Cathay. But there are two signals worth pursuing: (a) 7RIDGE is the Spencer Lake-backed capital-markets VC — their portfolio companies (Trumid, Symphony, ECN-adjacent) ALL invest in tier-1 PR because their buyer audience is press-attentive, (b) Sweden+Nordic-HQ with global-scale-potential is the same fit-pattern as Versana (5/5, A-tier) — these companies hire fractional/contract anglo-PR teams to penetrate UK/US institutional-investor press because their Nordic shops can't. Buyer fit: 40/50 — capital-markets B2B FS (perfect industry match), Series A on smaller end of budget tier, but the 7RIDGE-backed signal partially offsets. Comms-relationship odds: MODERATE — coverage is thin so far (FinTech Global European roundup only as of 5/8), which means there's BOTH a real story to tell AND likely no in-house comms function yet to compete against. Pitch threading: (i) capital-markets trade press for the launch announcement re-amp (TabbForum, Markets Media, Trader Talk, The TRADE, Best Execution), (ii) 7RIDGE portfolio-narrative as institutional-investor-press hook (Hedgeweek, Pensions & Investments, ai-cio.com), (iii) Sweden→UK→US expansion sequence (need to verify if US-expansion is in plan — 7RIDGE LinkedIn announcement may have more detail than FinTech Global roundup). Outreach: verify CEO name from 7RIDGE press release first, then warm-touch via 7RIDGE if Mark has any 7RIDGE-network contacts. Combined 79 — B-tier, pursue as a longer-cycle relationship-build rather than peak-press-cycle hit.",
+      "lastActivity": "€7.9M Series A announced May 2026 — surfaced in FinTech Global European deals roundup 5/8"
+    },
+    {
+      "name": "OpenTrade",
+      "website": "https://opentrade.io",
+      "pipeline": "pr-marketing",
+      "industry": "Stablecoin Yield Infrastructure / Tokenized Real-World Assets — Fintech/Crypto B2B (institutional-grade yield products on stablecoin holdings; tokenized treasury yield infrastructure for fintechs, neobanks, exchanges, asset managers seeking USD-denominated yield)",
+      "location": "London, UK (HQ)",
+      "fundingStage": "€14.4M strategic funding round announced May 2026 (in FinTech Global's 5/8 European deals roundup). Led by Mercury Fund and Notion Capital; participation from a16z Crypto, AlbionVC, CMCC Global.",
+      "fitScore": 38,
+      "intentScore": 37,
+      "fitDetails": { "industry": 9, "stage": 8, "buyer": 7, "proof": 7, "budget": 7 },
+      "intentDetails": { "trigger": 12, "timeline": 8, "dm_engaged": 6, "urgency": 7, "responsive": 4 },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "OpenTrade Leadership (verify CEO/founders from Mercury Fund / Notion / a16z Crypto announcement)", "title": "CEO / Co-founders", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "fundraise_strategic_14_4m_eur_5_2026",
+        "mercury_fund_notion_capital_co_lead_a16z_crypto_albionvc_cmcc_participating",
+        "stablecoin_yield_infrastructure_category",
+        "institutional_b2b_crypto_buyer_audience",
+        "a16z_crypto_imprimatur_signal",
+        "uk_hq_us_market_relevant"
+      ],
+      "source": "Daily Scrape 2026-05-12 (FinTech Global European deals roundup 5/8)",
+      "sourceUrl": "https://fintech.global/2026/05/08/fintech-funding-remains-strong-in-healthy-week-for-fintech-deals/",
+      "notes": "B-tier (combined 75). OpenTrade is on the report because the buyer fit is actually pretty clean for the segment of Mark's audience that touches crypto/digital-assets/tokenized-FS — but it carries one discount: stablecoin-yield-infrastructure is a crypto-press category before it's a traditional FS category, which means Mark's stronger press relationships (Treasury Today, Pensions & Investments, ai-cio.com) aren't the primary press track for this story. The primary press track is crypto-institutional (CoinDesk, The Block, DL News, Decrypt institutional vertical, Blockworks, Bloomberg Crypto, Forbes Crypto). Three reasons it stays on the report: (a) a16z Crypto participation is a tier-1 institutional crypto signal that almost guarantees retained PR investment, (b) Mercury Fund + Notion Capital co-leading + AlbionVC + CMCC is a strong syndicate that elevates the press-cycle visibility, (c) the 'institutional stablecoin yield infrastructure' category is a 2026 narrative arc (RWA tokenization is hot) that has its own press-attentive buyer audience among institutional-allocator press. Buyer fit: 38/50 — fintech/crypto B2B (good industry fit, slightly off from Mark's core), strategic round at €14.4M sits in $10–20k/mo retainer tier. Comms-relationship odds: MODERATE — coverage so far is thin (FinTech Global only as of 5/8), suggests press cycle is still nascent and PR partner not yet selected. Pitch threading: (i) crypto-institutional trade press for amplification (Blockworks, CoinDesk Institutional, The Block, DL News), (ii) 'tokenized real-world assets are the new fixed income' thought-leadership for institutional-allocator press (ai-cio.com, Pensions & Investments — if OpenTrade has any institutional LP-style customer logos), (iii) UK→US expansion sequence (if a16z Crypto-backed, US-market focus is implicit). Combined 75 — B-tier, pursue ONLY if Mark wants to expand the crypto-institutional press book; otherwise lower priority than Embat/Nova/Tekst/Swimbird.",
+      "lastActivity": "€14.4M strategic round announced May 2026 — surfaced in FinTech Global European deals roundup 5/8"
+    },
+    {
+      "name": "Tide (Head of Communications hire)",
+      "website": "https://www.tide.co",
+      "pipeline": "pr-freelance",
+      "industry": "VC-Backed Fintech / Business Banking — B2B (digital business banking and admin platform for SMEs; UK-founded, expanding internationally including Germany; building out comms function with senior PR/Head of Communications hire)",
+      "location": "London, UK (HQ); active expansion into Germany, India, additional EU markets",
+      "fundingStage": "VC-backed fintech (multiple rounds historically; Apax, Augmentum Fintech, LocalGlobe, SBI Group, Anthemis as historical investors). Hiring Head of Communications — explicit 'first-PR-hire-or-scaling-comms-function' trigger.",
+      "fitScore": 50,
+      "intentScore": 26,
+      "fitDetails": { "pr_comms": 20, "sector": 15, "workstream": 10, "agency_overflow": 5 },
+      "intentDetails": { "engagement_model": 0, "remote_flex": 5, "posted_within_72hr": 8, "urgency": 8, "easy_apply": 5 },
+      "vertical": "pr",
+      "subvertical": "comms",
+      "engagementModel": "fractional",
+      "buyerType": "pre-ipo",
+      "compensationText": "Senior comms/PR manager comp range (not stated in posting summary)",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Full-time Head of Communications role (Mark's pitch is fractional-alternative-before-FT-hire)",
+      "urgencyScore": 75,
+      "contacts": [
+        { "name": "Tide Hiring Manager / Head of Talent (per startup.jobs posting)", "title": "Hiring Manager", "email": "", "linkedin": "" },
+        { "name": "Oliver Prill", "title": "CEO Tide (publicly named in prior press coverage; primary buyer for fractional-comms pitch)", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "head_of_communications_role_open_5_2026",
+        "first_pr_hire_or_scaling_comms_function_explicit_signal",
+        "vc_backed_fintech_b2b_perfect_fs_pipeline_fit",
+        "uk_hq_with_germany_india_eu_expansion_active",
+        "senior_comms_or_pr_manager_seniority_band",
+        "company_actively_evaluating_in_house_vs_agency_split",
+        "fractional_pitch_window_open_during_search"
+      ],
+      "source": "Daily Scrape 2026-05-12 (startup.jobs Tide Head of Communications listing)",
+      "sourceUrl": "https://startup.jobs/vc-backed-fintech-startup-head-of-communications-tidebanking-95650",
+      "notes": "B-tier (combined 76). Per the pipeline-routing rule: companies hiring a Head of PR/Comms → pr-freelance, because Mark's pitch is 'consider a fractional comms partner before you commit to a 9-month internal search and a £150k+ FTE comp package.' Tide is a near-textbook fit for that pitch: (a) UK-HQ + active multi-market expansion (Germany, India, EU) is the exact 'we need senior comms NOW' inflection where in-house FT search takes 3–6 months and the company is bleeding press-cycle opportunities during that gap, (b) business-banking-fintech-B2B buyer audience is identical to Mark's core FS playbook — the trade press (Sifted, Finextra, TechCrunch Fintech, Tearsheet, AltFi) is one Mark already speaks fluently in, (c) Tide's historical investor base (Apax, SBI, Augmentum) signals an ongoing PR retainer budget tier already in place internally. Fit scoring: 50/50 (max) — PR/comms (20), perfect FS sector (15), executive comms workstream (10), agency overflow (5). Intent scoring: 26/50 — lower because the engagement model in the posting is FULL-TIME, not freelance (so engagement_model = 0); but remote/hybrid flex (5), posted recently (8), urgency 'scaling comms function' (8), easy apply via startup.jobs (5) bring intent up to a credible 26. The fractional-alternative pitch isn't about TAKING the job — it's about offering Mark as the bridge during the 3–6 month FT search, with the upside of becoming the permanent agency-of-record post-hire. Combined 76 — B-tier. Pitch threading: (i) email Oliver Prill (CEO) or Tide's Chief People Officer with a 'fractional-comms-while-you-search' positioning note, (ii) emphasize specific gap-areas (Germany-launch press cycle, India-expansion narrative, EU regulatory-comms support), (iii) propose 60-day engagement at $8–12k/mo with option to extend or transition to retainer post-FT-hire. Time-sensitive: window closes when Tide makes the FT hire (typical 90–120 day search) — peak outreach 5/12–6/30. Combined 76 — B-tier, definitively pursue as Mark-direct outreach.",
+      "lastActivity": "Head of Communications role posted on startup.jobs — Tide actively recruiting senior PR/comms hire as of May 2026"
+    }
+  ],
+  "signalRefresh": [
+    {
+      "name": "Fazeshift",
+      "priorScore": 91,
+      "priorReport": "2026-05-08",
+      "currentScore": 91,
+      "scoreDelta": 0,
+      "newSignals": [
+        "press_cycle_day_5_post_announcement_still_active",
+        "additional_coverage_in_5_11_techstartups_top_funding_roundup",
+        "no_in_house_comms_hire_detected_in_5_9_to_5_12_window",
+        "linkedin_no_new_vp_marketing_or_head_of_comms_posting_under_company_name"
+      ],
+      "recommendedAction": "Outreach window is closing — peak optimal was 5/7–5/14, today is 5/12 so 2 days of optimal timing remain. Recommend Mark send first-touch outreach to Fazeshift founders TODAY (5/12) or tomorrow (5/13) at latest, threading the F-Prime portfolio-narrative + Sigma/Snyk/Clipboard-Health customer-logo case-study pitch.",
+      "notes": "Score holds at 91. The 5/11 techstartups.com weekly roundup re-amplified the 5/7 announcement which is a positive signal (press cycle has legs beyond 48-hour spike). No detected in-house comms hire in the 5/8–5/12 window. Outreach urgency: HIGH — peak window narrowing."
+    },
+    {
+      "name": "Ethos (London-based AI expert network)",
+      "priorScore": 84,
+      "priorReport": "2026-05-08",
+      "currentScore": 84,
+      "scoreDelta": 0,
+      "newSignals": [
+        "press_cycle_day_6_post_announcement_still_active",
+        "no_us_expansion_press_release_yet_5_9_to_5_12_window",
+        "no_in_house_comms_hire_detected"
+      ],
+      "recommendedAction": "Outreach this week — peak window 5/6–5/16 still has 4 days. James Lo (CEO) is the primary first-touch contact. Pitch FS-buyer-audience expertise as the differentiator vs. typical a16z-generic-AI Series A pitch.",
+      "notes": "Score holds at 84. Ethos has not yet announced US expansion timing or NY office launch — that's the next press-cycle moment Mark should anchor outreach against ('be the PR partner that runs the US-launch sequence in 6–8 weeks')."
+    },
+    {
+      "name": "Corgi Insurance",
+      "priorScore": 89,
+      "priorReport": "2026-05-07",
+      "currentScore": 89,
+      "scoreDelta": 0,
+      "newSignals": [
+        "unicorn_status_confirmed_in_5_8_fintech_global_european_roundup",
+        "press_cycle_day_8_post_announcement_winding_down",
+        "no_in_house_comms_hire_detected_in_5_8_to_5_12_window"
+      ],
+      "recommendedAction": "Outreach window is starting to close — Corgi's peak was 5/7–5/14, today is 5/12 so 2 days left of optimal timing. If Mark hasn't already first-touched, do so TODAY. Otherwise pivot to next-cycle anchor (next product launch or customer logo reveal).",
+      "notes": "Score holds at 89. Corgi has now achieved unicorn status ($1.3B valuation per FinTech Global 5/8 European roundup) which strengthens the 'category-defining fintech ready for tier-1 PR' narrative. Still no detected in-house Head of Comms hire."
+    },
+    {
+      "name": "Reserv",
+      "priorScore": 87,
+      "priorReport": "2026-05-05",
+      "currentScore": 85,
+      "scoreDelta": -2,
+      "newSignals": [
+        "still_no_in_house_comms_hire_per_linkedin_signal",
+        "press_cycle_day_8_post_announcement_winding_down",
+        "5_8_fintech_global_european_roundup_re_mentioned_125m_series_c"
+      ],
+      "recommendedAction": "Outreach window has CLOSED for optimal peak timing (5/5–5/15 was the peak). If Mark hasn't first-touched Reserv yet, the next anchor moment is next product launch / next customer logo / Q2 results / 90-day-post-funding follow-up press cycle.",
+      "notes": "Score down 2 from peak — not because anything changed negatively, but because the optimal outreach window is now closing (day 8 of post-announcement press cycle, which is the late-edge of the standard 5–10-day peak)."
+    },
+    {
+      "name": "Sierra",
+      "priorScore": 82,
+      "priorReport": "2026-05-07",
+      "currentScore": 80,
+      "scoreDelta": -2,
+      "newSignals": [
+        "950m_raise_5_4_now_8_days_old",
+        "press_cycle_winding_down",
+        "no_new_in_house_comms_hire_detected"
+      ],
+      "recommendedAction": "Outreach window narrowing — 5/4 + 14-day-peak puts us at 5/18 as the tail. Sierra is also a much larger company than typical Mark-pitch targets ($4.5B+ valuation), so the agency-of-record decision is more politically complex than Series A targets. Lower priority than Embat/Nova/Fazeshift for first-touch."
+    }
+  ],
+  "trendsSpotted": [
+    "European fintech raises are concentrating in capital-markets-tech, treasury, and tokenized-RWA categories this week (Embat, Swimbird, OpenTrade) — all have clean FS-buyer fit and US-market relevance.",
+    "Agentic AI continues to dominate Series A press cycles, but the winning narratives are vertical-specific (Fazeshift = AR, Nova Intelligence = SAP modernization, Tekst = process intelligence) rather than horizontal agentic-AI platforms.",
+    "Across all 6 new leads, ZERO have a publicly-named Head of Communications or VP Marketing in their 5/5–5/12 press coverage — same pattern as last week. Mark's 'no in-house comms yet' opening continues to hold.",
+    "Sweden/Stockholm and Madrid/Spain are over-indexing as European fintech HQs with US-market expansion needs — suggests an emerging Nordic-Iberian fintech sub-segment worth tracking in pr-marketing pipeline."
+  ],
+  "mostProductiveSources": [
+    "Fortune (Nova Intelligence exclusive 5/5)",
+    "TechFundingNews (Embat 5/12, Tekst 5/7)",
+    "FinTech Global European deals roundup (Swimbird, OpenTrade, Embat 5/8 + 5/12)",
+    "Tech.eu (Tekst 5/7)",
+    "startup.jobs (Tide Head of Comms 5/12)"
+  ],
+  "skippedLeads": [
+    "Panthalassa ($140M Series B, 5/4) — climate-tech + wave-powered-AI-compute is genuinely impressive but the buyer audience (data-center / hyperscaler infrastructure procurement) is too far from Mark's FS/tech-B2B sweet spot to justify the press-cycle effort, and the 5/4 announcement is now 8 days old so peak outreach window has passed.",
+    "Konvy ($22M Series B SE Asia beauty, 5/12) — wrong industry/buyer for any Mark pipeline.",
+    "Cynren (Tony Cowell AI-advisory boutique launch, 5/11) — interesting Cayman/wealth-families positioning but the firm itself is a boutique 1–2-person operation, doesn't have the budget profile for a retained agency engagement.",
+    "Coinbase Head of Communications for Base — Coinbase already has tier-1 retained PR; agency-overflow/fractional pitch unlikely to displace existing relationships.",
+    "Astrada ($3.8M seed, autonomous-finance data layer) — too early stage (seed) for retainer-tier engagement; revisit at Series A.",
+    "Boost Security ($4M + acquisitions) — interesting AI-cybersecurity story but the press cycle is dominated by the acquisition narrative (SecureIQx + Korbit.ai) which is already covered."
+  ],
+  "nextSteps": [
+    "FIRST-TOUCH outreach to Embat founders this week (5/13–5/15) — same-day Series B announcement, peak press-cycle window. Lead pitch with corporate-treasury-CFO trade press track + UK/Ireland expansion launch sequence.",
+    "FIRST-TOUCH outreach to Nova Intelligence (Emma Qian, CEO) by 5/14 — peak window narrowing (announcement was 5/5, peak ends 5/15).",
+    "FIRST-TOUCH outreach to Fazeshift founders TODAY or 5/13 latest — peak window closing (5/7 announcement, peak ends 5/14).",
+    "FIRST-TOUCH outreach to Tide (Oliver Prill, CEO) with fractional-comms-during-FT-search positioning — pr-freelance pipeline play, time-sensitive because Tide is actively recruiting.",
+    "DEVELOP (longer-cycle): Swimbird, Tekst, OpenTrade — verify CEO/founder names from primary press releases, then schedule 2–3 week relationship-build outreach sequences.",
+    "SIGNAL REFRESH: continue monitoring Fazeshift / Ethos / Corgi for in-house comms hire announcements (would invalidate the fit-pattern); set LinkedIn / Crunchbase Pro alerts on those three.",
+    "PRUNE: archive Panthalassa from active-watch list (climate-tech buyer-fit miss); demote Reserv and Sierra to next-cycle-anchor monitoring as their initial press cycles wind down."
+  ]
+}

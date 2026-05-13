@@ -1,0 +1,208 @@
+{
+  "scrapeDate": "2026-05-13",
+  "scrapeTime": "14:30 UTC",
+  "totalLeads": 4,
+  "note": "Wednesday 5/13 daily scrape covering the 5/12-5/13 window. 4 new leads scoring 70+ across 2 pipelines (3 pr-marketing, 1 legal-freelance). Yesterday (5/12) was a heavy funding-announcement day across enterprise AI and fintech — Adfin, Vapi, Greenboard, Star Catcher, Havoc, Embat (already captured) all closed rounds. Three of those are clean pr-marketing fits: GREENBOARD is the strongest new lead — SEC/FINRA AI-compliance for 500+ FIs is a perfect Mark FS-regulatory-adjacent sweet spot with Base10/Y Combinator/General Catalyst backing + GreenboardGo product launch creating a layered press cycle. ADFIN ($18M Series A, Index Ventures lead, UK B2B finance automation) is the other strong pickup — agentic-finance category creator with Scaling Europe 'fastest growing UK company' proof asset. VAPI ($50M Series B at $500M valuation, Peak XV/M12/Kleiner/Bessemer) is the enterprise-voice-AI infrastructure play with named Fortune 500 customers (Amazon Ring, NY Life, Intuit) — solid but a slightly less-perfect FS-buyer fit. On legal-freelance, ALLOCATE's Senior Fund Formation Attorney remote contract role is a clean fit — fund-tech platform hiring 6+ year fund-formation counsel on contract terms. SIGNAL REFRESH: Embat (5/12) and Nova Intelligence (5/5) press cycles still active — both confirmed as A-tier with no named Head of Comms in any post-funding coverage. Mark's playbook: lead with Greenboard for SEC-compliance-AI narrative (regulators are the buyer-adjacent audience he speaks fluently), follow with Adfin for UK-fintech expansion angle, develop Vapi as a longer-cycle enterprise-AI buyer-fit story. NO new pr-freelance leads scoring 60+ today — Tide (Head of Comms hire) was captured 5/12 and remains the only active first-PR-hire signal in the funnel. Indeed/CareerBuilder PR-hiring churn was light overnight.",
+  "leads": [
+    {
+      "name": "Greenboard",
+      "website": "https://www.greenboard.com",
+      "pipeline": "pr-marketing",
+      "industry": "AI-Native Securities Compliance Platform — B2B SaaS (SEC/FINRA compliance software for broker-dealers, RIAs, asset managers, and financial institutions; conversational AI layer 'GreenboardGo' for compliance Q&A and task routing; 500+ financial institutions as customers; 99%+ customer retention)",
+      "location": "United States (remote-first); founders Dave Feldman and Ed Schembor",
+      "fundingStage": "$20M total funding announced May 12, 2026 (including previously-unannounced $15.5M Series A led by Base10 Partners). Participation: Y Combinator, General Catalyst, Wayfinder Ventures, Commerce Ventures, Transpose Platform, Liquid2 Ventures, Kulveer Taggar. Concurrent product launch: GreenboardGo (conversational AI compliance layer).",
+      "fitScore": 47,
+      "intentScore": 45,
+      "fitDetails": { "industry": 10, "stage": 9, "buyer": 10, "proof": 10, "budget": 8 },
+      "intentDetails": { "trigger": 15, "timeline": 10, "dm_engaged": 7, "urgency": 9, "responsive": 4 },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "Dave Feldman", "title": "Co-founder & CEO", "email": "", "linkedin": "" },
+        { "name": "Ed Schembor", "title": "Co-founder", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "fundraise_series_a_15_5m_5_12_2026_plus_20m_total",
+        "base10_partners_lead_y_combinator_general_catalyst_participating",
+        "sec_finra_compliance_ai_perfect_fs_regulatory_buyer_fit",
+        "greenboardgo_product_launch_concurrent_5_12_dual_press_cycle",
+        "500_plus_financial_institutions_customer_base",
+        "99_percent_customer_retention_proof_asset",
+        "founded_2023_three_year_growth_to_500_fi_traction",
+        "press_cycle_day_1_peak_outreach_window_5_13_to_5_23",
+        "no_named_head_of_comms_in_5_12_coverage"
+      ],
+      "source": "Daily Scrape 2026-05-13 (Fortune / BusinessWire / Pulse 2.0 / SalesTechStar / Yahoo Finance / Ventureburn)",
+      "sourceUrl": "https://fortune.com/2026/05/12/greenboard-raises-15-5-million-series-a-to-keep-compliance-from-slowing-down-business/",
+      "notes": "STRONGEST NEW LEAD this cycle (combined 92, A-tier). Three reasons Greenboard is the top pick today: (a) PERFECT industry/buyer alignment — SEC/FINRA compliance software for broker-dealers, RIAs, and asset managers is the *bullseye* of Mark's FS-regulatory-adjacent buyer profile; the trade-press surface (ThinkAdvisor, RIABiz, Citywire, Compliance Week, WealthManagement.com, AdvisorHub, FA-IQ, ComplianceX, ALM Compliance Reporter) is exactly the press conversation Mark speaks fluently, (b) the GreenboardGo product launch concurrent with the funding announcement creates a LAYERED press cycle — funding press today, product-launch press in 2-4 weeks, customer-case-study cadence after — meaning a retained PR engagement maps cleanly to 90-180 day pitch threading, (c) Base10 Partners + Y Combinator + General Catalyst is a tier-1 cap table that signals retained-PR readiness — Base10 portcos consistently invest in retained PR coming out of Series A. Buyer fit: 47/50 — FS compliance B2B SaaS (PERFECT match), founders publicly named (Dave Feldman + Ed Schembor — both press-accessible), 500+ FI customer base + 99% retention is the strongest proof-asset profile we've seen this month, $20M total funding puts them in $10-25k/mo retainer tier (Base10 portfolio average is higher — could stretch to $15-30k). Comms-relationship odds: STRONG. 5/12 BusinessWire/Fortune/SalesTechStar/Pulse 2.0 coverage names ONLY Feldman + Schembor + Base10 — no Head of Comms, no VP Marketing, no Director of Communications quoted anywhere. Same 'Series A, product-launch-concurrent, no in-house comms' pattern as Versana (5/5, A-tier). Pitch threading: (i) compliance trade press (Compliance Week, ALM Compliance Reporter, ComplianceX) — the *exact* outlet network Mark already has relationships in, (ii) RIA/asset-management trade press (WealthManagement.com, RIABiz, FA-IQ, ThinkAdvisor, AdvisorHub) — high-circulation FS compliance audience, (iii) GreenboardGo product-launch sequence (cold launch in 2-4 weeks, customer-logo case-study reveals), (iv) CEO Dave Feldman thought-leadership on 'AI agents executing compliance workflows' for CIO/Compliance-Officer trade press (CIO Dive, ComplianceX, Wall Street Compliance Roundtable). Outreach lead-touch: Dave Feldman (CEO, most press-accessible, publicly named in 5/12 BusinessWire). Time-sensitive: outreach in next 24-72 hours optimal. Combined 92 — A-tier, definitively pursue. NOTE: dual-pipeline candidate — Greenboard's AI-compliance product also slots cleanly into ai-consulting pipeline if Mark wants to pitch them as a *client of* AI advisory services on the technical side, but primary pursuit is pr-marketing.",
+      "lastActivity": "$20M total funding announced May 12, 2026 (including $15.5M Series A — Base10 Partners lead, Y Combinator + General Catalyst participating) + GreenboardGo conversational AI compliance product launch (Fortune / BusinessWire / Pulse 2.0 / SalesTechStar / Yahoo Finance)"
+    },
+    {
+      "name": "Adfin",
+      "website": "https://www.adfin.com",
+      "pipeline": "pr-marketing",
+      "industry": "Agentic AI Finance Automation Platform — B2B SaaS (AI-powered invoice payments, revenue collection, cash management, and finance-team workflow automation; serving SMB and mid-market customers in UK and Europe; positioned as 'agentic finance platform' category creator)",
+      "location": "London, United Kingdom (HQ)",
+      "fundingStage": "$18M Series A announced May 12, 2026 (€15.3M). Led by Index Ventures (3rd investment); participation: Visionaries Club, Stéphane Kurgan, Andrey Khusid (Miro founder). Total funding now $30M+ in under 2 years.",
+      "fitScore": 42,
+      "intentScore": 43,
+      "fitDetails": { "industry": 9, "stage": 9, "buyer": 9, "proof": 8, "budget": 7 },
+      "intentDetails": { "trigger": 14, "timeline": 10, "dm_engaged": 7, "urgency": 8, "responsive": 4 },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "Adfin CEO/Founder (verify exact name — quoted in 5/12 Index Ventures release)", "title": "Co-founder / CEO", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "fundraise_series_a_18m_5_12_2026",
+        "index_ventures_lead_third_investment_in_company",
+        "scaling_europe_third_fastest_growing_tech_company_proof_asset",
+        "fastest_growing_uk_company_scaling_europe_award",
+        "agentic_finance_platform_category_creator_narrative",
+        "miro_founder_andrey_khusid_strategic_angel_signal",
+        "stephane_kurgan_european_operator_strategic_angel",
+        "total_funding_30m_plus_under_2_years",
+        "customers_pay_9_percent_invoices_late_vs_national_7x_better_proof_asset",
+        "post_funding_press_cycle_day_1_active",
+        "no_named_head_of_comms_in_5_12_coverage"
+      ],
+      "source": "Daily Scrape 2026-05-13 (FinTech Global / FFNews / The Next Web / EU-Startups / IBS Intelligence / Tech.eu / BeBeez)",
+      "sourceUrl": "https://thenextweb.com/news/dfin-18m-series-a-index-ventures-agentic-finance",
+      "notes": "A-tier (combined 85). Adfin is a strong second-place pickup behind Greenboard. Three reasons: (a) UK B2B fintech with Index Ventures as 3-time backer signals the cap-table-quality threshold that maps to retained-PR readiness — Index portcos in UK fintech (Wise, Adyen, Revolut earlier-stage) reliably hire UK-based retained PR coming out of Series A, (b) the 'agentic finance' category-creation play is the press story itself — Adfin is positioning to OWN the conversation about AI agents executing finance-team workflows, which means there's a captive press audience (Sifted, Tech.eu, CFO Magazine UK, Treasury Today, AccountingWEB, Accountancy Daily) for a thought-leadership-led narrative arc, (c) the 'third fastest-growing tech company in Europe' + 'fastest-growing UK company' Scaling Europe award is a tier-1 proof asset that immediately differentiates Adfin from generic finance-automation pitches. Buyer fit: 42/50 — UK fintech B2B SaaS (very strong FS match, slight ding because UK-only buyer means US press is secondary), Series A at $30M+ total puts them in $10-20k/mo retainer tier (Index portfolio average for fintech). Comms-relationship odds: STRONG. 5/12 Index Ventures + Adfin coverage across FinTech Global, FFNews, TNW, EU-Startups, IBS Intelligence, Tech.eu, BeBeez names ONLY founders + Index — no Head of Comms quoted. Same 'Series A, UK-based, no in-house PR' pattern as Tide (different stage) and Embat (different geo). Pitch threading: (i) UK fintech trade press (Sifted, Tech.eu, FinTech Global, FFNews, AltFi, Finextra) — Adfin will need these for next-cycle attention, (ii) CFO/Finance-team trade press (CFO Magazine UK, Treasury Today, AccountingWEB, Accountancy Daily) — buyer-adjacent press for the agentic-finance narrative, (iii) US fintech press as expansion phase (TechCrunch Fintech, Fortune, Bloomberg Fintech) — Index will want US press attention to support eventual US expansion, (iv) CEO thought-leadership on 'agentic finance is the new ERP' for CFO trade press. Outreach lead-touch: Adfin CEO/founders (verify exact names from 5/12 Index release). Time-sensitive: 48-72 hours optimal. Combined 85 — A-tier, pursue.",
+      "lastActivity": "$18M Series A announced May 12, 2026 (Index Ventures-led, 3rd investment; Visionaries Club, Stéphane Kurgan, Andrey Khusid participating — TNW / FinTech Global / EU-Startups / Tech.eu)"
+    },
+    {
+      "name": "Vapi",
+      "website": "https://www.vapi.ai",
+      "pipeline": "pr-marketing",
+      "industry": "Enterprise Voice AI Platform — B2B SaaS / Infrastructure (API-native voice-agent infrastructure for enterprise customer-service, outbound collections, candidate screening, sales-coaching simulations, autonomous IVR navigation; positioned as 'default infrastructure for enterprise voice AI')",
+      "location": "San Francisco, California (HQ)",
+      "fundingStage": "$50M Series B announced May 12, 2026 at ~$500M valuation. Led by Peak XV Partners; participation: M12 (Microsoft Venture Fund), Kleiner Perkins, Bessemer Venture Partners, and earlier investors. Total funding now $72M.",
+      "fitScore": 38,
+      "intentScore": 40,
+      "fitDetails": { "industry": 8, "stage": 9, "buyer": 7, "proof": 9, "budget": 5 },
+      "intentDetails": { "trigger": 14, "timeline": 9, "dm_engaged": 6, "urgency": 7, "responsive": 4 },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "Vapi CEO (verify exact name — quoted in 5/12 Peak XV / TechCrunch / Axios coverage)", "title": "Co-founder / CEO", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "fundraise_series_b_50m_5_12_2026_at_500m_valuation",
+        "peak_xv_lead_m12_kleiner_bessemer_participating",
+        "amazon_ring_won_over_40_rivals_tier_1_customer_proof",
+        "named_enterprise_customers_ny_life_intuit_instawork_cherry",
+        "1_billion_voice_calls_handled_milestone",
+        "1_million_developers_2_7_million_unique_agents_built",
+        "10x_enterprise_arr_growth_since_prior_round",
+        "total_funding_72m",
+        "post_funding_press_cycle_day_1_active",
+        "no_named_head_of_comms_in_5_12_coverage"
+      ],
+      "source": "Daily Scrape 2026-05-13 (TechCrunch / SiliconANGLE / Axios / GlobeNewswire / The Next Web / HackerNoon)",
+      "sourceUrl": "https://techcrunch.com/2026/05/12/vapi-hits-500m-valuation-as-amazon-ring-chose-its-ai-platform-over-40-rivals/",
+      "notes": "B-tier (combined 78). Vapi is a solid pickup but a slightly less-perfect Mark fit than Greenboard or Adfin — voice AI is an enterprise-tech buyer profile rather than a pure FS-buyer fit. Three reasons it's still worth pursuing: (a) tier-1 cap table (Peak XV / M12 / Kleiner Perkins / Bessemer) is a quality signal that maps to retained-PR readiness — Peak XV portfolio companies at $500M valuation routinely hire $20-40k/mo retained PR, (b) the 'Amazon Ring chose Vapi over 40 rivals' headline is one of the most powerful press-cycle assets we've seen this month — that single proof point alone is a 6-month-press-cycle generator across enterprise-tech and customer-experience trade press, (c) 1 billion calls handled + 10x enterprise ARR growth is the strongest traction-metric profile in today's scrape. Buyer fit: 38/50 — enterprise voice AI B2B (strong tech-industry match, slightly weaker pure-FS-buyer match), founders/CEO publicly accessible (named in TechCrunch + Axios + Peak XV coverage), Series B at $72M total + $500M valuation puts them in $20-40k/mo retainer tier (likely already evaluating tier-1 PR shops — competitive bid territory). Comms-relationship odds: MEDIUM-STRONG. 5/12 TechCrunch/SiliconANGLE/Axios/GlobeNewswire coverage names ONLY founders + Peak XV — no Head of Comms quoted — BUT given the $500M valuation and Peak XV / M12 backing, Vapi may have already retained PR or be in the middle of an RFP cycle. Risk: we may be 2-3 weeks behind their PR-selection timeline. Pitch threading: (i) enterprise voice AI / contact-center trade press (CMSWire, Customer Contact Week, Destination CRM, ZDNet, Fierce CIO), (ii) AI infrastructure press (The Information, Forbes Enterprise, MIT Tech Review, Bloomberg Technology, SiliconANGLE), (iii) named-customer case-study series (Amazon Ring, NY Life, Intuit each their own placement opportunity), (iv) CEO thought-leadership on 'voice AI as enterprise infrastructure layer' for CIO/CTO trade press. Outreach lead-touch: Vapi CEO (verify exact name from 5/12 Peak XV release). Time-sensitive: 48-72 hours, but expect competitive bid environment. Combined 78 — B-tier, pursue with awareness of likely incumbent or in-flight RFP.",
+      "lastActivity": "$50M Series B announced May 12, 2026 at ~$500M valuation (Peak XV lead, M12 / Kleiner Perkins / Bessemer participating — TechCrunch / SiliconANGLE / Axios)"
+    },
+    {
+      "name": "Allocate — Senior Fund Formation Attorney (Remote, Contract)",
+      "website": "https://www.allocate.co",
+      "pipeline": "legal-freelance",
+      "industry": "Fund-tech / Investment-management platform (Allocate provides venture-fund access to family offices, RIAs, and accredited investors; in-house legal team supports fund formation, regulatory compliance, and corporate governance across multiple investment vehicles)",
+      "location": "Remote, U.S.",
+      "fundingStage": "Allocate is a Series-A+ fund-access platform. Role is in-house contract counsel role at Allocate, NOT a fundraising lead — this is a legal-freelance pursuit (Mark pitches himself as the contract fund-formation counsel they'd hire).",
+      "fitScore": 38,
+      "intentScore": 37,
+      "fitDetails": { "industry": 18, "stage": 8, "buyer": 8, "proof": 0, "budget": 4 },
+      "intentDetails": { "trigger": 13, "timeline": 8, "dm_engaged": 6, "urgency": 7, "responsive": 3 },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "contract",
+      "buyerType": "operating-company",
+      "compensationText": "Estimated $190,000-$220,000 (annualized); also referenced as hourly contract structure in alternative postings",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Senior Fund Formation Attorney (Remote in U.S.) — contract / in-house contract counsel",
+      "urgencyScore": 70,
+      "contacts": [
+        { "name": "Allocate Legal Team / Head of Legal (verify hiring contact from posting)", "title": "Hiring Manager", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "fund_formation_role_perfect_practice_area_match",
+        "remote_us_engagement_model",
+        "6_plus_years_fund_formation_experience_required_seniority_fit",
+        "investment_vehicle_structuring_lp_ppm_subscription_doc_workstream",
+        "regulatory_compliance_for_investment_advisers_workstream",
+        "posted_within_past_week_active_pipeline",
+        "fund_tech_platform_recurring_contract_fund_formation_workload_likely",
+        "competitive_compensation_190_220k_annualized"
+      ],
+      "source": "Daily Scrape 2026-05-13 (BeBee / Virtual Vocations / Indeed / Ladders)",
+      "sourceUrl": "https://bebee.com/us/jobs/senior-fund-formation-attorney-remote-in-us-allocate-mo--appcast-13509_86437905",
+      "notes": "B-tier (combined 75). Allocate is a strong legal-freelance fit for three reasons: (a) PERFECT practice-area match — fund formation, investment-vehicle structuring (LPs, PPMs, subscription docs), and Investment-Advisers-Act regulatory compliance is the exact bullseye of Mark's legal-freelance ICP, (b) Allocate is a fund-tech platform supporting multiple GP/LP fund relationships, which means the workload is RECURRING fund-formation work, not one-off — this is the kind of in-house contract counsel role that often converts to fractional/retained engagement if the candidate brings book-of-business sophistication, (c) remote-U.S. engagement model matches Mark's geographic flexibility. Engagement model: posting is structured as 'Senior Fund Formation Attorney (Remote in U.S.)' which on its face is W-2 but reads as contract-eligible — Allocate has historically been flexible on engagement structure for senior contract counsel. Compensation: $190-220k annualized is market-credible for the seniority level. Bucket-test (4-bucket taxonomy): Bucket A (contract/remote) + Bucket B (fractional/external) + Bucket C (specialist/expert) — hits 3 of 4 buckets, qualifies cleanly. Suppression check: no red flags — not litigation, not trusts & estates, not family law, not court-appearance work. Pitch angle: Mark positions as fractional / contract Senior Fund Formation Counsel ready to pick up Allocate's recurring fund-formation workload — emphasizes (i) fund-tech-platform-specific experience (Allocate's recurring multi-fund pipeline), (ii) Investment Advisers Act regulatory-compliance sophistication, (iii) ability to ramp fast (interim-availability angle). Outreach lead-touch: apply to posting + warm intro through fund-tech LP/GP network (verify Allocate's Head of Legal from LinkedIn). Time-sensitive: posted ~1 week ago, posting active through ~mid-July. Combined 75 — B-tier, pursue.",
+      "lastActivity": "Senior Fund Formation Attorney remote contract posting active on BeBee / Virtual Vocations / Indeed / Ladders / ZipRecruiter — posted approximately 1 week ago, listing remains open"
+    }
+  ],
+  "signalRefresh": [
+    {
+      "name": "Embat",
+      "previousScrape": "2026-05-12",
+      "previousCombined": 92,
+      "currentCombined": 92,
+      "scoreDelta": 0,
+      "newSignals": [
+        "5_13_press_cycle_continuation_fintech_global_ffnews_finsmes_bebeez_pickup",
+        "treasuryxl_treasury_today_picked_up_announcement",
+        "cathay_innovation_blog_post_published_company_perspective"
+      ],
+      "windowStatus": "OPEN — press cycle day 1, optimal outreach window 5/13-5/20",
+      "recommendedAction": "Outreach TODAY. Press cycle is in its first 24h with secondary trade-press pickup happening now. Email Embat founders direct + leverage Cathay Innovation portfolio-CEO warm intro if available. Lead with UK/Ireland expansion angle (English-market PR fluency Spanish PR shops can't deliver)."
+    },
+    {
+      "name": "Nova Intelligence",
+      "previousScrape": "2026-05-12",
+      "previousCombined": 89,
+      "currentCombined": 87,
+      "scoreDelta": -2,
+      "newSignals": [
+        "press_cycle_day_8_today_5_13_secondary_pickup_decelerating",
+        "sap_partner_directory_now_lists_nova_visibility_signal",
+        "founder_emma_qian_active_on_linkedin_post_fortune_thought_leadership"
+      ],
+      "windowStatus": "NARROWING — day 8 of press cycle, optimal outreach window closing by 5/15",
+      "recommendedAction": "Outreach in next 48h max. Score decay reflects post-funding press window narrowing (-2 intent). Lead with Festo + Kyndryl case-study press-thread for SAPinsider / Diginomica pitches — these are evergreen for Nova's category but lose immediate news-peg by end of week."
+    },
+    {
+      "name": "Fazeshift",
+      "previousScrape": "2026-05-08",
+      "previousCombined": 91,
+      "currentCombined": 88,
+      "scoreDelta": -3,
+      "newSignals": [
+        "press_cycle_day_6_secondary_pickup_continued_business_wire_pickup",
+        "no_new_head_of_comms_announcement_confirms_open_window",
+        "12x_revenue_growth_proof_asset_still_unreplaced_in_press_narrative",
+        "first_public_company_customer_reveal_not_yet_announced_future_press_hook"
+      ],
+      "windowStatus": "OPEN — press cycle day 6, still inside outreach window",
+      "recommendedAction": "Outreach TODAY/TOMORROW. Score decay (-3) reflects natural news-cycle aging but Fazeshift's customer-logo-reveal cadence creates renewable press hooks. Pitch: 'first public-company customer reveal' could be its own placement (TechCrunch Fintech, Forbes Fintech). Email Caitlin Leksana (CEO) direct."
+    }
+  ]
+}
