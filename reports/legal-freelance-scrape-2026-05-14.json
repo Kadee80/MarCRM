@@ -1,0 +1,302 @@
+{
+  "scrapeDate": "2026-05-14",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 6,
+  "note": "Legal Freelance pipeline scrape, 7-day window. 6 new leads after dedup against legal-freelance (05-06/07/08/12), daily (05-12/13), and pr-freelance (05-12) reports. All leads grade B (combined 60-79). Dedup excluded recurring matches: Robert Half Investment & Fund Structuring, BlackRock Private Funds Attorney, Latitude #5064/#5077, SEC Reporting Counsel (Atlanta), Lyfecoin, Ropes & Gray AM Funds Program, Allocate Fund Formation, Axiom, Paragon Legal. Three distinct Latitude Legal postings (#5073/#5075/#5076) are included separately — they are different live roles, but a single Latitude AM relationship unlocks all of them plus the Nashville part-time M&A role. Autonomous run: no clarifying questions asked. Decision noted — enhanced CRM fields written to dedicated Prisma columns (schema now has vertical/subvertical/engagementModel/buyerType/compensationText/remoteFlag/employmentTypeRaw/urgencyScore as real columns) rather than packed into techStack JSON as the 05-12 script did.",
+  "leads": [
+    {
+      "name": "Latitude Legal — Commercial Contracts Attorney (Remote Contract Engagement #5073)",
+      "website": "https://latitudelegal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Flexible Legal Talent / ALSP",
+      "location": "Remote (any US location)",
+      "fundingStage": "n/a (legal talent firm)",
+      "fitScore": 30,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": 10,
+        "seniority": 10,
+        "comp_credible": 10,
+        "fund_focus": 0
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 15,
+        "recency": 0,
+        "apply_path": 10
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "$160,000-$200,000+ annualized when calculated on a full-time basis; full benefits (medical/dental/vision, life, LTD, AD&D) at 20+ hr/wk; complimentary professional liability insurance",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contract engagement — full or part-time (W2 at Latitude)",
+      "urgencyScore": 60,
+      "contacts": [
+        {
+          "name": "Latitude Legal Recruiting",
+          "title": "Attorney Talent Team (Commercial Contracts role #5073)",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "comp_published_160_200k",
+        "100_percent_remote",
+        "w2_full_benefits_at_20hr",
+        "commercial_contracts_explicit",
+        "former_in_house_or_biglaw_preferred",
+        "specific_role_not_talent_pool"
+      ],
+      "source": "Legal Freelance Scrape 2026-05-14",
+      "sourceUrl": "https://latitudelegal.com/jobs/5073",
+      "notes": "Combined 70 / Grade B. Core commercial-contracts contract engagement: structuring, drafting, negotiating, reviewing sales, vendor/procurement, IT, marketing, supply, logistics and consulting-services agreements. W2 + full benefits at 20+ hr/wk is unusual for fractional work (most shops are 1099 only). Distinct from the #5064/#5077 roles already in the DB — applying to a named role routes to the hiring manager, not generic intake, so worth a direct application. Pitch angle: position Katie's in-house commercial-paper depth (vendor/customer paper, playbook build) plus fund-side vendor work. Pair this application with #5075 and #5076 — one Latitude AM relationship unlocks all three."
+    },
+    {
+      "name": "Latitude Legal — Technology and Commercial Contracts Attorney (Remote #5076)",
+      "website": "https://latitudelegal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Flexible Legal Talent / ALSP",
+      "location": "Remote (any US location)",
+      "fundingStage": "n/a (legal talent firm)",
+      "fitScore": 30,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": 10,
+        "seniority": 10,
+        "comp_credible": 10,
+        "fund_focus": 0
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 15,
+        "recency": 0,
+        "apply_path": 10
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "$160,000-$200,000+ annualized (Latitude published band); full benefits at 20+ hr/wk; complimentary professional liability insurance",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contract engagement — full or part-time (W2 at Latitude)",
+      "urgencyScore": 60,
+      "contacts": [
+        {
+          "name": "Latitude Legal Recruiting",
+          "title": "Attorney Talent Team (Technology & Commercial Contracts role #5076)",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "comp_published_160_200k",
+        "100_percent_remote",
+        "w2_full_benefits_at_20hr",
+        "technology_and_commercial_contracting",
+        "biglaw_or_in_house_preferred",
+        "specific_role_not_talent_pool"
+      ],
+      "source": "Legal Freelance Scrape 2026-05-14",
+      "sourceUrl": "https://latitudelegal.com/jobs/5076",
+      "notes": "Combined 70 / Grade B. Companion to #5073, with a technology-contracting tilt (SaaS, data, licensing, IT agreements alongside general commercial paper). Slightly narrower than #5073 — only apply if Katie has meaningful tech/SaaS contracting reps; otherwise lead with #5073. Same Latitude W2 + benefits structure. Pitch angle: SaaS/vendor agreement playbooks and tech-transaction support for portfolio companies. Note: Latitude also has a near-identical posting #7032 ('Remote Contract Engagement' variant) — treat as the same role family, apply once."
+    },
+    {
+      "name": "Latitude Legal — Corporate M&A Attorney (Remote #5075)",
+      "website": "https://latitudelegal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Flexible Legal Talent / ALSP",
+      "location": "Remote (any US location)",
+      "fundingStage": "n/a (legal talent firm)",
+      "fitScore": 30,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": 10,
+        "seniority": 10,
+        "comp_credible": 10,
+        "fund_focus": 0
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 15,
+        "recency": 0,
+        "apply_path": 10
+      },
+      "vertical": "legal",
+      "subvertical": "M&A",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "Comp not quoted on this specific posting; Latitude's published contract-attorney band is $160,000-$200,000+ annualized with benefits at 20+ hr/wk",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contract engagement — full or part-time (W2 at Latitude)",
+      "urgencyScore": 58,
+      "contacts": [
+        {
+          "name": "Latitude Legal Recruiting",
+          "title": "Attorney Talent Team (Corporate M&A role #5075)",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "m&a_and_private_equity_experience",
+        "corporate_transactional",
+        "100_percent_remote",
+        "w2_full_benefits_at_20hr",
+        "specific_role_not_talent_pool"
+      ],
+      "source": "Legal Freelance Scrape 2026-05-14",
+      "sourceUrl": "https://latitudelegal.com/jobs/5075",
+      "notes": "Combined 70 / Grade B. Latitude seeks corporate transactional attorneys with extensive M&A and private-equity experience to work on client assignments. Strongest of the three Latitude postings on substance for Katie — M&A + PE experience is squarely in-ICP and adjacent to fund work. comp_credible scored +10 on the basis of Latitude's consistently published $160-200k band across postings (not quoted on this specific page — confirm with recruiter). Pitch angle: deal execution and diligence management for PE buyers and portfolio-company add-ons; this is the lead-in conversation with the Latitude AM, then layer #5073/#5076."
+    },
+    {
+      "name": "Viskase Companies, LLC — Contracts Corporate Counsel (Part-Time, Remote)",
+      "website": "https://www.viskase.com",
+      "pipeline": "legal-freelance",
+      "industry": "Manufacturing (publicly traded global food-packaging / casings manufacturer)",
+      "location": "Remote (company HQ greater Chicago area)",
+      "fundingStage": "Public company",
+      "fitScore": 20,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": 10,
+        "seniority": 10,
+        "comp_credible": 0,
+        "fund_focus": 0
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 15,
+        "recency": 0,
+        "apply_path": 10
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "part-time",
+      "buyerType": "operating-company",
+      "compensationText": "Not published",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Part-time, Remote (ACC Jobline listing)",
+      "urgencyScore": 55,
+      "contacts": [
+        {
+          "name": "Viskase Legal Department",
+          "title": "General Counsel / Hiring Manager",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "part_time_explicit",
+        "remote",
+        "direct_in_house_buyer",
+        "customer_supplier_vendor_contracts",
+        "publicly_traded_global_manufacturer",
+        "acc_jobline_direct_posting"
+      ],
+      "source": "Legal Freelance Scrape 2026-05-14",
+      "sourceUrl": "https://jobline.acc.com/job/contracts-corporate-counsel-54051",
+      "notes": "Combined 60 / Grade B. Part-time + remote + direct in-house buyer is exactly the engagement shape Katie is optimizing for — no staffing-firm intermediary, posted straight to ACC Jobline. Scope: draft/review/negotiate customer, supplier and vendor contracts for a publicly traded global manufacturer. Off-ICP on industry (manufacturing, not funds) and comp not stated, which caps the fit score, but the engagement model and direct-buyer access make it a real opportunity. Pitch angle: lead with in-house commercial-contracting throughput and playbook discipline; frame as steady part-time retainer coverage. Confirm hours/week and whether they want W2 vs. 1099 with the GC."
+    },
+    {
+      "name": "Latitude Legal — M&A Attorney (Part-Time, Fully Remote; energy & advanced-technology company)",
+      "website": "https://latitudelegal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Legal Staffing / ALSP placing into high-growth energy & advanced-technology company",
+      "location": "Remote (fully remote; company Nashville, TN-based)",
+      "fundingStage": "n/a (ALSP placement; client is a high-growth operating company)",
+      "fitScore": 30,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": 10,
+        "seniority": 10,
+        "comp_credible": 10,
+        "fund_focus": 0
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 15,
+        "recency": 0,
+        "apply_path": 10
+      },
+      "vertical": "legal",
+      "subvertical": "M&A",
+      "engagementModel": "part-time",
+      "buyerType": "ALSP",
+      "compensationText": "$225,000-$278,000+ annualized when calculated on a full-time basis",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Part-Time; scalable to Full-Time; Fully Remote",
+      "urgencyScore": 45,
+      "contacts": [
+        {
+          "name": "Latitude Legal Recruiting",
+          "title": "Attorney Talent Team (Part-Time M&A role)",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "part_time_scalable_to_full_time",
+        "fully_remote",
+        "comp_published_225_278k",
+        "m&a_plus_financing_arrangements",
+        "works_with_vp_legal",
+        "energy_advanced_tech_sector"
+      ],
+      "source": "Legal Freelance Scrape 2026-05-14",
+      "sourceUrl": "https://www.indeed.com/viewjob?jk=d44435836f3f3420",
+      "notes": "Combined 70 / Grade B. Part-time, scalable-to-FT, fully remote M&A role placing into a high-growth energy/advanced-tech company; works alongside the company's VP of Legal and outside counsel from structuring through post-closing integration, including financing-arrangement support. Comp band published and well above market ($225-278k+ annualized). CAVEAT: posting first appeared 2026-02-13 — outside the 7-day window and likely stale; recency scored 0 and urgencyScore held to 45. Included because it is still an active listing and a strong substantive fit. Verify it's still open with the Latitude recruiter before investing in a tailored application. Pitch angle: transaction execution + financing support as fractional deal counsel."
+    },
+    {
+      "name": "Radian Capital — General Counsel (Remote)",
+      "website": "https://www.radiancapital.com",
+      "pipeline": "legal-freelance",
+      "industry": "Growth Equity (B2B software & tech-enabled services)",
+      "location": "Remote (firm based in New York, NY)",
+      "fundingStage": "Established growth-equity firm (founded 2016; 58 investments; $5M-$30M per deal)",
+      "fitScore": 40,
+      "intentScore": 25,
+      "fitDetails": {
+        "practice_area": 10,
+        "seniority": 10,
+        "comp_credible": 0,
+        "fund_focus": 20
+      },
+      "intentDetails": {
+        "engagement_model": 0,
+        "remote_flex": 15,
+        "recency": 0,
+        "apply_path": 10
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "interim",
+      "buyerType": "fund",
+      "compensationText": "Not published",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Full Time (permanent GC search)",
+      "urgencyScore": 50,
+      "contacts": [
+        {
+          "name": "Radian Capital Co-Founders / Legal Hiring",
+          "title": "Co-Founder / GC Hiring Manager",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "fund_structuring_and_distributions",
+        "capital_raising_and_transactions",
+        "fund_firm_portfolio_scope",
+        "growth_equity_firm",
+        "regulatory_diligence",
+        "remote_eligible",
+        "interim_coverage_play"
+      ],
+      "source": "Legal Freelance Scrape 2026-05-14",
+      "sourceUrl": "https://www.legal.io/jobs/5269786/Full-time/General-Counsel/Remote",
+      "notes": "Combined 65 / Grade B. Permanent FT GC search — not freelance — but ICP-perfect on substance: fund structuring, fund distributions, capital raising/transactions, managing outside firms, and legal/regulatory diligence across Fund, Firm and Portfolio at a NYC growth-equity firm. Highest fund_focus score in this scrape (+20). Same play as the BlackRock lead already in the DB: (a) apply directly if open to a perm seat; (b) higher-yield — LinkedIn outreach to a Co-Founder offering interim GC coverage to bridge the search, which often converts to a fractional retainer. engagementModel set to 'interim' to reflect the recommended pitch, not the posting's stated type. Long-game relationship lead."
+    }
+  ]
+}

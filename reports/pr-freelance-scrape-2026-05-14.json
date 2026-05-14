@@ -1,0 +1,285 @@
+{
+  "scrapeDate": "2026-05-14",
+  "scrapeType": "pr-freelance",
+  "totalLeads": 6,
+  "note": "Enhanced PR Freelance pipeline scrape. 7-day window. Web-search sourced only (no LinkedIn bot scraping). Headline theme this run: boutique financial-comms agency consolidation — the Haven Tower Alliance added two member firms in May 2026 (Conway 5/5, Cardinal 5/12), a textbook capacity-expansion moment for senior white-label / overflow support. Deduplicated against pr-freelance reports 2026-05-12/08/07/06/05/04/01 and daily-scrape 2026-05-13 (Adfin excluded — already captured in 5/13 daily as pr-marketing). All leads scored >=55 on the 100-point model.",
+  "leads": [
+    {
+      "name": "Cardinal Communications Strategies",
+      "website": "https://www.prnewswire.com/news-releases/haven-tower-group-announces-exclusive-strategic-alliance-with-cardinal-communications-strategies-to-serve-private-equity-firms-investing-in-wealth-management-302769242.html",
+      "pipeline": "pr-freelance",
+      "industry": "Strategic Financial Communications Firm — Private Equity Sponsor Specialist",
+      "location": "US (remote-distributed)",
+      "fundingStage": "Independent boutique financial-comms firm",
+      "fitScore": 50,
+      "intentScore": 36,
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 15,
+        "workstream": 10,
+        "buyer_quality": 5,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 8,
+        "remote_flex": 5,
+        "recency": 10,
+        "urgency_signals": 8,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "investor-pr",
+      "engagementModel": "freelance",
+      "buyerType": "agency",
+      "compensationText": "Not stated — agency-overflow / white-label engagements typically project + hourly + retainer",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Cold approach — senior agency-overflow / white-label support during alliance build-out",
+      "urgencyScore": 80,
+      "contacts": [
+        { "name": "Cardinal Communications Strategies — Principal", "title": "Founder / Principal", "email": "", "linkedin": "" },
+        { "name": "Cardinal Communications — New Business", "title": "New Business / Talent Inbox", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "exclusive_alliance_with_haven_tower_announced_2026_05_12",
+        "cardinal_haven_initiative_serves_PE_firms_investing_in_wealth_management",
+        "PE_sponsor_communications_specialty_matches_ICP",
+        "media_relations_executive_positioning_content_strategy_remit",
+        "agency_expansion_mode_capacity_strain_likely"
+      ],
+      "source": "PRNewswire / Yahoo Finance",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/haven-tower-group-announces-exclusive-strategic-alliance-with-cardinal-communications-strategies-to-serve-private-equity-firms-investing-in-wealth-management-302769242.html",
+      "notes": "HEADLINE LEAD (combined 86, A grade). Cardinal Communications Strategies is a strategic financial-communications firm serving private equity sponsors across media relations, executive positioning, content strategy and digital marketing. On 2026-05-12 it announced an exclusive strategic alliance with Haven Tower Group — the 'Cardinal Haven Initiative' — to support PE firms investing in wealth management and the wealth-management enterprises they acquire. Both firms remain independent. A new joint go-to-market initiative plus a curated alliance network is a textbook capacity-expansion moment: senior, plug-in-fast white-label / overflow execution is exactly what these moments demand, and Cardinal's PE-sponsor + wealth-management remit is dead-center in Mark's ICP. ACTION: Direct outreach to Cardinal's principal positioning senior agency-overflow capacity — emphasize PE-sponsor narrative, portfolio-company comms, executive positioning, and ability to lead client-facing work without ramp time. Reference the Cardinal Haven Initiative specifically to show you're tracking the expansion."
+    },
+    {
+      "name": "Haven Tower Group",
+      "website": "https://www.haventower.com",
+      "pipeline": "pr-freelance",
+      "industry": "Full-Service Communications Agency — Wealth Management Industry Specialist",
+      "location": "Los Angeles, Seattle, Chicago, New York City",
+      "fundingStage": "Independent agency (launched ~2011, ~20 professionals)",
+      "fitScore": 50,
+      "intentScore": 34,
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 15,
+        "workstream": 10,
+        "buyer_quality": 5,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 8,
+        "remote_flex": 5,
+        "recency": 8,
+        "urgency_signals": 8,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "agency-overflow",
+      "engagementModel": "freelance",
+      "buyerType": "agency",
+      "compensationText": "Not stated — white-label / overflow engagements typically project + retainer",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Cold approach — senior white-label / overflow execution as the Haven Tower Alliance scales",
+      "urgencyScore": 75,
+      "contacts": [
+        { "name": "Haven Tower Group — Leadership", "title": "Founder / Managing Partner", "email": "", "linkedin": "" },
+        { "name": "Haven Tower Group — Talent", "title": "Recruiting / New Business", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "multiple_award_winning_wealth_management_communications_agency",
+        "haven_tower_alliance_added_conway_2026_05_05_and_cardinal_2026_05_12",
+        "curated_network_of_independent_agencies_building_out",
+        "wealth_management_PR_digital_brand_strategy_remit_matches_ICP",
+        "20_professionals_4_offices_capacity_constrained_at_scale"
+      ],
+      "source": "PRNewswire / haventower.com",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/haven-tower-group-announces-strategic-alliance-with-conway-communications-a-leading-full-service-investor-relations-firm-302762436.html",
+      "notes": "Combined 84, A grade. Haven Tower Group is a multiple-award-winning, full-service communications agency dedicated exclusively to the wealth-management industry, with ~20 professionals across LA, Seattle, Chicago and NYC. It runs the Haven Tower Alliance (HTA), a curated community of independent agencies — and in May 2026 it added two members in quick succession (Conway Communications 5/5, Cardinal Communications 5/12). Rapid alliance build-out against a 20-person core team is a clear capacity signal: as deal flow flows through HTA, Haven Tower will need senior execution muscle it can trust on client-facing wealth-management work. ACTION: Direct outreach to Haven Tower leadership positioning senior overflow / white-label capacity specialized in wealth-management storytelling, media relations and executive comms. Note that you can plug into HTA-routed work without ramp. Mention the Conway and Cardinal alliances to demonstrate you understand their model."
+    },
+    {
+      "name": "Conway Communications",
+      "website": "https://conwaycommsir.com",
+      "pipeline": "pr-freelance",
+      "industry": "Independent Boutique Investor Relations & Financial Communications Firm",
+      "location": "Boston, MA (remote-capable)",
+      "fundingStage": "Independent boutique IR firm",
+      "fitScore": 50,
+      "intentScore": 31,
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 15,
+        "workstream": 10,
+        "buyer_quality": 5,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 10,
+        "remote_flex": 5,
+        "recency": 5,
+        "urgency_signals": 6,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "investor-pr",
+      "engagementModel": "interim",
+      "buyerType": "ir-firm",
+      "compensationText": "Not stated — interim IR support engagements typically retainer or project",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Cold approach — interim IR / overflow support; firm explicitly markets 'interim IR support' as a service line",
+      "urgencyScore": 65,
+      "contacts": [
+        { "name": "Conway Communications — Principal", "title": "Founder / Principal", "email": "", "linkedin": "" },
+        { "name": "Conway Communications — New Business", "title": "New Business Inbox", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "premier_independent_IR_and_financial_communications_firm",
+        "explicitly_offers_interim_IR_support_as_a_service_line",
+        "joined_haven_tower_alliance_2026_05_05_first_inter_agency_alliance",
+        "covers_financial_services_technology_life_sciences",
+        "concierge_level_IR_for_public_and_private_companies"
+      ],
+      "source": "PRNewswire / conwaycommsir.com",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/haven-tower-group-announces-strategic-alliance-with-conway-communications-a-leading-full-service-investor-relations-firm-302762436.html",
+      "notes": "Combined 81, A grade. Conway Communications is a Boston-based boutique investor relations and financial-communications firm providing strategic IR, interim IR support and corporate communications counsel to public and private companies across financial services, technology and life sciences. Two things make this a strong fit: (1) the firm explicitly markets 'interim IR support' as a service line — meaning it is structurally comfortable with interim / fractional engagements and likely staffs them with senior contractors; (2) on 2026-05-05 it became the first inter-agency member of the Haven Tower Alliance, signaling growth and cross-referral volume. ACTION: Direct outreach to Conway's principal positioning senior interim IR / investor-narrative support — earnings comms, investor-day prep, transaction comms, first-time-public-company support. Lean on Mark's IR + capital-markets fluency. The 'interim IR' framing is your foot in the door — pitch yourself as exactly the senior bench they extend to clients."
+    },
+    {
+      "name": "FINN Partners",
+      "website": "https://www.finnpartners.com",
+      "pipeline": "pr-freelance",
+      "industry": "Global Integrated Marketing & PR Agency — Financial Services PR Practice",
+      "location": "New York, NY + 35 offices globally",
+      "fundingStage": "Independent agency (~$200M fees, founded 2011, 1,300+ professionals)",
+      "fitScore": 50,
+      "intentScore": 23,
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 15,
+        "workstream": 10,
+        "buyer_quality": 5,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 6,
+        "remote_flex": 3,
+        "recency": 3,
+        "urgency_signals": 6,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "agency-overflow",
+      "engagementModel": "freelance",
+      "buyerType": "agency",
+      "compensationText": "Posted FS PR staff roles: AAE ~$24-25/hr; Senior AE commensurate w/ experience. Freelance overflow rates typically higher / project basis",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Mix — multiple full-time Financial Services PR roles open (Assistant AE, Senior AE); freelance/overflow demand inferred from active practice hiring",
+      "urgencyScore": 55,
+      "contacts": [
+        { "name": "FINN Partners — Financial Services PR Practice Lead", "title": "Partner / Practice Lead, Financial Services", "email": "", "linkedin": "" },
+        { "name": "FINN Partners Talent Acquisition", "title": "Recruiting", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "dedicated_financial_services_PR_practice",
+        "multiple_FS_PR_roles_open_2026_assistant_AE_and_senior_AE",
+        "~$200M_fees_1300_professionals_35_offices",
+        "active_practice_hiring_correlates_with_freelance_overflow_demand",
+        "B2B_and_B2C_financial_services_client_base"
+      ],
+      "source": "FINN Partners careers / ZipRecruiter / LinkedIn",
+      "sourceUrl": "https://www.finnpartners.com/careers/open-positions/",
+      "notes": "Combined 73, B grade. FINN Partners is a ~$200M independent agency with 1,300+ professionals across 35 offices and a dedicated Financial Services PR practice (B2B and B2C clients). It currently has multiple FS PR roles open — Assistant Account Executive and Senior Account Executive — with interviews running in 2026. The posted roles themselves are full-time staff hires (so direct intent for freelance is moderate), but a large agency actively building out an FS practice almost always carries parallel freelance / overflow demand it doesn't post publicly. ACTION: Skip the junior staff postings — instead do direct outreach to the FS PR practice lead positioning senior freelance / overflow capacity. Frame it as 'you're clearly scaling the FS practice; here's senior bench you can deploy on client-facing work immediately, project or retainer.' This is a relationship play, not an application."
+    },
+    {
+      "name": "Flo Health Inc.",
+      "website": "https://flo.health",
+      "pipeline": "pr-freelance",
+      "industry": "Femtech / Consumer Health App",
+      "location": "United States (Remote)",
+      "fundingStage": "Late-stage venture (unicorn-tier femtech)",
+      "fitScore": 30,
+      "intentScore": 40,
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 0,
+        "workstream": 10,
+        "buyer_quality": 0,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 10,
+        "recency": 5,
+        "urgency_signals": 5,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "media-relations",
+      "engagementModel": "freelance",
+      "buyerType": "operating-company",
+      "compensationText": "Not stated in posting — freelance / contract engagement",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Freelance — explicit 'PR & Media Relations Consultant (Freelance)' contract posting to support the US PR & Media team",
+      "urgencyScore": 70,
+      "contacts": [
+        { "name": "Flo Health — US PR & Media Team", "title": "PR / Communications Lead", "email": "", "linkedin": "" },
+        { "name": "Flo Health Talent Acquisition", "title": "Recruiting", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "explicit_freelance_PR_and_media_relations_consultant_posting",
+        "contract_basis_supporting_US_PR_and_media_team",
+        "remote_US",
+        "linkedin_apply_path",
+        "off_ICP_sector_femtech_not_finance"
+      ],
+      "source": "LinkedIn Jobs (indexed via web search)",
+      "sourceUrl": "https://www.linkedin.com/jobs/view/pr-media-relations-consultant-freelance-at-flo-health-inc-3435268143",
+      "notes": "Combined 70, B grade. Flo Health is hiring a 'PR & Media Relations Consultant (Freelance)' on a contract basis to support its US PR & Media team — the single most explicit freelance PR posting surfaced this run. It scores B almost entirely on intent: clear freelance engagement model, remote US, direct media-relations remit, easy LinkedIn apply path. The catch is sector — Flo is consumer femtech, well outside Mark's finance / PE / B2B ICP, so fit is capped at 30 (no sector or buyer-quality points). Included because the task weights explicit freelance postings and the intent signal is genuinely strong. ACTION: Lower-priority but low-effort — worth a direct application given the explicit freelance framing and easy apply. Position media-relations execution capacity; don't over-invest unless they respond. Treat as a volume/keep-warm play, not a core-ICP pursuit."
+    },
+    {
+      "name": "Rogo",
+      "website": "https://rogo.ai",
+      "pipeline": "pr-freelance",
+      "industry": "Agentic AI Platform for Finance — Investment Banking & Private Equity Workflow Automation",
+      "location": "New York, NY + remote (global expansion underway)",
+      "fundingStage": "Series D (April 2026, $160M led by Kleiner Perkins; >$300M total raised)",
+      "fitScore": 37,
+      "intentScore": 21,
+      "fitDetails": {
+        "pr_remit": 12,
+        "sector_fit": 15,
+        "workstream": 10,
+        "buyer_quality": 0,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 8,
+        "remote_flex": 5,
+        "recency": 3,
+        "urgency_signals": 5,
+        "apply_path": 0
+      },
+      "vertical": "pr",
+      "subvertical": "thought-leadership",
+      "engagementModel": "fractional",
+      "buyerType": "startup",
+      "compensationText": "Not stated — cold approach; fractional / project / retainer typical for post-Series-D scaling-narrative work",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Cold approach — fractional / project comms support for post-Series-D scaling narrative and thought leadership",
+      "urgencyScore": 60,
+      "contacts": [
+        { "name": "Rogo — Communications Lead", "title": "Head of Communications / Marketing", "email": "", "linkedin": "" },
+        { "name": "Rogo — Founder/CEO", "title": "Co-Founder & CEO", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "160M_series_D_led_by_kleiner_perkins_announced_2026_04_29",
+        "over_300M_total_raised",
+        "35000_finance_professionals_at_250plus_institutions_use_rogo",
+        "clients_include_rothschild_jefferies_lazard_moelis_nomura",
+        "global_expansion_and_deeper_financial_institution_partnerships_stated",
+        "felix_agentic_AI_launch_creates_thought_leadership_surface"
+      ],
+      "source": "PRNewswire / FinTech Futures / SiliconANGLE",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/rogo-raises-160m-series-d-to-scale-the-agentic-platform-for-finance-302756546.html",
+      "notes": "Combined 58, C grade. Rogo builds agentic AI for investment bankers and PE firms (financial modeling, SEC-filing search, investment-memo drafting); 35,000+ finance professionals at 250+ institutions including Rothschild, Jefferies, Lazard, Moelis and Nomura use it. It raised a $160M Series D led by Kleiner Perkins (announced 2026-04-29, >$300M total) explicitly to fund global expansion and deeper financial-institution partnerships. Sector fit is excellent — investment banking / PE / fintech / AI is core ICP — but this is a cold-approach lead, not a posted role, and the funding news is ~2 weeks old (just outside the tight recency window), so intent scores modestly. The opportunity is a scaling-narrative + thought-leadership program: Series D victory lap, Felix (agentic AI) launch storytelling, enterprise/financial-institution case-study narrative, and an industry-event speaking calendar. ACTION: Cold outreach to Rogo's comms/marketing lead positioning senior fractional / project support on post-Series-D narrative and a thought-leadership program aimed at the IB/PE buyer. Mark's IB-adjacent fluency is the differentiator — he can speak the buyer's language."
+    }
+  ]
+}
