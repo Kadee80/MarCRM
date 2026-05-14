@@ -1,0 +1,406 @@
+{
+  "scrapeDate": "2026-05-14",
+  "scrapeTime": "14:15 UTC",
+  "totalLeads": 9,
+  "note": "Thursday 5/14 daily scrape covering the 5/13-5/14 window. 9 new leads scoring 60+ across 4 pipelines (6 pr-marketing, 2 fund-formation, 1 legal-freelance, 1 ai-consulting). The 5/12-5/13 funding stretch stayed heavy: yesterday's scrape already captured the 5/12 standouts (Greenboard, Adfin, Vapi) so those are excluded here as dedup. Today's pickups come from the remainder of the 5/12 board plus the full 5/13 board. TOP NEW LEAD is A3/C PARTNERS (fund-formation) — a textbook emerging-manager ICP hit: ex-Warburg Pincus head of Europe + ex-Inflexion partner registered a debut tech-focused PE fund in May 2026 and are halfway to a £300M/$403M target. On pr-marketing, the strongest fits are EXAFORCE ($125M Series B AI cybersecurity, ~$725M valuation), ELLIPTIC ($120M Series D crypto-compliance for FIs, Nasdaq + Deutsche Bank backing), and OUTMARKET AI ($17M Series A AI for insurance brokerages) — note Exaforce and Elliptic both carry meaningful PR-incumbency risk given their valuations, so they are scored B not A despite strong surface metrics. BRANCHLAB and JUDGMENT LABS round out pr-marketing as solid-but-secondary B leads. Legal-freelance produced one clean contract posting (Major Lindsey & Africa-placed Chief Corporate & Sustainability Counsel, $133/hr contract, remote). DesignVerse is a small-seed ai-consulting B lead. Job-board overnight churn for freelance pipelines was light: Indeed's investment-fund-counsel and communications-fractional remote feeds surfaced mostly recruiter/staffing-firm aggregator listings and full-time wealth-advisory roles, not net-new freelance-counsel or PR-consultant company postings — the one qualifying posting (MLA Chief Corporate Counsel) is included. SIGNAL REFRESH: Greenboard's GreenboardGo product launch is confirmed and live (press cycle still OPEN); Adfin confirmed an engineering+sales hiring ramp and reconfirmed its Scaling Europe award (window OPEN); Vapi, Embat, and Nova Intelligence are all in natural post-funding score decay. AUTONOMOUS-RUN NOTES: (1) scored Exaforce/Elliptic as B-tier rather than A despite 78-80 raw combined scores, because both are large, high-valuation companies that very likely already retain PR or are mid-RFP — flagged as incumbency risk in their notes; (2) included the MLA-placed contract counsel posting even though MLA already exists as a tracked staffing entity, because the routing rules treat individual contract postings as their own leads; (3) Comfi ($65M B2B BNPL) surfaced in search but was excluded — its raise was announced 4/27, outside the 24-48h window.",
+  "leads": [
+    {
+      "name": "A3/C Partners",
+      "website": "https://www.withintelligence.com/insights/private-equity-emerging-managers-to-watch-in-2026/",
+      "pipeline": "fund-formation",
+      "industry": "Emerging-manager private equity firm — debut technology-focused buyout/growth fund. Founded by Adarsh Sarma (former head of Europe, Warburg Pincus) and Ed Lynch (former partner, Inflexion). London-based.",
+      "location": "London, United Kingdom",
+      "fundingStage": "Debut fund (Fund I) registered May 2026. Targeting £300M+; reported to have raised approximately £300M ($403M) and is roughly halfway to its target. Actively in-market.",
+      "fitScore": 46,
+      "intentScore": 36,
+      "fitDetails": { "manager_type": 15, "strategy": 9, "operational_readiness": 8, "jurisdiction_complexity": 4, "ability_to_pay": 10 },
+      "intentDetails": { "imminent_raise": 13, "launch_window_defined": 8, "providers_selected": 6, "founder_urgency": 7, "referral_source": 2 },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "Adarsh Sarma", "title": "Co-Founder (former Head of Europe, Warburg Pincus)", "email": "", "linkedin": "" },
+        { "name": "Ed Lynch", "title": "Co-Founder (former Partner, Inflexion)", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "debut_fund_i_emerging_manager_textbook_icp",
+        "ex_warburg_pincus_head_of_europe_founder_pedigree",
+        "ex_inflexion_partner_co_founder",
+        "debut_fund_registered_may_2026",
+        "approx_300m_gbp_raised_halfway_to_target_active_raise",
+        "technology_focused_strategy",
+        "london_jurisdiction_likely_cross_border_structuring"
+      ],
+      "source": "Daily Scrape 2026-05-14 (With Intelligence — Private Equity Emerging Managers to Watch in 2026)",
+      "sourceUrl": "https://www.withintelligence.com/insights/private-equity-emerging-managers-to-watch-in-2026/",
+      "notes": "TOP NEW LEAD this cycle (combined 82, A-tier) and the cleanest fund-formation ICP hit in weeks. Three reasons: (a) textbook emerging-manager profile — a debut Fund I from a credentialed team (ex-Warburg Pincus head of Europe + ex-Inflexion partner) is exactly the buyer with enough deal complexity to pay for judgment but not yet a deep in-house legal bench, (b) the fund is mid-raise — registered May 2026, ~£300M of a £300M+ target already secured, halfway home — which means there is live, recurring fund-formation and fund-maintenance legal work right now (LP/GP side letters with each new closing, subscription docs, regulatory filings, governance), (c) founder pedigree means ability-to-pay is essentially uncapped — this is a credible, well-capitalized launch, not a hopeful first-timer. CAVEAT: a firm this far into its raise has almost certainly engaged formation counsel for the core fund vehicle already — the realistic wedge is ongoing fund-maintenance / closing-by-closing work, side letters, co-invest vehicles, and (critically) being positioned early for Fund II. Pitch angle: position as fractional / outside fund counsel for the closing cadence and side-letter volume of the current raise, with an eye to becoming the standing relationship before Fund II. UK jurisdiction — confirm Mark's comfort with UK/cross-border fund structuring or whether this is a referral-out. Outreach: warm intro through PE/LP network strongly preferred over cold; Sarma and Lynch are both highly networked. Time-sensitive: closings happen on a rolling basis during the raise — earlier is better.",
+      "lastActivity": "Debut technology-focused PE fund registered May 2026; approximately £300M ($403M) raised against target, roughly halfway to goal, actively in-market (With Intelligence emerging-managers coverage)"
+    },
+    {
+      "name": "Exaforce",
+      "website": "https://www.exaforce.com",
+      "pipeline": "pr-marketing",
+      "industry": "AI-native cybersecurity — autonomous security operations platform using AI 'Exabots' to triage and stop threats in real time. B2B enterprise software.",
+      "location": "United States",
+      "fundingStage": "$125M Series B announced May 12, 2026 at approximately $725M valuation. Investors: HarbourVest (lead), Peak XV Partners, Mayfield, Khosla Ventures, Seligman Ventures. Follows a $75M Series A; total funding approximately $200M. Founded ~2023.",
+      "fitScore": 44,
+      "intentScore": 35,
+      "fitDetails": { "industry": 9, "stage": 8, "buyer": 10, "proof": 8, "budget": 9 },
+      "intentDetails": { "trigger": 14, "timeline": 7, "dm_engaged": 5, "urgency": 7, "responsive": 2 },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "Exaforce CEO (verify exact name from 5/12 HarbourVest / funding coverage)", "title": "Co-founder / CEO", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "fundraise_series_b_125m_5_12_2026_at_725m_valuation",
+        "harbourvest_lead_peak_xv_mayfield_khosla_seligman_participating",
+        "200m_total_funding_three_year_old_company",
+        "autonomous_soc_exabots_clear_b2b_enterprise_sales_motion",
+        "ai_orchestrated_cyberattack_news_cycle_tailwind",
+        "post_funding_press_cycle_active",
+        "high_valuation_pr_incumbency_risk"
+      ],
+      "source": "Daily Scrape 2026-05-14 (Tech Startups — Top Startup and Tech Funding News, May 12, 2026)",
+      "sourceUrl": "https://techstartups.com/2026/05/12/top-startup-and-tech-funding-news-may-12-2025/",
+      "notes": "B-tier (combined 79, just under the A line). Exaforce has strong surface metrics — $125M Series B, ~$725M valuation, ~$200M total raised, a tier-1 cap table (HarbourVest / Peak XV / Mayfield / Khosla), and a textbook B2B enterprise sales motion selling an autonomous SOC platform. It also rides a live news tailwind (the 'first AI-orchestrated cyberattack' story is driving enterprise-security press right now). DELIBERATELY SCORED B, NOT A, despite the 79: a 3-year-old company at a $725M valuation with this cap table almost certainly already retains a PR firm or is mid-RFP — the dm_engaged and responsive sub-scores are held low to reflect that incumbency risk. This is the same caution we applied to Vapi (5/13). Worth pursuing only if Mark wants to compete for an enterprise-security account against likely incumbents — the realistic angle is a specialist FS/regulated-industry-security narrative thread (selling Exabots into banks and financial institutions) rather than a generalist retained pitch. Pitch threading if pursued: (i) enterprise security trade press (Dark Reading, SC Media, CyberScoop, The Record), (ii) the FS-security-buyer angle for financial-services trade press, (iii) CEO thought-leadership on autonomous SOC / agentic security. Outreach: confirm whether they already have PR representation before investing pitch effort. Combined 79 — B-tier, pursue selectively.",
+      "lastActivity": "$125M Series B announced May 12, 2026 at ~$725M valuation (HarbourVest lead; Peak XV, Mayfield, Khosla, Seligman participating — Tech Startups funding roundup)"
+    },
+    {
+      "name": "Elliptic",
+      "website": "https://www.elliptic.co",
+      "pipeline": "pr-marketing",
+      "industry": "Blockchain analytics and crypto compliance — transaction screening and risk analytics for financial institutions, banks, and regulators. B2B SaaS / RegTech.",
+      "location": "London, United Kingdom (headquarters)",
+      "fundingStage": "$120M Series D announced May 12, 2026 at approximately $670M valuation. Investors: One Peak (lead), Nasdaq Ventures, Deutsche Bank, British Business Bank.",
+      "fitScore": 46,
+      "intentScore": 32,
+      "fitDetails": { "industry": 10, "stage": 8, "buyer": 10, "proof": 10, "budget": 8 },
+      "intentDetails": { "trigger": 13, "timeline": 7, "dm_engaged": 4, "urgency": 6, "responsive": 2 },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "Simone Maini", "title": "Chief Executive Officer", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "fundraise_series_d_120m_5_12_2026_at_670m_valuation",
+        "one_peak_lead_nasdaq_ventures_deutsche_bank_british_business_bank",
+        "crypto_compliance_for_financial_institutions_perfect_fs_buyer_adjacency",
+        "strategic_investors_nasdaq_and_deutsche_bank_signal_institutional_credibility",
+        "global_expansion_use_of_funds",
+        "series_d_maturity_high_pr_incumbency_risk"
+      ],
+      "source": "Daily Scrape 2026-05-14 (Tech Startups — Elliptic raises $120M coverage)",
+      "sourceUrl": "https://techstartups.com/2026/05/12/elliptic-raises-120m-at-670m-valuation-as-nasdaq-deutsche-bank-back-crypto-compliance-startup/",
+      "notes": "B-tier (combined 78). Elliptic is a near-perfect industry-and-buyer fit on paper: crypto compliance and blockchain analytics sold to banks, financial institutions, and regulators sits squarely in Mark's FS-regulatory-adjacent sweet spot, and the cap table is exceptional — Nasdaq Ventures and Deutsche Bank as strategic investors is about as institutionally credible as it gets. DELIBERATELY SCORED B, NOT A: this is a Series D company at a $670M valuation — it has had an in-house communications function for years and well-established media relationships. The 'trigger' here (a late-stage growth round) is real news but does NOT create the same greenfield retained-PR opening that a Series A with no in-house comms does. dm_engaged and responsive sub-scores are held low accordingly. Realistic value of this lead: NOT a retained-PR pitch — more likely a project or advisory engagement (e.g., a specific campaign around a product launch, a regulatory-moment thought-leadership push, or US-market expansion support) layered alongside their existing comms team. CEO Simone Maini is publicly named and press-active. Pitch angle if pursued: project-based earned-media support for a defined expansion or regulatory milestone, positioned as overflow/specialist capacity, not as replacing an incumbent. Combined 78 — B-tier, pursue only as a project/advisory opportunity.",
+      "lastActivity": "$120M Series D announced May 12, 2026 at ~$670M valuation (One Peak lead; Nasdaq Ventures, Deutsche Bank, British Business Bank participating — Tech Startups)"
+    },
+    {
+      "name": "Outmarket AI",
+      "website": "https://www.outmarket.ai",
+      "pipeline": "pr-marketing",
+      "industry": "AI platform purpose-built for insurance brokerages — products spanning commercial, benefits, personal lines, and specialty insurance workflows. B2B SaaS / InsurTech.",
+      "location": "United States",
+      "fundingStage": "$17M Series A announced May 13, 2026. Investors: Permanent Capital Ventures, SignalFire, Fika Ventures, TTV Capital, Dash Fund. Total funding approximately $21.7M.",
+      "fitScore": 41,
+      "intentScore": 37,
+      "fitDetails": { "industry": 8, "stage": 9, "buyer": 10, "proof": 7, "budget": 7 },
+      "intentDetails": { "trigger": 14, "timeline": 8, "dm_engaged": 5, "urgency": 7, "responsive": 3 },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "Outmarket AI CEO (verify exact name from 5/13 funding coverage)", "title": "Co-founder / CEO", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "fundraise_series_a_17m_5_13_2026",
+        "ttv_capital_fintech_specialist_investor_on_cap_table",
+        "signalfire_fika_ventures_participating",
+        "insurance_brokerage_b2b_clear_sales_motion",
+        "under_digitized_insurance_distribution_market_pain",
+        "post_funding_press_cycle_day_1",
+        "series_a_stage_likely_no_in_house_comms"
+      ],
+      "source": "Daily Scrape 2026-05-14 (Tech Startups — Top Startup and Tech Funding News, May 13, 2026)",
+      "sourceUrl": "https://techstartups.com/2026/05/13/top-startup-and-tech-funding-news-may-13-2025/",
+      "notes": "B-tier (combined 78) and, of today's pr-marketing pickups, the BEST true retained-PR fit — better than the higher-profile Exaforce/Elliptic for Mark's actual business model. Reasoning: (a) it is a clean Series A ($17M, ~$21.7M total) — the stage where companies have a real budget but no in-house comms function yet, which is the greenfield retained-PR opening Mark wants, (b) InsurTech is solidly FS-adjacent and the buyer is crisp: insurance brokerages, a relationship-heavy, under-digitized market that responds well to earned-media credibility, (c) TTV Capital on the cap table is a fintech-specialist signal — TTV portfolio companies reliably invest in PR/comms post-Series A. Buyer fit 41/50: InsurTech (strong FS-adjacency), Series A growth stage, very clear B2B sales motion to brokerages. Intent 37/50: fresh funding trigger, press cycle day 1, expansion underway. Pitch threading: (i) insurance trade press (Insurance Journal, Digital Insurance, Insurance Business America, PropertyCasualty360), (ii) InsurTech / fintech press (Coverager, InsurTech Insights, FinTech Global), (iii) the 'AI workflow layer for brokerages' category narrative, (iv) CEO thought-leadership on insurance-distribution modernization. Outreach: verify CEO name from 5/13 coverage, reach out in next 48-72h while the funding news peg is fresh. Combined 78 — B-tier, pursue as a priority retained-PR target.",
+      "lastActivity": "$17M Series A announced May 13, 2026 (Permanent Capital Ventures, SignalFire, Fika Ventures, TTV Capital, Dash Fund — Tech Startups funding roundup)"
+    },
+    {
+      "name": "BranchLab",
+      "website": "https://www.branchlab.com",
+      "pipeline": "pr-marketing",
+      "industry": "AI platform for pharmaceutical commercialization — privacy-first AI covering patient identification, audience segmentation, activation, and real-world measurement. B2B SaaS / HealthTech.",
+      "location": "United States",
+      "fundingStage": "$26M Series A announced May 13, 2026. Investors: McKesson Ventures (lead), FCA Venture Partners, Sanofi Ventures, AIX Ventures. Total funding $35M.",
+      "fitScore": 38,
+      "intentScore": 35,
+      "fitDetails": { "industry": 5, "stage": 9, "buyer": 9, "proof": 8, "budget": 7 },
+      "intentDetails": { "trigger": 14, "timeline": 7, "dm_engaged": 5, "urgency": 6, "responsive": 3 },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "BranchLab CEO (verify exact name from 5/13 McKesson Ventures coverage)", "title": "Co-founder / CEO", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "fundraise_series_a_26m_5_13_2026",
+        "mckesson_ventures_lead_strategic_industry_investor",
+        "sanofi_ventures_participating_strategic_pharma_signal",
+        "privacy_first_ai_pharma_commercialization_category",
+        "35m_total_funding",
+        "post_funding_press_cycle_day_1",
+        "healthcare_industry_outside_core_fs_tech_icp"
+      ],
+      "source": "Daily Scrape 2026-05-14 (Tech Startups — BranchLab raises $26M coverage)",
+      "sourceUrl": "https://techstartups.com/2026/05/13/branchlab-raises-26m-to-transform-pharma-commercialization-with-privacy-first-ai/",
+      "notes": "B-tier (combined 73). BranchLab is a solid Series A pickup with a strong intent profile — fresh $26M raise, strategic backing from McKesson Ventures (lead) and Sanofi Ventures, and a clean B2B sales motion into pharma. The drag on the score is industry fit: pharma commercialization sits OUTSIDE Mark's core FS/Tech ICP (industry sub-score held to 5/10). That said, the company is a privacy-first AI B2B SaaS play, the stage is right (Series A, likely no in-house comms), and the strategic-investor cap table signals retained-PR readiness. Worth pursuing if Mark is open to a healthcare-adjacent account; the press surface (pharma-marketing and healthtech trade press — Fierce Pharma, Endpoints News, MM+M, Digital Commerce 360 Healthcare) is a different network than Mark's FS bread-and-butter, so factor in relationship-building cost. Pitch threading: (i) pharma-marketing trade press, (ii) healthtech/AI press, (iii) the privacy-first-AI angle for data-governance and AI-ethics coverage, (iv) CEO thought-leadership on pharma launch execution. Combined 73 — B-tier, pursue if healthcare-adjacent accounts are in scope.",
+      "lastActivity": "$26M Series A announced May 13, 2026 (McKesson Ventures lead; FCA Venture Partners, Sanofi Ventures, AIX Ventures participating — Tech Startups)"
+    },
+    {
+      "name": "Judgment Labs",
+      "website": "https://www.judgmentlabs.ai",
+      "pipeline": "pr-marketing",
+      "industry": "AI infrastructure — platform that turns production data from AI applications into actionable fixes, creating a continuous feedback loop to improve AI agents over time. B2B developer/AI infrastructure.",
+      "location": "San Francisco, California",
+      "fundingStage": "$32M combined Seed and Series A announced May 12, 2026. Lightspeed Venture Partners led both rounds; participation from Nova Global, SV Angel, Valor Equity Partners, Dynamic. Total funding $32M.",
+      "fitScore": 36,
+      "intentScore": 34,
+      "fitDetails": { "industry": 9, "stage": 7, "buyer": 8, "proof": 6, "budget": 6 },
+      "intentDetails": { "trigger": 13, "timeline": 7, "dm_engaged": 5, "urgency": 6, "responsive": 3 },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "Alex Shan", "title": "Co-founder & CEO", "email": "", "linkedin": "" },
+        { "name": "Joseph Camyre", "title": "Co-founder & CTO", "email": "", "linkedin": "" },
+        { "name": "Andrew Li", "title": "Co-founder & Chief Scientist", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "fundraise_combined_seed_series_a_32m_5_12_2026",
+        "lightspeed_led_both_rounds_doubled_down_after_6_months",
+        "valor_equity_sv_angel_participating",
+        "ai_agent_optimization_infrastructure_category",
+        "already_in_production_at_early_stage_agent_native_companies",
+        "hiring_ai_researchers_and_engineers",
+        "crowded_ai_infrastructure_market"
+      ],
+      "source": "Daily Scrape 2026-05-14 (Tech Startups — Judgment Labs $32M coverage)",
+      "sourceUrl": "https://www.judgmentlabs.ai/blogs/announcing-32m-led-by-lightspeed",
+      "notes": "B-tier (combined 70). Judgment Labs is an early-stage AI-infrastructure play with a strong investor signal — Lightspeed led BOTH the seed and Series A and doubled down just six months after its first check, which is a meaningful conviction marker. Founders (Alex Shan, Joseph Camyre, Andrew Li) are all publicly named and press-accessible. The score is held in B-tier because: (a) the product is deep-infrastructure AI tooling, a harder earned-media story than a clean enterprise-app narrative, (b) the AI-agent-optimization space is crowded and noisy, making differentiation work harder, (c) at $32M total the budget tier is real but modest. Still a legitimate retained-PR target: the stage is right (no in-house comms), the cap table is credible, and 'making AI agents reliable' is a narrative with genuine press appetite. Pitch threading: (i) AI infrastructure / developer press (The Information, VentureBeat AI, The New Stack, SiliconANGLE), (ii) the 'AI agent reliability' category narrative, (iii) founder thought-leadership (Chief Scientist Andrew Li is a natural technical-credibility voice). DUAL-PIPELINE NOTE: also a plausible ai-consulting prospect if Mark wants to pitch advisory services rather than PR — but primary route is pr-marketing. Combined 70 — B-tier, pursue.",
+      "lastActivity": "$32M combined Seed and Series A announced May 12, 2026 (Lightspeed led both rounds; Nova Global, SV Angel, Valor Equity, Dynamic participating)"
+    },
+    {
+      "name": "Major, Lindsey & Africa — Chief Corporate & Sustainability Counsel (Contract, Remote)",
+      "website": "https://www.indeed.com/q-investment-fund-counsel-l-remote-jobs.html",
+      "pipeline": "legal-freelance",
+      "industry": "Contract in-house counsel placement (via Major, Lindsey & Africa) — primary legal counsel for corporate governance and compliance, including governance of an organization with 80+ global subsidiaries. End buyer is a multi-entity operating company.",
+      "location": "Remote (listed Troy, MI)",
+      "fundingStage": "N/A — contract legal placement. Posted via Major, Lindsey & Africa (legal staffing/search firm). $133/hour, Contract.",
+      "fitScore": 30,
+      "intentScore": 40,
+      "fitDetails": { "fund_private_funds": 0, "corporate_commercial_ma_governance": 10, "seniority_match": 10, "comp_stated_credible": 10 },
+      "intentDetails": { "engagement_model": 15, "remote_flex": 13, "posted_within_72h": 5, "easy_apply_contact_path": 7 },
+      "vertical": "legal",
+      "subvertical": "corporate",
+      "engagementModel": "contract",
+      "buyerType": "operating-company",
+      "compensationText": "$133/hour, Contract",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contract",
+      "urgencyScore": 55,
+      "contacts": [
+        { "name": "Major, Lindsey & Africa — Interim Legal Talent recruiter (verify from posting)", "title": "Legal Recruiter / Placement Contact", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "contract_engagement_model_explicit",
+        "remote_role",
+        "corporate_governance_practice_area_match",
+        "chief_counsel_seniority_match",
+        "comp_stated_133_per_hour_market_credible",
+        "governance_of_80_plus_global_subsidiaries_complexity_signal",
+        "placed_via_major_lindsey_africa_known_staffing_channel"
+      ],
+      "source": "Daily Scrape 2026-05-14 (Indeed — investment fund counsel remote jobs feed, MLA-placed posting)",
+      "sourceUrl": "https://www.indeed.com/q-investment-fund-counsel-l-remote-jobs.html",
+      "notes": "B-tier (combined 70). A clean contract-counsel posting placed through Major, Lindsey & Africa: Chief Corporate & Sustainability Counsel, $133/hour, Contract, remote, serving as primary legal counsel for governance and compliance across an organization with 80+ global subsidiaries. Bucket-test (4-bucket taxonomy): Bucket A (contract) + Bucket B (interim/external via staffing) + Bucket C (counsel/specialist) — hits 3 of 4 buckets, qualifies cleanly. Fit 30/50: no fund/private-funds component (0), but a strong corporate-governance practice-area match (10), Chief Counsel seniority match (10), and a stated, market-credible comp (10). Intent 40/50 is the strength of this lead — it is an explicit contract engagement (15), remote (13), with a direct placement path through MLA (7). Suppression check: no red flags — not litigation, not trusts & estates, not court-appearance work; corporate governance/compliance is in-scope. NOTE: MLA already exists in the CRM as a tracked staffing/talent entity, but per the routing rules an individual contract posting is its own lead — this is the specific placement, not the firm. The 80+-global-subsidiary governance scope signals a substantial, ongoing workload that could convert to a longer fractional GC arrangement. Pitch angle: Mark applies/expresses interest through the MLA Interim Legal Talent channel, positioning as fractional corporate governance counsel. Combined 70 — B-tier, pursue via MLA placement channel.",
+      "lastActivity": "Active contract posting on Indeed (Chief Corporate & Sustainability Counsel, $133/hr, Contract, remote) placed via Major, Lindsey & Africa Interim Legal Talent"
+    },
+    {
+      "name": "Atlas Health Capital",
+      "website": "https://www.withintelligence.com/insights/private-equity-emerging-managers-to-watch-in-2026/",
+      "pipeline": "fund-formation",
+      "industry": "Emerging-manager private equity firm focused on the mid-market healthcare space — investing in medical technology, niche pharma, and animal health sub-sectors. Founded by Ben Long.",
+      "location": "United States",
+      "fundingStage": "Emerging manager / early-fund launch (cited among notable recent emerging-manager launches in 2026). Specific fund size and close timeline not yet disclosed in available coverage.",
+      "fitScore": 37,
+      "intentScore": 28,
+      "fitDetails": { "manager_type": 13, "strategy": 8, "operational_readiness": 5, "jurisdiction_complexity": 3, "ability_to_pay": 8 },
+      "intentDetails": { "imminent_raise": 10, "launch_window_defined": 6, "providers_selected": 5, "founder_urgency": 5, "referral_source": 2 },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "Ben Long", "title": "Founder", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "emerging_manager_healthcare_pe",
+        "mid_market_medtech_niche_pharma_animal_health_strategy",
+        "founder_ben_long",
+        "cited_among_notable_2026_emerging_manager_launches",
+        "fund_size_and_timeline_not_yet_disclosed_needs_verification"
+      ],
+      "source": "Daily Scrape 2026-05-14 (With Intelligence — Private Equity Emerging Managers to Watch in 2026)",
+      "sourceUrl": "https://www.withintelligence.com/insights/private-equity-emerging-managers-to-watch-in-2026/",
+      "notes": "B-tier (combined 65). Atlas Health Capital is a legitimate emerging-manager fund-formation prospect — a new mid-market healthcare PE firm (medtech, niche pharma, animal health) founded by Ben Long, cited among notable 2026 emerging-manager launches. It scores below A3/C Partners because the available coverage is thin: no disclosed fund size, no stated close timeline, and limited operational-readiness detail — the intent sub-scores are conservative as a result and should be revised once more is known. The fit is real, though: emerging healthcare-PE manager is exactly the buyer profile that needs fund-formation counsel without a deep in-house bench. NEXT STEP for verification: confirm fund stage (is Fund I actually in-market or still pre-launch?), target size, and whether formation counsel is already engaged — this determines whether the realistic engagement is core formation work or downstream maintenance. Pitch angle: position early as outside fund-formation counsel for a first-time healthcare-PE manager; the earlier in the launch, the larger the formation scope. Combined 65 — B-tier, pursue after verification.",
+      "lastActivity": "Cited among notable 2026 emerging-manager launches — mid-market healthcare PE firm founded by Ben Long (With Intelligence emerging-managers coverage)"
+    },
+    {
+      "name": "DesignVerse",
+      "website": "https://www.designverse.ai",
+      "pipeline": "ai-consulting",
+      "industry": "AI software that uses an organization's own documentation and internal rules to generate and deliver complex enterprise software — built for environments where reliability, auditability, and architectural consistency matter (regulated industries). B2B AI / enterprise software.",
+      "location": "Europe (strategic angels from Adobe, LSEG, UiPath)",
+      "fundingStage": "$5.5M Seed announced (funding date May 12, 2026). Investors: Begin Capital, Gapminder VC, Underline Ventures, plus strategic angels from Adobe, LSEG, and UiPath. Total funding $6.35M.",
+      "fitScore": 31,
+      "intentScore": 34,
+      "fitDetails": { "industry_ai_budget": 7, "data_maturity": 6, "use_case_domain": 8, "buyer_access": 5, "ability_to_pay": 5 },
+      "intentDetails": { "strong_signal": 14, "timeline": 7, "pain_language": 7, "internal_sponsor": 3, "responsive": 3 },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "DesignVerse CEO (verify exact name from 5/12-5/13 funding coverage)", "title": "Co-founder / CEO", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "fundraise_seed_5_5m_5_12_2026",
+        "strategic_angels_from_adobe_lseg_uipath",
+        "eurocontrol_aviation_systems_modernization_proof_point",
+        "15_year_old_app_modernized_in_one_month_vs_six_proof_metric",
+        "regulated_industries_focus_lseg_angel_signals_fs_adjacency",
+        "small_seed_modest_budget_tier"
+      ],
+      "source": "Daily Scrape 2026-05-14 (Tech Startups — Top Startup and Tech Funding News, May 13, 2026)",
+      "sourceUrl": "https://techstartups.com/2026/05/13/top-startup-and-tech-funding-news-may-13-2025/",
+      "notes": "B-tier (combined 65). DesignVerse is a small-seed ai-consulting prospect with a genuinely strong proof point — it modernized a 15-year-old mission-critical aviation application used by EUROCONTROL in just over a month versus a conventional ~6 months. The regulated-industries focus and an LSEG angel investor give it some FS-adjacency. Scored in B-tier because: (a) at $5.5M seed / $6.35M total, the budget tier is modest, (b) it is early — buyer access (CIO/CTO) and internal-sponsor signals are unproven, (c) the company itself sells AI software, so the ai-consulting angle is about Mark advising THEM or co-selling, not a classic consulting buyer. The realistic value here is a relationship-building / advisory-positioning play rather than a near-term engagement. NEXT STEP: verify CEO name and whether the company is open to advisory partnerships. Combined 65 — B-tier, pursue as a relationship/advisory-development lead, low urgency.",
+      "lastActivity": "$5.5M Seed announced (funding date May 12, 2026) — Begin Capital, Gapminder VC, Underline Ventures, plus strategic angels from Adobe, LSEG, UiPath (Tech Startups funding roundup)"
+    }
+  ],
+  "signalRefresh": [
+    {
+      "name": "Greenboard",
+      "previousScrape": "2026-05-13",
+      "previousCombined": 92,
+      "currentCombined": 92,
+      "scoreDelta": 0,
+      "newSignals": [
+        "greenboardgo_conversational_ai_compliance_product_launch_confirmed_and_live",
+        "500_plus_financial_institutions_and_99_percent_retention_reconfirmed_across_fortune_businesswire_fintech_global",
+        "press_cycle_continued_secondary_pickup_5_13_5_14",
+        "still_no_named_head_of_comms_in_any_coverage"
+      ],
+      "windowStatus": "OPEN — press cycle day 2-3; GreenboardGo product launch extends the cycle. Optimal outreach window 5/14-5/22.",
+      "recommendedAction": "Outreach TODAY — Greenboard remains the single hottest lead in the funnel. The GreenboardGo launch confirmation gives a layered press story (funding + product) and a clean retained-PR thread. Email CEO Dave Feldman direct; lead with the SEC/FINRA compliance-trade-press angle (Compliance Week, RIABiz, WealthManagement.com) Mark already has relationships in."
+    },
+    {
+      "name": "Adfin",
+      "previousScrape": "2026-05-13",
+      "previousCombined": 85,
+      "currentCombined": 86,
+      "scoreDelta": 1,
+      "newSignals": [
+        "confirmed_hiring_ramp_across_engineering_and_sales",
+        "international_expansion_explicitly_stated_use_of_funds",
+        "scaling_europe_award_reconfirmed_3rd_fastest_growing_tech_in_europe_fastest_growing_uk_company",
+        "bird_and_bird_advised_on_the_raise_legal_counsel_already_engaged",
+        "still_no_named_head_of_comms_in_coverage"
+      ],
+      "windowStatus": "OPEN — press cycle day 2-3, still well inside the outreach window.",
+      "recommendedAction": "Outreach in next 48h. Small positive delta (+1 intent): the confirmed engineering+sales hiring ramp and explicit international-expansion plan strengthen the 'scaling, needs a comms narrative' case. Lead with the UK fintech expansion angle and the 'agentic finance category creator' story. Note: Bird & Bird advised on the raise — relevant only as a sign the company is now building out its professional-services bench, which is the moment to get in."
+    },
+    {
+      "name": "Vapi",
+      "previousScrape": "2026-05-13",
+      "previousCombined": 78,
+      "currentCombined": 76,
+      "scoreDelta": -2,
+      "newSignals": [
+        "press_cycle_day_2_3_natural_aging",
+        "no_new_proof_points_since_5_12_announcement",
+        "competitive_pr_bid_environment_risk_unchanged"
+      ],
+      "windowStatus": "NARROWING — day 2-3 of press cycle; for a $500M-valuation company the PR-selection window moves fast.",
+      "recommendedAction": "Outreach in next 24-48h if pursuing at all. Score decay (-2) is natural news-cycle aging. As flagged on 5/13, expect a competitive bid environment or an incumbent — confirm whether Vapi already has PR representation before investing pitch effort. If pursued, lead with the named-customer case-study series (Amazon Ring, NY Life, Intuit)."
+    },
+    {
+      "name": "Embat",
+      "previousScrape": "2026-05-13",
+      "previousCombined": 92,
+      "currentCombined": 89,
+      "scoreDelta": -3,
+      "newSignals": [
+        "press_cycle_day_3_4_secondary_trade_pickup_decelerating",
+        "no_new_head_of_comms_announcement_window_still_open",
+        "uk_ireland_expansion_angle_still_unworked_by_competitors"
+      ],
+      "windowStatus": "NARROWING — day 3-4 of press cycle; optimal outreach window closing by 5/16-5/17.",
+      "recommendedAction": "Outreach in next 24-48h. Score decay (-3) reflects natural post-funding press-window narrowing, not a fit problem. Email Embat founders direct; lead with the UK/Ireland expansion angle (English-market PR fluency that Spanish PR shops cannot deliver) before the news peg fully ages out."
+    },
+    {
+      "name": "Nova Intelligence",
+      "previousScrape": "2026-05-13",
+      "previousCombined": 87,
+      "currentCombined": 84,
+      "scoreDelta": -3,
+      "newSignals": [
+        "press_cycle_day_9_10_news_peg_largely_aged_out",
+        "festo_kyndryl_case_study_threads_still_evergreen_but_no_immediate_news_hook",
+        "founder_emma_qian_remains_active_on_linkedin_thought_leadership"
+      ],
+      "windowStatus": "CLOSING — day 9-10 of press cycle; the immediate funding news peg has largely aged out.",
+      "recommendedAction": "Deprioritize fresh cold outreach against the funding peg. If pursuing, pivot the pitch entirely to the evergreen Festo + Kyndryl case-study threads and founder thought-leadership (Emma Qian is active on LinkedIn) rather than the funding announcement. Move Nova Intelligence to a slower-cadence nurture track."
+    }
+  ]
+}
