@@ -1,0 +1,211 @@
+{
+  "scrapeDate": "2026-05-15",
+  "scrapeTime": "15:10 UTC",
+  "totalLeads": 4,
+  "note": "Friday 5/15 daily scrape covering the 5/14-5/15 window. 4 new leads scoring 60+, all pr-marketing — this cycle's net-new business events were concentrated almost entirely in the 5/14 funding board. TOP NEW LEADS are EQUIPIFI ($34M Series B, bank-led BNPL infrastructure, Left Lane Capital) and NECTAR SOCIAL ($30M Series A, agentic AI marketing, ex-Meta founders, emerged from stealth) — both combined 77, B. ICEOTOPE ($26M Series B, precision liquid cooling for AI data centers, UK) and STITCH ($25M Series A, cloud-native OS for financial institutions, Saudi Arabia) round out pr-marketing as B leads with geographic caveats (both non-US-headquartered). FREELANCE PIPELINES: legal-freelance and pr-freelance produced no net-new company-specific postings in the daily window — job-board searches (Indeed/CareerBuilder/ZipRecruiter/Google-indexed LinkedIn) returned almost entirely aggregator platform pages (Upwork, Toptal, ZipRecruiter listing hubs), staffing-firm marketing pages, and general market commentary, not discrete company postings. Note that the dedicated legal-freelance scrape already ran today (2026-05-15, 3 leads: Ontra, Hayden Industrial, Interlink Cloud Advisors) and harvested that pipeline — the daily scrape adds nothing on top. SKIPPED: CREATE Medicines ($122M Series B 5/14) — genetic-medicines biotech, outside the FS/Tech pr-marketing ICP; Altara ($7M seed) — out of window (announced 5/5); Axiom Investment Funds Lawyer remote posting — staffing-firm placement of a ~$147k-start near-permanent role, and Axiom is already a tracked staffing entity; Ivy-to-Augustus fintech rebrand (post-OCC bank charter) — genuine PR trigger but rebrand timing not confirmed inside the 24-48h window, flagged for manual verification; Enjoin technology-first rebrand — healthcare revenue-integrity company, partial industry fit and rebrand already executed/rolling, thin sourcing. SIGNAL REFRESH: Greenboard's GreenboardGo launch is confirmed live with named customer proof points (Root Financial ~24 hrs/week reclaimed; JMG 60% onboarding-time cut) — press cycle still OPEN, outreach window favorable; Outmarket AI appointed Alpesh Patel (ex-Salesforce, ex-DocuSign) as CRO — a GTM-build / decision-maker signal, +3 intent (78->81, now A-tier); Exaforce confirmed growth to 130+ employees with Japan/Europe GTM expansion; Elliptic confirmed $120M Series D product-expansion plans; Exaforce and Elliptic both retain meaningful PR-incumbency risk. AUTONOMOUS-RUN NOTES: (1) all 4 new leads routed to pr-marketing as business-event (funding) leads, not job postings, per routing rules; (2) Stitch scored to a numeric B (60) but is effectively a C-priority given its MENA/GCC market focus vs. a US-based agency — flagged in its notes; (3) no leads suppressed for low score — the 4 included are all 60+; CREATE Medicines and Altara excluded for ICP/window reasons noted above; (4) contact names left as verify-placeholders where founder/exec names were not confirmable from coverage.",
+  "leads": [
+    {
+      "name": "equipifi",
+      "website": "https://www.equipifi.com",
+      "pipeline": "pr-marketing",
+      "industry": "Fintech — native Buy Now, Pay Later (BNPL) and flexible-payment infrastructure for banks and credit unions",
+      "location": "Scottsdale, Arizona, USA",
+      "fundingStage": "Series B — $34M raised 2026-05-14, led by Left Lane Capital, continued participation from Curql and PHX Ventures",
+      "fitScore": 45,
+      "intentScore": 32,
+      "fitDetails": {
+        "industry_match": 10,
+        "stage_size": 8,
+        "b2b_buyer_motion": 10,
+        "proof_assets": 8,
+        "budget": 9
+      },
+      "intentDetails": {
+        "trigger": 13,
+        "timeline": 6,
+        "decision_maker": 5,
+        "urgency_pain": 6,
+        "responsiveness": 2
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        {
+          "name": "equipifi CEO (verify exact name from 5/14 Series B coverage — PYMNTS / FinSMEs)",
+          "title": "CEO / Co-Founder",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "series_b_34m_closed_2026_05_14",
+        "left_lane_capital_lead_investor",
+        "plans_to_double_headcount_product_and_engineering",
+        "expanding_financial_institution_partnerships",
+        "b2b_bnpl_infrastructure_clear_sales_motion",
+        "fintech_fs_industry_ideal_icp_fit"
+      ],
+      "source": "Daily Scrape 2026-05-15 (PYMNTS / FinSMEs — equipifi Series B coverage)",
+      "sourceUrl": "https://www.pymnts.com/news/investment-tracker/2026/equipifi-secures-34-million-to-scale-bank-led-bnpl-network/",
+      "notes": "Top new lead this cycle (combined 77, B). equipifi sells native BNPL/flexible-payment infrastructure to banks and credit unions — a clean FS/Tech B2B fit with an obvious enterprise sales motion. The $34M Series B (Left Lane Capital lead) is a strong, fresh trigger: the company has stated it will use the round to expand FI partnerships, deepen core product, and double headcount with a product/engineering focus — a classic growth-and-hiring inflection where PR demand (category leadership, partner announcements, executive positioning) tends to spike. CAVEAT: equipifi is a ~5-year-old Series B company in a competitive BNPL space and very likely already has PR support or an agency relationship — the realistic wedge is a specific workstream (e.g. partner-launch comms cadence, thought leadership for the bank-led-BNPL category, or exec positioning) rather than a full greenfield retainer. Verify CEO/CMO contact from the funding coverage before outreach. Outreach angle: congratulate on the Series B, lead with bank-led-BNPL category narrative and partner-announcement cadence."
+    },
+    {
+      "name": "Nectar Social",
+      "website": "https://www.nectarsocial.com",
+      "pipeline": "pr-marketing",
+      "industry": "AI / marketing technology — agentic operating system for modern marketing (social intelligence, community engagement, influencer tooling, customer experience, social analytics)",
+      "location": "San Francisco, California, USA",
+      "fundingStage": "Series A — $30M raised 2026-05-14, led by Menlo Ventures and Menlo's Anthology Fund; participation from True Ventures, GV, and Kinship Ventures",
+      "fitScore": 43,
+      "intentScore": 34,
+      "fitDetails": {
+        "industry_match": 9,
+        "stage_size": 8,
+        "b2b_buyer_motion": 9,
+        "proof_assets": 9,
+        "budget": 8
+      },
+      "intentDetails": {
+        "trigger": 14,
+        "timeline": 7,
+        "decision_maker": 5,
+        "urgency_pain": 6,
+        "responsiveness": 2
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        {
+          "name": "Nectar Social Co-Founders (two former Meta leaders — verify exact names from 5/14 stealth-emergence coverage)",
+          "title": "Co-Founder / CEO",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "series_a_30m_closed_2026_05_14",
+        "menlo_ventures_lead_investor",
+        "emerged_from_stealth_with_round",
+        "launched_autonomous_nectar_agent",
+        "ex_meta_founding_team",
+        "10m_autonomous_conversations_per_week_100m_attributed_revenue",
+        "named_brand_customers_including_elf"
+      ],
+      "source": "Daily Scrape 2026-05-15 (TechCrunch / PitchBook — Nectar Social Series A coverage)",
+      "sourceUrl": "https://techcrunch.com/2026/05/14/",
+      "notes": "Combined 77, B. Nectar Social emerged from stealth on 2026-05-14 with a $30M Series A (Menlo Ventures lead), an ex-Meta founding team, and a product launch (the autonomous Nectar Agent) — a triple trigger (stealth emergence + funding + launch) that is about as strong as the pr-marketing intent rubric rewards. Proof assets are unusually concrete for a Series A: 10M+ autonomous conversations/week, $100M in attributed revenue, named brand customers including e.l.f. CAVEAT — and it is a real one: Nectar Social is itself a marketing-technology company founded by former Meta marketing leaders, so the probability that it already has sophisticated in-house comms or an existing agency is high. This is a B, not an A, specifically because of that incumbency risk. Realistic wedge: earned-media / category-narrative support around 'agentic marketing,' or executive thought leadership for the founders — not a full comms build. Verify founder names before outreach."
+    },
+    {
+      "name": "Iceotope",
+      "website": "https://www.iceotope.com",
+      "pipeline": "pr-marketing",
+      "industry": "Data-center infrastructure — precision liquid cooling systems for high-density AI/GPU compute and edge infrastructure",
+      "location": "Sheffield, England, United Kingdom",
+      "fundingStage": "Series B — $26M raised 2026-05-14, led by Two Seas Capital and Barclays Climate Ventures; participation from Edinv, ABC Impact, Northern Gritstone, and British Business Bank / British Patient Capital",
+      "fitScore": 35,
+      "intentScore": 30,
+      "fitDetails": {
+        "industry_match": 6,
+        "stage_size": 7,
+        "b2b_buyer_motion": 8,
+        "proof_assets": 7,
+        "budget": 7
+      },
+      "intentDetails": {
+        "trigger": 12,
+        "timeline": 6,
+        "decision_maker": 4,
+        "urgency_pain": 6,
+        "responsiveness": 2
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        {
+          "name": "Iceotope Leadership (verify CEO / Head of Marketing from 5/14 Series B coverage — Tech.eu / FinSMEs)",
+          "title": "CEO",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "series_b_26m_closed_2026_05_14",
+        "two_seas_capital_and_barclays_climate_ventures_co_leads",
+        "ai_data_center_cooling_category_tailwind",
+        "performance_claims_40pct_power_96pct_water_reduction",
+        "uk_headquartered_geo_caveat"
+      ],
+      "source": "Daily Scrape 2026-05-15 (Tech.eu / FinSMEs — Iceotope Series B coverage)",
+      "sourceUrl": "https://tech.eu/2026/05/14/iceotope-raises-26m-to-advance-cooling-for-next-generation-ai-infrastructure/",
+      "notes": "Combined 65, B. Iceotope raised a $26M Series B (Two Seas Capital + Barclays Climate Ventures) to scale precision liquid cooling for next-generation AI data-center infrastructure — a category with a strong current news tailwind (AI compute thermal bottleneck). The funding is a clean trigger and the company has quotable performance claims (up to 40% lower data-center power use, 96% less water). Scored lower than equipifi/Nectar on FIT because Iceotope is a hardware/infrastructure vendor rather than a classic FS/Tech B2B SaaS company — the industry match to Mark's ICP is partial — and it is UK-headquartered, which is a geographic caveat for a US-based agency. Still a legitimate B: the AI-infrastructure narrative is hot and a cooling company with credible numbers is well-positioned for earned media. Wedge: earned-media / analyst-relations support riding the AI-data-center-power story. Confirm Mark's appetite for UK-based clients."
+    },
+    {
+      "name": "Stitch",
+      "website": "https://www.stitch.money",
+      "pipeline": "pr-marketing",
+      "industry": "Fintech — cloud-native operating system for financial institutions spanning lending, cards, payments, and ledgers",
+      "location": "Saudi Arabia (serving GCC / MENA region)",
+      "fundingStage": "Series A — $25M raised 2026-05-14; plans to accelerate product development and expand across the GCC and MENA region",
+      "fitScore": 35,
+      "intentScore": 25,
+      "fitDetails": {
+        "industry_match": 7,
+        "stage_size": 7,
+        "b2b_buyer_motion": 8,
+        "proof_assets": 6,
+        "budget": 7
+      },
+      "intentDetails": {
+        "trigger": 11,
+        "timeline": 5,
+        "decision_maker": 4,
+        "urgency_pain": 4,
+        "responsiveness": 1
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        {
+          "name": "Stitch Leadership (verify CEO / founders from 5/14 PYMNTS Series A coverage)",
+          "title": "CEO / Founder",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "series_a_25m_closed_2026_05_14",
+        "cloud_native_core_banking_os_for_financial_institutions",
+        "b2b_enterprise_sales_motion_to_banks",
+        "stated_gcc_mena_expansion_plans",
+        "saudi_arabia_headquartered_geo_caveat"
+      ],
+      "source": "Daily Scrape 2026-05-15 (PYMNTS — Stitch Series A coverage)",
+      "sourceUrl": "https://www.pymnts.com/news/fintech-investments/2026/saudi-fintech-stitch-raises-25-million-to-replace-fragmented-bank-cores/",
+      "notes": "Combined 60, B numerically but EFFECTIVELY A C-PRIORITY. Stitch is a Saudi Arabia-based fintech building a cloud-native core-banking OS for financial institutions — a real FS/Tech B2B fit with a clear enterprise sales motion, and the $25M Series A is a genuine trigger. It is included because it clears the 40+ threshold and the industry fit is real. However, Stitch is headquartered in Saudi Arabia and explicitly focused on GCC/MENA expansion; the likelihood that a US-based boutique agency is the right PR partner for a regionally-focused MENA fintech is low. Intent sub-scores were kept conservative for that reason. Recommend Katie treat this as a watch-list / awareness item rather than an active outreach target unless Mark has a specific GCC angle or referral path."
+    }
+  ]
+}
