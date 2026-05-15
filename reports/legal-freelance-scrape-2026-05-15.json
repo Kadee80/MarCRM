@@ -1,0 +1,158 @@
+{
+  "scrapeDate": "2026-05-15",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 3,
+  "note": "Legal Freelance pipeline scrape, 7-day window. 3 new leads scoring 55+ after dedup against daily, pr-freelance, and legal-freelance reports back to 2026-05-06. Strong fund-formation freelance fit at the top (Ontra, Grade A); two fractional-GC operating-company roles round it out. Quality over quantity: Socket Fractional GC was found but excluded as stale (posting removed Feb 2025) and off-ICP (crypto/token regulatory). Axiom Law PE contract counsel and a Robert Half fractional GC were found but suppressed as effective duplicates of leads already in the DB (Axiom Advice & Counsel captured 2026-05-07; Robert Half captured 2026-05-12). Workspace note: the task file referenced an /eloquent-beautiful-newton/ mount path; the actual MarCRM mount this session was used instead.",
+  "leads": [
+    {
+      "name": "Ontra — US-Licensed Freelance Fund Formation Lawyer (Remote)",
+      "website": "https://www.ontra.ai",
+      "pipeline": "legal-freelance",
+      "industry": "Legal Tech / ALSP — legal operating system for private markets",
+      "location": "Remote (any US location; active US state bar required)",
+      "fundingStage": "Venture-backed legal tech company (serves 600+ investment firms)",
+      "fitScore": 40,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "fund formation — LPAs, side letters, term sheets, credit/operating/MSA agreements; squarely in-ICP",
+        "seniority": "counsel-level; top-tier firm fund-formation/investment-management group or in-house at an adviser/private fund preferred",
+        "comp_credible": "no published number on the posting (network engagement, billed independently) — comp_credible scored 0",
+        "fund_focus": "core fund formation documentation is the entire role — highest possible fund_focus"
+      },
+      "intentDetails": {
+        "engagement_model": "explicit freelance / independent-contractor network; Ontra handles invoicing, billing, collections, BD",
+        "remote_flex": "100% remote, fully flexible; typical reported volume ~15-25 hrs/week",
+        "recency": "evergreen network application, not posted within 72 hours — recency scored 0",
+        "apply_path": "direct application to Ontra's lawyer network (Built In / Wellfound listings) — easy apply path"
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "freelance",
+      "buyerType": "ALSP",
+      "compensationText": "Not published on posting. Ontra-network lawyers bill independently; Ontra handles invoicing/billing/collections. Typical reported volume ~15-25 hrs/week.",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Freelance — independently practicing lawyer in Ontra's contract-lawyer network",
+      "urgencyScore": 55,
+      "contacts": [
+        {
+          "name": "Ontra Legal Network Team",
+          "title": "Lawyer Network Recruiting (US-Licensed Freelance Fund Formation Lawyer)",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/ontra-ai/"
+        }
+      ],
+      "signals": [
+        "fund_formation_core_documentation",
+        "explicit_freelance_network",
+        "100_percent_remote",
+        "15_25_hrs_per_week_typical",
+        "ontra_handles_billing_and_bd",
+        "active_state_bar_required",
+        "top_tier_firm_or_in_house_adviser_preferred"
+      ],
+      "source": "Legal Freelance Scrape 2026-05-15",
+      "sourceUrl": "https://www.builtinsf.com/job/legal/us-licensed-freelance-fund-formation-lawyer-remote/103064",
+      "notes": "Combined 80 / Grade A — the strongest fit in this scrape and the cleanest match for Katie's positioning. Pure fund-formation freelance work (LPAs, side letters, term sheets, operating/credit/MSA agreements) on an independent-contractor basis, fully remote, ~15-25 hrs/week. Ontra absorbs invoicing, billing, collections, and BD so the engagement is pure practice. Pitch angle: lead with fund-formation document throughput and judgment from corporate/fund counsel work — emphasize comfort with high-volume routine fund paper plus the ability to flag the non-routine. This is a network/talent-pool application rather than a single dated req, so recency scored 0 and urgency is moderate (55) — but it is a durable, repeatable income stream rather than a one-off. Also note Ontra runs a separate UK/EU-qualified track and a part-time US variant; apply to the US-licensed freelance track."
+    },
+    {
+      "name": "Hayden Industrial LLC — Fractional General Counsel (Remote)",
+      "website": "",
+      "pipeline": "legal-freelance",
+      "industry": "Industrial Manufacturing — engineered equipment supply / industrial project delivery",
+      "location": "Remote",
+      "fundingStage": "Mid-sized private operating company",
+      "fitScore": 20,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "commercial contracts — reviewing, redlining, negotiating agreements for engineered equipment supply and industrial project delivery; plus insurance, employment, real estate, outside-counsel coordination",
+        "seniority": "fractional GC — primary legal advisor to a mid-sized operating company; counsel/GC-level",
+        "comp_credible": "structure stated (monthly retainer or fractional hourly) but no dollar figure published — comp_credible scored 0",
+        "fund_focus": "none — operating-company commercial work, off-ICP on industry"
+      },
+      "intentDetails": {
+        "engagement_model": "explicit fractional GC; ~1-2 days per week",
+        "remote_flex": "fully remote",
+        "recency": "active ACC Jobline posting but not confirmed within 72 hours — recency scored 0",
+        "apply_path": "ACC Jobline direct posting — easy apply path"
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "Monthly retainer or fractional hourly basis, depending on scope of engagement. ~1-2 days per week expected. No dollar figure published.",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional General Counsel (Remote) — ACC Jobline listing #54004",
+      "urgencyScore": 58,
+      "contacts": [
+        {
+          "name": "Hayden Industrial LLC — Legal Hiring",
+          "title": "Hiring Manager / Owner (Fractional GC engagement)",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "explicit_fractional_gc",
+        "1_2_days_per_week",
+        "monthly_retainer_or_fractional_hourly",
+        "direct_operating_company_buyer_no_intermediary",
+        "commercial_contracts_redline_negotiate",
+        "mid_sized_manufacturing_company",
+        "acc_jobline_direct_posting"
+      ],
+      "source": "Legal Freelance Scrape 2026-05-15",
+      "sourceUrl": "https://jobline.acc.com/job/fractional-general-counsel-remote--54004",
+      "notes": "Combined 60 / Grade B. Engagement shape is exactly what Katie is optimizing for: explicit fractional GC, ~1-2 days/week, monthly retainer or fractional hourly, fully remote, and a direct operating-company buyer with no staffing intermediary. Off-ICP on industry (industrial equipment / EPC-style manufacturing) and no fund work, which caps fit at 20. Scope is commercial-contract-heavy (review/redline/negotiate equipment supply and project agreements) plus generalist coverage — insurance, employment, real estate, outside-counsel coordination. Pitch angle: position as a high-judgment fractional GC who brings playbook discipline and contract throughput, can stand up scalable legal infrastructure for a company that has outgrown ad-hoc outside counsel but cannot justify a full-time hire. Confirm W2 vs. 1099 and exact weekly hours with the hiring manager. ACC Jobline #54004."
+    },
+    {
+      "name": "Interlink Cloud Advisors — Fractional General Counsel (Remote)",
+      "website": "https://www.interlink.com",
+      "pipeline": "legal-freelance",
+      "industry": "IT / Microsoft Cloud Consulting",
+      "location": "Remote (telecommute)",
+      "fundingStage": "Established private operating company",
+      "fitScore": 20,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "contract management and commercial agreements — MSAs, PSAs, NDAs, vendor and subcontractor agreements; plus legal strategy, risk management, regulatory/compliance incl. SOC 2",
+        "seniority": "fractional GC reporting to the CEO; primary legal advisor — GC-level mandate (posting states 3+ years experience, which is light for a true GC but the function is GC-level)",
+        "comp_credible": "no compensation published — comp_credible scored 0",
+        "fund_focus": "none — IT consulting operating company, off-ICP on industry"
+      },
+      "intentDetails": {
+        "engagement_model": "explicit fractional GC",
+        "remote_flex": "fully remote / telecommute",
+        "recency": "active across multiple job boards but not confirmed within 72 hours — recency scored 0",
+        "apply_path": "direct application via company Paylocity recruiting portal — easy apply path"
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "Not published.",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional General Counsel — remote/telecommute (company Paylocity recruiting portal)",
+      "urgencyScore": 55,
+      "contacts": [
+        {
+          "name": "Interlink Cloud Advisors — CEO / Hiring",
+          "title": "CEO (Fractional GC reports directly to CEO)",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/interlink-cloud-advisors/"
+        }
+      ],
+      "signals": [
+        "explicit_fractional_gc",
+        "reports_to_ceo",
+        "build_scalable_legal_infrastructure",
+        "msa_psa_nda_vendor_subcontractor_contracts",
+        "soc2_regulatory_compliance",
+        "fully_remote_telecommute",
+        "direct_company_recruiting_portal"
+      ],
+      "source": "Legal Freelance Scrape 2026-05-15",
+      "sourceUrl": "https://recruiting.paylocity.com/recruiting/jobs/Details/3567187/Interlink-Cloud-Advisors-Inc/Fractional-General-Counsel",
+      "notes": "Combined 60 / Grade B. Explicit fractional GC, fully remote, reports straight to the CEO, mandate to 'build scalable legal infrastructure' — a classic company-outgrowing-ad-hoc-counsel buyer. Scope is contract-management-heavy (MSAs, PSAs, NDAs, vendor/subcontractor agreements) plus legal strategy, risk, and regulatory/compliance including SOC 2. Off-ICP on industry (Microsoft cloud consulting) and no fund work, capping fit at 20. The posting names '3+ years' which reads junior for a GC title — likely budget-constrained — so qualify the comp and scope expectations early. Pitch angle: a senior fractional GC who can install playbooks, NDA/MSA templates, and a contract workflow fast, then run light-touch ongoing coverage. Apply via the Paylocity portal; warm path is direct LinkedIn outreach to the CEO offering a scoped 'legal infrastructure stand-up' engagement."
+    }
+  ]
+}
