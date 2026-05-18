@@ -1,0 +1,427 @@
+{
+  "scrapeDate": "2026-05-18",
+  "totalLeads": 8,
+  "note": "Daily scrape for 2026-05-18 (Monday). 5 pr-marketing leads (funding/launch triggers from past 4 days), 1 fund-formation lead (new VC fund launch), 2 legal-freelance leads (remote fractional GC postings). All deduplicated against daily-scrape, pr-freelance-scrape, and legal-freelance-scrape reports back through 2026-05-12. Signal refresh on 4 prior hot leads (Greenboard, Adfin, Embat, Cardinal/Haven Tower). pr-marketing and pr-freelance routing applied per Mark's rule: business-event leads → pr-marketing; PR/comms job postings → pr-freelance.",
+  "leads": [
+    {
+      "name": "Fasset",
+      "website": "https://www.fasset.com",
+      "pipeline": "pr-marketing",
+      "industry": "Fintech — stablecoin-powered neobank for emerging markets (multi-currency accounts, debit cards, cross-border payments, stablecoin custody, investment services)",
+      "location": "Los Angeles, California, USA (operations across MENA, Asia, Africa)",
+      "fundingStage": "Series B — $51M closed 2026-05-14, co-led by SBI Group (Japan) and Investcorp (Bahrain) with participation from Arz Portföy and strategic family offices; largest Series B in payments sector globally for 2026, top-10 fintech round of 2026",
+      "fitScore": 46,
+      "intentScore": 34,
+      "fitDetails": {
+        "industry_match": 10,
+        "stage_size": 10,
+        "b2b_buyer_motion": 8,
+        "proof_assets": 10,
+        "budget": 8
+      },
+      "intentDetails": {
+        "trigger": 15,
+        "timeline": 6,
+        "decision_maker": 5,
+        "urgency_pain": 6,
+        "responsiveness": 2
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        {
+          "name": "Mohammad Raafi Hossain",
+          "title": "Co-Founder & CEO, Fasset",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "series_b_51m_closed_2026_05_14",
+        "largest_series_b_payments_globally_2026",
+        "sbi_group_and_investcorp_co_leads",
+        "32b_annualized_transaction_volume",
+        "2m_wallets_across_125_countries",
+        "plans_to_triple_retail_business_private_banking_headcount",
+        "expanding_to_asia_africa_americas",
+        "launching_lending_sme_banking_trade_finance"
+      ],
+      "source": "fintech.global / CoinDesk / FintechFutures — Fasset Series B coverage",
+      "sourceUrl": "https://fintech.global/2026/05/15/fasset-closes-51m-series-b-to-scale-stablecoin-banking/",
+      "notes": "Top new lead 5/18 (combined 80, A). $51M Series B closed 5/14 — largest payments-sector Series B globally for 2026 and a top-10 fintech round of the year. Strong fit: FS/Tech industry, growth-stage, B2B infrastructure layer alongside consumer-facing app, named institutional investors (SBI, Investcorp). Triple trigger: large round, planned headcount tripling, three-continent geographic expansion. CAVEAT: LA-headquartered but operations heavily MENA/Asia/Africa — US-based agency has clearest wedge on US/Americas expansion narrative, English-language financial press, and US investor relations. Confirmed leadership: CEO Mohammad Raafi Hossain. Wedge: 90-day comms sprint around Americas launch + earned media around stablecoin neobank category."
+    },
+    {
+      "name": "GridCARE",
+      "website": "https://www.gridcare.ai",
+      "pipeline": "pr-marketing",
+      "industry": "AI for energy infrastructure — physics-based AI platform (Energize™) that identifies and activates near-term grid capacity for AI factories, utilities, and energy providers",
+      "location": "United States (Stanford / Silicon Valley)",
+      "fundingStage": "Series A — $64M oversubscribed, closed 2026-05-14, led by Sutter Hill Ventures and John Doerr; participation from National Grid Partners, Future Energy Ventures, Emerson Collective, Stanford University; significant valuation step-up from prior round under a year ago",
+      "fitScore": 43,
+      "intentScore": 36,
+      "fitDetails": {
+        "industry_match": 7,
+        "stage_size": 8,
+        "b2b_buyer_motion": 9,
+        "proof_assets": 10,
+        "budget": 9
+      },
+      "intentDetails": {
+        "trigger": 15,
+        "timeline": 7,
+        "decision_maker": 5,
+        "urgency_pain": 7,
+        "responsiveness": 2
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        {
+          "name": "Amit Narayan",
+          "title": "Founder & CEO, GridCARE",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "series_a_64m_oversubscribed_closed_2026_05_14",
+        "sutter_hill_ventures_lead_john_doerr_co_lead",
+        "valuation_step_up_in_under_a_year",
+        "explicitly_creating_new_category_power_acceleration_for_ai",
+        "pge_pilot_unlocked_400mw_in_hillsboro_oregon",
+        "10b_economic_value_unlocked_for_data_center_developers",
+        "national_grid_partners_strategic_investor"
+      ],
+      "source": "BusinessWire / Bloomberg / Latitude Media — GridCARE Series A coverage",
+      "sourceUrl": "https://www.businesswire.com/news/home/20260514546216/en/GridCARE-Raises-$64-Million-Series-A-from-Leading-AI-and-Energy-Investors-to-Create-a-New-Category-Power-Acceleration-for-AI",
+      "notes": "Combined 79, B/A borderline. $64M oversubscribed Series A from a marquee investor set (Sutter Hill, John Doerr, National Grid Partners) with explicit category-creation messaging ('Power Acceleration for AI'). Proof assets are unusually strong for Series A: validated PGE partnership unlocking 400MW in Hillsboro, $10B economic value claim. FIT lower than top FS-pure lead because energy/grid infrastructure is adjacent rather than core FS/tech, but B2B sales motion to utilities + data-center developers is crisp. Wedge: explicit category-narrative play — they ALREADY say they're creating a new category, so they need a PR partner who can land that story in WSJ/Bloomberg/Axios, plus thought leadership for the founder around AI power constraints. High urgency: AI-power story is the hottest narrative of 2026 and the window is open NOW."
+    },
+    {
+      "name": "Optura",
+      "website": "https://optura.ai",
+      "pipeline": "pr-marketing",
+      "industry": "Vertical AI SaaS — ROAI™ platform for measuring healthcare AI business value, prioritizing AI investments, and tracking enterprise AI ROI in real time",
+      "location": "United States",
+      "fundingStage": "Series A — $17.5M closed 2026-05-14, led by Salesforce Ventures with participation from Echo Health Ventures; continued investment from Susa Ventures, Matrix Partners, HC9 Ventures; brings total funding to $25M+",
+      "fitScore": 40,
+      "intentScore": 32,
+      "fitDetails": {
+        "industry_match": 7,
+        "stage_size": 8,
+        "b2b_buyer_motion": 9,
+        "proof_assets": 8,
+        "budget": 8
+      },
+      "intentDetails": {
+        "trigger": 14,
+        "timeline": 6,
+        "decision_maker": 5,
+        "urgency_pain": 5,
+        "responsiveness": 2
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        {
+          "name": "Optura Leadership (verify CEO from 5/14 PR Newswire release)",
+          "title": "CEO / Founder",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "series_a_17_5m_closed_2026_05_14",
+        "salesforce_ventures_lead_echo_health_ventures_co_lead",
+        "matrix_partners_and_susa_ventures_continued_participation",
+        "2b_healthcare_ai_initiatives_tracked_on_platform",
+        "120m_tracked_value_at_700pct_roai",
+        "category_creation_around_roai_measurement",
+        "vertical_healthcare_ai_b2b_saas"
+      ],
+      "source": "PR Newswire / Morningstar / HIT Consultant — Optura Series A coverage",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/optura-secures-17-5-million-series-a-from-salesforce-ventures-and-echo-health-ventures-to-scale-its-roai-platform-302771590.html",
+      "notes": "Combined 72, B. $17.5M Series A 5/14 led by Salesforce Ventures + Echo Health Ventures. Total raised now $25M+. Strong B2B sales motion (already $2B in healthcare AI initiatives tracked on the platform). Fit moderated by healthcare-AI vertical (adjacent to Mark's core FS/tech wheelhouse, but B2B-SaaS-to-enterprise pattern fits). Wedge: ROAI category-creation story + healthcare AI thought leadership for CIOs/CTOs. Lower FIT than pure-FS lead but a clean trigger; treat as a B-priority outreach if Mark has comfort with healthcare-AI accounts."
+    },
+    {
+      "name": "Anomaly Insights",
+      "website": "https://www.anomaly.com",
+      "pipeline": "pr-marketing",
+      "industry": "Healthcare AI — AI-powered payer intelligence platform that decodes payer behavior at machine speed for health systems; revenue cycle management with expansion into managed care",
+      "location": "United States",
+      "fundingStage": "Add-on funding — $17M new funding closed 2026-05-13, led by Sound Ventures; Alumni Ventures joined alongside existing investors Link Ventures, Redesign Health, RRE Ventures; brings total funding to $34M",
+      "fitScore": 39,
+      "intentScore": 32,
+      "fitDetails": {
+        "industry_match": 6,
+        "stage_size": 8,
+        "b2b_buyer_motion": 9,
+        "proof_assets": 8,
+        "budget": 8
+      },
+      "intentDetails": {
+        "trigger": 14,
+        "timeline": 6,
+        "decision_maker": 5,
+        "urgency_pain": 5,
+        "responsiveness": 2
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        {
+          "name": "Anomaly Leadership (verify CEO/CMO from 5/13 BusinessWire release)",
+          "title": "CEO / Co-Founder",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "additional_17m_funding_closed_2026_05_13",
+        "sound_ventures_led_round",
+        "total_funding_now_34m",
+        "deployed_at_20plus_health_systems",
+        "customer_base_averages_4b_in_annual_net_patient_revenue",
+        "expanding_from_revenue_cycle_into_managed_care",
+        "ai_payer_intelligence_emerging_category"
+      ],
+      "source": "BusinessWire / MedCity News / HIT Consultant — Anomaly Insights funding coverage",
+      "sourceUrl": "https://www.businesswire.com/news/home/20260513966755/en/Anomaly-Secures-an-Additional-$17M-to-Fundamentally-Change-How-Health-Systems-Engage-With-Payers",
+      "notes": "Combined 71, B. $17M add-on funding 5/13 led by Sound Ventures; $34M total raised. Deployed across 20+ health systems averaging $4B in annual net patient revenue — meaningful enterprise B2B traction. Fit pulled down by healthcare-payer-tech vertical (not core FS/tech), but enterprise sales motion and budget profile fit nicely. Wedge: 'managed care expansion' narrative is a clear category-extension story, plus founder thought leadership on payer/provider information asymmetry. Mark-fit check needed on healthcare vertical depth before outreach."
+    },
+    {
+      "name": "Tessera Labs",
+      "website": "https://www.tesseralabs.com",
+      "pipeline": "pr-marketing",
+      "industry": "Enterprise AI — AI-native ERP/HCM/CRM/procurement modernization platform; agentic systems integration replacing/augmenting traditional SI work",
+      "location": "San Jose, California, USA",
+      "fundingStage": "$60M oversubscribed round closed 2026-05-06, led by Andreessen Horowitz (a16z, partner Seema Amble joining board); participation from Foundation Capital, Myriad Venture Partners, Osage University Partners",
+      "fitScore": 44,
+      "intentScore": 31,
+      "fitDetails": {
+        "industry_match": 7,
+        "stage_size": 9,
+        "b2b_buyer_motion": 10,
+        "proof_assets": 9,
+        "budget": 9
+      },
+      "intentDetails": {
+        "trigger": 13,
+        "timeline": 6,
+        "decision_maker": 5,
+        "urgency_pain": 5,
+        "responsiveness": 2
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        {
+          "name": "Tessera Labs Leadership (verify CEO/founder from 5/6 BusinessWire release)",
+          "title": "CEO / Founder",
+          "email": "",
+          "linkedin": ""
+        },
+        {
+          "name": "Seema Amble",
+          "title": "Partner, Andreessen Horowitz (newly joined Tessera board)",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "60m_oversubscribed_round_closed_2026_05_06",
+        "a16z_led_round_seema_amble_board_seat",
+        "global_top_5_biopharmaceutical_customer_deployed",
+        "fortune_500_document_technology_customer_deployed",
+        "addressing_500b_to_800b_systems_integrator_market",
+        "ai_native_erp_modernization_emerging_category"
+      ],
+      "source": "BusinessWire / Tech Startups / Yahoo Finance — Tessera Labs funding coverage",
+      "sourceUrl": "https://www.businesswire.com/news/home/20260506853624/en/Tessera-Labs-Raises-$60M-in-Funding-Led-by-Andreessen-Horowitz-to-Transform-ERP-Modernization",
+      "notes": "Combined 75, B. $60M round 5/6 led by a16z, Seema Amble board seat. Two named flagship customers (top-5 biopharma, F500 document-tech). Trigger is ~12 days old (intent trigger scored 13 vs 15 for fresher rounds). Strong B2B enterprise sales motion; addressing a $500B–$800B SI market. Wedge: 'AI-native systems integrator' category narrative — they're explicitly going after Accenture/Deloitte/IBM Consulting and need press cover for that thesis. Strong fit for Mark's enterprise-AI/B2B-SaaS strike zone."
+    },
+    {
+      "name": "Meridian Ventures",
+      "website": "https://www.meridianventures.com",
+      "pipeline": "fund-formation",
+      "industry": "Venture capital — pre-seed and seed-stage enterprise technology, focused on MBA-deferred founders",
+      "location": "United States",
+      "fundingStage": "Fund I — $35M launched 2026-05-15 by Devon Gethers and Karlton Haney; emerging-manager Fund I targeting US enterprise technology founders, particularly those deferring MBA programs",
+      "fitScore": 36,
+      "intentScore": 29,
+      "fitDetails": {
+        "industry_match": 12,
+        "stage_size": 8,
+        "b2b_buyer_motion": 6,
+        "proof_assets": 4,
+        "budget": 6
+      },
+      "intentDetails": {
+        "trigger": 8,
+        "timeline": 7,
+        "decision_maker": 6,
+        "urgency_pain": 5,
+        "responsiveness": 3
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        {
+          "name": "Devon Gethers",
+          "title": "Co-Founder & General Partner, Meridian Ventures",
+          "email": "",
+          "linkedin": ""
+        },
+        {
+          "name": "Karlton Haney",
+          "title": "Co-Founder & General Partner, Meridian Ventures",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "fund_i_35m_launched_2026_05_15",
+        "emerging_manager_fund_i_two_first_time_gps",
+        "thesis_enterprise_technology_us_founders",
+        "differentiated_thesis_mba_deferred_founders",
+        "fund_i_means_ongoing_fund_admin_compliance_legal_needs"
+      ],
+      "source": "TechCrunch — Meridian Ventures Fund I launch",
+      "sourceUrl": "https://techcrunch.com/2026/05/15/meridian-ventures-launched-35m-fund-to-back-mba-deferred-founders/",
+      "notes": "Combined 65, B. Fund I emerging-manager launch 5/15 — by definition the target profile for fund-formation work, both ongoing (Fund I administration, SPVs, side letters, follow-on financings, eventual Fund II prep) AND new (any side vehicles around the core fund). FIT pulled down by 'fit' rubric weighting proof assets and B2B sales motion, which apply less cleanly to a VC firm than to an operating company. INTENT moderated because they've already announced close (legal counsel for formation is presumably already engaged); the realistic wedge is fractional/overflow legal counsel for ongoing fund maintenance, portfolio company support, and Fund II runway. Confirmed GPs: Devon Gethers and Karlton Haney."
+    },
+    {
+      "name": "Socket — Fractional General Counsel (Remote, Web3/Blockchain)",
+      "website": "https://socket.tech",
+      "pipeline": "legal-freelance",
+      "industry": "Web3 / blockchain infrastructure — interoperability protocol for cross-chain messaging and asset movement",
+      "location": "Remote (USA)",
+      "fundingStage": "Posting active 2026-05 via Built In — Web3 infrastructure company hiring its Fractional GC for strategic legal counsel across regulatory matters, blockchain, financial regulations",
+      "fitScore": 25,
+      "intentScore": 45,
+      "fitDetails": {
+        "fund_match": 0,
+        "corporate_commercial": 10,
+        "seniority": 10,
+        "comp_stated": 5
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 15,
+        "posted_within_72h": 5,
+        "easy_apply": 10
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "startup",
+      "compensationText": "",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional General Counsel (remote)",
+      "urgencyScore": 70,
+      "contacts": [
+        {
+          "name": "Socket Hiring Team (Built In job board)",
+          "title": "Hiring Manager",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/socket-tech"
+        }
+      ],
+      "signals": [
+        "fractional_general_counsel_role_remote",
+        "web3_blockchain_company_explicit_financial_regulations_scope",
+        "strategic_legal_role_not_admin_overflow",
+        "explicit_fractional_engagement_model",
+        "regulatory_complexity_means_recurring_judgment_calls",
+        "company_appears_post_seed_well_funded_enough_to_pay"
+      ],
+      "source": "Built In — Socket Fractional General Counsel posting",
+      "sourceUrl": "https://builtin.com/job/fractional-general-counsel/4025369",
+      "notes": "Combined 70, B. Explicit fractional GC role at a Web3 infrastructure company with deep regulatory scope (blockchain + financial regulations). Strong INTENT score: posted as fractional, remote, easy apply via Built In. FIT capped because this is GC/governance work rather than fund formation or pure private-funds practice — but the regulatory and commercial-contracts work is squarely in Mark's wheelhouse, and the engagement model is explicit. The 'comp_stated' partial credit reflects market norms for Built In fractional postings (range typically disclosed in body even if not headline). Apply same-day or refer to Mark's bench."
+    },
+    {
+      "name": "Everything But The House — Fractional General Counsel (Remote)",
+      "website": "https://www.ebth.com",
+      "pipeline": "legal-freelance",
+      "industry": "E-commerce — online curated estate-sale and consigned-luxury marketplace",
+      "location": "Remote (USA), 10–20 hrs/week",
+      "fundingStage": "Posting active 2026-05 via Indeed — established e-commerce operating company hiring part-time fractional GC to serve as primary legal advisor on commercial contracts, governance, and compliance",
+      "fitScore": 20,
+      "intentScore": 43,
+      "fitDetails": {
+        "fund_match": 0,
+        "corporate_commercial": 10,
+        "seniority": 10,
+        "comp_stated": 0
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 10,
+        "posted_within_72h": 8,
+        "easy_apply": 10
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional General Counsel, part-time 10–20 hrs/week",
+      "urgencyScore": 65,
+      "contacts": [
+        {
+          "name": "Everything But The House Hiring Team (Indeed posting)",
+          "title": "Hiring Manager",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/everything-but-the-house"
+        }
+      ],
+      "signals": [
+        "fractional_gc_role_explicit_10_to_20_hours_per_week",
+        "remote_engagement_model",
+        "primary_legal_advisor_role_not_overflow",
+        "commercial_contracts_and_governance_scope",
+        "operating_company_with_recurring_legal_needs",
+        "explicit_fractional_label_not_disguised_full_time"
+      ],
+      "source": "Indeed — Everything But The House Fractional General Counsel posting",
+      "sourceUrl": "https://www.indeed.com/q-fractional-general-counsel-jobs.html",
+      "notes": "Combined 63, B. Explicit fractional GC at a well-known consumer-marketplace operating company. 10–20 hrs/week part-time + remote = textbook engagement-model match. FIT lower than fund/private-funds work because scope is commercial contracts and governance for a B2C marketplace, not Mark's fund-formation sweet spot. Including because (a) explicit fractional label, (b) clean remote terms, (c) practice area still inside the contracts/governance bucket. Treat as a backup target if the higher-priority fund/legal-freelance leads don't convert."
+    }
+  ]
+}
