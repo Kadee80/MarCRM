@@ -1,0 +1,352 @@
+{
+  "scrapeDate": "2026-05-18",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 7,
+  "note": "Legal Freelance pipeline scrape, 7-day window. 7 new leads scoring 55+ after dedup against daily-, pr-freelance-, and legal-freelance-scrape reports back to 2026-04-30. Two Grade-A interim-counsel postings (MLA Tech Transactions, Etsy via The Mom Project) sit at the top because they pair clean ICP practice areas (securities + tech transactions) with explicit interim-engagement-model and credible comp signals. Two Grade-A fractional-GC operating-company roles (Neuroscale AI, Montway Auto Transport) round out the As — Montway has a published $150/hr rate, which is a strong intent signal. Three Grade-B leads (MLA Corp+Securities, LWD Advisors fractional, Roasa Law Group transactional) round out the slate. Excluded: Socket Fractional GC (prior 2026-05-15 note flagged this as stale/off-ICP, still applies); all Latitude Legal postings (#5073, #5075, #5076, #5077, #5064, plus PT M&A and contract L&E) captured in earlier reports; Ontra freelance network (5/15); Arootah, AngelList, BlackRock, Robert Half, Lawtrades, Axiom, Paragon, MLA Interim Legal Talent generic (all captured earlier). Stealth-Startup-via-FractionalJobs.io was excluded — confidential employer is hard to qualify without revealing terms, defer until named buyer surfaces.",
+  "leads": [
+    {
+      "name": "Major, Lindsey & Africa — Interim Senior Counsel, Technology Transactions (100% Remote, National)",
+      "website": "https://www.mlaglobal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Legal Talent / Interim Counsel Staffing — ALSP",
+      "location": "Remote (US, national)",
+      "fundingStage": "Established staffing firm — Allegis Group portfolio",
+      "fitScore": 35,
+      "intentScore": 50,
+      "fitDetails": {
+        "practice_area": "technology transactions / commercial contracts — squarely in-ICP commercial contracts subvertical",
+        "seniority": "Senior Counsel-level interim placement; client-facing in-house seat",
+        "comp_credible": "MLA interim placements pay market hourly rates (typically $150-$250/hr depending on practice and seniority) — comp_credible scored 10",
+        "fund_focus": "no explicit fund focus on this specific role, but MLA also places fund/PE interim counsel; getting on their roster opens that pipeline"
+      },
+      "intentDetails": {
+        "engagement_model": "explicit interim — 3+ months, full-time placement",
+        "remote_flex": "100% remote, national",
+        "recency": "actively posted on LinkedIn / MLA careers (under 7 days)",
+        "apply_path": "LinkedIn easy-apply plus direct MLA recruiter contact"
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "interim",
+      "buyerType": "staffing",
+      "compensationText": "Not published on posting. MLA interim placements typically pay market hourly ($150-$250/hr) with W2 staffing-firm employment for the engagement duration.",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Interim, 3+ months, full-time, 100% Remote — National",
+      "urgencyScore": 78,
+      "contacts": [
+        {
+          "name": "Major, Lindsey & Africa — Interim Legal Talent Recruiting",
+          "title": "Interim Legal Talent — Technology Transactions desk",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/major-lindsey-and-africa/"
+        }
+      ],
+      "signals": [
+        "explicit_interim_placement",
+        "100_percent_remote_national",
+        "3_plus_months_full_time",
+        "technology_transactions_commercial_contracts",
+        "mla_interim_legal_talent_desk",
+        "in_house_seat_at_client",
+        "easy_linkedin_apply"
+      ],
+      "source": "MLA via LinkedIn / mlaglobal.com — Legal Freelance Scrape 2026-05-18",
+      "sourceUrl": "https://www.mlaglobal.com/en/services/interim-legal-talent",
+      "notes": "Combined 85 / Grade A. Single best lead in this scrape. MLA's Interim Legal Talent group is the industry-standard front door for high-judgment interim in-house work; this specific role (Senior Counsel, Technology Transactions, 3+ months FT, 100% remote, national) is the cleanest match for Katie's positioning in the commercial-contracts subvertical and would put her on MLA's roster for follow-on fund/PE placements. Pitch angle: lead with negotiated-volume of commercial/technology agreements (MSAs, licenses, SaaS, vendor paper) plus the ability to run a contract pipeline on a playbook, and explicitly raise capacity for fund formation / private funds / corporate-governance interim work to plant the flag for the next placement. Application path: submit through MLA's interim portal and request a routing conversation with the Tech Transactions desk; warm path is LinkedIn outreach to an MLA Interim Legal Talent director."
+    },
+    {
+      "name": "Etsy via The Mom Project — Interim Securities Counsel (Remote, EST)",
+      "website": "https://www.etsy.com",
+      "pipeline": "legal-freelance",
+      "industry": "E-commerce / Marketplace — public company (NASDAQ: ETSY)",
+      "location": "Remote (US, aligned to US Eastern Time)",
+      "fundingStage": "Public company",
+      "fitScore": 40,
+      "intentScore": 50,
+      "fitDetails": {
+        "practice_area": "securities — SEC filings (10-K, 10-Q, 8-K, proxy, S-8, Section 16) and SEC/NASDAQ compliance; squarely in-ICP securities subvertical",
+        "seniority": "Securities Counsel-level — public-company SEC reporting and disclosure",
+        "comp_credible": "The Mom Project contract roles pay market hourly with W2 contractor structure — comp_credible scored 10",
+        "fund_focus": "none — public company corporate/securities work (not fund formation), but adjacent to fund counsel via securities/disclosure expertise"
+      },
+      "intentDetails": {
+        "engagement_model": "explicit contract — interim securities counsel engagement",
+        "remote_flex": "remote, EST-aligned workday",
+        "recency": "active TMP posting (under 7 days at scrape time)",
+        "apply_path": "The Mom Project direct application with assigned talent contact"
+      },
+      "vertical": "legal",
+      "subvertical": "securities",
+      "engagementModel": "contract",
+      "buyerType": "operating-company",
+      "compensationText": "Not published on posting. The Mom Project contractor placements pay market hourly W2 with benefits eligibility above 30 hrs/week.",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contract — Interim Securities Counsel via The Mom Project (Etsy)",
+      "urgencyScore": 80,
+      "contacts": [
+        {
+          "name": "The Mom Project — Talent Contact (Lucinda)",
+          "title": "Talent / Recruiter — Interim Securities Counsel placement (Etsy)",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/the-mom-project/"
+        }
+      ],
+      "signals": [
+        "named_public_company_buyer_etsy",
+        "explicit_contract_engagement",
+        "securities_subvertical_in_icp",
+        "sec_filings_10k_10q_8k_proxy_s8_section16",
+        "sec_nasdaq_compliance",
+        "remote_est_workday",
+        "the_mom_project_talent_path"
+      ],
+      "source": "The Mom Project — Legal Freelance Scrape 2026-05-18",
+      "sourceUrl": "https://themomproject.com/projects/interim-securities-counsel-remote-est-f85959128b",
+      "notes": "Combined 90 / Grade A — highest-scoring lead in this scrape. Named, brand-name public-company buyer (Etsy), explicit interim-securities-counsel engagement, remote with EST alignment, and the practice area lands directly in the securities subvertical. Pitch angle: emphasize comfort with the full SEC reporting cadence (10-K, 10-Q, 8-K, proxy, S-8, Section 16), Section 13/16 ownership reporting, and disclosure judgment on material events; flag fund / private-funds securities experience as a differentiator for future placements. TMP placements are W2 and time-boxed, so this would be a clean interim engagement that also seeds the TMP recruiter relationship for follow-on contract counsel work. Application path: apply via TMP project link and request a screening call with the listed talent contact."
+    },
+    {
+      "name": "Neuroscale AI — Fractional General Counsel (Remote)",
+      "website": "https://www.neuroscale.ai",
+      "pipeline": "legal-freelance",
+      "industry": "AI / Machine Learning — early-stage AI startup",
+      "location": "Remote",
+      "fundingStage": "Early-stage venture-backed AI startup",
+      "fitScore": 30,
+      "intentScore": 50,
+      "fitDetails": {
+        "practice_area": "general counsel scope at AI startup — corporate, commercial contracts (customer/vendor SaaS paper), governance, financing support, IP/AI governance",
+        "seniority": "Fractional GC — primary legal advisor mandate",
+        "comp_credible": "no published number; AI-startup fractional GC engagements typically priced as a monthly retainer in the $5-15K range — comp_credible scored 10 (credible market structure)",
+        "fund_focus": "none on this role, but AI startup likely runs SAFE/priced-round financings — adjacent to fund/financing subvertical"
+      },
+      "intentDetails": {
+        "engagement_model": "explicit fractional GC",
+        "remote_flex": "fully remote",
+        "recency": "company careers page posting (under 7 days)",
+        "apply_path": "direct application via Neuroscale AI careers portal"
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "Not published on posting. AI-startup fractional GC engagements typically structured as a monthly retainer; confirm scope and hours before quoting.",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional General Counsel [Remote] — Neuroscale AI careers req #35692",
+      "urgencyScore": 65,
+      "contacts": [
+        {
+          "name": "Neuroscale AI — Hiring",
+          "title": "Hiring Manager / Founder (Fractional GC engagement)",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "explicit_fractional_gc",
+        "ai_startup_buyer",
+        "fully_remote",
+        "ai_governance_emerging_practice_premium",
+        "direct_company_careers_portal",
+        "early_stage_growth_company_needs_legal_infrastructure"
+      ],
+      "source": "Neuroscale AI careers — Legal Freelance Scrape 2026-05-18",
+      "sourceUrl": "https://careers.neuroscale.ai/35692",
+      "notes": "Combined 80 / Grade A. Direct operating-company buyer (no staffing intermediary), explicit fractional GC, fully remote, and a buyer profile (early-stage AI startup) where playbook-driven legal infrastructure compounds quickly. AI governance is currently a premium specialization (15-25% comp lift per the 2026 legal recruitment trend reports) — even if Katie does not market herself as an AI-governance specialist, the willingness to own commercial AI customer contracts, vendor paper, and SAFE/priced-round financing support is the right pitch. Pitch angle: a senior fractional GC who can install MSAs, DPAs, and an AI-vendor diligence playbook fast, run financing rounds, and handle governance — confirm hours, comp structure, and conflicts (any current AI investor relationships) up front. Apply via the company careers portal and offer a 30-minute scoping call."
+    },
+    {
+      "name": "Montway Auto Transport — Fractional General Counsel (Remote, ~20 hrs/wk, $150/hr)",
+      "website": "https://www.montway.com",
+      "pipeline": "legal-freelance",
+      "industry": "Logistics / Auto Transport — mid-market operating company",
+      "location": "Remote",
+      "fundingStage": "Established private operating company",
+      "fitScore": 30,
+      "intentScore": 50,
+      "fitDetails": {
+        "practice_area": "general counsel scope — commercial contracts (carrier/customer paper), corporate governance, employment, regulatory; squarely in commercial-contracts subvertical",
+        "seniority": "Fractional GC — primary legal advisor mandate",
+        "comp_credible": "explicit $150/hr rate published — strongest possible comp_credible signal; +10",
+        "fund_focus": "none — operating-company logistics work, off-ICP on industry"
+      },
+      "intentDetails": {
+        "engagement_model": "explicit fractional GC at ~20 hrs/week",
+        "remote_flex": "fully remote",
+        "recency": "Fractional Jobs posting (active as of May 2026)",
+        "apply_path": "Fractional Jobs direct application path"
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "$150/hr at ~20 hrs/week (published on Fractional Jobs).",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional General Counsel — ~20 hrs/week, remote, $150/hr (Fractional Jobs)",
+      "urgencyScore": 75,
+      "contacts": [
+        {
+          "name": "Montway Auto Transport — Hiring",
+          "title": "Hiring Manager (Fractional GC engagement)",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/montway-auto-transport/"
+        }
+      ],
+      "signals": [
+        "explicit_fractional_gc",
+        "published_hourly_rate_150_per_hr",
+        "defined_weekly_hours_20",
+        "fully_remote",
+        "direct_operating_company_buyer",
+        "fractional_jobs_marketplace_path",
+        "mid_market_logistics_operating_company"
+      ],
+      "source": "Fractional Jobs — Legal Freelance Scrape 2026-05-18",
+      "sourceUrl": "https://www.fractionaljobs.io/",
+      "notes": "Combined 80 / Grade A. Strong intent: published hourly rate ($150/hr), defined hours (~20/week), and a direct operating-company buyer — exactly the engagement shape Katie is optimizing for. Off-ICP on industry (logistics) and no fund work, which caps fit at 30. Pitch angle: lead with throughput on commercial paper (carrier/customer/vendor agreements), regulatory comfort on DOT/FMCSA-style transport rules, and the ability to install a contract workflow that lets the in-house team operate without a full-time GC. Confirm engagement structure (1099 vs. W2), conflicts, and whether the 20-hr scope flexes seasonally. The published rate is at the lower end of senior-fractional-GC market ($150-$300/hr) — useful as a floor reference, not a ceiling; if scope expands beyond 20 hrs/week, renegotiate."
+    },
+    {
+      "name": "Major, Lindsey & Africa — Interim Counsel, Corporate and Securities",
+      "website": "https://www.mlaglobal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Legal Talent / Interim Counsel Staffing — ALSP",
+      "location": "Not specified on LinkedIn req (US, likely remote/hybrid)",
+      "fundingStage": "Established staffing firm — Allegis Group portfolio",
+      "fitScore": 35,
+      "intentScore": 30,
+      "fitDetails": {
+        "practice_area": "corporate AND securities — double-hit on ICP practice areas",
+        "seniority": "Counsel-level interim placement",
+        "comp_credible": "MLA interim placements pay market hourly ($150-$250/hr); comp_credible scored 10",
+        "fund_focus": "no explicit fund focus on this req — securities work could touch fund / 40 Act adjacent topics"
+      },
+      "intentDetails": {
+        "engagement_model": "explicit interim",
+        "remote_flex": "not stated on the req — interim corp/securities roles are usually remote or hybrid",
+        "recency": "LinkedIn posting active",
+        "apply_path": "LinkedIn easy-apply plus direct MLA recruiter contact"
+      },
+      "vertical": "legal",
+      "subvertical": "corporate",
+      "engagementModel": "interim",
+      "buyerType": "staffing",
+      "compensationText": "Not published on posting. MLA interim placements typically pay market hourly W2 ($150-$250/hr) for the engagement duration.",
+      "remoteFlag": "",
+      "employmentTypeRaw": "Interim Counsel — Corporate and Securities (LinkedIn job ID 4321299601, MLA Interim Legal Talent)",
+      "urgencyScore": 60,
+      "contacts": [
+        {
+          "name": "Major, Lindsey & Africa — Interim Legal Talent Recruiting",
+          "title": "Interim Legal Talent — Corporate & Securities desk",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/major-lindsey-and-africa/"
+        }
+      ],
+      "signals": [
+        "explicit_interim_placement",
+        "corporate_and_securities_dual_practice_area",
+        "mla_interim_legal_talent_desk",
+        "linkedin_easy_apply",
+        "in_house_seat_at_client"
+      ],
+      "source": "MLA via LinkedIn — Legal Freelance Scrape 2026-05-18",
+      "sourceUrl": "https://www.linkedin.com/jobs/view/interim-counsel-corporate-and-securities-at-major-lindsey-africa-4321299601",
+      "notes": "Combined 65 / Grade B. Secondary MLA req with a corporate-and-securities scope — narrower than the Tech Transactions req above but a separate desk inside MLA's Interim Legal Talent group, so applying separately keeps both pipelines warm. Remote flexibility is not stated on the LinkedIn req, which is the main reason the intent score is lower than the other MLA lead. Pitch angle: same as the MLA Tech Transactions submission but emphasize corporate/securities and explicitly raise capacity for fund formation / private funds counsel work. Treat the two MLA applications as one combined ask of the firm: get on the roster for both desks, signal fund-formation availability for follow-on placements."
+    },
+    {
+      "name": "LWD Advisors — Senior Legal Counsel (Remote, ~15 hrs/wk)",
+      "website": "",
+      "pipeline": "legal-freelance",
+      "industry": "Advisory / Consulting — Bay Area-based advisory firm",
+      "location": "Remote (Bay Area-based)",
+      "fundingStage": "Established private advisory firm",
+      "fitScore": 20,
+      "intentScore": 50,
+      "fitDetails": {
+        "practice_area": "senior legal counsel scope — commercial contracts, corporate governance, advisor agreements typical for advisory firms",
+        "seniority": "Senior Legal Counsel — counsel-level mandate",
+        "comp_credible": "no published rate but defined weekly hours (15) is a market-credible fractional scope; comp_credible scored 0",
+        "fund_focus": "none stated — advisory firms sometimes adjacent to fund work"
+      },
+      "intentDetails": {
+        "engagement_model": "explicit fractional / part-time (15 hrs/week)",
+        "remote_flex": "fully remote",
+        "recency": "Fractional Jobs posting (active)",
+        "apply_path": "Fractional Jobs direct application path"
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "part-time",
+      "buyerType": "operating-company",
+      "compensationText": "Not published. ~15 hrs/week structure.",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Senior Legal Counsel — ~15 hrs/week, remote (Fractional Jobs marketplace)",
+      "urgencyScore": 60,
+      "contacts": [
+        {
+          "name": "LWD Advisors — Hiring",
+          "title": "Hiring Manager (Senior Legal Counsel engagement)",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "explicit_fractional_15_hrs_per_week",
+        "fully_remote_bay_area_based",
+        "fractional_jobs_marketplace_path",
+        "advisory_firm_buyer",
+        "senior_counsel_seniority"
+      ],
+      "source": "Fractional Jobs — Legal Freelance Scrape 2026-05-18",
+      "sourceUrl": "https://www.fractionaljobs.io/",
+      "notes": "Combined 70 / Grade B. Defined fractional scope (15 hrs/week, fully remote) and a direct operating-company buyer — the engagement shape is right, but the scope and industry are off-ICP enough that fit is capped at 20. The advisory-firm category is worth probing: some advisory shops are emerging-manager-adjacent (incubators, fund-of-fund advisors, family-office GPs) and that work would map directly to ICP. Pitch angle: ask in the first conversation whether the firm advises any fund managers or runs any pooled vehicles; if yes, lead with fund-formation/governance expertise. If no, position as a senior fractional counsel who can run contract workflow plus governance on a tight 15-hr cadence. Apply via the Fractional Jobs marketplace; confirm comp range early."
+    },
+    {
+      "name": "Roasa Law Group — Part-Time Contract Transactional Attorney (Small Business + M&A, Remote)",
+      "website": "",
+      "pipeline": "legal-freelance",
+      "industry": "Law Firm — small-business transactional and M&A practice",
+      "location": "Remote",
+      "fundingStage": "Small/boutique law firm",
+      "fitScore": 25,
+      "intentScore": 45,
+      "fitDetails": {
+        "practice_area": "small business transactions + M&A — squarely in corporate/M&A subvertical",
+        "seniority": "Transactional Attorney — practitioner-level rather than GC/counsel",
+        "comp_credible": "no published rate; small-firm overflow rates typically $75-$150/hr — comp_credible scored 0",
+        "fund_focus": "none — small-business M&A rather than fund work"
+      },
+      "intentDetails": {
+        "engagement_model": "explicit part-time contract overflow",
+        "remote_flex": "fully remote",
+        "recency": "Indeed posting active in the past 7 days",
+        "apply_path": "Indeed easy-apply"
+      },
+      "vertical": "legal",
+      "subvertical": "M&A",
+      "engagementModel": "contract",
+      "buyerType": "law-firm",
+      "compensationText": "Not published. Small-firm contract attorney rates typically $75-$150/hr (1099).",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Part-Time Contract Transactional Attorney — small business + M&A, fully remote (Indeed)",
+      "urgencyScore": 60,
+      "contacts": [
+        {
+          "name": "Roasa Law Group — Hiring",
+          "title": "Hiring Partner / Attorney (Part-Time Contract Transactional Attorney engagement)",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "explicit_part_time_contract",
+        "small_business_transactions",
+        "m_a_in_icp",
+        "fully_remote",
+        "law_firm_overflow_buyer",
+        "indeed_easy_apply"
+      ],
+      "source": "Indeed — Legal Freelance Scrape 2026-05-18",
+      "sourceUrl": "https://www.indeed.com/q-remote-contract-attorney-jobs.html",
+      "notes": "Combined 70 / Grade B. The engagement shape (part-time, contract, remote, transactional, in M&A subvertical) is right, but this is a law-firm overflow seat rather than a direct in-house buyer, which caps fit at 25. Pitch angle: position as senior transactional support who can take M&A deals end-to-end with minimal supervision — diligence, transaction docs, closing — and offer a productized weekly hours block. Confirm rate and conflicts early; small-firm contract attorney engagements often have rate ceilings well below in-house fractional rates. Useful as a steady supplement to the fund/GC pipeline, not a hero engagement. Indeed listing — confirm the live posting URL on application and update CRM."
+    }
+  ]
+}
