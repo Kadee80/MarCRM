@@ -1,0 +1,248 @@
+{
+  "scrapeDate": "2026-05-19",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 5,
+  "note": "Legal Freelance pipeline scrape. Sources: Latitude Legal, Axiom Law, Cimplifi, fractionaljobs.io, ACC Jobline, Built In, Glassdoor, ZipRecruiter, Indeed (via web search). Excluded Lyfecoin (posted Apr 25 — outside 7-day window and listing marked expired), Socket (job removed), Sleep Doctor (healthcare-only fit, posted Apr 17), Hayden Industrial (already captured 5/15), Found and Podean (both marked Closed), and the previously-captured Ontra freelance fund-formation listing (in 5/15 report). All leads here are net-new vs. legal-freelance-scrape-2026-05-12, -14, -15, and -18 reports.",
+  "leads": [
+    {
+      "name": "Axiom Law — Securities & Prime Brokerage Counsel (Remote, US)",
+      "website": "https://www.axiomlaw.com",
+      "pipeline": "legal-freelance",
+      "industry": "Alternative Legal Services Provider (ALSP) / Financial Services placements",
+      "location": "US - New York (remote-friendly via Axiom secondment model)",
+      "fundingStage": "PE-backed (Permira)",
+      "fitScore": 45,
+      "intentScore": 45,
+      "fitDetails": {
+        "practice_area": "Securities & prime brokerage — fund-adjacent (margin lending, Reg T/U, FINRA 4210, cross-asset derivatives/swaps with hedge fund and asset manager counterparties)",
+        "seniority": "Counsel-level; 3+ years securities/prime brokerage; sized for senior judgment",
+        "comp_credible": "Yes — $104,500–$325,000 annualized for attorney roles; secondment hourly basis",
+        "fund_focus": "Indirect but strong — clients are financial institutions servicing private funds and asset managers"
+      },
+      "intentDetails": {
+        "engagement_model": "Axiom secondment (consultant/contract, interim-to-perm options available)",
+        "remote_flex": "Remote engagements supported nationally per Axiom platform",
+        "recency": "Listed as existing vacancy; Axiom keeps roles active and rotates lawyers in continuously",
+        "apply_path": "Direct apply on Axiom careers portal"
+      },
+      "vertical": "legal",
+      "subvertical": "securities",
+      "engagementModel": "consultant",
+      "buyerType": "ALSP",
+      "compensationText": "$104,500–$325,000 estimated total comp for attorneys (Axiom secondment, hourly billable model)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Axiom secondment / contract attorney (FT or PT)",
+      "urgencyScore": 60,
+      "contacts": [
+        {
+          "name": "Axiom Talent Team",
+          "title": "Recruiter (Financial Services practice)",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/axiom_law"
+        }
+      ],
+      "signals": [
+        "Prime brokerage / margin lending — fund-counterparty work",
+        "Securities Act of 1933 / Exchange Act of 1934 expertise required",
+        "Cross-asset (swaps, options, futures, equities, fixed income) — sophisticated counterparties",
+        "Axiom Funds practice has 25-year track record placing remote, hourly funds lawyers",
+        "Permira-backed ALSP — ongoing pipeline of similar roles, good network entry point"
+      ],
+      "source": "Axiom Law careers portal",
+      "sourceUrl": "https://www.axiomlaw.com/careers/lawyers/available-positions/8036201002",
+      "notes": "Bucket B (interim/secondment) + Bucket C (consultant) qualifier. Even if this specific seat isn't ideal, applying gets Katie into Axiom's Funds practice bench — Axiom rotates lawyers into private funds, asset management, and PE work continuously. Strong network-effect lead. Pitch angle: corporate/fund counsel with margin-lending and securities adjacency."
+    },
+    {
+      "name": "Cimplifi — Part-Time Corporate Attorney, M&A ($125/hr, Remote)",
+      "website": "https://www.cimplifi.com",
+      "pipeline": "legal-freelance",
+      "industry": "ALSP / Legal staffing into mid-size law firm (premier firm client; Fortune 100 and emerging-company representations)",
+      "location": "Remote (US, Eastern Time Zone preferred)",
+      "fundingStage": "Private (PE-backed legal-services platform)",
+      "fitScore": 35,
+      "intentScore": 45,
+      "fitDetails": {
+        "practice_area": "M&A / Corporate — mid-size firm overflow into M&A transactions",
+        "seniority": "Mid-to-senior associate (3–5 years), corporate associate at mid/large firm with M&A focus",
+        "comp_credible": "Yes — $125/hour, market for PT contract M&A work",
+        "fund_focus": "Indirect — M&A practice typically supports PE/portfolio-company transactions; client represents both Fortune 100 and emerging companies"
+      },
+      "intentDetails": {
+        "engagement_model": "Part-time contract via Cimplifi ALSP — IC/W2 contract",
+        "remote_flex": "Fully remote (US, EST preferred)",
+        "recency": "Actively posted on Glassdoor as of mid-May 2026",
+        "apply_path": "Glassdoor / Cimplifi careers — easy apply path"
+      },
+      "vertical": "legal",
+      "subvertical": "M&A",
+      "engagementModel": "part-time",
+      "buyerType": "ALSP",
+      "compensationText": "$125/hour",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Part-time contract, ~3 months with potential extension; W-2 with benefits eligibility",
+      "urgencyScore": 75,
+      "contacts": [
+        {
+          "name": "Cimplifi Talent Team",
+          "title": "Recruiter (Managed Review / Contract Attorney placements)",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/cimplifi"
+        }
+      ],
+      "signals": [
+        "Premier mid-size law firm client (overflow buyer — classic ICP)",
+        "Direct M&A practice, not litigation/diligence-only",
+        "Stated hourly rate ($125/hr) — credible market comp, removes haggling friction",
+        "~3 month engagement with extension potential — meaningful runway",
+        "Eastern Time Zone preferred — fits Katie's NY base"
+      ],
+      "source": "Cimplifi via Glassdoor",
+      "sourceUrl": "https://www.glassdoor.com/job-listing/premier-law-firm-seeks-pt-corporate-attorney-background-in-m-and-a-125-hour-cimplifi-JV_KO0,75_KE76,84.htm?jl=1009903169381",
+      "notes": "Bucket A (PT / hourly) + Bucket D (corporate attorney embedded into firm). Clean fit on engagement model and seniority. Pitch angle: senior corporate counsel with PE/fund-adjacent M&A experience, NY-based, available for part-time overflow."
+    },
+    {
+      "name": "Latitude Legal — Corporate Attorney, Securities & Corporate Governance (Remote Contract #5077)",
+      "website": "https://latitudelegal.com",
+      "pipeline": "legal-freelance",
+      "industry": "ALSP / flexible legal staffing into corporate legal departments and law firms",
+      "location": "Remote, anywhere in US",
+      "fundingStage": "Established (Chambers NewLaw Guide-ranked flexible legal staffing firm)",
+      "fitScore": 35,
+      "intentScore": 45,
+      "fitDetails": {
+        "practice_area": "Corporate securities & governance — SEC reporting/disclosures, NYSE listing standards, corporate approvals, governance matters",
+        "seniority": "Counsel-level; prior experience in BigLaw corporate practice or major company corporate legal department preferred",
+        "comp_credible": "Yes — $160,000–$200,000+ annualized for contract engagement",
+        "fund_focus": "Adjacent — Latitude routes contract attorneys into both fund managers and operating companies; this seat is corporate/securities for leading corporations"
+      },
+      "intentDetails": {
+        "engagement_model": "Remote contract engagement (W-2 with benefits at 20+ hr/week)",
+        "remote_flex": "Fully remote, anywhere in US",
+        "recency": "Open opportunity on jobs portal as of 2026-05-19",
+        "apply_path": "Direct apply via latitudelegal.com/jobs/5077"
+      },
+      "vertical": "legal",
+      "subvertical": "corporate",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "$160,000–$200,000+ annualized (W-2 contract)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Remote Contract Engagement (W-2; full benefits at 20+ hrs/week)",
+      "urgencyScore": 70,
+      "contacts": [
+        {
+          "name": "Latitude Legal Recruiting",
+          "title": "Legal Recruiter (NYC office)",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/latitude-legal"
+        }
+      ],
+      "signals": [
+        "Net-new Latitude posting — prior reports captured #5073, 5075, 5076; this is #5077",
+        "Securities and corporate governance — sweet-spot Katie practice area",
+        "BigLaw / major-company corporate legal preferred — Katie profile fit",
+        "W-2 contract with benefits at 20+ hrs/week — favorable structure",
+        "Latitude's NY office is active and engaged — same channel as previous Latitude leads"
+      ],
+      "source": "Latitude Legal jobs portal",
+      "sourceUrl": "https://latitudelegal.com/jobs/5077",
+      "notes": "Bucket A (contract) + Bucket D (corporate attorney) qualifier. Direct fit. Pitch angle: senior corporate/securities counsel available for multi-month remote engagement with leading public companies."
+    },
+    {
+      "name": "Latitude Legal — Financial Services Regulatory Attorney (Remote #5058)",
+      "website": "https://latitudelegal.com",
+      "pipeline": "legal-freelance",
+      "industry": "ALSP / flexible legal staffing into investment companies and advisers",
+      "location": "Remote",
+      "fundingStage": "Established (Chambers NewLaw Guide-ranked)",
+      "fitScore": 40,
+      "intentScore": 45,
+      "fitDetails": {
+        "practice_area": "Private funds, mutual funds, variable life/annuity products — financial services regulatory & compliance for investment companies and advisers",
+        "seniority": "5+ years financial services regulatory experience; AmLaw 200 firm or major-company legal department preferred",
+        "comp_credible": "Law firm-level compensation; W-2 with benefits at 20+ hrs",
+        "fund_focus": "Direct — private funds and mutual funds explicitly named; investment advisers as buyers"
+      },
+      "intentDetails": {
+        "engagement_model": "Remote contract engagement, full- or part-time",
+        "remote_flex": "Fully remote",
+        "recency": "Open opportunity, listed on Latitude jobs portal",
+        "apply_path": "Direct apply via latitudelegal.com/jobs/5058"
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "Law firm-level compensation; benefits-eligible at 20+ hrs/week; complimentary professional liability insurance",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Remote Contract Engagement, full- or part-time (W-2)",
+      "urgencyScore": 70,
+      "contacts": [
+        {
+          "name": "Latitude Legal Recruiting",
+          "title": "Legal Recruiter (Financial Services practice)",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/latitude-legal"
+        }
+      ],
+      "signals": [
+        "Explicitly private funds, mutual funds, and investment adviser counsel work — bulls-eye ICP",
+        "AmLaw 200 / major-company legal preferred — Katie profile fit",
+        "Net-new Latitude posting — not in prior reports",
+        "Full- or part-time flexibility opens door to layering with other engagements",
+        "Sophisticated financial products — exactly the high-judgment work the ICP describes"
+      ],
+      "source": "Latitude Legal jobs portal",
+      "sourceUrl": "https://latitudelegal.com/jobs/5058",
+      "notes": "Bucket A (contract) + Bucket B (interim/part-time) + Bucket D (counsel) — qualifies on all primary engagement-model buckets. Highest fit-score lead in this batch. Pitch angle: corporate/fund counsel for investment companies and advisers, available for multi-month part-time contract."
+    },
+    {
+      "name": "Latitude Legal — Financial Services Consulting Attorney (Remote #5723)",
+      "website": "https://latitudelegal.com",
+      "pipeline": "legal-freelance",
+      "industry": "ALSP / flexible legal staffing — financial services consulting",
+      "location": "Remote",
+      "fundingStage": "Established (Chambers NewLaw Guide-ranked)",
+      "fitScore": 35,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Financial services regulatory & compliance consulting — private funds, mutual funds, variable life/annuity products",
+        "seniority": "5+ years financial services regulatory and/or compliance experience; AmLaw 200 / major-company legal preferred",
+        "comp_credible": "Latitude-standard competitive compensation; W-2 with benefits at 20+ hrs",
+        "fund_focus": "Direct — same product universe as #5058 (private funds + mutual funds), framed as consulting engagement"
+      },
+      "intentDetails": {
+        "engagement_model": "Remote consulting engagement, full- or part-time contract",
+        "remote_flex": "Fully remote (or on-site at client option)",
+        "recency": "Open opportunity, higher Latitude job ID (5723) than the established 5000-range — likely newer posting",
+        "apply_path": "Direct apply via latitudelegal.com/jobs/5723"
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "consultant",
+      "buyerType": "ALSP",
+      "compensationText": "Competitive law firm-level compensation; benefits-eligible at 20+ hrs/week",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Remote Consulting / Contract Engagement (W-2; FT or PT)",
+      "urgencyScore": 65,
+      "contacts": [
+        {
+          "name": "Latitude Legal Recruiting",
+          "title": "Legal Recruiter (Financial Services practice)",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/latitude-legal"
+        }
+      ],
+      "signals": [
+        "Companion role to #5058 — Latitude appears to be staffing-up a financial services regulatory bench",
+        "Consulting framing rather than embedded contract — broader scope, shorter sprints likely",
+        "Private funds and mutual funds explicitly in scope",
+        "Higher job ID suggests posted more recently than #5058",
+        "Same Latitude relationship as prior leads — leverages existing recruiter pipeline"
+      ],
+      "source": "Latitude Legal jobs portal",
+      "sourceUrl": "https://latitudelegal.com/jobs/5723",
+      "notes": "Bucket B (consultant) + Bucket C (consulting). Apply alongside #5058 — Latitude tends to slot the same candidate against multiple openings if fit is strong. Pitch angle: senior fund-formation/regulatory counsel available for consulting projects with investment managers."
+    }
+  ]
+}
