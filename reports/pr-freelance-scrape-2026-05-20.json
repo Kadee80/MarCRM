@@ -1,0 +1,302 @@
+{
+  "scrapeDate": "2026-05-20",
+  "scrapeType": "pr-freelance",
+  "totalLeads": 6,
+  "note": "Enhanced PR Freelance scrape — 7-day window. Sources: Mediabistro, ZipRecruiter, LinkedIn Jobs (via Google index), agency career pages, The PR Net. Deduplicated against pr-freelance-scrape reports from 2026-05-04 through 2026-05-19. Skipped repeats: Inkhouse (5/7), The Work Crowd (5/8), FINN Partners (5/14), Crackle PR (5/12), Gregory FCA/BackBay (5/12), Method Communications (5/19), Caliber Corporate Advisers (5/8). All leads have engagementModel indicating freelance/contract suitability. Search clusters covered: freelance PR, fractional comms, agency overflow, white-label PR, contract publicist, earned media consultant.",
+  "leads": [
+    {
+      "name": "Reputation Management Consultants",
+      "website": "https://pr.reputationmanagementconsultants.com/",
+      "pipeline": "pr-freelance",
+      "industry": "Reputation & Crisis PR Agency",
+      "location": "Remote (Denver and Chicago postings)",
+      "fundingStage": "Bootstrapped / Private",
+      "fitScore": 50,
+      "intentScore": 45,
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 15,
+        "workstream": 10,
+        "buyer_quality": 5,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 10,
+        "recency": 10,
+        "urgency_signals": 5,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "crisis",
+      "engagementModel": "freelance",
+      "buyerType": "agency",
+      "compensationText": "Not stated — 10 hours/week minimum cadence",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Freelance / 1099",
+      "urgencyScore": 75,
+      "contacts": [
+        {
+          "name": "Hiring Team",
+          "title": "Talent Acquisition",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/reputation-management-consultants"
+        }
+      ],
+      "signals": [
+        "Active Mediabistro postings for freelance PR in Denver & Chicago",
+        "Specifies real estate, business, financial services experience required",
+        "10 hours/week — fits a senior freelancer with multiple engagements",
+        "Multiple parallel city postings suggest ongoing overflow need"
+      ],
+      "source": "Mediabistro",
+      "sourceUrl": "https://www.mediabistro.com/jobs/1199509524-reputation-management-consultants-is-hiring-freelance-public-relations-in-denve",
+      "notes": "Strongest immediate-intent lead this week. Explicit 1099 freelance role with financial services + business reputation work. Mark's senior media relations + executive narrative chops map directly. Pitch as 'experienced senior PR freelancer with deep financial services book.' The Chicago posting is a sibling listing — same buyer, two markets."
+    },
+    {
+      "name": "Mission North",
+      "website": "https://www.missionnorth.com/",
+      "pipeline": "pr-freelance",
+      "industry": "Integrated Communications Agency",
+      "location": "New York / San Francisco / Remote",
+      "fundingStage": "Independent",
+      "fitScore": 50,
+      "intentScore": 40,
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 15,
+        "workstream": 10,
+        "buyer_quality": 5,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 10,
+        "recency": 5,
+        "urgency_signals": 5,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "agency-overflow",
+      "engagementModel": "freelance",
+      "buyerType": "agency",
+      "compensationText": "Project-based (rate negotiated per engagement)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Freelance / Project",
+      "urgencyScore": 60,
+      "contacts": [
+        {
+          "name": "Talent Team",
+          "title": "Freelance Network Lead",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/mission-north"
+        }
+      ],
+      "signals": [
+        "Dedicated 'Always Hiring' freelance page (year-round bench)",
+        "Active SVP, Fintech Communications role indicates expanding fintech book",
+        "Recent Built In NYC posting for 'Freelance Opportunities' generic role",
+        "Existing fintech practice = direct match for Mark"
+      ],
+      "source": "Mission North + Built In NYC",
+      "sourceUrl": "https://www.missionnorth.com/always-hiring",
+      "notes": "Top-tier strategic agency with a year-round freelance bench. Best route is submitting via the Always Hiring page with a financial services / fintech specialization angle. Mention SVP Fintech role as context: their fintech practice is expanding and likely needs overflow execution help."
+    },
+    {
+      "name": "Bospar",
+      "website": "https://bospar.com/",
+      "pipeline": "pr-freelance",
+      "industry": "Boutique B2B Tech PR Agency",
+      "location": "Fully virtual (US-wide)",
+      "fundingStage": "Independent",
+      "fitScore": 50,
+      "intentScore": 35,
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 15,
+        "workstream": 10,
+        "buyer_quality": 5,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 10,
+        "remote_flex": 10,
+        "recency": 10,
+        "urgency_signals": 0,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "media-relations",
+      "engagementModel": "contract",
+      "buyerType": "agency",
+      "compensationText": "Retainers $18K–$35K/mo (client side) — contractor rates per engagement",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contract / Account Associate roles + freelancer bench",
+      "urgencyScore": 55,
+      "contacts": [
+        {
+          "name": "Curtis Sparrer",
+          "title": "Principal",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/in/curtissparrer"
+        }
+      ],
+      "signals": [
+        "8 active jobs on ZipRecruiter — mixed FT + project",
+        "Explicit Fintech & Insuretech practice, plus AI/B2B SaaS",
+        "Virtual-first agency uses freelancers for surge capacity",
+        "PRWeek-nominated independent — credibility with media"
+      ],
+      "source": "ZipRecruiter + Bospar careers",
+      "sourceUrl": "https://www.ziprecruiter.com/co/bospar/Jobs",
+      "notes": "Virtual boutique with a real fintech book. Pitch path: contact Curtis directly via LinkedIn with two sample fintech narratives Mark has placed. Their 80-person staff and $18K–$35K retainers mean they have overflow needs but vet hard."
+    },
+    {
+      "name": "BerlinRosen",
+      "website": "https://berlinrosen.com/",
+      "pipeline": "pr-freelance",
+      "industry": "Strategic Communications Firm",
+      "location": "NYC / DC / LA / Remote",
+      "fundingStage": "Independent",
+      "fitScore": 45,
+      "intentScore": 35,
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 10,
+        "workstream": 10,
+        "buyer_quality": 5,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 5,
+        "recency": 10,
+        "urgency_signals": 0,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "executive-comms",
+      "engagementModel": "contract",
+      "buyerType": "agency",
+      "compensationText": "$14–$106/hr range across listed roles (per ZipRecruiter)",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Mix of FT, contract, and short-term project (Jun 1 – Oct 31 noted)",
+      "urgencyScore": 65,
+      "contacts": [
+        {
+          "name": "HR / Recruiting",
+          "title": "Talent Acquisition",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/berlinrosen"
+        }
+      ],
+      "signals": [
+        "14 active jobs including time-bounded project role (Jun 1 – Oct 31, 2026)",
+        "Recent 4-day-week posting suggests flexible engagement models",
+        "Corporate, real estate, and impact practices align with Mark's exec comms strength",
+        "Multi-office: NYC, DC, LA — broader media bench"
+      ],
+      "source": "ZipRecruiter + BerlinRosen careers",
+      "sourceUrl": "https://www.ziprecruiter.com/co/berlinrosen/Jobs",
+      "notes": "Less financial-pure than other targets (more corporate/policy/impact), but the explicit Jun–Oct project role suggests they're staffing up for a campaign and may need senior media relations overflow. Worth a targeted outreach to the corporate practice."
+    },
+    {
+      "name": "Highwire PR",
+      "website": "https://www.highwirepr.com/",
+      "pipeline": "pr-freelance",
+      "industry": "B2B Tech PR Agency",
+      "location": "SF / NYC / Austin / Remote",
+      "fundingStage": "Independent",
+      "fitScore": 50,
+      "intentScore": 30,
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 15,
+        "workstream": 10,
+        "buyer_quality": 5,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 5,
+        "remote_flex": 10,
+        "recency": 10,
+        "urgency_signals": 0,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "media-relations",
+      "engagementModel": "contract",
+      "buyerType": "agency",
+      "compensationText": "Not stated publicly — agency rates",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "FT-heavy with some contract roles",
+      "urgencyScore": 50,
+      "contacts": [
+        {
+          "name": "Kathleen Gratehouse",
+          "title": "Partner / President",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/highwirepr"
+        }
+      ],
+      "signals": [
+        "21 active jobs on ZipRecruiter — meaningful capacity gap",
+        "Strong B2B tech + fintech + cybersecurity portfolio",
+        "Series A–IPO client mix overlaps with Mark's narrative work",
+        "Distributed model accommodates freelancer integration"
+      ],
+      "source": "ZipRecruiter + Highwire careers",
+      "sourceUrl": "https://www.highwirepr.com/work-for-us",
+      "notes": "Largest active hiring footprint in this list (21 roles). Skewed FT but agencies at this hiring velocity often have side overflow needs. Pitch the cybersecurity + fintech intersection — Mark's voice strongest there."
+    },
+    {
+      "name": "Antenna Group",
+      "website": "https://www.antennagroup.com/",
+      "pipeline": "pr-freelance",
+      "industry": "Climate, Health, Energy & Real Estate Communications",
+      "location": "NYC / Chicago / Remote",
+      "fundingStage": "Independent",
+      "fitScore": 40,
+      "intentScore": 25,
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 5,
+        "workstream": 10,
+        "buyer_quality": 5,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 5,
+        "remote_flex": 5,
+        "recency": 10,
+        "urgency_signals": 0,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "thought-leadership",
+      "engagementModel": "contract",
+      "buyerType": "agency",
+      "compensationText": "$101k–$196k FT range (contractor scaled)",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Mix of FT and freelance creative talent",
+      "urgencyScore": 45,
+      "contacts": [
+        {
+          "name": "Talent Team",
+          "title": "Recruiting",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/antenna-group"
+        }
+      ],
+      "signals": [
+        "Active Workable openings + ZipRecruiter listings",
+        "Real estate / energy / climate are sectors with growing PE ownership",
+        "Existing freelance creative network (writers, designers)",
+        "Headcount growth across multiple practices"
+      ],
+      "source": "Antenna Group careers + Workable",
+      "sourceUrl": "https://apply.workable.com/antenna/",
+      "notes": "Lowest-fit lead this week — Antenna's verticals lean climate/health/real estate rather than financial. Including because: (1) real estate has heavy PE/REIT exposure that overlaps Mark's IR-adjacent work; (2) they actively use freelancers. Pitch as senior PR generalist who can plug into real estate practice."
+    }
+  ]
+}
