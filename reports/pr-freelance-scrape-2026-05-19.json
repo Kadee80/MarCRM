@@ -1,0 +1,195 @@
+{
+  "scrapeDate": "2026-05-19",
+  "scrapeType": "pr-freelance",
+  "totalLeads": 4,
+  "note": "Enhanced PR Freelance pipeline scrape — 4 fresh leads across financial-PR agency overflow (Dukas Linden / Infinite, Method Communications, M Booth) and an in-house interim pitch at a fintech (Tide). Dedup checked against daily-scrape-* and pr-freelance-scrape-* through 2026-05-18. Quality-over-quantity selection: every lead clears 55+ combined and is supported by a real, currently-open requisition or freshly-announced corporate transaction.",
+  "leads": [
+    {
+      "name": "Dukas Linden Public Relations",
+      "website": "https://dlpr.com",
+      "pipeline": "pr-freelance",
+      "industry": "Financial Communications Agency (asset & wealth management, capital markets, fintech, blockchain/crypto, professional services)",
+      "location": "New York, NY (hybrid)",
+      "fundingStage": "Acquired by Infinite (ParkSouth-backed) on 2026-05-06",
+      "fitScore": 50,
+      "intentScore": 30,
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 15,
+        "workstream": 10,
+        "buyer_quality": 5,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 5,
+        "remote_flex": 5,
+        "recency": 10,
+        "urgency_signals": 5,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "media-relations",
+      "engagementModel": "contract",
+      "buyerType": "agency",
+      "compensationText": "Not disclosed (typical agency overflow: $125-$175/hr or $8-15K/mo retainer for senior fintech/crypto media counsel)",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Full-time req (Crypto/Fintech Media Relations Specialist) — pitch as freelance/interim during integration",
+      "urgencyScore": 80,
+      "contacts": [
+        { "name": "Seth Linden", "title": "President, DLPR (now senior role within Infinite platform)", "email": "", "linkedin": "" },
+        { "name": "Dukas Linden — Head of Talent / Recruiting", "title": "Recruiter, Media Relations", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "infinite_acquired_dlpr_2026_05_06",
+        "post_acquisition_integration_creates_overflow_demand",
+        "open_req_crypto_fintech_media_relations_specialist",
+        "financial_services_practice_dead_center_ICP",
+        "asset_wealth_capital_markets_fintech_blockchain_crypto",
+        "nyc_anchored_hybrid",
+        "parksouth_backed_infinite_platform_now_acquiring_to_scale"
+      ],
+      "source": "LinkedIn + PR Newswire (acquisition announcement)",
+      "sourceUrl": "https://www.linkedin.com/jobs/view/crypto-fintech-media-relations-specialist-at-dukas-linden-public-relations-4295995918",
+      "notes": "TOP LEAD this run (combined 80, A). Dukas Linden is the #1 fit on the entire scrape: financial-PR agency representing asset/wealth managers, capital-markets clients, fintechs and blockchain/crypto firms — i.e. Mark's exact wheelhouse. They were just acquired by Infinite (ParkSouth-backed) on May 6, 2026, and Seth Linden is now a senior leader in the integrated platform. Newly-integrated PR firms predictably overspend in the 60-90 days after close: client onboarding into the new Infinite footprint, plus an open crypto/fintech media relations specialist req still live on LinkedIn = overflow window. ACTION: Don't apply to the FT specialist req; instead, send a direct LinkedIn note to Seth Linden positioning Mark as a senior freelance media counselor available for integration-period overflow, with explicit list of 3-4 sample fintech/crypto pitch angles he could land in week one. Follow with a second outbound to Infinite's NY/EMEA Comms partners 7 days later. Worst case: get on the agency's freelance bench at $125-175/hr."
+    },
+    {
+      "name": "Method Communications",
+      "website": "https://www.methodcommunications.com",
+      "pipeline": "pr-freelance",
+      "industry": "Integrated PR Agency (fintech, B2B tech, consumer tech, AI)",
+      "location": "New York, NY (HQ Salt Lake City + NYC + SF)",
+      "fundingStage": "Privately held mid-sized PR agency",
+      "fitScore": 45,
+      "intentScore": 15,
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 15,
+        "workstream": 10,
+        "buyer_quality": 0,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 0,
+        "remote_flex": 0,
+        "recency": 5,
+        "urgency_signals": 5,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "comms",
+      "engagementModel": "contract",
+      "buyerType": "agency",
+      "compensationText": "Not disclosed (typical mid-tier agency VP comp $185-$240K FT, freelance VP overflow $135-185/hr)",
+      "remoteFlag": "onsite",
+      "employmentTypeRaw": "Full-time (VP, Fintech Public Relations) — pitch as freelance VP for overflow",
+      "urgencyScore": 55,
+      "contacts": [
+        { "name": "Method Communications — Head of Fintech Practice", "title": "Practice Lead / SVP Fintech (hiring manager)", "email": "join@methodcommunications.com", "linkedin": "" },
+        { "name": "Method Communications — Talent Acquisition", "title": "Recruiter", "email": "join@methodcommunications.com", "linkedin": "" }
+      ],
+      "signals": [
+        "open_req_vp_fintech_public_relations_nyc",
+        "fintech_practice_growth_signal",
+        "active_role_posted_april_2026_still_open",
+        "mid_sized_agency_known_to_use_freelance_bench"
+      ],
+      "source": "LinkedIn",
+      "sourceUrl": "https://www.linkedin.com/jobs/view/vice-president-fintech-public-relations-at-method-communications-4398089297",
+      "notes": "Combined 60, B grade. Method is a mid-sized integrated PR agency with a dedicated fintech practice (plus B2B tech, consumer tech, AI). They've had a VP, Fintech Public Relations req open since early April; six weeks of recruitment is the classic mid-funnel point where agencies absorb a senior freelancer to keep the practice billing while they finish the search. ACTION: Email join@methodcommunications.com referencing the open VP fintech req and pitching senior freelance overflow at a stated rate ($150-175/hr or $15-22K/mo retainer for 60-80 hrs). Parallel LinkedIn note to the fintech practice lead with three specific story angles he could pitch their existing book in week one."
+    },
+    {
+      "name": "M Booth",
+      "website": "https://mbooth.com",
+      "pipeline": "pr-freelance",
+      "industry": "Integrated PR Agency (Corporate Affairs, B2B, Tech, Consumer, Health)",
+      "location": "New York, NY (remote from 21 US states + DC)",
+      "fundingStage": "Established mid-large PR agency (~40 yrs, part of NEXT15 holding company)",
+      "fitScore": 45,
+      "intentScore": 20,
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 10,
+        "workstream": 10,
+        "buyer_quality": 0,
+        "urgency": 5
+      },
+      "intentDetails": {
+        "engagement_model": 0,
+        "remote_flex": 10,
+        "recency": 5,
+        "urgency_signals": 0,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "thought-leadership",
+      "engagementModel": "contract",
+      "buyerType": "agency",
+      "compensationText": "Posted salary band $136,000-$165,000 (FT). Freelance VP overflow benchmark $125-175/hr",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Full-time (VP, Earned Media Strategy — Corporate Affairs/B2B). Remote-eligible from 21 states. Pitchable as interim while search runs.",
+      "urgencyScore": 60,
+      "contacts": [
+        { "name": "Jeremy Mullman", "title": "Head of Media Relations (recently joined to lead the practice this req sits in)", "email": "", "linkedin": "" },
+        { "name": "M Booth — VP, Talent / Recruiting", "title": "Talent Acquisition", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "vp_earned_media_strategy_corporate_b2b_open",
+        "remote_eligible_21_states_including_ny_nj_ma_ca_il_tx",
+        "remit_includes_thought_leadership_executive_visibility_geo_seo",
+        "8_to_10_plus_years_required_senior_band",
+        "active_on_pr_net_jobs_board_2026",
+        "nexth_holding_company_backed_agency",
+        "jeremy_mullman_recently_joined_to_lead_media_relations_practice_buildout"
+      ],
+      "source": "The PR Net",
+      "sourceUrl": "https://www.theprnet.com/jobs/16870",
+      "notes": "Combined 65, B grade. M Booth's open VP, Earned Media Strategy (Corporate Affairs/B2B) req is one of the cleanest matches Mark will see all month: corporate storytelling, executive media training, thought leadership, GEO/SEO integration, B2B/tech/professional services — every line of the JD reads like his resume. Jeremy Mullman recently joined to lead media relations and is actively building the practice (active buildout = overflow demand). Remote-eligible from 21 states means it's not gated to NYC residency. ACTION: Apply directly via the PR Net link (lowest-friction apply path), then send Jeremy Mullman a LinkedIn note within 48 hours referencing the application and offering an immediate 60-day interim engagement to cover marquee client work while the FT search runs. Salary band ($136-165K) is below Mark's senior freelance day-rate equivalent, so interim retainer is the better commercial frame."
+    },
+    {
+      "name": "Tide",
+      "website": "https://www.tide.co",
+      "pipeline": "pr-freelance",
+      "industry": "Fintech / SME Business Banking (UK + India + Germany)",
+      "location": "London, UK (hybrid; some EU/India satellite)",
+      "fundingStage": "Late-stage VC-backed (Apax Digital, Augmentum, LocalGlobe, etc.)",
+      "fitScore": 40,
+      "intentScore": 15,
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 15,
+        "workstream": 5,
+        "buyer_quality": 0,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 0,
+        "remote_flex": 0,
+        "recency": 5,
+        "urgency_signals": 5,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "comms",
+      "engagementModel": "interim",
+      "buyerType": "operating-company",
+      "compensationText": "Not disclosed (UK fintech Head of Comms band typically £100-150K + equity FT; interim day-rate £800-1,200)",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Full-time (Head of Communications). Pitchable as interim during open search.",
+      "urgencyScore": 50,
+      "contacts": [
+        { "name": "Tide — Chief Marketing Officer", "title": "CMO (likely hiring manager)", "email": "", "linkedin": "" },
+        { "name": "Tide — Talent Acquisition Lead", "title": "Senior Recruiter (via Greenhouse)", "email": "", "linkedin": "https://job-boards.greenhouse.io/tide" }
+      ],
+      "signals": [
+        "head_of_communications_open_req_active",
+        "vc_backed_fintech_business_banking_sme_segment",
+        "uk_anchored_hybrid_no_us_remote",
+        "competitive_uk_fintech_pr_market_extended_search_likely",
+        "cross_posted_startup_jobs_greenhouse_linkedin"
+      ],
+      "source": "startup.jobs / Greenhouse",
+      "sourceUrl": "https://startup.jobs/vc-backed-fintech-startup-head-of-communications-tidebanking-95650",
+      "notes": "Combined 55, C grade. UK SME business-banking fintech with an active Head of Communications search. Sector fit is strong (fintech / financial services) but London hybrid expectation is the friction point for a US-anchored freelancer. The pitch here is interim coverage — Tide will spend 4-6 months recruiting a London-based Head of Comms, and the in-house team needs a senior interim during that window. ACTION: Light-touch outbound only — LinkedIn note to the CMO offering 2-3 days/week of remote interim coverage from US, anchored on US/transatlantic media work (FT, WSJ, American Banker, TechCrunch) so Mark's geography becomes an asset, not a liability. If they decline, this drops into the 'fintech-pipeline trends' watchlist for the next scrape."
+    }
+  ]
+}

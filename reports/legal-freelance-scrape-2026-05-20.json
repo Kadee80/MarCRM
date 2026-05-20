@@ -1,0 +1,287 @@
+{
+  "scrapeDate": "2026-05-20",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 6,
+  "note": "Deduped against legal-freelance reports from 2026-05-06 through 2026-05-19. 7-day window. LinkedIn URLs found via Google/Bing only — no direct LinkedIn scraping. Only leads scoring 55+ retained.",
+  "leads": [
+    {
+      "name": "Latitude Legal — Corporate Attorney, Investment Funds (Remote Contract #6939)",
+      "website": "https://latitudelegal.com/",
+      "pipeline": "legal-freelance",
+      "industry": "Flexible legal staffing / Private equity & venture client",
+      "location": "Remote (US — anywhere)",
+      "fundingStage": "Established (Chambers-ranked since 2013)",
+      "fitScore": 50,
+      "intentScore": 50,
+      "fitDetails": {
+        "practice_area": "Investment funds / VC financing / fund finance — direct fit with Katie's fund-formation lane",
+        "seniority": "5+ years law firm or VC firm investment transaction experience",
+        "comp_credible": "$225K–$300K annualized contract pay",
+        "fund_focus": "Core mandate: investment transactions, structuring/negotiating financing, diligence, fund formation for PE/VC client"
+      },
+      "intentDetails": {
+        "engagement_model": "Remote contract engagement (Latitude flexible-staffing model)",
+        "remote_flex": "Fully remote, candidates can be anywhere in US",
+        "recency": "Active posting on Latitude open opportunities, indexed via Jobright as job 6939c49b56b68f3dc4e724d8",
+        "apply_path": "Direct application via latitudelegal.com/jobs — easy apply, Latitude recruiter follow-up"
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "contract",
+      "buyerType": "staffing",
+      "compensationText": "$225,000–$300,000 annualized; full benefits at 20+ hrs/wk (medical, dental, 401k, CLE stipend)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contract engagement (W-2 via Latitude)",
+      "urgencyScore": 80,
+      "contacts": [
+        {
+          "name": "Latitude Talent Acquisition",
+          "title": "Recruiter",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/latitude-legal"
+        }
+      ],
+      "signals": [
+        "VC/PE client direct mandate",
+        "Fund formation experience explicitly listed",
+        "Latitude already running 4+ remote fund/corp roles — pipeline depth",
+        "Investment transactions + financings is Katie's exact lane"
+      ],
+      "source": "Latitude Legal (open opportunities) + Jobright.ai aggregator",
+      "sourceUrl": "https://jobright.ai/jobs/info/6939c49b56b68f3dc4e724d8",
+      "notes": "Highest-fit lead of this run. Same staffing firm Katie has been tracking on prior scrapes (5/12, 5/14, 5/19). New posting variant explicitly fund/VC focused. Pitch angle: emphasize fund-side documentation experience, LPAs/side letters, and bandwidth for 20+ hrs/wk to unlock full benefits."
+    },
+    {
+      "name": "Startup Venture Advisors (SVA) — Fractional Senior Attorney (Remote)",
+      "website": "https://www.fractionaljobs.io/jobs/senior-attorney-at-startup-venture-advisors",
+      "pipeline": "legal-freelance",
+      "industry": "Boutique startup/VC law firm",
+      "location": "Remote-first (CA bar required)",
+      "fundingStage": "Boutique law firm",
+      "fitScore": 50,
+      "intentScore": 45,
+      "fitDetails": {
+        "practice_area": "Startup and venture capital fund representation — formation, financings, M&A",
+        "seniority": "6+ years sophisticated corporate practice",
+        "comp_credible": "Law-firm rate band (not posted explicitly but standard for fractional partner-track)",
+        "fund_focus": "Firm represents both emerging companies and the funds that invest in them"
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional or full-time — candidate's choice",
+        "remote_flex": "Fully remote-first firm culture",
+        "recency": "Posted on FractionalJobs.io (active board for fractional roles)",
+        "apply_path": "Direct application via FractionalJobs listing"
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "fractional",
+      "buyerType": "law-firm",
+      "compensationText": "Not stated (law-firm rate; flexible fractional or FT)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional or full-time, remote",
+      "urgencyScore": 70,
+      "contacts": [
+        {
+          "name": "SVA Hiring",
+          "title": "Recruiting",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "Explicitly hires fractional",
+        "Reps both startups AND the funds that invest in them — perfect 2-sided fit",
+        "Remote-first culture",
+        "Boutique = direct partner-level work, no big-law overhead"
+      ],
+      "source": "FractionalJobs.io",
+      "sourceUrl": "https://www.fractionaljobs.io/jobs/senior-attorney-at-startup-venture-advisors",
+      "notes": "Strong-fit boutique. CA bar is the gate — if Katie has CA bar (or reciprocity path) this is a clean fractional entry. Pitch angle: dual-track experience reping both GP/LP fund work AND portfolio-co support."
+    },
+    {
+      "name": "Allocate — Senior Fund Formation Attorney (Remote, U.S.)",
+      "website": "https://www.allocate.co/",
+      "pipeline": "legal-freelance",
+      "industry": "Wealthtech / private markets investment platform",
+      "location": "Remote (US)",
+      "fundingStage": "Growth-stage VC-backed",
+      "fitScore": 50,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Fund formation, onboarding, fund filings, regulatory compliance, corporate governance",
+        "seniority": "6+ years fund formation (in-house or law firm)",
+        "comp_credible": "Market-credible (Allocate is well-funded; fund-formation attorneys at this seniority $170K-$220K range)",
+        "fund_focus": "Core mandate — entire fund-formation function"
+      },
+      "intentDetails": {
+        "engagement_model": "Remote in-house role (open to contract per Ladders listing)",
+        "remote_flex": "Fully remote in U.S.",
+        "recency": "Active posting on Ladders + BeBee + Allocate careers page",
+        "apply_path": "Allocate careers page direct apply"
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "contract",
+      "buyerType": "operating-company",
+      "compensationText": "Not posted publicly; market-credible for fund formation specialist",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Full-time or contract, remote",
+      "urgencyScore": 65,
+      "contacts": [
+        {
+          "name": "Allocate Talent",
+          "title": "Recruiting",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/allocate-private-markets"
+        }
+      ],
+      "signals": [
+        "Explicit fund formation focus — LPAs, side letters, regulatory filings",
+        "Platform company supporting GPs and LPs",
+        "6+ years requirement = senior counsel band",
+        "May open as contract-to-hire"
+      ],
+      "source": "TheLadders.com + Allocate careers",
+      "sourceUrl": "https://www.theladders.com/job/fund-formation-attorney-remote-in-u-s-allocate-virtual-travel_83653051",
+      "notes": "Could be pitched as fractional/contract embedded counsel — Allocate's platform model means lots of GP/LP fund work. Worth a direct outreach even if posted as FT; many growth-stage cos open to part-time at senior level."
+    },
+    {
+      "name": "Latitude Legal — Fractional Franchise Counsel (Remote, Part-Time Engagement)",
+      "website": "https://latitudelegal.com/",
+      "pipeline": "legal-freelance",
+      "industry": "Health & wellness national franchisor (Latitude client)",
+      "location": "Remote (anchored Austin, TX)",
+      "fundingStage": "Established franchisor",
+      "fitScore": 30,
+      "intentScore": 50,
+      "fitDetails": {
+        "practice_area": "Franchise law — MUTAs, transfers, terminations, multi-state compliance. Adjacent to commercial contracts; not core fund/VC.",
+        "seniority": "5+ years franchise law (or transferable commercial contract experience)",
+        "comp_credible": "$270K–$320K annualized — strong",
+        "fund_focus": "None — franchise/operating-company work"
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional, part-time engagement",
+        "remote_flex": "Fully remote",
+        "recency": "Active listing via Glassdoor + Latitude",
+        "apply_path": "Latitude direct apply"
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "Min $270,000 – Max $320,000 annualized",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional part-time contract engagement",
+      "urgencyScore": 70,
+      "contacts": [
+        {
+          "name": "Latitude Talent Acquisition",
+          "title": "Recruiter",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/latitude-legal"
+        }
+      ],
+      "signals": [
+        "Fully fractional + remote + high comp",
+        "Latitude relationship (multiple roles in pipeline)",
+        "Adjacent practice area — pitch if franchise-side experience is in book"
+      ],
+      "source": "Glassdoor (Latitude posting)",
+      "sourceUrl": "https://www.glassdoor.com/job-listing/fractional-franchise-counsel-remote-part-time-engagement-latitude-JV_IC1139761_KO0,56_KE57,65.htm",
+      "notes": "Off the central ICP (franchise vs fund/corporate) but the structural fit is excellent — fractional, remote, high comp, Latitude already a known channel. Skip if Katie has no franchise reps; include if she'd take adjacent commercial work."
+    },
+    {
+      "name": "Galt Pharmaceuticals — Fractional Compliance Counsel (Atlanta Metro / Remote, 15-18 hrs/wk)",
+      "website": "https://galtpharma.com/",
+      "pipeline": "legal-freelance",
+      "industry": "Pharmaceuticals (specialty / branded)",
+      "location": "Atlanta Metro (hybrid/remote, flex office)",
+      "fundingStage": "Privately-held growth pharma",
+      "fitScore": 25,
+      "intentScore": 45,
+      "fitDetails": {
+        "practice_area": "Ethics & compliance program design, federal/state/international regulatory adherence. Adjacent to corporate governance; not fund-side.",
+        "seniority": "5+ years pharma/biotech compliance, 3-5 yrs leadership",
+        "comp_credible": "$102K–$165K annualized for part-time",
+        "fund_focus": "None"
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional, 15-18 hrs/wk",
+        "remote_flex": "Hybrid — flex office in Atlanta",
+        "recency": "Active LinkedIn posting (May 2026)",
+        "apply_path": "LinkedIn easy apply + direct LinkedIn message to Galt"
+      },
+      "vertical": "legal",
+      "subvertical": "compliance",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "$102,000 – $165,000 estimated for fractional engagement",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Fractional, 15-18 hrs/wk",
+      "urgencyScore": 60,
+      "contacts": [
+        {
+          "name": "Galt Pharmaceuticals — CEO/Co-Founder",
+          "title": "CEO",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/galt-pharmaceuticals"
+        }
+      ],
+      "signals": [
+        "Direct fractional model, structured at 15-18 hrs/wk",
+        "Reports directly to CEO (decision-maker access)",
+        "Industry-specific (pharma) — fits if Katie has pharma/biotech reps; otherwise a stretch"
+      ],
+      "source": "LinkedIn (via Google indexed result)",
+      "sourceUrl": "https://www.linkedin.com/jobs/view/fractional-compliance-counsel-remote-at-galt-pharmaceuticals-4358312431",
+      "notes": "Lower fit on practice area (pharma compliance vs fund/corp). Include only if Katie wants to broaden into healthcare-adjacent fractional work. Strong structural signal — explicit fractional, CEO-reporting."
+    },
+    {
+      "name": "Robert Half — Commercial Contracts Attorney (Remote, Facility Services, $57-66/hr)",
+      "website": "https://www.roberthalf.com/us/en/jobs/all/remote-attorney",
+      "pipeline": "legal-freelance",
+      "industry": "Nationwide facility services operations (RH end-client)",
+      "location": "Remote (anchored Oceanside, CA)",
+      "fundingStage": "Established (RH end-client, undisclosed)",
+      "fitScore": 30,
+      "intentScore": 45,
+      "fitDetails": {
+        "practice_area": "Commercial agreements supporting nationwide facility services — vendor, customer, procurement, SaaS contracts",
+        "seniority": "Day-to-day legal support; 4-8 years contracts experience typical",
+        "comp_credible": "$57–$66/hr (annualized ~$118-137K full-time equivalent)",
+        "fund_focus": "None — pure commercial contracts"
+      },
+      "intentDetails": {
+        "engagement_model": "Long-term contract via Robert Half",
+        "remote_flex": "Fully remote",
+        "recency": "Active Robert Half posting (May 2026)",
+        "apply_path": "Robert Half direct apply"
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "contract",
+      "buyerType": "staffing",
+      "compensationText": "$57.00 – $66.00 USD / hour",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Long-term contract (W-2 via Robert Half)",
+      "urgencyScore": 65,
+      "contacts": [
+        {
+          "name": "Robert Half Legal Recruiter",
+          "title": "Recruiter",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/robert-half-international"
+        }
+      ],
+      "signals": [
+        "Commercial contracts core practice area",
+        "Long-term contract (steady utilization)",
+        "Lower comp band — bandwidth play, not premium engagement"
+      ],
+      "source": "Robert Half",
+      "sourceUrl": "https://www.roberthalf.com/us/en/jobs/all/remote-attorney",
+      "notes": "Off the premium ICP on comp ($57-66/hr vs Katie's typical $125+/hr targets), but Robert Half is a useful staffing channel relationship to maintain. Consider as filler bandwidth or as an entry to RH's broader counsel pipeline."
+    }
+  ]
+}

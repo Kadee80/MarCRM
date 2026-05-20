@@ -1,0 +1,303 @@
+{
+  "scrapeDate": "2026-05-18",
+  "scrapeType": "pr-freelance",
+  "totalLeads": 6,
+  "note": "ENHANCED PR Freelance pipeline scrape. 7-day window across LinkedIn (Google-indexed), Indeed, ZipRecruiter, startup.jobs, web3.career, Mediabistro, and aggregator boards. Deduped against pr-freelance-scrape reports from 2026-04-30 through 2026-05-15. Mix of explicit freelance/contract roles (Lemonade, Carwow, Liftoff) and full-time openings worth pitching freelance/interim coverage on while client hires (Tether, BitGo, Ethos). Lemonade is the strongest fit: a six-month NYC-or-remote contract anchored in agency management and earned media — exactly Mark's wheelhouse.",
+  "leads": [
+    {
+      "name": "Lemonade",
+      "website": "https://www.lemonade.com",
+      "pipeline": "pr-freelance",
+      "industry": "Insurtech / Financial Services",
+      "location": "New York, NY (or Remote)",
+      "fundingStage": "Public (NYSE: LMND)",
+      "fitScore": 50,
+      "intentScore": 40,
+      "fitDetails": {
+        "pr_remit": "Senior Comms Manager, contract — explicit earned media + corporate comms + agency management",
+        "sector_fit": "Insurance/fintech — directly in Mark's sweet spot",
+        "workstream": "Earned media strategy, narrative crafting, agency partner management, comms ops scaling",
+        "buyer_quality": "Public insurtech in 'critical growth moment' — well-funded, senior in-house team",
+        "urgency": "6-month defined contract with weekly comp range published — they need someone now"
+      },
+      "intentDetails": {
+        "engagement_model": "Contract (6-month term, weekly billing $2,800–$3,300)",
+        "remote_flex": "NYC or fully remote",
+        "recency": "Posted ~1 month ago; still active across LinkedIn/Lemonade careers page",
+        "urgency_signals": "Defined term + agency-management remit + 'fast-moving comms function' language",
+        "apply_path": "Direct apply via makers.lemonade.com careers page"
+      },
+      "vertical": "pr",
+      "subvertical": "comms",
+      "engagementModel": "contract",
+      "buyerType": "operating-company",
+      "compensationText": "$2,800–$3,300 USD weekly + benefits",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contract (temporary, 6 months)",
+      "urgencyScore": 80,
+      "contacts": [
+        {
+          "name": "Corporate Communications hiring team",
+          "title": "Director of Communications (hiring manager — name not public)",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/lemonade-inc-/"
+        }
+      ],
+      "signals": [
+        "Explicit 6-month contract",
+        "Remote-friendly",
+        "Public company / earnings cycle comms",
+        "Agency management = ideal for senior freelancer who has run agencies",
+        "Weekly pay band published = procurement-ready"
+      ],
+      "source": "Lemonade Careers (cross-posted LinkedIn, RevOps Careers, ZipHire)",
+      "sourceUrl": "https://makers.lemonade.com/recipe/senior-communications-manager-contract-new-york-united-states-b5eb139d",
+      "notes": "Highest-priority lead this week. Mark should apply directly AND reach out on LinkedIn to current Lemonade comms leadership offering coverage. Even if they hire someone, the agency-management language suggests room for a parallel retainer."
+    },
+    {
+      "name": "Tether",
+      "website": "https://tether.io",
+      "pipeline": "pr-freelance",
+      "industry": "Crypto / Stablecoin / Fintech",
+      "location": "Remote (no geo restriction)",
+      "fundingStage": "Private (profitable, multi-billion revenue)",
+      "fitScore": 45,
+      "intentScore": 25,
+      "fitDetails": {
+        "pr_remit": "PR Manager role explicitly stated — media relations, narrative, crisis-adjacent given regulatory pressure",
+        "sector_fit": "Crypto/fintech — Mark's financial-comms background translates directly",
+        "workstream": "Media relations, executive comms, reputation/crisis management",
+        "buyer_quality": "Largest stablecoin issuer; high-profile, scrutiny-heavy brand",
+        "urgency": "Live posting, open until filled"
+      },
+      "intentDetails": {
+        "engagement_model": "Full-time per posting, BUT high candidate-search burden + reputational stakes = strong fit for interim/fractional bridge",
+        "remote_flex": "100% remote, no geo restriction",
+        "recency": "Active in May 2026; appears on web3.career, cryptocurrencyjobs.co, Tether's own board",
+        "urgency_signals": "Crypto firms historically take months to fill senior PR — interim coverage is easy pitch",
+        "apply_path": "Apply via careers.tether.io / Tether Recruitee"
+      },
+      "vertical": "pr",
+      "subvertical": "media-relations",
+      "engagementModel": "contract",
+      "buyerType": "operating-company",
+      "compensationText": "Not disclosed",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Full-time (pitchable as interim/contract)",
+      "urgencyScore": 60,
+      "contacts": [
+        {
+          "name": "Tether Talent / Comms hiring team",
+          "title": "",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/tether-operations-limited/"
+        }
+      ],
+      "signals": [
+        "100% remote, no geo restriction",
+        "Crypto/stablecoin — Mark's fintech background is rare in this niche",
+        "High-pressure reputational environment = need for senior interim coverage",
+        "Open-ended timeline favors interim pitch"
+      ],
+      "source": "Cryptocurrencyjobs.co + Tether careers",
+      "sourceUrl": "https://cryptocurrencyjobs.co/marketing/tether-pr-manager/",
+      "notes": "Pitch angle: 'Senior interim PR/comms coverage while you complete your search.' Even if Tether locks in a full-timer, the role's scope (global media, regulators, executive narrative) virtually guarantees they'll need agency/contractor support afterward."
+    },
+    {
+      "name": "Ethos Technologies",
+      "website": "https://www.ethoslife.com",
+      "pipeline": "pr-freelance",
+      "industry": "Insurtech / Life Insurance Fintech",
+      "location": "Palo Alto, CA (remote-friendly)",
+      "fundingStage": "Public (NASDAQ: LIFE — IPO Jan 2026)",
+      "fitScore": 50,
+      "intentScore": 20,
+      "fitDetails": {
+        "pr_remit": "Post-IPO comms need is structural: earnings narrative, analyst-day prep, investor media, executive thought leadership",
+        "sector_fit": "Life-insurance fintech — Sequoia/Accel/SoftBank backed, exactly Mark's ICP",
+        "workstream": "Investor narrative, executive comms, thought leadership, earned media for product launches",
+        "buyer_quality": "Newly public $1.1B-valuation fintech with growth thesis to defend each quarter",
+        "urgency": "First post-IPO earnings cycle — comms ramp-up is happening now"
+      },
+      "intentDetails": {
+        "engagement_model": "No public job posting — outbound pitch lead for retainer/project work",
+        "remote_flex": "HQ Palo Alto but post-IPO comms often runs distributed",
+        "recency": "IPO closed Jan 2026; comms infrastructure still maturing",
+        "urgency_signals": "Quarterly earnings cadence creates predictable retainer windows",
+        "apply_path": "Direct outreach to Head of Comms / IR via LinkedIn"
+      },
+      "vertical": "pr",
+      "subvertical": "investor-pr",
+      "engagementModel": "consultant",
+      "buyerType": "pre-ipo",
+      "compensationText": "",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Outbound pitch — no posting",
+      "urgencyScore": 55,
+      "contacts": [
+        {
+          "name": "Ethos Comms / IR team",
+          "title": "Head of Comms / Head of IR (identify via LinkedIn)",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/ethoslife/"
+        }
+      ],
+      "signals": [
+        "Fresh IPO Jan 2026 ($200M raised at $19/share)",
+        "Insurtech-adjacent fintech — Mark's wheelhouse",
+        "Backed by Sequoia/Accel/GV/SoftBank",
+        "Survived insurtech consolidation — strong narrative to build on",
+        "Quarterly reporting cadence creates ongoing retainer opportunity"
+      ],
+      "source": "S-1 + post-IPO coverage (IPOScoop, S&P Global, TechBuzz)",
+      "sourceUrl": "https://www.iposcoop.com/ipo/ethos-technologies-corp/",
+      "notes": "Outbound lead, not a posted role. Mark should map the comms/IR org via LinkedIn and offer specialized post-IPO retainer support: media training for new public-company execs, earnings press strategy, analyst-day prep. Many newly public companies in this size band still rely on outside counsel for ~12 months."
+    },
+    {
+      "name": "carwow",
+      "website": "https://www.carwow.co.uk",
+      "pipeline": "pr-freelance",
+      "industry": "Auto Marketplace / Consumer Tech (B2C + B2B)",
+      "location": "London, UK (hybrid)",
+      "fundingStage": "VC-backed (Accel, Balderton — late stage)",
+      "fitScore": 40,
+      "intentScore": 25,
+      "fitDetails": {
+        "pr_remit": "PR & Communications Manager role explicitly framed as Freelance/Contract",
+        "sector_fit": "Not core (auto/marketplace), but consumer brand with strong B2B side; transferable",
+        "workstream": "Media relations, brand storytelling, product launch comms",
+        "buyer_quality": "Established VC-backed scaleup, real PR function",
+        "urgency": "Posting live; freelance framing means they want someone fast"
+      },
+      "intentDetails": {
+        "engagement_model": "Explicit Freelance / Contract",
+        "remote_flex": "London-based, hybrid expected",
+        "recency": "Recent — actively cross-posted on startup.jobs, Wellfound, Workable",
+        "urgency_signals": "Freelance framing on a typically full-time role suggests gap-fill",
+        "apply_path": "Easy apply via startup.jobs / Workable"
+      },
+      "vertical": "pr",
+      "subvertical": "comms",
+      "engagementModel": "freelance",
+      "buyerType": "operating-company",
+      "compensationText": "",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Freelance / Contract",
+      "urgencyScore": 55,
+      "contacts": [
+        {
+          "name": "carwow Talent / Comms hiring team",
+          "title": "",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/carwow/"
+        }
+      ],
+      "signals": [
+        "Explicit Freelance / Contract framing",
+        "Cross-posted across multiple boards — active hiring",
+        "Established VC-backed company with real PR ops",
+        "Location skew (UK) is a constraint — pitch as US/international media lead or remote project"
+      ],
+      "source": "startup.jobs / Workable / Wellfound",
+      "sourceUrl": "https://startup.jobs/pr-communications-manager-freelance-contract-carwowuk-3822328",
+      "notes": "Lower priority due to UK location, but rare to see an explicit freelance PR Manager posting. If Mark is open to US-based remote project work for European brands, this is a viable angle. Otherwise treat as market signal."
+    },
+    {
+      "name": "Liftoff",
+      "website": "https://liftoff.io",
+      "pipeline": "pr-freelance",
+      "industry": "Mobile Ad-tech / SaaS",
+      "location": "Remote (US, preferred Pacific Time)",
+      "fundingStage": "PE-backed (Blackstone)",
+      "fitScore": 30,
+      "intentScore": 30,
+      "fitDetails": {
+        "pr_remit": "Internal Communications Manager — primarily internal, NOT external media",
+        "sector_fit": "Ad-tech / B2B SaaS — adjacent to Mark's ICP but not core financial",
+        "workstream": "Internal comms (emails, Slack, intranet, exec talking points) — narrower than Mark's typical scope",
+        "buyer_quality": "PE-backed (Blackstone) SaaS scaleup, mature comms function",
+        "urgency": "Hourly contract — they want someone billable now"
+      },
+      "intentDetails": {
+        "engagement_model": "Full-time hourly contract",
+        "remote_flex": "Remote, preferred Pacific Time but US-wide eligibility",
+        "recency": "Active live posting",
+        "urgency_signals": "Hourly billing structure + 4+ yrs requirement = procurement-ready",
+        "apply_path": "Apply via Built In / RemoteRocketship / company careers"
+      },
+      "vertical": "pr",
+      "subvertical": "comms",
+      "engagementModel": "contract",
+      "buyerType": "operating-company",
+      "compensationText": "Competitive market rate (hourly), benefits",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Full-time contract, hourly",
+      "urgencyScore": 55,
+      "contacts": [
+        {
+          "name": "Director of Communications, Employee Experience & Engagement",
+          "title": "Hiring Manager",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/liftoff-mobile/"
+        }
+      ],
+      "signals": [
+        "Hourly contract structure",
+        "Remote US",
+        "PE-backed buyer — procurement-friendly",
+        "Internal comms only (narrower than Mark's typical media-relations work)"
+      ],
+      "source": "Built In SF / RemoteRocketship",
+      "sourceUrl": "https://www.remoterocketship.com/company/liftoff-io/jobs/communications-manager-contract-united-states",
+      "notes": "Lower fit because it's internal comms, but the engagement structure (hourly contract, remote, PE-backed) is exactly the procurement pattern Mark is set up for. Worth applying if Mark wants steady billable hours; pitch his media-relations chops as a bonus."
+    },
+    {
+      "name": "BitGo",
+      "website": "https://www.bitgo.com",
+      "pipeline": "pr-freelance",
+      "industry": "Crypto Custody / Digital Asset Infrastructure",
+      "location": "San Francisco, CA",
+      "fundingStage": "Late-stage VC, IPO-track",
+      "fitScore": 45,
+      "intentScore": 10,
+      "fitDetails": {
+        "pr_remit": "Communications Manager — full external/media remit",
+        "sector_fit": "Crypto/fintech infrastructure — strong fit for financial-comms operator",
+        "workstream": "Media relations, executive comms, regulatory narrative",
+        "buyer_quality": "Major institutional crypto custodian, regulated entity",
+        "urgency": "Live posting on Greenhouse + LinkedIn"
+      },
+      "intentDetails": {
+        "engagement_model": "Full-time perm (pitch interim/fractional during search)",
+        "remote_flex": "San Francisco-based, hybrid",
+        "recency": "Active May 2026",
+        "urgency_signals": "Crypto-comms talent scarce — interim coverage compelling",
+        "apply_path": "Direct apply via greenhouse"
+      },
+      "vertical": "pr",
+      "subvertical": "media-relations",
+      "engagementModel": "contract",
+      "buyerType": "operating-company",
+      "compensationText": "",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Full-time (pitchable as interim)",
+      "urgencyScore": 45,
+      "contacts": [
+        {
+          "name": "BitGo Talent",
+          "title": "",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/bitgo/"
+        }
+      ],
+      "signals": [
+        "Crypto custody / institutional crypto — Mark's financial-comms angle is rare in this niche",
+        "Regulated entity — needs PR ops that understands compliance language",
+        "SF location is a constraint for purely remote engagement"
+      ],
+      "source": "BitGo Greenhouse / LinkedIn",
+      "sourceUrl": "https://job-boards.greenhouse.io/bitgo",
+      "notes": "Lower intent score because it's posted as full-time perm and SF-anchored. Best play is outbound: 'I can plug in as interim Head of Comms while you complete your search.' Realistic close probability is lower than Lemonade but worth a single touchpoint."
+    }
+  ]
+}
