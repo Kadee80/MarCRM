@@ -1,0 +1,306 @@
+{
+  "scrapeDate": "2026-05-20",
+  "totalLeads": 7,
+  "note": "Daily MarCRM scrape — 4 pr-marketing leads driven by May 19 funding announcements (Eisen, Transient.AI, Runware, Armada) + 3 legal-freelance contract postings (Major Lindsey & Africa fund formation, two Latitude Legal contract roles). All deduped against reports from May 14-19. Signal refresh on Bunch confirms the May 19 Series B trigger — pitch immediately.",
+  "leads": [
+    {
+      "name": "Eisen",
+      "website": "https://www.eisen.io",
+      "pipeline": "pr-marketing",
+      "industry": "Regtech / fintech compliance infrastructure (escheatment)",
+      "location": "United States (remote-first)",
+      "fundingStage": "Series A — $10M (May 19, 2026); $18.5M total to date",
+      "fitScore": 45,
+      "intentScore": 38,
+      "fitDetails": {
+        "industryMatch_FS_Tech": 10,
+        "stage_size_growth": 10,
+        "clear_B2B_buyer_sales_motion": 10,
+        "proof_assets_customers_data": 10,
+        "budget_5k_25k_per_month": 5
+      },
+      "intentDetails": {
+        "trigger_launch_raise_rebrand_expansion": 15,
+        "timeline_to_start_0_30_days": 8,
+        "decision_maker_engaged": 5,
+        "urgency_pain_reputation_pipeline": 5,
+        "responsiveness": 5
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "Allen Osgood", "title": "Co-Founder & CEO", "email": "", "linkedin": "https://www.linkedin.com/in/allenosgood/" }
+      ],
+      "signals": [
+        "Series A $10M led by MissionOG announced May 19, 2026 — total raised now $18.5M",
+        "Existing customers include Adyen, Binance.US, BitGo, OKX, PeoplesBank — credible logo set for media",
+        "Index Ventures, Cowboy Ventures, First Round Capital, Restive Ventures backed seed; MissionOG led A",
+        "Compliance ops infrastructure for fintechs holding customer funds — clear B2B story",
+        "Monitors ~$16B across tens of millions of accounts at ~50 companies — strong proof data",
+        "Estimated $700M in crypto escheated in 2026 — TAM narrative for thought leadership"
+      ],
+      "source": "Fortune / PRNewswire / Finovate / Finsmes",
+      "sourceUrl": "https://fortune.com/2026/05/19/eisen-18-million-recover-funds-state-governments/",
+      "notes": "Classic post-raise PR moment: regtech narrative, fintech buyers, sophisticated investor list, big-name customers. Pitch a 90-day comms sprint or retainer on the $700M crypto escheatment narrative + the Adyen/BitGo customer logos. CEO Allen Osgood is a credible spokesperson. PE/VC-backed fintech with B2B buyers fits the pr-marketing ICP cleanly."
+    },
+    {
+      "name": "Transient.AI",
+      "website": "https://transient.ai",
+      "pipeline": "pr-marketing",
+      "industry": "AI for institutional capital markets (regulated trading workflows)",
+      "location": "New York, NY",
+      "fundingStage": "Series A (May 18-19, 2026) — led by NEXT Investors",
+      "fitScore": 45,
+      "intentScore": 38,
+      "fitDetails": {
+        "industryMatch_FS_Tech": 10,
+        "stage_size_growth": 10,
+        "clear_B2B_buyer_sales_motion": 10,
+        "proof_assets_customers_data": 10,
+        "budget_5k_25k_per_month": 5
+      },
+      "intentDetails": {
+        "trigger_launch_raise_rebrand_expansion": 15,
+        "timeline_to_start_0_30_days": 8,
+        "decision_maker_engaged": 5,
+        "urgency_pain_reputation_pipeline": 5,
+        "responsiveness": 5
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [],
+      "signals": [
+        "Series A announced May 18-19, 2026, led by NEXT Investors (capital-markets-infra PE firm)",
+        "Use of funds explicitly: 'accelerate global go-to-market expansion' across Americas, EMEA, APAC",
+        "AI Operating System for institutional trading — front-to-back office workflow",
+        "PE backing implies installed-base playbook and credibility-sensitive sale — fits agency ICP",
+        "NYC-headquartered, B2B financial services — exact fit for Mark's PR & marketing pipeline"
+      ],
+      "source": "BusinessWire / Morningstar / SaaSNews",
+      "sourceUrl": "https://www.businesswire.com/news/home/20260518566321/en/NEXT-Investors-Invests-in-Transient.AI-Series-A-to-Advance-AI-Innovation-in-Regulated-Capital-Markets",
+      "notes": "Strong post-raise lead. Global GTM expansion explicitly named in use-of-funds → they need press across three regions on a compressed timeline. PE-backed institutional trading platform = high-credibility sale, retainer-friendly. Pitch a launch comms + media-relations engagement for the Americas → EMEA → APAC sequence."
+    },
+    {
+      "name": "Runware",
+      "website": "https://runware.ai",
+      "pipeline": "pr-marketing",
+      "industry": "AI infrastructure (multi-modal inference platform)",
+      "location": "Distributed (founded 2023)",
+      "fundingStage": "Series A — $50M led by Dawn Capital; $66M total to date",
+      "fitScore": 40,
+      "intentScore": 33,
+      "fitDetails": {
+        "industryMatch_FS_Tech": 8,
+        "stage_size_growth": 10,
+        "clear_B2B_buyer_sales_motion": 8,
+        "proof_assets_customers_data": 9,
+        "budget_5k_25k_per_month": 5
+      },
+      "intentDetails": {
+        "trigger_launch_raise_rebrand_expansion": 15,
+        "timeline_to_start_0_30_days": 6,
+        "decision_maker_engaged": 4,
+        "urgency_pain_reputation_pipeline": 4,
+        "responsiveness": 4
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "Ioana Hreninciuc", "title": "Co-Founder", "email": "", "linkedin": "https://www.linkedin.com/in/ioanahreninciuc" }
+      ],
+      "signals": [
+        "$50M Series A led by Dawn Capital; participation from Comcast Ventures, Speedinvest, Insight Partners, a16z speedrun",
+        "10B+ generations powered for 200k+ developers — strong proof data for press",
+        "Plans 20+ inference PODs across EU + US cities in 2026 — infrastructure build-out narrative",
+        "Goal: 'one API for all AI' — strong category story",
+        "Sonic Inference Engine claims 30-40% perf gains vs rivals, 5-10x cost cut — defensible metrics"
+      ],
+      "source": "TechCrunch / Runware blog / TFN",
+      "sourceUrl": "https://runware.ai/blog/runware-raises-50m-series-a-to-power-all-intelligent-applications",
+      "notes": "Slightly weaker on intent than Eisen/Transient because announcement was December 2025 with continuing press May 2026. But the inference-POD build-out gives a recurring narrative arc — could pitch ongoing retainer to tell the story of each new POD opening. Developer-tools audience overlaps with B2B SaaS messaging."
+    },
+    {
+      "name": "Armada",
+      "website": "https://armada.ai",
+      "pipeline": "pr-marketing",
+      "industry": "AI infrastructure / modular data centers (defense, energy, mining)",
+      "location": "United States (Arizona factory; HQ distributed)",
+      "fundingStage": "Series B — $230M at $2B valuation (May 19, 2026)",
+      "fitScore": 35,
+      "intentScore": 35,
+      "fitDetails": {
+        "industryMatch_FS_Tech": 7,
+        "stage_size_growth": 10,
+        "clear_B2B_buyer_sales_motion": 8,
+        "proof_assets_customers_data": 5,
+        "budget_5k_25k_per_month": 5
+      },
+      "intentDetails": {
+        "trigger_launch_raise_rebrand_expansion": 15,
+        "timeline_to_start_0_30_days": 6,
+        "decision_maker_engaged": 5,
+        "urgency_pain_reputation_pipeline": 4,
+        "responsiveness": 5
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [],
+      "signals": [
+        "Series B $230M at $2B pre-money valuation announced May 19, 2026",
+        "Co-led by Overmatch, 8090 Industries, BlackRock (new investor)",
+        "New strategic investors: Johnson Controls, NightDragon, Mitsui, Singtel Innov8",
+        "400,000-sq-ft Arizona factory partnership with Johnson Controls — 500+ jobs",
+        "Customer bookings grew 540% FY25→FY26; Q1 FY27 up 2,000% YoY",
+        "Sells into US military, mining, telecom, oil & gas — multi-vertical narrative"
+      ],
+      "source": "PRNewswire / CNBC / TechStartups",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/armada-announces-agreement-with-johnson-controls-for-galleon-forge-one-raises-230m-in-oversubscribed-series-b-with-a-pre-money-valuation-of-2b-to-accelerate-deployment-of-the-us-ai-stack-and-support-explosive-customer-demand--302775720.html",
+      "notes": "Borderline fit — defense/military exposure may not be Mark's preferred client profile, and BlackRock-backed unicorns typically have established comms. Including as B-priority because the Johnson Controls factory partnership, the 540% / 2,000% growth metrics, and the multi-vertical AI-infra narrative are all strong PR hooks. Worth a low-effort outreach to assess fit before committing capacity."
+    },
+    {
+      "name": "Major, Lindsey & Africa — Interim Fund Formation Attorney (Remote, 4+ months PT)",
+      "website": "https://www.mlaglobal.com/en/services/interim-legal-talent",
+      "pipeline": "legal-freelance",
+      "industry": "Legal staffing — interim placement for a law firm client",
+      "location": "Remote (US)",
+      "fundingStage": "",
+      "fitScore": 45,
+      "intentScore": 50,
+      "fitDetails": {
+        "fund_private_funds_fund_formation": 20,
+        "corporate_commercial_M_A_financing": 5,
+        "seniority_counsel_GC_special_counsel": 10,
+        "comp_stated_market_credible": 10
+      },
+      "intentDetails": {
+        "engagement_model_fractional_interim_contract": 15,
+        "remote_or_hybrid_flex": 15,
+        "posted_within_72_hours": 10,
+        "easy_apply_direct_contact_path": 10
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "interim",
+      "buyerType": "law-firm",
+      "compensationText": "Not stated publicly; MLA Interim Legal Talent typically markets in $150-275/hr range",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Interim / part-time contract via Major, Lindsey & Africa",
+      "urgencyScore": 90,
+      "contacts": [],
+      "signals": [
+        "Posting explicitly says 'immediate need' for an Interim Fund Formation Attorney",
+        "10+ years fund formation required — squarely in Mark's wheelhouse",
+        "Engagement is 4+ months part-time — recurring revenue, not one-shot",
+        "Client is a law firm — overflow / specialist support pattern Mark targets",
+        "Securities Act of 1933, '34 Exchange Act, '40 Act / Advisers Act fluency required"
+      ],
+      "source": "Major, Lindsey & Africa via LinkedIn / ZipRecruiter",
+      "sourceUrl": "https://www.linkedin.com/jobs/view/interim-fund-formation-attorney-at-major-lindsey-africa-4214491155",
+      "notes": "A-grade lead. MLA Interim is exactly the channel partner pattern in the Mark ICP — they place fractional/interim counsel into law firms and operating companies. Apply ASAP; previous MLA interim postings (5/18) closed quickly. Resume framing: '10+ years private-funds + 1940 Act fluency, available for 4+ month remote engagement.'"
+    },
+    {
+      "name": "Latitude Legal — Corporate Transactional Attorney (Silicon Valley software company, Remote)",
+      "website": "https://latitudelegal.com/jobs/",
+      "pipeline": "legal-freelance",
+      "industry": "Legal staffing — Silicon Valley enterprise software client",
+      "location": "Fully remote (US)",
+      "fundingStage": "",
+      "fitScore": 35,
+      "intentScore": 45,
+      "fitDetails": {
+        "fund_private_funds_fund_formation": 5,
+        "corporate_commercial_M_A_financing": 10,
+        "seniority_counsel_GC_special_counsel": 10,
+        "comp_stated_market_credible": 10
+      },
+      "intentDetails": {
+        "engagement_model_fractional_interim_contract": 15,
+        "remote_or_hybrid_flex": 15,
+        "posted_within_72_hours": 5,
+        "easy_apply_direct_contact_path": 10
+      },
+      "vertical": "legal",
+      "subvertical": "corporate",
+      "engagementModel": "contract",
+      "buyerType": "operating-company",
+      "compensationText": "Annualized $250,000–$300,000+ (contract)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contract, fully remote",
+      "urgencyScore": 85,
+      "contacts": [],
+      "signals": [
+        "Posting flagged 'immediate need' on Latitude careers page",
+        "Annualized comp $250k-$300k+ — top-of-market for contract corporate work",
+        "Silicon Valley software company client — high-velocity corporate transactions expected",
+        "Latitude tends to roll postings every 60-90 days; this one is fresh in May 2026 batch"
+      ],
+      "source": "Latitude Legal / LinkedIn",
+      "sourceUrl": "https://www.linkedin.com/jobs/view/corporate-transactional-attorney-contract-and-completely-remote-at-latitude-legal-3836032775",
+      "notes": "Strong intent score — Latitude is a proven freelance channel that has placed corporate transactional attorneys for years. Comp is at the top of the band, and 'immediate need' urgency is rare. Fit drops because it's corporate, not fund-formation, but the M&A/financing exposure that came with Latitude #5077 last week suggests this client is highly active."
+    },
+    {
+      "name": "Latitude Legal — M&A Attorney, Global Diversified Conglomerate (Remote Contract)",
+      "website": "https://latitudelegal.com/jobs/",
+      "pipeline": "legal-freelance",
+      "industry": "Legal staffing — global diversified conglomerate in-house team",
+      "location": "Fully remote (US)",
+      "fundingStage": "",
+      "fitScore": 35,
+      "intentScore": 40,
+      "fitDetails": {
+        "fund_private_funds_fund_formation": 5,
+        "corporate_commercial_M_A_financing": 10,
+        "seniority_counsel_GC_special_counsel": 10,
+        "comp_stated_market_credible": 10
+      },
+      "intentDetails": {
+        "engagement_model_fractional_interim_contract": 15,
+        "remote_or_hybrid_flex": 15,
+        "posted_within_72_hours": 5,
+        "easy_apply_direct_contact_path": 5
+      },
+      "vertical": "legal",
+      "subvertical": "M&A",
+      "engagementModel": "contract",
+      "buyerType": "operating-company",
+      "compensationText": "Annualized $175,000–$190,000 (contract)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Long-term contract, fully remote, potential conversion to permanent",
+      "urgencyScore": 75,
+      "contacts": [],
+      "signals": [
+        "Long-term contract with potential conversion to permanent — recurring relationship, not project",
+        "Global conglomerate's in-house team — implies steady transactional flow",
+        "Annualized $175-190k = market-credible band for contract corporate counsel",
+        "Latitude has a strong placement track record — high probability of close"
+      ],
+      "source": "Latitude Legal careers",
+      "sourceUrl": "https://latitudelegal.com/jobs/",
+      "notes": "Solid B-grade lead. Long-term + remote + market comp + Latitude's vetting bar. Less urgent than the Silicon Valley software client posting above. Worth applying as a hedge if the Latitude #5077 (Securities/Corporate Governance) from 5/19 doesn't move."
+    }
+  ]
+}
