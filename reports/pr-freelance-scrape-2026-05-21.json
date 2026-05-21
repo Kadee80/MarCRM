@@ -1,0 +1,303 @@
+{
+  "scrapeDate": "2026-05-21",
+  "scrapeType": "pr-freelance",
+  "totalLeads": 6,
+  "note": "Enhanced PR Freelance scrape — 7-day window. Sources: O'Dwyer's PR firm rankings, The PR Net, Mediabistro, ZipRecruiter, agency career pages (Jobvite/TriNet/Workable), NIRI Career Center. Deduplicated against pr-freelance-scrape and daily-scrape reports 2026-04-30 through 2026-05-20. Skipped repeats already captured: Mission North, Bospar, BerlinRosen, Highwire PR, Antenna Group, Reputation Management Consultants, FINN Partners, Gregory FCA/BackBay, Inkhouse, The Work Crowd, Method Communications, Dukas Linden, M Booth, Caliber Corporate Advisers, Infinite Global, William Mills, Cognito, 5WPR, Crackle PR, Edelman Smithfield, H/Advisors, Haven Tower, Cardinal Communications, Conway Communications, Tether, Lemonade, BitGo, Ethos. This run focuses on financial/professional-services PR firms with explicit or implied freelance benches plus one explicit off-sector freelance posting (flagged). Search clusters covered: freelance PR, fractional/interim comms, agency overflow, white-label PR, contract publicist, earned media consultant, investor-relations comms.",
+  "leads": [
+    {
+      "name": "Prosek Partners",
+      "website": "https://www.prosek.com/",
+      "pipeline": "pr-freelance",
+      "industry": "Financial & Professional Services Communications Firm",
+      "location": "New York / Connecticut / Los Angeles / London / Remote-hybrid",
+      "fundingStage": "Independent (woman-owned, 350+ staff)",
+      "fitScore": 50,
+      "intentScore": 30,
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 15,
+        "workstream": 10,
+        "buyer_quality": 5,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 5,
+        "recency": 5,
+        "urgency_signals": 0,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "investor-pr",
+      "engagementModel": "freelance",
+      "buyerType": "agency",
+      "compensationText": "Not stated; some roles posted as 'freelance assignment with potential to convert to permanent'. Senior financial-PR contractor band est. $150-200/hr.",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Mix of FT and explicit freelance-to-perm assignments (per current postings)",
+      "urgencyScore": 55,
+      "contacts": [
+        {
+          "name": "Prosek Partners — Talent / People Team",
+          "title": "Talent Acquisition",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/cprosek"
+        }
+      ],
+      "signals": [
+        "One of the largest independent financial/professional-services comms firms in the US",
+        "Clients with $60T+ aggregate AUM — dead-center sector match for Mark",
+        "Explicitly uses freelance assignments (some roles 'begin as freelance with potential to convert')",
+        "16% avg annual growth — sustained capacity demand",
+        "2024 PRWeek Best Place to Work — strong brand for a freelancer's resume"
+      ],
+      "source": "Zippia + Prosek careers",
+      "sourceUrl": "https://www.zippia.com/prosek-partners-careers-1476312/jobs/new-york-ny/",
+      "notes": "Top fit this run. Pure financial/professional-services comms firm that openly uses freelance-to-perm engagements. Best route: apply to a current freelance assignment with capital-markets / investor-narrative samples and explicitly position for project/retainer rather than perm conversion. Mark's IR-adjacent executive comms maps directly to their client book."
+    },
+    {
+      "name": "KCSA Strategic Communications",
+      "website": "https://www.kcsa.com/",
+      "pipeline": "pr-freelance",
+      "industry": "Financial PR + Investor Relations Firm",
+      "location": "New York / Boston / Chicago / Remote",
+      "fundingStage": "Independent (~101 staff, ~$32M revenue)",
+      "fitScore": 50,
+      "intentScore": 30,
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 15,
+        "workstream": 10,
+        "buyer_quality": 5,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 10,
+        "remote_flex": 10,
+        "recency": 5,
+        "urgency_signals": 0,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "investor-pr",
+      "engagementModel": "contract",
+      "buyerType": "ir-firm",
+      "compensationText": "Not stated; AE base ~$76K (Glassdoor). Senior contractor day-rate negotiated per engagement.",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Current openings incl. NYC (Remote); contract-friendly account structure",
+      "urgencyScore": 55,
+      "contacts": [
+        {
+          "name": "KCSA — Talent / Recruiting",
+          "title": "Talent Acquisition",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/kcsa-strategic-communications"
+        }
+      ],
+      "signals": [
+        "Combined IR + financial PR firm — directly serves capital-markets transactions (IPO, SPAC, reverse mergers, up-listings)",
+        "Active openings including NYC (Remote)",
+        "IPO/APO One Program means recurring transaction-driven surge work",
+        "Three offices (NY/Boston/Chicago) = broad media bench + overflow needs"
+      ],
+      "source": "KCSA careers",
+      "sourceUrl": "https://www.kcsa.com/careers",
+      "notes": "Strong sector fit — one of the cleaner IR-comms matches for Mark's investor-narrative + executive-comms strength. Transaction-driven model (IPOs, SPACs, uplistings) creates episodic overflow that suits freelance. Pitch: senior freelance IR-comms operator available for transaction surges and ongoing media relations, fully remote."
+    },
+    {
+      "name": "JConnelly",
+      "website": "https://www.jconnelly.com/",
+      "pipeline": "pr-freelance",
+      "industry": "Financial Services PR & Digital Marketing Agency",
+      "location": "New York / New Jersey / Chicago / DC / Florida / Las Vegas / Barcelona / Remote",
+      "fundingStage": "Independent (founder-led, est. 2003)",
+      "fitScore": 50,
+      "intentScore": 25,
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 15,
+        "workstream": 10,
+        "buyer_quality": 5,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 5,
+        "remote_flex": 10,
+        "recency": 5,
+        "urgency_signals": 0,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "media-relations",
+      "engagementModel": "contract",
+      "buyerType": "agency",
+      "compensationText": "Open Account Supervisor leads $300-600K retainer accounts; contractor rates negotiated per engagement.",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Open Account Supervisor (FT) + nationwide distributed staff; boutique flexible on engagement",
+      "urgencyScore": 50,
+      "contacts": [
+        {
+          "name": "JConnelly — Talent",
+          "title": "Recruiting",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/jconnelly"
+        }
+      ],
+      "signals": [
+        "Financial services is a core named practice (RIAs, wealth, fintech)",
+        "Named a Top Agency Storyteller for 2026 — credible media brand",
+        "Operates 'with the grit of a boutique' but distributed nationwide — freelancer-friendly",
+        "Active Account Supervisor req ($300-600K retainer book) signals account-level capacity gaps"
+      ],
+      "source": "JConnelly careers (Jobvite) + ZipRecruiter",
+      "sourceUrl": "https://jobs.jobvite.com/jconnelly",
+      "notes": "Core financial-services PR practice and a nationwide distributed model make this a good overflow target even though the visible req is FT. Pitch: senior freelance account lead who can absorb a $300-600K retainer book's media-relations execution on a contract basis. Lead with wealth/RIA/fintech narrative samples."
+    },
+    {
+      "name": "FiComm Partners",
+      "website": "https://ficommpartners.com/",
+      "pipeline": "pr-freelance",
+      "industry": "Financial Services Communications & Growth Marketing (RIAs, asset managers, wealthtech)",
+      "location": "Los Angeles / New York / Remote",
+      "fundingStage": "Independent",
+      "fitScore": 50,
+      "intentScore": 25,
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 15,
+        "workstream": 10,
+        "buyer_quality": 5,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 5,
+        "remote_flex": 10,
+        "recency": 5,
+        "urgency_signals": 0,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "comms",
+      "engagementModel": "contract",
+      "buyerType": "agency",
+      "compensationText": "Communications Consultant est. avg ~$105K FT (Glassdoor range $79K-$141K); contractor scaled.",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Multiple current openings (leadership, client execution, content); uses 'Communications Consultant' title",
+      "urgencyScore": 50,
+      "contacts": [
+        {
+          "name": "FiComm Partners — Careers",
+          "title": "Talent Acquisition",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/ficomm-partners"
+        }
+      ],
+      "signals": [
+        "Singular focus on financial services (RIAs, asset managers, custodians, broker/dealers, wealthtech)",
+        "Named a Top Agency Storyteller for 2026",
+        "Active openings across leadership, client execution, and content",
+        "'Communications Consultant' role title implies consultative/contract-friendly structures"
+      ],
+      "source": "FiComm Partners careers",
+      "sourceUrl": "https://ficommpartners.com/who-we-are/careers",
+      "notes": "Purest wealth/asset-management sector fit in this run. Embedded growth partner model for RIAs and asset managers overlaps Mark's financial executive-comms and thought-leadership work. Pitch: senior freelance comms consultant for RIA/asset-manager clients — earned media + executive thought leadership."
+    },
+    {
+      "name": "The James Collective",
+      "website": "https://www.theprnet.com/jobs/1745",
+      "pipeline": "pr-freelance",
+      "industry": "Boutique PR Agency (food, beverage, hospitality)",
+      "location": "Remote (NYC-based candidates preferred)",
+      "fundingStage": "Boutique / Private",
+      "fitScore": 35,
+      "intentScore": 35,
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 0,
+        "workstream": 10,
+        "buyer_quality": 5,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 10,
+        "recency": 5,
+        "urgency_signals": 0,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "media-relations",
+      "engagementModel": "freelance",
+      "buyerType": "agency",
+      "compensationText": "Part-time, 10-20 hours/month, freelance retainer (rate negotiated).",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Explicit freelance PR & Media Relations Consultant — part-time 10-20 hrs/month",
+      "urgencyScore": 60,
+      "contacts": [
+        {
+          "name": "The James Collective — Hiring",
+          "title": "Agency Principal / Hiring Manager",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "Explicit freelance / part-time posting (10-20 hrs/month) — rare clean engagement model",
+        "Remote with NYC preference — fits Mark's geography",
+        "Media relations + influencer engagement remit",
+        "Live listing on The PR Net jobs board"
+      ],
+      "source": "The PR Net",
+      "sourceUrl": "https://www.theprnet.com/jobs/1745",
+      "notes": "OFF-ICP SECTOR (food/beverage/hospitality, not financial) — included only because it is one of the few explicit, clean freelance postings this week (textbook engagement model: remote, part-time, 10-20 hrs/month). Low strategic fit for Mark's financial book; pursue only as a fast-start filler engagement or skip. Flagged so Mark can decide whether to diversify."
+    },
+    {
+      "name": "Peppercomm",
+      "website": "https://www.peppercomm.com/",
+      "pipeline": "pr-freelance",
+      "industry": "Integrated Communications & Marketing Agency (financial services practice; a Ruder Finn company)",
+      "location": "New York / Remote-hybrid",
+      "fundingStage": "Ruder Finn company",
+      "fitScore": 45,
+      "intentScore": 20,
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 10,
+        "workstream": 10,
+        "buyer_quality": 5,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 5,
+        "remote_flex": 5,
+        "recency": 5,
+        "urgency_signals": 0,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "comms",
+      "engagementModel": "contract",
+      "buyerType": "agency",
+      "compensationText": "Not stated; agency contractor rates per engagement.",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Not confirmed freelance this week — monitor career page",
+      "urgencyScore": 45,
+      "contacts": [
+        {
+          "name": "Peppercomm — Talent",
+          "title": "Recruiting",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/peppercomm"
+        }
+      ],
+      "signals": [
+        "Established integrated comms agency with a financial services practice (O'Dwyer's directory)",
+        "Ruder Finn backing = scale + broader client base that generates overflow",
+        "NYC base aligned with Mark's geography",
+        "Lower-confidence: active freelance req not confirmed this week"
+      ],
+      "source": "O'Dwyer's PR Firms Directory",
+      "sourceUrl": "https://www.odwyerpr.com/pr_firms_database/1570/peppercomm.html",
+      "notes": "MONITOR / lower-confidence lead. Legit financial-services PR practice and NYC presence, but no explicit freelance/contract req confirmed this week. Worth a soft LinkedIn outreach to the financial practice lead and a watch on the career page rather than an immediate application. Included to keep a warm relationship target in the pipeline."
+    }
+  ]
+}
