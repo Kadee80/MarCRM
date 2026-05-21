@@ -1,0 +1,150 @@
+{
+  "scrapeDate": "2026-05-21",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 3,
+  "note": "Scrape time 07:05 EDT. Deduped against legal-freelance reports 2026-05-06 through 2026-05-20, plus pr-freelance and daily reports for 2026-05-19/20. 7-day window. LinkedIn/aggregator postings surfaced via Google/Bing index only — no direct LinkedIn scraping. Only leads scoring 55+ retained. This cycle skewed corporate/contracts: the fund-formation lane (Katie's strongest) produced only recurring roles already captured (Latitude, Allocate, Ontra, Ropes & Gray, Axiom), so no NEW fund-specific posting cleared the dedup filter today.",
+  "leads": [
+    {
+      "name": "Major, Lindsey & Africa — Interim Chief Corporate & Sustainability Counsel (Remote, ~$133/hr)",
+      "website": "https://www.mlaglobal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Interim legal staffing (MLA) placing into a global low-/high-voltage electrical architecture manufacturer",
+      "location": "Remote (US; some travel required)",
+      "fundingStage": "Established (MLA Interim Legal Talent; end-client global manufacturer)",
+      "fitScore": 30,
+      "intentScore": 45,
+      "fitDetails": {
+        "practice_area": "Corporate governance, securities compliance, M&A/divestitures, strategic partnerships, SEC reporting, shareholder/IR matters — strong corporate/securities fit; not fund-side",
+        "seniority": "Chief-level legal executive, 15+ years progressive corporate/securities experience, team leadership",
+        "comp_credible": "$133/hour stated — market-credible interim senior rate",
+        "fund_focus": "None — operating-company corporate/securities + ESG/sustainability mandate"
+      },
+      "intentDetails": {
+        "engagement_model": "Interim engagement via MLA Interim Legal Talent (W-2 contract)",
+        "remote_flex": "Remote with some travel",
+        "recency": "Active 'immediate need' MLA interim posting (May 2026); exact post date not confirmed within 72h",
+        "apply_path": "MLA recruiter / LinkedIn + ACC Jobline easy apply"
+      },
+      "vertical": "legal",
+      "subvertical": "corporate",
+      "engagementModel": "interim",
+      "buyerType": "staffing",
+      "compensationText": "$133.00 / hour",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Interim engagement (W-2 via Major, Lindsey & Africa)",
+      "urgencyScore": 70,
+      "contacts": [
+        {
+          "name": "MLA Interim Legal Talent — Recruiting",
+          "title": "Interim Legal Talent Recruiter",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/major-lindsey-&-africa"
+        }
+      ],
+      "signals": [
+        "Interim engagement model — Katie's core lane",
+        "Corporate governance + securities compliance + M&A = direct senior-counsel fit",
+        "$133/hr stated, market-credible",
+        "MLA is a high-value interim channel to develop (prior MLA roles tracked 5/18, daily 5/20)",
+        "Chief-level / 15+ yrs and ESG/sustainability scope may be a stretch vs. Katie's fund/corporate core"
+      ],
+      "source": "Major, Lindsey & Africa — Interim Legal Talent (via ACC Jobline / Indeed index)",
+      "sourceUrl": "https://jobline.acc.com/e-major-lindsey-africa-jobs.html",
+      "notes": "Combined 75 / Grade B. The standout new lead this cycle. Strong on engagement model (interim), comp ($133/hr) and corporate/securities practice; weaker because there is no fund component and the role is pitched at Chief/15+ yr level with an ESG/sustainability overlay. Pitch angle: lead with corporate-governance + securities-compliance + M&A reps and interim availability; position the sustainability/ESG piece as 'can stand up the disclosure/compliance framework.' Even if this specific seat is a stretch, reply to the MLA recruiter to get into their interim corporate/securities and fund-formation inventory — channel-development move (MLA has posted multiple interim corporate/fund roles in recent weeks)."
+    },
+    {
+      "name": "Stealth Startup (via FractionalJobs.io) — Fractional Legal Counsel, Compensation & Benefits (Remote, ~10 hrs/wk)",
+      "website": "https://www.fractionaljobs.io/jobs/fractional-legal-counsel-stealth-startup",
+      "pipeline": "legal-freelance",
+      "industry": "Venture-backed stealth startup (first legal hire)",
+      "location": "Remote (US)",
+      "fundingStage": "Venture-backed, stealth / early-stage",
+      "fitScore": 15,
+      "intentScore": 50,
+      "fitDetails": {
+        "practice_area": "Executive compensation & benefits — phantom stock, profit-sharing, ESOPs. Adjacent to corporate; HARD GATE: posting states it is not a fit without demonstrated comp & benefits specialism",
+        "seniority": "Among first members of the team; senior fractional counsel expected",
+        "comp_credible": "Not stated (fractional GC market context ~$5K–$25K/mo)",
+        "fund_focus": "None"
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional, ongoing, ~10 hrs/week",
+        "remote_flex": "Fully remote",
+        "recency": "Newly posted on FractionalJobs.io (active fractional board)",
+        "apply_path": "Direct application via FractionalJobs.io listing"
+      },
+      "vertical": "legal",
+      "subvertical": "corporate",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "Not stated (fractional engagement; market ~$5K–$25K/mo)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional, ~10 hrs/week, ongoing",
+      "urgencyScore": 60,
+      "contacts": [
+        {
+          "name": "FractionalJobs.io Hiring (stealth startup — name withheld)",
+          "title": "Hiring Manager / Founder",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "Explicit fractional + part-time + remote — ideal structure",
+        "First legal hire = direct founder access and scope to expand mandate",
+        "HARD GATE: requires executive comp & benefits specialism (phantom stock, ESOPs)",
+        "Off Katie's fund/corporate core unless she has exec-comp reps"
+      ],
+      "source": "FractionalJobs.io",
+      "sourceUrl": "https://www.fractionaljobs.io/jobs/fractional-legal-counsel-stealth-startup",
+      "notes": "Combined 65 / Grade B on structure, C on practice fit. Excellent engagement signal (fractional, ~10 hrs/wk, remote, first legal hire) but the posting is explicit that comp & benefits / executive-compensation expertise is mandatory and disqualifies generalists. SKIP unless Katie has genuine exec-comp/ESOP reps. Included because it is a clean, datable fractional legal posting and a useful read on where fractional demand is forming (early-stage cos hiring narrow-specialist fractional counsel rather than broad GC)."
+    },
+    {
+      "name": "Remote Fractional General Counsel — EdTech & K-12 Contracts (New York, via JobLeads)",
+      "website": "https://www.jobleads.com/us/job/remote-fractional-general-counsel-edtech-k-12-contracts--new-york--effbaf6798ea3808bdf1e461350959a31",
+      "pipeline": "legal-freelance",
+      "industry": "EdTech / K-12 education technology",
+      "location": "Remote (New York-based)",
+      "fundingStage": "Not stated (operating EdTech company)",
+      "fitScore": 20,
+      "intentScore": 45,
+      "fitDetails": {
+        "practice_area": "Commercial contracts for an EdTech/K-12 business — vendor, customer, district/procurement, data-privacy-adjacent contracting. Corporate/contracts fit; not fund-side",
+        "seniority": "Fractional General Counsel — senior generalist",
+        "comp_credible": "Not stated",
+        "fund_focus": "None"
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional general counsel",
+        "remote_flex": "Fully remote",
+        "recency": "Listed on JobLeads aggregator; exact post date not confirmed within 72h",
+        "apply_path": "JobLeads listing apply"
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "Not stated",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional general counsel (part-time)",
+      "urgencyScore": 60,
+      "contacts": [
+        {
+          "name": "JobLeads listing (employer name withheld)",
+          "title": "Hiring Manager",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "Fractional + remote structure — good fit on engagement model",
+        "Commercial-contracts core (Katie has contracts reps)",
+        "EdTech/K-12 sector contracting (data privacy / district procurement adjacency)",
+        "Aggregator sourcing — confirm freshness and that it is not a recruiter relisting"
+      ],
+      "source": "JobLeads.com",
+      "sourceUrl": "https://www.jobleads.com/us/job/remote-fractional-general-counsel-edtech-k-12-contracts--new-york--effbaf6798ea3808bdf1e461350959a31",
+      "notes": "Combined 65 / Grade B. Fractional + remote + commercial-contracts core = a clean, workable lead, just off Katie's premium fund lane. Pitch angle: lead with commercial-contracting volume management and EdTech data-privacy/district-procurement comfort. Confirm freshness on the underlying posting (JobLeads aggregates), then apply directly to the source employer if identifiable."
+    }
+  ]
+}
