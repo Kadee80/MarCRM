@@ -1,0 +1,229 @@
+{
+  "scrapeDate": "2026-05-21",
+  "totalLeads": 5,
+  "note": "Daily MarCRM scrape — 4 pr-marketing leads + 1 media lead, all driven by May 19-20 funding announcements (Moment $78M Series C, Radar $170M Series B, Unframe $50M Series B, Viktor $75M Series A, Mythik $5M extension). Moment is the standout: NYC fintech 'AI OS for investment management', customers managing $10T+, ex-Citadel founders. Freelance pipelines (legal-freelance, pr-freelance) surfaced only already-deduped postings this cycle (MLA, Latitude, Allocate, Axiom, Lemonade, Mom Project all in DB through 5/20); no fresh verifiable non-LinkedIn-scraped postings cleared the bar. Signal refresh confirms Bunch Series B closed 5/19 (pitch window open) and Lemonade is still staffing comms twice over (contract + Director). All deduped against reports May 12-20.",
+  "leads": [
+    {
+      "name": "Moment",
+      "website": "https://moment.com",
+      "pipeline": "pr-marketing",
+      "industry": "Fintech / wealthtech — 'AI operating system' for investment management (unifies trading, portfolio management, and compliance across asset classes in a single data model)",
+      "location": "New York, NY",
+      "fundingStage": "Series C — $78M closed 2026-05-19, led by Index Ventures with Andreessen Horowitz, Avra, and Lightspeed. Follows a $36M Series B (July 2025). Total raised $134M.",
+      "fitScore": 47,
+      "intentScore": 36,
+      "fitDetails": {
+        "industryMatch_FS_Tech": 10,
+        "stage_size_growth": 9,
+        "clear_B2B_buyer_sales_motion": 10,
+        "proof_assets_customers_data": 10,
+        "budget_5k_25k_per_month": 8
+      },
+      "intentDetails": {
+        "trigger_launch_raise_rebrand_expansion": 15,
+        "timeline_to_start_0_30_days": 8,
+        "decision_maker_engaged": 5,
+        "urgency_pain_reputation_pipeline": 5,
+        "responsiveness": 3
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "Dylan Parker", "title": "Co-Founder & CEO, Moment", "email": "", "linkedin": "" },
+        { "name": "Dean Hathout", "title": "Co-Founder, Moment", "email": "", "linkedin": "" },
+        { "name": "Ammer Soliman", "title": "Co-Founder, Moment", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "Series C $78M led by Index Ventures announced 2026-05-19; total raised now $134M",
+        "Platform now powers investment management for firms managing $10T+ in client assets, up from $300B less than 18 months ago",
+        "Named customers: Edward Jones, Hightower, LPL Financial — marquee wealth-management logos",
+        "Founded by former quants and traders from Citadel Securities — credible, press-ready founders",
+        "Backed by Index Ventures (lead, also led Series B), a16z, Lightspeed — sophisticated investor narrative",
+        "'AI OS for investment management' is a clean category-creation story for thought leadership / earned media"
+      ],
+      "source": "Daily Scrape 2026-05-21 (Tech Startups VC roundup 2026-05-19; GlobeNewswire; Index Ventures; Finextra; PYMNTS)",
+      "sourceUrl": "https://www.globenewswire.com/news-release/2026/05/19/3297569/0/en/moment-raises-78-million-as-largest-wealth-firms-standardize-on-its-ai-operating-system-for-investment-management.html",
+      "notes": "Top lead of the day (combined 83, A). Textbook post-raise pr-marketing moment in Mark's exact wheelhouse — NYC fintech/wealthtech with FS buyers, growth stage, a category-defining narrative ('AI OS for investment management'), and an extraordinary proof point ($300B -> $10T client assets in 18 months). Pitch a 90-day comms sprint or a retainer built on the $10T milestone + the Edward Jones / Hightower / LPL logo set + the ex-Citadel founder story. Risk: a $134M-raised company may already have in-house comms or an agency — first-touch should probe for gaps (earned media, exec thought leadership, category PR) rather than assume greenfield. Founders named in coverage are credible spokespeople."
+    },
+    {
+      "name": "Unframe",
+      "website": "https://unframe.ai",
+      "pipeline": "pr-marketing",
+      "industry": "Enterprise AI — managed AI delivery platform ('The Framery') that turns business requirements into production-ready, model-agnostic AI applications in days; B2B SaaS / enterprise software",
+      "location": "United States / Israel (founded 2024)",
+      "fundingStage": "Series B — $50M closed (announced 2026-05-19) led by Highland Europe; total funding $100M. Investors: Bessemer Venture Partners, Craft Ventures, TLV Partners, Third Point Ventures, Cerca Partners, Vintage Investment Partners.",
+      "fitScore": 42,
+      "intentScore": 32,
+      "fitDetails": {
+        "industryMatch_FS_Tech": 8,
+        "stage_size_growth": 9,
+        "clear_B2B_buyer_sales_motion": 9,
+        "proof_assets_customers_data": 9,
+        "budget_5k_25k_per_month": 7
+      },
+      "intentDetails": {
+        "trigger_launch_raise_rebrand_expansion": 13,
+        "timeline_to_start_0_30_days": 7,
+        "decision_maker_engaged": 4,
+        "urgency_pain_reputation_pipeline": 5,
+        "responsiveness": 3
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [],
+      "signals": [
+        "Series B $50M led by Highland Europe; total funding now $100M",
+        "Hit $100M total contract value (TCV) within 12 months of formal launch",
+        "400% net revenue retention — exceptional proof metric for an enterprise narrative",
+        "Founded 2024 by former Noname Security executives — credible enterprise-security pedigree",
+        "Solves 'pilot purgatory' (enterprise AI stalling before production) — strong category story",
+        "Model-agnostic, deployable in customer cloud / on-prem / managed — enterprise-buyer positioning"
+      ],
+      "source": "Daily Scrape 2026-05-21 (Tech Startups VC roundup 2026-05-19)",
+      "sourceUrl": "https://techstartups.com/2026/05/19/venture-capital-startup-funding-roundup-may-19-2026/",
+      "notes": "Strong B (combined 74). Enterprise-AI delivery platform with standout proof metrics ($100M TCV in 12 months, 400% NRR) and a clean 'we fix pilot purgatory' narrative. Pitch a launch/category-PR + analyst-relations engagement around the Series B and the TCV milestone. Founders not named in public coverage — first-touch outreach should ask for the head of marketing / comms. Tech (not FS) so slightly off Mark's FS center, but a credible B2B enterprise story."
+    },
+    {
+      "name": "Viktor",
+      "website": "https://viktor.ai",
+      "pipeline": "pr-marketing",
+      "industry": "B2B SaaS / agentic productivity — an 'AI coworker' that lives in Slack and Teams, connecting to 3,000+ workplace tools (Google Drive, Meta Ads, Notion) to automate operational work",
+      "location": "United States / Europe",
+      "fundingStage": "Series A — $75M led by Accel; total raised $80M+. Notable angels: Slack co-founders Stewart Butterfield and Cal Henderson, the founder of Vercel, and executives from DeepMind and Figma. Other investors: Bek Ventures, Kaya VC, Inovo VC, Tenacity Capital.",
+      "fitScore": 40,
+      "intentScore": 32,
+      "fitDetails": {
+        "industryMatch_FS_Tech": 8,
+        "stage_size_growth": 9,
+        "clear_B2B_buyer_sales_motion": 8,
+        "proof_assets_customers_data": 8,
+        "budget_5k_25k_per_month": 7
+      },
+      "intentDetails": {
+        "trigger_launch_raise_rebrand_expansion": 14,
+        "timeline_to_start_0_30_days": 7,
+        "decision_maker_engaged": 4,
+        "urgency_pain_reputation_pipeline": 4,
+        "responsiveness": 3
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [],
+      "signals": [
+        "Series A $75M led by Accel; total raised $80M+",
+        "Angel roster is a press hook in itself: Slack co-founders Stewart Butterfield + Cal Henderson, Vercel's founder, DeepMind and Figma execs",
+        "Integrates with 3,000+ workplace tools — strong proof of platform breadth",
+        "Positioned in the 'agentic productivity' / 'do the work' category — clear narrative angle",
+        "Slack/Teams-native distribution = low-friction adoption story for media"
+      ],
+      "source": "Daily Scrape 2026-05-21 (Tech Startups VC roundup 2026-05-19)",
+      "sourceUrl": "https://techstartups.com/2026/05/19/venture-capital-startup-funding-roundup-may-19-2026/",
+      "notes": "Solid B (combined 72). Series A with a marquee angel list that is itself an earned-media hook (Butterfield/Henderson endorsing a Slack-native AI coworker writes its own headline). Pitch a Series-A launch-PR sprint leaning on the angel narrative + the 3,000-integration breadth. Founders not named in coverage; first-touch should ask for marketing lead. Tech (not FS); consumer/prosumer-adjacent productivity, so position carefully for Mark's B2B-finance-leaning brand."
+    },
+    {
+      "name": "Radar",
+      "website": "https://radar.com",
+      "pipeline": "pr-marketing",
+      "industry": "Retail technology / hardware-enabled AI — ceiling-mounted RFID sensor system that tracks store inventory with 99% accuracy for omnichannel retail",
+      "location": "United States",
+      "fundingStage": "Series B — $170M closed 2026-05-19 at a $1B (unicorn) valuation, co-led by Gideon Strategic Partners and Nimble Partners (Align Ventures participating). Total raised $233M+.",
+      "fitScore": 36,
+      "intentScore": 33,
+      "fitDetails": {
+        "industryMatch_FS_Tech": 5,
+        "stage_size_growth": 8,
+        "clear_B2B_buyer_sales_motion": 8,
+        "proof_assets_customers_data": 9,
+        "budget_5k_25k_per_month": 6
+      },
+      "intentDetails": {
+        "trigger_launch_raise_rebrand_expansion": 14,
+        "timeline_to_start_0_30_days": 6,
+        "decision_maker_engaged": 6,
+        "urgency_pain_reputation_pipeline": 4,
+        "responsiveness": 3
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "Spencer Hewett", "title": "Founder & CEO, Radar", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "Series B $170M at $1B unicorn valuation announced 2026-05-19; total raised $233M+",
+        "Named retail customers: Old Navy, American Eagle",
+        "99% inventory accuracy vs. industry norm of 65-70% — strong proof data",
+        "Dropped BOPIS cancellation rates from 25% to 3%; one pilot reported 60% 'shrink' reduction",
+        "Founder/CEO Spencer Hewett named and press-visible"
+      ],
+      "source": "Daily Scrape 2026-05-21 (Tech Startups VC roundup 2026-05-19)",
+      "sourceUrl": "https://techstartups.com/2026/05/19/radar-reaches-unicorn-status-after-raising-170m-to-modernize-physical-retail-with-ai/",
+      "notes": "Borderline B (combined 69). Trigger and proof metrics are excellent (unicorn round, named retail logos, hard ROI numbers), but fit is the weak axis: retail/hardware is off Mark's FS/tech center, and a freshly-minted $1B unicorn most likely already runs an in-house comms team or a large agency. Treat as exploratory — a low-cost first outreach to Spencer Hewett to test whether they want incremental retail-trade / vertical storytelling help around the raise. Deprioritize behind Moment / Unframe / Viktor."
+    },
+    {
+      "name": "Mythik",
+      "website": "https://mythik.com",
+      "pipeline": "media",
+      "industry": "Media technology / entertainment — virtual-production + AI studio bringing history and folktales to a global digital audience; content slate + production-tech platform",
+      "location": "United States (founders ex-Disney / ex-Netflix)",
+      "fundingStage": "Extension round — $5M (announced 2026-05-20), post-money valuation $50M+; extension of a prior $15M raise. Total raised $20M. Investors: Blume Founders Fund, Harsh Jain (Dream11), Rajat Gupta (ISB).",
+      "fitScore": 32,
+      "intentScore": 33,
+      "fitDetails": {
+        "industryMatch_FS_tech": 5,
+        "complexity_high": 7,
+        "credibility_sensitive_sale": 6,
+        "has_distribution_channels": 8,
+        "budget_willingness": 6
+      },
+      "intentDetails": {
+        "signal_present": 14,
+        "timeline_under_30_days": 6,
+        "exec_available": 6,
+        "responsiveness": 3,
+        "clear_goal": 4
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [],
+      "signals": [
+        "$5M extension (post-money >$50M) announced 2026-05-20; total raised $20M",
+        "Founded by former senior executives from Disney and Netflix — credibility-sensitive, distribution-rich",
+        "Uses virtual production + AI to scale a global content slate (history / folktales)",
+        "Funds earmarked to accelerate the content slate and the tech platform — launch/PR runway"
+      ],
+      "source": "Daily Scrape 2026-05-21 (Tech Startups VC roundup 2026-05-20)",
+      "sourceUrl": "https://techstartups.com/2026/05/20/venture-capital-startup-funding-roundup-may-20-2026/",
+      "notes": "B for the media pipeline (combined 65). Media-tech studio with ex-Disney/Netflix pedigree and a fresh raise = a media/podcast/launch-PR opportunity as they scale a content slate. Caveat: as a media company themselves, this may be more partnership than pure client; first-touch should clarify whether they want earned-media / launch support for the slate vs. building it in-house. Founders not named publicly — ask for head of comms / marketing."
+    }
+  ]
+}
