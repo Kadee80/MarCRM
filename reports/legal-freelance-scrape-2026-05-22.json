@@ -1,0 +1,297 @@
+{
+  "scrapeDate": "2026-05-22",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 6,
+  "note": "Legal Freelance pipeline scrape, 7-day window. 6 new leads (3 Grade A, 3 Grade B), all scoring 65+. Deduped against legal-freelance-, pr-freelance-, and daily-scrape reports from 2026-05-15 through 2026-05-21. Excluded this cycle: Lyfecoin Fractional GC (equity-only/deferred cash comp — fails comp-credibility and ICP 'not unpaid' filter); Transamerica Investment Funds Senior Counsel (stale Feb-2025 full-time direct hire); multi-family-office GC (full-time direct hire, low freelance intent). Two top sources (Latitude Legal, Robert Half Legal) recur from prior cycles but the specific postings/role IDs here are new. LinkedIn was not scraped directly — postings surfaced via Google/Bing-indexed results, firm career pages, and ACC Jobline.",
+  "leads": [
+    {
+      "name": "Ropes & Gray — Funds Attorney, Asset Management Group (Remote, Hourly Flexible Engagement)",
+      "website": "https://www.ropesgray.com",
+      "pipeline": "legal-freelance",
+      "industry": "Am Law 100 law firm — Asset Management / Private Funds group, flexible remote attorney program (hourly billable)",
+      "location": "Remote (US)",
+      "fundingStage": "Established (global law firm)",
+      "fitScore": 40,
+      "intentScore": 45,
+      "fitDetails": {
+        "practice_area": 10,
+        "seniority": 10,
+        "comp_credible": 0,
+        "fund_focus": 20
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 15,
+        "recency": 5,
+        "apply_path": 10
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "contract",
+      "buyerType": "law-firm",
+      "compensationText": "Hourly, compensated for billable work (rate not stated)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Flexible/remote attorney program — 100% remote, paid hourly on billable work",
+      "urgencyScore": 60,
+      "contacts": [
+        {
+          "name": "Ropes & Gray Attorney Recruiting",
+          "title": "Legal Talent / Flexible Attorney Recruiting",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/ropes-&-gray-llp"
+        }
+      ],
+      "signals": [
+        "asset_management_private_funds_group",
+        "100_percent_remote",
+        "hourly_billable_flexible_engagement",
+        "am_law_100_brand_quality",
+        "fund_lifecycle_formation_to_ongoing"
+      ],
+      "source": "Legal Freelance Scrape 2026-05-22",
+      "sourceUrl": "https://www.ropesgrayrecruiting.com/en/life-at-ropes-and-gray/positions/funds-attorney-asset-management-group-remote",
+      "notes": "Combined 85 / Grade A — hottest lead this cycle. Dead-center on Katie's premium fund lane: Asset Management / private-funds work at a top-tier firm, 100% remote, hourly/flexible. The hourly-billable structure is exactly the high-judgment, part-time operator model Katie targets. Comp model stated (hourly) but no rate, so comp_credible=0; everything else is full marks on fund focus + remote + flexible engagement. Pitch fund formation + fund-maintenance + LP/GP side-letter reps; position as overflow/specialist capacity for the AM group. Apply via Ropes & Gray flexible-attorney recruiting page."
+    },
+    {
+      "name": "Robert Half Legal — Corporate Counsel, Fund Formation & Investment Structuring (Remote Contract)",
+      "website": "https://www.roberthalf.com",
+      "pipeline": "legal-freelance",
+      "industry": "Legal staffing (Robert Half Legal) placing into a fund sponsor / investment platform — fund formation, investment structuring, complex financial products (incl. renewable energy / infrastructure assets)",
+      "location": "Remote",
+      "fundingStage": "Established staffing firm; end-client investment platform / fund sponsor",
+      "fitScore": 40,
+      "intentScore": 45,
+      "fitDetails": {
+        "practice_area": 10,
+        "seniority": 10,
+        "comp_credible": 0,
+        "fund_focus": 20
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 15,
+        "recency": 5,
+        "apply_path": 10
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "contract",
+      "buyerType": "staffing",
+      "compensationText": "Not stated (Robert Half contract placement; typically market hourly)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contract engagement (via Robert Half Legal)",
+      "urgencyScore": 70,
+      "contacts": [
+        {
+          "name": "Robert Half Legal — Recruiting",
+          "title": "Legal Staffing / Permanent & Contract Recruiter",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/robert-half-legal"
+        }
+      ],
+      "signals": [
+        "fund_formation_and_investment_structuring",
+        "complex_financial_products",
+        "renewable_energy_infrastructure_investment_structuring",
+        "remote_contract_engagement",
+        "robert_half_legal_channel",
+        "transitional_immediate_need"
+      ],
+      "source": "Legal Freelance Scrape 2026-05-22",
+      "sourceUrl": "https://www.roberthalf.com/us/en/jobs/all/corporate-counsel",
+      "notes": "Combined 85 / Grade A. Fund formation + investment structuring is squarely in Katie's ICP, and the contract/remote engagement model is ideal. Renewable-energy / infrastructure investment structuring is an attractive specialism angle. comp_credible=0 because the snippet did not state a rate (Robert Half placements are usually market hourly). Citation is the Robert Half corporate-counsel board (the specific req rotates and was surfaced via the board + indexed snippet) — confirm freshness and pull the live req ID when applying. Pitch fund formation, side letters, SPV/structuring, and financial-product paper; emphasize ability to ramp fast on a transitional/contract basis."
+    },
+    {
+      "name": "Axiom Law — Funds Lawyers Panel (Remote, Flexible Full/Part-Time Engagement)",
+      "website": "https://www.axiomlaw.com",
+      "pipeline": "legal-freelance",
+      "industry": "ALSP / on-demand legal talent — Funds & Investment Management practice (fund formation through ongoing fund operations and compliance)",
+      "location": "Remote (US; flexible)",
+      "fundingStage": "Established ALSP (Permira-backed)",
+      "fitScore": 40,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": 10,
+        "seniority": 10,
+        "comp_credible": 0,
+        "fund_focus": 20
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 15,
+        "recency": 0,
+        "apply_path": 10
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "Not stated (Axiom engagement; market hourly / day-rate)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Flexible engagement — full or part-time, on-demand via Axiom talent platform",
+      "urgencyScore": 50,
+      "contacts": [
+        {
+          "name": "Axiom Talent — Funds Practice",
+          "title": "Talent / Engagement Manager",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/axiom-law"
+        }
+      ],
+      "signals": [
+        "funds_lifecycle_formation_to_operations",
+        "investment_management_and_compliance",
+        "remote_full_or_part_time_flexible",
+        "alsp_panel_channel_development",
+        "on_demand_high_caliber_legal_talent"
+      ],
+      "source": "Legal Freelance Scrape 2026-05-22",
+      "sourceUrl": "https://www.axiomlaw.com/practice-areas/funds",
+      "notes": "Combined 80 / Grade A — channel-development lead rather than a single dated posting. Axiom is a high-volume ALSP placing fund lawyers on flexible (full/part-time, remote) engagements; getting onto its funds panel creates a recurring pipeline that fits Katie's fund-formation specialism. recency=0 (panel, no posting date). Treat like a relationship play: apply to Axiom's talent network for the funds/investment-management practice. Axiom has also posted discrete contract roles (e.g., Securities & Prime Brokerage Counsel logged 2026-05-19), so being on-panel surfaces those first."
+    },
+    {
+      "name": "Latitude Legal — Corporate Attorney, Venture Capital Financing (Remote Contract #5064)",
+      "website": "https://latitudelegal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Flexible legal talent (ALSP) — startup / high-growth company VC financing (seed through venture rounds)",
+      "location": "Remote (US)",
+      "fundingStage": "Established ALSP; end-clients startup/high-growth companies",
+      "fitScore": 30,
+      "intentScore": 45,
+      "fitDetails": {
+        "practice_area": 10,
+        "seniority": 10,
+        "comp_credible": 10,
+        "fund_focus": 0
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 15,
+        "recency": 5,
+        "apply_path": 10
+      },
+      "vertical": "legal",
+      "subvertical": "financing",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "~$225,000–$300,000 annualized (Latitude emerging-companies / VC band)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Remote contract engagement (Latitude Legal)",
+      "urgencyScore": 65,
+      "contacts": [
+        {
+          "name": "Latitude Legal — Attorney Recruiting",
+          "title": "Attorney Placement / Recruiting",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/latitude-legal"
+        }
+      ],
+      "signals": [
+        "venture_capital_financing_seed_to_vc",
+        "term_sheets_stock_purchase_agreements",
+        "6_plus_years_startup_high_growth",
+        "remote_contract_engagement",
+        "comp_band_225k_300k_stated",
+        "latitude_flexible_legal_channel"
+      ],
+      "source": "Legal Freelance Scrape 2026-05-22",
+      "sourceUrl": "https://latitudelegal.com/jobs/5064",
+      "notes": "Combined 75 / Grade B. Venture-financing work (term sheets, SPAs, seed→VC) sits adjacent to Katie's fund lane — company-side financing rather than fund formation, so fund_focus=0 but practice_area=10 (venture/financing/corporate). Distinct from prior Latitude reqs already logged (#5077, #5058, #5723, #6939). comp_credible=10: Latitude's stated emerging-co/VC band of ~$225K–$300K annualized is market-credible. Remote contract + direct apply = strong intent. Pitch venture financings, cap-table/SAFEs/notes, and the LP/GP side as a bridge into fund work."
+    },
+    {
+      "name": "Latitude Legal — Corporate Transactional Attorney (Contract, Completely Remote #5360)",
+      "website": "https://latitudelegal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Flexible legal talent (ALSP) — general corporate transactional / commercial work",
+      "location": "Remote (US)",
+      "fundingStage": "Established ALSP",
+      "fitScore": 20,
+      "intentScore": 45,
+      "fitDetails": {
+        "practice_area": 10,
+        "seniority": 10,
+        "comp_credible": 0,
+        "fund_focus": 0
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 15,
+        "recency": 5,
+        "apply_path": 10
+      },
+      "vertical": "legal",
+      "subvertical": "corporate",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "Not stated (Latitude remote contract band)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contract, completely remote (Latitude Legal)",
+      "urgencyScore": 60,
+      "contacts": [
+        {
+          "name": "Latitude Legal — Attorney Recruiting",
+          "title": "Attorney Placement / Recruiting",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/latitude-legal"
+        }
+      ],
+      "signals": [
+        "corporate_transactional_generalist",
+        "contract_completely_remote",
+        "latitude_flexible_legal_channel",
+        "direct_apply_path"
+      ],
+      "source": "Legal Freelance Scrape 2026-05-22",
+      "sourceUrl": "https://latitudelegal.com/jobs/5360",
+      "notes": "Combined 65 / Grade B. Clean, workable generalist corporate-transactional contract role — completely remote, direct apply — just off Katie's premium fund lane (fund_focus=0, no stated comp). Useful as a steady contract base or relationship entry with Latitude. Pitch corporate/commercial transactional volume and fast ramp; flag fund-formation specialism so Latitude routes future fund reqs to her."
+    },
+    {
+      "name": "Fractional General Counsel (Remote) — via ACC Jobline #54004",
+      "website": "https://jobline.acc.com",
+      "pipeline": "legal-freelance",
+      "industry": "Operating company seeking fractional general counsel (employer surfaced via ACC Jobline; broad corporate / commercial / governance scope)",
+      "location": "Remote",
+      "fundingStage": "Not stated (operating company)",
+      "fitScore": 20,
+      "intentScore": 45,
+      "fitDetails": {
+        "practice_area": 10,
+        "seniority": 10,
+        "comp_credible": 0,
+        "fund_focus": 0
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 15,
+        "recency": 5,
+        "apply_path": 10
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "Not stated (fractional GC retainer / day-rate)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional general counsel (part-time, ongoing)",
+      "urgencyScore": 60,
+      "contacts": [
+        {
+          "name": "ACC Jobline listing — Hiring Manager",
+          "title": "Hiring Manager (employer via ACC Jobline)",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "explicit_fractional_general_counsel",
+        "fully_remote",
+        "broad_corporate_commercial_governance_scope",
+        "acc_jobline_quality_board",
+        "direct_apply_path"
+      ],
+      "source": "Legal Freelance Scrape 2026-05-22",
+      "sourceUrl": "https://jobline.acc.com/job/fractional-general-counsel-remote--54004",
+      "notes": "Combined 65 / Grade B. Explicit fractional + fully remote on the ACC's own jobline (higher-signal board than generic aggregators). Scope reads as broad corporate/commercial/governance GC work; no stated comp and no fund component (fund_focus=0). Pitch fractional/outside-GC value: governance, commercial contracts, financing support; surface fund/securities depth as a differentiator. Confirm employer identity and freshness on the ACC Jobline detail page when applying."
+    }
+  ]
+}
