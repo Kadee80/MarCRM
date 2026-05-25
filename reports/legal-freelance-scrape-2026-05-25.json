@@ -1,0 +1,250 @@
+{
+  "scrapeDate": "2026-05-25",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 5,
+  "note": "Legal Freelance pipeline scrape, 7-day window. 5 new leads (1 Grade A, 4 Grade B), all scoring 55+. Deduped against legal-freelance-, pr-freelance-, and daily-scrape reports from 2026-05-07 through 2026-05-22. Excluded this cycle: Latitude Legal #5077 (already logged 05-12/05-19); Ontra freelance fund formation (logged 05-15); aVenture VC Fund Attorney (logged 05-08); Ropes & Gray Funds Attorney + Robert Half fund roles + Axiom funds panel (logged 05-22); Etsy/The Mom Project Interim Securities Counsel + MLA Interim Senior Counsel (logged 05-18/05-21); Lawtrades and Paragon Legal (already logged 05-08 and 05-07 respectively); multi-family-office GC $2.5B AUM (full-time direct hire — fails freelance intent, previously excluded 05-22); Bay Area Trusts & Estates part-time role (T&E is a low-fit suppressed practice area); Level Legal contract document review (litigation doc-review, low fit). LinkedIn was NOT scraped directly — postings surfaced via Google/Bing-indexed results, fractional-talent boards (Go Fractional, Fractional Jobs), and firm/platform career pages. Several leads are flexible-talent platforms/panels where the specific engagement rotates; confirm live role + freshness on the source page when applying.",
+  "leads": [
+    {
+      "name": "Go Fractional — Fractional Legal Counsel, FinTech Investment Platform (Remote, $115–$190/hr, 5–20 hrs/wk)",
+      "website": "https://www.gofractional.com",
+      "pipeline": "legal-freelance",
+      "industry": "Fractional talent marketplace (Go Fractional) placing into a FinTech investment platform — corporate, commercial, financing and regulatory support for an investment/fintech product company",
+      "location": "Remote (US)",
+      "fundingStage": "Not stated (FinTech investment platform; likely venture-backed)",
+      "fitScore": 30,
+      "intentScore": 50,
+      "fitDetails": {
+        "practice_area": 10,
+        "seniority": 10,
+        "comp_credible": 10,
+        "fund_focus": 0
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 15,
+        "recency": 10,
+        "apply_path": 10
+      },
+      "vertical": "legal",
+      "subvertical": "financing",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "$115–$190/hr, 5–20 hrs/week (remote)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional engagement, 5–20 hrs/week (via Go Fractional marketplace)",
+      "urgencyScore": 82,
+      "contacts": [
+        {
+          "name": "Go Fractional — Talent Team",
+          "title": "Talent / Engagement Manager",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/gofractional"
+        }
+      ],
+      "signals": [
+        "fintech_investment_platform_buyer",
+        "explicit_fractional_engagement",
+        "stated_market_rate_115_190_hr",
+        "low_hours_5_to_20_per_week_flexible",
+        "fully_remote",
+        "direct_apply_via_go_fractional"
+      ],
+      "source": "Legal Freelance Scrape 2026-05-25",
+      "sourceUrl": "https://www.gofractional.com/jobs",
+      "notes": "Combined 80 / Grade A — hottest lead this cycle. Explicit fractional legal counsel role for a FinTech investment platform, fully remote, with a STATED, market-credible rate ($115–$190/hr) — comp_credible=10, which is rare in this pipeline. Low hours (5–20/wk) is the exact flexible operator model Katie wants and leaves room to stack engagements. fund_focus=0 (investment-platform/fintech, not pure fund formation) but the investment/securities-adjacent product gives a natural bridge to fund work. Pitch: commercial contracts, corporate governance, financing/securities-product paper, and regulatory support; lead with ability to ramp fast on a low-hours fractional basis. The Go Fractional jobs board rotates listings — open the board and locate the live 'Fractional Legal Counsel / FinTech Investment Platform' posting to confirm freshness and apply."
+    },
+    {
+      "name": "Peerpoint by A&O Shearman — Flexible Consultant Lawyer Panel (Remote, Funds & Corporate)",
+      "website": "https://www.peerpoint.com",
+      "industry": "Global flexible legal resourcing platform (A&O Shearman) — consultant lawyers placed on flexible engagements across funds, corporate, financing and regulatory specialisms",
+      "pipeline": "legal-freelance",
+      "location": "Remote / flexible (global; US engagements available)",
+      "fundingStage": "Established (A&O Shearman flexible-resourcing platform)",
+      "fitScore": 30,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": 10,
+        "seniority": 10,
+        "comp_credible": 0,
+        "fund_focus": 10
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 15,
+        "recency": 0,
+        "apply_path": 10
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "consultant",
+      "buyerType": "ALSP",
+      "compensationText": "Not stated (consultant day-rate / hourly)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Flexible consultant engagement (panel membership; project/interim)",
+      "urgencyScore": 50,
+      "contacts": [
+        {
+          "name": "Peerpoint — Consultant Recruitment",
+          "title": "Consultant Recruitment / Engagement Manager",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/showcase/peerpoint"
+        }
+      ],
+      "signals": [
+        "a_o_shearman_premier_funds_asset_management_pedigree",
+        "consultant_lawyer_panel_channel",
+        "every_major_specialism_incl_funds_corporate",
+        "remote_flexible_scalable_engagements",
+        "relationship_pipeline_play"
+      ],
+      "source": "Legal Freelance Scrape 2026-05-25",
+      "sourceUrl": "https://www.peerpoint.com/",
+      "notes": "Combined 70 / Grade B — channel-development lead (recency=0, panel rather than a dated posting). Peerpoint is A&O Shearman's flexible-resourcing arm placing top-tier consultant lawyers (350+ panel) across specialisms including funds, asset management and corporate. fund_focus=10 (funds is a real panel specialism and A&O Shearman is a premier funds shop, but US-specific fund availability via Peerpoint is not guaranteed). Treat like the Axiom funds-panel play: apply to the consultant panel to create a recurring, high-caliber engagement pipeline. comp_credible=0 (day-rate not posted). Pitch fund formation + fund maintenance + LP/GP side letters and corporate/financing depth; emphasize availability for remote/flexible consultant work."
+    },
+    {
+      "name": "Atlas Road Advisors — Contract Corporate Transactions Attorney (Part-Time/Full-Time, Remote)",
+      "website": "https://www.atlasroad.com",
+      "pipeline": "legal-freelance",
+      "industry": "Boutique legal & business advisory network (ALSP-style) — corporate transactions: business formation, equity/debt financing, venture capital financing, securities, and M&A for startups & high-growth companies",
+      "location": "Remote",
+      "fundingStage": "Established boutique advisory network; end-clients startups / high-growth companies",
+      "fitScore": 20,
+      "intentScore": 45,
+      "fitDetails": {
+        "practice_area": 10,
+        "seniority": 10,
+        "comp_credible": 0,
+        "fund_focus": 0
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 15,
+        "recency": 5,
+        "apply_path": 10
+      },
+      "vertical": "legal",
+      "subvertical": "corporate",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "Not stated",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contract attorney, part-time or full-time (Atlas Road Advisors)",
+      "urgencyScore": 60,
+      "contacts": [
+        {
+          "name": "Atlas Road Advisors — Recruiting",
+          "title": "Attorney Recruiting / Engagement",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/atlas-road"
+        }
+      ],
+      "signals": [
+        "corporate_transactions_business_formation",
+        "equity_and_debt_financing",
+        "venture_capital_financing",
+        "securities_law_and_m_and_a",
+        "contract_part_time_or_full_time",
+        "fully_remote_startup_high_growth_clients"
+      ],
+      "source": "Legal Freelance Scrape 2026-05-25",
+      "sourceUrl": "https://www.atlasroad.com/",
+      "notes": "Combined 65 / Grade B. Boutique legal/business network hiring a contract attorney (part-time OR full-time, remote) for corporate transactions: business formation, equity/debt and VC financing, securities, and M&A — strong practice-area overlap with Katie's corporate/financing/securities lane (practice_area=10, seniority=10 at 4+ yrs leading transactions). fund_focus=0 (company-side transactions, not fund formation) and comp_credible=0 (no rate posted). The 'leads transactions start to finish' framing suits a high-judgment operator. Pitch venture financings, cap-table/SAFEs/notes, securities and M&A support; flag fund-formation specialism so they route fund-adjacent work. Confirm the live posting + apply path via the Atlas Road careers page."
+    },
+    {
+      "name": "Chris Adams Companies (DBA) — Fractional Counsel (Remote, via Fractional Jobs)",
+      "website": "https://www.fractionaljobs.io",
+      "pipeline": "legal-freelance",
+      "industry": "Operating company (Chris Adams Companies DBA) seeking fractional counsel — general corporate / commercial scope; surfaced via the Fractional Jobs board",
+      "location": "Remote",
+      "fundingStage": "Not stated (operating company)",
+      "fitScore": 20,
+      "intentScore": 45,
+      "fitDetails": {
+        "practice_area": 10,
+        "seniority": 10,
+        "comp_credible": 0,
+        "fund_focus": 0
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 15,
+        "recency": 5,
+        "apply_path": 10
+      },
+      "vertical": "legal",
+      "subvertical": "corporate",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "Not stated",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional counsel (via Fractional Jobs board)",
+      "urgencyScore": 58,
+      "contacts": [
+        {
+          "name": "Chris Adams Companies — Hiring Manager (via Fractional Jobs)",
+          "title": "Hiring Manager",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "explicit_fractional_counsel",
+        "operating_company_buyer",
+        "remote_engagement",
+        "fractional_jobs_quality_board",
+        "direct_apply_path"
+      ],
+      "source": "Legal Freelance Scrape 2026-05-25",
+      "sourceUrl": "https://www.fractionaljobs.io/jobs/counsel-at-chris-adams-companies-dba",
+      "notes": "Combined 65 / Grade B. Concrete fractional-counsel posting on Fractional Jobs (a higher-signal board than generic aggregators) — explicit fractional engagement model + remote = strong intent. Scope reads as general corporate/commercial counsel for an operating company; fund_focus=0 and comp_credible=0 (no rate or detailed scope in the snippet). Confirm the hours, scope and employer detail on the listing detail page before applying. Pitch fractional/outside-GC value: commercial contracts, governance, financing support; surface fund/securities depth as a differentiator."
+    },
+    {
+      "name": "LAWCLERK — Freelance Attorney Marketplace (Remote, Corporate/Transactional Overflow)",
+      "website": "https://www.lawclerk.legal",
+      "pipeline": "legal-freelance",
+      "industry": "Online marketplace connecting law firms with freelance attorneys for project-based and overflow work (corporate, transactional, drafting, research) — remote, 1099/project",
+      "location": "Remote (US)",
+      "fundingStage": "Established legal marketplace",
+      "fitScore": 20,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": 10,
+        "seniority": 10,
+        "comp_credible": 0,
+        "fund_focus": 0
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 15,
+        "recency": 0,
+        "apply_path": 10
+      },
+      "vertical": "legal",
+      "subvertical": "corporate",
+      "engagementModel": "freelance",
+      "buyerType": "ALSP",
+      "compensationText": "Not stated (project/flat-fee or hourly set per project)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Freelance / 1099 project-based attorney work (marketplace)",
+      "urgencyScore": 48,
+      "contacts": [
+        {
+          "name": "LAWCLERK — Attorney Network",
+          "title": "Marketplace / Attorney Onboarding",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/lawclerk-legal"
+        }
+      ],
+      "signals": [
+        "explicit_freelance_1099_attorney_marketplace",
+        "law_firm_overflow_and_project_work",
+        "fully_remote_choose_your_projects",
+        "corporate_transactional_projects_available",
+        "channel_for_steady_freelance_volume"
+      ],
+      "source": "Legal Freelance Scrape 2026-05-25",
+      "sourceUrl": "https://www.lawclerk.legal/",
+      "notes": "Combined 60 / Grade B — channel lead (recency=0, marketplace not a dated posting). LAWCLERK is an explicit freelance/1099 attorney marketplace where firms post overflow and project work; engagement-model and remote fit are high. Caveat: it skews toward solo/small-firm overflow (drafting, research, transactional support), which sits below Katie's premium fund/corporate lane — so treat as supplemental volume / pipeline filler rather than a flagship fund engagement. fund_focus=0, comp_credible=0 (rates set per project). Pitch corporate/transactional drafting and fast turnaround; useful to keep utilization up between higher-value fund engagements."
+    }
+  ]
+}
