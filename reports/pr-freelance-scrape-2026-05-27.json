@@ -1,0 +1,258 @@
+{
+  "scrapeDate": "2026-05-27",
+  "scrapeType": "pr-freelance",
+  "totalLeads": 5,
+  "note": "Enhanced PR Freelance scrape — 7-day window (2026-05-20 → 2026-05-27). Sources: agency career pages verified live this run (Lambert by LLYC, Sharon Merrill Advisors, JCIR, InspIR Group, Group Gordon), plus Google/Bing-indexed LinkedIn/Indeed/ZipRecruiter/Glassdoor results, O'Dwyer's directory, Clutch.co IR/Financial PR rankings. Search clusters covered: freelance PR / PR consultant; communications & media-relations consultant (contract/freelance); fractional/interim communications; outsourced/agency-overflow/white-label PR; earned-media consultant / publicist contractor; pre-IPO & public-company IR consulting. Deduplicated against pr-freelance-scrape and daily-scrape reports 2026-04-30 → 2026-05-26. Skipped repeats already captured in prior runs, including: Peregrine Communications, Lowe Group, Sondhelm Partners, Avaans Media, Water & Wall Group, StreetCred PR, Forefront Communications, Hello Human, Gasthalter & Co, Prosek Partners, KCSA Strategic Communications, JConnelly, FiComm Partners, The James Collective, Peppercomm, Mission North, Bospar, BerlinRosen, Highwire PR, Antenna Group, Dukas Linden, Method Communications, M Booth, H/Advisors, Cardinal Communications, Haven Tower Group, Conway Communications, FINN Partners, Crackle PR, Edelman Smithfield, Gregory FCA/BackBay, Infinite Global, The Work Crowd, William Mills Agency, Caliber Corporate Advisers, 5WPR, Cognito Media, Vested, Inkhouse, Reputation Management Consultants, MACIAS PR (intern-heavy, not freelance-fit). This run surfaces FIVE NEW financial/IR-comms firms with live, verified hiring/capacity signals — two strong fits with explicit live reqs (Lambert by LLYC, Sharon Merrill Advisors), one always-on senior-recruiting IR boutique (JCIR), one senior-led IR/ESG plug-in shop (InspIR Group), and one corporate PR firm with a finance/law practice and a live (non-PR) leadership req (Group Gordon). Note on intent: Lambert is the cleanest signal of the week — a Top-10 financial/IR practice with an open IR analyst req on a real apply portal (lambert.applytojob.com). The other four are senior-to-senior cold/overflow plays. Quality over quantity — 5 vetted leads, all with a live careers/job URL for Mark to review.",
+  "leads": [
+    {
+      "name": "Lambert (by LLYC)",
+      "website": "https://lambert.com/",
+      "pipeline": "pr-freelance",
+      "industry": "National Strategic Communications, Investor Relations & Integrated Marketing Firm (Top-10 financial/IR practice; banking, fintech, capital markets, public companies, PE/VC, professional services)",
+      "location": "Grand Rapids, MI (HQ) + New York, NY + Detroit, MI + St. Louis, MO + Phoenix, AZ (post-acquisition LLYC global network)",
+      "fundingStage": "Acquired by LLYC (publicly listed global comms group, BME: LLYC) — July 2025; operates independently as Lambert by LLYC",
+      "fitScore": 50,
+      "intentScore": 35,
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 15,
+        "workstream": 10,
+        "buyer_quality": 5,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 5,
+        "remote_flex": 5,
+        "recency": 10,
+        "urgency_signals": 5,
+        "apply_path": 10
+      },
+      "vertical": "pr",
+      "subvertical": "investor-pr",
+      "engagementModel": "contract",
+      "buyerType": "agency",
+      "compensationText": "Not stated; posted IR Analyst role is FT. Senior freelance/overflow rate negotiated per engagement (financial-comms contractor band est. $125-200/hr or project retainer).",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Active opening: Investor Relations Analyst (FT, 1-3 yrs exp) on lambert.applytojob.com — Excel/PowerPoint, capital markets platforms (Bloomberg, S&P Capital IQ, SNL, FactSet, IHS Ipreo). Plus open PR/comms roles across NY/MI/MO/AZ offices.",
+      "urgencyScore": 70,
+      "contacts": [
+        {
+          "name": "Lambert (by LLYC) — Capital Markets / IR Practice",
+          "title": "Recruiting / Capital Markets Practice Lead",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/lambertglobal"
+        }
+      ],
+      "signals": [
+        "Top-10 national financial/IR practice (Firm of the Year honors from PR Week and PRNews) — premium sector match for Mark's investor/financial book",
+        "LIVE Investor Relations Analyst req on direct apply portal (lambert.applytojob.com/apply/sjanxaOcG0/Investor-Relations-Analyst) — strongest engagement signal of the week",
+        "Capital markets practice covers IPO comms, financial PR, corporate reputation, and IR — workstream dead-center on Mark's craft",
+        "Multi-office footprint (NY + GR + Detroit + St. Louis + Phoenix) + LLYC global network = distributed-team comfort, openness to senior contract/overflow help",
+        "Post-acquisition (LLYC, July 2025) typically drives capacity expansion — strong structural tailwind for overflow pitches"
+      ],
+      "source": "Lambert careers + LLYC PRNewswire announcement + Lambert Investor Relations Analyst posting",
+      "sourceUrl": "https://lambert.applytojob.com/apply/sjanxaOcG0/Investor-Relations-Analyst",
+      "notes": "TOP FIT this run (combined 85, A). National IR + PR + integrated marketing firm with a Top-10 financial/IR practice and a verified LIVE Investor Relations Analyst req on a real apply portal — the cleanest hiring signal of the week. Posted IR Analyst role is junior (1-3 yrs FT), so play the senior freelance/overflow angle at the practice-lead level rather than applying to the analyst req. ACTION: Senior-to-senior outreach to the NY office and the capital markets/IR practice lead positioning Mark as freelance media-relations + IR-adjacent thought-leadership capacity for public companies, pre-IPO issuers, and PE/VC clients, available immediately on project/retainer; reference the open IR Analyst posting to demonstrate the firm is actively expanding bench. Attach 1-2 IR/capital-markets earned-media samples."
+    },
+    {
+      "name": "Sharon Merrill Advisors",
+      "website": "https://www.investorrelations.com/",
+      "pipeline": "pr-freelance",
+      "industry": "Boutique Strategic Communications & Investor Relations Advisory (public-company IR, IPO readiness, sustainability/ESG, board & shareholder communications, M&A communications)",
+      "location": "Boston, MA (77 Franklin Street) — primarily remote team",
+      "fundingStage": "Independent (founded 1985 by Sharon Merrill; senior-led advisory firm)",
+      "fitScore": 50,
+      "intentScore": 30,
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 15,
+        "workstream": 10,
+        "buyer_quality": 5,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 5,
+        "remote_flex": 10,
+        "recency": 5,
+        "urgency_signals": 5,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "investor-pr",
+      "engagementModel": "contract",
+      "buyerType": "agency",
+      "compensationText": "Not stated; senior advisory model. Contractor / overflow rate negotiated per engagement (IR/financial-comms contractor band est. $150-225/hr).",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Active careers page with rolling openings; minimum 2 years corporate communications / PR / IR experience required. Team works 'primarily remote' with Boston office. Apply via cover letter + resume + salary range to HR@InvestorRelations.com.",
+      "urgencyScore": 55,
+      "contacts": [
+        {
+          "name": "Sharon Merrill Advisors — Hiring (HR)",
+          "title": "Hiring / Recruiting",
+          "email": "HR@InvestorRelations.com",
+          "linkedin": "https://www.linkedin.com/company/sharon-merrill"
+        }
+      ],
+      "signals": [
+        "Boutique IR + strategic comms shop focused on public-company IR, IPO investor relations, ESG/sustainability, M&A and board/shareholder communications — premium investor-PR sector match",
+        "Explicit 'growing, purpose-driven, value-based company' language + live careers page = capacity expansion signal",
+        "Team works 'primarily remote' with Boston office — distributed-team comfort, openness to senior contract/overflow arrangements",
+        "Direct apply path to HR@InvestorRelations.com with senior-friendly requirements (2+ yrs comms/PR/IR)",
+        "Full IR-adjacent workstream match: messaging, conference-call prep, Q&A, investor day execution, PowerPoint/content for CEOs/CFOs/IROs"
+      ],
+      "source": "Sharon Merrill Advisors careers page + firm profile",
+      "sourceUrl": "https://www.investorrelations.com/about-sma/careers/",
+      "notes": "Combined 80, A. Boston-based boutique IR + strategic-comms advisory firm with a 40-year track record (founded 1985 by Sharon Merrill) and a primarily-remote team — the cleanest remote-friendly senior IR boutique of the week. Active careers page with senior-friendly requirements. ACTION: Direct email to HR@InvestorRelations.com positioning Mark as senior freelance IR/financial-comms overflow capacity for public-company and IPO clients on project/retainer basis; lead with public-company earned-media + executive thought-leadership samples; offer remote-first delivery. Founder Sharon Merrill is still active on LinkedIn — warm intro via LinkedIn also viable."
+    },
+    {
+      "name": "JCIR",
+      "website": "https://www.jcir.com/",
+      "pipeline": "pr-freelance",
+      "industry": "Capital Markets & Strategic Communications Counsel (investor relations for 300+ public/private companies; capital markets, IPO advisory, financial PR)",
+      "location": "New York, NY (116 East 16th Street, 11th Floor)",
+      "fundingStage": "Independent (founded 1994; 30+ years; 100+ collective years of senior-team IR/comms experience)",
+      "fitScore": 50,
+      "intentScore": 15,
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 15,
+        "workstream": 10,
+        "buyer_quality": 5,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 5,
+        "remote_flex": 0,
+        "recency": 0,
+        "urgency_signals": 5,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "investor-pr",
+      "engagementModel": "consultant",
+      "buyerType": "ir-firm",
+      "compensationText": "Not stated; senior-team model. Contractor / overflow rate negotiated per engagement.",
+      "remoteFlag": "",
+      "employmentTypeRaw": "Careers page declares JCIR 'always seeking professional associates at junior, mid and senior levels' — structurally open to senior plug-ins. Apply via hr@jcir.com.",
+      "urgencyScore": 40,
+      "contacts": [
+        {
+          "name": "JCIR — HR / Hiring",
+          "title": "Hiring",
+          "email": "hr@jcir.com",
+          "linkedin": "https://www.linkedin.com/company/jcir"
+        }
+      ],
+      "signals": [
+        "Capital-markets-and-IR-only boutique serving 300+ public/private companies over 30 years — premium sector match for Mark's investor/financial book",
+        "Senior-friendly always-on hiring stance ('always seeking professional associates at junior, mid AND senior levels') — structurally open to senior contract/overflow plug-ins",
+        "Core remit covers IR, capital markets advisory, IPO support, financial PR and strategic communications — workstream match",
+        "Direct apply path to hr@jcir.com",
+        "LOWER CONFIDENCE on intent: no specific live req surfaced — relationship/monitor target with senior-recruiting posture"
+      ],
+      "source": "JCIR careers page + firm profile",
+      "sourceUrl": "https://www.jcir.com/career",
+      "notes": "Combined 65, B. NYC capital-markets/IR boutique (30 years, 300+ clients) with an explicit always-on senior-recruiting stance — structurally inclined to plug in experienced external operators. No specific live req confirmed this run, so play this as a senior cold/overflow pitch. ACTION: Email hr@jcir.com (or warm intro via LinkedIn) positioning Mark as senior freelance IR / financial-PR overflow capacity for public-company and IPO clients on project/retainer; lead with capital-markets and earned-media credentials. Keep warm and monitor for IPO mandates that drive capacity gaps."
+    },
+    {
+      "name": "Group Gordon",
+      "website": "https://groupgordon.com/",
+      "pipeline": "pr-freelance",
+      "industry": "High-End Corporate Public Relations (finance, law, real estate, professional services, technology, nonprofit)",
+      "location": "New York, NY (Midtown HQ) + Chicago, IL + Philadelphia, PA (hybrid — Tues/Wed/Thu in-office)",
+      "fundingStage": "Independent boutique (Glassdoor 4.7/5; 91% recommend)",
+      "fitScore": 40,
+      "intentScore": 25,
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 10,
+        "workstream": 5,
+        "buyer_quality": 5,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 5,
+        "remote_flex": 5,
+        "recency": 5,
+        "urgency_signals": 5,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "comms",
+      "engagementModel": "contract",
+      "buyerType": "agency",
+      "compensationText": "Not stated; FT corporate PR firm. Contractor / overflow rate negotiated per engagement.",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Active opening: Marketing Director (FT, reports to Chief Business Officer; outbound marketing/sales/lead-gen). Hybrid: in-office Tues/Wed/Thu, remote Mon/Fri. Apply: careers@groupgordon.com.",
+      "urgencyScore": 50,
+      "contacts": [
+        {
+          "name": "Group Gordon — Careers",
+          "title": "Hiring",
+          "email": "careers@groupgordon.com",
+          "linkedin": "https://www.linkedin.com/company/group-gordon"
+        }
+      ],
+      "signals": [
+        "High-end corporate PR firm with a stated finance practice (alongside law, real estate, professional services, tech, nonprofit) — partial sector match",
+        "Multi-office footprint (NY Midtown + Chicago + Philly) with explicit hybrid policy = distributed-team comfort",
+        "Strong employee culture signal (Glassdoor 4.7/5; 91% would recommend) suggests stable, well-run buyer",
+        "Direct apply path to careers@groupgordon.com",
+        "LOWER FIT on workstream: live req is Marketing Director (outbound marketing/sales/lead-gen), NOT a PR/media-relations contract role — so PR overflow is a cold pitch"
+      ],
+      "source": "Group Gordon careers + firm profile",
+      "sourceUrl": "https://groupgordon.com/careers/",
+      "notes": "Combined 65, B. High-end NYC corporate PR boutique with a finance/law/real-estate practice and a verified live (non-PR) leadership req. The live posting is Marketing Director, so PR overflow is a senior cold pitch rather than an advertised contract. ACTION: Cold/warm email careers@groupgordon.com (and partners on LinkedIn) positioning Mark as freelance media-relations + executive comms overflow capacity for finance/law/professional-services clients on project/retainer basis. Lower priority than Lambert/Sharon Merrill due to broader (less finance-pure) sector fit and PR-vs-marketing remit gap."
+    },
+    {
+      "name": "InspIR Group",
+      "website": "https://inspirgroup.com/en/",
+      "pipeline": "pr-freelance",
+      "industry": "Premier Investor Relations & ESG/Sustainability Consultancy (IR advisory, IPO preparation, workshops & coaching, ESG, investor access — emerging-markets and US public/private companies)",
+      "location": "New York, NY (125 Park Avenue, 25th Floor) + Madrid, Spain + Americas footprint",
+      "fundingStage": "Independent (founded 2006 by Monique Skruzny; ~20 senior professionals; 20+ yrs avg experience)",
+      "fitScore": 50,
+      "intentScore": 10,
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 15,
+        "workstream": 10,
+        "buyer_quality": 5,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 5,
+        "remote_flex": 5,
+        "recency": 0,
+        "urgency_signals": 0,
+        "apply_path": 0
+      },
+      "vertical": "pr",
+      "subvertical": "investor-pr",
+      "engagementModel": "consultant",
+      "buyerType": "ir-firm",
+      "compensationText": "Not stated; senior-only advisory model (avg 20+ yrs). Contractor / overflow rate negotiated per engagement.",
+      "remoteFlag": "",
+      "employmentTypeRaw": "No public careers page or specific req surfaced this run. Senior-only firm model (avg 20+ yrs experience per team member) suggests structural openness to senior external contractors.",
+      "urgencyScore": 25,
+      "contacts": [
+        {
+          "name": "Monique Skruzny",
+          "title": "CEO / Founder",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/in/moniqueskruzny"
+        }
+      ],
+      "signals": [
+        "Premier IR + ESG/sustainability advisory boutique — premium sector match for Mark's investor/financial book and a growth area (sustainability/ESG comms)",
+        "Senior-only team model (avg 20+ yrs experience) — structurally inclined to plug in senior external operators rather than build a junior bench",
+        "Multi-geography footprint (NY + Madrid + Americas) + recent InspIR Connect product launch (Oct 2024) = active expansion",
+        "IR + IPO prep + investor access + ESG remit overlaps directly with Mark's earned-media and thought-leadership craft",
+        "LOWER CONFIDENCE on intent: no public careers page or specific req surfaced — pure relationship play"
+      ],
+      "source": "InspIR Group firm profile + BusinessWire (InspIR Connect launch)",
+      "sourceUrl": "https://inspirgroup.com/en/",
+      "notes": "Combined 60, B — relationship/monitor target with strong sector and senior-model fit. Premier NYC IR + ESG advisory boutique that operates a senior-only specialist model, no public job board posture, but structurally inclined toward senior external operators. ACTION: Warm senior-to-senior intro to founder Monique Skruzny (LinkedIn) offering Mark as on-call freelance IR / financial-PR / ESG-comms capacity for emerging-markets and US public-company clients; keep warm and monitor for IPO/ESG mandates that drive capacity expansion."
+    }
+  ]
+}
