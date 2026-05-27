@@ -1,0 +1,289 @@
+{
+  "scrapeDate": "2026-05-27",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 6,
+  "note": "7-day search window. Deduped against legal-freelance scrapes 2026-05-19 through 2026-05-26 (TodayTix, Latitude #5073/#6510, Qu, Socket Protocol, Hayden Industrial, Lyfecoin, Ropes & Gray Funds, Robert Half Fund Formation #5/22, Axiom Funds, Latitude #5064/#5360/#6939, ACC Jobline FractionalGC, MLA Interim Chief, Stealth Startup C&B, EdTech FractionalGC, SVA, Allocate, Latitude Franchise, Galt Pharma, RH Commercial #57-66/hr, Go Fractional FinTech, Peerpoint, Atlas Road, Chris Adams, LAWCLERK). Sources: Built In (San Francisco/Austin/Colorado), Lever, Fractional Jobs (fractionaljobs.io), LinkedIn (via Google-indexed pages), Latitude Legal jobs portal, Robert Half. LinkedIn pages were not scraped directly; only metadata visible via web search results was used. The freelance-platform model continues to dominate — Ontra alone now has 800+ network attorneys with active fund-formation reqs; Latitude posted two new req types (Securities & Corp Governance #5077 and a remote Interim GC) since the 5/26 scrape.",
+  "leads": [
+    {
+      "name": "Ontra — US-Licensed Freelance Fund Formation Lawyer (Remote, AmLaw/in-house network, 20+ hrs/wk)",
+      "website": "https://www.ontra.ai",
+      "pipeline": "legal-freelance",
+      "industry": "Legal technology / AI-powered legal platform for private markets (PE, VC, hedge funds, asset managers)",
+      "location": "Remote (US — nationwide)",
+      "fundingStage": "Late-stage growth (former unicorn; ~$200M Series B; PE-backed platform)",
+      "fitScore": 45,
+      "intentScore": 45,
+      "fitDetails": {
+        "practice_area": "Fund formation core docs — LPAs, side letters, term sheets, purchase agreements, credit agreements, MSAs, operating agreements, vendor contracts, license agreements; private-fund / investment-management focus",
+        "seniority": "AmLaw 100 / Magic Circle preferred (not required); in-house at IA / private funds / RIC, or top-tier funds group experience",
+        "comp_credible": "Hourly, market-rate engagements; admin/billing/collections handled by Ontra (lawyer keeps practice overhead near zero) — typical Ontra rates publicly reported at ~$130–$250/hr depending on practice",
+        "fund_focus": "Direct fund formation — strongest possible fit"
+      },
+      "intentDetails": {
+        "engagement_model": "Freelance / independent contractor (Ontra network); flexible hours, but minimum 20 hrs/wk commitment to build pipeline",
+        "remote_flex": "Fully remote — no admin / no time-tracking infrastructure required",
+        "recency": "Active multi-board posting (Built In San Francisco, Built In Austin, Built In Colorado, Built In Chicago, Wellfound) — refreshed within past 7 days",
+        "apply_path": "Direct Greenhouse ATS via Ontra Legal Network page — easy apply"
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "freelance",
+      "buyerType": "ALSP",
+      "compensationText": "Hourly, market-rate engagements (Ontra typically pays network lawyers in the ~$130–$250/hr range; not stated explicitly on this listing)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "1099 / Independent Contractor (Ontra network)",
+      "urgencyScore": 75,
+      "contacts": [
+        {
+          "name": "Ontra Legal Network",
+          "title": "Network Recruiting",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/ontra-ai"
+        }
+      ],
+      "signals": [
+        "PERFECT-FIT ICP — fund formation is core ICP and Ontra is the dominant freelance platform for it",
+        "800+ attorney network already placing into PE/VC/hedge clients — pipeline already exists",
+        "Zero admin overhead — Ontra handles billing/collections/BD",
+        "20 hrs/wk minimum is reasonable threshold for Katie's part-time availability",
+        "Cross-border variant also active (UK/EU-qualified) — useful future expansion"
+      ],
+      "source": "Built In San Francisco / Ontra Legal Network",
+      "sourceUrl": "https://www.builtinsf.com/job/legal/us-licensed-freelance-fund-formation-lawyer-remote/103064",
+      "notes": "STRONGEST A-tier lead this week. The Ontra Legal Network is Katie's single highest-leverage application: one onboarding unlocks ongoing PE/VC/hedge fund-formation engagements without her having to find clients. Pitch her: (1) AmLaw fund-formation pedigree, (2) prior LPA/side-letter drafting, (3) commitment to 20+ hrs/wk. Note Ontra's stack handles billing/collections so she can run lean. The Built In SF listing is the most current canonical URL; Greenhouse ATS handles the form."
+    },
+    {
+      "name": "Latitude Legal — Corporate Attorney, Securities and Corporate Governance (Remote Contract Engagement) #5077",
+      "website": "https://latitudelegal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Flexible legal staffing / ALSP (Chambers-ranked) — places W-2 contract attorneys into F500 corporate legal departments and law firms",
+      "location": "Remote (US, nationwide)",
+      "fundingStage": "Established",
+      "fitScore": 30,
+      "intentScore": 45,
+      "fitDetails": {
+        "practice_area": "Securities & corporate governance — disclosure, SEC reporting, board governance, securities compliance, public-company / pre-IPO advisory",
+        "seniority": "Counsel-level; former in-house or Big Law corporate/securities preferred",
+        "comp_credible": "Latitude band typically $160K–$220K annualized FT-equivalent; W-2 contractor",
+        "fund_focus": "Not direct funds, but securities work overlaps with fund regulatory/disclosure — partial credit"
+      },
+      "intentDetails": {
+        "engagement_model": "W-2 contract via Latitude; FT or PT; per-engagement",
+        "remote_flex": "Fully remote",
+        "recency": "Active open req on Latitude portal",
+        "apply_path": "Direct Latitude single-page application"
+      },
+      "vertical": "legal",
+      "subvertical": "securities",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "$160,000–$220,000 annualized FT basis (W-2 contractor)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "W-2 Contract (Latitude employee)",
+      "urgencyScore": 65,
+      "contacts": [
+        {
+          "name": "Latitude Legal Recruiting",
+          "title": "Attorney Recruiting Team",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/latitude-legal"
+        }
+      ],
+      "signals": [
+        "New Latitude req variant — Securities & Governance not previously on Katie's radar in this pipeline",
+        "Compounds with #5064 (VC Financing), #5073 (Commercial Contracts), #6510 (Corporate), #6939 (Investment Funds) that Katie already targeted — recruiter routing improves with multi-req visibility",
+        "Securities + governance = exact lane for emerging-manager / fund-sponsor reporting work"
+      ],
+      "source": "Latitude Legal — Open Opportunities",
+      "sourceUrl": "https://latitudelegal.com/jobs/5077",
+      "notes": "Fifth Latitude req Katie should be visible on. Pitch her securities/governance experience and ask the recruiter to consider her panel-wide across all five reqs she has applied to (#5064, #5073, #5077, #6510, #6939). Latitude routes single applicants to multiple F500 clients once on the panel — the meta-strategy is to be on the panel, not to win any single req."
+    },
+    {
+      "name": "Latitude Legal — Interim General Counsel (Contract, Remote)",
+      "website": "https://latitudelegal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Flexible legal staffing / ALSP — Interim GC placement for mid-market operating company client",
+      "location": "Remote (US — listed via MN/Atlanta variants but role is remote)",
+      "fundingStage": "Established (client unnamed; Latitude-placed)",
+      "fitScore": 30,
+      "intentScore": 45,
+      "fitDetails": {
+        "practice_area": "Interim GC scope — corporate governance, commercial contracts, M&A support, regulatory/compliance, outside counsel management",
+        "seniority": "GC-level (10+ yrs)",
+        "comp_credible": "Latitude interim GC engagements typically priced $150–$250/hr or $200K–$300K annualized FT-equivalent",
+        "fund_focus": "Not fund work; pure operating-company GC"
+      },
+      "intentDetails": {
+        "engagement_model": "Interim / contract via Latitude",
+        "remote_flex": "Fully remote (despite location tag)",
+        "recency": "Posted ~30 days ago, still listed as active",
+        "apply_path": "LinkedIn easy apply + Latitude direct form"
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "interim",
+      "buyerType": "ALSP",
+      "compensationText": "Latitude interim GC band — typically $150–$250/hr or $200K–$300K annualized (not stated explicitly in posting)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "W-2 Contract / Interim (Latitude employee)",
+      "urgencyScore": 60,
+      "contacts": [
+        {
+          "name": "Latitude Legal Recruiting",
+          "title": "Attorney Recruiting Team",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/latitude-legal"
+        }
+      ],
+      "signals": [
+        "True interim GC placement (not generic contract attorney)",
+        "Higher comp band than Latitude's panel-attorney reqs",
+        "Adds a sixth Latitude touchpoint — keeps Katie top-of-mind on the panel"
+      ],
+      "source": "LinkedIn Jobs (Latitude Legal)",
+      "sourceUrl": "https://www.linkedin.com/jobs/view/interim-general-counsel-contract-remote-at-latitude-legal-4407475648",
+      "notes": "Interim GC mandates are the most lucrative Latitude engagements but also the most competitive. Pitch Katie's prior in-house experience and willingness to commit FT for the duration of the assignment (Latitude prefers candidates who can dedicate 30+ hrs/wk to interim GC roles). Mention she is already on file with Latitude from #5064/#5073/#6510 etc."
+    },
+    {
+      "name": "LWD Advisors — Fractional Senior Legal Counsel (Remote, Bay Area, 15 hrs/wk)",
+      "website": "https://www.lwdadvisors.com",
+      "pipeline": "legal-freelance",
+      "industry": "Outside General Counsel boutique serving venture-backed startups (cleantech, manufacturing, SaaS, high-tech hardware)",
+      "location": "Remote (Bay Area preferred but remote-friendly)",
+      "fundingStage": "Established boutique (founded by ex-Cooley / ex-Intel / Apple / Pebble / Google GC Jeff Hyman)",
+      "fitScore": 30,
+      "intentScore": 48,
+      "fitDetails": {
+        "practice_area": "OGC + commercial work for venture-backed startups — financings, contracts, governance, IP, M&A support",
+        "seniority": "Senior counsel; 10+ yrs preferred; in-house or OGC-firm experience valued",
+        "comp_credible": "Not stated; OGC-firm market typically $200–$300/hr blended for senior counsel",
+        "fund_focus": "Not direct fund work, but venture-backed startup clientele = financing / cap table / convertible note / SAFE work"
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional — 15 hrs/wk ongoing retainer; independent contractor",
+        "remote_flex": "Fully remote (Bay Area preferred but not required)",
+        "recency": "Active Fractional Jobs posting (refreshed within past week)",
+        "apply_path": "Fractional Jobs intro request — single-form"
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "law-firm",
+      "compensationText": "Not stated (OGC-firm market $200–$300/hr blended for senior counsel)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Independent Contractor / Fractional",
+      "urgencyScore": 70,
+      "contacts": [
+        {
+          "name": "Jeff Hyman",
+          "title": "Founder & General Counsel",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/in/jeffhymanesq/"
+        }
+      ],
+      "signals": [
+        "OGC boutique = highest-leverage buyer (one placement = ongoing pipeline of client work)",
+        "Founder Jeff Hyman has Cooley + Intel + Apple + Google pedigree — quality bar matches Katie's",
+        "15 hrs/wk retainer fits Katie's part-time bandwidth",
+        "Venture-backed startup client base aligns with Katie's emerging-manager ICP"
+      ],
+      "source": "Fractional Jobs (fractionaljobs.io)",
+      "sourceUrl": "https://www.fractionaljobs.io/jobs/senior-legal-counsel-at-lwd-advisors",
+      "notes": "A-tier strategic lead. LWD is a textbook OGC boutique — getting placed here means Katie joins a vetted bench that gets fed multiple client engagements. Pitch: venture-backed startup financings, cap table / SAFE / convertible note experience, board governance work for emerging companies. Founder is responsive — request intro via Fractional Jobs."
+    },
+    {
+      "name": "Indigo Technologies (insurtech / medical-professional-liability platform) — Fractional General Counsel (Remote)",
+      "website": "https://www.getindigo.com",
+      "pipeline": "legal-freelance",
+      "industry": "Insurtech — AI-powered medical professional liability insurance platform",
+      "location": "Remote (US)",
+      "fundingStage": "Growth-stage / Series B-C (VC-backed insurtech)",
+      "fitScore": 20,
+      "intentScore": 45,
+      "fitDetails": {
+        "practice_area": "Insurance/healthcare regulatory, data privacy, commercial contracts, IP, employment, risk management — broad early-stage GC scope",
+        "seniority": "GC-level reporting to CEO; executive team member",
+        "comp_credible": "Not stated in public posting; market-credible for VC-backed insurtech ($175–$275/hr fractional band typical)",
+        "fund_focus": "No direct fund work; insurtech regulatory rather than corporate/funds"
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional (independent contractor)",
+        "remote_flex": "Fully remote",
+        "recency": "Active Fractional Jobs posting (refreshed within past week)",
+        "apply_path": "Fractional Jobs intro request"
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "portfolio-company",
+      "compensationText": "Not stated (market-credible for VC-backed insurtech: $175–$275/hr fractional)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Independent Contractor / Fractional",
+      "urgencyScore": 55,
+      "contacts": [
+        {
+          "name": "Jared Kaplan",
+          "title": "CEO",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/in/jaredkaplan-getindigo/"
+        }
+      ],
+      "signals": [
+        "Reporting directly to CEO — strategic seat, not pure execution",
+        "Recent GC departure (Rachael Dugan left for FT GC role at another insurtech) — clear backfill need",
+        "Highly regulated vertical (insurance + healthcare) — premium for regulatory judgment",
+        "Sole legal hire — wide scope, fast-moving"
+      ],
+      "source": "Fractional Jobs (fractionaljobs.io)",
+      "sourceUrl": "https://www.fractionaljobs.io/jobs/general-counsel-at-indigo-technologies",
+      "notes": "B-tier — fit is below Katie's funds-focused ICP, but the role is a true fractional GC with executive seat. Pitch only if she has insurance/healthcare regulatory exposure; otherwise deprioritize. Worth noting that the GC predecessor (Rachael Dugan) left for FT — typical pattern where fractional roles convert to permanent in 12-18 months if performer wants it. Worth flagging as a 'fallback' rather than a primary push."
+    },
+    {
+      "name": "Robert Half — Remote Part-Time Corporate & Securities Attorney (Growing Law Firm Client)",
+      "website": "https://www.roberthalf.com",
+      "pipeline": "legal-freelance",
+      "industry": "Legal staffing / contract placement — placement into a growing transactional law firm advising technology companies",
+      "location": "Remote (US)",
+      "fundingStage": "N/A (placement; client is a growing transactional law firm serving tech)",
+      "fitScore": 35,
+      "intentScore": 45,
+      "fitDetails": {
+        "practice_area": "Corporate & securities — entity formation, structure, governance, investment-document drafting (convertible notes, subscription agreements, SAFEs), venture financings, OGC for venture-backed companies",
+        "seniority": "7+ yrs corporate/securities counsel — Katie matches",
+        "comp_credible": "Robert Half band typically $80–$150/hr for senior corporate contract roles; stated as 'part-time contract support'",
+        "fund_focus": "Adjacent — venture financing documents, but not LPAs / fund formation directly"
+      },
+      "intentDetails": {
+        "engagement_model": "Contract (Robert Half W-2 or 1099)",
+        "remote_flex": "Fully remote",
+        "recency": "Active listing on Robert Half remote-attorney portal",
+        "apply_path": "Direct Robert Half application"
+      },
+      "vertical": "legal",
+      "subvertical": "corporate",
+      "engagementModel": "contract",
+      "buyerType": "staffing",
+      "compensationText": "Part-time contract; Robert Half band ~$80–$150/hr for senior corporate (not stated explicitly)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contract via Robert Half",
+      "urgencyScore": 65,
+      "contacts": [
+        {
+          "name": "Robert Half Legal Recruiting",
+          "title": "Talent Solutions",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/robert-half-legal"
+        }
+      ],
+      "signals": [
+        "Outside-GC work for venture-backed tech companies — same buyer pattern as Katie's ICP",
+        "Convertible notes / SAFEs / subscription agreements = venture-financing drafting (good fit)",
+        "Robert Half routes panel attorneys to multiple client engagements once onboarded — meta-pipeline value",
+        "Part-time fits Katie's bandwidth"
+      ],
+      "source": "Robert Half — Remote Attorney Jobs",
+      "sourceUrl": "https://www.roberthalf.com/us/en/jobs/all/remote-attorney",
+      "notes": "Solid B+/A- tier. The lower hourly band relative to Latitude is the main caveat, but Robert Half has broader F500 / mid-market client coverage. Worth applying because Katie's venture-financing experience (cap table, SAFEs, convertible notes) directly matches the role description. Use this to diversify beyond Latitude — once on the Robert Half panel, work feeds in from multiple clients."
+    }
+  ]
+}
