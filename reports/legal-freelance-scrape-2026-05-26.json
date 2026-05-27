@@ -1,0 +1,331 @@
+{
+  "scrapeDate": "2026-05-26",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 7,
+  "note": "7-day search window. Deduped against legal-freelance scrapes 2026-05-19 through 2026-05-25. Sources: Built In, Lever, LinkedIn (via Google-indexed pages), Latitude Legal jobs portal, Legal.io, Robert Half Legal. LinkedIn pages were not scraped directly; only metadata visible via web search results was used. Strong week for fractional GC roles at consumer/tech companies; corporate contract engagements continue to dominate the ALSP pipeline (Latitude is the highest-volume single source).",
+  "leads": [
+    {
+      "name": "TodayTix Group — Fractional General Counsel (Remote, $200–$300/hr, 2–3 days/wk)",
+      "website": "https://www.todaytixgroup.com",
+      "pipeline": "legal-freelance",
+      "industry": "Live entertainment / ticketing technology (global)",
+      "location": "Remote (US, EST hours, US/UK time zone coverage)",
+      "fundingStage": "Growth-stage / late-stage private (acquired by Court Square / multi-brand: TodayTix, Goldstar, New York Theatre Guide, Show-Score)",
+      "fitScore": 30,
+      "intentScore": 48,
+      "fitDetails": {
+        "practice_area": "Commercial contracts, data privacy (GDPR/CPRA), global employment, outside counsel management, M&A/strategic transactions across US + UK",
+        "seniority": "10+ years required; sits with global leadership team — true GC-level role",
+        "comp_credible": "$200–$300/hr stated explicitly",
+        "fund_focus": "No fund mandate; commercial + corporate GC scope"
+      },
+      "intentDetails": {
+        "engagement_model": "Independent contractor (1099), ~2–3 days/week",
+        "remote_flex": "Remote-friendly with EST/UK timezone overlap",
+        "recency": "Active multi-board posting (Built In NYC, Lever, Remotive, RemoteRocketship)",
+        "apply_path": "Direct Lever ATS — easy apply"
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "$200–$300 per hour, ~2–3 days/week",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Independent Contractor",
+      "urgencyScore": 80,
+      "contacts": [
+        {
+          "name": "TodayTix Group Talent",
+          "title": "Recruiting",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/todaytix-group"
+        }
+      ],
+      "signals": [
+        "True fractional model — explicitly 2–3 days/wk",
+        "Hourly comp band published in posting (transparent)",
+        "Future potential for permanent in-house role for NYC-based candidates",
+        "Cross-border (US/UK) work — premium for someone who can navigate both"
+      ],
+      "source": "Lever ATS / Built In NYC",
+      "sourceUrl": "https://jobs.lever.co/todaytixgroup/6daa06b5-d72f-413d-a3d4-a322e2e23fef",
+      "notes": "Strongest A-tier candidate this week. Pitch Katie's commercial-contract + data-privacy + cross-border experience; explicitly position around the independent contractor structure. Live entertainment is consumer-adjacent but the role is pure commercial/corporate GC."
+    },
+    {
+      "name": "Latitude Legal — Commercial Contracts Attorney (Remote Contract Engagement) #5073",
+      "website": "https://latitudelegal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Flexible legal staffing / ALSP",
+      "location": "Remote (US, nationwide)",
+      "fundingStage": "Established (Chambers-ranked flexible legal staffing)",
+      "fitScore": 30,
+      "intentScore": 48,
+      "fitDetails": {
+        "practice_area": "MSAs, vendor/procurement, IT, marketing, supply, logistics, consulting agreements — broad commercial contracts book",
+        "seniority": "Big Law / large corporate legal dept preferred — Katie matches",
+        "comp_credible": "$160K–$200K+ annualized FT-equivalent, hourly-priced per engagement",
+        "fund_focus": "No direct fund work; pure commercial"
+      },
+      "intentDetails": {
+        "engagement_model": "Contract / W-2 contractor via Latitude; FT or PT",
+        "remote_flex": "Fully remote or hybrid at client option",
+        "recency": "Active open req",
+        "apply_path": "Latitude Legal jobs portal — single-page form"
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "$160,000–$200,000+ annualized FT basis",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "W-2 Contract (Latitude employee)",
+      "urgencyScore": 70,
+      "contacts": [
+        {
+          "name": "Latitude Legal Recruiting",
+          "title": "Attorney Recruiting Team",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/latitude-legal"
+        }
+      ],
+      "signals": [
+        "Commercial contracts is the largest workstream Latitude staffs to F500 clients",
+        "Pro liability insurance + benefits eligibility at 20+ hrs/wk",
+        "Already-vetted W-2 path — onboarding is fast once on panel"
+      ],
+      "source": "Latitude Legal — Open Opportunities",
+      "sourceUrl": "https://latitudelegal.com/jobs/5073",
+      "notes": "Sister role to the Corporate Attorney req (#6510). Strong long-term play: getting on Latitude's panel unlocks multiple client placements. Pitch Katie's MSA/vendor contracts experience with PE-backed portcos."
+    },
+    {
+      "name": "Latitude Legal — Corporate Attorney (In-House and Remote) #6510",
+      "website": "https://latitudelegal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Flexible legal staffing / ALSP",
+      "location": "Remote / in-house at client site (US)",
+      "fundingStage": "Established",
+      "fitScore": 30,
+      "intentScore": 48,
+      "fitDetails": {
+        "practice_area": "Corporate generalist work — entity, governance, M&A support, securities, commercial",
+        "seniority": "Counsel-level, Big Law / in-house background preferred",
+        "comp_credible": "Latitude band typically $160–$220K annualized",
+        "fund_focus": "Generalist corporate — fund work surfaces depending on client"
+      },
+      "intentDetails": {
+        "engagement_model": "Contract / W-2 via Latitude",
+        "remote_flex": "Remote or hybrid at client option",
+        "recency": "Active open req",
+        "apply_path": "Direct Latitude application form"
+      },
+      "vertical": "legal",
+      "subvertical": "corporate",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "Annualized $160K–$220K (FT-equivalent)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "W-2 Contract (Latitude employee)",
+      "urgencyScore": 65,
+      "contacts": [
+        {
+          "name": "Latitude Legal Recruiting",
+          "title": "Attorney Recruiting Team",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/latitude-legal"
+        }
+      ],
+      "signals": [
+        "Generalist corporate panel role — broadest exposure across clients",
+        "Same panel as fund formation / VC reqs Katie has already eyed (#5064, #6939)",
+        "Compounds with applying to other Latitude reqs simultaneously"
+      ],
+      "source": "Latitude Legal — Open Opportunities",
+      "sourceUrl": "https://latitudelegal.com/jobs/6510",
+      "notes": "If Katie applies to the Commercial Contracts and Corporate Attorney reqs together (plus the prior VC Financing and Investment Funds ones), she should ask the recruiter to consider her for the panel generally — Latitude routes single applicants to multiple clients."
+    },
+    {
+      "name": "Qu — Fractional General Counsel (Remote, US)",
+      "website": "https://qubeyond.com",
+      "pipeline": "legal-freelance",
+      "industry": "Restaurant technology SaaS (enterprise POS / unified commerce)",
+      "location": "Remote (United States)",
+      "fundingStage": "Series C / growth-stage (Serent Capital-backed)",
+      "fitScore": 20,
+      "intentScore": 48,
+      "fitDetails": {
+        "practice_area": "Commercial contracts (enterprise SaaS), data privacy, employment, M&A support",
+        "seniority": "GC-level — likely 8–10+ yrs",
+        "comp_credible": "Not stated in public posting",
+        "fund_focus": "PE-portfolio-company GC — fundraising / strategic transactions plausible"
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional (independent contractor)",
+        "remote_flex": "Fully remote",
+        "recency": "Active LinkedIn posting",
+        "apply_path": "LinkedIn Easy Apply"
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "portfolio-company",
+      "compensationText": "",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Independent Contractor / Fractional",
+      "urgencyScore": 65,
+      "contacts": [
+        {
+          "name": "Qu Talent",
+          "title": "Recruiting",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/qubeyond"
+        }
+      ],
+      "signals": [
+        "Serent Capital portco — PE-backed buyer pattern fits Katie's ICP",
+        "Enterprise SaaS contracting is meat-and-potatoes work",
+        "Fractional model explicitly in title"
+      ],
+      "source": "LinkedIn Jobs (indexed)",
+      "sourceUrl": "https://www.linkedin.com/jobs/view/fractional-general-counsel-at-qu-4232245092",
+      "notes": "PE-backed restaurant-tech is a classic 'too complex for templates, too early for FTE' buyer. Pitch SaaS MSAs + PE sponsor reporting; offer to scope a 20-hr/wk pilot."
+    },
+    {
+      "name": "Socket Protocol — Fractional General Counsel (Remote, Web3 / Blockchain)",
+      "website": "https://socket.tech",
+      "pipeline": "legal-freelance",
+      "industry": "Web3 infrastructure / blockchain interoperability protocol",
+      "location": "Remote (USA)",
+      "fundingStage": "Seed–Series A (web3 infra, multi-VC backed)",
+      "fitScore": 20,
+      "intentScore": 48,
+      "fitDetails": {
+        "practice_area": "Securities (token classification), product launches, tokenomics, partnerships, regulatory monitoring",
+        "seniority": "5+ yrs, mix of law-firm + in-house preferred",
+        "comp_credible": "Not stated in public posting",
+        "fund_focus": "Heavy securities/regulatory angle — adjacent to fund regulatory work"
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional",
+        "remote_flex": "Remote-friendly globally",
+        "recency": "Active Built In + Wellfound posting",
+        "apply_path": "Wellfound / Built In apply flow"
+      },
+      "vertical": "legal",
+      "subvertical": "securities",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Independent Contractor / Fractional",
+      "urgencyScore": 65,
+      "contacts": [
+        {
+          "name": "Socket Protocol Recruiting",
+          "title": "Hiring Team",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/socketdottech"
+        }
+      ],
+      "signals": [
+        "Securities + regulatory mandate — overlaps with private-fund regulatory chops",
+        "Multiple postings (Built In + Wellfound) suggest urgency",
+        "Crypto-native experience not required — they need senior judgment"
+      ],
+      "source": "Built In / Wellfound",
+      "sourceUrl": "https://builtin.com/job/fractional-general-counsel/4025369",
+      "notes": "Crypto pays well for senior counsel even without prior token experience. Lead with securities-law fundamentals (Reg D, 33 Act analysis) translated to token structures. Lower fit if Katie wants to stay clear of crypto regulatory exposure."
+    },
+    {
+      "name": "Hayden Industrial LLC — Fractional General Counsel (Remote)",
+      "website": "https://www.haydenindustrial.com",
+      "pipeline": "legal-freelance",
+      "industry": "Industrial equipment manufacturing / project delivery",
+      "location": "Remote (US-based)",
+      "fundingStage": "Privately held middle-market operating company",
+      "fitScore": 20,
+      "intentScore": 46,
+      "fitDetails": {
+        "practice_area": "Engineered equipment supply contracts, industrial project delivery, vendor/customer paper, commercial redlines",
+        "seniority": "GC-level — primary legal advisor",
+        "comp_credible": "Not stated in public posting",
+        "fund_focus": "No fund work; pure commercial / corporate"
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional",
+        "remote_flex": "Remote",
+        "recency": "Active LinkedIn posting",
+        "apply_path": "LinkedIn Easy Apply / direct email"
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Independent Contractor / Fractional",
+      "urgencyScore": 55,
+      "contacts": [
+        {
+          "name": "Hayden Industrial Talent",
+          "title": "Recruiting",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/hayden-industrial"
+        }
+      ],
+      "signals": [
+        "Primary legal advisor role — minimal internal legal function (classic ICP)",
+        "Commercial contracts heavy — Katie's wheelhouse",
+        "Middle-market operating company without a captive law firm"
+      ],
+      "source": "LinkedIn (via search) / direct posting",
+      "sourceUrl": "https://www.linkedin.com/company/hayden-industrial/jobs/",
+      "notes": "Lower visibility company so likely less competitive applicant pool. Pitch as 'I'll be your full legal function for 10–15 hrs/wk and bring in specialists when needed.' Confirm comp before pitching."
+    },
+    {
+      "name": "Lyfecoin LLC — Fractional General Counsel (Remote)",
+      "website": "https://www.lyfecoin.app",
+      "pipeline": "legal-freelance",
+      "industry": "Consumer health / wellness tech (rewards-driven app)",
+      "location": "Remote (US)",
+      "fundingStage": "Early-stage startup",
+      "fitScore": 20,
+      "intentScore": 45,
+      "fitDetails": {
+        "practice_area": "Corporate governance, fundraising support, commercial contracts, privacy, possibly token/rewards regulatory",
+        "seniority": "GC-level",
+        "comp_credible": "Not stated in public posting",
+        "fund_focus": "Likely fundraising support (Series A territory)"
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional",
+        "remote_flex": "Remote",
+        "recency": "Active Legal.io + LinkedIn posting",
+        "apply_path": "Legal.io application / LinkedIn"
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Independent Contractor / Fractional",
+      "urgencyScore": 55,
+      "contacts": [
+        {
+          "name": "Lyfecoin Recruiting",
+          "title": "Hiring Team",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/lyfecoin"
+        }
+      ],
+      "signals": [
+        "Early-stage — fundraising and entity structuring work likely",
+        "Wellness consumer brand — privacy + commercial contracts will dominate",
+        "Listed on Legal.io which curates legitimate counsel postings"
+      ],
+      "source": "Legal.io",
+      "sourceUrl": "https://www.legal.io/jobs/5660179/Other/Fractional-General-Counsel/Remote",
+      "notes": "Watch for the rewards-token angle — if 'coin' is more than branding, there's a securities question worth scoping early. Otherwise it's standard early-stage fractional GC scope."
+    }
+  ]
+}
