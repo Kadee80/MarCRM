@@ -1,0 +1,291 @@
+{
+  "scrapeDate": "2026-05-27",
+  "scrapeTime": "Wednesday, daily run",
+  "totalLeads": 5,
+  "note": "Daily scrape covering all 8 pipelines (agency + 2 freelance) plus signal refresh on hot existing leads. Quality-over-quantity day — 5 new leads, all scoring 70+ combined. Three A-grade pr-marketing triggers (OpenRouter Series B, Stord Series F, Brooklyn Fi strategic investment) all dropped within the same 7-day window — Mark should sequence outreach carefully so the agency does not pitch the same template to three RIAs/tech firms in the same week. Signal refresh: Sardine's intent climbed materially after the NBC extension + Modulr partnership — promote to A grade. Allocate is hiring at multiple seniority levels, reinforcing the legal-freelance urgency. Greenboard product launch (GreenboardGo) reinforces the 5/26 pitch window — outreach within 7 days is still timely.",
+  "leads": [
+    {
+      "name": "OpenRouter",
+      "website": "https://openrouter.ai",
+      "pipeline": "pr-marketing",
+      "industry": "AI infrastructure / model routing — exchange layer between applications and 400+ AI providers (Anthropic, Google, OpenAI, xAI, DeepSeek). Manages and optimizes inference across providers; positioned as the control plane for enterprise multi-model deployment.",
+      "location": "San Francisco, CA",
+      "fundingStage": "Series B — $113M led by CapitalG (Alphabet's independent growth fund), announced 2026-05-26. Participants: NVentures (NVIDIA VC), ServiceNow Ventures, MongoDB Ventures, Snowflake Ventures, Databricks Ventures, alongside existing investors Andreessen Horowitz and Menlo Ventures. Post-money valuation ~$1.3B (more than doubled in a year).",
+      "fitScore": 40,
+      "intentScore": 40,
+      "fitDetails": {
+        "industry_match_FS_Tech": 10,
+        "stage_size_growth": 10,
+        "clear_B2B_buyer_sales_motion": 10,
+        "proof_assets_customers_data": 5,
+        "budget_5k_25k_per_month": 5
+      },
+      "intentDetails": {
+        "trigger_launch_raise_rebrand_expansion": 15,
+        "timeline_to_start_0_30_days": 10,
+        "decision_maker_engaged": 10,
+        "urgency_pain_reputation_pipeline": 5,
+        "responsiveness": 0
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        {
+          "name": "Alex Atallah",
+          "title": "Co-Founder & CEO, OpenRouter",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "series_b_113m_capitalg_led_2026_05_26",
+        "valuation_doubled_to_1_3b_in_one_year",
+        "25t_tokens_per_week_5x_growth_in_6_months",
+        "ceo_quoted_publicly_running_inference_at_scale",
+        "8m_global_users_400_plus_models_supported",
+        "use_of_funds_includes_enterprise_governance_and_optimization",
+        "narrative_window_open_first_30_days_post_announcement"
+      ],
+      "source": "Daily Scrape 2026-05-27 (TechCrunch; Yahoo Finance/Business Wire; finsmes; Menlo Ventures perspective post)",
+      "sourceUrl": "https://techcrunch.com/2026/05/26/openrouter-more-than-doubles-valuation-to-1-3b-in-a-year/",
+      "notes": "STRONGEST agency-pipeline lead of the day (combined 80, A). Just-closed $113M Series B + clean two-day-old news cycle means the launch-comms window is wide open. CapitalG-led with corporate-VC syndicate (NVIDIA, ServiceNow, MongoDB, Snowflake, Databricks) creates a natural cross-portfolio enterprise PR angle. Recommended posture: outreach within 5 business days; pitch a 90-day post-raise comms sprint anchored on (a) the multi-model 'control plane' narrative and (b) the enterprise governance use-case story for the corporate VCs. Caveat: OpenRouter is technically AI-infra not FS/tech, so this is a small stretch on industry fit. Decision-maker: CEO Alex Atallah is the obvious starting point; he was quoted in the BusinessWire release."
+    },
+    {
+      "name": "Stord",
+      "website": "https://www.stord.com",
+      "pipeline": "pr-marketing",
+      "industry": "Commerce infrastructure / AI-powered fulfillment — software + 100-facility fulfillment network, robotics, physical AI for brands competing outside Amazon. Stord Labs (new dedicated robotics + physical-AI environment in Atlanta) launched alongside the raise.",
+      "location": "Atlanta, GA",
+      "fundingStage": "Series F — $250M at $3B valuation, announced 2026-05-26. Existing investors: Strike Capital, Kleiner Perkins, Founders Fund, Franklin Templeton, Baillie Gifford, G Squared, Bond, Lux. Up from $1.5B valuation in May 2025 Series E ($200M). Total raised to date: $775M+ since 2015.",
+      "fitScore": 45,
+      "intentScore": 40,
+      "fitDetails": {
+        "industry_match_FS_Tech": 10,
+        "stage_size_growth": 10,
+        "clear_B2B_buyer_sales_motion": 10,
+        "proof_assets_customers_data": 5,
+        "budget_5k_25k_per_month": 10
+      },
+      "intentDetails": {
+        "trigger_launch_raise_rebrand_expansion": 15,
+        "timeline_to_start_0_30_days": 10,
+        "decision_maker_engaged": 10,
+        "urgency_pain_reputation_pipeline": 5,
+        "responsiveness": 0
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [],
+      "signals": [
+        "series_f_250m_at_3b_valuation_2026_05_26",
+        "valuation_doubled_from_1_5b_2025_to_3b_2026",
+        "stord_labs_robotics_and_physical_ai_initiative_launched_same_day",
+        "software_business_tripled_in_2025_new_bookings_doubled_QoverQ",
+        "challenger_to_amazon_narrative_15b_GMV_8b_data_points_year",
+        "first_party_data_advantage_100_facilities_live_orders",
+        "use_of_funds_includes_brand_and_category_definition"
+      ],
+      "source": "Daily Scrape 2026-05-27 (PRNewswire; TechCrunch; FreightWaves; PYMNTS; Tech Startups)",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/stord-raises-250m-series-f-at-3b-to-advance-the-physical-intelligence-layer-for-commerce-302780681.html",
+      "notes": "HIGHEST combined score of the day (85, A). Stord almost certainly already has a PR firm and an in-house comms lead (Series F, ~$3B valuation, 10+ years old) — so the agency is not the right primary vendor here. The pitchable angles are narrower but real: (1) Stord Labs is a NEW sub-brand launch and may want sub-brand-specific comms; (2) the 'physical intelligence layer' positioning is a category-definition project — that is white-space work. Recommended posture: research first to confirm current PR firm and avoid stepping on a sitting agency; if Stord has no robotics-vertical specialist comms partner, pitch a Stord Labs-only retainer rather than a full-account play. Decision-maker: research who runs comms (likely VP Marketing or Head of Brand). Lower urgency than OpenRouter for outreach; outreach within 14 days."
+    },
+    {
+      "name": "Brooklyn Fi",
+      "website": "https://www.brooklynfi.com",
+      "pipeline": "pr-marketing",
+      "industry": "Wealth management / Registered Investment Advisor — category-defining advisory firm for clients with complex equity compensation (tech employees, founders, creatives navigating IPOs, acquisitions, tender offers, secondaries, business sales). Distinctive brand in independent wealth management.",
+      "location": "Brooklyn, NY",
+      "fundingStage": "Strategic minority investment from Accelerated Wealth Partners (AWP), announced 2026-05-21. Growth capital + access to AWP's organic-growth and M&A capabilities. Founders Ally Jane (AJ) Ayers and Shane Mason retain operational control.",
+      "fitScore": 45,
+      "intentScore": 40,
+      "fitDetails": {
+        "industry_match_FS_Tech": 10,
+        "stage_size_growth": 8,
+        "clear_B2B_buyer_sales_motion": 10,
+        "proof_assets_customers_data": 10,
+        "budget_5k_25k_per_month": 7
+      },
+      "intentDetails": {
+        "trigger_launch_raise_rebrand_expansion": 15,
+        "timeline_to_start_0_30_days": 10,
+        "decision_maker_engaged": 10,
+        "urgency_pain_reputation_pipeline": 5,
+        "responsiveness": 0
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        {
+          "name": "Ally Jane (AJ) Ayers",
+          "title": "Co-Founder, Brooklyn Fi",
+          "email": "",
+          "linkedin": ""
+        },
+        {
+          "name": "Shane Mason",
+          "title": "Co-Founder, Brooklyn Fi",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "awp_strategic_minority_investment_2026_05_21",
+        "category_definition_equity_compensation_era_explicitly_stated",
+        "growth_capital_use_includes_expanding_advisor_bench_and_proprietary_tech",
+        "founders_retain_operational_control_brand_continuity_intact",
+        "ria_ma_environment_record_q1_2026_142_deals",
+        "tech_employee_founder_creative_client_base_overlap_with_marketing_audience"
+      ],
+      "source": "Daily Scrape 2026-05-27 (GlobeNewswire via Manila Times; Yahoo Finance Singapore; Eagle Tribune; AWP press release)",
+      "sourceUrl": "https://www.manilatimes.net/2026/05/21/tmt-newswire/globenewswire/accelerated-wealth-partners-makes-strategic-minority-investment-in-brooklyn-fi-to-build-the-definitive-wealth-manager-for-the-equity-compensation-era/2349414",
+      "notes": "TIED for highest combined score of the day (85, A) — and arguably the most pitchable lead. Brooklyn Fi has explicit brand-defining ambition (the press language uses 'category defining' and 'definitive wealth manager for the equity compensation era' twice), founders who care about brand (founder names on press, distinctive look-and-feel on the website), fresh growth capital, and a hot niche (equity-comp planning for tech IPO/secondary cycles). Recommended posture: founder-to-founder outreach to AJ Ayers within 5 business days; pitch a category-leadership program (thought leadership, exec comms, earned media) rather than transactional product PR. Caveat: smaller firm — budget likely sits at the lower end of the $5-25k/mo band, but the strategic-investment moment unlocks a discretionary marketing budget that was probably gated before. AWP relationship may bring in a sister firm as the comms partner — worth checking AWP's portfolio before pitching."
+    },
+    {
+      "name": "Bluespring Wealth Partners",
+      "website": "https://bluespringwealthpartners.com",
+      "pipeline": "pr-marketing",
+      "industry": "RIA aggregator / wealth-management roll-up platform — Kestra Financial subsidiary, majority-owned by Stone Point Capital (2024). Acquires independent RIAs into a shared services platform.",
+      "location": "Austin, TX (HQ); national M&A footprint",
+      "fundingStage": "Latest M&A activity: acquired Synthesis Wealth Planning (Morristown, NJ; $1.1B combined AUM with IFG Wealth Strategies), announced 2026-05-20. This is Bluespring's 5th acquisition of 2026, following 9 deals in 2025 totaling $6B+ in AUM. Stone Point Capital owns majority stake since 2024.",
+      "fitScore": 35,
+      "intentScore": 35,
+      "fitDetails": {
+        "industry_match_FS_Tech": 10,
+        "stage_size_growth": 10,
+        "clear_B2B_buyer_sales_motion": 5,
+        "proof_assets_customers_data": 5,
+        "budget_5k_25k_per_month": 5
+      },
+      "intentDetails": {
+        "trigger_launch_raise_rebrand_expansion": 15,
+        "timeline_to_start_0_30_days": 10,
+        "decision_maker_engaged": 5,
+        "urgency_pain_reputation_pipeline": 5,
+        "responsiveness": 0
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [],
+      "signals": [
+        "synthesis_wealth_planning_acquisition_announced_2026_05_20",
+        "fifth_2026_acquisition_pace_consistent_with_9_in_2025",
+        "stone_point_capital_majority_2024_pe_backed_pr_priorities_likely",
+        "ria_ma_record_q1_2026_142_deals_1_67t_aum_industry_backdrop",
+        "kestra_financial_parent_brand_likely_carries_in_house_comms"
+      ],
+      "source": "Daily Scrape 2026-05-27 (InvestmentNews; WealthManagement.com; AltsWire; Connect Money; PRNewswire)",
+      "sourceUrl": "https://www.investmentnews.com/ria-news/bluespring-wealth-snaps-up-11b-new-jersey-ria-in-fifth-deal-of-2026/266663",
+      "notes": "B grade (combined 70). Bluespring is the lead, not Synthesis — Bluespring drives the press cadence and has the budget. Caveat: Kestra/Stone Point likely have an established PR firm already (the deal flow is too regular to have been done without one). Pitch angle is narrow: not 'do all your PR' but 'we can run the local-market integration story for each acquisition' — i.e., a per-deal project rate rather than a retainer. Recommended posture: research the existing PR firm first via Kestra's press archive; if there's no obvious incumbent for the integration-story workstream, pitch a per-acquisition project package. Lower priority than Brooklyn Fi or OpenRouter for outreach this week."
+    },
+    {
+      "name": "Multiverse — Head of Communications (US, first US comms hire)",
+      "website": "https://www.multiverse.io",
+      "pipeline": "pr-freelance",
+      "industry": "EdTech / professional apprenticeships — apprenticeship-as-a-service platform partnering with employers to build AI and digital skills pipelines via apprentices. Recent hiring surge tied to AI-skills demand.",
+      "location": "New York, NY (Greater NYC Area) — first US comms hire",
+      "fundingStage": "Mature growth-stage EdTech (previously Series D); hiring surge ongoing per ETIH EdTech News coverage in May 2026",
+      "fitScore": 35,
+      "intentScore": 35,
+      "fitDetails": {
+        "PR_comms_media_relations_clearly_stated": 20,
+        "sector_fit_finance_PE_VC_B2B_fintech_asset_management": 5,
+        "workstream_exec_comms_thought_leadership_earned_media_IR": 10,
+        "agency_overflow_white_label_immediate_need": 0
+      },
+      "intentDetails": {
+        "engagement_model_freelance_contract_retainer_fractional": 5,
+        "remote_flexible_part_time": 10,
+        "posted_within_72h": 5,
+        "urgency_signals_immediate_need_asap_overflow_backfill": 10,
+        "easy_apply_direct_email_contact_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "comms",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "$130,000 - $160,000 base + bonus (per BuiltIn NYC + Ladders listing for the full-time role; freelance pitch is fractional advisory before they close the FT search)",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Full-time (Greater NYC Area, NY)",
+      "urgencyScore": 65,
+      "contacts": [],
+      "signals": [
+        "first_us_communications_hire_explicit_in_jd",
+        "icp_intent_signal_1_first_pr_hire_pitch_fractional_advisory_before_ft_commit",
+        "reports_into_director_of_comms_and_public_affairs_uk_hq",
+        "hiring_surge_etih_edtech_coverage_may_2026",
+        "ai_skills_demand_drives_workforce_growth",
+        "edtech_b2b_sector_partial_fit_not_pure_fs_or_fintech"
+      ],
+      "source": "Daily Scrape 2026-05-27 (LinkedIn job posting; BuiltIn NYC; Ladders; Multiverse careers page; ETIH EdTech News on hiring surge)",
+      "sourceUrl": "https://www.builtinnyc.com/job/marketing/head-communications/206390",
+      "notes": "B grade (combined 70). Classic first-PR-hire pitch — this is ICP intent signal #1. Pitch posture: 'You're building from scratch — let me run the function for the first 90 days while you complete the FT search, and I'll hand it off to whoever you hire.' Caveats: (a) the role reports into a UK-based Director of Comms and Public Affairs, so any freelance arrangement needs UK sign-off; (b) EdTech is not Mark's strongest vertical (no PE/VC/fintech client overlap), but the engagement-model fit is strong. Mark's website + portfolio should lead with the 'first comms hire / pre-comms function' track record rather than the FS-vertical track record. Lower fit than the agency-pipeline leads above but a clean freelance-pitch shape."
+    }
+  ],
+  "signalRefresh": [
+    {
+      "leadName": "Sardine",
+      "originalPipeline": "pr-marketing",
+      "originalScores": { "fit": 47, "intent": 27, "combined": 74 },
+      "newScores": { "fit": 47, "intent": 38, "combined": 85 },
+      "scoreDelta": { "fit": 0, "intent": "+11", "combined": "+11" },
+      "newSignals": [
+        "$25m_series_c_extension_led_by_national_bank_of_canada_2026_05_21",
+        "modulr_partnership_announced_2026_04_29_real_time_ai_fraud_detection_for_automated_payments",
+        "nbc_will_deploy_sardine_device_intel_and_risk_scoring_across_retail_commercial_wealth_ops",
+        "platform_now_300_plus_enterprises_across_70_countries_fis_ascensus_deel_godaddy"
+      ],
+      "recommendedAction": "Promote to A grade. Sardine has TWO discrete PR-trigger events in the past 30 days (NBC extension + Modulr partnership) and an expanding enterprise logo set. The momentum justifies bumping Sardine to the top of the agency-pipeline outreach queue this week ahead of OpenRouter. Suggested posture: pitch a 6-week PR sprint anchored on the NBC partnership as the proof point for enterprise-bank readiness, with the Modulr partnership as a secondary case study for payments-rail expansion."
+    },
+    {
+      "leadName": "Allocate — Senior Fund Formation Attorney (Remote, US)",
+      "originalPipeline": "legal-freelance",
+      "originalScores": { "fit": 40, "intent": 40, "combined": 80 },
+      "newScores": { "fit": 40, "intent": 42, "combined": 82 },
+      "scoreDelta": { "fit": 0, "intent": "+2", "combined": "+2" },
+      "newSignals": [
+        "allocate_now_posting_multiple_seniority_levels_junior_mid_senior_senior_in_parallel",
+        "volume_signal_indicates_pipeline_buildout_not_one_off_replacement_hire",
+        "two_freshteam_postings_visible_publicly_5_27_2026"
+      ],
+      "recommendedAction": "Window is closing. The fact that Allocate is now posting Junior + Mid-Senior + Senior in parallel signals they're scaling a fund-formation legal team — not just backfilling one role. Mark's fractional-while-you-search pitch still applies but with shorter shelf life; if they fill the Senior role within 2 weeks, the door narrows. Direct LinkedIn outreach to whoever owns the legal-hiring search (likely COO/Head of Operations rather than GC) should happen this week."
+    },
+    {
+      "leadName": "Greenboard",
+      "originalPipeline": "pr-marketing",
+      "originalScores": { "fit": 42, "intent": 35, "combined": 77 },
+      "newScores": { "fit": 42, "intent": 35, "combined": 77 },
+      "scoreDelta": { "fit": 0, "intent": 0, "combined": 0 },
+      "newSignals": [
+        "greenboardgo_conversational_ai_layer_continues_to_drive_secondary_press_in_regtech_analyst_sci_tech_today_ventureburn",
+        "founder_dave_feldman_actively_quoted_across_multiple_outlets",
+        "wealthtechstrategy_coverage_post_launch_adds_to_press_footprint",
+        "narrative_window_still_open_through_first_week_of_june"
+      ],
+      "recommendedAction": "No score change but the window is still open. The Series A + GreenboardGo dual-launch story is now generating secondary press (RegTech Analyst, WealthTech Strategy, Ventureburn), so Greenboard is in active narrative mode for at least another 7-10 days. Pitch within that window."
+    }
+  ]
+}
