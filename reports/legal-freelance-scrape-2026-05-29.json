@@ -1,0 +1,253 @@
+{
+  "scrapeDate": "2026-05-29",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 5,
+  "note": "5 new legal-freelance leads scored ≥55. Heavy Latitude Legal week — two distinct corporate/M&A contract engagements that don't overlap with Latitude roles already captured 5/22, 5/26, 5/27. Plus Fractionus EdTech fractional GC (rare published hourly band: $250–350/hr), Radian Capital growth-equity GC (full-time hire, pitched as interim-coverage entry point), and Affirm Partners PE fund GC (borderline; full-time but ICP-perfect for Katie's funds practice). Dedup window covered legal-freelance reports 5/21–5/28 and adjacent daily/PR reports.",
+  "leads": [
+    {
+      "name": "Latitude Legal — Corporate Counsel, JV/Governance & M&A (Engagement, Remote)",
+      "website": "https://latitudelegal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Flexible legal staffing — Chambers-ranked ALSP placing former in-house and AmLaw counsel into contract engagements. This posting routes to a regulated-industries client (energy or adjacent) needing entity formation, restructuring, JV structuring, and M&A due-diligence/transaction support.",
+      "location": "Remote (DC, Charlotte, or Columbia preferred)",
+      "fundingStage": "Established ALSP (private)",
+      "fitScore": 30,
+      "intentScore": 45,
+      "fitDetails": {
+        "practice_area": 10,
+        "seniority": 10,
+        "comp_credible": 10,
+        "fund_focus": 0
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 15,
+        "recency": 5,
+        "apply_path": 10
+      },
+      "vertical": "legal",
+      "subvertical": "M&A",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "Annualized $225,000–$280,000+ on a full-time-equivalent basis (Latitude W-2 contract; benefits & PLI included at 20+ hrs/wk)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Long-term contract engagement (W-2 Latitude bench)",
+      "urgencyScore": 65,
+      "contacts": [
+        {
+          "name": "Latitude Legal — Engagement Team",
+          "title": "Attorney Engagement",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/latitudelegal"
+        }
+      ],
+      "signals": [
+        "joint_ventures_governance_ma_pure_corporate",
+        "regulated_industries_energy_or_adjacent",
+        "remote_long_term_contract",
+        "high_comp_band_225_to_280k_fte_equivalent",
+        "w2_benefits_eligible_at_20hrs",
+        "latitude_bench_already_partially_validated"
+      ],
+      "source": "BeBee / Latitude Legal jobs portal",
+      "sourceUrl": "https://bebee.com/us/jobs/corporate-counsel-joint-ventures-governance-ma-engagement-latitude-legal--theirstack-675963279",
+      "notes": "Combined 75 / Grade B+. Strongest Latitude posting of the week for Katie's profile — JV / governance / M&A is squarely her corporate wheelhouse, and the $225–280k annualized band is the highest comp in any 5/29 lead. Regulated-industries context (likely energy) adds a small specialty stretch but isn't disqualifying — the structuring + diligence muscle transfers directly from fund/LP work. The DC / Charlotte / Columbia geographic preference appears to be 'preferred,' not 'required,' on the engagement; confirm during intake. Pitch: corporate M&A + JV structuring + governance build, immediate availability, AmLaw-pedigree fund-side reference points."
+    },
+    {
+      "name": "Latitude Legal — M&A Attorney (Long-Term Contract, Fully Remote, EST)",
+      "website": "https://latitudelegal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Flexible legal staffing — Latitude is partnering with a global, diversified conglomerate to identify an M&A Attorney to play an integral role in complex domestic and cross-border M&A transactions, corporate reorganizations, and divestitures. Long-term contract basis with potential conversion to permanent.",
+      "location": "Fully remote (EST preferred)",
+      "fundingStage": "Established ALSP (private); end client is a global conglomerate",
+      "fitScore": 30,
+      "intentScore": 45,
+      "fitDetails": {
+        "practice_area": 10,
+        "seniority": 10,
+        "comp_credible": 10,
+        "fund_focus": 0
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 15,
+        "recency": 5,
+        "apply_path": 10
+      },
+      "vertical": "legal",
+      "subvertical": "M&A",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "Annualized $175,000–$190,000 on a full-time-equivalent basis (Latitude W-2 contract; benefits & PLI at 20+ hrs/wk)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Long-term contract with potential to convert to permanent",
+      "urgencyScore": 70,
+      "contacts": [
+        {
+          "name": "Latitude Legal — Engagement Team",
+          "title": "Attorney Engagement",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/latitudelegal"
+        }
+      ],
+      "signals": [
+        "long_term_contract_with_convert_option",
+        "complex_domestic_and_cross_border_ma",
+        "corporate_reorganizations_divestitures",
+        "fully_remote_est_preferred",
+        "diversified_conglomerate_end_client",
+        "latitude_bench_door_opener"
+      ],
+      "source": "BeBee / Latitude Legal aggregator listing",
+      "sourceUrl": "https://latitudelegal.com/our-attorneys/positions",
+      "notes": "Combined 75 / Grade B. Second Latitude M&A posting active this week — distinct from the JV/Gov role above because the end client is a multi-jurisdiction operating conglomerate (not a regulated-industries corporate). Cross-border M&A + divestiture/reorg muscle is squarely Katie's profile, and 'potential to convert to permanent' is useful optionality. Apply to both Latitude roles in the same intake call to reinforce corporate/funds preference on the bench. EST preference fits Katie's NYC base; remote is genuine."
+    },
+    {
+      "name": "Fractionus (EdTech SaaS) — Fractional General Counsel, K-12 Commercial Contracts (Remote, $250–350/hr)",
+      "website": "https://fractionus.com",
+      "pipeline": "legal-freelance",
+      "industry": "Growth-stage EdTech SaaS — building commercial legal layer for K-12 sales. Role focuses on standardizing contracts, managing the CLM system, and advising on EdTech regulations (FERPA, student data privacy, district approval flows).",
+      "location": "Remote (New York posting; remote candidates considered)",
+      "fundingStage": "Growth-stage SaaS operator (private)",
+      "fitScore": 30,
+      "intentScore": 45,
+      "fitDetails": {
+        "practice_area": 10,
+        "seniority": 10,
+        "comp_credible": 10,
+        "fund_focus": 0
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 15,
+        "recency": 5,
+        "apply_path": 10
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "$250–350/hr; explicit path to FTE as the company scales",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional / part-time engagement (1099 or 1099-equivalent); explicit FTE conversion path",
+      "urgencyScore": 70,
+      "contacts": [
+        {
+          "name": "Fractionus — Talent",
+          "title": "Recruiting / Legal Hiring",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/fractionus"
+        }
+      ],
+      "signals": [
+        "published_hourly_band_rare",
+        "fractional_explicit_with_fte_path",
+        "commercial_contracts_clm_standardization",
+        "k12_edtech_specialty_stretch",
+        "remote_fully",
+        "7_plus_years_saas_required"
+      ],
+      "source": "JobLeads aggregator (EdTech & K-12 fractional GC)",
+      "sourceUrl": "https://www.jobleads.com/us/job/remote-fractional-general-counsel-edtech-k-12-contracts--new-york--effbaf6798ea3808bdf1e461350959a31",
+      "notes": "Combined 75 / Grade B. The published $250–350/hr band is unusually transparent and sits above market median for fractional GC engagements — that alone makes the posting worth pursuing even though the K-12 / EdTech specialty is a stretch for Katie's fund/corporate profile. The work itself is commercial-contract standardization + CLM management + sales-paper review, which transfers cleanly. Pitch angle: senior commercial-contracts depth + CLM build experience + ability to architect approval flows. Be honest about FERPA / district-approval depth being on-ramping, not pre-built. The 7+ years SaaS requirement is genuine, so frame Katie's SaaS-vendor and software-licensing exposure from prior corporate work."
+    },
+    {
+      "name": "Radian Capital — General Counsel (Remote; Fund, Firm, and Portfolio Matters)",
+      "website": "https://radiancapital.com",
+      "pipeline": "legal-freelance",
+      "industry": "Growth equity firm — investing in B2B software and tech-enabled services. GC role works directly with Co-Founders across legal matters for the Fund, the Firm (management company), and Portfolio companies.",
+      "location": "Remote",
+      "fundingStage": "Established growth equity firm (private)",
+      "fitScore": 40,
+      "intentScore": 30,
+      "fitDetails": {
+        "practice_area": 20,
+        "seniority": 10,
+        "comp_credible": 10,
+        "fund_focus": 0
+      },
+      "intentDetails": {
+        "engagement_model": 0,
+        "remote_flex": 15,
+        "recency": 5,
+        "apply_path": 10
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "interim",
+      "buyerType": "fund",
+      "compensationText": "Not stated; market range for growth-equity GC is $250–450k base + carry (FTE); interim-coverage pitch would target $300–450/hr",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Full-time (FTE) — pitched here as interim-coverage entry point",
+      "urgencyScore": 55,
+      "contacts": [
+        {
+          "name": "Radian Capital — Talent",
+          "title": "Recruiting / Talent",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/radian-capital"
+        }
+      ],
+      "signals": [
+        "fund_firm_portfolio_full_stack_icp",
+        "growth_equity_b2b_software_focus",
+        "remote_role",
+        "direct_co_founder_partnership",
+        "ftc_hire_not_explicit_fractional",
+        "interim_coverage_pitch_angle"
+      ],
+      "source": "Legal.io job board",
+      "sourceUrl": "https://www.legal.io/jobs/5269786/Full-time/General-Counsel/Remote",
+      "notes": "Combined 70 / Grade B. This is the most ICP-aligned posting of the week even though it's a full-time hire, not an engagement model. Radian Capital is a B2B-software-focused growth equity firm — exactly the lower-middle-market buyer Katie targets. The role spans Fund, Firm, and Portfolio work, which mirrors her pitch deck. Pitch angle: offer interim GC coverage during the permanent search (3–6 months), with explicit option to convert to FTE if mutual fit. This works because (a) search timelines for fund-side GC roles are typically 4–6 months, (b) deal flow doesn't pause for hiring, and (c) interim coverage gives the firm a working interview. Send a 1-page interim-coverage proposal alongside the standard application."
+    },
+    {
+      "name": "Affirm Partners — General Counsel, Private Equity Fund (Interim Coverage Pitch)",
+      "website": "https://affirmpartners.com",
+      "pipeline": "legal-freelance",
+      "industry": "Private equity fund — emerging-manager investing in lower-middle-market opportunities. GC role covers fund formation, LP/GP-side fund documents, portfolio company governance, and regulatory compliance.",
+      "location": "New York (Remote/hybrid TBD)",
+      "fundingStage": "Emerging manager / Fund I–II (private)",
+      "fitScore": 40,
+      "intentScore": 15,
+      "fitDetails": {
+        "practice_area": 20,
+        "seniority": 10,
+        "comp_credible": 10,
+        "fund_focus": 0
+      },
+      "intentDetails": {
+        "engagement_model": 0,
+        "remote_flex": 0,
+        "recency": 5,
+        "apply_path": 10
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "interim",
+      "buyerType": "fund",
+      "compensationText": "Not stated; PE-fund GC market range is $300–500k base + carry (FTE); interim-coverage pitch would target $350–500/hr",
+      "remoteFlag": "",
+      "employmentTypeRaw": "Full-time (FTE) — pitched here as interim-coverage entry point",
+      "urgencyScore": 50,
+      "contacts": [
+        {
+          "name": "Affirm Partners — Talent / HR",
+          "title": "Recruiting",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/affirm-partners"
+        }
+      ],
+      "signals": [
+        "private_equity_fund_pure_icp",
+        "emerging_manager_likely_fund_i_or_ii",
+        "ny_based_likely_hybrid",
+        "ftc_hire_not_explicit_fractional",
+        "interim_coverage_pitch_angle",
+        "borderline_score_55"
+      ],
+      "source": "LinkedIn Jobs (indexed)",
+      "sourceUrl": "https://www.linkedin.com/jobs/view/general-counsel-private-equity-fund-at-affirm-partners-4053530151",
+      "notes": "Combined 55 / Grade C (borderline pass). Included because the buyer profile — an emerging-manager PE fund — is exactly Katie's strongest ICP angle, even though the posting is full-time and NY-based. Emerging managers are also more likely than established firms to consider an interim/fractional GC coverage arrangement because (a) Fund I/II economics don't always justify a FTE GC at the front end, and (b) they need fund-formation and LP-document depth right when comp budget is tightest. Pitch angle: 'I can cover your GC scope on an interim basis at a fractional commitment while you decide whether the GC role is FTE-justified at current AUM.' Confirm NY hybrid requirement before investing intake time. If hybrid is mandatory and Katie isn't NYC-flexible right now, deprioritize and move to the Radian Capital pitch first."
+    }
+  ]
+}
