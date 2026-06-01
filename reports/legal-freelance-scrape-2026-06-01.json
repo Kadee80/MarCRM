@@ -1,0 +1,205 @@
+{
+  "scrapeDate": "2026-06-01",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 4,
+  "note": "4 new legal-freelance leads scored ≥55. Heavy dedup week — most of the standing fund/M&A reqs (Latitude #5064, #5073, #5077, #5360, #6510, #6939, JV/Gov, M&A long-term, Franchise, Interim GC; Allocate, Ontra, Tower, Radian, Affirm, Fractionus, Atlas Road, Ropes & Gray, MLA Interim Chief Corporate & Sustainability) are already in prior reports 5/20–5/29 and intentionally suppressed. New this scrape: (1) Arootah hedge-fund/family-office GC consultancy with published $400–600/hr band — strongest ICP and comp signal of the week; (2) MLA Interim Counsel, Corporate & Securities — distinct from prior MLA reqs, $95–110/hr remote 3+ year horizon; (3) two fresh Latitude commercial-contracts/SaaS engagement reqs (#6420, #6469) not previously surfaced. Dedup window covered legal-freelance reports 5/20–5/29 and pr-freelance reports through 5/28.",
+  "leads": [
+    {
+      "name": "Arootah — Consultant Chief Legal Counsel / General Counsel (Fractional/Contract, Hedge Fund & Family Office, $400–600/hr)",
+      "website": "https://arootah.com",
+      "pipeline": "legal-freelance",
+      "industry": "Talent & advisory platform for hedge funds and family offices — founded by Rich Bello (Co-Founder/COO of $10B Blue Ridge Capital; prior Morgan Stanley, Tiger Management, EY). Consultants serve hedge fund and family office clients on legal, compliance, operations, and tax. The legal consulting engagements span fund formation, LP/GP docs, regulatory (Advisers Act, '40 Act, '34 Act, '33 Act), corporate governance, and ongoing operations support.",
+      "location": "Remote (NY-headquartered; consultants nationwide)",
+      "fundingStage": "Established talent/advisory platform (private)",
+      "fitScore": 50,
+      "intentScore": 45,
+      "fitDetails": {
+        "practice_area": 20,
+        "seniority": 10,
+        "comp_credible": 10,
+        "fund_focus": 10
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 15,
+        "recency": 5,
+        "apply_path": 10
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "fractional",
+      "buyerType": "family-office",
+      "compensationText": "$400–600/hr (published band; varies by engagement length, specialization, and experience)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "1099 fractional/contract consultant — engagement-based",
+      "urgencyScore": 80,
+      "contacts": [
+        {
+          "name": "Arootah — Talent / Recruiting",
+          "title": "Talent Solutions",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/arootah"
+        }
+      ],
+      "signals": [
+        "hedge_fund_and_family_office_only_pure_icp",
+        "published_400_to_600_per_hour_band_top_of_market",
+        "fractional_contract_explicit_engagement_model",
+        "lever_direct_apply",
+        "ongoing_intake_not_single_req",
+        "fund_formation_advisers_act_governance_workstream"
+      ],
+      "source": "Lever (Arootah jobs portal)",
+      "sourceUrl": "https://jobs.lever.co/arootah/7cb30dcb-ecca-4e5c-95d1-acdb4d0ad25b",
+      "notes": "Combined 95 / Grade A. Strongest single posting of the week — every ICP filter for Katie's legal-freelance practice lights up: hedge funds + family offices as the buyer base, fund formation + Advisers Act + governance as the workstream, published $400–600/hr band as the comp signal, and Arootah's consultant bench model means one onboarding round unlocks recurring engagement flow rather than a single placement. The one stretch: posting asks for 12+ years as Chief Legal Counsel or General Counsel specifically at a hedge fund or family office. Katie's profile is corporate/funds-trained but may not have direct hedge fund CLO tenure — frame the pitch as senior fund-counsel + LP/GP docs + governance depth that maps cleanly into the consultant scope, and let Arootah qualify on the years/title bar. This is the kind of posting to apply to even if the experience match is imperfect — the bench model means subsequent placements can match better."
+    },
+    {
+      "name": "Major, Lindsey & Africa — Interim Counsel, Corporate and Securities (Remote, $95–110/hr, 3+ year engagement)",
+      "website": "https://www.mlaglobal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Top-tier global legal recruiting firm — MLA's Interim Legal Talent group places experienced counsel into law firms and corporate legal departments on project, overflow, or interim-coverage engagements. This specific posting routes to a global technology solutions corporation (publicly listed) needing ongoing inter-company agreements, transaction support, and securities-adjacent work.",
+      "location": "Remote (East Coast schedule)",
+      "fundingStage": "Established (private; major legal recruiter)",
+      "fitScore": 30,
+      "intentScore": 45,
+      "fitDetails": {
+        "practice_area": 10,
+        "seniority": 10,
+        "comp_credible": 10,
+        "fund_focus": 0
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 15,
+        "recency": 5,
+        "apply_path": 10
+      },
+      "vertical": "legal",
+      "subvertical": "securities",
+      "engagementModel": "interim",
+      "buyerType": "staffing",
+      "compensationText": "$95–110/hr (hourly contract; client is a publicly listed global tech corporation)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Remote full-time hourly contract — engagement expected to last 3+ years",
+      "urgencyScore": 75,
+      "contacts": [
+        {
+          "name": "Major, Lindsey & Africa — Interim Legal Talent",
+          "title": "Interim Legal Talent Recruiting",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/major-lindsey-&-africa"
+        }
+      ],
+      "signals": [
+        "interim_corporate_and_securities_workstream",
+        "published_95_to_110_per_hour_hourly_contract",
+        "remote_east_coast_schedule",
+        "3_plus_year_engagement_duration",
+        "publicly_listed_global_tech_client",
+        "mla_bench_door_opener_for_future_fund_reqs",
+        "distinct_from_prior_mla_interim_chief_corporate_sustainability_req"
+      ],
+      "source": "LinkedIn Jobs (MLA Interim Legal Talent)",
+      "sourceUrl": "https://www.linkedin.com/jobs/view/interim-counsel-corporate-and-securities-at-major-lindsey-africa-4321299601",
+      "notes": "Combined 75 / Grade B+. Distinct from the 'Interim Chief Corporate & Sustainability Counsel' MLA req captured in the 5/27 report — different client, different scope. This is a more mainstream corporate-and-securities engagement (inter-company agreements, transaction support, securities matters) with a multi-year horizon. The 10+ year experience bar is comfortable for Katie. Comp band $95–110/hr is lower than her natural target but the 3+ year duration creates a stable base. Real value here is panel-wide MLA bench visibility — once Katie is in MLA's interim-talent system, future fund-formation and growth-equity reqs become easier to surface. Apply, but treat as channel-opening rather than primary engagement."
+    },
+    {
+      "name": "Latitude Legal — Corporate Counsel, Technology & Commercial Transactions #6420 (Remote, Engagement, $150–170k+ FTE)",
+      "website": "https://latitudelegal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Flexible legal staffing — Chambers-ranked ALSP. This specific req routes to a leading technology company needing drafting, review, and negotiation of SaaS, vendor, and other commercial agreements. Reports directly to the General Counsel of the client.",
+      "location": "Remote (US)",
+      "fundingStage": "Established ALSP (Chambers globally ranked; private)",
+      "fitScore": 30,
+      "intentScore": 45,
+      "fitDetails": {
+        "practice_area": 10,
+        "seniority": 10,
+        "comp_credible": 10,
+        "fund_focus": 0
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 15,
+        "recency": 5,
+        "apply_path": 10
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "Annualized $150,000–$170,000+ on a full-time basis (Latitude W-2 contract; benefits & PLI at 20+ hrs/wk; CLE + professional expense stipend)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Full- or part-time contract engagement (W-2 on Latitude bench)",
+      "urgencyScore": 65,
+      "contacts": [
+        {
+          "name": "Latitude Legal — Engagement Team",
+          "title": "Attorney Engagement",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/latitudelegal"
+        }
+      ],
+      "signals": [
+        "saas_and_vendor_agreement_focus",
+        "reports_to_client_gc_directly",
+        "4_plus_years_minimum_lower_bar",
+        "150_170k_annualized_band_credible",
+        "remote_w2_benefits_at_20hrs",
+        "new_latitude_req_not_previously_captured",
+        "biglaw_or_top_corporate_legal_dept_preferred"
+      ],
+      "source": "Latitude Legal jobs portal",
+      "sourceUrl": "https://latitudelegal.com/jobs/6420",
+      "notes": "Combined 75 / Grade B+. New Latitude req that hasn't surfaced in prior legal-freelance reports (#6420 is distinct from #5073 #5064 #5077 #5360 #6510 #6939 already in pipeline). Lower seniority bar (4+ years) and lower comp band ($150–170k FTE) than the JV/Gov or M&A reqs, but the work itself — SaaS/vendor agreement drafting, negotiation, GC-reporting line — is clean commercial-contracts work that fits Katie's profile and would diversify her Latitude bench exposure beyond the corporate/M&A reqs she's already applied for. Apply as a complement to her existing Latitude intake, not a replacement. If Latitude's recruiter is asking what else she'd take, this is the answer."
+    },
+    {
+      "name": "Latitude Legal — Experienced In-House Commercial Contracts Counsel #6469 (Remote, Engagement)",
+      "website": "https://latitudelegal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Flexible legal staffing — Chambers-ranked ALSP. Senior commercial-contracts engagement supporting a corporate legal team on a remote contract basis. Targeted at experienced former in-house counsel rather than entry-level contracting work.",
+      "location": "Remote (US)",
+      "fundingStage": "Established ALSP (Chambers globally ranked; private)",
+      "fitScore": 25,
+      "intentScore": 45,
+      "fitDetails": {
+        "practice_area": 10,
+        "seniority": 10,
+        "comp_credible": 5,
+        "fund_focus": 0
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 15,
+        "recency": 5,
+        "apply_path": 10
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "Not explicitly stated on the public req; Latitude's senior commercial-contracts band typically $175,000–$220,000+ FTE-annualized (W-2; benefits & PLI at 20+ hrs/wk)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Engagement-basis contract (Latitude W-2 bench)",
+      "urgencyScore": 60,
+      "contacts": [
+        {
+          "name": "Latitude Legal — Engagement Team",
+          "title": "Attorney Engagement",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/latitudelegal"
+        }
+      ],
+      "signals": [
+        "senior_in_house_commercial_contracts_focus",
+        "remote_engagement_w2",
+        "new_latitude_req_distinct_from_5073_and_6420",
+        "latitude_bench_already_in_pipeline_panel_visibility_play",
+        "comp_band_not_disclosed_on_public_req"
+      ],
+      "source": "Latitude Legal jobs portal",
+      "sourceUrl": "https://latitudelegal.com/jobs/6469",
+      "notes": "Combined 70 / Grade B. Third distinct Latitude commercial-contracts req in the pipeline now (#5073, #6420, #6469). The 'Experienced In-House' framing skews toward more senior commercial-contracts work and likely sits at a higher comp band than #6420 (#6420 is 4+ years; #6469 targets former in-house counsel with deeper substantive experience). Public req does not disclose comp, so the comp_credible score is partial. Worth bundling into the Latitude intake conversation — at minimum it signals Katie's range across seniority bands, and Latitude's recruiter can route her to whichever req has the most active client demand. Lower individual urgency, but high marginal value because Latitude bench access compounds."
+    }
+  ]
+}

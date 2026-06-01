@@ -1,0 +1,259 @@
+{
+  "scrapeDate": "2026-06-01",
+  "scrapeType": "pr-freelance",
+  "totalLeads": 5,
+  "note": "PR Freelance scrape — 7-day window (May 25 – Jun 1). LinkedIn-indexed postings only via Google per spec; no bot scraping. Deduped against all pr-freelance scrapes May 22 → May 28 and against PR Head-of-Comms in-house roles already captured in daily-scrape JSON. Top signal this week: Infinite Global's acquisition of Dukas Linden Public Relations (May 6) created an active financial-PR/media-relations posting + post-acquisition contractor demand.",
+  "leads": [
+    {
+      "name": "Dukas Linden Public Relations",
+      "website": "https://dukaslinden.com",
+      "pipeline": "pr-freelance",
+      "industry": "Financial Communications & PR (asset management, hedge funds, private equity, fintech, IR)",
+      "location": "New York, NY (now part of Infinite Global transatlantic platform)",
+      "fundingStage": "Acquired by Infinite Global 2026-05-06",
+      "fitScore": 50,
+      "intentScore": 40,
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 15,
+        "workstream": 10,
+        "buyer_quality": 5,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 10,
+        "remote_flex": 5,
+        "recency": 10,
+        "urgency_signals": 10,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "media-relations",
+      "engagementModel": "contract",
+      "buyerType": "agency",
+      "compensationText": "Not disclosed; mid-senior boutique financial-PR rates (likely $125–$200/hr freelance)",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Active 'Financial PR / Media Relations Pro' LinkedIn posting (2026-04-27); post-acquisition integration likely creates additional contractor demand",
+      "urgencyScore": 85,
+      "contacts": [
+        {
+          "name": "Seth Linden",
+          "title": "President, DLPR (now leadership role at Infinite)",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/in/sethlinden/"
+        },
+        {
+          "name": "DLPR / Infinite Talent",
+          "title": "Recruiting",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/dukas-linden-public-relations/"
+        }
+      ],
+      "signals": [
+        "Acquired by Infinite Global 2026-05-06 — post-acquisition integrations create predictable contractor windows",
+        "Active LinkedIn posting for Financial PR / Media Relations Pro dated 2026-04-27",
+        "Pure-play financial communications boutique: asset mgmt, hedge funds, PE, fintech",
+        "Now part of a transatlantic platform — broader client portfolio increases overflow"
+      ],
+      "source": "LinkedIn (Google-indexed) + PRNewswire acquisition release",
+      "sourceUrl": "https://www.linkedin.com/jobs/view/financial-pr-media-relations-pro-at-dukas-linden-public-relations-4407873410",
+      "notes": "TOP FIT this run (combined 90, A). Lead with acquisition awareness in the pitch — show you understand integration creates contractor demand. Apply via LinkedIn posting AND parallel-track outreach to Seth Linden."
+    },
+    {
+      "name": "Crackle PR",
+      "website": "https://www.cracklepr.com",
+      "pipeline": "pr-freelance",
+      "industry": "B2B Tech & Fintech PR Agency (senior-only, fully remote)",
+      "location": "Fully remote (US-based)",
+      "fundingStage": "Independent, founder-led (Parry Headrick)",
+      "fitScore": 45,
+      "intentScore": 40,
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 10,
+        "workstream": 10,
+        "buyer_quality": 5,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 10,
+        "recency": 5,
+        "urgency_signals": 5,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "media-relations",
+      "engagementModel": "freelance",
+      "buyerType": "agency",
+      "compensationText": "Senior-strategist hourly rates ($200–$500/hr per Crackle's own published positioning)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "All-senior contractor roster (no junior pyramid by design); roster-add play rather than open req",
+      "urgencyScore": 60,
+      "contacts": [
+        {
+          "name": "Parry Headrick",
+          "title": "Founder & CEO",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/in/parryheadrick/"
+        }
+      ],
+      "signals": [
+        "20+ senior strategists, no junior layer — operating model IS senior contractors",
+        "Fully remote, senior-led B2B tech / fintech PR agency",
+        "Explicit fintech vertical (Series A → IPO) per own positioning",
+        "GEO/LLM-discoverability native — differentiated buyer for senior earned-media operators"
+      ],
+      "source": "Crackle PR website + best-of-2026 buyer's guide",
+      "sourceUrl": "https://cracklepr.com/fintech-pr-agency",
+      "notes": "Combined 85, A. Roster-add play: pitch Parry directly with a one-page senior-strategist case study (1 fintech, 1 asset-mgmt). No formal application path — relationship route."
+    },
+    {
+      "name": "Cognito Media",
+      "website": "https://www.cognitomedia.com",
+      "pipeline": "pr-freelance",
+      "industry": "Integrated PR, Marketing & Communications — finance, fintech, professional services, technology",
+      "location": "New York, NY (with London, Singapore offices)",
+      "fundingStage": "Independent",
+      "fitScore": 50,
+      "intentScore": 20,
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 15,
+        "workstream": 10,
+        "buyer_quality": 5,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 5,
+        "remote_flex": 5,
+        "recency": 5,
+        "urgency_signals": 0,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "investor-pr",
+      "engagementModel": "contract",
+      "buyerType": "agency",
+      "compensationText": "Not disclosed; mid-tier financial-PR boutique rates",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Active PR/Marketing/Communications vacancies on careers page; no explicit freelance req but multi-office structure routinely engages senior contractors",
+      "urgencyScore": 50,
+      "contacts": [
+        {
+          "name": "Cognito NYC Office",
+          "title": "Recruiting / Office Head",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/cognito-media/"
+        }
+      ],
+      "signals": [
+        "Pure-play financial services / fintech PR agency — exact sector fit",
+        "Named verticals: banking, wealth mgmt, payments, capital markets, insurance, cyber, AI, crypto, blockchain",
+        "Multi-office (NYC, London, Singapore) — global accounts need senior overflow",
+        "Active careers page with current vacancies as of May 2026"
+      ],
+      "source": "Cognito careers page + Chambers FinTech profile",
+      "sourceUrl": "https://www.cognitomedia.com/careers/",
+      "notes": "Combined 70, B. Direct outreach to NYC office head with sector-specific cover note (name 2-3 of their declared verticals where you have direct work). Pitch freelance / contract retainer scoped to one vertical."
+    },
+    {
+      "name": "Brunswick Group",
+      "website": "https://www.brunswickgroup.com",
+      "pipeline": "pr-freelance",
+      "industry": "Strategic Advisory — M&A communications, financial communications, IR, crisis, ESG",
+      "location": "New York, NY (global)",
+      "fundingStage": "Independent partnership",
+      "fitScore": 50,
+      "intentScore": 20,
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 15,
+        "workstream": 10,
+        "buyer_quality": 5,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 5,
+        "remote_flex": 5,
+        "recency": 5,
+        "urgency_signals": 0,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "investor-pr",
+      "engagementModel": "contract",
+      "buyerType": "agency",
+      "compensationText": "Senior financial-comms contractor rates ($150–$300/hr typical for this tier)",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "6 active NY openings; Account Director — Financial Practice listed 'new' on Brunswick job board",
+      "urgencyScore": 55,
+      "contacts": [
+        {
+          "name": "Brunswick Financial Practice Talent",
+          "title": "Talent Partner",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/brunswick-group/"
+        }
+      ],
+      "signals": [
+        "6 active openings in NY office",
+        "Account Director — Financial Practice role 'new' on Greenhouse job board",
+        "Pure-play financial/M&A/IR communications gold standard",
+        "Deal-driven cadence — Q2 transaction volume typically spikes contractor demand"
+      ],
+      "source": "Brunswick careers + ZipRecruiter NY job board",
+      "sourceUrl": "https://job-boards.greenhouse.io/brunswickgroup",
+      "notes": "Combined 70, B. Pitch talent partner as senior freelance / interim financial communications operator. Lead with deal-comms (M&A, IPO, activist defense). Show you understand Brunswick's deal-driven model."
+    },
+    {
+      "name": "Joele Frank, Wilkinson Brimmer Katcher",
+      "website": "https://www.joelefrank.com",
+      "pipeline": "pr-freelance",
+      "industry": "Strategic Financial Communications & Investor Relations (M&A, activism defense, crisis, IPO narrative)",
+      "location": "New York, NY",
+      "fundingStage": "Independent partnership (founded 2000)",
+      "fitScore": 50,
+      "intentScore": 20,
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 15,
+        "workstream": 10,
+        "buyer_quality": 5,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 5,
+        "remote_flex": 5,
+        "recency": 5,
+        "urgency_signals": 0,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "investor-pr",
+      "engagementModel": "contract",
+      "buyerType": "agency",
+      "compensationText": "Not disclosed; top-tier financial-comms contractor rates",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "5 active openings on ZipRecruiter as of May 2026; relationship-driven hiring",
+      "urgencyScore": 55,
+      "contacts": [
+        {
+          "name": "Joele Frank Talent",
+          "title": "Recruiting",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/joele-frank/"
+        }
+      ],
+      "signals": [
+        "5 active openings — meaningful signal at a small-headcount boutique",
+        "Pure-play M&A / activist / IPO / crisis communications",
+        "No junior pyramid — senior contractors routinely engaged for specific transactions",
+        "Top-3 financial-comms boutique in the US"
+      ],
+      "source": "ZipRecruiter Joele Frank job board",
+      "sourceUrl": "https://www.ziprecruiter.com/co/Joele-Frank/Jobs",
+      "notes": "Combined 70, B. Relationship-driven shop — cover note matters more than form. Lead with M&A / activist defense / IPO narrative track record. Position as available for transaction-specific engagements."
+    }
+  ]
+}
