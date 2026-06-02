@@ -441,19 +441,18 @@ async function main() {
               decisionMaker: c.decisionMaker || false,
             })),
           },
-          scrapeResults: {
-            create: [
-              {
-                scrapeDate: new Date(SCRAPE_DATE),
-                url: scrape.url,
-                source: scrape.source,
-                matchedSignals: scrape.matchedSignals,
-                fitScore: company.fitScore,
-                intentScore: company.intentScore,
-                pipeline: PIPELINE,
-              },
-            ],
-          },
+        },
+      });
+
+      // ScrapeResult is a top-level model (not a Company relation in this schema)
+      await prisma.scrapeResult.create({
+        data: {
+          url: scrape.url,
+          source: scrape.source,
+          pipeline: PIPELINE,
+          matchedSignals: scrape.matchedSignals,
+          resultData: JSON.stringify({ ...company, scrapeDate: SCRAPE_DATE }),
+          imported: true,
         },
       });
 

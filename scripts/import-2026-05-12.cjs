@@ -540,16 +540,17 @@ async function main() {
             decisionMaker: c.decisionMaker,
           })),
         },
-        scrapeResults: {
-          create: [
-            {
-              url: scrape.url,
-              source: scrape.source,
-              matchedSignals: scrape.matchedSignals,
-              scrapedAt: new Date(),
-            },
-          ],
-        },
+      },
+    });
+
+    await prisma.scrapeResult.create({
+      data: {
+        url: scrape.url,
+        source: scrape.source,
+        pipeline: company.pipeline,
+        matchedSignals: scrape.matchedSignals,
+        resultData: JSON.stringify(company),
+        imported: true,
       },
     });
 
