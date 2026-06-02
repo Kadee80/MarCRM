@@ -1,0 +1,260 @@
+{
+  "scrapeDate": "2026-06-02",
+  "scrapeType": "pr-freelance",
+  "totalLeads": 6,
+  "note": "Enhanced PR Freelance pipeline scrape (7-day window, May 26 - Jun 2). All leads sit in the 'place-Mark-on-their-bench' category — boutique agencies + staffing firms + fractional marketplaces actively recruiting senior PR/comms freelancers in finance/fintech/B2B. Skips: APS (utility, FT), Cork + Knife / The James Collective (food/beverage), Be Clear (FT progressive sector role, lower fit), Hello Human (design/architecture).",
+  "leads": [
+    {
+      "name": "Hanson Search",
+      "website": "https://www.hansonsearch.com",
+      "pipeline": "pr-freelance",
+      "industry": "Executive Search / PR & Comms Recruitment",
+      "location": "Global (US + UK + EMEA)",
+      "fundingStage": "Established",
+      "fitScore": 50,
+      "intentScore": 45,
+      "fitDetails": {
+        "pr_remit": "Specializes in PR & corporate comms recruitment — interim, fractional, freelance and contract placements",
+        "sector_fit": "Strong overlap with financial PR, B2B SaaS, corporate comms (currently placing Head of Comms for B2B SaaS enterprise platform)",
+        "workstream": "Media relations, executive comms, IR, corporate reputation, M&A comms, crisis",
+        "buyer_quality": "Premium boutique that sits between candidate and client — bench placements pay senior rates",
+        "urgency": "Active interim desk run by Ben Mitchell (Head of Interim Comms); 2026 fractional rate guide published"
+      },
+      "intentDetails": {
+        "engagement_model": "Interim / contract / fractional / freelance — explicit specialism",
+        "remote_flex": "On-site OR remote per assignment",
+        "recency": "Active May 2026 — publishing fractional rate guide for US market",
+        "urgency_signals": "Promotes 'fast, reliable' bridging for leadership gaps, time-sensitive campaigns, brand transformations",
+        "apply_path": "Direct outreach to Ben Mitchell or careers/talent registration"
+      },
+      "vertical": "pr",
+      "subvertical": "agency-overflow",
+      "engagementModel": "fractional",
+      "buyerType": "staffing",
+      "compensationText": "Senior interim US rates per 2026 Hourly Rate Guide",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Interim / Freelance / Contract (varies by assignment)",
+      "urgencyScore": 75,
+      "contacts": [
+        {
+          "name": "Ben Mitchell",
+          "title": "Head of Interim Communications",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "Dedicated fractional comms recruitment page",
+        "Active 2026 placements across B2B SaaS and financial services",
+        "Published 2026 US Comms Interim Hourly Rate Guide"
+      ],
+      "source": "WebSearch",
+      "sourceUrl": "https://www.hansonsearch.com/fractional-communications-recruitment/",
+      "notes": "TOP priority. Get Mark onto Hanson Search's US interim bench. Pitch angle: financial PR + corporate reputation + crisis. Reach out directly to Ben Mitchell; also register via the talent intake on the site."
+    },
+    {
+      "name": "The Work Crowd",
+      "website": "https://theworkcrowd.com",
+      "pipeline": "pr-freelance",
+      "industry": "Freelance PR & Comms Marketplace",
+      "location": "Global (US-active)",
+      "fundingStage": "Established",
+      "fitScore": 50,
+      "intentScore": 35,
+      "fitDetails": {
+        "pr_remit": "Vetted freelance PR / comms / fractional comms director marketplace",
+        "sector_fit": "Dedicated Fintech PR vertical; serves multinational financial corporates + fintech startups",
+        "workstream": "Media relations, investor narrative, fractional comms director, IR consultant placement",
+        "buyer_quality": "Clients are operating companies + agencies needing vetted senior PR freelancers",
+        "urgency": "Always-on marketplace — but Mark gets first-look gigs once on bench"
+      },
+      "intentDetails": {
+        "engagement_model": "Freelance / fractional / project / retainer",
+        "remote_flex": "Remote-first",
+        "recency": "Active May 2026; 2026 rate guide published",
+        "urgency_signals": "Constant overflow demand from agencies + corporates; matching often within days",
+        "apply_path": "Freelancer registration on theworkcrowd.com — vetted with reference checks"
+      },
+      "vertical": "pr",
+      "subvertical": "agency-overflow",
+      "engagementModel": "freelance",
+      "buyerType": "staffing",
+      "compensationText": "Per-assignment; senior fintech PR freelancers command top-end rates",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Freelance / 1099",
+      "urgencyScore": 70,
+      "contacts": [],
+      "signals": [
+        "Dedicated Fintech PR page",
+        "Dedicated Fractional Communications page",
+        "Dedicated IR Consultant hiring page",
+        "Published 2026 US Communications Interim Hourly Rate Guide"
+      ],
+      "source": "WebSearch",
+      "sourceUrl": "https://theworkcrowd.com/fintech-pr",
+      "notes": "Register Mark as a vetted senior freelancer. Pitch his fintech / asset management PR depth on application. He'll get pinged for overflow + fractional comms director roles."
+    },
+    {
+      "name": "MVPR",
+      "website": "https://www.mvpr.io",
+      "pipeline": "pr-freelance",
+      "industry": "PR Agency (AI / Fintech / Web3)",
+      "location": "London + San Francisco (US-active)",
+      "fundingStage": "Established",
+      "fitScore": 50,
+      "intentScore": 35,
+      "fitDetails": {
+        "pr_remit": "Next-gen PR agency — senior consultants + AI-enabled workflows",
+        "sector_fit": "Explicitly AI, fintech and Web3 — direct fit for Mark's fintech/financial PR experience",
+        "workstream": "Earned media, executive comms, founder thought leadership, narrative strategy",
+        "buyer_quality": "Founded by ex-Edelman senior PR — they understand and pay senior freelance",
+        "urgency": "Cited as 'practical option for AI/fintech/Web3 startups that want senior PR expertise with more flexibility than traditional agency model' — model relies on senior freelance bench"
+      },
+      "intentDetails": {
+        "engagement_model": "Senior freelance consultant network (overflow + fractional)",
+        "remote_flex": "Remote-friendly across London + SF + clients",
+        "recency": "Active in 2026 buyers' guides for fintech PR",
+        "urgency_signals": "Lower-overhead model — relies on senior freelance to deliver",
+        "apply_path": "Direct outreach via mvpr.io contact + LinkedIn to founding partners"
+      },
+      "vertical": "pr",
+      "subvertical": "agency-overflow",
+      "engagementModel": "freelance",
+      "buyerType": "agency",
+      "compensationText": "Senior consultant rates",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Senior Freelance Consultant",
+      "urgencyScore": 70,
+      "contacts": [],
+      "signals": [
+        "Self-describes 'built for the AI era' — senior consultants + AI-enabled workflows",
+        "Founded by senior ex-Edelman PR alumni",
+        "Featured in 2026 best-fintech-PR-agency roundups (Crackle PR, Avenue Z)"
+      ],
+      "source": "WebSearch",
+      "sourceUrl": "https://www.mvpr.io/",
+      "notes": "Pitch angle: 'senior fintech PR operator who can plug into your client roster on contract.' Match their stated model — they're built on senior freelance, not headcount."
+    },
+    {
+      "name": "Robert Half — Investor Relations Specialist Bench",
+      "website": "https://www.roberthalf.com",
+      "pipeline": "pr-freelance",
+      "industry": "Staffing — IR / Financial Comms",
+      "location": "US national",
+      "fundingStage": "Public (NYSE: RHI)",
+      "fitScore": 40,
+      "intentScore": 40,
+      "fitDetails": {
+        "pr_remit": "Places IR + financial comms specialists on full-time, freelance and temporary engagements",
+        "sector_fit": "IR / financial services / pre-IPO and public-company side — directly inside Mark's ICP",
+        "workstream": "Investor relations, earned media for finance, exec comms for CFO/CEO",
+        "buyer_quality": "Clients are public + pre-IPO operating companies, often $50M-$500M cap that can't justify a full-time IRO",
+        "urgency": "Roster refreshes daily; IR season demand spikes around earnings and IPOs"
+      },
+      "intentDetails": {
+        "engagement_model": "Full-time / freelance / temporary — explicit listing language",
+        "remote_flex": "Hybrid + remote roles available",
+        "recency": "Roles updated daily",
+        "urgency_signals": "IR outsourcing tide is rising (pre-IPO + small-cap public companies)",
+        "apply_path": "Register on roberthalf.com → IR Specialist talent track"
+      },
+      "vertical": "pr",
+      "subvertical": "investor-pr",
+      "engagementModel": "contract",
+      "buyerType": "staffing",
+      "compensationText": "Per-assignment; IR specialist rates",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Full-time / Freelance / Temporary",
+      "urgencyScore": 65,
+      "contacts": [],
+      "signals": [
+        "Active IR Specialist talent track",
+        "Daily-refreshed roster",
+        "Industry trend: pre-IPO / small-cap public cos outsourcing IR"
+      ],
+      "source": "WebSearch",
+      "sourceUrl": "https://www.roberthalf.com/us/en/jobs/all/investor-relations-specialist",
+      "notes": "Different model from Hanson — Robert Half is volume + speed. Get Mark on the IR Specialist bench so he gets pinged for fast-turnaround pre-IPO / small-cap public co engagements. Pitch: 'senior fintech + asset management IR/PR operator, immediately available.'"
+    },
+    {
+      "name": "Level Up PR",
+      "website": "https://leveluppr.io",
+      "pipeline": "pr-freelance",
+      "industry": "PR Agency — Crypto / Web3 / Fintech",
+      "location": "New York, NY",
+      "fundingStage": "Boutique",
+      "fitScore": 50,
+      "intentScore": 25,
+      "fitDetails": {
+        "pr_remit": "Dedicated crypto / Web3 PR agency with explicit crisis-comms + thought-leadership offerings",
+        "sector_fit": "Crypto + Web3 — adjacent to Mark's fintech focus; growing buyer demand",
+        "workstream": "Crisis comms, founder thought leadership, regulatory-sensitive announcements, conference + podcast booking",
+        "buyer_quality": "NYC boutique — known buyer-side for senior overflow",
+        "urgency": "Crisis-comms desk runs hot; overflow common during regulatory news cycles"
+      },
+      "intentDetails": {
+        "engagement_model": "Boutique size — likely contractor-heavy",
+        "remote_flex": "Hybrid / remote possible",
+        "recency": "Active in 2026 crypto PR rankings",
+        "urgency_signals": "Crypto news cycles drive immediate-need overflow",
+        "apply_path": "Direct outreach to founders / careers page"
+      },
+      "vertical": "pr",
+      "subvertical": "crisis",
+      "engagementModel": "contract",
+      "buyerType": "agency",
+      "compensationText": "Not stated",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Contractor / Freelance (inferred)",
+      "urgencyScore": 60,
+      "contacts": [],
+      "signals": [
+        "Featured in 2026 best-crypto-PR-agency lists (Coinbound, High Vibe PR, Surgence)",
+        "Explicit crisis comms + thought leadership offerings"
+      ],
+      "source": "WebSearch",
+      "sourceUrl": "https://leveluppr.io/crypto-pr-agency-nyc-levelup-pr/",
+      "notes": "Pitch Mark as overflow crisis-comms + regulatory narrative support during news cycles. Crypto = adjacent fintech — Mark's brand-finance experience translates."
+    },
+    {
+      "name": "Walther Kranz",
+      "website": "https://www.waltherkranz.com",
+      "pipeline": "pr-freelance",
+      "industry": "PR Agency — Tech / Web3 / Fintech / Gaming",
+      "location": "Global HQ Istanbul (US-active)",
+      "fundingStage": "Boutique (global)",
+      "fitScore": 50,
+      "intentScore": 20,
+      "fitDetails": {
+        "pr_remit": "PR agency specializing in media relations, corporate comms, brand reputation",
+        "sector_fit": "Tech, Web3, gaming, fintech — fintech overlap with Mark's ICP",
+        "workstream": "Media relations, corporate comms, brand reputation",
+        "buyer_quality": "Global expansion drives need for US-based senior freelance contractors",
+        "urgency": "Rapidly expanding worldwide — net new US capacity gap"
+      },
+      "intentDetails": {
+        "engagement_model": "Likely contractor-heavy (global distributed model)",
+        "remote_flex": "Remote per assignment",
+        "recency": "Listed across 2026 fintech-PR rankings (Clutch, DesignRush)",
+        "urgency_signals": "Active expansion language",
+        "apply_path": "Direct outreach via website / Clutch profile"
+      },
+      "vertical": "pr",
+      "subvertical": "media-relations",
+      "engagementModel": "contract",
+      "buyerType": "agency",
+      "compensationText": "Not stated",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contractor / Freelance (inferred)",
+      "urgencyScore": 55,
+      "contacts": [],
+      "signals": [
+        "Self-describes as 'rapidly expanding presence worldwide'",
+        "Verified profile on Clutch + DesignRush with fintech client portfolio"
+      ],
+      "source": "WebSearch",
+      "sourceUrl": "https://clutch.co/profile/walther-kranz",
+      "notes": "Lower-confidence lead — solid sector fit but no explicit freelance language. Pitch as US-based senior fintech PR contractor to plug US-market expansion gap."
+    }
+  ]
+}
