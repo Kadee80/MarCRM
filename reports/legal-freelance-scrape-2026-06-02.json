@@ -1,0 +1,167 @@
+{
+  "scrapeDate": "2026-06-02",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 4,
+  "note": "Deduplicated against legal-freelance reports 5/25-6/01, pr-freelance 6/01, and recent daily-scrapes. Searched ICP-aligned clusters across Indeed, ZipRecruiter, fractionaljobs.io, Built In, Robert Half, Major Lindsey, Latitude Legal, Ropes & Gray Recruiting, and major-firm flexible-talent pages. Excluded prior captures (Latitude variants, Tower, Arootah, Ontra, MLA Interim Corporate/Securities, etc.) and low-fit postings (TheyDo Netherlands, stealth comp&benefits startup, IST sales-oriented role, MLA employment-only REIT).",
+  "leads": [
+    {
+      "name": "Ropes & Gray — Funds Attorney, Asset Management Group (Remote, Hourly Billable)",
+      "website": "https://www.ropesgray.com",
+      "pipeline": "legal-freelance",
+      "industry": "Law firm — AmLaw 50, asset management / private funds practice",
+      "location": "Remote (US, bar admission in any R&G office state)",
+      "fundingStage": "n/a",
+      "fitScore": 45,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "private funds / asset management transactions (LP-side)",
+        "seniority": "5–20 years experience accepted",
+        "comp_credible": "implied market hourly billable",
+        "fund_focus": "yes — investor client base, fund investments"
+      },
+      "intentDetails": {
+        "engagement_model": "contract, hourly billable, no benefits",
+        "remote_flex": "100% remote",
+        "recency": "evergreen bench posting — active",
+        "apply_path": "Ropes & Gray Recruiting site"
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "contract",
+      "buyerType": "law-firm",
+      "compensationText": "Hourly billable for work performed; no benefits via firm",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Hourly contract attorney — Funds Attorney bench",
+      "urgencyScore": 75,
+      "contacts": [],
+      "signals": [
+        "20+ attorney remote bench",
+        "Premier funds practice (Ropes & Gray AMG)",
+        "Bar required in any R&G office state, no physical presence",
+        "Retools attorneys from PE, securities, tax, litigation backgrounds"
+      ],
+      "source": "Ropes & Gray Recruiting",
+      "sourceUrl": "https://www.ropesgrayrecruiting.com/en/life-at-ropes-and-gray/positions/funds-attorney-asset-management-group-remote",
+      "notes": "Highest structural fit of the week — premium-firm flexible-talent program with explicit fund focus. Pitch retooling from corporate / fund counsel background; emphasize side letter, sub-doc, LPA familiarity. Strong pipeline candidate."
+    },
+    {
+      "name": "Allocate — Senior Fund Formation Attorney (Remote, US)",
+      "website": "https://allocate.co",
+      "pipeline": "legal-freelance",
+      "industry": "Private markets fintech / investment platform for funds-of-funds and family offices",
+      "location": "Remote (US)",
+      "fundingStage": "Growth-stage fintech (Palo Alto HQ)",
+      "fitScore": 50,
+      "intentScore": 35,
+      "fitDetails": {
+        "practice_area": "fund formation, LPA / PPM / sub-docs, regulatory compliance, corporate governance",
+        "seniority": "6+ years (senior) / 4+ years (associate)",
+        "comp_credible": "in-house at funded fintech, comp not posted but implied market",
+        "fund_focus": "yes — pure fund formation role"
+      },
+      "intentDetails": {
+        "engagement_model": "full-time FTE posting (pitch as interim/contract cover)",
+        "remote_flex": "remote-first",
+        "recency": "open through 2026-07-11",
+        "apply_path": "Freshteam ATS, easy apply"
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "Medical, dental, vision; responsible time off — comp not stated",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Full-Time (open through 2026-07-11)",
+      "urgencyScore": 70,
+      "contacts": [],
+      "signals": [
+        "Existing GC building team — interim coverage angle",
+        "Both senior and junior reqs open simultaneously",
+        "Private markets investment platform",
+        "Builds legal product with engineering — counsel + product mindset"
+      ],
+      "source": "Allocate ATS (Freshteam) + LinkedIn 4307034119",
+      "sourceUrl": "https://allocate.freshteam.com/jobs/siS-YMRJZ3h5/junior-fund-formation-attorney-remote",
+      "notes": "FTE posting but pitch interim cover during recruiting. Allocate fits emerging-manager-platform ICP. Senior fund formation focus is core ICP match."
+    },
+    {
+      "name": "Avallonn — Fractional Attorney (Remote, ~20 hrs/week)",
+      "website": "https://www.fractionaljobs.io/jobs/attorney-at-avallonn",
+      "pipeline": "legal-freelance",
+      "industry": "Venture-backed legal services / litigation finance",
+      "location": "Remote (US)",
+      "fundingStage": "Venture-backed startup",
+      "fitScore": 25,
+      "intentScore": 50,
+      "fitDetails": {
+        "practice_area": "in-house GC, legal strategy, commercial negotiation, litigation finance counterparty work",
+        "seniority": "senior attorney, CEO-facing",
+        "comp_credible": "FractionalJobs typical $150–$250/hr range, comp not posted",
+        "fund_focus": "no — litigation finance / legal services, adjacent only"
+      },
+      "intentDetails": {
+        "engagement_model": "contract, fractional, ~20 hrs/week",
+        "remote_flex": "fully remote",
+        "recency": "active posting on Fractional Jobs",
+        "apply_path": "Fractional Jobs application, easy apply"
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "Not stated — contract role at ~20 hrs/week",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contract, ~20 hrs/week",
+      "urgencyScore": 80,
+      "contacts": [],
+      "signals": [
+        "Hits Buckets A, B, and C (contract + fractional + senior)",
+        "CEO-facing strategic role",
+        "Mix of in-house, strategy, sales-to-law-firms, financier negotiation"
+      ],
+      "source": "Fractional Jobs",
+      "sourceUrl": "https://www.fractionaljobs.io/jobs/attorney-at-avallonn",
+      "notes": "Highest intent score and lowest friction to apply. Substance is litigation finance and law-firm-facing commercial dealmaking, not fund formation — pitch around judgment / commercial negotiation."
+    },
+    {
+      "name": "Robert Half — Outside General Counsel Services Attorney (Energy, Remote Long-Term Contract)",
+      "website": "https://www.roberthalf.com/us/en/legal",
+      "pipeline": "legal-freelance",
+      "industry": "ALSP / staffing on behalf of an outside-GC firm in energy regulatory & business services",
+      "location": "Remote",
+      "fundingStage": "n/a",
+      "fitScore": 25,
+      "intentScore": 50,
+      "fitDetails": {
+        "practice_area": "commercial contracts drafting/review/negotiation, outside GC services",
+        "seniority": "senior contract attorney level",
+        "comp_credible": "Robert Half placement, market hourly contract rate implied",
+        "fund_focus": "no — energy regulatory + commercial contracts"
+      },
+      "intentDetails": {
+        "engagement_model": "long-term contract via Robert Half placement",
+        "remote_flex": "fully remote",
+        "recency": "May/June 2026 timeframe",
+        "apply_path": "Robert Half job board, easy apply"
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "Hourly contract rate — not stated for energy role specifically",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Long-term contract, flexible hours",
+      "urgencyScore": 75,
+      "contacts": [],
+      "signals": [
+        "Outside-GC firm placement — ICP buyer type match",
+        "24–48h SLA on contract drafting / review",
+        "Flexible hours, remote",
+        "Long-term contract (durable engagement)"
+      ],
+      "source": "Robert Half",
+      "sourceUrl": "https://www.roberthalf.com/us/en/jobs/all/remote-attorney",
+      "notes": "Pitch around high-throughput commercial contracts capacity (NDAs, MSAs, vendor paper). Energy regulatory specialization is the friction — offer ramp."
+    }
+  ]
+}
