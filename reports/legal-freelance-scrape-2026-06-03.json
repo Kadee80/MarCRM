@@ -1,0 +1,241 @@
+{
+  "scrapeDate": "2026-06-03",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 6,
+  "note": "Dedup window: legal-freelance-scrape 2026-05-20 through 2026-06-02 plus pr-freelance-* and daily-scrape-*. Excluded carryover postings (Ropes & Gray Funds, Allocate Senior Fund Formation, Ontra Freelance Fund Formation, Avallonn Fractional Attorney, Latitude #6420). Only leads scoring 55+ included.",
+  "leads": [
+    {
+      "name": "Kindness for Capital — Fractional VP / General Counsel (Remote)",
+      "website": "https://www.fractionaljobs.io/jobs/general-counsel-at-kindness-for-capital",
+      "pipeline": "legal-freelance",
+      "industry": "Impact investing / lending (parent of Squirrel Space)",
+      "location": "Remote (US)",
+      "fundingStage": "Privately held / early",
+      "fitScore": 40,
+      "intentScore": 50,
+      "fitDetails": {
+        "practice_area": "Corporate, commercial contracts, governance — adjacent to fund/portfolio counsel work",
+        "seniority": "VP / General Counsel level",
+        "comp_credible": "Not stated; fractional rate negotiable",
+        "fund_focus": "Strong adjacency — they invest in and lend to founders, so fund-counsel sensibility is core"
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional VP, part-time, ongoing",
+        "remote_flex": "Fully remote",
+        "recency": "Active on FractionalJobs.io",
+        "apply_path": "Direct apply via fractionaljobs.io listing"
+      },
+      "vertical": "legal",
+      "subvertical": "corporate",
+      "engagementModel": "fractional",
+      "buyerType": "family-office",
+      "compensationText": "Not stated (fractional, ongoing)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Part-time / Fractional",
+      "urgencyScore": 75,
+      "contacts": [],
+      "signals": [
+        "Investor/lender principal — fund-adjacent buyer",
+        "FractionalJobs.io listing implies budget allocated",
+        "Mission-driven framing — alignment narrative useful"
+      ],
+      "source": "FractionalJobs.io",
+      "sourceUrl": "https://www.fractionaljobs.io/jobs/general-counsel-at-kindness-for-capital",
+      "notes": "Highest combined score this batch. Lead pitch with dual fund-and-portfolio framing. Mission language matters."
+    },
+    {
+      "name": "Latitude Legal — Data Privacy / Security Interim Counsel (Remote) #3170",
+      "website": "https://latitudelegal.com/jobs/3170",
+      "pipeline": "legal-freelance",
+      "industry": "ALSP / flexible legal staffing",
+      "location": "Remote (US)",
+      "fundingStage": "Established (founded 2013)",
+      "fitScore": 30,
+      "intentScore": 45,
+      "fitDetails": {
+        "practice_area": "Privacy / data security — adjacent to compliance/corporate ops work",
+        "seniority": "3+ years; Am Law 200 or large corp legal dept preferred",
+        "comp_credible": "Yes — Latitude posts market-credible annualized ranges ($150-200k+) for comparable roles",
+        "fund_focus": "Not direct; Latitude's broader bench includes fund formation work"
+      },
+      "intentDetails": {
+        "engagement_model": "Interim / contract engagement, long-term",
+        "remote_flex": "Remote",
+        "recency": "Rolling listing",
+        "apply_path": "Direct apply via Latitude career site"
+      },
+      "vertical": "legal",
+      "subvertical": "compliance",
+      "engagementModel": "interim",
+      "buyerType": "ALSP",
+      "compensationText": "Not stated on this listing; comparable Latitude roles list $150-200k+ annualized",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Interim Counsel (Contract)",
+      "urgencyScore": 65,
+      "contacts": [],
+      "signals": [
+        "Latitude is highest-density single source of interim corporate engagements",
+        "Even if not direct fit, use as recruiter relationship lever",
+        "CIPP/E or CIPP/US a plus, not required"
+      ],
+      "source": "Latitude Legal careers",
+      "sourceUrl": "https://latitudelegal.com/jobs/3170",
+      "notes": "Two-track approach: apply if privacy exposure is real; otherwise treat as Latitude recruiter relationship-builder for upcoming corporate/fund/commercial roles."
+    },
+    {
+      "name": "Interlink Cloud Advisors — Fractional General Counsel (Remote, Mason OH)",
+      "website": "https://www.interlink.com/",
+      "pipeline": "legal-freelance",
+      "industry": "Microsoft Cloud consulting / IT MSP",
+      "location": "Remote (HQ Mason, OH)",
+      "fundingStage": "Privately held, Inc. 5000 #4060 (2025)",
+      "fitScore": 20,
+      "intentScore": 50,
+      "fitDetails": {
+        "practice_area": "Commercial contracts (MSA/PSA/NDA/vendor), SOC 2, regulatory compliance, governance",
+        "seniority": "3+ years (lower bar; counsel-level reporting to CEO)",
+        "comp_credible": "Not stated",
+        "fund_focus": "None"
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional with stated path to full-time potential",
+        "remote_flex": "Remote / telecommute",
+        "recency": "Active posting",
+        "apply_path": "Direct apply via Paylocity recruiting page"
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "Not stated",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional (potential FTE)",
+      "urgencyScore": 70,
+      "contacts": [],
+      "signals": [
+        "Inc. 5000 #4060 — proven growth",
+        "Direct CEO report",
+        "SOC 2 work indicates regulated/enterprise client base"
+      ],
+      "source": "GoInhouse.com / Paylocity",
+      "sourceUrl": "https://recruiting.paylocity.com/recruiting/jobs/Details/3567187/Interlink-Cloud-Advisors-Inc/Fractional-General-Counsel",
+      "notes": "Aggregator link: https://www.goinhouse.com/jobs/451717130-fractional-general-counsel-at-interlink-cloud-advisors — lead with 90-day deliverable plan."
+    },
+    {
+      "name": "HeartStamp — Fractional General Counsel, Generative AI & IP (Remote)",
+      "website": "https://www.fractionaljobs.io/jobs/counsel-generative-ai-ip-at-heartstamp",
+      "pipeline": "legal-freelance",
+      "industry": "Generative AI consumer brand",
+      "location": "Remote (US)",
+      "fundingStage": "Bootstrapped / well-capitalized",
+      "fitScore": 20,
+      "intentScore": 50,
+      "fitDetails": {
+        "practice_area": "IP strategy (TMs, copyrights, trade secrets), commercial agreements (ToS, EULA, vendor, partner, creator), AI policy",
+        "seniority": "7+ years preferred",
+        "comp_credible": "Not stated",
+        "fund_focus": "None"
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional",
+        "remote_flex": "Fully remote",
+        "recency": "Active on FractionalJobs.io",
+        "apply_path": "Direct apply"
+      },
+      "vertical": "legal",
+      "subvertical": "corporate",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "Not stated",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional General Counsel",
+      "urgencyScore": 65,
+      "contacts": [],
+      "signals": [
+        "Bootstrapped + senior counsel ask = decent budget",
+        "Heavy IP/AI tilt — pair with trademark boutique for execution"
+      ],
+      "source": "FractionalJobs.io",
+      "sourceUrl": "https://www.fractionaljobs.io/jobs/counsel-generative-ai-ip-at-heartstamp",
+      "notes": "Pitch as strategist + commercial owner with referred IP-prosecution boutique. Off-fit for pure fund work but valid diversification engagement."
+    },
+    {
+      "name": "Wuffes — Head of Legal (Fractional, 2-3 days/wk, Remote)",
+      "website": "https://wuffes.com/",
+      "pipeline": "legal-freelance",
+      "industry": "DTC consumer / pet supplements (NASC-certified)",
+      "location": "Remote",
+      "fundingStage": "Privately held DTC brand (claims 750k+ customers)",
+      "fitScore": 20,
+      "intentScore": 50,
+      "fitDetails": {
+        "practice_area": "Commercial contracts (distribution, supply, NDA, vendor), marketing/regulatory compliance, privacy",
+        "seniority": "Head of Legal level — owns triage end-to-end",
+        "comp_credible": "Not stated",
+        "fund_focus": "None"
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional / contractor",
+        "remote_flex": "Fully remote",
+        "recency": "Active on GoInhouse",
+        "apply_path": "Direct apply via aggregator"
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "Not stated; 2-3 days/wk capacity",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional / contractor (2-3 days/wk)",
+      "urgencyScore": 70,
+      "contacts": [],
+      "signals": [
+        "Defined 2-3 days/wk capacity = clear budget anchor",
+        "DTC + regulated category (pet supplements) = recurring compliance volume",
+        "External-counsel management is part of the role"
+      ],
+      "source": "GoInhouse.com",
+      "sourceUrl": "https://www.goinhouse.com/jobs/538039442-head-of-legal-fractional-at-wuffes",
+      "notes": "Use posting's verbatim 'expert legal voice in a fast-moving business' framing in cover note."
+    },
+    {
+      "name": "BIOFerm — Part-Time / Consulting General Counsel (Madison, WI — remote-friendly)",
+      "website": "https://www.goinhouse.com/jobs/539264054-general-counsel-at-bioferm",
+      "pipeline": "legal-freelance",
+      "industry": "Renewable energy / anaerobic digestion EPC",
+      "location": "Madison, WI (remote-friendly)",
+      "fundingStage": "Privately held / operating",
+      "fitScore": 20,
+      "intentScore": 45,
+      "fitDetails": {
+        "practice_area": "Contracts, risk, compliance, governance, executive advisory (EPC project context)",
+        "seniority": "General Counsel level",
+        "comp_credible": "Not stated (cover letter requested with salary requirements)",
+        "fund_focus": "None"
+      },
+      "intentDetails": {
+        "engagement_model": "Part-time or consulting",
+        "remote_flex": "Remote-friendly",
+        "recency": "Posted ~2026-06-02",
+        "apply_path": "Direct apply via GoInhouse"
+      },
+      "vertical": "legal",
+      "subvertical": "corporate",
+      "engagementModel": "consultant",
+      "buyerType": "operating-company",
+      "compensationText": "Not stated; cover letter with salary requirements requested",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Part-time or Consulting",
+      "urgencyScore": 60,
+      "contacts": [],
+      "signals": [
+        "Posted ~June 2 (very recent)",
+        "EPC depth is a stretch — gen-counsel breadth angle is the pitch",
+        "Clear part-time / consulting structure (single-buyer)"
+      ],
+      "source": "GoInhouse.com",
+      "sourceUrl": "https://www.goinhouse.com/jobs/539264054-general-counsel-at-bioferm",
+      "notes": "Stretch on EPC depth but engagement model is clean. Worth a screening call to test fit."
+    }
+  ]
+}
