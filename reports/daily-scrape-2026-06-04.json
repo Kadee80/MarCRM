@@ -1,0 +1,213 @@
+{
+  "scrapeDate": "2026-06-04",
+  "totalLeads": 4,
+  "note": "Thursday daily scrape. 4 new pr-marketing leads, all driven by June 3, 2026 funding triggers from the Tech Startups VC roundup. Freelance board sweeps (legal-freelance, pr-freelance) returned only aggregator/service-provider pages today — no NEW specific named postings beyond those already captured in 2026-06-01/02/03 reports, so none added (no fabrication). Several large June-3 rounds (AlphaSense $7.5B, Coralogix $1.6B, Oxford Quantum Circuits £260M Series C) suppressed as outside pr-marketing ICP (10-500 employees / $5k-$25k/mo budget tier). Signal refresh covers Catena Labs and Mach Industries.",
+  "leads": [
+    {
+      "name": "Forage",
+      "website": "https://www.joinforage.com",
+      "pipeline": "pr-marketing",
+      "industry": "Fintech infrastructure — SNAP/EBT/WIC/HSA/FSA benefits payments rails for retailers; consumer balance-check + grocery savings app",
+      "location": "San Francisco, California, USA",
+      "fundingStage": "$40M Series B on 2026-06-03, led by Mouro Capital (Nyca Partners, PayPal Ventures, Long Journey Ventures, Intuit Ventures, NextLadder Ventures, Pivotal Ventures, FJ Labs). ~$225M valuation (WSJ). At least $62M total raised.",
+      "fitScore": 47,
+      "intentScore": 32,
+      "fitDetails": {
+        "industry_match_FS_Tech": 10,
+        "stage_size_growth": 10,
+        "clear_B2B_buyer_sales_motion": 9,
+        "proof_assets_customers_data": 10,
+        "budget_5k_25k_per_month": 8
+      },
+      "intentDetails": {
+        "trigger_launch_raise_rebrand_expansion": 14,
+        "timeline_to_start_0_30_days": 6,
+        "decision_maker_engaged": 4,
+        "urgency_pain_reputation_pipeline": 6,
+        "responsiveness": 2
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [],
+      "signals": [
+        "series_b_40m_mouro_paypal_ventures_2026_06_03",
+        "valuation_225m_per_wsj",
+        "logos_dollar_general_gopuff_save_a_lot_doordash_uber_eats",
+        "100k_plus_stores_all_50_states",
+        "consumer_app_launch_balance_check_grocery_savings"
+      ],
+      "source": "Tech Startups VC Roundup 2026-06-03 / WSJ",
+      "sourceUrl": "https://techstartups.com/2026/06/03/venture-capital-startup-funding-roundup-june-3-2026/",
+      "notes": "Strong FS-infrastructure fit. Twin trigger: Series B raise + consumer app launch = clear product-launch comms + investor/media narrative need. PayPal Ventures + Intuit Ventures on cap table create warm-intro paths. Mission-driven angle (40M Americans on benefits) is earned-media gold. Website best-effort (joinforage.com) — verify before outreach."
+    },
+    {
+      "name": "Arpio",
+      "website": "https://www.arpio.io",
+      "pipeline": "pr-marketing",
+      "industry": "Cloud resilience / cybersecurity — automated disaster recovery for AI-native cloud (AWS, Azure, expanding to GCP)",
+      "location": "Durham, North Carolina, USA",
+      "fundingStage": "$15M Series A on 2026-06-03, co-led by S3 Ventures and Paladin Capital Group (Draper Associates, Uncorrelated, Valor Ventures, CreativeCo Capital, Lookout Ventures).",
+      "fitScore": 42,
+      "intentScore": 33,
+      "fitDetails": {
+        "industry_match_FS_Tech": 9,
+        "stage_size_growth": 10,
+        "clear_B2B_buyer_sales_motion": 9,
+        "proof_assets_customers_data": 8,
+        "budget_5k_25k_per_month": 6
+      },
+      "intentDetails": {
+        "trigger_launch_raise_rebrand_expansion": 14,
+        "timeline_to_start_0_30_days": 7,
+        "decision_maker_engaged": 4,
+        "urgency_pain_reputation_pipeline": 6,
+        "responsiveness": 2
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [],
+      "signals": [
+        "series_a_15m_s3_paladin_2026_06_03",
+        "expansion_to_google_cloud_announced",
+        "security_resilience_one_budget_thesis_paladin",
+        "ransomware_cloud_outage_pain_narrative"
+      ],
+      "source": "Tech Startups VC Roundup 2026-06-03",
+      "sourceUrl": "https://techstartups.com/2026/06/03/venture-capital-startup-funding-roundup-june-3-2026/",
+      "notes": "B2B cybersecurity/infra. Trigger: Series A raise + GCP expansion = product/category narrative push and thought-leadership window (cloud resilience as core spend). Series A budget may sit at lower end of agency tier — pitch a focused 90-day launch sprint rather than full retainer. Website best-effort (arpio.io) — verify."
+    },
+    {
+      "name": "Lassie",
+      "website": "https://www.lassie.io",
+      "pipeline": "pr-marketing",
+      "industry": "Vertical AI — autonomous back-office automation for SMBs, initial focus healthcare practices (insurance portals, reimbursements, reconciliation)",
+      "location": "San Francisco, California, USA",
+      "fundingStage": "$35M Series A on 2026-06-03 led by Andreessen Horowitz (Night Capital, Rahul Vohra, Zach Perret, Taavet Hinrikus, Gokul Rajaram, Brian Balfour). $47M total raised.",
+      "fitScore": 42,
+      "intentScore": 32,
+      "fitDetails": {
+        "industry_match_FS_Tech": 8,
+        "stage_size_growth": 10,
+        "clear_B2B_buyer_sales_motion": 9,
+        "proof_assets_customers_data": 9,
+        "budget_5k_25k_per_month": 6
+      },
+      "intentDetails": {
+        "trigger_launch_raise_rebrand_expansion": 14,
+        "timeline_to_start_0_30_days": 6,
+        "decision_maker_engaged": 4,
+        "urgency_pain_reputation_pipeline": 6,
+        "responsiveness": 2
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [],
+      "signals": [
+        "series_a_35m_a16z_2026_06_03",
+        "700_plus_practices_49_states",
+        "250k_labor_hours_annually_automated",
+        "execution_layer_ai_narrative"
+      ],
+      "source": "Tech Startups VC Roundup 2026-06-03",
+      "sourceUrl": "https://techstartups.com/2026/06/03/venture-capital-startup-funding-roundup-june-3-2026/",
+      "notes": "a16z-backed vertical-AI 'agents that do the work' story — strong founder/credibility assets and quantified ROI (250k labor hours, 700+ practices). Trigger: Series A raise. Healthcare-admin angle is narrower than core FS/tech but data points are excellent for earned media. Website best-effort (lassie.io) — verify; confirm it's the a16z healthcare-automation Lassie, not the EU pet-insurance Lassie."
+    },
+    {
+      "name": "Terra AI",
+      "website": "https://www.terraai.com",
+      "pipeline": "pr-marketing",
+      "industry": "Industrial AI — subsurface modeling for mineral/reservoir exploration (copper, gold, rare earth), carbon storage, enhanced geothermal",
+      "location": "Palo Alto, California, USA",
+      "fundingStage": "$20M Series A on 2026-06-03 led by Khosla Ventures, strategic investment from BHP Ventures.",
+      "fitScore": 37,
+      "intentScore": 30,
+      "fitDetails": {
+        "industry_match_FS_Tech": 5,
+        "stage_size_growth": 10,
+        "clear_B2B_buyer_sales_motion": 8,
+        "proof_assets_customers_data": 8,
+        "budget_5k_25k_per_month": 6
+      },
+      "intentDetails": {
+        "trigger_launch_raise_rebrand_expansion": 14,
+        "timeline_to_start_0_30_days": 6,
+        "decision_maker_engaged": 3,
+        "urgency_pain_reputation_pipeline": 5,
+        "responsiveness": 2
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [],
+      "signals": [
+        "series_a_20m_khosla_bhp_ventures_2026_06_03",
+        "strategic_industrial_backer_bhp",
+        "critical_minerals_energy_transition_narrative",
+        "traction_copper_gold_rare_earth_reservoir"
+      ],
+      "source": "Tech Startups VC Roundup 2026-06-03",
+      "sourceUrl": "https://techstartups.com/2026/06/03/venture-capital-startup-funding-roundup-june-3-2026/",
+      "notes": "Lower industry fit (industrial/energy, not FS/tech core) keeps this a B/C borderline. But Khosla + BHP strategic backing and a clean critical-minerals/energy-transition narrative are credible thought-leadership hooks. Lowest priority of today's four; pursue only if higher-fit leads stall. Website best-effort — verify."
+    }
+  ],
+  "signalRefresh": [
+    {
+      "name": "Catena Labs",
+      "pipeline": "pr-marketing",
+      "previousFit": 45,
+      "previousIntent": 40,
+      "newFit": 45,
+      "newIntent": 43,
+      "delta": "+3 intent",
+      "whatChanged": "Confirmed $30M Series A (Acrew Capital + a16z crypto; Breyer, General Catalyst, QED) and — bigger signal — filed for a national trust bank charter with the OCC. Invite-only platform access now open. Bank-charter filing + regulated-finance-for-AI-agents is a high-salience media moment.",
+      "recommendedAction": "Window is open and widening. Pitch a regulatory-narrative + exec-comms sprint to founder Sean Neville (ex-Circle co-founder = built-in press credibility). Move this week.",
+      "sourceUrl": "https://fortune.com/2026/05/20/catena-labs-series-a-sean-neville-ai-native-bank/"
+    },
+    {
+      "name": "Mach Industries",
+      "pipeline": "pr-marketing",
+      "previousFit": 44,
+      "previousIntent": 41,
+      "newFit": 42,
+      "newIntent": 44,
+      "delta": "-2 fit / +3 intent",
+      "whatChanged": "$300M Series C at $1.8B valuation (Infinite Capital + Ribbit Capital), a 4x valuation jump. New DIU contract for the Navy's runway-independent strike aircraft. Acquired Exquadrum (solid rocket motors), rebranded as Mach Energetics. Multiple production-facility launches in 2026.",
+      "recommendedAction": "Intent very high (raise + acquisition/rebrand + gov contract = stacked triggers), but at $1.8B Mach is moving past the agency's 10-500/budget sweet spot toward enterprise comms firms. Pitch fast and narrow (the Mach Energetics rebrand launch is the most agency-sized hook) or deprioritize. Flag: fit eroding as company scales up.",
+      "sourceUrl": "https://techcrunch.com/2026/06/01/defense-tech-darling-mach-industries-hits-1-8b-valuation-a-4x-jump-in-a-year/"
+    }
+  ],
+  "skipped": [
+    {"name": "AlphaSense", "reason": "$350M growth round, $7.5B valuation, 7000+ enterprise customers — far outside pr-marketing ICP (10-500 employees / $5k-$25k/mo). Enterprise PR-firm territory."},
+    {"name": "Coralogix", "reason": "$200M Series F, $1.6B valuation, 5000+ customers — too large for agency retainer tier."},
+    {"name": "Oxford Quantum Circuits", "reason": "£260M Series C, UK-based, deep-tech enterprise/sovereign sales — outside ICP and geography."},
+    {"name": "Apoha", "reason": "$36M Series A but deep-tech biotech/materials science, UK/US — weak FS/tech ICP fit and early/technical buyer."},
+    {"name": "Uncover", "reason": "$16M Series A, São Paulo (non-US), marketing-measurement SaaS — weaker decision-maker access and geography."},
+    {"name": "Paypercut", "reason": "€5M seed, Sofia Bulgaria — fintech but non-US, very early, outside geography focus."},
+    {"name": "Sphere", "reason": "AI tax-compliance fintech ($21M Series A, a16z) but round was Nov 2025 — outside 24-48h window. Already past trigger freshness; candidate for a separate enrichment pass, not today's scrape."},
+    {"name": "Gradient Labs", "reason": "AI-native finance (Monzo alumni), doubled Series A to $26M on 2026-06-01 — good FS/AI fit but London-based and just outside the 24-48h freshness window. Watch for US expansion."},
+    {"name": "Legal-freelance / PR-freelance board sweep", "reason": "Indeed/ZipRecruiter/CareerBuilder/LinkedIn-via-Google searches returned only aggregator landing pages and service-provider sites today — no new specific named postings beyond those already in the 2026-06-01/02/03 reports. No fabricated leads added."}
+  ]
+}

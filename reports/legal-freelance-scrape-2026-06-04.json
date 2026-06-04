@@ -1,0 +1,195 @@
+{
+  "scrapeDate": "2026-06-04",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 4,
+  "note": "Heavily saturated run. The legal-freelance pipeline has been scraped daily for ~4 weeks and the same employers (Latitude, Ropes & Gray, Axiom, Ontra, Allocate, Robert Half generic funds reqs, Hayden Industrial, Lyfecoin, Socket, Sleep Doctor, TodayTix, aVenture, Roasa, Viskase, MLA, Arootah) now dominate search results and were de-duplicated against prior reports. The 4 leads below are genuinely new postings or distinct new requisitions not captured in earlier daily/legal/pr scrapes. Notably suppressed as duplicates: ACC Jobline #54051 Contracts Corporate Counsel (= Viskase, captured 2026-05-14); IST 'fund formation' generic Ropes/Indeed reposts; Indigo Technologies (captured 2026-05-27). Quality-over-quantity per ICP: 4 solid leads beat a padded list. AlphaSense Corporate Counsel (Commercial Contracts) was reviewed but excluded — it is a full-time in-house W2 role, not a freelance/contract/fractional engagement, so it fails the intent model.",
+  "leads": [
+    {
+      "name": "Latitude Legal — Corporate Attorney, Emerging Companies & Venture Capital (Remote Contract, AI/Tech focus, ~$225–300k annualized)",
+      "website": "https://www.indeed.com/q-investment-fund-counsel-l-remote-jobs.html",
+      "pipeline": "legal-freelance",
+      "industry": "ALSP / flexible legal talent placement — end client is a San Francisco/Bay Area technology-based firm doing venture financings and fund work",
+      "location": "Fully remote (US, anywhere)",
+      "fundingStage": "Client is a tech/VC firm; Latitude is a flexible legal staffing ALSP",
+      "fitScore": 42,
+      "intentScore": 43,
+      "fitDetails": {
+        "practice_area": "Emerging companies & VC: structuring/negotiating financing deals, due diligence, fund formation — core ICP workstreams",
+        "seniority": "5+ yrs law firm and/or VC firm experience; counsel-level engagement",
+        "comp_credible": "$225,000–$300,000 annualized; Latitude Engaged Professionals are W2 with benefits at 20+ hrs/wk",
+        "fund_focus": "Strong — fund formation + venture financing explicitly named; AI/tech background required"
+      },
+      "intentDetails": {
+        "engagement_model": "Contract engagement (W2 via Latitude), multi-month, ongoing",
+        "remote_flex": "Fully remote, located anywhere in US",
+        "recency": "Active req surfaced this week; distinct from prior Latitude funds/VC reqs (#5064, #6939, #6420)",
+        "apply_path": "Direct apply via Latitude / Indeed listing"
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "~$225,000–$300,000 annualized; W2 Latitude Engaged Professional, full benefits at 20+ hrs/wk",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contract engagement (W2 via Latitude), 20+ hrs/wk",
+      "urgencyScore": 78,
+      "contacts": [
+        {
+          "name": "Latitude Legal — Engagement Team",
+          "title": "Attorney Recruiting / Engagement",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/latitude-legal/"
+        }
+      ],
+      "signals": [
+        "Fund formation + venture financing explicitly in scope — top ICP fit",
+        "AI/tech background required — differentiated, fewer qualified applicants",
+        "W2 + benefits at 20 hrs/wk — credible, market-rate engagement",
+        "Fully remote, work-from-anywhere"
+      ],
+      "source": "Latitude Legal (via Indeed indexed listing)",
+      "sourceUrl": "https://www.indeed.com/q-investment-fund-counsel-l-remote-jobs.html",
+      "notes": "Highest-fit lead this run. Distinct new Latitude requisition (emerging companies & VC + AI/tech), separate from the funds/VC reqs already in CRM. Pitch Katie's fund-formation + venture-financing judgment plus comfort with AI/tech clients. Latitude is a recurring source but each requisition is a separate engagement; register/apply for this specific role."
+    },
+    {
+      "name": "Robert Half Legal — Corporate Counsel (Contracts-focused), NYC Pension Fund (Contract)",
+      "website": "https://www.roberthalf.com/us/en/jobs/all/corporate-counsel",
+      "pipeline": "legal-freelance",
+      "industry": "Institutional asset owner — NYC-based pension fund (contracts & governance support)",
+      "location": "New York City (likely hybrid/onsite; remote not confirmed)",
+      "fundingStage": "Institutional pension fund (established asset owner)",
+      "fitScore": 38,
+      "intentScore": 35,
+      "fitDetails": {
+        "practice_area": "Complex/sensitive legal & business issues, contracts focus, real-time practical advice — fund/investment-management buyer",
+        "seniority": "Reports directly to EVP, Chief Legal Officer — senior counsel level",
+        "comp_credible": "Comp not stated in listing; Robert Half contract roles are market-rate hourly",
+        "fund_focus": "Strong — buyer is a pension fund (institutional investor), aligns with fund/investment-management ICP"
+      },
+      "intentDetails": {
+        "engagement_model": "Contract role via Robert Half (staffing placement)",
+        "remote_flex": "NYC-based; remote/hybrid not explicitly stated",
+        "recency": "Active Robert Half listing (spring 2026); distinct from prior RH funds/commercial reqs in CRM",
+        "apply_path": "Direct apply via Robert Half recruiter"
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "contract",
+      "buyerType": "fund",
+      "compensationText": "Not stated (Robert Half contract placement, market-rate hourly)",
+      "remoteFlag": "",
+      "employmentTypeRaw": "Contract — Corporate Counsel (contracts-focused), via Robert Half Legal",
+      "urgencyScore": 60,
+      "contacts": [
+        {
+          "name": "Robert Half Legal — Recruiting",
+          "title": "Legal Talent Recruiter",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/robert-half-legal/"
+        }
+      ],
+      "signals": [
+        "Pension-fund buyer — institutional investor, direct fund/investment-management fit",
+        "Reports to EVP/CLO — senior, decision-maker-adjacent engagement",
+        "Contracts + governance scope matches Katie's corporate/commercial strength",
+        "Robert Half placement — budget allocated, defined start"
+      ],
+      "source": "Robert Half Legal",
+      "sourceUrl": "https://www.roberthalf.com/us/en/jobs/all/corporate-counsel",
+      "notes": "Fund-buyer contract role. Caveat: NYC pension funds often expect hybrid/onsite presence — confirm remote flexibility before investing in the pitch. Strong narrative fit on institutional-investor contracts & governance. RH rotates listings, so apply promptly via recruiter."
+    },
+    {
+      "name": "IST Management Services — Fractional General Counsel / Litigation-Support Brand Ambassador (Remote, $160–200k at hourly rate)",
+      "website": "https://www.goinhouse.com/jobs/538242619-fractional-general-counsel-litigation-support-provider-brand-ambassador-at-ist-management",
+      "pipeline": "legal-freelance",
+      "industry": "Business process outsourcing / litigation-support services (38+ US cities, ~1,800 staff, since 1997)",
+      "location": "Remote (US)",
+      "fundingStage": "Privately owned, established operating company",
+      "fitScore": 28,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Drafting commercial contracts + advising executives on business legal issues (role is partly sales/brand-ambassador networking)",
+        "seniority": "Fractional GC level; JD + active bar required",
+        "comp_credible": "$160,000–$200,000, paid at the attorney's hourly rate — clearly stated and credible",
+        "fund_focus": "None — operating-company GC work, not fund-related"
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional, paid at hourly rate, ongoing",
+        "remote_flex": "Fully remote",
+        "recency": "Active multi-board posting (Jobgether / Remotive / GoInhouse), reposted recently",
+        "apply_path": "Direct apply via multiple job boards"
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "$160,000–$200,000, compensated at the attorney's hourly rate",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional General Counsel (hourly), remote — hybrid legal + brand-ambassador/sales remit",
+      "urgencyScore": 70,
+      "contacts": [
+        {
+          "name": "IST Management Services — Hiring",
+          "title": "Talent Acquisition",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/ist-management-services/"
+        }
+      ],
+      "signals": [
+        "Explicit fractional + hourly + fully remote — strong intent signals",
+        "Comp band clearly stated ($160–200k at hourly rate)",
+        "Commercial-contracts and executive advisory work in scope",
+        "Wants a candidate with a strong legal-professional network"
+      ],
+      "source": "IST Management Services (via GoInhouse / Jobgether / Remotive)",
+      "sourceUrl": "https://www.goinhouse.com/jobs/538242619-fractional-general-counsel-litigation-support-provider-brand-ambassador-at-ist-management",
+      "notes": "Strong engagement-model fit (fractional, hourly, remote) but heavily blended with a brand-ambassador / sales-evangelist remit — the role expects the GC to leverage their network to drive revenue partnerships, not just practice law. Fit scored down for the sales emphasis and lack of fund/corporate-transactional depth. Good fallback / network-building lead; weigh whether the sales component fits Katie's positioning before pitching."
+    },
+    {
+      "name": "Robert Half Legal — Securities & Public-Company Corporate Counsel (Contract, Bay Area public tech company)",
+      "website": "https://www.roberthalf.com/us/en/jobs/all/corporate-counsel",
+      "pipeline": "legal-freelance",
+      "industry": "Publicly traded technology company (SEC reporting & corporate governance)",
+      "location": "Bay Area preferred (hybrid); remote flexibility partial",
+      "fundingStage": "Public company",
+      "fitScore": 25,
+      "intentScore": 33,
+      "fitDetails": {
+        "practice_area": "Securities, SEC reporting, corporate governance — within ICP corporate/securities band",
+        "seniority": "2–4+ yrs experience — below Katie's senior counsel/GC band (seniority mismatch)",
+        "comp_credible": "Comp not stated; Robert Half contract, market-rate hourly",
+        "fund_focus": "None — public-company securities work"
+      },
+      "intentDetails": {
+        "engagement_model": "Contract via Robert Half, reports to Deputy General Counsel",
+        "remote_flex": "Bay Area-based preferred; hybrid — not fully remote",
+        "recency": "Active Robert Half listing (spring 2026)",
+        "apply_path": "Direct apply via Robert Half recruiter"
+      },
+      "vertical": "legal",
+      "subvertical": "securities",
+      "engagementModel": "contract",
+      "buyerType": "operating-company",
+      "compensationText": "Not stated (Robert Half contract placement, market-rate hourly)",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Contract — Corporate Counsel (securities/public company), via Robert Half Legal",
+      "urgencyScore": 55,
+      "contacts": [
+        {
+          "name": "Robert Half Legal — Recruiting",
+          "title": "Legal Talent Recruiter",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/robert-half-legal/"
+        }
+      ],
+      "signals": [
+        "Securities + SEC reporting + governance — corporate/securities ICP band",
+        "Public-company contract engagement via Robert Half",
+        "Reports to Deputy GC — embedded in a real legal function"
+      ],
+      "source": "Robert Half Legal",
+      "sourceUrl": "https://www.roberthalf.com/us/en/jobs/all/corporate-counsel",
+      "notes": "Borderline lead (combined ~58, C). Stated seniority band (2–4 yrs) is below Katie's senior profile and the role leans Bay Area hybrid, so fit is modest — included because it clears the 55+ floor and securities/governance is on-ICP. Lower priority than the three above; pursue only if Bay Area hybrid is acceptable or if it can be re-scoped to a more senior/remote arrangement."
+    }
+  ]
+}
