@@ -1,0 +1,197 @@
+{
+  "scrapeDate": "2026-06-08",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 4,
+  "note": "Week 6 of daily legal-freelance scraping — the named-lead pool is now heavily saturated. The same employers/channels dominate every search cluster and were de-duplicated against prior daily/legal/pr reports: Latitude Legal, Robert Half Legal (prior roles), Major Lindsey & Africa, Axiom, Ontra, Peerpoint, LAWCLERK, Tower Legal, Ropes & Gray, Allocate, Arootah, Atlas Road Advisors, BlackRock, aVenture, Hayden Industrial (ACC Jobline #54004), Socket, Lyfecoin, Paragon Legal, Cooley, DLA Piper, Foley Hoag, Reed Smith, Scale LLP, TraverseGC, Velera, Wuffes, IST Management, Interlink Cloud Advisors. Explicitly suppressed as duplicates this run: Hayden Industrial / ACC Jobline #54004 (captured earlier), Atlas Road Advisors Contract Attorney (captured), aVenture VC Fund Attorney (captured), Ropes & Gray Funds Attorney (captured), Allocate Fund Formation Attorney (captured). Net new qualifying leads this run: (1) Robert Half — Commercial Contracts Attorney for a global food & agriculture company, a NEW 6-9 month remote contract distinct from Robert Half's previously-captured roles; (2) Taylor Root — fractional/interim GC placement channel (recruiter/ALSP relationship); (3) Northstar Legal — boutique scaling its fractional-GC client portfolio (senior overflow-counsel pitch); (4) InterPayments — Fintech SaaS hiring its first/only AGC, a thin-bench capacity gap kept as a C-grade fractional/overflow pitch target (posting itself is FT, off the freelance intent model, same caveat applied to Velera 2026-06-05 and AlphaSense 2026-06-04). Competitive intel (not scored): Next Era Legal and Intellectual Strategies continue scaling embedded fractional-GC models — BD/positioning signal, not open reqs. Quality over quantity: 4 honest leads beat padding the list with already-captured names.",
+  "leads": [
+    {
+      "name": "Robert Half — Commercial Contracts Attorney, Global Food & Agriculture Company (Remote, 6–9 Month Contract)",
+      "website": "https://www.roberthalf.com/us/en/jobs/all/remote-attorney",
+      "pipeline": "legal-freelance",
+      "industry": "Legal staffing (Robert Half Legal) placing a contract commercial-contracts attorney into the in-house legal team of a multi-billion-dollar global food & agriculture company",
+      "location": "Fully remote (US; must cover Eastern/Central time zone hours)",
+      "fundingStage": "End client: established multi-billion-dollar global operating company (food & agriculture)",
+      "fitScore": 20,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Commercial contracting — drafting/reviewing/negotiating SaaS, vendor, privacy and pre-sales/bid agreements; some compliance, privacy and HIPAA audit support. Squarely in Katie's commercial-contracts core.",
+        "seniority": "4–8 years, preferably in-house; supports the corporate counsel as primary legal contact — counsel-level",
+        "comp_credible": "Not stated in the listing snippet (Robert Half contract rate). Treated as 0 for scoring.",
+        "fund_focus": "None — operating-company commercial contracts, not fund-specialized"
+      },
+      "intentDetails": {
+        "engagement_model": "True contract engagement — 6–9 month contract with potential extension (not a permanent W2 hire)",
+        "remote_flex": "Fully remote (ET/CT hours)",
+        "recency": "Active current Robert Half listing; exact post date not confirmed within 72h (scored 0)",
+        "apply_path": "Direct apply / recruiter contact via Robert Half Legal — easy, fast path"
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "contract",
+      "buyerType": "staffing",
+      "compensationText": "Not stated in listing (Robert Half contract rate, 6–9 month term)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contract (6–9 months, potential extension), W2 via Robert Half staffing",
+      "urgencyScore": 70,
+      "contacts": [
+        {
+          "name": "Robert Half Legal — Recruiting",
+          "title": "Legal Staffing Recruiter",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/robert-half-legal/"
+        }
+      ],
+      "signals": [
+        "True contract engagement (6–9 months) — fits the freelance/contract intent model directly",
+        "Commercial-contracts workstream (SaaS, vendor, privacy) — Katie's core practice area",
+        "Fully remote, ET/CT hours",
+        "Robert Half is an already-proven channel in the pipeline — fast apply, recruiter relationship",
+        "End client is a complex multi-billion-dollar international operating company (thin in-house bench needing contract help)"
+      ],
+      "source": "Robert Half Legal (via web search)",
+      "sourceUrl": "https://www.roberthalf.com/us/en/jobs/all/remote-attorney",
+      "notes": "NEW Robert Half role, distinct from previously-captured Robert Half postings (NYC pension fund corporate counsel, Bay Area securities counsel, energy outside-GC). Combined 60, Grade B. ACTION: apply directly via Robert Half Legal and lead with commercial-contracts/SaaS-vendor negotiation depth; flag in-house experience. Cleanest true-contract opportunity surfaced this run."
+    },
+    {
+      "name": "Taylor Root — Fractional & Interim General Counsel Placement (Recruiter / ALSP Relationship, Remote)",
+      "website": "https://www.taylorroot.com/general-counsel-jobs/",
+      "pipeline": "legal-freelance",
+      "industry": "Legal recruitment / flexible legal staffing — places permanent, interim and fractional General Counsel across financial services, fintech, SaaS, real estate and professional services",
+      "location": "Remote-friendly; US & North America desk",
+      "fundingStage": "Established global legal recruitment firm",
+      "fitScore": 20,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Recruits GC/counsel across financial services, fintech, SaaS, real estate — overlaps Katie's corporate/funds/contracts profile",
+        "seniority": "Explicitly places interim and fractional GC-level talent",
+        "comp_credible": "Not applicable (recruiter relationship); engagement rates set per placement",
+        "fund_focus": "Partial — covers financial services / funds-adjacent sectors, not fund-exclusive"
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional / interim placement — recruiter actively matches contract & fractional GC engagements",
+        "remote_flex": "Remote-friendly placements",
+        "recency": "Evergreen recruiter relationship (not a 72h-fresh req)",
+        "apply_path": "Register with the Taylor Root North America GC desk"
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "staffing",
+      "compensationText": "Per-placement engagement rates (recruiter relationship)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Interim / fractional placements via recruiter",
+      "urgencyScore": 55,
+      "contacts": [
+        {
+          "name": "Taylor Root — North America GC Desk",
+          "title": "Legal Recruitment (Interim & Fractional GC)",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/taylor-root/"
+        }
+      ],
+      "signals": [
+        "Recruiter that explicitly places interim AND fractional GC (not just permanent)",
+        "Covers financial services / fintech / SaaS — funds-adjacent and corporate-contracts work",
+        "Remote-friendly placements",
+        "Relationship play: one registration opens recurring interim/fractional engagement flow"
+      ],
+      "source": "Taylor Root (via web search)",
+      "sourceUrl": "https://www.taylorroot.com/general-counsel-jobs/",
+      "notes": "Combined 60, Grade B. Channel/relationship lead — same logic as TraverseGC/Axiom already in pipeline, but Taylor Root skews to financial-services/fintech GC, closer to Katie's fund/corporate fit. ACTION: register with the North America GC desk as an interim/fractional corporate & funds counsel; emphasize fund-formation + commercial-contracts depth to differentiate."
+    },
+    {
+      "name": "Northstar Legal — Fractional General Counsel Practice (Crypto/Fintech Client Portfolio, Remote)",
+      "website": "https://abovethelaw.com/job/junior-associate-supporting-fractional-gc-client-portfolio/",
+      "pipeline": "legal-freelance",
+      "industry": "Boutique legal practice running an embedded fractional-GC model across a portfolio of crypto/fintech clients; currently scaling its team",
+      "location": "Remote (US)",
+      "fundingStage": "Boutique/growing fractional-GC firm",
+      "fitScore": 20,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Fractional GC across crypto/fintech clients — corporate, commercial contracts, governance, financing/token matters; overlaps Katie's corporate/contracts/financing core",
+        "seniority": "Runs senior fractional GC engagements (the posted junior role supports a senior fractional GC)",
+        "comp_credible": "Not stated; per-engagement",
+        "fund_focus": "Adjacent — crypto/fintech financing and token work, not traditional fund formation"
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional / consultant — firm explicitly running a fractional-GC client portfolio and staffing up",
+        "remote_flex": "Fully remote",
+        "recency": "Actively hiring now (scaling signal)",
+        "apply_path": "No senior req posted — requires a direct overflow/partner pitch (scored 0 on apply path)"
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "ALSP",
+      "compensationText": "Not stated; per-engagement (fractional model)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional GC practice (independent/consultant engagements)",
+      "urgencyScore": 60,
+      "contacts": [
+        {
+          "name": "Northstar Legal — Hiring/Recruiting",
+          "title": "Fractional GC Practice",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "Firm is scaling an embedded fractional-GC client portfolio (capacity expansion signal)",
+        "Crypto/fintech focus — financing, token, commercial-contract work overlaps Katie's profile",
+        "Fully remote",
+        "Same ALSP/overflow channel type as TraverseGC/Axiom but with a fintech tilt"
+      ],
+      "source": "Above the Law job board (via web search)",
+      "sourceUrl": "https://abovethelaw.com/job/junior-associate-supporting-fractional-gc-client-portfolio/",
+      "notes": "Combined 60, Grade B. The concrete posting is a JUNIOR associate role (not a fit), but the underlying signal — a boutique scaling its senior fractional-GC portfolio — is a strong overflow/partner pitch for Katie. ACTION: warm outreach offering senior fractional/overflow corporate-counsel capacity for their growing client book rather than applying to the junior req. Verify firm identity/decision-maker before outreach."
+    },
+    {
+      "name": "InterPayments — Associate General Counsel, Fintech SaaS (Remote) [fractional/overflow pitch target]",
+      "website": "https://himalayas.app/companies/interpayments/jobs/associate-general-counsel",
+      "pipeline": "legal-freelance",
+      "industry": "Fintech SaaS — payments/surcharge technology platform; hiring its Associate General Counsel to own commercial contracting",
+      "location": "Fully remote (US)",
+      "fundingStage": "Venture-stage fintech SaaS",
+      "fitScore": 20,
+      "intentScore": 35,
+      "fitDetails": {
+        "practice_area": "High-volume commercial contracting + payments/fintech regulatory — Katie's commercial-contracts core, with fintech regulatory adjacency",
+        "seniority": "5+ years (BigLaw or in-house fintech) — counsel-level",
+        "comp_credible": "Not stated in listing snippet (treated as 0)",
+        "fund_focus": "None — operating-company commercial/regulatory, not fund-specialized"
+      },
+      "intentDetails": {
+        "engagement_model": "Posting is a permanent FT AGC role — fails the core freelance/contract/fractional intent model; tracked ONLY as a fractional/overflow pitch target",
+        "remote_flex": "Fully remote",
+        "recency": "Posted recently (current listing) — capacity-gap / immediate-need signal",
+        "apply_path": "Direct apply path exists, but the freelance angle requires a warm fractional/overflow pitch"
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "Not stated in listing",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Full-time, permanent (W2 in-house AGC)",
+      "urgencyScore": 65,
+      "contacts": [
+        {
+          "name": "InterPayments Legal / Head of Legal",
+          "title": "Head of Legal (hiring manager for AGC)",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/interpayments/"
+        }
+      ],
+      "signals": [
+        "Hiring its only/first AGC — classic thin-bench capacity gap a fractional counsel can fill on an interim basis",
+        "High-volume commercial contracting + fintech regulatory — Katie's core",
+        "Fully remote",
+        "Immediate need (active req) raises urgency despite FT framing"
+      ],
+      "source": "Himalayas / InterPayments careers (via web search)",
+      "sourceUrl": "https://himalayas.app/companies/interpayments/jobs/associate-general-counsel",
+      "notes": "BORDERLINE (combined 55, Grade C). The posting itself is permanent FT — off the freelance intent model, same caveat applied to Velera (2026-06-05) and AlphaSense (2026-06-04). Kept ONLY as a fractional/overflow pitch target: a fintech SaaS hiring its first AGC often has an immediate gap a fractional counsel can bridge while they recruit, or can be offered fractional commercial-contracts overflow. ACTION (optional): warm outreach to the Head of Legal offering interim/fractional commercial-contracts coverage. De-prioritize vs. the three B-grade leads above."
+    }
+  ]
+}
