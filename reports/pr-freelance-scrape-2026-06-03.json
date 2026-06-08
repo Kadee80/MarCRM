@@ -1,0 +1,361 @@
+{
+  "scrapeDate": "2026-06-03",
+  "scrapeType": "pr-freelance",
+  "totalLeads": 8,
+  "note": "8 new PR freelance leads. Dedup checked against May 20 – Jun 2 reports (43 prior companies). Focus this run: senior freelance/fractional channels (Weber Shandwick freelance posting, Chameleon Collective, Pangea, GigX), explicit IR contract posting (CrowdPharm), and VC/B2B-tech agency overflow buyers (Beantown Media Ventures, Inkhouse, Walker Sands). Top leads: Weber Shandwick (explicit freelance B2B content director posting) and CrowdPharm (explicit freelance IR consultant posting).",
+  "leads": [
+    {
+      "name": "Weber Shandwick",
+      "website": "https://webershandwick.com",
+      "pipeline": "pr-freelance",
+      "industry": "Global PR / Earned-First Communications Agency (IPG)",
+      "location": "Global (US national)",
+      "fundingStage": "Public parent (IPG: NYSE)",
+      "fitScore": 45,
+      "intentScore": 35,
+      "fitDetails": {
+        "pr_remit": "Pure PR/comms agency — earned, content, executive comms, B2B",
+        "sector_fit": "B2B Enterprise practice (technology, financial services, healthcare clients)",
+        "workstream": "Content strategy + thought leadership + executive comms — exact Mark workstream",
+        "buyer_quality": "Tier-1 agency that absorbs senior freelancers via overflow + named freelance roles",
+        "urgency": "Active freelance posting on LinkedIn (Director, B2B Content Strategy Lead, Enterprise — Freelance)"
+      },
+      "intentDetails": {
+        "engagement_model": "Explicit Freelance (title literally contains the word)",
+        "remote_flex": "Remote / flexible by posting",
+        "recency": "Active in current LinkedIn careers feed (May–June 2026)",
+        "urgency_signals": "Director-level freelance posting indicates immediate senior-bench need on B2B Enterprise practice",
+        "apply_path": "LinkedIn easy apply + Weber Shandwick careers portal"
+      },
+      "vertical": "pr",
+      "subvertical": "thought-leadership",
+      "engagementModel": "freelance",
+      "buyerType": "agency",
+      "compensationText": "Not stated (Director-level freelance rate, typically $150–$250/hr at IPG-scale agency)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Freelance — Director, B2B Content Strategy Lead, Enterprise",
+      "urgencyScore": 80,
+      "contacts": [
+        { "name": "Weber Shandwick Talent", "title": "Talent Acquisition — B2B Enterprise Practice", "email": "", "linkedin": "https://www.linkedin.com/company/weber-shandwick/" }
+      ],
+      "signals": [
+        "explicit_freelance_director_posting_b2b_enterprise",
+        "tier_1_agency_overflow_buyer",
+        "content_strategy_thought_leadership_exact_workstream_fit",
+        "linkedin_easy_apply_path_open"
+      ],
+      "source": "LinkedIn Jobs (via Google index)",
+      "sourceUrl": "https://www.linkedin.com/jobs/weber-shandwick-jobs",
+      "notes": "TOP FIT this run (combined 80, A). The Director, B2B Content Strategy Lead, Enterprise (Freelance) posting is a direct match: Director-level senior, freelance engagement model, B2B Enterprise practice (which includes Weber's financial services + tech clients), thought leadership + content workstream. ACTION: Apply via LinkedIn for the exact posting AND register as a senior freelance content/thought-leadership director with the B2B Enterprise practice talent team so Mark gets pinged for overflow on adjacent accounts."
+    },
+    {
+      "name": "CrowdPharm",
+      "website": "https://www.crowdpharm.com",
+      "pipeline": "pr-freelance",
+      "industry": "Healthcare / Life Sciences Marketing Agency — Freelance Network Model",
+      "location": "Remote (US national)",
+      "fundingStage": "Established (Real Chemistry network)",
+      "fitScore": 40,
+      "intentScore": 40,
+      "fitDetails": {
+        "pr_remit": "Investor Relations + Communications consulting remit (explicit job posting)",
+        "sector_fit": "Healthcare / life sciences — adjacent to Mark's financial PR via biotech IR + small-cap life sciences IR",
+        "workstream": "Investor relations + financial communications + earnings cycle support",
+        "buyer_quality": "Backed by Real Chemistry (large healthcare marketing parent) — pays senior rates",
+        "urgency": "Active freelance posting visible on RemoteRocketship aggregator"
+      },
+      "intentDetails": {
+        "engagement_model": "Explicit Freelance Investor Relations Consultant (titled posting)",
+        "remote_flex": "Fully remote, US",
+        "recency": "Posting currently active May–June 2026",
+        "urgency_signals": "Freelance IR consultant role with immediate engagement; CrowdPharm onboards freelancers fast",
+        "apply_path": "Direct apply via RemoteRocketship link + CrowdPharm careers"
+      },
+      "vertical": "pr",
+      "subvertical": "investor-pr",
+      "engagementModel": "freelance",
+      "buyerType": "agency",
+      "compensationText": "Not stated (IR consultant freelance rates typically $100–$200/hr)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Freelance Investor Relations Consultant",
+      "urgencyScore": 75,
+      "contacts": [
+        { "name": "CrowdPharm Talent", "title": "Talent / Freelance Network Onboarding", "email": "", "linkedin": "https://www.linkedin.com/company/crowdpharm/" }
+      ],
+      "signals": [
+        "explicit_freelance_ir_consultant_posting",
+        "remote_us_national_engagement",
+        "real_chemistry_parent_network_pays_senior",
+        "fast_onboarding_freelance_network_model"
+      ],
+      "source": "RemoteRocketship aggregator",
+      "sourceUrl": "https://www.remoterocketship.com/company/crowdpharm/jobs/freelance-investor-relations-consultant-united-states",
+      "notes": "Combined 80, A. Healthcare sector is adjacent — but the explicit freelance IR consultant title is a strong direct match for Mark's IR/financial comms depth. Real Chemistry parent network means recurring overflow once on the bench. ACTION: Apply for the active posting AND register Mark as freelance IR + financial comms talent. Pitch angle: small-cap biotech IR, earnings-cycle comms, and pre-IPO life sciences narrative work."
+    },
+    {
+      "name": "Beantown Media Ventures",
+      "website": "https://beantownmv.com",
+      "pipeline": "pr-freelance",
+      "industry": "B2B Tech PR Agency — VC-Backed Seed/Series A–C Startups",
+      "location": "Boston + Los Angeles",
+      "fundingStage": "Boutique, founder-led (Racepoint Global alums)",
+      "fitScore": 45,
+      "intentScore": 30,
+      "fitDetails": {
+        "pr_remit": "B2B tech PR — earned media, founder thought leadership, exec comms",
+        "sector_fit": "VC-backed B2B tech, including fintech and enterprise SaaS — strong Mark sector overlap",
+        "workstream": "Media relations, exec comms, founder narrative — exact Mark workstreams",
+        "buyer_quality": "Boutique founder-led that uses senior freelance overflow for VC-portfolio account spikes",
+        "urgency": "Active 2026 client growth across VC portfolio; no explicit posting"
+      },
+      "intentDetails": {
+        "engagement_model": "Senior freelance overflow (inferred from boutique scale + VC portfolio model)",
+        "remote_flex": "Remote-friendly (Boston + LA distributed model)",
+        "recency": "Featured in 2026 best-PR-agencies-for-VC-backed-startups roundups",
+        "urgency_signals": "VC-portfolio model produces lumpy demand — agencies absorb spikes via freelance",
+        "apply_path": "Direct outreach to founders Kyle Austin / John Eidson"
+      },
+      "vertical": "pr",
+      "subvertical": "agency-overflow",
+      "engagementModel": "freelance",
+      "buyerType": "agency",
+      "compensationText": "Senior freelance rates (not stated)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Senior Freelance Contractor (inferred)",
+      "urgencyScore": 60,
+      "contacts": [
+        { "name": "Kyle Austin", "title": "Founder & Managing Partner", "email": "", "linkedin": "https://www.linkedin.com/in/kyleaustin/" },
+        { "name": "John Eidson", "title": "Co-Founder", "email": "", "linkedin": "https://www.linkedin.com/in/johneidson/" }
+      ],
+      "signals": [
+        "racepoint_global_founder_pedigree",
+        "vc_backed_b2b_tech_portfolio",
+        "ranked_2026_best_vc_startup_pr_agency",
+        "lumpy_portfolio_demand_overflow_buyer"
+      ],
+      "source": "WebSearch",
+      "sourceUrl": "https://beantownmv.com/best-pr-agencies-for-vc-backed-startups/",
+      "notes": "Combined 75, B. B2B tech PR agency built on the VC-portfolio overflow model — exactly the buyer type the ICP names. Founder pedigree (ex-Racepoint Global) means quality bar matches Mark's seniority. ACTION: Direct LinkedIn outreach to Kyle Austin and John Eidson positioning Mark as a senior fintech + B2B SaaS freelance bench for VC-portfolio launches and Series A–C narrative milestones."
+    },
+    {
+      "name": "Inkhouse",
+      "website": "https://inkhouse.com",
+      "pipeline": "pr-freelance",
+      "industry": "Tech / Brand Storytelling PR Agency",
+      "location": "7 US cities + 16-state remote workforce",
+      "fundingStage": "Established (140-person)",
+      "fitScore": 40,
+      "intentScore": 30,
+      "fitDetails": {
+        "pr_remit": "Pure PR/comms — media relations, brand storytelling, exec comms",
+        "sector_fit": "Tech / B2B / enterprise — solid Mark sector overlap",
+        "workstream": "Earned media, thought leadership, brand narrative",
+        "buyer_quality": "PRovoke-recognized top US agency — pays senior overflow rates",
+        "urgency": "Active careers page; explicit recruiting language for senior storytellers"
+      },
+      "intentDetails": {
+        "engagement_model": "Senior freelance overflow + contract (inferred from agency scale)",
+        "remote_flex": "Explicit remote workforce across 16 states",
+        "recency": "Careers page active 2026",
+        "urgency_signals": "PRovoke Top-80 US agency status drives lumpy enterprise demand absorbed by senior freelancers",
+        "apply_path": "Careers page application + LinkedIn outreach"
+      },
+      "vertical": "pr",
+      "subvertical": "media-relations",
+      "engagementModel": "freelance",
+      "buyerType": "agency",
+      "compensationText": "Senior freelance rates (not stated)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Freelance / Contract Senior Practitioner (inferred from agency model)",
+      "urgencyScore": 55,
+      "contacts": [
+        { "name": "Inkhouse Talent", "title": "Talent Acquisition", "email": "", "linkedin": "https://www.linkedin.com/company/inkhouse/" }
+      ],
+      "signals": [
+        "provoke_top_80_us_agency_2025",
+        "140_person_scale_with_overflow_demand",
+        "explicit_remote_workforce_16_states",
+        "active_recruiting_senior_storytellers"
+      ],
+      "source": "WebSearch",
+      "sourceUrl": "https://inkhouse.com/careers/",
+      "notes": "Combined 70, B. Mid-large tech PR agency with the scale and recognition to absorb senior freelance overflow regularly. ACTION: Register Mark as a senior freelance media relations + thought leadership bench. Pitch angle: B2B tech and fintech overflow capacity, earnings-cycle support, founder narrative work."
+    },
+    {
+      "name": "Chameleon Collective",
+      "website": "https://chameleoncollective.com",
+      "pipeline": "pr-freelance",
+      "industry": "Fractional Executive Network — CMO / CCO / Marketing Leadership",
+      "location": "Remote / US national",
+      "fundingStage": "Established collective",
+      "fitScore": 35,
+      "intentScore": 35,
+      "fitDetails": {
+        "pr_remit": "Fractional Chief Communications Officer bench — explicit PR/comms remit",
+        "sector_fit": "Cross-industry; PE/VC-backed scale-ups in their roster",
+        "workstream": "Executive comms, strategic positioning, leadership comms",
+        "buyer_quality": "Curated senior bench — pays Director/VP fractional rates",
+        "urgency": "Active 2026 — actively recruiting expert collective members"
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional / project (explicit Fractional CCO product line)",
+        "remote_flex": "Fully remote / project basis",
+        "recency": "Active 2026 collective recruiting",
+        "urgency_signals": "Fractional CCO product is core line — recurring inbound demand",
+        "apply_path": "Apply to the Collective via website intake"
+      },
+      "vertical": "pr",
+      "subvertical": "comms",
+      "engagementModel": "fractional",
+      "buyerType": "staffing",
+      "compensationText": "Director/VP fractional rates (not stated)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional CCO / Member of Expert Collective",
+      "urgencyScore": 65,
+      "contacts": [
+        { "name": "Chameleon Collective Membership", "title": "Collective Recruiting", "email": "", "linkedin": "https://www.linkedin.com/company/chameleon-collective/" }
+      ],
+      "signals": [
+        "explicit_fractional_cco_product_line",
+        "curated_senior_expert_collective",
+        "remote_project_engagement",
+        "active_2026_member_recruiting"
+      ],
+      "source": "WebSearch",
+      "sourceUrl": "https://chameleoncollective.com/skill/fractional-cco-chief-communications-officer/",
+      "notes": "Combined 70, B. Curated fractional CCO collective — once on the bench, Mark gets pinged for inbound fractional CCO mandates. Different go-to-market from Hanson Search (less recruiter-mediated, more direct project routing). ACTION: Apply to the Collective with a CCO-grade bio emphasizing financial PR + executive comms + investor narrative."
+    },
+    {
+      "name": "Pangea",
+      "website": "https://pangea.app",
+      "pipeline": "pr-freelance",
+      "industry": "Fractional & Freelance Talent Marketplace — Communications Bench",
+      "location": "Remote / US national",
+      "fundingStage": "Venture-backed marketplace",
+      "fitScore": 35,
+      "intentScore": 35,
+      "fitDetails": {
+        "pr_remit": "Dedicated Fractional Communications Manager hire vertical",
+        "sector_fit": "Cross-industry roster; B2B + SaaS clients dominant",
+        "workstream": "Communications management, media relations, content + thought leadership",
+        "buyer_quality": "VC-backed marketplace — buyers tend to be VC-portfolio startups",
+        "urgency": "Active 2026 marketplace, recurring inbound buyer demand"
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional / freelance (explicit vertical name)",
+        "remote_flex": "Fully remote / async marketplace",
+        "recency": "Active 2026",
+        "urgency_signals": "Marketplace model produces continuous low-friction job matching",
+        "apply_path": "Direct talent intake at pangea.app"
+      },
+      "vertical": "pr",
+      "subvertical": "comms",
+      "engagementModel": "fractional",
+      "buyerType": "staffing",
+      "compensationText": "Per-engagement; senior fractional comms rates",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional Communications Manager (marketplace registration)",
+      "urgencyScore": 60,
+      "contacts": [
+        { "name": "Pangea Talent", "title": "Marketplace Talent Onboarding", "email": "", "linkedin": "https://www.linkedin.com/company/pangea-app/" }
+      ],
+      "signals": [
+        "dedicated_fractional_communications_manager_vertical",
+        "vc_backed_marketplace_recurring_demand",
+        "fully_remote_async_engagement",
+        "low_friction_inbound_matching"
+      ],
+      "source": "WebSearch",
+      "sourceUrl": "https://pangea.app/hire/fractional/communications-management",
+      "notes": "Combined 70, B. VC-backed marketplace with a dedicated Fractional Communications Manager vertical — exact engagement model match. Lower buyer quality than Hanson or Chameleon (more SaaS startup volume, fewer enterprise mandates), but the inbound flow is reliable. ACTION: Register Mark as senior fractional comms manager; rate-tier high so matches skew enterprise/finance."
+    },
+    {
+      "name": "GigX",
+      "website": "https://gigx.com",
+      "pipeline": "pr-freelance",
+      "industry": "Fractional C-Suite Marketplace (CFO / CMO / CCO)",
+      "location": "Remote / US + global",
+      "fundingStage": "Established marketplace",
+      "fitScore": 35,
+      "intentScore": 30,
+      "fitDetails": {
+        "pr_remit": "Fractional Chief Communications Officer product line — explicit PR/comms remit",
+        "sector_fit": "Mix of PE/VC-backed mid-market + small public companies",
+        "workstream": "Executive comms, exec presence, board/investor narrative",
+        "buyer_quality": "C-suite fractional buyers — pays CCO-grade rates",
+        "urgency": "Active 2026 — Fractional CCO is a core product"
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional CCO engagements (explicit product)",
+        "remote_flex": "Remote / hybrid by mandate",
+        "recency": "Active 2026 platform",
+        "urgency_signals": "C-suite fractional is high-margin / recurring demand",
+        "apply_path": "Apply via gigx.com talent intake"
+      },
+      "vertical": "pr",
+      "subvertical": "executive-comms",
+      "engagementModel": "fractional",
+      "buyerType": "staffing",
+      "compensationText": "CCO-grade fractional rates (not stated publicly)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional CCO Member",
+      "urgencyScore": 55,
+      "contacts": [
+        { "name": "GigX Talent", "title": "Fractional C-Suite Onboarding", "email": "", "linkedin": "https://www.linkedin.com/company/gigx/" }
+      ],
+      "signals": [
+        "explicit_fractional_cco_product",
+        "c_suite_marketplace_buyer_quality",
+        "pe_vc_mid_market_clientele",
+        "high_margin_recurring_demand"
+      ],
+      "source": "WebSearch",
+      "sourceUrl": "https://gigx.com/experience/fractional-chief-communications-officer",
+      "notes": "Combined 65, B. Premium fractional C-suite marketplace. Onboarding here lets Mark be matched to mid-market PE/VC-backed Fractional CCO mandates — premium rates, narrow scope. ACTION: Apply with a CCO-grade dossier focused on investor narrative + earned-media-driven executive positioning."
+    },
+    {
+      "name": "Walker Sands",
+      "website": "https://www.walkersands.com",
+      "pipeline": "pr-freelance",
+      "industry": "B2B Tech Marketing + PR Agency",
+      "location": "Chicago HQ; US remote-friendly",
+      "fundingStage": "Established mid-size agency",
+      "fitScore": 35,
+      "intentScore": 25,
+      "fitDetails": {
+        "pr_remit": "B2B tech PR + integrated marketing",
+        "sector_fit": "B2B tech, fintech, enterprise SaaS — solid Mark sector overlap",
+        "workstream": "Media relations, content strategy, thought leadership, demand gen narrative",
+        "buyer_quality": "Mid-large independent agency — uses senior contract overflow regularly",
+        "urgency": "Active careers page; no named freelance posting surfaced this run"
+      },
+      "intentDetails": {
+        "engagement_model": "Senior contract overflow (inferred)",
+        "remote_flex": "Remote-friendly",
+        "recency": "Careers page active 2026",
+        "urgency_signals": "Mid-large independent demand cycles produce regular senior overflow",
+        "apply_path": "Careers page application + direct outreach to talent team"
+      },
+      "vertical": "pr",
+      "subvertical": "thought-leadership",
+      "engagementModel": "contract",
+      "buyerType": "agency",
+      "compensationText": "Senior contractor rates (not stated)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Senior Contract Practitioner (inferred)",
+      "urgencyScore": 50,
+      "contacts": [
+        { "name": "Walker Sands Talent", "title": "Talent Acquisition", "email": "", "linkedin": "https://www.linkedin.com/company/walker-sands-communications/" }
+      ],
+      "signals": [
+        "b2b_tech_fintech_named_practice",
+        "mid_large_independent_agency_overflow",
+        "remote_friendly_workforce",
+        "outcomes_first_positioning"
+      ],
+      "source": "WebSearch",
+      "sourceUrl": "https://www.walkersands.com/careers/",
+      "notes": "Combined 60, B. Mid-large independent B2B tech agency with a fintech practice — strong sector overlap and predictable senior overflow demand. Lower intent score because no named freelance posting surfaced (treat as bench-registration play). ACTION: Outreach to talent team positioning Mark as fintech + B2B SaaS senior freelance content / thought leadership bench."
+    }
+  ]
+}

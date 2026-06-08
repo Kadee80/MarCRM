@@ -1,0 +1,101 @@
+{
+  "scrapeDate": "2026-06-05",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 2,
+  "note": "Heavily saturated run (week 5 of daily legal-freelance scraping). The same employers and channels now dominate every search cluster and were de-duplicated against prior daily/legal/pr reports: Latitude Legal, Robert Half Legal, Major Lindsey & Africa, Axiom, Ontra, Peerpoint, LAWCLERK, Tower Legal, Ropes & Gray, Allocate, Arootah, Go Fractional, FractionalJobs.io stealth startup, Hayden Industrial, Lyfecoin, Socket, Sleep Doctor, TodayTix, aVenture, Interlink Cloud Advisors, Radian Capital. Explicitly suppressed as duplicates this run: Viskase Companies / ACC Jobline #54051 (captured 2026-05-14), Everything But The House / EBTH Fractional GC (captured 2026-05-06 through 2026-05-12; also Ohio-local, not remote), IST Management, ACC Jobline #54004 Fractional GC (captured earlier). Reviewed but EXCLUDED on intent model: Velera (formerly PSCU) Corporate Attorney–Client Contracts is a permanent full-time W2 in-house role, not a freelance/contract/fractional engagement — included below only as a C-grade fractional-pitch/overflow target with that caveat, consistent with how AlphaSense was excluded on 2026-06-04. Net genuinely-new qualifying channel this run: TraverseGC (national fractional-counsel bench actively recruiting attorneys). Competitive intel (not scored): Next Era Legal is scaling its embedded fractional-GC model — a BD/positioning signal, not an open req. Quality over quantity per ICP.",
+  "leads": [
+    {
+      "name": "TraverseGC — Fractional Legal Counsel Network (Remote, National Attorney Bench)",
+      "website": "https://www.traversegc.com",
+      "pipeline": "legal-freelance",
+      "industry": "Legal services / ALSP — fixed-fee fractional general counsel firm placing attorneys onto client engagements nationwide",
+      "location": "Fully remote (US national; firm operates offices across the US since 2005)",
+      "fundingStage": "Established private legal-services firm (since 2005)",
+      "fitScore": 20,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Broad corporate, commercial contracts, and general business counsel across many practice areas — overlaps Katie's corporate/contracts/governance core",
+        "seniority": "Seeks experienced attorneys for fractional GC-level client work",
+        "comp_credible": "Not stated for attorneys; firm bills clients a fixed monthly fee, attorney comp per engagement",
+        "fund_focus": "None explicit — general corporate/business, not fund-specialized"
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional / panel bench — firm explicitly states it is 'always looking for talent' and 'needs attorneys' to provide services on client engagements",
+        "remote_flex": "Fully remote; national footprint",
+        "recency": "Evergreen recruitment (not a 72-hour-fresh req)",
+        "apply_path": "Direct application via TraverseGC Careers page"
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "ALSP",
+      "compensationText": "Not stated for attorneys; client engagements are fixed monthly fee, attorney paid per engagement",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Independent attorney / fractional network bench",
+      "urgencyScore": 45,
+      "contacts": [
+        {
+          "name": "TraverseGC — Attorney Recruiting",
+          "title": "Careers / Attorney Network",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/traversegc/"
+        }
+      ],
+      "signals": [
+        "Firm actively recruiting attorneys to its fractional-counsel bench ('always looking for talent... needs attorneys')",
+        "National, fully remote, operating since 2005 — steady inbound engagement flow",
+        "Fixed-fee fractional GC model — recurring, predictable engagement structure",
+        "Same channel type as already-captured Axiom / Ontra / LAWCLERK — proven freelance route for Katie"
+      ],
+      "source": "TraverseGC Careers (via web search)",
+      "sourceUrl": "https://www.traversegc.com/careers/",
+      "notes": "ACTION: Apply to join the TraverseGC attorney bench as a senior corporate/funds fractional counsel. This is a network/panel play (like Axiom, Ontra, LAWCLERK already in pipeline) — one application opens recurring inbound fractional engagements rather than a single role. Best-fit pitch: high-judgment corporate, commercial contracts, and governance available part-time/remote. Lower fit score only because it is generalist (no explicit fund specialization), but high-value as a durable engagement channel."
+    },
+    {
+      "name": "Velera (formerly PSCU / Co-op Solutions) — Corporate Attorney, Client Contracts (Remote) [fractional/overflow pitch target]",
+      "website": "https://www.velera.com",
+      "pipeline": "legal-freelance",
+      "industry": "Fintech / payments — credit union service organization (CUSO) serving 4,000+ financial institutions in North America",
+      "location": "Remote, USA (HQ St. Petersburg, FL)",
+      "fundingStage": "Large private CUSO (formerly PSCU)",
+      "fitScore": 30,
+      "intentScore": 25,
+      "fitDetails": {
+        "practice_area": "Heavy commercial contracting — drafting/negotiating vendor and commercial agreements, service contracts, NDAs, strategic partnerships and network membership",
+        "seniority": "Mid-level corporate counsel; advising internal clients on contract interpretation and legal risk",
+        "comp_credible": "Stated $110,100–$143,100 (full-time equivalent) — market-credible",
+        "fund_focus": "None"
+      },
+      "intentDetails": {
+        "engagement_model": "Posting is permanent full-time in-house W2 (NOT freelance/contract) — fails core intent model; tracked here only as a fractional/overflow pitch target",
+        "remote_flex": "Fully remote (US)",
+        "recency": "Posted ~Apr 9, 2026; re-listed across GoInhouse / Velera Workday / Remotive",
+        "apply_path": "Velera Workday + GoInhouse direct apply"
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "$110,100–$143,100 (full-time equivalent)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Full-time, permanent (W2 in-house)",
+      "urgencyScore": 30,
+      "contacts": [
+        {
+          "name": "Velera Legal Department",
+          "title": "Corporate / Commercial Contracts Legal Team",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/velerapay/"
+        }
+      ],
+      "signals": [
+        "High recurring commercial/vendor contract volume — capacity strain a fractional/overflow counsel can serve",
+        "Published comp band signals a funded, real need",
+        "Permanent full-time posting — OFF core freelance ICP; pursue only as a fractional/overflow alternative pitch"
+      ],
+      "source": "GoInhouse / Velera Careers (via web search)",
+      "sourceUrl": "https://www.goinhouse.com/jobs/526037195-corporate-attorney-client-contracts-remote-at-velera",
+      "notes": "BORDERLINE (combined 55, C). The posting itself is a permanent FT in-house role and does not meet the freelance/contract/fractional intent model — by the same standard, AlphaSense was excluded on 2026-06-04. Kept here ONLY as a fractional-pitch target: the high commercial-contract throughput at a 4,000-client CUSO is exactly the kind of overflow Katie could offer to absorb part-time. ACTION (optional): warm outreach to the Velera legal team offering fractional commercial-contracts overflow support rather than applying to the FT req. De-prioritize vs. TraverseGC."
+    }
+  ]
+}

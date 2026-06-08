@@ -1,0 +1,427 @@
+{
+ "scrapeDate": "2026-06-08",
+ "totalLeads": 6,
+ "note": "Monday daily scrape. 6 new leads (5 pr-marketing funding triggers from the week of 2026-06-05; 1 legal-freelance fractional posting). No qualifying pr-freelance leads today \u2014 job-board searches surfaced only aggregator/platform pages and already-captured employers (Multiverse, Cloudbeds). Signal refresh confirmed major new raises for two existing hot leads (Impulse Space, Mach Industries). Mega-rounds (Ramp $750M, Supabase $500M, Helion, AlphaSense, Generalist AI) were scored down or skipped per pr-marketing budget/size fit \u2014 too large for a boutique retainer. Websites for several leads are best-effort; Neon DB unreachable from sandbox so run the import script locally.",
+ "leads": [
+  {
+   "name": "Scotch",
+   "website": "https://www.scotch.com",
+   "pipeline": "pr-marketing",
+   "industry": "Retail fintech / AI-native operating system for liquor retailers \u2014 POS hardware, custom software, payment processing, back-office + state-by-state regulatory compliance suite",
+   "location": "Denver, Colorado, USA",
+   "fundingStage": "$20M Series A on 2026-06-04 led by VMG Partners (First Round Capital, Lerer Hippeau, Toba Capital). Step-up from $10M seed (2024). >500% YoY growth, surpassed $1B in processed payment volume.",
+   "fitScore": 47,
+   "intentScore": 34,
+   "fitDetails": {
+    "industry_match_FS_Tech": 9,
+    "stage_size_growth": 10,
+    "clear_B2B_buyer_sales_motion": 10,
+    "proof_assets_customers_data": 10,
+    "budget_5k_25k_per_month": 8
+   },
+   "intentDetails": {
+    "trigger_launch_raise_rebrand_expansion": 14,
+    "timeline_to_start_0_30_days": 7,
+    "decision_maker_engaged": 5,
+    "urgency_pain_reputation_pipeline": 6,
+    "responsiveness": 2
+   },
+   "vertical": "",
+   "subvertical": "",
+   "engagementModel": "",
+   "buyerType": "",
+   "compensationText": "",
+   "remoteFlag": "",
+   "employmentTypeRaw": "",
+   "urgencyScore": 0,
+   "contacts": [
+    {
+     "name": "Jake Bolling",
+     "title": "Co-founder & CEO",
+     "email": "",
+     "linkedin": ""
+    },
+    {
+     "name": "Kevin Hodges",
+     "title": "Co-founder",
+     "email": "",
+     "linkedin": ""
+    },
+    {
+     "name": "Dan Chen",
+     "title": "CTO (ex-Drizly chief architect)",
+     "email": "",
+     "linkedin": ""
+    }
+   ],
+   "signals": [
+    "series_a_20m_vmg_partners_2026_06_04",
+    "500_pct_yoy_growth",
+    "1b_payment_volume_milestone",
+    "step_up_from_10m_seed_2024",
+    "ex_drizly_cto_credibility"
+   ],
+   "source": "Crunchbase News (exclusive) / PR Newswire / Pulse 2.0",
+   "sourceUrl": "https://news.crunchbase.com/venture/scotch-raises-ai-funding-liquor-retail-tech/",
+   "notes": "Best-fit pr-marketing lead today. Right-sized Series A (not a mega-round), clear B2B vertical SaaS sales motion, real proof assets ($1B volume, 500% growth, ex-Drizly CTO). Twin trigger: raise + $1B milestone = product/category-narrative + earned-media need. Vertical-SaaS-disrupts-legacy-industry angle is press-friendly. Website best-effort (scotch.com) \u2014 verify before outreach."
+  },
+  {
+   "name": "Suno",
+   "website": "https://www.suno.com",
+   "pipeline": "pr-marketing",
+   "industry": "Generative AI for music creation (consumer + licensing)",
+   "location": "Cambridge, Massachusetts, USA",
+   "fundingStage": "$400M Series D on 2026-06-05 led by Bond at a $5.4B valuation.",
+   "fitScore": 36,
+   "intentScore": 37,
+   "fitDetails": {
+    "industry_match_FS_Tech": 9,
+    "stage_size_growth": 5,
+    "clear_B2B_buyer_sales_motion": 6,
+    "proof_assets_customers_data": 10,
+    "budget_5k_25k_per_month": 6
+   },
+   "intentDetails": {
+    "trigger_launch_raise_rebrand_expansion": 15,
+    "timeline_to_start_0_30_days": 7,
+    "decision_maker_engaged": 4,
+    "urgency_pain_reputation_pipeline": 9,
+    "responsiveness": 2
+   },
+   "vertical": "",
+   "subvertical": "",
+   "engagementModel": "",
+   "buyerType": "",
+   "compensationText": "",
+   "remoteFlag": "",
+   "employmentTypeRaw": "",
+   "urgencyScore": 0,
+   "contacts": [],
+   "signals": [
+    "series_d_400m_bond_2026_06_05",
+    "valuation_5_4b",
+    "active_litigation_multiple_music_labels_copyright",
+    "crisis_reputation_window_open"
+   ],
+   "source": "Crunchbase News \u2014 biggest funding rounds week of 2026-06-05",
+   "sourceUrl": "https://news.crunchbase.com/venture/biggest-funding-rounds-june-5-2026/",
+   "notes": "Routed pr-marketing (business-event/crisis client need, NOT a job posting). Lower fit on size/budget (large, likely has in-house comms + incumbent agency), but the intent signal is the litigation: multiple music-label copyright suits = live reputation/narrative pain alongside a fresh raise. Pitch would be crisis/narrative advisory or specialist overflow, not a generic retainer. Decision-maker access is the gating risk."
+  },
+  {
+   "name": "Sekai",
+   "website": "https://www.sekai.com",
+   "pipeline": "pr-marketing",
+   "industry": "Consumer AI \u2014 TikTok-style feed of user-generated, prompt-built mini-apps; AI coding agents turn plain language into playable apps",
+   "location": "San Francisco, California, USA",
+   "fundingStage": "$20M Series A (announced ~2026-06-02/03) co-led by Khosla Ventures and Connect Ventures; a16z (Speedrun), Mayfield, A*, MVP Ventures, 359 Capital, Parable VC, 645 Capital. ~$26-30M total raised across seed + Series A.",
+   "fitScore": 41,
+   "intentScore": 31,
+   "fitDetails": {
+    "industry_match_FS_Tech": 8,
+    "stage_size_growth": 10,
+    "clear_B2B_buyer_sales_motion": 6,
+    "proof_assets_customers_data": 9,
+    "budget_5k_25k_per_month": 8
+   },
+   "intentDetails": {
+    "trigger_launch_raise_rebrand_expansion": 13,
+    "timeline_to_start_0_30_days": 6,
+    "decision_maker_engaged": 4,
+    "urgency_pain_reputation_pipeline": 6,
+    "responsiveness": 2
+   },
+   "vertical": "",
+   "subvertical": "",
+   "engagementModel": "",
+   "buyerType": "",
+   "compensationText": "",
+   "remoteFlag": "",
+   "employmentTypeRaw": "",
+   "urgencyScore": 0,
+   "contacts": [],
+   "signals": [
+    "series_a_20m_khosla_connect_2026_06_02",
+    "total_raised_26m_plus",
+    "15m_mini_apps_created",
+    "200k_new_apps_per_day",
+    "1hr_plus_daily_engagement"
+   ],
+   "source": "Crunchbase Megadeals roundup / Cryptobriefing / Yahoo Finance / company press release",
+   "sourceUrl": "https://cryptobriefing.com/sekai-raises-20m-series-a-ai-apps/",
+   "notes": "Right-sized Series A with strong traction metrics and tier-1 VCs (Khosla, a16z). Consumer-app sales motion is weaker for a B2B-style PR retainer, but the growth-story + funding trigger supports a product/earned-media launch sprint. Website best-effort \u2014 verify."
+  },
+  {
+   "name": "Flourish",
+   "website": "",
+   "pipeline": "pr-marketing",
+   "industry": "Foundational AI \u2014 building artificial intelligence models inspired by the human brain (frontier research lab)",
+   "location": "New York, New York, USA",
+   "fundingStage": "$500M initial funding announced 2026-06-05. Backers include Jeff Bezos, Lux Capital, and Google Ventures.",
+   "fitScore": 36,
+   "intentScore": 33,
+   "fitDetails": {
+    "industry_match_FS_Tech": 9,
+    "stage_size_growth": 7,
+    "clear_B2B_buyer_sales_motion": 4,
+    "proof_assets_customers_data": 9,
+    "budget_5k_25k_per_month": 7
+   },
+   "intentDetails": {
+    "trigger_launch_raise_rebrand_expansion": 14,
+    "timeline_to_start_0_30_days": 7,
+    "decision_maker_engaged": 4,
+    "urgency_pain_reputation_pipeline": 6,
+    "responsiveness": 2
+   },
+   "vertical": "",
+   "subvertical": "",
+   "engagementModel": "",
+   "buyerType": "",
+   "compensationText": "",
+   "remoteFlag": "",
+   "employmentTypeRaw": "",
+   "urgencyScore": 0,
+   "contacts": [
+    {
+     "name": "Jeff Bezos",
+     "title": "Investor",
+     "email": "",
+     "linkedin": ""
+    }
+   ],
+   "signals": [
+    "initial_funding_500m_2026_06_05",
+    "backers_bezos_lux_capital_google_ventures",
+    "newly_emerged_frontier_ai_lab",
+    "narrative_defining_moment"
+   ],
+   "source": "Crunchbase News \u2014 biggest funding rounds week of 2026-06-05",
+   "sourceUrl": "https://news.crunchbase.com/venture/biggest-funding-rounds-june-5-2026/",
+   "notes": "Newly-emerged frontier AI lab with a $500M debut and a marquee backer list (Bezos). No product yet = weak B2B sales motion, but the moment-of-emergence is exactly when narrative/positioning advisory has leverage. Realistically may staff an in-house comms lead fast; window is narrow. No verified website yet \u2014 confirm before any outreach."
+  },
+  {
+   "name": "NewLimit",
+   "website": "https://www.newlimit.com",
+   "pipeline": "pr-marketing",
+   "industry": "Longevity biotech \u2014 medicines to restore youthful cell function via epigenetic reprogramming",
+   "location": "South San Francisco, California, USA",
+   "fundingStage": "$435M Series C on 2026-06-05 led by Founders Fund. Co-founded by Coinbase CEO Brian Armstrong.",
+   "fitScore": 32,
+   "intentScore": 29,
+   "fitDetails": {
+    "industry_match_FS_Tech": 6,
+    "stage_size_growth": 6,
+    "clear_B2B_buyer_sales_motion": 4,
+    "proof_assets_customers_data": 9,
+    "budget_5k_25k_per_month": 7
+   },
+   "intentDetails": {
+    "trigger_launch_raise_rebrand_expansion": 13,
+    "timeline_to_start_0_30_days": 5,
+    "decision_maker_engaged": 4,
+    "urgency_pain_reputation_pipeline": 5,
+    "responsiveness": 2
+   },
+   "vertical": "",
+   "subvertical": "",
+   "engagementModel": "",
+   "buyerType": "",
+   "compensationText": "",
+   "remoteFlag": "",
+   "employmentTypeRaw": "",
+   "urgencyScore": 0,
+   "contacts": [
+    {
+     "name": "Brian Armstrong",
+     "title": "Co-founder (Coinbase CEO)",
+     "email": "",
+     "linkedin": ""
+    }
+   ],
+   "signals": [
+    "series_c_435m_founders_fund_2026_06_05",
+    "cofounder_brian_armstrong_coinbase",
+    "longevity_epigenetic_reprogramming",
+    "credibility_sensitive_science_story"
+   ],
+   "source": "Crunchbase News \u2014 biggest funding rounds week of 2026-06-05",
+   "sourceUrl": "https://news.crunchbase.com/venture/biggest-funding-rounds-june-5-2026/",
+   "notes": "Weakest fit of today's pr-marketing set \u2014 research-stage biotech, no commercial product/sales motion, core sector outside FS/Tech. Included because the Armstrong halo + Founders Fund raise make it a credibility-sensitive earned-media / thought-leadership story. Likely uses a specialist biotech/health IR-PR shop; treat as a stretch, low-priority touch."
+  },
+  {
+   "name": "GeneFab",
+   "website": "",
+   "pipeline": "legal-freelance",
+   "industry": "Biotech CDMO (contract development & manufacturing organization)",
+   "location": "San Francisco, California, USA",
+   "fundingStage": "",
+   "fitScore": 20,
+   "intentScore": 36,
+   "fitDetails": {
+    "fund_private_funds_formation": 0,
+    "corporate_commercial_contracts_ma_financing_securities": 10,
+    "seniority_counsel_gc": 10,
+    "comp_stated_market_credible": 0
+   },
+   "intentDetails": {
+    "engagement_model_fractional_interim_contract_freelance_consultant": 15,
+    "remote_or_hybrid_flex": 8,
+    "posted_within_72h": 5,
+    "easy_apply_or_direct_contact": 8
+   },
+   "vertical": "legal",
+   "subvertical": "contracts",
+   "engagementModel": "fractional",
+   "buyerType": "operating-company",
+   "compensationText": "",
+   "remoteFlag": "hybrid",
+   "employmentTypeRaw": "Fractional Corporate Counsel / Senior Contracts Attorney",
+   "urgencyScore": 55,
+   "contacts": [],
+   "signals": [
+    "fractional_corporate_counsel_posting",
+    "commercial_contracts_workstream_cdmo_supply_agreements",
+    "senior_attorney_seniority",
+    "goinhouse_direct_apply"
+   ],
+   "source": "GoInhouse.com job board",
+   "sourceUrl": "https://www.goinhouse.com/jobs/538461158-fractional-corporate-counsel-senior-contracts-attorney-cdmo-at-genefab",
+   "notes": "Legal-freelance (NOT legal-consulting): explicit fractional engagement + commercial-contracts workstream (CDMO supply/manufacturing agreements). No fund/private-funds work and comp not stated, so Fit is modest; Intent carries it on the fractional model + direct-apply path. Confirm posting recency and whether remote is allowed before pitching Mark as the fractional alternative to a full-time hire."
+  }
+ ],
+ "signalRefresh": [
+  {
+   "name": "Impulse Space",
+   "pipeline": "pr-marketing",
+   "previous": {
+    "fitScore": 44,
+    "intentScore": 40
+   },
+   "updated": {
+    "fitScore": 44,
+    "intentScore": 45
+   },
+   "delta": {
+    "fitScore": 0,
+    "intentScore": 5
+   },
+   "whatChanged": "Closed a $500M Series D (137 Ventures + Banner VC lead), bringing total to $1B+. Appears in Crunchbase top-10 rounds for the week of 2026-06-05.",
+   "sourceUrl": "https://news.crunchbase.com/venture/biggest-funding-rounds-june-5-2026/",
+   "recommendedAction": "Window is OPEN and hot \u2014 fresh mega-raise = active narrative/earned-media moment. Prioritize outreach this week before they lock an agency. Note: large round may mean in-house comms scale-up; pitch specialist/launch support."
+  },
+  {
+   "name": "Mach Industries",
+   "pipeline": "pr-marketing",
+   "previous": {
+    "fitScore": 44,
+    "intentScore": 41
+   },
+   "updated": {
+    "fitScore": 44,
+    "intentScore": 45
+   },
+   "delta": {
+    "fitScore": 0,
+    "intentScore": 4
+   },
+   "whatChanged": "Raised $300M Series C at a $1.8B valuation (Ribbit Capital + Infinite Capital lead). In Crunchbase top-10 for week of 2026-06-05.",
+   "sourceUrl": "https://news.crunchbase.com/venture/biggest-funding-rounds-june-5-2026/",
+   "recommendedAction": "Defense-tech raise = strong trigger, but defense-tech comms is specialized and security-sensitive. Open window; touch this week with a defense-aware angle."
+  },
+  {
+   "name": "Pace",
+   "pipeline": "pr-marketing",
+   "previous": {
+    "fitScore": 47,
+    "intentScore": 41
+   },
+   "updated": {
+    "fitScore": 47,
+    "intentScore": 39
+   },
+   "delta": {
+    "fitScore": 0,
+    "intentScore": -2
+   },
+   "whatChanged": "No new public signal since 2026-06-03 capture. Trigger freshness decaying.",
+   "sourceUrl": "https://techstartups.com/2026/06/03/venture-capital-startup-funding-roundup-june-3-2026/",
+   "recommendedAction": "Highest combined score on the board (86) and window is starting to age \u2014 reach out NOW if not already contacted."
+  },
+  {
+   "name": "Forage",
+   "pipeline": "pr-marketing",
+   "previous": {
+    "fitScore": 47,
+    "intentScore": 32
+   },
+   "updated": {
+    "fitScore": 47,
+    "intentScore": 32
+   },
+   "delta": {
+    "fitScore": 0,
+    "intentScore": 0
+   },
+   "whatChanged": "No new signal beyond the 2026-06-03 Series B + consumer app launch. Still fresh (<1 week).",
+   "sourceUrl": "https://techstartups.com/2026/06/03/venture-capital-startup-funding-roundup-june-3-2026/",
+   "recommendedAction": "Window open. Strong FS-infrastructure fit; warm-intro paths via PayPal/Intuit Ventures. Touch this week."
+  },
+  {
+   "name": "Latitude Legal",
+   "pipeline": "legal-freelance",
+   "previous": {
+    "fitScore": 42,
+    "intentScore": 43
+   },
+   "updated": {
+    "fitScore": 42,
+    "intentScore": 43
+   },
+   "delta": {
+    "fitScore": 0,
+    "intentScore": 0
+   },
+   "whatChanged": "No change detected; remote contract corporate/VC counsel role (AI/tech focus, ~$225-300k annualized) still the strongest standing legal-freelance lead.",
+   "sourceUrl": "",
+   "recommendedAction": "Keep warm; confirm whether the engagement is still open before re-pitching Mark."
+  }
+ ],
+ "skipped": [
+  {
+   "name": "Ramp",
+   "reason": "$750M round at $44B valuation \u2014 far outside pr-marketing size/budget ICP (10-500 employees, $5-25k/mo). Has mature in-house comms + incumbent agency."
+  },
+  {
+   "name": "Supabase",
+   "reason": "$500M at $10.5B valuation \u2014 too large for boutique retainer fit."
+  },
+  {
+   "name": "Helion / AlphaSense / Generalist AI",
+   "reason": "Mega/late-stage rounds; size and budget profile fail pr-marketing ICP."
+  },
+  {
+   "name": "SpeedLabs",
+   "reason": "Already in CRM (captured previously). $6.5M seed \u2014 dedup."
+  },
+  {
+   "name": "Impulse Space / Mach Industries",
+   "reason": "Already in CRM \u2014 handled as signal refresh, not new leads."
+  },
+  {
+   "name": "Awani Capital",
+   "reason": "Already in CRM (Awani Capital Management) \u2014 fund-formation lead previously captured."
+  },
+  {
+   "name": "Interlink Cloud Advisors / Lyfecoin / Hayden Industrial",
+   "reason": "Already in CRM \u2014 prior legal-freelance captures (fractional GC postings)."
+  },
+  {
+   "name": "Multiverse / Cloudbeds",
+   "reason": "Already in CRM \u2014 pr-freelance 'Head of Communications' postings captured previously."
+  },
+  {
+   "name": "pr-freelance net-new",
+   "reason": "No qualifying net-new employer postings surfaced today \u2014 searches returned aggregator/platform pages (The Work Crowd, Pangea, Upwork, RemotePRJobs) rather than named first-PR-hire/fractional employers. Suppressed per quality-over-quantity."
+  }
+ ]
+}

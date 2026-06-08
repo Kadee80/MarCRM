@@ -1,0 +1,99 @@
+{
+  "scrapeDate": "2026-06-05",
+  "totalLeads": 2,
+  "note": "Friday daily scrape. 2 new pr-marketing leads, both driven by early-June 2026 funding triggers (Adaptive Innovations $50M Series A; Ilant Health $15M Series A). Both are healthcare-AI companies — industry fit is partial vs. core FS/Tech, so each scores B (combined 70 and 68). The June 4 funding tape skewed to deals OUTSIDE the pr-marketing ICP: Ramp $750M Series F at $44B (suppressed — far above the 10-500 employee / $5k-$25k/mo budget tier); Layup Parts $42M (manufacturing, weak fit); Mecka AI $60M and Unframe $50M (AI vendors, not consulting buyers; Unframe also May 19, outside the 24-48h window). Apoha/Arpio/Uncover/Paypercut already captured 2026-06-04. Freelance board sweeps (legal-freelance, pr-freelance) returned ONLY recruiter/aggregator/service-provider pages already captured in 2026-06-01 through 2026-06-04 reports (Latitude Legal, Robert Half Legal, Ropes & Gray, Allocate, aVenture, Hayden Industrial, IST Management, Wuffes, Carter Murray, The Work Crowd, Pangea, LaunchSquad) — no NEW specifically-named postings, so none added (no fabrication). Signal refresh covers Catena Labs (NEW: national trust bank charter filing) and Forage (first-PR-hire window still open).",
+  "leads": [
+    {
+      "name": "Adaptive Innovations",
+      "website": "https://www.adaptive.co",
+      "pipeline": "pr-marketing",
+      "industry": "Healthcare AI — AI-native home health provider (full-stack: intake, eligibility, scheduling, charting, coding, QA, billing). Operating across major Texas metros.",
+      "location": "Texas, USA (operating in all major TX metros)",
+      "fundingStage": "$50M Series A in June 2026 (total $60M incl. seed). Investors: Felicis, Bain Capital Ventures, Optum Ventures, Sunflower Capital, Conviction, BoxGroup, SV Angel, Dorm Room Fund, Constellation. Founders: Alex Wendland, Logan Stinson.",
+      "fitScore": 37,
+      "intentScore": 33,
+      "fitDetails": {
+        "industry_match_FS_Tech": 5,
+        "stage_size_growth": 9,
+        "clear_B2B_buyer_sales_motion": 5,
+        "proof_assets_customers_data": 10,
+        "budget_5k_25k_per_month": 8
+      },
+      "intentDetails": {
+        "trigger_launch_raise_rebrand_expansion": 14,
+        "timeline_to_start_0_30_days": 7,
+        "decision_maker_engaged": 4,
+        "urgency_pain_reputation_pipeline": 6,
+        "responsiveness": 2
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "Alex Wendland", "title": "Co-founder / CEO", "email": "", "linkedin": "" },
+        { "name": "Logan Stinson", "title": "Co-founder", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "series_a_50m_60m_total_june_2026",
+        "emerged_from_stealth",
+        "200_plus_clinicians_100k_plus_visits",
+        "doc_time_reduced_80pct_rehospitalization_under_5pct",
+        "felicis_bain_capital_ventures_optum_ventures_syndicate"
+      ],
+      "source": "Home Health Care News / FinSMEs / D CEO / citybiz (June 2026)",
+      "sourceUrl": "https://homehealthcarenews.com/2026/06/ai-powered-home-health-provider-adaptive-innovations-lands-50m-series-a/",
+      "notes": "Top new lead today. Twin trigger: stealth emergence + $50M Series A = strong product/narrative launch window. Exceptional quantified proof (100k+ visits, 80% documentation-time reduction, <5% rehospitalization vs. 11% industry avg, 200+ clinicians). Industry fit is partial — healthcare delivery, not core FS/tech, and it is a full-stack provider rather than classic B2B SaaS, which softens the sales-motion score. Strong earned-media hooks: AI-native care, lowering admin cost to zero, serving the ~40% of patients legacy providers reject. Pitch a launch/narrative sprint, not just a retainer. Website (adaptive.co) per company blog — verify before outreach."
+    },
+    {
+      "name": "Ilant Health",
+      "website": "https://www.ilanthealth.com",
+      "pipeline": "pr-marketing",
+      "industry": "Healthcare AI — value-based precision obesity care; AI matches behavioral therapy, medication, and surgery, sold to employers and health plans.",
+      "location": "USA",
+      "fundingStage": "$15M Series A (announced ~2026-06-02, in techstartups 2026-06-04 roundup); ~$22M total equity raised. Led by Cornucopian Capital (naturalX, Peakbridge, Semcap AI, Evidenced, Operator Partners, Celtic, LifeX, AlphaLab). Founders: Elina Onitskansky (ex-McKinsey, ex-Molina), Jessica Muse.",
+      "fitScore": 36,
+      "intentScore": 32,
+      "fitDetails": {
+        "industry_match_FS_Tech": 5,
+        "stage_size_growth": 8,
+        "clear_B2B_buyer_sales_motion": 8,
+        "proof_assets_customers_data": 8,
+        "budget_5k_25k_per_month": 7
+      },
+      "intentDetails": {
+        "trigger_launch_raise_rebrand_expansion": 13,
+        "timeline_to_start_0_30_days": 7,
+        "decision_maker_engaged": 4,
+        "urgency_pain_reputation_pipeline": 6,
+        "responsiveness": 2
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "Elina Onitskansky", "title": "Co-founder / CEO", "email": "", "linkedin": "" },
+        { "name": "Jessica Muse", "title": "Co-founder", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "series_a_15m_2026_06_02",
+        "cornucopian_capital_led_syndicate",
+        "b2b_sells_to_employers_and_health_plans",
+        "avg_15pct_weight_loss_member_outcomes",
+        "glp1_cost_employer_narrative_timely"
+      ],
+      "source": "Endpoints / HIT Consultant / BusinessWire / Tech Startups (June 2026)",
+      "sourceUrl": "https://techstartups.com/2026/06/04/ilant-health-raises-15m-to-use-ai-for-obesity-care-as-employers-rethink-costly-glp-1-coverage/",
+      "notes": "Clear B2B buyer (employers, health plans) and a timely earned-media angle: employers rethinking costly GLP-1 coverage. Credible founders (ex-McKinsey/Molina). Quantified proof (avg 15% weight loss). Healthcare, not core FS/tech, so industry fit partial — B grade. Pitch a post-raise comms build + thought-leadership program on the GLP-1 / value-based-care narrative. Website (ilanthealth.com) best-effort — verify before outreach."
+    }
+  ]
+}
