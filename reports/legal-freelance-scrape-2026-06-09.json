@@ -1,0 +1,152 @@
+{
+  "scrapeDate": "2026-06-09",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 3,
+  "note": "Legal Freelance scrape, 7-day window (2026-06-02 → 2026-06-09). Web-search sourcing only (no LinkedIn bot scraping). Deduplicated against legal-freelance reports 2026-05-29 through 2026-06-08 and pr-freelance/daily scrapes (already captured: Robert Half variants, Taylor Root, Northstar Legal, InterPayments, TraverseGC, Velera, Latitude Legal, IST Management, Kindness for Capital, Interlink Cloud Advisors, HeartStamp, Wuffes, BIOFerm, Ropes & Gray, Allocate, Avallonn, Arootah, Major Lindsey & Africa [Corporate/Securities interim role], Fractionus, Radian Capital, Affirm Partners, Axiom). 3 new leads scoring 55+. Excluded below threshold or stale: Socket Fractional GC (Built In posting REMOVED Feb 2025 — stale, blockchain/Web3 only); EBTH/Everything But The House Fractional GC (part-time 10-20 hrs but Ohio/Cincinnati-only location restriction, e-commerce/marketplace not corporate/fund fit) scored ~40; Lyfecoin Fractional GC (expired Apr 2025, equity-only deferred-cash comp) scored low. NOTE: the MLA lead below is a DISTINCT live role (Interim Commercial SaaS Counsel) from the previously-captured MLA Corporate/Securities interim posting — kept as a separate active opportunity. Latitude Legal #5073 commercial-contracts engagement seen again this week but suppressed as an already-saturated channel (Latitude captured ~6x in prior reports).",
+  "leads": [
+    {
+      "name": "aVenture — Venture Capital Fund Attorney (Remote, Part-Time/Hourly)",
+      "website": "https://aventure.vc",
+      "pipeline": "legal-freelance",
+      "industry": "Fintech startup democratizing access to venture capital investment funds; building/operating its own VC fund vehicles and needs counsel to form them and keep them compliant",
+      "location": "Fully remote (work from anywhere)",
+      "fundingStage": "Early-stage fintech startup (small global team)",
+      "fitScore": 40,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Fund formation core ICP — entity formation/maintenance, subscription agreements, side letters, service-provider contracts (fund admin/custodian/auditor), PPMs, operating agreements, registration statements",
+        "seniority": "Counsel-level legal advisor; VC/private-fund/fund-manager/investment-adviser background sought",
+        "comp_credible": "Stated as fixed monthly rate OR hourly rate (no specific number) — credible paid engagement, not unpaid/equity-only",
+        "fund_focus": 20
+      },
+      "intentDetails": {
+        "engagement_model": "Part-time OR full-time; fixed monthly retainer or hourly — true fractional/contract structure",
+        "remote_flex": "Fully remote, work from anywhere",
+        "recency": "Currently listed on Glassdoor June 2026 search results; treated as evergreen — not confirmed within 72h",
+        "apply_path": "Direct apply via Glassdoor / LinkedIn / company"
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "Fixed monthly rate or hourly rate (amount not stated); part-time or full-time",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contract/part-time or full-time — fixed monthly or hourly (work from anywhere)",
+      "urgencyScore": 70,
+      "contacts": [
+        {
+          "name": "aVenture — Hiring / Legal",
+          "title": "Founder / Hiring Manager (VC fund legal)",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/aventure-vc/"
+        }
+      ],
+      "signals": [
+        "fund_formation_core_icp",
+        "subscription_agreements_side_letters",
+        "ppm_operating_agreements_registration",
+        "fully_remote_work_from_anywhere",
+        "part_time_or_hourly_engagement"
+      ],
+      "source": "Glassdoor / LinkedIn (web search)",
+      "sourceUrl": "https://www.glassdoor.com/job-listing/venture-capital-fund-attorney-aventure-JV_KO0,29_KE30,38.htm?jl=1008239968893",
+      "notes": "Combined 80, Grade A — highest fit this run. The entire role IS Katie's ICP: standing up VC fund vehicles and the fund documents around them (subs, side letters, service-provider contracts, PPMs, operating agreements). Remote-anywhere and explicitly offered as part-time/hourly or fixed monthly — a clean fractional fund-counsel engagement. PITCH: lead with fund-formation + fund-maintenance depth (side letters, feeder/parallel structures, service-provider paper) and offer a part-time monthly retainer to be the outsourced fund counsel for a small VC fintech. CAVEAT: posting recency not confirmed within 72h (looks evergreen) — verify the role is still open and confirm the comp model before pitching."
+    },
+    {
+      "name": "Tower Legal Solutions — Private Funds Contract Attorney (NY-Barred, $80–120/hr, Temp/Contract)",
+      "website": "https://www.towerls.com",
+      "pipeline": "legal-freelance",
+      "industry": "Legal staffing / ALSP placing NY-barred contract attorneys into private-funds workflows (side letters, feeder fund formation docs, compliance review) for fund-sponsor / asset-manager clients",
+      "location": "Remote (NY-barred) and on-site NY variants both active",
+      "fundingStage": "Established legal staffing firm (multiple concurrent private-funds contract roles)",
+      "fitScore": 40,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Private funds core ICP — drafting/negotiating fund side letter agreements, feeder fund formation documents, compliance-obligation review across the fund lifecycle",
+        "seniority": "Staff/contract attorney level (function matches fund work; title below 'counsel')",
+        "comp_credible": "$80–120/hr stated — market-credible contract rate",
+        "fund_focus": 20
+      },
+      "intentDetails": {
+        "engagement_model": "True temporary/contract engagement, hourly — not permanent W2",
+        "remote_flex": "Remote NY-barred variant available (also an on-site NY variant)",
+        "recency": "Freshest variant posted ~5 days ago (within 7-day window); remote NY-barred variant ~10 days ago",
+        "apply_path": "Direct apply via Tower Legal Solutions / JobLeads — fast path"
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "contract",
+      "buyerType": "staffing",
+      "compensationText": "$80–120/hr depending on experience (also listed as USD 80,000–120,000 on remote variant)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Temporary / contract, part-time, hourly (NY Bar admission required); remote and on-site NY variants",
+      "urgencyScore": 75,
+      "contacts": [
+        {
+          "name": "Tower Legal Solutions — Legal Staffing",
+          "title": "Legal Staffing Recruiter (Private Funds)",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/tower-legal-solutions/"
+        }
+      ],
+      "signals": [
+        "private_funds_side_letters",
+        "feeder_fund_formation_documents",
+        "true_contract_hourly_80_120",
+        "ny_barred_remote_variant",
+        "multiple_concurrent_fund_roles"
+      ],
+      "source": "JobLeads / Tower Legal Solutions (web search)",
+      "sourceUrl": "https://www.jobleads.com/us/job/private-funds-contract-attorney-temporary--new-york--ed8a159e69fa3c5b3d67db0e759e12bc9",
+      "notes": "Combined 80, Grade A. Tower Legal is running MULTIPLE concurrent private-funds contract roles — a temp/onsite NY one (~5 days ago) AND a remote NY-barred one (~10 days ago, USD 80–120k) — i.e. a recurring channel, not a one-off. Work is squarely Katie's fund ICP: side letters, feeder fund formation docs, fund-lifecycle compliance. PITCH: register with Tower Legal as a senior NY-barred fund-formation contract attorney; target the REMOTE NY-barred variant (the on-site temp listing loses the remote advantage). Comp $80–120/hr is credible. CAVEAT: titles say 'staff attorney' — confirm the engagement bills at a senior fund-counsel rate, not junior doc-review."
+    },
+    {
+      "name": "Major, Lindsey & Africa — Interim Commercial SaaS Counsel (Remote, $90–95/hr, Immediate Need)",
+      "website": "https://www.mlaglobal.com/en/services/interim-legal-talent",
+      "pipeline": "legal-freelance",
+      "industry": "Interim legal talent (MLA Interim Legal Talent group) placing an interim commercial/technology-transactions attorney into a client with an immediate SaaS-contracting bandwidth gap",
+      "location": "Fully remote (East Coast hours)",
+      "fundingStage": "Established global legal recruiter / interim-talent provider",
+      "fitScore": 30,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Commercial contracts core — drafting/negotiating SaaS vendor agreements and technology transactions",
+        "seniority": "7+ years technology transactions — counsel-level interim engagement",
+        "comp_credible": "$90–95/hr stated — market-credible",
+        "fund_focus": 0
+      },
+      "intentDetails": {
+        "engagement_model": "Interim engagement via MLA Interim Legal Talent — immediate need",
+        "remote_flex": "Fully remote (EC hours)",
+        "recency": "Active 'immediate need' listing this week; not confirmed within 72h",
+        "apply_path": "Direct apply / submit to MLA Interim Legal Talent desk"
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "interim",
+      "buyerType": "staffing",
+      "compensationText": "$90–95/hr commensurate with experience",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Interim / contract counsel (W2 or 1099 via MLA Interim Legal Talent)",
+      "urgencyScore": 80,
+      "contacts": [
+        {
+          "name": "Major, Lindsey & Africa — Interim Legal Talent",
+          "title": "Interim Legal Talent Recruiter",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/major-lindsey-&-africa/"
+        }
+      ],
+      "signals": [
+        "interim_commercial_saas_counsel",
+        "saas_vendor_agreement_drafting",
+        "fully_remote_ec_hours",
+        "immediate_need_signal",
+        "hourly_90_95_credible"
+      ],
+      "source": "Major, Lindsey & Africa Interim Legal Talent (web search)",
+      "sourceUrl": "https://www.mlaglobal.com/en/services/interim-legal-talent",
+      "notes": "Combined 70, Grade B. DISTINCT from the previously-captured MLA Corporate & Securities interim role (2026-06-01) — this is a live, separate Interim Commercial SaaS Counsel need: 7+ yrs tech transactions, SaaS vendor agreement focus, fully remote EC hours, $90–95/hr, flagged immediate. PITCH: submit to MLA's Interim Legal Talent desk for THIS SaaS role and keep Katie on MLA's interim bench for corporate/funds/commercial work generally. Commercial-contracts/SaaS-vendor negotiation is squarely Katie's core. NOTE: no fund component, so fit caps at 30 — strong intent (interim + remote + immediate + credible rate) carries it to B."
+    }
+  ]
+}
