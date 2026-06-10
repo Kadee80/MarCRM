@@ -1,0 +1,93 @@
+{
+  "scrapeDate": "2026-06-10",
+  "totalLeads": 2,
+  "note": "Wednesday daily scrape. Light day. 2 new pr-marketing leads from the June 9 (announced 9 Jun 2026) Tech Startups VC roundup: Golden Analytics (B) and Standard Bots (C). No qualifying legal-freelance or pr-freelance leads today — job-board searches (Indeed, ZipRecruiter, Glassdoor, The PR Net, The Work Crowd, GoFractional, Pangea, fractionaljobs.io) surfaced only aggregator/platform list views and already-captured employers (Tower Legal Solutions, aVenture, Ropes & Gray, Robert Half, The James Collective, Forthright Advising, Hanson Search all dups from prior reports). Mega-rounds and foreign companies scored down/skipped per pr-marketing fit: ICEYE (€450M Series F, Finland defense-space, in-house comms), Evotrex ($30M China/HK-backed off-grid RVs, consumer climate, outside FS/Tech), Rem3dy Health (€16M UK consumer nutrition), Skyfora (€6.5M Finland climate IoT), Deliverance AI (UK sovereign-AI, already issued a PR Newswire release = has comms). Signal refresh: A Security press wave is very large (Fortune exclusive + GlobeNewswire wire + Globes/JPost/Techmeme), and corrected founder facts — it is Israeli-founded (ex-Check Point, Hunters, IDF Unit 8200), NOT 'ex-AWS / ex-Abnormal' as the 06-09 report stated; this signals they already have strong launch PR, softening the fresh-agency opportunity. Suno litigation stays hot (musicians sued Warner/Universal 2026-06-09 over AI settlement money; Sony summary-judgment hearing still July 2026). Websites are best-effort; Neon DB unreachable from sandbox so run the import script locally.",
+  "leads": [
+    {
+      "name": "Golden Analytics",
+      "website": "https://www.goldenanalytics.ai",
+      "pipeline": "pr-marketing",
+      "industry": "Enterprise AI / business intelligence — 'AI-native' analytics workspace with a spreadsheet-like interface that connects data sources (Snowflake, BigQuery) and uses generative AI to auto-surface visualizations, trends, and insights; positioned against Tableau / Power BI",
+      "location": "Bellevue, Washington, USA",
+      "fundingStage": "$14M seed extension, announced 2026-06-09, led by Insight Partners with existing backers NEA and Madrona Ventures; $21M total seed. Coincides with public beta launch.",
+      "fitScore": 40,
+      "intentScore": 33,
+      "fitDetails": {
+        "industry_match_FS_Tech": 8,
+        "stage_size_growth": 8,
+        "clear_B2B_buyer_sales_motion": 9,
+        "proof_assets_customers_data": 8,
+        "budget_5k_25k_per_month": 7
+      },
+      "intentDetails": {
+        "trigger_launch_raise_rebrand_expansion": 14,
+        "timeline_to_start_0_30_days": 7,
+        "decision_maker_engaged": 4,
+        "urgency_pain_reputation_pipeline": 6,
+        "responsiveness": 2
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [],
+      "signals": [
+        "seed_extension_14m_insight_partners_2026_06_09",
+        "public_beta_launch_same_day",
+        "nearly_1000_companies_requested_early_access",
+        "category_creation_vs_tableau_power_bi",
+        "insight_nea_madrona_data_software_pedigree"
+      ],
+      "source": "Daily Scrape 2026-06-10 (Tech Startups VC roundup, 9 Jun 2026)",
+      "sourceUrl": "https://techstartups.com/2026/06/09/venture-capital-startup-funding-roundup-june-9-2026-2/",
+      "notes": "Best lead today. Public-beta launch + seed extension = textbook category-defining moment where earned-media and positioning advisory have maximum leverage, and the ~1,000 early-access requests are a press-friendly proof point. Right-sized for a boutique retainer + launch sprint (vs. the larger rounds today that skew to in-house comms). Competing head-on with Tableau/Power BI means category narrative matters. Decision-maker access is the gating risk. Website best-effort (goldenanalytics.ai) — verify before outreach; could also be golden.com / trygolden.ai per the 'Golden' product name."
+    },
+    {
+      "name": "Standard Bots",
+      "website": "https://standardbots.com",
+      "pipeline": "pr-marketing",
+      "industry": "Industrial robotics / factory automation — AI-native 'lights-out' manufacturing robots programmed by demonstration (no-code 'teach by showing'); positioned as a ~30%-cheaper, US-made alternative to Fanuc/ABB across assembly, welding, palletizing, inspection",
+      "location": "Glen Cove, New York, USA",
+      "fundingStage": "$200M Series C at a $1.0B valuation, announced 2026-06-09, led by RoboStrategy and General Catalyst with Amazon Alexa Fund, Samsung Next, BoxGroup, GiantLeap Capital; ~$220M total. Funds a 70,000-sq-ft Glen Cove, NY plant.",
+      "fitScore": 32,
+      "intentScore": 27,
+      "fitDetails": {
+        "industry_match_FS_Tech": 6,
+        "stage_size_growth": 5,
+        "clear_B2B_buyer_sales_motion": 8,
+        "proof_assets_customers_data": 9,
+        "budget_5k_25k_per_month": 4
+      },
+      "intentDetails": {
+        "trigger_launch_raise_rebrand_expansion": 12,
+        "timeline_to_start_0_30_days": 5,
+        "decision_maker_engaged": 3,
+        "urgency_pain_reputation_pipeline": 5,
+        "responsiveness": 2
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [],
+      "signals": [
+        "series_c_200m_1b_valuation_2026_06_09",
+        "robostrategy_general_catalyst_lead",
+        "new_70k_sqft_glen_cove_ny_plant",
+        "defense_interest_lockheed_army_nasa",
+        "ceo_congressional_testimony_robotics_strategy"
+      ],
+      "source": "Daily Scrape 2026-06-10 (Tech Startups VC roundup, 9 Jun 2026)",
+      "sourceUrl": "https://techstartups.com/2026/06/09/venture-capital-startup-funding-roundup-june-9-2026-2/",
+      "notes": "Borderline C — included for visibility but flagged. Strong proof assets (Lockheed/Army/NASA interest, CEO congressional testimony, $1B valuation) and a clean US-onshoring/'physical AI' narrative that earned media loves. BUT scored down hard on core fit: $200M Series C at a $1B valuation = the company can afford a top-tier agency and very likely already has in-house comms + an incumbent firm (same reason PhysicsX/$300M was skipped on 06-09). Industry is hardware/robotics, only loosely 'tech' for the agency's FS/Tech sweet spot. If pursued at all, the realistic angle is specialist earned-media overflow or vertical-trade placement around the factory opening, not a core retainer. Website confirmed."
+    }
+  ]
+}
