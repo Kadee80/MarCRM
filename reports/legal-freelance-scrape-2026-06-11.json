@@ -1,0 +1,248 @@
+{
+  "scrapeDate": "2026-06-11",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 5,
+  "note": "Legal Freelance pipeline scrape, 7-day window. 10 boolean clusters run across Indeed/Glassdoor/ZipRecruiter/CareerBuilder/Built In indexed results plus ACC Jobline, Robert Half, Paragon Legal, Axiom and Ontra. Deduplicated against legal-freelance, daily, and pr-freelance reports back through 2026-06-04 (skipped repeat companies/postings already captured: aVenture, Tower Legal Solutions, Major Lindsey & Africa, Robert Half, Taylor Root, Latitude Legal, TraverseGC, Ropes & Gray, Allocate, The Mom Project, Hayden Industrial/ACC-Jobline-54004, Northstar Legal, InterPayments, Velera, IST Management). Only leads scoring 55+ kept. 1 Grade A, 4 Grade B. Note: Ontra and Robert Half corporate/securities postings rotate; Ontra fund-formation freelance network re-surfaced this week as an open standing role and is the strongest structural fit, so it is included as a new capture distinct from prior runs.",
+  "leads": [
+    {
+      "name": "Ontra — US-Licensed Freelance Fund Formation Lawyer (Remote, 1099 Network)",
+      "website": "https://www.ontra.ai",
+      "pipeline": "legal-freelance",
+      "industry": "AI legal-tech operating system for private markets; supports 600+ investment firms with high-volume routine fund and contract work, staffed by a global network of independent freelance attorneys",
+      "location": "Fully remote (US-licensed, active state bar in good standing)",
+      "fundingStage": "Established venture-backed legal-tech platform / ALSP",
+      "fitScore": 45,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Core fund ICP — LPAs, side letters, term sheets, purchase/credit/operating agreements, vendor and license agreements; precisely the fund-formation/fund-maintenance judgment Katie sells",
+        "seniority": "Counsel-level transactional background required; lawyers operate as independent practitioners",
+        "comp_credible": "Paid 1099 network engagement (no published rate); Ontra handles invoicing/billing/collections — credible operator-grade structure, not unpaid",
+        "fund_focus": 20
+      },
+      "intentDetails": {
+        "engagement_model": "Explicit freelance / 1099 independent-attorney network — the purest commercial-operator model of the run",
+        "remote_flex": "100% remote, explicitly stated",
+        "recency": "Evergreen network role; re-surfaced in indexed results this week, not confirmed within 72h",
+        "apply_path": "Direct apply to the Ontra Legal Network (online application)"
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "freelance",
+      "buyerType": "ALSP",
+      "compensationText": "1099 freelance network; rate not published. Ontra handles invoicing, billing, collections; attorney carries malpractice insurance",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Freelance (1099) fund-formation lawyer, remote, independent contractor in Ontra Legal Network",
+      "urgencyScore": 55,
+      "contacts": [
+        {
+          "name": "Ontra Legal Network — Attorney Recruiting",
+          "title": "Legal Network / Talent",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/ontra-ai"
+        }
+      ],
+      "signals": [
+        "explicit 1099 freelance fund-formation network",
+        "core fund docs: LPAs, side letters, term sheets",
+        "100% remote, independent-practitioner model",
+        "Ontra handles invoicing/billing/collections",
+        "serves 600+ investment firms — steady deal flow"
+      ],
+      "source": "Built In / Ontra Legal Network (web search)",
+      "sourceUrl": "https://www.ontra.ai/legal-network/",
+      "notes": "Combined 85, Grade A — strongest and cleanest structural fit this run. A true 1099 freelance network built around fund-formation document work (LPAs, side letters, subscription/closing docs) for 600+ private-markets firms; Ontra carries the back office so Katie just bills. ACTION: apply to the Ontra Legal Network directly; position as a ready-to-bill funds attorney comfortable owning side letters and LP/GP paper. Lowest-friction recurring-revenue path of the five. Confirm current intake status on the legal-network page before pitching."
+    },
+    {
+      "name": "Paragon Legal — Interim In-House Counsel Network (Corporate / Commercial Contracts, Remote)",
+      "website": "https://paragonlegal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Premier flexible legal staffing firm placing interim in-house counsel into growing legal teams and Fortune 500 departments; SaaS, finance, healthcare, real estate clients",
+      "location": "Remote / hybrid (US; project-based placements)",
+      "fundingStage": "Established legal staffing firm / ALSP",
+      "fitScore": 25,
+      "intentScore": 38,
+      "fitDetails": {
+        "practice_area": "Corporate and commercial-contracts placements; some PE/fund and investment-management clients — partial fund fit",
+        "seniority": "Experienced in-house counsel level; integrates into client legal teams",
+        "comp_credible": "Paid interim placements (rate not published) — credible market structure",
+        "fund_focus": 0
+      },
+      "intentDetails": {
+        "engagement_model": "Interim / contract in-house counsel placement — explicit flexible-staffing model",
+        "remote_flex": "Remote roles standard in 2026 per Paragon; some hybrid",
+        "recency": "Evergreen talent network, not 72h",
+        "apply_path": "Direct apply to Paragon's attorney opportunities portal"
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "interim",
+      "buyerType": "staffing",
+      "compensationText": "Interim placement rates not published; W-2/1099 placement structure",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Interim in-house counsel placement (project-based) via flexible legal staffing firm",
+      "urgencyScore": 40,
+      "contacts": [
+        {
+          "name": "Paragon Legal — Attorney Talent",
+          "title": "Attorney Recruiting / Opportunities",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/paragon-legal"
+        }
+      ],
+      "signals": [
+        "flexible legal staffing / interim in-house network",
+        "corporate + commercial contracts placements",
+        "remote standard in 2026",
+        "Fortune 500 + growth-company client base",
+        "direct attorney opportunities portal"
+      ],
+      "source": "Paragon Legal (web search)",
+      "sourceUrl": "https://paragonlegal.com/for-attorneys/opportunities/",
+      "notes": "Combined 63, Grade B — relationship/bench target, not a single posting. Paragon places experienced counsel into interim in-house roles; registering puts Katie in front of recurring corporate/commercial-contracts (and occasional fund/PE) placements. ACTION: apply to the attorney network and flag fund-formation + commercial-contracts specialties. Treat like the Taylor Root / TraverseGC bench relationships from prior runs."
+    },
+    {
+      "name": "Axiom — On-Demand Legal Talent Network (Corporate / Commercial, Remote)",
+      "website": "https://www.axiomlaw.com",
+      "pipeline": "legal-freelance",
+      "industry": "Global alternative legal services provider; 14,000+ vetted lawyers placed on-demand and via secondment into in-house legal departments at up to 50% below firm cost",
+      "location": "Remote (US; flexible engagements and secondments)",
+      "fundingStage": "Established global ALSP",
+      "fitScore": 25,
+      "intentScore": 37,
+      "fitDetails": {
+        "practice_area": "Corporate, commercial contracts, and transactional secondments; investment-management clients present — partial fund fit",
+        "seniority": "Experienced counsel level; vetted senior bench",
+        "comp_credible": "Paid engagements; Axiom classifies network lawyers as employees (benefits, no self-employment tax) — credible",
+        "fund_focus": 0
+      },
+      "intentDetails": {
+        "engagement_model": "On-demand / secondment contract engagements — flexible alternative-staffing model",
+        "remote_flex": "Remote attorney roles explicitly offered",
+        "recency": "Evergreen network, not 72h",
+        "apply_path": "Direct apply to Axiom remote attorney jobs"
+      },
+      "vertical": "legal",
+      "subvertical": "corporate",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "Paid engagements; W-2 employee classification with benefits (rate not published)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "On-demand / secondment legal engagement (Axiom-employed) via global ALSP",
+      "urgencyScore": 40,
+      "contacts": [
+        {
+          "name": "Axiom — Lawyer Recruiting",
+          "title": "Talent / Lawyer Network",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/axiom"
+        }
+      ],
+      "signals": [
+        "14,000+ lawyer on-demand network",
+        "corporate + commercial secondments",
+        "remote attorney jobs explicitly offered",
+        "W-2 with benefits (lower personal admin)",
+        "in-house department placements"
+      ],
+      "source": "Axiom Law (web search)",
+      "sourceUrl": "https://www.axiomlaw.com/remote-attorney-jobs",
+      "notes": "Combined 62, Grade B — bench/relationship target. Axiom's secondment model is W-2 rather than true 1099, so it suits Katie as a steady supplemental channel rather than an independent-operator engagement. ACTION: apply to the remote attorney network; emphasize transactional / commercial-contracts and fund-adjacent experience. Lower commercial-operator upside than Ontra but high volume and brand credibility."
+    },
+    {
+      "name": "Epiq Counsel — Commercial Contracts Attorney (In-House, Remote)",
+      "website": "https://www.epiqglobal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Flexible/contract counsel arm of Epiq (global legal services & technology) placing experienced attorneys into in-house contract and commercial roles",
+      "location": "Remote (US)",
+      "fundingStage": "Established global legal-services company / ALSP",
+      "fitScore": 25,
+      "intentScore": 35,
+      "fitDetails": {
+        "practice_area": "Commercial contracts review/redline/negotiation — core contracts ICP workstream",
+        "seniority": "Experienced in-house commercial counsel level",
+        "comp_credible": "Paid contract placement (rate not published) — credible",
+        "fund_focus": 0
+      },
+      "intentDetails": {
+        "engagement_model": "Contract in-house commercial-counsel placement via Epiq Counsel flexible bench",
+        "remote_flex": "Remote, explicitly stated",
+        "recency": "Live ACC Jobline posting; exact post-date not confirmed within 72h",
+        "apply_path": "Apply via ACC Jobline / Epiq Counsel"
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "Contract placement; rate not published",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Commercial Contracts Attorney (In-House), contract/flexible placement, remote",
+      "urgencyScore": 45,
+      "contacts": [
+        {
+          "name": "Epiq Counsel — Legal Recruiting",
+          "title": "Flexible Counsel / Recruiting",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/epiq"
+        }
+      ],
+      "signals": [
+        "commercial-contracts in-house placement",
+        "100% remote",
+        "Epiq Counsel flexible/contract bench",
+        "live ACC Jobline posting",
+        "direct apply path"
+      ],
+      "source": "ACC Jobline (web search)",
+      "sourceUrl": "https://jobline.acc.com/job/commercial-contracts-attorney-in-house--53153",
+      "notes": "Combined 60, Grade B — concrete live posting on a high-trust board (ACC Jobline). Clean commercial-contracts fit via Epiq's flexible-counsel arm; no fund angle but solid contracts workstream and direct apply. ACTION: apply through ACC Jobline; lead with commercial-contracts depth (vendor/customer paper, redlines). Good steady-state contracts channel."
+    },
+    {
+      "name": "Roasa Law Group — Part-Time Contract Transactional Attorney (Small Business / M&A, Remote)",
+      "website": "https://www.roasalaw.com",
+      "pipeline": "legal-freelance",
+      "industry": "Boutique transactional law firm seeking overflow/contract support for small-business transactions and M&A",
+      "location": "Fully remote (US)",
+      "fundingStage": "Boutique law firm",
+      "fitScore": 25,
+      "intentScore": 35,
+      "fitDetails": {
+        "practice_area": "Small-business transactions and M&A — corporate/M&A ICP workstream",
+        "seniority": "Experienced transactional attorney; overflow specialist support",
+        "comp_credible": "Paid part-time contract role (rate not published) — credible",
+        "fund_focus": 0
+      },
+      "intentDetails": {
+        "engagement_model": "Part-time, contract transactional attorney — true freelance/overflow engagement",
+        "remote_flex": "Fully remote, explicitly stated",
+        "recency": "Indexed this week; exact post-date not confirmed within 72h",
+        "apply_path": "Direct apply to firm"
+      },
+      "vertical": "legal",
+      "subvertical": "M&A",
+      "engagementModel": "part-time",
+      "buyerType": "law-firm",
+      "compensationText": "Part-time contract; rate not published",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Part-time contract transactional attorney (small business / M&A), fully remote",
+      "urgencyScore": 40,
+      "contacts": [
+        {
+          "name": "Roasa Law Group — Hiring",
+          "title": "Principal / Hiring",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "part-time + contract (true freelance)",
+        "small business transactions + M&A",
+        "fully remote",
+        "law-firm overflow / specialist support",
+        "direct apply to principal"
+      ],
+      "source": "Indeed (web search)",
+      "sourceUrl": "https://www.indeed.com/q-contract-attorney-remote-l-florida-jobs.html",
+      "notes": "Combined 60, Grade B — small but clean true-freelance fit. A boutique firm wanting part-time contract M&A/transactional overflow is exactly the law-firm-overflow buyer in the ICP. ACTION: reach the principal directly; pitch flexible transactional capacity (M&A diligence, deal docs, entity work). Lower deal size than the funds channels but fast, direct, and low-friction. Confirm the live listing on the firm site before pitching."
+    }
+  ]
+}
