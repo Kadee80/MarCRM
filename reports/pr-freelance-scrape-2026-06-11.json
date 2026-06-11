@@ -1,0 +1,209 @@
+{
+  "scrapeDate": "2026-06-11",
+  "scrapeType": "pr-freelance",
+  "totalLeads": 4,
+  "note": "Enhanced PR Freelance pipeline scrape, 7-day window. Web-search sourced only (no LinkedIn bot scraping). Deduplicated against pr-freelance-scrape reports 2026-05-25 through 2026-06-09 and daily-scrape reports. Notable dedupes this run: CrowdPharm (freelance IR consultant, already 06-03), The Work Crowd / Hanson Search / Go Fractional / Pangea / Chameleon Collective / Forthright / Comms Search / Daybook-platform (all prior). Omniscient Digital 'Crypto Content Writer' was EXCLUDED — posting was removed/closed. Quality over quantity: 4 solid new leads. One direct-employer fractional engagement (Four Pines), one named contract role (Liftoff, recency unverified), one fintech/crypto freelance network (Thirdwork), one curated channel (RemotePRJobs).",
+  "leads": [
+    {
+      "name": "Liftoff (Contract Communications Manager)",
+      "website": "https://liftoff.io",
+      "pipeline": "pr-freelance",
+      "industry": "Mobile app growth / adtech (B2B SaaS)",
+      "location": "Remote (US)",
+      "fundingStage": "Established private adtech company",
+      "fitScore": 45,
+      "intentScore": 35,
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 15,
+        "workstream": 10,
+        "buyer_quality": 0,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 10,
+        "recency": 0,
+        "urgency_signals": 5,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "comms",
+      "engagementModel": "contract",
+      "buyerType": "operating-company",
+      "compensationText": "Not stated",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contract Communications Manager",
+      "urgencyScore": 60,
+      "contacts": [
+        {
+          "name": "Liftoff — Marketing / Communications",
+          "title": "Hiring / Comms",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/liftoff-mobile/"
+        }
+      ],
+      "signals": [
+        "named_operating_company_contract_comms_role",
+        "b2b_adtech_saas_sector_fit",
+        "remote",
+        "surfaced_via_remoteprjobs_curated_board",
+        "RECENCY_UNVERIFIED_confirm_posting_still_open"
+      ],
+      "source": "websearch (RemotePRJobs listing)",
+      "sourceUrl": "https://www.facebook.com/RemotePRJobs/photos/968303761996547/",
+      "notes": "Combined 80, A (flagged). Named operating-company contract Communications Manager role at Liftoff, a mobile growth/adtech platform — clean B2B SaaS sector fit and a true in-house contract engagement rather than another talent network. CAUTION: surfaced via a RemotePRJobs social listing; exact posting date and whether it is still open could NOT be confirmed in this run (recency scored 0). Verify live status on liftoff.io/careers or RemotePRJobs before pitching. PITCH: senior comms operator who can own media relations + corporate/product comms on contract and ramp fast. Distinguish employmentTypeRaw (contract) from rate basis — confirm 1099 vs W2."
+    },
+    {
+      "name": "Four Pines Fund (Fractional Director of Communications)",
+      "website": "https://www.fourpines.org",
+      "pipeline": "pr-freelance",
+      "industry": "Philanthropy / mission-driven foundation (suicide-care systems change)",
+      "location": "Remote (VT or DC preferred; quarterly travel)",
+      "fundingStage": "Foundation, est. 2023 (growth phase)",
+      "fitScore": 35,
+      "intentScore": 35,
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 0,
+        "workstream": 10,
+        "buyer_quality": 5,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 10,
+        "recency": 0,
+        "urgency_signals": 5,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "executive-comms",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "Long-term contract, 12-18 months, ~25 hours/week (rate not stated)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional Director of Communications (long-term contract, ~25 hrs/wk)",
+      "urgencyScore": 55,
+      "contacts": [
+        {
+          "name": "Four Pines Fund — Careers / CEO",
+          "title": "Hiring (reports to CEO)",
+          "email": "careers@fourpines.org",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "direct_employer_fractional_comms_leadership",
+        "true_fractional_long_term_contract_25hrs",
+        "remote",
+        "direct_email_apply_path",
+        "build_comms_function_from_scratch",
+        "sector_mission_driven_not_finance"
+      ],
+      "source": "websearch (Daybook)",
+      "sourceUrl": "https://www.daybook.com/job/fractional-director-of-communications-contract-position-w2exwwvL8r4sE2FA2",
+      "notes": "Combined 70, B. Best direct-apply lead this run. Three-year-old foundation building its comms function from a low public profile — wants a fractional comms leader to run a comms assessment, build the strategic plan, then own execution (media strategy, press relationships, brand, thought leadership). True fractional structure: 12-18 month contract, ~25 hrs/wk, remote, direct email careers@fourpines.org, rolling review. SECTOR fit is the weak point (philanthropy/healthcare, not finance/PE), scored 0 — but the engagement model, workstream and direct apply path are exactly Mark's lane. Sensitive subject matter (suicide care): pitch should show judgment handling stigmatized topics. PITCH: senior operator who can both set strategy and execute hands-on while a function is stood up."
+    },
+    {
+      "name": "Thirdwork (fintech & crypto freelance network)",
+      "website": "https://www.thirdwork.xyz",
+      "pipeline": "pr-freelance",
+      "industry": "Vetted freelance network for fintech & crypto startups",
+      "location": "Remote",
+      "fundingStage": "Talent marketplace / network",
+      "fitScore": 30,
+      "intentScore": 30,
+      "fitDetails": {
+        "pr_remit": 0,
+        "sector_fit": 15,
+        "workstream": 10,
+        "buyer_quality": 5,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 10,
+        "recency": 0,
+        "urgency_signals": 0,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "content-strategy",
+      "engagementModel": "freelance",
+      "buyerType": "staffing",
+      "compensationText": "Project / freelance engagements (rate set per brief)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Freelance network — writers, marketers, brand strategists, operators",
+      "urgencyScore": 40,
+      "contacts": [
+        {
+          "name": "Thirdwork — Talent Network",
+          "title": "Talent / Network",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/thirdwork/"
+        }
+      ],
+      "signals": [
+        "fintech_crypto_sector_fit",
+        "freelance_network_places_brand_content_marketing",
+        "remote",
+        "join_the_bench_apply_path",
+        "comms_adjacent_not_pure_pr_remit"
+      ],
+      "source": "websearch",
+      "sourceUrl": "https://www.thirdwork.xyz/",
+      "notes": "Combined 60, B. New channel: a vetted freelance network purpose-built for fintech and crypto startups, placing writers, marketers, brand strategists and operators. Strong sector fit for Mark's finance/fintech angle. CAVEAT: positions itself around marketing/brand/content (pr_remit scored 0 — comms-adjacent, not pure media relations), so frame Mark's profile around messaging, narrative, thought leadership and earned-media angle to stand out. Channel/bench play, not a single brief — join the network for ongoing fintech/crypto project flow."
+    },
+    {
+      "name": "RemotePRJobs.com (curated remote PR/comms board)",
+      "website": "https://remoteprjobs.com",
+      "pipeline": "pr-freelance",
+      "industry": "Curated job board — remote/hybrid PR & communications (freelance/contract/part-time/full-time)",
+      "location": "Remote / hybrid (US + global)",
+      "fundingStage": "Job board / platform (founded 2018, relaunched Jan 2026)",
+      "fitScore": 25,
+      "intentScore": 30,
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 0,
+        "workstream": 0,
+        "buyer_quality": 5,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 10,
+        "recency": 0,
+        "urgency_signals": 0,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "comms",
+      "engagementModel": "contract",
+      "buyerType": "staffing",
+      "compensationText": "Membership $19.99/month (3-day money-back); roles vary",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Aggregated freelance / contract / part-time / full-time PR & comms roles",
+      "urgencyScore": 35,
+      "contacts": [
+        {
+          "name": "RemotePRJobs.com",
+          "title": "Platform",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/remoteprjobs/"
+        }
+      ],
+      "signals": [
+        "curated_remote_pr_comms_board",
+        "~1000_active_roles_freelance_contract_filterable",
+        "relaunched_jan_2026",
+        "low_cost_membership_channel",
+        "source_channel_not_single_employer"
+      ],
+      "source": "websearch",
+      "sourceUrl": "https://remoteprjobs.com/",
+      "notes": "Combined 55, C (channel lead, at threshold). Curated board carrying ~1,000 actively updated remote/hybrid PR & comms roles with freelance/contract filters and daily email alerts; relaunched Jan 2026, $19.99/mo. Not a single employer — it is a sourcing channel that already surfaced the Liftoff contract role this run. RECOMMENDATION: low-cost subscription to feed the pipeline with fresh freelance/contract briefs between scrapes; treat individual surfaced roles (e.g. Liftoff) as the real leads."
+    }
+  ]
+}
