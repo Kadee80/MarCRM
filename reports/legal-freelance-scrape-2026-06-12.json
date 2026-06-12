@@ -1,0 +1,248 @@
+{
+  "scrapeDate": "2026-06-12",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 5,
+  "note": "Legal Freelance pipeline scrape, 7-day window. Five new leads (≥55 combined), all deduplicated against recent legal-freelance, pr-freelance, and daily scrape reports. Mix of independent-operator marketplaces/networks (Latitude, Priori, Montage, Hire an Esquire) and one concrete single-company fractional GC opening (Lyfecoin). Suppressed below threshold/duplicate: IST Management (litigation-support brand-ambassador/sales flavor), Level Legal (doc review $28/hr), Robert Half part-time nonprofit and MLA tech-transactions interim (companies already captured in prior runs).",
+  "leads": [
+    {
+      "name": "Latitude Legal — Fractional/Interim Counsel & Talent Network (Corporate, Commercial Contracts, Securities; Remote)",
+      "website": "https://latitudelegal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Flexible legal talent company (est. 2013) placing former in-house and Big Law attorneys into fractional GC, contract, and interim engagements for growing companies, including emerging fund managers and financial-services clients",
+      "location": "Remote (US; flexible contract engagements nationwide)",
+      "fundingStage": "Established flexible legal talent firm / ALSP",
+      "fitScore": 30,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": 10,
+        "seniority": 10,
+        "comp_credible": 0,
+        "fund_focus": 10
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 15,
+        "recency": 0,
+        "apply_path": 10
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "ALSP",
+      "compensationText": "Flexible contract engagements; rate not published. Latitude attorneys embed as in-house counsel on part-time/fractional basis",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional / contract / interim attorney engagements via flexible legal talent network",
+      "urgencyScore": 45,
+      "contacts": [
+        {
+          "name": "Latitude Legal — Attorney Recruiting",
+          "title": "Talent / Attorney Network",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/latitude-legal"
+        }
+      ],
+      "signals": [
+        "fractional_gc_plus_contract_engagements",
+        "former_in_house_and_biglaw_bench",
+        "securities_and_fund_manager_case_study",
+        "commercial_contracts_plus_m_and_a",
+        "direct_talent_network_apply"
+      ],
+      "source": "websearch",
+      "sourceUrl": "https://jobs.latitudelegal.com/s/",
+      "notes": "Combined 70, Grade A/B — strongest new bench relationship this run. Latitude places former in-house/Big Law attorneys as fractional GCs and contract counsel for growing companies; published case studies include a wealth-management fractional-GC placement and a securities/SEC-veteran attorney serving fintech/investment/startup clients — direct evidence they staff fund-adjacent and financial-services work. ACTION: apply to the talent network; lead with fund formation + commercial contracts + corporate governance and the high-judgment counsel positioning. Treat like Axiom/Taylor Root bench but with a clearer fund/securities track."
+    },
+    {
+      "name": "Priori Legal — Vetted Legal Marketplace, Project & Ongoing Corporate Engagements (Remote)",
+      "website": "https://www.priorilegal.com",
+      "pipeline": "legal-freelance",
+      "industry": "VC-backed legal marketplace ($23M+ raised) connecting in-house corporate legal departments and Big Law with vetted outside counsel for flexible, project-based, and ongoing engagements",
+      "location": "Remote (US; project-based and ongoing)",
+      "fundingStage": "Venture-backed legal-tech marketplace / ALSP",
+      "fitScore": 28,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": 10,
+        "seniority": 10,
+        "comp_credible": 0,
+        "fund_focus": 8
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 15,
+        "recency": 0,
+        "apply_path": 10
+      },
+      "vertical": "legal",
+      "subvertical": "corporate",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "Attorney sets own rates on marketplace; Priori handles client matching and engagement ops (rate not published)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Project-based / ongoing outside-counsel engagements via vetted legal marketplace (1099)",
+      "urgencyScore": 42,
+      "contacts": [
+        {
+          "name": "Priori Legal — Attorney Network",
+          "title": "Talent / Marketplace",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/priori-legal"
+        }
+      ],
+      "signals": [
+        "vetted_marketplace_for_inhouse_corporate",
+        "project_based_and_ongoing_engagements",
+        "attorney_sets_own_rates_1099",
+        "corporate_transactional_focus",
+        "direct_talent_network_apply"
+      ],
+      "source": "websearch",
+      "sourceUrl": "https://www.priorilegal.com/our-attorney-network/",
+      "notes": "Combined 68, Grade B — true independent-operator marketplace (1099, set your own rates) aimed squarely at corporate in-house and Big Law buyers. Good recurring-deal-flow channel for corporate/commercial and fund-adjacent work; lower friction than recruiter benches because Katie controls rate and scope. ACTION: join the attorney network; tag fund formation, commercial contracts, governance, and M&A. Complements Ontra (fund docs) and Axiom (secondments)."
+    },
+    {
+      "name": "Lyfecoin — Fractional General Counsel (Crypto/Fintech, Remote)",
+      "website": "https://www.legal.io/jobs/5660179/Other/Fractional-General-Counsel/Remote",
+      "pipeline": "legal-freelance",
+      "industry": "Crypto/fintech operating company seeking a fractional general counsel to cover governance, commercial, and regulatory matters without a full-time GC hire",
+      "location": "Remote (US)",
+      "fundingStage": "Early-stage crypto/fintech operating company",
+      "fitScore": 22,
+      "intentScore": 43,
+      "fitDetails": {
+        "practice_area": 10,
+        "seniority": 10,
+        "comp_credible": 0,
+        "fund_focus": 0
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 15,
+        "recency": 3,
+        "apply_path": 10
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "Fractional GC engagement; rate not published (market fractional GC typically $3k–$8k/mo retainer)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional General Counsel (part-time retained), remote, posted via Legal.io jobs board",
+      "urgencyScore": 55,
+      "contacts": [
+        {
+          "name": "Lyfecoin — Hiring",
+          "title": "Founder / Hiring",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "live_single_fractional_gc_opening",
+        "true_operator_engagement_not_bench",
+        "crypto_fintech_governance_and_regulatory",
+        "100_percent_remote",
+        "direct_apply_via_legal_io"
+      ],
+      "source": "websearch",
+      "sourceUrl": "https://www.legal.io/jobs/5660179/Other/Fractional-General-Counsel/Remote",
+      "notes": "Combined 65, Grade B — the only concrete single-company fractional-GC opening this run (vs. networks/benches). Real operator engagement: governance, commercial paper, and crypto/fintech regulatory. No fund-formation angle, so fit caps lower, but intent is high (fractional + remote + direct apply). ACTION: apply directly via Legal.io; pitch high-judgment fractional GC covering governance/commercial/regulatory, and note comfort with financial-services/regulatory complexity. Verify posting still live before pitching."
+    },
+    {
+      "name": "Montage Legal Group — Freelance Attorney Network (Big Law / Ivy-Vetted Corporate Transactional, Remote)",
+      "website": "https://www.montagelegal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Curated freelance attorney network requiring Big Law experience or Ivy-tier pedigree; places vetted attorneys into corporate, transactional, and overflow support for firms and companies",
+      "location": "Remote (US; flexible freelance projects)",
+      "fundingStage": "Established freelance attorney network / ALSP",
+      "fitScore": 28,
+      "intentScore": 35,
+      "fitDetails": {
+        "practice_area": 10,
+        "seniority": 10,
+        "comp_credible": 0,
+        "fund_focus": 8
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 15,
+        "recency": 0,
+        "apply_path": 5
+      },
+      "vertical": "legal",
+      "subvertical": "corporate",
+      "engagementModel": "freelance",
+      "buyerType": "ALSP",
+      "compensationText": "Freelance project rates set between attorney and client; network vets for Big Law/Ivy pedigree (rate not published)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Freelance project-based attorney engagements via curated (Big Law/Ivy) network",
+      "urgencyScore": 40,
+      "contacts": [
+        {
+          "name": "Montage Legal Group — Attorney Recruiting",
+          "title": "Talent / Network",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/montage-legal-group"
+        }
+      ],
+      "signals": [
+        "curated_biglaw_ivy_freelance_network",
+        "corporate_transactional_and_overflow",
+        "true_freelance_project_model",
+        "100_percent_remote",
+        "pedigree_match_for_katie"
+      ],
+      "source": "websearch",
+      "sourceUrl": "https://www.montagelegal.com/attorneys/",
+      "notes": "Combined 63, Grade B — pedigree-matched true-freelance network (requires Big Law/Ivy background, which fits Katie). Strong fit for corporate/transactional overflow and fund-adjacent deal work on a 1099 project basis. ACTION: apply to the attorney network; emphasize fund formation + corporate transactional depth. Adds another independent-operator channel alongside Priori and Ontra."
+    },
+    {
+      "name": "Hire an Esquire — Vetted National Flexible Legal Talent Network (Corporate Transactional, Remote)",
+      "website": "https://www.hireanesquire.com",
+      "pipeline": "legal-freelance",
+      "industry": "Legal staffing/outsourcing platform with an ultra-vetted national network of 15,000+ attorneys and paraprofessionals serving law firms and in-house departments with flexible and permanent placements",
+      "location": "Remote (US; flexible and on-site placements nationwide)",
+      "fundingStage": "Established legal staffing platform / ALSP",
+      "fitScore": 25,
+      "intentScore": 35,
+      "fitDetails": {
+        "practice_area": 10,
+        "seniority": 10,
+        "comp_credible": 0,
+        "fund_focus": 5
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 13,
+        "recency": 0,
+        "apply_path": 7
+      },
+      "vertical": "legal",
+      "subvertical": "corporate",
+      "engagementModel": "freelance",
+      "buyerType": "staffing",
+      "compensationText": "Flexible/contract placement rates set per engagement; platform handles matching and analytics (rate not published)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Flexible/contract or permanent placement via vetted national legal staffing platform",
+      "urgencyScore": 40,
+      "contacts": [
+        {
+          "name": "Hire an Esquire — Talent",
+          "title": "Attorney Network / Talent",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/hire-an-esquire"
+        }
+      ],
+      "signals": [
+        "15000_plus_vetted_attorney_network",
+        "flexible_and_permanent_placements",
+        "corporate_transactional_coverage",
+        "predictive_hiring_analytics",
+        "national_remote_footprint"
+      ],
+      "source": "websearch",
+      "sourceUrl": "https://www.hireanesquire.com/find-work/",
+      "notes": "Combined 60, Grade B — broad vetted staffing network; lower-signal than the others but a low-cost channel to register for corporate/commercial-contracts placements. ACTION: register profile; flag corporate transactional, commercial contracts, and fund-adjacent experience. Lowest priority of the five — set-and-forget bench."
+    }
+  ]
+}
