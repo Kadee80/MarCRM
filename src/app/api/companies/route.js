@@ -1,6 +1,18 @@
 import { NextResponse } from "next/server";
 import prisma from "@/lib/db";
 
+export const dynamic = "force-dynamic";
+
+// Tolerant JSON parse: never throws. Bad/legacy data falls back to the
+// default instead of 500-ing the whole endpoint. `fallback` is a JSON string.
+function safeParse(value, fallback) {
+  try {
+    return JSON.parse(value || fallback);
+  } catch {
+    return JSON.parse(fallback);
+  }
+}
+
 // GET /api/companies — list all, with optional filters
 export async function GET(request) {
   const { searchParams } = new URL(request.url);
@@ -24,12 +36,12 @@ export async function GET(request) {
     orderBy: { updatedAt: "desc" },
   });
 
-  // Parse JSON string fields for the frontend
+  // Parse JSON string fields for the frontend (tolerant — see safeParse)
   const parsed = companies.map((c) => ({
     ...c,
-    techStack: JSON.parse(c.techStack || "[]"),
-    fitDetails: JSON.parse(c.fitDetails || "{}"),
-    intentDetails: JSON.parse(c.intentDetails || "{}"),
+    techStack: safeParse(c.techStack, "[]"),
+    fitDetails: safeParse(c.fitDetails, "{}"),
+    intentDetails: safeParse(c.intentDetails, "{}"),
   }));
 
   return NextResponse.json(parsed);
@@ -65,9 +77,9 @@ export async function POST(request) {
 
   return NextResponse.json({
     ...company,
-    techStack: JSON.parse(company.techStack),
-    fitDetails: JSON.parse(company.fitDetails),
-    intentDetails: JSON.parse(company.intentDetails),
+    techStack: safeParse(company.techStack, "[]"),
+    fitDetails: safeParse(company.fitDetails, "{}"),
+    intentDetails: safeParse(company.intentDetails, "{}"),
   });
 }
 
@@ -89,9 +101,9 @@ export async function PUT(request) {
 
   return NextResponse.json({
     ...company,
-    techStack: JSON.parse(company.techStack),
-    fitDetails: JSON.parse(company.fitDetails),
-    intentDetails: JSON.parse(company.intentDetails),
+    techStack: safeParse(company.techStack, "[]"),
+    fitDetails: safeParse(company.fitDetails, "{}"),
+    intentDetails: safeParse(company.intentDetails, "{}"),
   });
 }
 
