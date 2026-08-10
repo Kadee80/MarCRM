@@ -1,0 +1,92 @@
+{
+  "scrapeDate": "2026-07-03",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 2,
+  "note": "Legal Freelance pipeline scrape. 7-day window across fractional/interim GC, contract counsel, fund formation, commercial contracts, securities, and ALSP/staffing clusters. Deduplicated against all prior legal-freelance reports (153 base company names back to 2026-05-06), plus recent pr-freelance and daily scrapes. Only leads scoring 55+ and NOT already tracked are included. Mature daily pipeline: most cluster results were evergreen providers already captured (Axiom, Allocate, Arootah, OutsideGC, Latitude Legal, Major Lindsey & Africa, IST Management, etc.) — quality over quantity, 2 genuinely new leads this run. LinkedIn accessed only via indexed search results, never scraped directly. Additional active postings at already-tracked sources are noted in the .md report but excluded from leads to respect dedup-by-company.",
+  "leads": [
+    {
+      "name": "Sleep Doctor — Fractional General Counsel (Remote)",
+      "website": "https://corporate.sleepdoctor.com/",
+      "pipeline": "legal-freelance",
+      "industry": "Consumer digital-health company operating across DME (durable medical equipment), telehealth, and digital sleep-health products. Role: Fractional General Counsel serving as senior legal & compliance leader and Compliance Officer — designs and runs an end-to-end compliance program across DME/telehealth/digital-health operations, owns commercial contracts, corporate governance, and regulatory risk, and acts as strategic partner to the executive team. ~20–30 hrs/week; J.D. + active bar + 10+ yrs (in-house or law firm, healthcare exposure).",
+      "location": "Remote (U.S.)",
+      "fundingStage": "Growth-stage consumer digital-health operating company",
+      "fitScore": 30,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Commercial contracts + corporate governance + regulatory/compliance (DME, telehealth, digital health) — solid commercial-contracts and governance overlap; healthcare-compliance heavy. Scored +10 corporate/commercial (no fund component).",
+        "seniority": "GC-level function reporting to the executive team; also named Compliance Officer; 10+ yrs required — clear counsel/GC scope; +10.",
+        "comp_credible": "Stated $300–$350/hr — market-credible senior fractional rate; +10.",
+        "fund_focus": "None — no fund/PE/securities component; healthcare regulatory rather than fund formation."
+      },
+      "intentDetails": {
+        "engagement_model": "Explicit fractional GC engagement (~20–30 hrs/week) — squarely Katie's part-time/fractional model; +15.",
+        "remote_flex": "Fully remote / telecommute; +15.",
+        "recency": "Posted ~2026-06-26 and still active; not within 72h of 2026-07-03 — scored 0.",
+        "apply_path": "Direct, low-friction apply via Greenhouse job board; +10."
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "$300–$350 per hour; ~20–30 hours per week; fractional engagement with potential to grow as the company scales.",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional General Counsel (independent contractor / fractional engagement) — remote; senior legal & compliance leader + Compliance Officer; ~20–30 hrs/week.",
+      "urgencyScore": 64,
+      "contacts": [
+        {
+          "name": "Sleep Doctor — Executive Team / Hiring Manager",
+          "title": "Hiring manager, Fractional GC (role serves as senior legal & compliance leader to the exec team)",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/sleepdoctorcom"
+        }
+      ],
+      "signals": ["fractional", "remote", "commercial contracts", "corporate governance", "compliance officer", "healthcare/DME/telehealth", "$300-350/hr stated", "easy apply (Greenhouse)"],
+      "source": "Web search (Greenhouse / Remocate / InhouseBlog indexed)",
+      "sourceUrl": "https://job-boards.greenhouse.io/sleepdoctor/jobs/7703453003",
+      "notes": "Grade B (combined 70) — hottest and freshest lead of the run. Clean fractional-GC engagement at a growth-stage operating company with a stated, credible senior rate ($300–350/hr) and an easy Greenhouse apply path. CAVEAT: heavily healthcare-compliance oriented (DME/telehealth/digital-health regulatory + Compliance Officer duties) rather than corporate/fund — pursue only if Katie is comfortable owning a healthcare compliance surface; the commercial-contracts and governance core is well within scope. PITCH: senior fractional GC who stands up a scalable compliance program and owns commercial paper + governance at part-time cost. Confirm exact hours cadence and whether the compliance-officer designation is a hard requirement."
+    },
+    {
+      "name": "Beacon Hill Legal — Interim / Contract Corporate & Commercial Contracts Counsel (Remote)",
+      "website": "https://bhsg.com/bh-legal/beacon-hill-legal-interim-professionals",
+      "pipeline": "legal-freelance",
+      "industry": "National legal staffing / flexible legal talent firm (Beacon Hill Staffing Group – Legal division). Interim Professionals group places attorneys into corporate legal departments and law firms on interim, contract, and contract-to-hire engagements across corporate counsel, commercial contracts, and related practice areas — on-site, hybrid, or fully remote. States it can staff most interim placements within 48 hours via a national attorney database.",
+      "location": "Remote (U.S.) — also hybrid/on-site nationally",
+      "fundingStage": "Established national legal staffing firm (ALSP / flexible legal talent)",
+      "fitScore": 30,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Corporate counsel + commercial contracts — on-ICP corporate/commercial; +10 (no dedicated fund-formation mandate).",
+        "seniority": "Places counsel-level and former in-house / senior attorneys into interim seats — counsel/GC-level scope; +10.",
+        "comp_credible": "Rate-driven hourly contract staffing model — market-credible paid engagements (no public number); +10.",
+        "fund_focus": "None explicit at the network level; corporate/commercial engagements can be fund-adjacent case-by-case."
+      },
+      "intentDetails": {
+        "engagement_model": "Interim / contract / contract-to-hire placements — squarely Katie's freelance-operator model; +15.",
+        "remote_flex": "Explicitly offers fully remote (and hybrid/on-site) placements; +15.",
+        "recency": "Evergreen talent-network intake; specific posting freshness <72h not applicable — scored 0.",
+        "apply_path": "Direct talent-network intake; 48-hour placement capability signals low friction; +10."
+      },
+      "vertical": "legal",
+      "subvertical": "corporate",
+      "engagementModel": "interim",
+      "buyerType": "staffing",
+      "compensationText": "Hourly contract staffing (rate-driven, no public number); interim / contract / contract-to-hire engagements.",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Interim / contract / contract-to-hire legal placement via Beacon Hill Legal Interim Professionals — distinguish staffing-firm W-2-style engagement from true freelance-operator, but commercial model is flexible/hourly and remote-capable.",
+      "urgencyScore": 55,
+      "contacts": [
+        {
+          "name": "Beacon Hill Legal — Interim Professionals / Recruiting",
+          "title": "Attorney placement (interim & contract corporate / commercial contracts)",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/beacon-hill-staffing-group"
+        }
+      ],
+      "signals": ["interim", "contract", "contract-to-hire", "remote", "corporate counsel", "commercial contracts", "national staffing", "48-hour placement", "direct talent intake"],
+      "source": "Web search (Beacon Hill Staffing Group – Legal)",
+      "sourceUrl": "https://bhsg.com/bh-legal/beacon-hill-legal-interim-professionals",
+      "notes": "Grade B (combined 70) — network / relationship lead, not a single posting. Beacon Hill Legal is an on-ICP buyer type (national flexible legal staffing placing interim/contract counsel) and a new source not previously captured. Value is recurring: join the interim-professionals network once and pull downstream corporate/commercial-contracts engagements; 48-hour placement capability suggests real, near-term demand. PITCH: senior corporate/commercial-contracts counsel available for remote interim and contract engagements. ACTION: register with the interim-professionals intake; confirm typical rate band, engagement length, and whether fund/investment-management work flows through their pipeline."
+    }
+  ]
+}

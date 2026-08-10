@@ -1,0 +1,200 @@
+{
+  "scrapeDate": "2026-06-15",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 4,
+  "note": "First run of the legal-freelance pipeline. All 4 leads scored 65-70 (Grade B). 3 of 4 leads sourced via Latitude Legal (national ALSP/staffing firm); 1 via Major, Lindsey & Africa interim legal talent. No leads below the 55-point threshold were included.",
+  "leads": [
+    {
+      "name": "Latitude Legal — Corporate Attorney, Venture Capital Financing (Remote Contract Engagement)",
+      "website": "https://latitudelegal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Legal staffing / ALSP — placing contract attorneys with corporate clients",
+      "location": "Remote (United States)",
+      "fundingStage": "National legal staffing firm (19 US offices)",
+      "fitScore": 30,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": 10,
+        "seniority": 10,
+        "comp_credible": 10,
+        "fund_focus": 0
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 15,
+        "recency": 0,
+        "apply_path": 10
+      },
+      "vertical": "legal",
+      "subvertical": "financing",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "$160,000-$200,000+ annualized (contract engagement); complimentary professional liability insurance included",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Remote Contract Engagement",
+      "urgencyScore": 55,
+      "contacts": [
+        {
+          "name": "Latitude Legal — Job Seeker / Open Opportunities desk",
+          "title": "Talent placement",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/latitude-legal/"
+        }
+      ],
+      "signals": [
+        "vc_financing_contract_role",
+        "remote_us_wide",
+        "comp_credible_160_200k",
+        "alsp_staffing_intermediary",
+        "professional_liability_included"
+      ],
+      "source": "websearch",
+      "sourceUrl": "https://latitudelegal.com/jobs/5064",
+      "notes": "Combined 70, B. Strong financing/venture workstream match. Apply via Latitude portal; also worth registering with Latitude's broader attorney network for future fund/financing placements."
+    },
+    {
+      "name": "Latitude Legal — Corporate Attorney, Securities and Corporate Governance (Remote Contract Engagement)",
+      "website": "https://latitudelegal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Legal staffing / ALSP — placing contract attorneys with corporate clients",
+      "location": "Remote (United States)",
+      "fundingStage": "National legal staffing firm (19 US offices)",
+      "fitScore": 30,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": 10,
+        "seniority": 10,
+        "comp_credible": 10,
+        "fund_focus": 0
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 15,
+        "recency": 0,
+        "apply_path": 10
+      },
+      "vertical": "legal",
+      "subvertical": "securities",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "$160,000-$200,000+ annualized (contract engagement); complimentary professional liability insurance included",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Remote Contract Engagement",
+      "urgencyScore": 55,
+      "contacts": [
+        {
+          "name": "Latitude Legal — Job Seeker / Open Opportunities desk",
+          "title": "Talent placement",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/latitude-legal/"
+        }
+      ],
+      "signals": [
+        "securities_corporate_governance_contract_role",
+        "remote_us_wide",
+        "comp_credible_160_200k",
+        "alsp_staffing_intermediary",
+        "sec_disclosure_board_resolutions"
+      ],
+      "source": "websearch",
+      "sourceUrl": "https://latitudelegal.com/jobs/5077",
+      "notes": "Combined 70, B. Governance/disclosure work overlaps with fund and portfolio-company governance experience. Apply via Latitude portal."
+    },
+    {
+      "name": "Major, Lindsey & Africa — Interim Fund Formation Attorney (Miami, FL)",
+      "website": "https://www.mlaglobal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Legal search/recruiting — Interim Legal Talent practice",
+      "location": "Miami, FL (remote/hybrid flexibility unconfirmed)",
+      "fundingStage": "Global legal search firm",
+      "fitScore": 40,
+      "intentScore": 25,
+      "fitDetails": {
+        "practice_area": 10,
+        "seniority": 10,
+        "comp_credible": 0,
+        "fund_focus": 20
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 0,
+        "recency": 0,
+        "apply_path": 10
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "interim",
+      "buyerType": "staffing",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "Interim, part-time, 4+ months",
+      "urgencyScore": 50,
+      "contacts": [
+        {
+          "name": "Major, Lindsey & Africa — Interim Legal Talent",
+          "title": "Interim placement desk",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/major-lindsey-and-africa/"
+        }
+      ],
+      "signals": [
+        "explicit_fund_formation",
+        "lpa_ppm_side_letters_investor_closings",
+        "interim_part_time_4_months",
+        "seniority_10_plus_years",
+        "remote_status_unconfirmed"
+      ],
+      "source": "websearch",
+      "sourceUrl": "https://www.ziprecruiter.com/c/Major-Lindsey-&-Africa/Job/Interim-Fund-Formation-Attorney/-in-Miami,FL?jid=e8159d3b819aaba5",
+      "notes": "Combined 65, B. Best fund-formation practice-area match this run. Confirm remote/hybrid flexibility with MLA recruiter — Miami location and unstated comp suppressed intent score."
+    },
+    {
+      "name": "Latitude Legal — Fractional Franchise Counsel (Remote, Part-Time Engagement)",
+      "website": "https://latitudelegal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Legal staffing / ALSP — fractional counsel placement for a national franchisor (health & wellness)",
+      "location": "Remote (United States, Austin TX client)",
+      "fundingStage": "National legal staffing firm (19 US offices)",
+      "fitScore": 25,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": 5,
+        "seniority": 10,
+        "comp_credible": 10,
+        "fund_focus": 0
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 15,
+        "recency": 0,
+        "apply_path": 10
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "fractional",
+      "buyerType": "ALSP",
+      "compensationText": "$270,000-$320,000 (part-time fractional engagement, full-time-equivalent basis)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Remote, Part-Time (Engagement)",
+      "urgencyScore": 50,
+      "contacts": [
+        {
+          "name": "Latitude Legal — Job Seeker / Open Opportunities desk",
+          "title": "Talent placement",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/latitude-legal/"
+        }
+      ],
+      "signals": [
+        "fractional_part_time_engagement",
+        "remote",
+        "highest_comp_of_run",
+        "commercial_contracts_adjacent",
+        "franchise_law_practice_mismatch"
+      ],
+      "source": "websearch",
+      "sourceUrl": "https://www.glassdoor.com/job-listing/fractional-franchise-counsel-remote-part-time-engagement-latitude-JV_IC1139761_KO0,56_KE57,65.htm?jl=1009794255432",
+      "notes": "Combined 65, B. Lowest practice-area fit (franchise law vs. fund/PE background) but highest comp and a real fractional model. Treat as secondary Latitude touchpoint, not primary pitch."
+    }
+  ]
+}

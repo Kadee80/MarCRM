@@ -1,0 +1,174 @@
+{
+  "scrapeDate": "2026-07-13",
+  "totalLeads": 3,
+  "note": "Monday daily scrape. Genuinely slow discovery cycle — the week of July 6-10 was a light fintech-funding week ($350M across ~10 deals). The three fresh, in-ICP triggers this cycle are all funding-round pr-marketing leads; the strongest raises from the roundups (Taktile, Bespoke Labs, EquiLibre) were already deduped from the July 7-10 reports. Freelance-pipeline searches again surfaced evergreen marketplace/aggregator pages and firms already in recent reports (Ropes & Gray, Latitude, Fractional Jobs, The Work Crowd, Robert Half) rather than fresh dated postings — deep freelance discovery continues in the separate pr-freelance and legal-freelance scrapes. Two new leads (Kord, Infinia) carry a geographic caveat: both are non-US-headquartered, so a US PR agency's fit hinges on US-market ambitions. BIGGEST development this run is in signal refresh, not discovery: Norm AI (existing pr-marketing lead) closed a $120M Series C at a $1.2B unicorn valuation AND launched Norm Law with an ex-Sidley chairman — this is now the hottest lead in the CRM and the window is wide open.",
+  "leads": [
+    {
+      "name": "Tangos",
+      "website": "https://tangos.ai",
+      "pipeline": "pr-marketing",
+      "industry": "Financial crime / AML — autonomous AI agents for investigations (RegTech)",
+      "location": "Tel Aviv, Israel + Washington, D.C.",
+      "fundingStage": "Seed ($20M, announced July 7, 2026)",
+      "fitScore": 43,
+      "intentScore": 32,
+      "fitDetails": {
+        "industryMatchFSTech_0-10": 10,
+        "stageSizeGrowth_0-10": 8,
+        "b2bBuyerSalesMotion_0-10": 9,
+        "proofAssets_0-10": 9,
+        "budget5k-25kMo_0-10": 7
+      },
+      "intentDetails": {
+        "triggerLaunchRaiseRebrandExpansion_0-15": 14,
+        "timelineToStart0-30d_0-10": 6,
+        "decisionMakerEngaged_0-10": 3,
+        "urgencyPain_0-10": 7,
+        "responsiveness_0-5": 2
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [],
+      "signals": [
+        "Raised $20M seed led by Red Dot Capital Partners (SignalFire, Bright Data strategic, others), announced July 7, 2026",
+        "Founded 2025 by serial entrepreneur Eyal Azoulay (prior company acquired by BNY) — credible, quotable founder",
+        "Team includes former US Treasury OFAC officials + Israeli intelligence veterans — strong earned-media / thought-leadership angle on FinCrime and agentic AI",
+        "~20 employees in Israel plus a Washington, D.C. team; 'additional hiring underway' per coverage — scaling moment",
+        "Sells regulator-ready case files to banks — clear B2B/FS buyer squarely in the agency's FS ICP"
+      ],
+      "source": "SiliconANGLE / fintech.global / PRNewswire seed coverage",
+      "sourceUrl": "https://siliconangle.com/2026/07/07/tangos-grabs-20m-funding-take-bad-guys-automating-financial-crime-investigations/",
+      "notes": "Grade B (75). Strongest fresh pr-marketing lead this cycle. Post-seed comms build in a hot category (agentic AI for financial crime) with a media-friendly founder and ex-OFAC bench — ideal for a thought-leadership + earned-media sprint tied to the raise. US presence via the D.C. team makes US-media fit workable. Comms decision-maker not yet identified; confirm before outreach."
+    },
+    {
+      "name": "Kord",
+      "website": "https://kord.com",
+      "pipeline": "pr-marketing",
+      "industry": "Fintech / RegTech — unified onboarding, AML/compliance & payments for regulated industries",
+      "location": "United Kingdom",
+      "fundingStage": "Series A (£6.4M, announced July 8, 2026)",
+      "fitScore": 43,
+      "intentScore": 36,
+      "fitDetails": {
+        "industryMatchFSTech_0-10": 10,
+        "stageSizeGrowth_0-10": 9,
+        "b2bBuyerSalesMotion_0-10": 9,
+        "proofAssets_0-10": 8,
+        "budget5k-25kMo_0-10": 7
+      },
+      "intentDetails": {
+        "triggerLaunchRaiseRebrandExpansion_0-15": 14,
+        "timelineToStart0-30d_0-10": 7,
+        "decisionMakerEngaged_0-10": 5,
+        "urgencyPain_0-10": 8,
+        "responsiveness_0-5": 2
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [],
+      "signals": [
+        "Raised £6.4M Series A led by Guinness Ventures (Beringea, SFC Capital, angels), announced July 8, 2026",
+        "Explicit spend plan: 60% of new funding to sales & marketing, plus senior hires including a CFO and a CMO — direct marketing-build and budget signal",
+        "7x revenue growth in the past year; 100+ paying customers (estate/letting agents, law firms, conveyancers, FS)",
+        "FCA-regulated; positions itself as the only platform combining identity verification + client-money management — a clear differentiation narrative to seed with press",
+        "Founder James Owusu — quotable, first-time-scale founder"
+      ],
+      "source": "TechFundingNews / Tech.eu / Finextra Series A coverage",
+      "sourceUrl": "https://techfundingnews.com/kord-raises-6-4m-series-a-guinness-ventures/",
+      "notes": "Grade B (79). Highest-intent new lead: they are actively standing up a marketing function (hiring a CMO, 60% of raise to S&M). GEO CAVEAT — UK-headquartered and FCA-focused, so most of their PR need is UK/European media; fit for a US agency depends on US-expansion plans (not confirmed in coverage). Best play: watch for the CMO hire, then pitch fractional/retainer support or US-market entry comms. Decision-maker (CMO) not yet in seat."
+    },
+    {
+      "name": "Infinia",
+      "website": "https://www.infinia.xyz",
+      "pipeline": "pr-marketing",
+      "industry": "Fintech infrastructure — banking ↔ digital-asset rails / global money movement",
+      "location": "Uruguay (markets: LatAm, Africa, Asia)",
+      "fundingStage": "Series A ($13.5M, announced July 10, 2026)",
+      "fitScore": 37,
+      "intentScore": 25,
+      "fitDetails": {
+        "industryMatchFSTech_0-10": 10,
+        "stageSizeGrowth_0-10": 7,
+        "b2bBuyerSalesMotion_0-10": 8,
+        "proofAssets_0-10": 8,
+        "budget5k-25kMo_0-10": 4
+      },
+      "intentDetails": {
+        "triggerLaunchRaiseRebrandExpansion_0-15": 13,
+        "timelineToStart0-30d_0-10": 4,
+        "decisionMakerEngaged_0-10": 3,
+        "urgencyPain_0-10": 4,
+        "responsiveness_0-5": 1
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [],
+      "signals": [
+        "Oversubscribed $13.5M Series A led by Bain Capital and Variant Fund (Y Combinator, Lattice, others), announced July 10, 2026",
+        "Y Combinator spin-off; customers include Stripe Bridge, OpenFX, Kast, Despegar — credible proof assets",
+        "~20 employees; capital earmarked for regulatory licenses and growth in LatAm, Africa and Asia",
+        "Founders Ianai Urwicz and Alejandro Rettig (founded 2023)"
+      ],
+      "source": "fintech.global / LatamList / Dealroom Series A coverage",
+      "sourceUrl": "https://fintech.global/2026/07/10/infinia-bags-13-5m-to-link-banks-with-digital-assets/",
+      "notes": "Grade B (62), but the weakest of the three. GEO CAVEAT — Uruguay-based with an explicit LatAm/Africa/Asia growth focus and use-of-funds on licensing (not brand); PR need for a US agency is thin and their comms will skew to regional/crypto-infra press. Kept as a B on the strength of the FS fit + tier-1 backers, but treat as a lower-priority watch unless they signal US-market or US-media ambitions."
+    }
+  ],
+  "signalRefresh": [
+    {
+      "name": "Norm AI",
+      "pipeline": "pr-marketing",
+      "priorReport": "daily-scrape-2026-07-08.json",
+      "whatChanged": "MAJOR up. Closed a $120M Series C led by Khosla Ventures (Blackstone, Bain Capital Ventures, Coatue) at a $1.2B unicorn valuation on July 7, 2026 (>$260M raised to date). Simultaneously launched Norm Law — 'the world's first fully AI-native law firm' — with an additional $50M Blackstone investment and Mike Schmidtberger (former Chairman of Sidley Austin) joining as Chairman & Partner to recruit law-firm partners. 200+ employees; new hiring focused on attorneys and engineers.",
+      "scoreDelta": "Intent +materially (unicorn round + high-profile product launch + marquee executive hire = multiple stacked triggers). Now the hottest pr-marketing lead in the CRM.",
+      "windowStatus": "WIDE OPEN — launch/announcement cycle is live right now; earned-media and thought-leadership demand peaks in the 2-4 weeks post-announcement.",
+      "recommendedAction": "Prioritize outreach this week. Angle: post-Series-C narrative + Norm Law launch amplification (regulated-enterprise AI, AI-native legal services). Identify comms/marketing lead; if in-house comms is thin relative to the moment, this is also a fractional/overflow opening worth flagging to the pr-freelance track.",
+      "sourceUrl": "https://techcrunch.com/2026/07/07/ai-law-startup-norm-raises-120m-hits-unicorn-valuation/"
+    },
+    {
+      "name": "Arca",
+      "pipeline": "pr-marketing",
+      "priorReport": "daily-scrape-2026-07-10.json",
+      "whatChanged": "Reaffirmed / slightly strengthened. Fuller detail on the stealth exit: $64M total ($48.5M Series A led by General Catalyst with Index Ventures and Venrock; Venrock led the prior $15.5M seed). Now >$1B in client assets, 28 employees; acquired Sandbox Financial Partners (~$682M AUM) in May 2026; AI-native RIA working with an Anthropic client. CEO Rron Rexha (ex-Plaid) explicitly cites plans to 'develop the platform and brand' and expand US physical presence.",
+      "scoreDelta": "No change to combined; intent qualitatively firmer — explicit brand-build language and US-expansion plans confirm a real PR need.",
+      "windowStatus": "Open — still within the post-stealth-exit launch window.",
+      "recommendedAction": "Keep as a top-priority A/B pr-marketing target. Pitch: brand + earned-media build around the AI-native-RIA narrative and US-expansion story. Confirm founder/CMO contact.",
+      "sourceUrl": "https://fintech.global/2026/06/26/arca-exits-stealth-with-64m-to-reshape-wealth-management/"
+    }
+  ],
+  "skipped": [
+    {"name": "Taktile / Bespoke Labs / EquiLibre Technologies", "reason": "Dedup — already captured in July 7-10 daily reports."},
+    {"name": "Climentum Capital (Fund II, €60M first close, July 3)", "reason": "Danish climate-tech VC, Fund II, European jurisdiction — a US freelance fund lawyer is not the buyer (fund-formation) and PR need is European media (pr-marketing). Out of ICP for US pipelines."},
+    {"name": "Twelve Labs ($100M Series B)", "reason": "SF video-AI vendor with no financial-services angle; doesn't fit media or ai-consulting ICPs (ai-consulting targets AI adopters, not AI vendors)."},
+    {"name": "Worth ($30M Series A) / Niural ($52M)", "reason": "Stale — Worth's round closed March 2026; Niural's June 25 AI Labs news predates the 48h window and its category is already covered."},
+    {"name": "Anonymous fractional communications director pilot (The Work Crowd / Indeed)", "reason": "Fresh, in-profile PR-freelance signal (3-month pilot, CEO-direct earned media, 15-20 hrs/mo) but no named company — cannot dedup or contact. Logged as a watch item for the pr-freelance track."}
+  ],
+  "mostProductiveSources": [
+    "fintech.global weekly funding roundups (Tangos, Infinia, Kord)",
+    "TechCrunch / Law.com / Bloomberg (Norm AI Series C + Norm Law launch — signal refresh)",
+    "fintech.global / wealthmanagement.com (Arca detail — signal refresh)"
+  ],
+  "trends": [
+    "Light fintech-funding week (~$350M across ~10 deals) — WealthTech and RegTech led the few deals that closed.",
+    "Agentic AI for regulated/financial workflows is the dominant fundable theme (Tangos FinCrime, Norm AI legal, Kord AI-fraud) — a recurring, high-quality pr-marketing vein.",
+    "Several of the week's raises were non-US-headquartered (Kord UK, Infinia Uruguay, Climentum Denmark), which is dragging on US-agency fit — worth watching whether these translate into US-market entries."
+  ]
+}

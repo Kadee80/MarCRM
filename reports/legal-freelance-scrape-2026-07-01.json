@@ -1,0 +1,156 @@
+{
+  "scrapeDate": "2026-07-01",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 4,
+  "note": "Legal Freelance pipeline scrape, 7-day window. Web search via Google/Bing-indexed results (no direct LinkedIn scraping). Dedup-checked against all June legal-freelance reports (6/01–6/30), pr-freelance reports, and daily-scrape outputs. All 4 leads are new (not previously captured). This run is corporate/commercial/securities-weighted; no clean freelance/interim fund-formation posting appeared inside the 7-day window that wasn't already captured (Allocate, Ropes & Gray, aVenture on 6/29). Direct Counsel's PE Fund-Formation req surfaced but reads as a permanent associate placement (low freelance intent) — logged on the watchlist, not scored as a lead. Recency (<72h) scored conservatively: only CookUnity (dated 6/29) earned the 72h bucket; ALSP/network listings scored 0 on recency unless freshness was confirmable. Grades: CookUnity B (70), Atlas Road B (65), Legalpeople C (55), t|e General Counsel C (55).",
+  "leads": [
+    {
+      "name": "CookUnity — Fractional Healthcare & Commercial Counsel (Remote)",
+      "website": "https://www.cookunity.com/",
+      "pipeline": "legal-freelance",
+      "industry": "Chef-to-consumer food marketplace (growth-stage VC, ~50M meals/yr) expanding into a B2B line (employee meal programs, smart-fridge deployments, Food-is-Medicine / Medically Tailored Meals for healthcare payors and plans). Role: embedded fractional Healthcare & Commercial Counsel supporting the B2B team on commercial deals plus healthcare regulatory, reporting to the GC.",
+      "location": "Remote (USA only)",
+      "fundingStage": "Growth-stage VC-backed operating company",
+      "fitScore": 20,
+      "intentScore": 50,
+      "fitDetails": {
+        "practice_area": "Commercial contracts (MSAs, SOWs, BAAs, data-use agreements, program addenda) plus healthcare regulatory (HIPAA/HITECH, Medicare Advantage supplemental benefits, Medicaid managed care, fraud-and-abuse spot-checks). Strong commercial-contracts overlap with Katie's corporate/commercial wheelhouse; healthcare-regulatory depth is the gating requirement.",
+        "seniority": "Counsel level — J.D., 5+ yrs post-J.D., strong contract drafting/negotiation; expected to triage independently and escalate to GC.",
+        "comp_credible": "Comp stated as 'competitive hourly rate, commensurate with experience' (1099) but no number — scored 0 on the credible-number bucket.",
+        "fund_focus": "None — no fund/PE component."
+      },
+      "intentDetails": {
+        "engagement_model": "Explicit 1099 independent contractor, ~10–20 hrs/wk, flex up for deal cycles — exactly Katie's part-time/fractional model.",
+        "remote_flex": "Fully remote within the U.S.; occasional video during business hours.",
+        "recency": "Dated 6/29/2026 (~2 days) — inside the 72h window; awarded +10.",
+        "apply_path": "Direct company careers link (careers.cookunity.com/jobs/7780367003) plus a Fractional Jobs request-intro path — low friction."
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "Competitive hourly rate, commensurate with experience (1099 independent contractor).",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Independent contractor (1099) engagement with CookUnity, Inc.; ~10–20 hrs/wk, embedded fractional counsel to the B2B team.",
+      "urgencyScore": 85,
+      "contacts": [
+        { "name": "CookUnity — B2B / Legal Team (reports to General Counsel)", "title": "Fractional Healthcare & Commercial Counsel hiring (B2B line of business)", "email": "", "linkedin": "https://www.linkedin.com/company/cookunity" }
+      ],
+      "signals": ["fractional", "1099", "remote", "commercial contracts", "healthcare regulatory", "HIPAA", "posted <72h", "direct careers apply", "10-20 hrs/wk"],
+      "source": "Web search (Fractional Jobs / CookUnity careers), 2026-07-01",
+      "sourceUrl": "https://careers.cookunity.com/jobs/7780367003",
+      "notes": "Grade B (combined 70) — hottest lead of the run. Best-scoped freelance seat this week: explicit 1099, remote, 10–20 hrs/wk, posted ~2 days ago, direct apply. GATING FACTOR: the role is healthcare-regulatory-heavy (HIPAA/BAAs, Medicare Advantage, Medicaid, Food-is-Medicine). Katie is a strong fit on the commercial-contracts half (B2B MSAs/SOWs/DUAs) but should only pursue if she can credibly carry the healthcare-regulatory half or partner on it. PITCH: embedded fractional commercial counsel for a fast B2B sales motion; lean on contract-playbook build-out + governance, position healthcare-reg as a co-managed workstream with the GC/outside specialists. Confirm exact hourly."
+    },
+    {
+      "name": "Atlas Road Advisors — Contract Attorney, Corporate Transactions (Remote)",
+      "website": "https://www.atlasroad.com/",
+      "pipeline": "legal-freelance",
+      "industry": "Atlas Road is a network of legal and business professionals delivering value-driven solutions across the business life-cycle (early-stage to established corporates). Role: remote Contract Attorney for corporate transactions — M&A, securities, employment/labor, organizational matters.",
+      "location": "Remote (U.S.)",
+      "fundingStage": "Boutique legal/business advisory network (ALSP-style)",
+      "fitScore": 25,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Corporate transactions — M&A and securities are directly on-ICP; also employment/labor and organizational work. Solid corporate/commercial overlap with Katie's wheelhouse.",
+        "seniority": "4+ yrs transactional experience — mid-level contract-attorney profile rather than GC/special-counsel; scored +5 on seniority.",
+        "comp_credible": "Employer-provided range shown on job boards ($3K–$6K, likely per-project/monthly) — treated as market-credible; +10.",
+        "fund_focus": "None explicit — securities work is fund-adjacent but no fund-formation mandate."
+      },
+      "intentDetails": {
+        "engagement_model": "Contract attorney engagement via a legal/business network — on-ICP commercial model.",
+        "remote_flex": "Remote, any U.S. state license accepted.",
+        "recency": "Listed across job boards (Indeed/Glassdoor) through May–June 2026; freshness not confirmable <72h — scored 0.",
+        "apply_path": "Direct application via job boards / Atlas Road site."
+      },
+      "vertical": "legal",
+      "subvertical": "corporate",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "$3K–$6K (employer-provided range on job-board listings; cadence not specified).",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contract Attorney, Corporate Transactions — remote; 4+ yrs; M&A / securities / employment / tribal-law exposure. Distinguish from true freelance operator model: likely project-scoped contract via the Atlas Road network.",
+      "urgencyScore": 60,
+      "contacts": [
+        { "name": "Atlas Road Advisors — Recruiting / Network", "title": "Contract Attorney hiring (corporate transactions)", "email": "", "linkedin": "https://www.linkedin.com/company/atlas-road" }
+      ],
+      "signals": ["contract", "remote", "M&A", "securities", "corporate transactions", "any-state license", "network/ALSP"],
+      "source": "Web search (Indeed / Glassdoor / Atlas Road), 2026-07-01",
+      "sourceUrl": "https://www.atlasroad.com/",
+      "notes": "Grade B (combined 65). NEW. A legal/business-professional network contracting an M&A/securities corporate attorney — getting on Atlas Road's bench can generate recurring corporate transactional work matching Katie's part-time model. CAVEAT: the $3K–$6K figure's cadence is unclear (monthly retainer vs. per-project) and the profile skews mid-level (4+ yrs) — confirm scope, rate cadence, and 1099 vs. W-2. PITCH: senior corporate/securities contract counsel available for deal-driven overflow."
+    },
+    {
+      "name": "Legalpeople — Interim Counsel / Legal Talent Solutions (M&A · PE · Corporate · Securities)",
+      "website": "https://legalpeoplegroup.com/",
+      "pipeline": "legal-freelance",
+      "industry": "National legal talent-solutions firm (est. 2002) placing sector-specific interim counsel, project teams, and secondments into law firms and corporate legal departments. Interim-counsel practice areas include Corporate Law, Commercial Contracts, M&A, Banking & Financial Services, Regulatory & Compliance, and Securities & Financial Regulation; also a Private Equity contract-analysis line.",
+      "location": "Nationwide (U.S.); embedded / secondment engagements",
+      "fundingStage": "Established ALSP / legal staffing firm",
+      "fitScore": 20,
+      "intentScore": 35,
+      "fitDetails": {
+        "practice_area": "Interim Corporate + M&A + Commercial Contracts + Securities & Financial Regulation, plus a Private Equity contract-analysis practice — strong corporate/securities overlap and PE-adjacent flow. Credited corporate (+10); not the full fund-formation +20 (this is a staffing firm, not a fund-formation seat).",
+        "seniority": "Senior — 'specialized interim attorneys' and secondments embedded in legal departments; counsel-level.",
+        "comp_credible": "Not published (set per client engagement) — scored 0.",
+        "fund_focus": "PE/securities-adjacent via their PE contract-analysis and Securities & Financial Regulation lines; no dedicated fund-formation mandate."
+      },
+      "intentDetails": {
+        "engagement_model": "Interim counsel / project-based secondment via ALSP — squarely on Katie's interim/contract ICP.",
+        "remote_flex": "Nationwide, embedded/secondment; flexible but not billed as remote-first — scored on flex, +10.",
+        "recency": "Evergreen talent network (site updated 2026-05); no dated <72h posting — scored 0.",
+        "apply_path": "Direct 'Job Seekers' / contact path on legalpeoplegroup.com."
+      },
+      "vertical": "legal",
+      "subvertical": "corporate",
+      "engagementModel": "interim",
+      "buyerType": "staffing",
+      "compensationText": "Not published — set per client engagement.",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Interim counsel / secondment placement via Legalpeople (legal staffing firm). Distinguish commercial model: placements may run as temp/contract W-2 vs. true 1099 — confirm.",
+      "urgencyScore": 40,
+      "contacts": [
+        { "name": "Legalpeople — Placement & Recruiting Team", "title": "Interim counsel / legal talent solutions (corporate, M&A, securities placements)", "email": "", "linkedin": "https://www.linkedin.com/company/legalpeople/" }
+      ],
+      "signals": ["interim", "secondment", "corporate", "M&A", "securities", "private equity", "ALSP", "nationwide", "join talent network"],
+      "source": "Web search (Legalpeople), 2026-07-01",
+      "sourceUrl": "https://legalpeoplegroup.com/job-seekers/",
+      "notes": "Grade C (combined 55). NEW ALSP/pipeline lead not previously captured (distinct from Axiom, Paragon, Latitude, OutsideGC, Practus, Consilio already in the CRM). Value is recurring interim corporate/M&A/securities placements from one relationship. PITCH: register as senior interim corporate & securities counsel (board/governance, securities filings, M&A support, commercial paper). CAVEAT: no named hiring contact or dated urgency; confirm 1099 vs. W-2 secondment terms."
+    },
+    {
+      "name": "t|e General Counsel (Taylor English) — Fractional GC for Emerging Companies",
+      "website": "https://tegeneralcounsel.com/why-fractional/emerging-companies/",
+      "pipeline": "legal-freelance",
+      "industry": "Fractional-GC service line of Taylor English (value-driven, entrepreneurial law firm) staffed by former in-house lawyers. Serves emerging companies across launch, funding, growth, acquisition and sale — corporate structure, seed/angel and equity financings, venture capital and private equity/debt transactions, IP, data privacy, employment.",
+      "location": "Remote / distributed (U.S.); flexible fractional-GC model",
+      "fundingStage": "Established law firm — fractional-GC practice",
+      "fitScore": 20,
+      "intentScore": 35,
+      "fitDetails": {
+        "practice_area": "Corporate structure, equity financings, VC and PE/debt transactions, strategic acquisitions for emerging companies — strong corporate/financing overlap and fund-adjacent (advises on VC/PE transactions from the company side). Credited corporate/financing (+10).",
+        "seniority": "GC-level — former in-house lawyers acting as fractional general counsel.",
+        "comp_credible": "Not published — scored 0.",
+        "fund_focus": "Fund-adjacent (VC/PE transaction counsel to portfolio/emerging companies) but not dedicated fund formation."
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional / outside-GC model — on-ICP.",
+        "remote_flex": "Distributed firm; flexible/remote-capable engagements — +10.",
+        "recency": "Evergreen service page; no dated <72h posting — scored 0.",
+        "apply_path": "Direct 'Send Us a Message' / careers path on tegeneralcounsel.com."
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "law-firm",
+      "compensationText": "Not published.",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Fractional/outside general counsel engagements via Taylor English's t|e General Counsel practice; of-counsel / bench model for a distributed firm.",
+      "urgencyScore": 40,
+      "contacts": [
+        { "name": "t|e General Counsel (Taylor English) — Attorney Recruiting / Of Counsel", "title": "Fractional GC practice for emerging companies (corporate, financing, VC/PE transactions)", "email": "", "linkedin": "https://www.linkedin.com/company/taylor-english-duma-llp" }
+      ],
+      "signals": ["fractional", "outside GC", "corporate", "equity financing", "venture capital", "private equity", "emerging companies", "law-firm bench"],
+      "source": "Web search (t|e General Counsel), 2026-07-01",
+      "sourceUrl": "https://tegeneralcounsel.com/why-fractional/emerging-companies/",
+      "notes": "Grade C (combined 55). NEW law-firm / fractional-GC bench lead (distinct from OutsideGC, Practus, TraverseGC, Paragon already captured). Best pursued as an of-counsel / bench relationship rather than a single posting — recurring emerging-company corporate/financing work. PITCH: senior fractional corporate/financing counsel for their emerging-company book (formation, equity rounds, VC/PE transactions, governance). CAVEAT: no dated req or published comp; confirm whether they onboard external of-counsel vs. only firm attorneys."
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "scrapeDate": "2026-07-24",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 3,
+  "note": "7-day window. 3 new leads (all 55+). Deduplicated against legal-freelance, pr-freelance, and daily scrapes 7/14-7/23. Skipped as duplicates/stale (re-surfaced this week): Allocate, aVenture, Tower Legal Solutions, Broughton Group, Bowery Legal/Interplay VC, Latitude Legal, Axiom, Major Lindsey & Africa, Robert Half Legal, Paragon Legal, Epiq Counsel, Priori Legal, Outside GC, Legal.io, Ropes & Gray. Excluded off-ICP: Built In NYC listings were overwhelmingly permanent full-time in-house roles (Samsara, Rubrik, MongoDB, GitLab, Blackstone AVP, etc.) with no freelance/contract engagement model; Golden Hippo role was an unpaid-tier legal internship. Market note: fresh named freelance legal reqs were thin this week after very heavy prior-week coverage of the marketplace/ALSP channel; the three below are the genuinely new, verifiable postings that clear 55.",
+  "leads": [
+    {
+      "name": "Arootah - Fractional/Contract Chief Legal Counsel or General Counsel (Hedge Fund & Family Office Advisory)",
+      "website": "https://www.arootah.com",
+      "pipeline": "legal-freelance",
+      "industry": "Business advisory and executive-consulting firm serving a hedge fund and family office client base; founded by Rich Bello (Co-Founder/COO of Blue Ridge Capital, a $10B hedge fund). Places experienced fractional/contract CLOs and GCs into its investment-management clients.",
+      "location": "New York, NY (advisor network; remote-capable engagements)",
+      "fundingStage": "Established advisory firm placing fractional counsel into hedge fund / family office clients",
+      "fitScore": 50,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Fund/investment-management legal leadership, federal securities laws, financial-institution regulation",
+        "seniority": "CLO / GC level (12+ yrs as CLO/GC at a hedge fund or family office required)",
+        "comp_credible": "Yes - $400-$600/hr consulting rate, strongly market-credible",
+        "fund_focus": "Direct - hedge fund and family office clients are the core buyer"
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional / contract consulting (part-time, per-engagement)",
+        "remote_flex": "Remote-capable advisor network (NY-listed)",
+        "recency": "Evergreen advisor-network posting (live, re-listed on Lever + GoInhouse + ZipRecruiter)",
+        "apply_path": "Direct Lever application - easy apply"
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "family-office",
+      "compensationText": "$400-$600 per hour (rate set by engagement length, difficulty, specialization, designations, experience)",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Part-time / contracted consultant, fractional CLO or GC, hedge fund & family office advisory, New York",
+      "urgencyScore": 55,
+      "contacts": [
+        {
+          "name": "Arootah Talent / Consulting Network",
+          "title": "Advisor network intake (fractional CLO/GC)",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/arootah"
+        }
+      ],
+      "signals": ["fund/family-office ICP direct hit", "$400-600/hr stated rate", "12+ yr CLO/GC + 8+ yr federal securities requirement", "founder-led by ex-Blue Ridge Capital COO", "fractional/contract model", "Lever easy apply"],
+      "source": "GoInhouse.com / Lever job listing (indexed), July 2026",
+      "sourceUrl": "https://jobs.lever.co/arootah/7cb30dcb-ecca-4e5c-95d1-acdb4d0ad25b",
+      "notes": "Grade A (combined 90) and the single best-fit lead of the scrape for Katie: a fractional/contract CLO/GC engagement consulting directly to hedge funds and family offices - exactly the fund-side, securities-heavy, high-judgment work in her ICP, at a $400-600/hr rate. ACTION: apply through Lever positioning fund/corporate counsel + securities-regulatory experience and interim/fractional availability. CAVEATS: this is an evergreen advisor-network intake rather than a single fresh req (lower time-urgency); the 12+ yr CLO/GC-at-a-fund requirement is stiff - lead with the closest fund-counsel experience and interim-coverage angle. Verify current intake status before pitching."
+    },
+    {
+      "name": "Sleep Doctor - General Counsel (Fractional)",
+      "website": "https://sleepdoctor.com",
+      "pipeline": "legal-freelance",
+      "industry": "Consumer health / digital media company operating SleepDoctor.com, SleepFoundation.org and SleepApnea.org, combining clinical sleep expertise with consumer products. Seeking a fractional senior legal + compliance leader.",
+      "location": "Seattle, WA (fractional; Washington State Bar required)",
+      "fundingStage": "Growth-stage operating company without a deep in-house legal bench",
+      "fitScore": 30,
+      "intentScore": 50,
+      "fitDetails": {
+        "practice_area": "Commercial contracts, consumer/health regulatory compliance, corporate legal, day-to-day GC",
+        "seniority": "General Counsel level (fractional/embedded/sole in-house experience required)",
+        "comp_credible": "Yes - $300-$350/hr, strongly market-credible",
+        "fund_focus": "None"
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional GC (hands-on, high-ownership)",
+        "remote_flex": "Remote/hybrid (WA-based; WA Bar required)",
+        "recency": "Posted ~7/23/2026 - within 72 hours",
+        "apply_path": "Greenhouse application - easy apply"
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "$300-$350 per hour",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Fractional General Counsel, consumer-health/media operating company, Seattle WA, WA Bar required",
+      "urgencyScore": 85,
+      "contacts": [
+        {
+          "name": "Sleep Doctor - Recruiting",
+          "title": "Talent / hiring team (Greenhouse)",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/sleepdoctor"
+        }
+      ],
+      "signals": ["fresh posting within 72h", "$300-350/hr stated comp", "fractional GC / high-ownership", "sole in-house / embedded experience valued", "Greenhouse easy apply", "90-day and 6-month ownership roadmap in JD"],
+      "source": "Greenhouse job board (indexed), July 2026",
+      "sourceUrl": "https://job-boards.greenhouse.io/sleepdoctor/jobs/7703453003",
+      "notes": "Grade A (combined 80). The freshest concrete req of the scrape: a fractional GC owning end-to-end legal + compliance for a multi-brand consumer-health/media company, $300-350/hr, with a clear 90-day/6-month mandate - a textbook fractional-GC slot for a high-judgment operator. ACTION: apply via Greenhouse leading with fractional/sole in-house experience, commercial-contract depth and a 30/60/90 compliance plan. CAVEATS: requires Washington State Bar admission (confirm eligibility or waiver before pitching); consumer-health regulatory (FTC/advertising, health claims) is the core, not fund work - position the corporate/commercial and embedded-GC angle."
+    },
+    {
+      "name": "LearnTastic - Fractional Chief Legal Officer (CLO)",
+      "website": "https://learntastic.com",
+      "pipeline": "legal-freelance",
+      "industry": "Online professional-education / EdTech platform (1,000+ courses, 1M+ learners). Seeking a fractional CLO for strategic legal, corporate, commercial and regulatory guidance - advisory only, not day-to-day ops.",
+      "location": "Remote (US)",
+      "fundingStage": "Growth-stage EdTech operating company (no in-house legal function)",
+      "fitScore": 30,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Corporate, commercial contracts and regulatory/compliance advisory; business-oriented legal risk management",
+        "seniority": "Chief Legal Officer level (strategic advisory)",
+        "comp_credible": "Yes - $1,000-$2,500/month for 5-10 hrs (~$150-250/hr effective), credible for a light advisory retainer",
+        "fund_focus": "None"
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional / advisory retainer (5-10 hrs/month)",
+        "remote_flex": "Fully remote",
+        "recency": "Posted ~7/18/2026 - within 7-day window (not 72h)",
+        "apply_path": "GoInhouse / ATS application - easy apply"
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "$1,000-$2,500 per month (5-10 hours/month advisory)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional Chief Legal Officer, EdTech, fully remote, 5-10 hrs/month advisory retainer",
+      "urgencyScore": 50,
+      "contacts": [
+        {
+          "name": "LearnTastic - Hiring",
+          "title": "Talent team (fractional CLO)",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/learntastic"
+        }
+      ],
+      "signals": ["fully remote", "fractional advisory retainer", "corporate/commercial/regulatory scope", "low hour commitment (5-10/mo) - stackable with other engagements", "GoInhouse easy apply"],
+      "source": "GoInhouse.com job listing (indexed), July 2026",
+      "sourceUrl": "https://www.goinhouse.com/jobs/542750295-fractional-chief-legal-officer-clo-at-learntastic",
+      "notes": "Grade B (combined 70). A light-touch, fully-remote fractional CLO advisory retainer (5-10 hrs/month) for a growth EdTech - low absolute pay but a low-commitment, stackable engagement that pairs well alongside heavier work. ACTION: apply positioning strategic corporate/commercial/regulatory judgment for a lean operating company. CAVEATS: not fund work and only 5-10 hrs/month, so treat as a bench/portfolio-filler rather than an anchor engagement; comp is a modest monthly retainer."
+    }
+  ]
+}

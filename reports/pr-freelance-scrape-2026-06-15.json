@@ -1,0 +1,62 @@
+{
+  "scrapeDate": "2026-06-15",
+  "scrapeType": "pr-freelance",
+  "totalLeads": 2,
+  "note": "Enhanced PR Freelance pipeline scrape, 7-day window. Lowest-yield week to date: ~14 search queries across all 5 mandated boolean clusters plus sector-specific variants (fintech, PE/VC, asset management, legal, B2B SaaS, investor relations, crisis comms, agency overflow/white-label, fractional CMO) returned almost entirely generic aggregator pages already represented in prior reports, or specific postings that were stale/closed/poor-fit on inspection. DROPPED candidates: Zy Media Group (idealist.org, application deadline already passed), Flex 'Executive Communications Strategist' (themuse.com, full-time on-site Austin, not freelance), JIH PR 'Freelance PR Consultant' (theprnet.com, entry-level fashion/lifestyle agency, vague comp, below threshold), Direct Agents 'Senior Account Manager' (builtin.com, listing closed), fractionaljobs.io postings for Kandu Health / Reverb / VOW (all marked 'This Role is Closed', stale 2025 listings), AGC/BoxNine7 'Freelance B2B PR Consultant - Property, Build-to-Rent' (theworkcrowd.com, applications closed). Comms Search & Selection (already captured 2026-06-09) had no new postings this run. The standout is The Work Crowd, a UK-based freelance/interim marketing-comms marketplace new to this pipeline with a dedicated investor-relations & financial-communications vertical (best sector fit) plus an active jobs board, which also surfaced one usable named posting (ISTE Live 26 Press Secretary). Quality over quantity: 2 leads, both >= 55, both NEW (not in 2026-05-08 through 2026-06-12 reports).",
+  "leads": [
+    {
+      "name": "The Work Crowd (theworkcrowd.com)",
+      "website": "https://theworkcrowd.com",
+      "pipeline": "pr-freelance",
+      "industry": "Freelance/interim marketing, PR, communications & IR marketplace (UK-based, global network)",
+      "location": "Remote (UK / EU / global)",
+      "fundingStage": "Marketplace / talent network",
+      "fitScore": 50,
+      "intentScore": 30,
+      "fitDetails": { "pr_remit": 20, "sector_fit": 15, "workstream": 10, "buyer_quality": 5, "urgency": 0 },
+      "intentDetails": { "engagement_model": 15, "remote_flex": 10, "recency": 0, "urgency_signals": 0, "apply_path": 5 },
+      "vertical": "pr",
+      "subvertical": "investor-pr",
+      "engagementModel": "freelance",
+      "buyerType": "agency",
+      "compensationText": "Varies by brief; UK jobs board postings observed in the £150-£1,500 day-rate range",
+      "remoteFlag": true,
+      "employmentTypeRaw": "Freelance / Interim / Fractional (marketplace + jobs board)",
+      "urgencyScore": 30,
+      "contacts": [
+        { "name": "The Work Crowd — Customer Success / Freelancer Onboarding", "title": "Talent network", "email": "hello@theworkcrowd.com", "linkedin": "https://www.linkedin.com/company/theworkcrowd" }
+      ],
+      "signals": ["dedicated_investor_relations_vertical", "financial_communications_explicit", "active_jobs_board_pr_and_comms", "freelance_interim_fractional", "remote_global", "registration_apply_path"],
+      "source": "PR Freelance Scrape 2026-06-15",
+      "sourceUrl": "https://theworkcrowd.com/hire-investor-relations-consultants",
+      "notes": "Combined 80, A. Best sector fit of the run and new to this pipeline: a freelance/interim marketing-comms marketplace with a DEDICATED investor-relations & financial-communications vertical (serves investment banks, corporate finance teams, capital markets divisions on financial reporting and shareholder communications) plus a broader jobs board covering PR & comms, content/thought leadership, public affairs. ACTION: register Mark as a freelancer, emphasizing IR/financial-communications experience, and set alerts on the general PR & comms / content / thought-leadership board. Marketplace/platform (not a single dated posting) so recency scored 0."
+    },
+    {
+      "name": "ISTE Live 26 — Senior PR Consultant & On-Site Press Secretary (via The Work Crowd)",
+      "website": "https://theworkcrowd.com/jobs/senior-pr-consultant-press-secretary-iste-live-26",
+      "pipeline": "pr-freelance",
+      "industry": "EdTech (K-12/higher-ed technology) — conference media relations",
+      "location": "Remote prep + on-site Orlando, FL, USA (1-2 days)",
+      "fundingStage": "Operating company (direct client, via The Work Crowd marketplace)",
+      "fitScore": 30,
+      "intentScore": 30,
+      "fitDetails": { "pr_remit": 20, "sector_fit": 0, "workstream": 10, "buyer_quality": 0, "urgency": 0 },
+      "intentDetails": { "engagement_model": 15, "remote_flex": 0, "recency": 0, "urgency_signals": 10, "apply_path": 5 },
+      "vertical": "pr",
+      "subvertical": "media-relations",
+      "engagementModel": "freelance",
+      "buyerType": "operating-company",
+      "compensationText": "USD $150-$755 day-rate range",
+      "remoteFlag": false,
+      "employmentTypeRaw": "Freelance / contract, short-term (<1 week, event-based)",
+      "urgencyScore": 75,
+      "contacts": [
+        { "name": "The Work Crowd — Job Application", "title": "Apply via marketplace", "email": "", "linkedin": "" }
+      ],
+      "signals": ["media_relations_and_crisis_comms", "executive_briefing_csuite", "short_term_event_based_contract", "direct_apply_path", "sector_mismatch_edtech", "onsite_required_orlando"],
+      "source": "PR Freelance Scrape 2026-06-15",
+      "sourceUrl": "https://theworkcrowd.com/jobs/senior-pr-consultant-press-secretary-iste-live-26",
+      "notes": "Combined 60, B. Posted 2026-06-05, updated 2026-06-12 (via The Work Crowd). Freelance Senior PR Consultant to act as on-site 'Press Secretary' for ISTE Live 26 (EdTech's flagship conference): owns media schedule, briefs C-suite for interviews, manages on/off-record ground rules with journalists, drafts crisis/reactive messaging (AI in education, data privacy, screen time), manages embargoes/exclusives. Short-term (<1 week), remote prep + 1-2 days on-site Orlando FL, $150-$755/day. STRONG workstream match (media relations + crisis/executive comms = near-perfect skills showcase for Mark's 'strategic + executional' positioning), but SECTOR is Education/EdTech (not finance/legal/PE-VC/B2B SaaS core ICP) and requires on-site Orlando travel. Included as a stretch/portfolio lead at the 55+ threshold (60, B) rather than a core ICP fit. ACTION: evaluate logistics fit; if workable, strong case-study opportunity for crisis/media-relations under pressure."
+    }
+  ]
+}

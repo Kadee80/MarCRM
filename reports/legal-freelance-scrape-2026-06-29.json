@@ -1,0 +1,231 @@
+{
+  "scrapeDate": "2026-06-29",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 6,
+  "note": "Legal Freelance pipeline scrape, 7-day window. Web search via Google/Bing-indexed results (no direct LinkedIn scraping). Dedup-checked against legal-freelance reports 6/22–6/26 and daily-scrape 6/24–6/26; all 6 leads are new entities. Recency (<72h) scored conservatively: job-board listings were awarded 0 on the 72h bucket unless freshness was confirmable, so combined scores are deliberately cautious. All leads scored 60–75 (Grade B). Fund-weighted via Allocate and Ropes & Gray; Allocate and Ropes & Gray are full-time roles included as relationship/fractional-pitch targets (engagement caveat noted per lead).",
+  "leads": [
+    {
+      "name": "Allocate — Fund Formation Attorney (Remote, U.S.)",
+      "website": "https://allocate.freshteam.com/jobs/siS-YMRJZ3h5/junior-fund-formation-attorney-remote",
+      "pipeline": "legal-freelance",
+      "industry": "Investment / fund-access platform and fund administration; private markets marketplace for LPs and emerging managers. Role: fund formation, fund filings, regulatory compliance, corporate governance, LPAs/PPMs/subscription docs.",
+      "location": "Remote (U.S.) — HQ Palo Alto, CA",
+      "fundingStage": "Venture-backed fintech platform (private markets)",
+      "fitScore": 50,
+      "intentScore": 25,
+      "fitDetails": {
+        "practice_area": "Fund formation + fund maintenance, regulatory compliance, corporate governance — core ICP overlap; directly in Katie's private-funds/corporate wheelhouse.",
+        "seniority": "Counsel-level; associate (4+ yrs) and senior tracks both open.",
+        "comp_credible": "Yes — stated est. $190K–$220K (full-time); market-credible.",
+        "fund_focus": "Very high — explicit fund formation, LPAs, PPMs, subscription docs, fund filings."
+      },
+      "intentDetails": {
+        "engagement_model": "Full-time employment (not fractional/contract) — scored 0 on engagement bucket.",
+        "remote_flex": "Fully remote (U.S.).",
+        "recency": "Active across LinkedIn/ZipRecruiter/BeBee/Ladders; senior req open until 7/11/2026. Not confirmable as <72h, scored 0.",
+        "apply_path": "Easy apply via Freshteam ATS / LinkedIn — direct."
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "full-time",
+      "buyerType": "fund",
+      "compensationText": "Estimated $190,000–$220,000 (full-time). Associate: 4+ yrs fund formation; senior track open until 7/11/2026.",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Full-time W-2 employee, subject to Allocate Code of Ethics / compliance obligations",
+      "urgencyScore": 70,
+      "contacts": [
+        { "name": "Allocate — Legal/People Team", "title": "Fund-access platform & fund administration (fund formation hiring)", "email": "", "linkedin": "https://www.linkedin.com/company/allocate-co" }
+      ],
+      "signals": ["fund formation", "LPAs/PPMs/subscription docs", "regulatory compliance", "corporate governance", "remote", "comp stated $190-220K"],
+      "source": "Web search (Allocate Freshteam / LinkedIn / Ladders), 2026-06-29",
+      "sourceUrl": "https://www.linkedin.com/jobs/view/fund-formation-attorney-remote-at-allocate-4307034119",
+      "notes": "Grade B (combined 75). NEW. Strongest fund-fit of the run. CAVEAT: role is full-time, off Katie's part-time/interim ICP — but Allocate is an ideal buyer type (fund platform with recurring formation volume). PITCH ANGLE: rather than apply FT, offer fractional/overflow fund-formation support for surge periods (new fund launches, filing seasons) — emerging managers on the platform are exactly her ICP."
+    },
+    {
+      "name": "Socket — Fractional General Counsel (Remote)",
+      "website": "https://builtin.com/job/fractional-general-counsel/4025369",
+      "pipeline": "legal-freelance",
+      "industry": "Developer security software (supply-chain security startup). Role: fractional GC — commercial contracts, corporate governance, compliance for a venture-backed startup.",
+      "location": "Remote (U.S.)",
+      "fundingStage": "Venture-backed startup (growth-stage SaaS/security)",
+      "fitScore": 20,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Commercial contracts, corporate governance, startup general counsel work — solid corporate overlap; no fund component.",
+        "seniority": "GC level — senior.",
+        "comp_credible": "Not stated in listing — scored 0.",
+        "fund_focus": "None (operating-company startup)."
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional GC — explicit; on-ICP engagement model.",
+        "remote_flex": "Remote.",
+        "recency": "Active listing on Built In (June 2026); not confirmable <72h, scored 0.",
+        "apply_path": "Easy apply via Built In — direct."
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "Not stated in posting.",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional / part-time general counsel engagement",
+      "urgencyScore": 60,
+      "contacts": [
+        { "name": "Socket — Founding/People Team", "title": "Developer security startup (fractional GC hiring)", "email": "", "linkedin": "https://www.linkedin.com/company/socket-security" }
+      ],
+      "signals": ["fractional GC", "commercial contracts", "corporate governance", "venture-backed startup", "remote"],
+      "source": "Web search (Built In), 2026-06-29",
+      "sourceUrl": "https://builtin.com/job/fractional-general-counsel/4025369",
+      "notes": "Grade B (combined 60). NEW. Clean fractional GC engagement at a venture-backed startup — exactly the part-time model Katie targets. PITCH ANGLE: lead with commercial-contracts + governance throughput for a fast-moving eng-led org; her in-house+firm blend fits a security startup scaling its paper."
+    },
+    {
+      "name": "Bush & Bush Law Group — Fractional General Counsel (Remote)",
+      "website": "https://www.fractionaljobs.io/jobs/general-counsel-at-bush-bush-law-group",
+      "pipeline": "legal-freelance",
+      "industry": "Law firm seeking a fractional General Counsel (10–20 hrs/wk). Corporate / general counsel function, remote.",
+      "location": "Remote (USA only)",
+      "fundingStage": "Established law firm",
+      "fitScore": 30,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "General counsel / corporate function — moderate overlap; generalist GC scope.",
+        "seniority": "GC level — senior.",
+        "comp_credible": "Yes — $10K–$12.5K/mo stated; market-credible for fractional.",
+        "fund_focus": "None stated."
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional (10–20 hrs/wk) — on-ICP.",
+        "remote_flex": "Remote (USA).",
+        "recency": "Posted 6/12/2026 — outside strict 7-day window but still open/featured; scored 0 on 72h bucket.",
+        "apply_path": "Request-intro via Fractional Jobs — direct, low friction."
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "law-firm",
+      "compensationText": "$10,000–$12,500 / month; 10–20 hrs/week.",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional GC engagement (10–20 hrs/wk), syndicated via Fractional Jobs (featured)",
+      "urgencyScore": 55,
+      "contacts": [
+        { "name": "Bush & Bush Law Group", "title": "Law firm (fractional GC hiring via Fractional Jobs)", "email": "", "linkedin": "https://www.bushlawgrp.com/" }
+      ],
+      "signals": ["fractional GC", "10-20 hrs/wk", "$10-12.5K/mo", "remote", "featured listing"],
+      "source": "Web search / Fractional Jobs, 2026-06-29",
+      "sourceUrl": "https://www.fractionaljobs.io/jobs/general-counsel-at-bush-bush-law-group",
+      "notes": "Grade B (combined 70). NEW. Featured fractional GC with clear comp and hours — low-friction request-intro path. CAVEAT: posted 6/12 (just outside 7-day window) but still live. Buyer is a law firm, so likely overflow/operational GC support rather than fund work."
+    },
+    {
+      "name": "Latitude Legal — Commercial Contracts Attorney (Remote Contract Engagement)",
+      "website": "https://latitudelegal.com/jobs/5073",
+      "pipeline": "legal-freelance",
+      "industry": "ALSP / flexible legal talent provider (Chambers NewLaw-ranked, ~20 U.S. offices). Role: commercial contracts attorney on a remote contract engagement for a client company.",
+      "location": "Remote (U.S.)",
+      "fundingStage": "Established ALSP / flexible legal staffing",
+      "fitScore": 20,
+      "intentDetails_placeholder": null,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Commercial contracts — direct overlap with Katie's contracts workstream; no fund component in this req.",
+        "seniority": "Experienced attorney / counsel level.",
+        "comp_credible": "Not stated in listing — scored 0.",
+        "fund_focus": "None in this specific req (but Latitude places fund/corporate roles too)."
+      },
+      "intentDetails": {
+        "engagement_model": "Contract engagement via ALSP — on-ICP commercial model.",
+        "remote_flex": "Remote.",
+        "recency": "Open opportunity on Latitude portal; not confirmable <72h, scored 0.",
+        "apply_path": "Apply via Latitude jobs portal — direct."
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "Not stated in listing.",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contract engagement placed through Latitude Legal (ALSP); likely temp/contract staffing rather than independent operator engagement",
+      "urgencyScore": 55,
+      "contacts": [
+        { "name": "Latitude Legal — Talent Team", "title": "ALSP / flexible legal talent (commercial contracts placement)", "email": "", "linkedin": "https://www.linkedin.com/company/latitude-legal/" }
+      ],
+      "signals": ["commercial contracts", "contract engagement", "ALSP", "remote", "Chambers NewLaw-ranked"],
+      "source": "Web search (Latitude Legal jobs portal), 2026-06-29",
+      "sourceUrl": "https://latitudelegal.com/jobs/5073",
+      "notes": "Grade B (combined 60). NEW. ALSP relationship play: getting on Latitude's bench creates recurring contract/fund/corporate placements beyond this single req. CAVEAT: ALSP placements often run as temp/contract staffing (W-2) — confirm whether 1099/independent is supported. Track employmentTypeRaw vs. engagementModel separately."
+    },
+    {
+      "name": "Fractional General Counsel (Remote) — ACC Jobline",
+      "website": "https://jobline.acc.com/job/fractional-general-counsel-remote--54004",
+      "pipeline": "legal-freelance",
+      "industry": "In-house legal role posted on the Association of Corporate Counsel Jobline — fractional GC for an operating company; corporate/commercial/compliance scope, remote.",
+      "location": "Remote (U.S.)",
+      "fundingStage": "Operating company (stage not stated)",
+      "fitScore": 20,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Corporate / commercial / compliance general counsel work — moderate overlap; generalist scope.",
+        "seniority": "GC level — senior.",
+        "comp_credible": "Not stated — scored 0.",
+        "fund_focus": "None stated."
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional GC — on-ICP.",
+        "remote_flex": "Remote.",
+        "recency": "Active ACC Jobline posting; not confirmable <72h, scored 0.",
+        "apply_path": "Apply via ACC Jobline — direct."
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "Not stated in posting.",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional general counsel engagement (in-house, via ACC Jobline)",
+      "urgencyScore": 55,
+      "contacts": [
+        { "name": "ACC Jobline — Posting Employer", "title": "Operating company (fractional GC hiring)", "email": "", "linkedin": "" }
+      ],
+      "signals": ["fractional GC", "corporate", "compliance", "remote", "ACC Jobline (vetted in-house board)"],
+      "source": "Web search (ACC Jobline), 2026-06-29",
+      "sourceUrl": "https://jobline.acc.com/job/fractional-general-counsel-remote--54004",
+      "notes": "Grade B (combined 60). NEW. ACC Jobline is a high-quality, in-house-focused board — listings skew to genuine corporate GC needs. PITCH ANGLE: standard fractional GC offer; confirm scope (some ACC fractional reqs lean compliance/employment, which is lower-fit). De-prioritize if scope turns out litigation/employment-heavy."
+    },
+    {
+      "name": "Ropes & Gray — Funds Attorney, Asset Management Group (Remote)",
+      "website": "https://www.ropesgrayrecruiting.com/en/life-at-ropes-and-gray/positions/funds-attorney-asset-management-group-remote",
+      "pipeline": "legal-freelance",
+      "industry": "Am Law top firm, Asset Management Group. Role: funds attorney supporting private fund formation and investment management clients, remote.",
+      "location": "Remote (U.S.)",
+      "fundingStage": "Established Am Law 100 firm",
+      "fitScore": 40,
+      "intentScore": 25,
+      "fitDetails": {
+        "practice_area": "Private funds / asset management — strong fund overlap; top-tier fund formation practice.",
+        "seniority": "Attorney / counsel level.",
+        "comp_credible": "Not stated in listing — scored 0 (Am Law comp implied but unstated).",
+        "fund_focus": "Very high — dedicated Asset Management / private funds group."
+      },
+      "intentDetails": {
+        "engagement_model": "Full-time firm role (not fractional/contract) — scored 0 on engagement bucket.",
+        "remote_flex": "Remote.",
+        "recency": "Active firm posting; not confirmable <72h, scored 0.",
+        "apply_path": "Apply via Ropes & Gray recruiting portal — direct."
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "full-time",
+      "buyerType": "law-firm",
+      "compensationText": "Not stated in listing (Am Law-scale implied).",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Full-time firm attorney / counsel (Asset Management Group)",
+      "urgencyScore": 50,
+      "contacts": [
+        { "name": "Ropes & Gray — Legal Recruiting", "title": "Am Law firm, Asset Management / private funds group", "email": "", "linkedin": "https://www.linkedin.com/company/ropes-&-gray-llp" }
+      ],
+      "signals": ["private funds", "asset management", "fund formation", "remote", "Am Law top firm"],
+      "source": "Web search (Ropes & Gray recruiting), 2026-06-29",
+      "sourceUrl": "https://www.ropesgrayrecruiting.com/en/life-at-ropes-and-gray/positions/funds-attorney-asset-management-group-remote",
+      "notes": "Grade B (combined 65). NEW. Highest pure fund-fit company, but FULL-TIME and off Katie's freelance ICP — included as a fund-market signal and overflow-pitch target. PITCH ANGLE: top firms with surging fund formation volume are prime buyers of specialist OVERFLOW counsel; offer per-deal LPA/side-letter support rather than applying to the FT req. Lowest priority of the six on intent."
+    }
+  ]
+}

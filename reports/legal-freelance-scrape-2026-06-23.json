@@ -1,0 +1,243 @@
+{
+  "scrapeDate": "2026-06-23",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 5,
+  "note": "7-day search window June 16-23 2026. Deduped against legal-freelance through 2026-06-22 and pr-freelance through 2026-06-22. All 5 leads are net new.",
+  "leads": [
+    {
+      "name": "Ontra — Freelance Fund Formation Lawyer (Remote)",
+      "website": "https://www.ontra.ai",
+      "pipeline": "legal-freelance",
+      "industry": "Legal Technology / Alternative Asset Management",
+      "location": "Remote (US)",
+      "fundingStage": "Series B",
+      "fitScore": 50,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Fund formation — LPAs, side letters, subscription docs, term sheets, MSAs",
+        "seniority": "Senior counsel / experienced attorney required",
+        "comp_credible": true,
+        "fund_focus": true
+      },
+      "intentDetails": {
+        "engagement_model": "Freelance 1099 — Ontra handles billing, invoicing, BD",
+        "remote_flex": "Fully remote",
+        "recency": "Evergreen platform posting — active network recruitment",
+        "apply_path": "Direct apply via ontra.ai/legal-network or builtinsf.com"
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "freelance",
+      "buyerType": "ALSP",
+      "compensationText": "Hourly, market-rate (not specified; negotiated per engagement)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Freelance / 1099 independent contractor",
+      "urgencyScore": 80,
+      "contacts": [
+        {
+          "name": "",
+          "title": "Legal Network Team",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/ontra-ai"
+        }
+      ],
+      "signals": [
+        "Fund formation platform for 800+ AM clients",
+        "Handles LPAs, side letters, subscription docs",
+        "Admin (billing, invoicing, BD) fully handled by Ontra",
+        "Multiple job board postings active across Built In network"
+      ],
+      "source": "Built In SF / Ontra network",
+      "sourceUrl": "https://www.builtinsf.com/job/legal/us-licensed-freelance-fund-formation-lawyer-remote/103064",
+      "notes": "Highest-priority lead. Network model yields recurring engagements from top-tier AM clients. Also posted on wellfound.com and builtinaustin.com. Apply via ontra.ai/legal-network for direct network entry."
+    },
+    {
+      "name": "Major, Lindsey & Africa — Interim Fund Formation Attorney (Remote)",
+      "website": "https://www.mlaglobal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Legal Recruiting / Interim Legal Staffing",
+      "location": "Remote (listed as Miami, FL but remote)",
+      "fundingStage": "N/A (established firm)",
+      "fitScore": 40,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Fund formation — LPAs, PPMs, subscription docs; Securities Act 1933/1934, Investment Company Act 1940, Investment Advisers Act 1940; Delaware LP/LLC Acts",
+        "seniority": "10+ years fund formation experience required",
+        "comp_credible": false,
+        "fund_focus": true
+      },
+      "intentDetails": {
+        "engagement_model": "Interim — part-time basis, 4+ months",
+        "remote_flex": "Fully remote",
+        "recency": "Active posting on ZipRecruiter and LinkedIn as of June 2026",
+        "apply_path": "ZipRecruiter (jid=e8159d3b819aaba5) or LinkedIn (job ID 4387969441)"
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "interim",
+      "buyerType": "staffing",
+      "compensationText": "Not stated",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contract / interim placement via MLA",
+      "urgencyScore": 75,
+      "contacts": [
+        {
+          "name": "",
+          "title": "Interim Legal Talent Team",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/major-lindsey-africa"
+        }
+      ],
+      "signals": [
+        "Law firm client seeking part-time fund formation counsel",
+        "4+ month engagement — meaningful project duration",
+        "Requires Investment Advisers Act 1940 fluency",
+        "Distinct from prior MLA roles captured (June 22 Corporate/Securities; June 18 Chicago Fund Formation)"
+      ],
+      "source": "ZipRecruiter / LinkedIn",
+      "sourceUrl": "https://www.ziprecruiter.com/c/Major-Lindsey-&-Africa/Job/Interim-Fund-Formation-Attorney/-in-Miami,FL?jid=e8159d3b819aaba5",
+      "notes": "End client is a law firm. MLA is the intermediary. Contact MLA interim team directly referencing the posting. Parallel outreach via LinkedIn job ID 4387969441."
+    },
+    {
+      "name": "aVenture — Venture Capital Fund Attorney (Remote)",
+      "website": "https://www.aventure.vc",
+      "pipeline": "legal-freelance",
+      "industry": "Fintech / Venture Capital",
+      "location": "Remote (headquartered San Francisco, CA)",
+      "fundingStage": "Early stage",
+      "fitScore": 50,
+      "intentScore": 30,
+      "fitDetails": {
+        "practice_area": "VC fund formation, fund structuring, subscription agreements, LP negotiations, fund admin contracts, entity formation, corporate docs",
+        "seniority": "Attorney with VC / private fund / investment adviser / law firm experience",
+        "comp_credible": true,
+        "fund_focus": true
+      },
+      "intentDetails": {
+        "engagement_model": "Part-time option explicitly offered; full-time (40 hrs/wk) or part-time",
+        "remote_flex": "Fully remote (4 hrs/day Pacific overlap required)",
+        "recency": "Posting on Glassdoor/LinkedIn; age uncertain — verify before applying",
+        "apply_path": "Glassdoor (jl=1008239968893) or LinkedIn (job ID 3387960195)"
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "part-time",
+      "buyerType": "fund",
+      "compensationText": "$80,000–$120,000/year (prorated for part-time)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Full-time or part-time; employment type not specified (may be employee or contractor)",
+      "urgencyScore": 55,
+      "contacts": [
+        {
+          "name": "",
+          "title": "Founders / Legal Team",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/aventurefunds"
+        }
+      ],
+      "signals": [
+        "Part-time option explicitly available",
+        "Fund formation, subscription agreements, LP negotiation core scope",
+        "Small global team — founders accessible for direct outreach",
+        "$80-120K comp range stated"
+      ],
+      "source": "Glassdoor / LinkedIn",
+      "sourceUrl": "https://www.glassdoor.com/job-listing/venture-capital-fund-attorney-aventure-JV_KO0,29_KE30,38.htm?jl=1008239968893",
+      "notes": "Verify posting is still active before applying. If stale, cold outreach to aVenture founders via LinkedIn is appropriate — small team with ongoing legal needs. Pacific time overlap of 4 hrs/day is the only geographic constraint."
+    },
+    {
+      "name": "Paragon Legal — Corporate & Securities / Fund Attorney Network (Remote)",
+      "website": "https://paragonlegal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Legal Staffing / ALSP",
+      "location": "Remote (San Francisco, CA HQ)",
+      "fundingStage": "N/A (established ALSP)",
+      "fitScore": 40,
+      "intentScore": 35,
+      "fitDetails": {
+        "practice_area": "PE fund formation, investment structuring, M&A, corporate governance, commercial contracts, securities",
+        "seniority": "Experienced in-house or law firm counsel required",
+        "comp_credible": false,
+        "fund_focus": true
+      },
+      "intentDetails": {
+        "engagement_model": "Contract / interim — attorney network model",
+        "remote_flex": "Remote-first",
+        "recency": "Evergreen attorney network — active placements in June 2026",
+        "apply_path": "Direct apply at paragonlegal.com/for-attorneys/opportunities/"
+      },
+      "vertical": "legal",
+      "subvertical": "corporate",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "Not stated in network listing; negotiated per engagement",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contract / interim (1099 or W-2 depending on engagement)",
+      "urgencyScore": 60,
+      "contacts": [
+        {
+          "name": "",
+          "title": "Attorney Relations Team",
+          "email": "info@paragonlegal.com",
+          "linkedin": "https://www.linkedin.com/company/paragon-legal"
+        }
+      ],
+      "signals": [
+        "Chambers-ranked flexible legal firm",
+        "Explicitly serves PE fund formation, investment structuring clients",
+        "Corporate & securities attorney network actively maintained",
+        "Remote-first placement model"
+      ],
+      "source": "Paragon Legal website / ZipRecruiter",
+      "sourceUrl": "https://paragonlegal.com/for-attorneys/opportunities/",
+      "notes": "This is a platform/network entry, not a single job posting. Joining the Paragon attorney roster creates ongoing pipeline exposure to PE, fund formation, and corporate contract engagements. Contact info@paragonlegal.com or 415.738.7870 for the attorney onboarding process."
+    },
+    {
+      "name": "Lawyers on Demand (LOD) — Commercial Contracting Attorney, Securities (Remote/Hybrid)",
+      "website": "https://www.lodlaw.com",
+      "pipeline": "legal-freelance",
+      "industry": "Alternative Legal Services / Financial Institution",
+      "location": "Remote / Hybrid (New York City preferred, remote considered)",
+      "fundingStage": "N/A (Consilio company)",
+      "fitScore": 30,
+      "intentScore": 30,
+      "fitDetails": {
+        "practice_area": "Securities agreements (MSFTAs, ACAs), regulatory/compliance (SEC, FINRA, global securities laws)",
+        "seniority": "Experienced attorney / counsel level",
+        "comp_credible": true,
+        "fund_focus": false
+      },
+      "intentDetails": {
+        "engagement_model": "Contract — long-term engagement (12+ months)",
+        "remote_flex": "Hybrid (NYC preferred, remote candidates considered)",
+        "recency": "Posted June 12, 2026 — 11 days ago",
+        "apply_path": "careers.lodlaw.com"
+      },
+      "vertical": "legal",
+      "subvertical": "securities",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "Starting at $125/hour",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Contract / secondment via LOD",
+      "urgencyScore": 65,
+      "contacts": [
+        {
+          "name": "",
+          "title": "LOD US Talent Team",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/lodlaw"
+        }
+      ],
+      "signals": [
+        "$125/hour starting rate — strong market comp",
+        "12+ month engagement — long-term stability",
+        "Global financial institution client",
+        "SEC / FINRA regulatory compliance scope"
+      ],
+      "source": "LOD / web search results",
+      "sourceUrl": "https://careers.lodlaw.com/",
+      "notes": "Specific engagement posted June 12 — apply ASAP. Also worth joining LOD US attorney network for future financial services secondments. LOD is one of the largest ALSP platforms globally (600+ attorneys). Secondary track to fund formation pipeline for securities/financial contracts engagements."
+    }
+  ]
+}

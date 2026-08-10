@@ -1,0 +1,122 @@
+{
+  "scrapeDate": "2026-08-06",
+  "scrapeType": "pr-freelance",
+  "totalLeads": 3,
+  "note": "Enhanced PR Freelance scrape, 7-day window. Web-search sourcing only (no LinkedIn bots). Dedup checked against pr-freelance-scrape-2026-07-* and 2026-08-0* plus recent daily-scrape files. Two initially-shortlisted leads (Hello Human, Toptal) were DROPPED after full-history dedup revealed prior captures (Hello Human 7/1 & 7/17; Toptal 7/10). Also excluded: repeats (The James Collective 8/4, Hanson Search 7/23, PagerDuty interim 7/23, Mission North, Go Fractional network, TrizCom/10to1/Wilson white-label, Interdependence) and off-ICP full-time/in-office roles (GlossGenius Director PR $200-250k in-office/closed; FINN Partners & Built In Financial-Services SAE full-time; Idealist Senior Manager Comms full-time). KM Strategies posting is stale (Jan 2026, engagement ended Jun 2026) and is included as a 'firm to register with', recency scored 0. Quality over quantity: 3 genuine new leads retained over padding.",
+  "leads": [
+    {
+      "name": "Hexa — Head of Brand & Communication (Freelance / Fixed-Term Contract)",
+      "website": "https://www.welcometothejungle.com/en/companies/hexa/jobs/head-of-brand-and-communication-freelance-of-fixed-term-contract_paris",
+      "pipeline": "pr-freelance",
+      "industry": "Hexa (the eFounders startup studio) is hiring a freelance / fixed-term Head of Brand & Communication to act as lead PR person for portfolio startup announcements — seed fundraisings, product launches and milestone news — across fintech and other B2B/tech verticals. Engagement is ~2 months full-time from end of August 2026, followed by at least 4 months part-time.",
+      "location": "Paris (verify remote eligibility) — startup studio operates internationally",
+      "fundingStage": "Startup studio / venture builder (fintech-heavy portfolio)",
+      "fitScore": 50,
+      "intentScore": 45,
+      "fitDetails": {
+        "pr_remit": "+20 — explicit lead-PR role: announcements, launches, media narrative",
+        "sector_fit": "+15 — fintech + B2B/tech startup portfolio",
+        "workstream": "+10 — product launch comms, fundraising/investor narrative, media relations",
+        "buyer_quality": "+5 — defined near-term mandate with an immediate need"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — freelance / fixed-term contract",
+        "remote_flex": "+5 — part-time phase = flexible; Paris base may require onsite (verify)",
+        "recency": "+10 — fresh posting, full-time phase starts end of Aug 2026",
+        "urgency_signals": "+10 — defined imminent start + fixed scope",
+        "apply_path": "+5 — direct apply via Welcome to the Jungle"
+      },
+      "vertical": "pr",
+      "subvertical": "thought-leadership",
+      "engagementModel": "freelance",
+      "buyerType": "startup",
+      "compensationText": "Not stated (freelance/FTC; ~2 months full-time then 4+ months part-time)",
+      "remoteFlag": "onsite",
+      "employmentTypeRaw": "Freelance or fixed-term contract — ~2 mo FT (from end Aug 2026) then 4+ mo part-time",
+      "urgencyScore": 85,
+      "contacts": [
+        { "name": null, "title": "Apply via Welcome to the Jungle (Hexa / eFounders)", "email": null, "linkedin": "https://www.linkedin.com/company/hexa-hq" }
+      ],
+      "signals": ["freelance / fixed-term", "fintech startup announcements", "seed fundraising + product launch PR", "imminent start (end Aug 2026)", "defined scope"],
+      "source": "Web search — Welcome to the Jungle (Hexa), Aug 2026",
+      "sourceUrl": "https://www.welcometothejungle.com/en/companies/hexa/jobs/head-of-brand-and-communication-freelance-of-fixed-term-contract_paris",
+      "notes": "Grade A (combined 95) — hottest lead of the run and the only fresh, defined, near-term freelance PR mandate found. Textbook ICP: fintech/startup announcements, launch + fundraising narrative, freelance/FTC engagement, imminent start. KEY CAVEAT: role is Paris-based — confirm remote/US eligibility before Mark invests time; if remote-friendly this is a strong, well-scoped engagement. Detail could not be fully rendered (client-side page); verify FT/PT split and location on the live listing. ACTION: check remote eligibility first, then apply with a fintech launch + fundraise-announcement case study."
+    },
+    {
+      "name": "Sapio Consulting — Financial PR & Special Situations Contract / Interim Talent Desk",
+      "website": "https://sapioconsulting.com",
+      "pipeline": "pr-freelance",
+      "industry": "Boutique executive-search and recruitment firm specialising in Financial PR, Investor Relations, M&A and special-situations communications. Places senior interim and contract communications talent into financial institutions, fintechs, asset managers and corporate-comms-heavy businesses — a direct-fit channel for Mark's finance-sector earned-media and IR-narrative experience.",
+      "location": "Remote / Hybrid (UK & US desks)",
+      "fundingStage": "Recruitment boutique (staffing / talent desk)",
+      "fitScore": 50,
+      "intentScore": 25,
+      "fitDetails": {
+        "pr_remit": "+20 — explicit financial PR / IR / corporate comms remit",
+        "sector_fit": "+15 — core finance, fintech, asset management, M&A",
+        "workstream": "+10 — investor relations, financial media relations, special-situations comms",
+        "buyer_quality": "+5 — actively places interim/contract talent (overflow demand)"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — contract / interim placements",
+        "remote_flex": "+5 — hybrid; financial PR often London/NY hybrid",
+        "recency": "+0 — evergreen desk, no 72h posting",
+        "urgency_signals": "+0 — no explicit immediate-need flag on the desk page",
+        "apply_path": "+5 — direct register-with-recruiter contact path"
+      },
+      "vertical": "pr",
+      "subvertical": "investor-pr",
+      "engagementModel": "contract",
+      "buyerType": "staffing",
+      "compensationText": "Not stated (interim/contract day or retainer rate set per brief)",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Interim / contract financial PR & IR placements via recruiter",
+      "urgencyScore": 45,
+      "contacts": [
+        { "name": null, "title": "Register with the Financial PR / IR recruitment desk", "email": null, "linkedin": "https://www.linkedin.com/company/sapio-consulting" }
+      ],
+      "signals": ["financial PR", "investor relations", "M&A / special situations", "interim & contract placements", "sector-fit: finance/fintech/asset management"],
+      "source": "Web search — Sapio Consulting Financial PR recruitment page, Aug 2026",
+      "sourceUrl": "https://sapioconsulting.com/recruitment/pr-communications/financial-pr/",
+      "notes": "Grade B (combined 75) — strongest sector fit of the run (finance/IR is Mark's sweet spot). Channel play, not a single job: register as available interim/contract senior financial-comms talent so Sapio surfaces Mark against live buyer briefs. Companion to already-captured Hanson Search (7/23) and 3Search/VMA desks — worth being on all of them. ACTION: send availability + finance-sector earned-media & IR-narrative case studies."
+    },
+    {
+      "name": "KM Strategies Group — Senior Consultant (Independent Contractor, Retainer)",
+      "website": "https://www.idealist.org/en/consultant-job/fd2ee51c088740bb9c5cc6d5168e6f27-senior-consultant-independent-contractor-remote-km-strategies-llc-new-york",
+      "pipeline": "pr-freelance",
+      "industry": "Communications-focused consulting firm (NYC, 477 Madison Ave) engaging senior independent contractors on monthly retainers to deliver editorial strategy, media relations, digital strategy and content across civic, human-rights, philanthropy and social-impact client engagements.",
+      "location": "Remote (US); NYC-associated",
+      "fundingStage": "Consulting firm (retainer contractor model)",
+      "fitScore": 30,
+      "intentScore": 30,
+      "fitDetails": {
+        "pr_remit": "+20 — senior communications consulting: editorial strategy, media, content",
+        "sector_fit": "+0 — civic / human-rights / philanthropy, not finance/B2B core",
+        "workstream": "+10 — comms strategy, editorial, digital content, media relations",
+        "buyer_quality": "+0 — repeatable contractor model but posting stale"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — independent-contractor monthly retainer",
+        "remote_flex": "+10 — fully remote (US-anywhere)",
+        "recency": "+0 — STALE: posted 2026-01-28, engagement window Mar-Jun 2026 already closed",
+        "urgency_signals": "+0",
+        "apply_path": "+5 — Idealist direct apply / firm contact"
+      },
+      "vertical": "pr",
+      "subvertical": "content-strategy",
+      "engagementModel": "contract",
+      "buyerType": "agency",
+      "compensationText": "USD $4,850 / month retainer, ~140 hours/month, outcome-based (4-month engagement, extendable)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Independent contractor / freelance — monthly retainer",
+      "urgencyScore": 25,
+      "contacts": [
+        { "name": null, "title": "Register with KMSG for future senior-consultant retainers (via Idealist)", "email": null, "linkedin": "https://www.linkedin.com/company/km-strategies-group" }
+      ],
+      "signals": ["independent contractor", "monthly retainer", "remote", "editorial + media relations", "STALE POSTING"],
+      "source": "Web search — Idealist (KM Strategies Group Senior Consultant), Aug 2026",
+      "sourceUrl": "https://www.idealist.org/en/consultant-job/fd2ee51c088740bb9c5cc6d5168e6f27-senior-consultant-independent-contractor-remote-km-strategies-llc-new-york",
+      "notes": "Grade B by score (combined 60) but RECENCY CAVEAT: the specific posting is stale (posted 2026-01-28; Mar-Jun 2026 engagement has ended). Included as a firm-to-register-with, not a live req — KMSG runs a clean IC retainer model ($4,850/mo, 140 hrs, outcome-based) that fits Mark's freelance economics. Sector (civic/social-impact) is off finance core. ACTION: proactively reach out for future senior-consultant retainers rather than applying to the closed listing."
+    }
+  ]
+}

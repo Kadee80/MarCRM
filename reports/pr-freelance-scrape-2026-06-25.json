@@ -1,0 +1,82 @@
+{
+  "scrapeDate": "2026-06-25",
+  "scrapeType": "pr-freelance",
+  "totalLeads": 2,
+  "note": "Thin week. 2 leads scored 55+ with no overlap against prior runs through 2026-06-24. The 7-day named/in-sector freelance PR pool was almost entirely exhausted by duplicates, closed/filled roles, and aggregator/marketplace pages (Upwork, Toptal, Indeed, ZipRecruiter, FlexJobs, RemotePRJobs). Several otherwise-relevant fractional comms roles surfaced (VOW for Girls, Burlap & Barrel, Kandu Health) but are CLOSED/filled and ~1yr stale. One genuine freelance media-relations role (Reputation Management Consultants) requires native Balkan-language press contacts — hard disqualifier for Mark — so excluded. Best plays this run: Capital One Interim Head of Brand Marketing & PR (strong finance + PR + interim fit, but ~3 months old — verify still open) and E3n Fractional Marketing & Communications Manager (genuine 6-mo remote contract, but execution/marketing-ops heavy with no media-relations remit — borderline). Recommend Mark prioritize Capital One after confirming the posting is live.",
+  "leads": [
+    {
+      "name": "Capital One",
+      "website": "https://www.gofractional.com/job/workday-head-of-brand-marketing-and-pr-12-month-contract",
+      "pipeline": "pr-freelance",
+      "industry": "Financial Services — banking, credit cards, lending (NYSE: COF)",
+      "location": "McLean, VA — Remote",
+      "fundingStage": "Large-cap public company (one of the largest US credit-card issuers)",
+      "fitScore": 45,
+      "intentScore": 30,
+      "fitDetails": {
+        "pr_remit": "HIGH — role is explicitly Head of Brand Marketing AND PR",
+        "sector_fit": "HIGH — financial services / banking, core ICP sector",
+        "workstream": "brand marketing, PR, executive/corporate comms, earned media, narrative",
+        "buyer_quality": "operating-company — major public financial brand; senior interim backfill",
+        "urgency": "12-month interim engagement at 30-40 hrs/week — real leadership gap to fill"
+      },
+      "intentDetails": {
+        "engagement_model": "Interim / contract — 12 months, $150-$225/hr",
+        "remote_flex": "Remote (HQ McLean, VA)",
+        "recency": "STALE — listing shows 'Posted 3 months ago'; external repost on Go Fractional. Verify still open.",
+        "urgency_signals": "30-40 hrs/week interim backfill of a senior brand+PR leadership seat",
+        "apply_path": "Go Fractional 'Apply Now' redirects to original external posting"
+      },
+      "vertical": "pr",
+      "subvertical": "executive-comms",
+      "engagementModel": "interim",
+      "buyerType": "operating-company",
+      "compensationText": "$150-$225/hr, 30-40 hrs/week, 12 months (external repost)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "12-month interim contract (Marketing Consultant)",
+      "urgencyScore": 35,
+      "contacts": [],
+      "signals": ["interim", "finance-sector", "brand+PR-leadership", "remote", "12-month-contract"],
+      "source": "Web Search + Go Fractional",
+      "sourceUrl": "https://www.gofractional.com/job/workday-head-of-brand-marketing-and-pr-12-month-contract",
+      "notes": "Strongest fit this run on sector + workstream (financial services + brand/PR + executive comms, remote, interim, high rate). The one caveat is recency: the listing reads 'Posted 3 months ago' and is an external repost, so Go Fractional has no direct relationship for the role. Mark should confirm the posting is still live (via the 'Apply Now' redirect to the original source) BEFORE investing pitch time. Note: Go Fractional URL slug says 'workday' but the company shown and described is Capital One. Pitch angle: senior interim brand+PR operator who can plug into a regulated financial brand fast and own media + executive narrative through the gap."
+    },
+    {
+      "name": "E3n",
+      "website": "https://www.gofractional.com/job/jazzhr-e3n-fractional-marketing-communications-manager-career-page",
+      "pipeline": "pr-freelance",
+      "industry": "Membership / association organization (mission-driven)",
+      "location": "Remote (US)",
+      "fundingStage": "Membership organization",
+      "fitScore": 30,
+      "intentScore": 27,
+      "fitDetails": {
+        "pr_remit": "PARTIAL — titled Marketing & Communications, but remit is email/social/campaign execution; no media relations or earned media",
+        "sector_fit": "LOW — membership/association, not finance/B2B/IR",
+        "workstream": "integrated marketing comms, content strategy, brand voice, campaign management",
+        "buyer_quality": "operating-company — senior manager/supervisor contractor seat",
+        "urgency": "6-month contract with extension potential; defined scope across 6 workstreams"
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional / contract — 6 months, $135-$200/hr, 10-30 hrs/week",
+        "remote_flex": "Remote, no travel",
+        "recency": "Posted ~1 month ago (external repost via TalentED Advisors)",
+        "urgency_signals": "Defined 6-month engagement, writing samples required of advancing candidates",
+        "apply_path": "Go Fractional 'Apply Now' redirects to original career-page posting"
+      },
+      "vertical": "pr",
+      "subvertical": "content-strategy",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "$135-$200/hr, 10-30 hrs/week, 6 months with potential extensions",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "6-month contract — Senior Manager/Supervisor",
+      "urgencyScore": 30,
+      "contacts": [],
+      "signals": ["fractional", "6-month-contract", "remote", "marketing-comms", "execution-heavy"],
+      "source": "Web Search + Go Fractional",
+      "sourceUrl": "https://www.gofractional.com/job/jazzhr-e3n-fractional-marketing-communications-manager-career-page",
+      "notes": "BORDERLINE (combined 57). Genuine fresh-ish remote contract with a senior comms title and a solid rate, which is why it clears 55. But CAVEAT: the actual scope is marketing-ops execution — email build (HTML/CSS, Marketing Cloud/Pardot/HubSpot), Canva/Figma graphics, social calendars, list segmentation — with NO media-relations, press, or earned-media remit. This is a weaker fit for Mark's senior strategic-PR profile and leans toward the low-fit 'marketing-ops/social-only' filter. Include only if Mark wants integrated-comms / content-strategy retainer work. Lead with integrated comms strategy + content, not media relations."
+    }
+  ]
+}

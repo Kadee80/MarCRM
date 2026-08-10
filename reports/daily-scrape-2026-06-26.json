@@ -1,0 +1,385 @@
+{
+  "scrapeDate": "2026-06-26",
+  "scrapeTime": "11:05 UTC",
+  "totalLeads": 7,
+  "note": "Weekday daily scrape. 7 new leads (5 pr-marketing, 1 pr-freelance, 1 fund-formation). Legal-freelance was thin today: every named source surfaced (Epiq Counsel, Major Lindsey & Africa, Axiom, Paragon) is already in recent reports, so nothing new cleared dedup. 3 signal refreshes on hot existing leads (Chronograph, Allium, Taktile) — all confirmed strong, act-now windows. Scores use the exact pr-marketing / fund-formation / pr-freelance rubrics.",
+  "newLeads": [
+    {
+      "name": "Caplight Technologies",
+      "website": "caplight.com",
+      "pipeline": "pr-marketing",
+      "industry": "Fintech / Private-markets data & secondary-market infrastructure",
+      "location": "San Francisco, CA",
+      "fundingStage": "Series A ($16M, June 24 2026; founded 2021)",
+      "fitScore": 44,
+      "intentScore": 39,
+      "grade": "A",
+      "fitDetails": {
+        "industry_match_fs_fintech": 10,
+        "stage_size_series_a_growth": 8,
+        "b2b_buyer_clear_sales_motion": 10,
+        "proof_assets_blackrock_ubs_strategic_data_scale": 9,
+        "budget_well_funded_post_raise": 7,
+        "total": 44
+      },
+      "intentDetails": {
+        "trigger_16M_series_a_blackrock_strategic_secondary_infra": 14,
+        "timeline_immediate_2_days_post_raise": 9,
+        "decision_maker_founder_led_public": 6,
+        "urgency_competitive_private_markets_narrative": 7,
+        "responsiveness_bloomberg_prnewswire_fintech_coverage": 3,
+        "total": 39
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "Javier Avalos", "title": "Co-founder & CEO", "email": "", "linkedin": "" },
+        { "name": "Justin Moore", "title": "Co-founder", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "$16M Series A led by BlackRock and Fin Capital, strategic participation from UBS Investment Bank, announced June 24 2026",
+        "BlackRock joins as strategic investor; framework for collaboration across Aladdin and Preqin",
+        "Platform unifies private-markets data: 100,000 company/investor profiles, $4T funding-round data, $300B+ proprietary secondary data, $5B+ daily live transaction flow",
+        "Expanding secondary-market infrastructure and agentic workflows for research and transactions"
+      ],
+      "source": "PR Newswire / Bloomberg / fintech.global",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/caplight-raises-16m-series-a-led-by-blackrock-and-fin-capital-to-power-the-next-era-of-private-markets-302808600.html",
+      "notes": "Strong FS/fintech fit with a credibility-sensitive, institutional buyer. BlackRock strategic investment is a major narrative hook. Pitch: post-raise narrative + earned-media sprint positioning Caplight as the private-markets data/secondary-liquidity category leader."
+    },
+    {
+      "name": "Corgi Insurance",
+      "website": "corgi.com",
+      "pipeline": "pr-marketing",
+      "industry": "Insurtech / AI-powered underwriting & digital distribution",
+      "location": "United States",
+      "fundingStage": "Series B1 ($106M, led by TCV; June 2026)",
+      "fitScore": 45,
+      "intentScore": 36,
+      "grade": "A",
+      "fitDetails": {
+        "industry_match_fs_insurtech": 10,
+        "stage_size_series_b_growth": 9,
+        "b2b_buyer_clear_sales_motion": 9,
+        "proof_assets_tcv_svb_partnership_ai_underwriting": 9,
+        "budget_well_funded_106M": 8,
+        "total": 45
+      },
+      "intentDetails": {
+        "trigger_dual_series_b1_plus_svb_partnership": 14,
+        "timeline_raise_and_partnership_mid_june": 7,
+        "decision_maker_ceo_engaged": 6,
+        "urgency_insurtech_distribution_push": 6,
+        "responsiveness_prnewswire_coverage": 3,
+        "total": 36
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [],
+      "signals": [
+        "$106M Series B1 led by TCV, with Prime Capital, Zone 2 Ventures and others",
+        "Silicon Valley Bank partnership announced June 17 2026 — SVB clients get streamlined access to Corgi's digital insurance products and risk-management solutions",
+        "Technology-driven insurance platform: AI-powered underwriting, digital distribution, specialized insurance products"
+      ],
+      "source": "PR Newswire",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/corgi-insurance-and-silicon-valley-bank-partner-to-connect-clients-to-preferred-coverage-solutions-302803621.html",
+      "notes": "Dual trigger (large raise + marquee SVB distribution partnership) within the same window. Slightly outside the strict 48h window (mid-June) but the partnership keeps it live. Pitch: B2B distribution-led earned media + executive thought leadership on AI underwriting."
+    },
+    {
+      "name": "Scaled Cognition",
+      "website": "scaledcognition.com",
+      "pipeline": "pr-marketing",
+      "industry": "Enterprise AI / agentic customer interactions",
+      "location": "United States",
+      "fundingStage": "Series A ($100M, led by Khosla Ventures; June 25 2026)",
+      "fitScore": 43,
+      "intentScore": 40,
+      "grade": "A",
+      "fitDetails": {
+        "industry_match_enterprise_tech_ai": 9,
+        "stage_size_series_a_large_growth": 8,
+        "b2b_buyer_clear_sales_motion": 10,
+        "proof_assets_khosla_100M_enterprise": 8,
+        "budget_well_funded": 8,
+        "total": 43
+      },
+      "intentDetails": {
+        "trigger_100M_series_a_khosla": 15,
+        "timeline_immediate_1_day_post_raise": 9,
+        "decision_maker_founder_led": 6,
+        "urgency_competitive_ai_agents_category": 7,
+        "responsiveness_siliconangle_coverage": 3,
+        "total": 40
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [],
+      "signals": [
+        "$100M Series A led by Khosla Ventures, reported June 25 2026",
+        "Sells an AI platform enterprises use to automate high-stakes customer-service / customer interactions",
+        "Large Series A signals aggressive category land-grab in agentic customer ops"
+      ],
+      "source": "SiliconANGLE",
+      "sourceUrl": "https://siliconangle.com/2026/06/25/scaled-cognition-nabs-100m-automate-high-stakes-customer-interactions/",
+      "notes": "Freshest raise in the batch (yesterday). Big check from a tier-1 investor in a crowded agentic-AI category = clear need for differentiated narrative. Not FS-core, so industry fit is slightly lower than fintech leads. Pitch: category-defining launch comms + founder thought leadership."
+    },
+    {
+      "name": "Hang Ten Systems",
+      "website": "hangten.systems",
+      "pipeline": "pr-marketing",
+      "industry": "Enterprise AI enablement / adoption services",
+      "location": "United States",
+      "fundingStage": "Raised $32M (June 24 2026)",
+      "fitScore": 38,
+      "intentScore": 36,
+      "grade": "B",
+      "fitDetails": {
+        "industry_match_enterprise_ai": 8,
+        "stage_size_growth": 7,
+        "b2b_buyer_clear_sales_motion": 9,
+        "proof_assets_raise_enterprise_focus": 7,
+        "budget_funded": 7,
+        "total": 38
+      },
+      "intentDetails": {
+        "trigger_32M_raise": 13,
+        "timeline_2_days_post_raise": 9,
+        "decision_maker_exec_team": 5,
+        "urgency_enterprise_ai_positioning": 6,
+        "responsiveness_businesswire_coverage": 3,
+        "total": 36
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [],
+      "signals": [
+        "$32M raise announced June 24 2026 (BusinessWire)",
+        "Helps large enterprises adopt AI and produce real results; emphasis on hiring specialized talent for enterprise transformations"
+      ],
+      "source": "BusinessWire",
+      "sourceUrl": "https://www.businesswire.com/news/home/20260624847213/en/Hang-Ten-Systems-Raises-$32-Million-to-Help-Enterprises-Succeed-With-AI",
+      "notes": "AI-enablement vendor (sells AI adoption to enterprises) — a PR client, not an ai-consulting buyer. Solid B-grade: fresh raise, clear B2B motion, but less proof/scale visible than the A leads. Pitch: post-raise positioning vs. crowded 'enterprise AI adoption' field."
+    },
+    {
+      "name": "Capchase",
+      "website": "capchase.com",
+      "pipeline": "pr-marketing",
+      "industry": "Fintech / embedded B2B vendor financing",
+      "location": "New York, NY (offices in SF and Madrid)",
+      "fundingStage": "$174M facility + equity (June 2026; founded 2020)",
+      "fitScore": 41,
+      "intentScore": 33,
+      "grade": "B",
+      "fitDetails": {
+        "industry_match_fs_fintech": 10,
+        "stage_size_later_growth": 7,
+        "b2b_buyer_clear_sales_motion": 9,
+        "proof_assets_salesforce_integration_fortune500_vendors": 8,
+        "budget_well_resourced": 7,
+        "total": 41
+      },
+      "intentDetails": {
+        "trigger_174M_facility_plus_agentic_product": 12,
+        "timeline_june_window": 7,
+        "decision_maker_marketing_team": 5,
+        "urgency_embedded_finance_competition": 6,
+        "responsiveness_press_coverage": 3,
+        "total": 33
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [],
+      "signals": [
+        "$174M facility expands lending capacity; equity funds product work including the Agentic Lending Coordinator",
+        "Embedded vendor-financing platform ('Affirm for B2B') that plugs into Salesforce so vendors offer payment terms at point of sale",
+        "Growth among Fortune 500 vendors"
+      ],
+      "source": "TechCrunch / qubit.capital roundup",
+      "sourceUrl": "https://qubit.capital/blog/us-growth-weekly-funding-roundup-week-1-june-2026",
+      "notes": "Established NY fintech; the trigger is a debt facility + new agentic product rather than a fresh equity round, so intent is lower. Still strong FS fit and a clean product-launch PR angle (Agentic Lending Coordinator)."
+    },
+    {
+      "name": "Seed-Series A VC Fund (via Sapio Consulting)",
+      "website": "sapioconsulting.com",
+      "pipeline": "pr-freelance",
+      "industry": "Venture capital fund (tech-focused, Seed to Series A)",
+      "location": "Remote / US",
+      "fundingStage": "n/a (investment fund building comms function)",
+      "fitScore": 43,
+      "intentScore": 30,
+      "grade": "B",
+      "fitDetails": {
+        "pr_comms_clearly_stated": 20,
+        "sector_fit_vc_finance": 15,
+        "workstream_exec_comms_investor_pr_content": 8,
+        "agency_overflow_immediate_need": 0,
+        "total": 43
+      },
+      "intentDetails": {
+        "engagement_model_ft_search_fractional_while_searching": 8,
+        "remote_flexible": 6,
+        "posted_within_72h_recruiter_listing": 5,
+        "urgency_building_comms_function": 6,
+        "easy_apply_contact_path": 5,
+        "total": 30
+      },
+      "vertical": "pr",
+      "subvertical": "investor-pr",
+      "engagementModel": "fractional",
+      "buyerType": "fund",
+      "compensationText": "Competitive, commensurate with experience (not disclosed)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Full-time Head of Communications & PR (recruiter-listed)",
+      "urgencyScore": 55,
+      "contacts": [],
+      "signals": [
+        "Tech-centric Seed-to-Series A VC fund hiring a Head of Comms to lead Communications & Marketing function",
+        "Scope: media relations, content creation, events, social media, and nurturing relationships with investors",
+        "Listed via Sapio Consulting (PR/comms recruitment agency)"
+      ],
+      "source": "Sapio Consulting",
+      "sourceUrl": "https://sapioconsulting.com/opportunities/head-of-communications-and-pr/",
+      "notes": "Routed to pr-freelance per the Head-of-PR/Director-of-Comms rule (intent signal #2): a fund building/scaling its comms function. Buyer is a fund (unnamed in the listing). Pitch: interim/fractional comms lead while they run the FT search, or a retainer to stand up the function. Intent capped because it is a full-time search, not an explicit freelance brief."
+    },
+    {
+      "name": "Star51 Capital",
+      "website": "star51.capital",
+      "pipeline": "fund-formation",
+      "industry": "Venture capital — medtech",
+      "location": "United States",
+      "fundingStage": "Inaugural medtech VC fund — first close reached (June 2026)",
+      "fitScore": 41,
+      "intentScore": 29,
+      "grade": "B",
+      "fitDetails": {
+        "manager_type_fund_i_emerging": 15,
+        "strategy_vc_medtech": 8,
+        "operational_readiness_first_close_admin_in_motion": 8,
+        "jurisdiction_complexity": 3,
+        "ability_to_pay": 7,
+        "total": 41
+      },
+      "intentDetails": {
+        "seed_anchor_or_imminent_raise_first_close_done": 8,
+        "target_launch_window_defined": 7,
+        "providers_selected_admin_audit": 6,
+        "founder_urgency": 5,
+        "referral_source_strength": 3,
+        "total": 29
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "Adam Rosenwach", "title": "Managing Partner", "email": "", "linkedin": "" },
+        { "name": "Tal Wenderow", "title": "Managing Partner", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "Reached first close of inaugural medtech venture fund (June 2026)",
+        "Newly launched venture platform — emerging Fund I manager",
+        "Managing Partners: Adam Rosenwach and Tal Wenderow"
+      ],
+      "source": "citybiz",
+      "sourceUrl": "https://www.citybiz.co/article/859309/star51-capital-reaches-first-close-of-inaugural-medtech-venture-fund/",
+      "notes": "Emerging Fund I manager = good fund-formation fit, but first close already achieved means initial formation work is largely done; the live opportunity is fund maintenance / next-vehicle planning / ongoing GP-side work. Lower intent for that reason. Warm intro path worth checking."
+    }
+  ],
+  "signalRefreshes": [
+    {
+      "name": "Chronograph",
+      "pipeline": "pr-marketing",
+      "priorFit": 45,
+      "priorIntent": 48,
+      "priorCombined": 93,
+      "newCombined": 93,
+      "delta": 0,
+      "whatChanged": "Confirmed $140M+ growth-equity investment from Sixth Street Growth (June 16 2026) AND launched a new private-credit portfolio-monitoring platform + AI product-suite expansion. Now trusted by 8 of the 10 largest private-capital GPs and 5 of 10 largest LPs; monitors $5.9T client invested capital, 15,000 funds, 258,000 companies.",
+      "recommendedAction": "ACT NOW — funding/product-launch narrative window is ~10 days old and closing. This is the hottest lead in the CRM (A/93). Lead with the private-credit platform launch as the earned-media hook.",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/chronograph-announces-140m-growth-equity-investment-from-sixth-street-growth-launches-private-credit-platform-302800776.html"
+    },
+    {
+      "name": "Allium",
+      "pipeline": "pr-marketing",
+      "priorFit": 47,
+      "priorIntent": 44,
+      "priorCombined": 91,
+      "newCombined": 93,
+      "delta": 2,
+      "whatChanged": "$40M Series B (Amplify Partners, with Kleiner Perkins and Theory Ventures), June 23 2026, now fully confirmed. Since Series A: revenue grown 10x+, now 150+ enterprise clients across financial institutions, fintechs and government agencies; data cited by the Federal Reserve and Stanford. NY-based.",
+      "recommendedAction": "Intent +2 (fresh raise reaffirmed + standout growth proof points). Outreach now while Series B coverage is live; the Fed/Stanford citations are a credibility-led media angle.",
+      "sourceUrl": "https://www.businesswire.com/news/home/20260623179873/en/Allium-Raises-$40M-Series-B-to-Power-Blockchain-for-Institutional-Finance"
+    },
+    {
+      "name": "Taktile",
+      "pipeline": "pr-marketing",
+      "priorFit": 44,
+      "priorIntent": 38,
+      "priorCombined": 82,
+      "newCombined": 82,
+      "delta": 0,
+      "whatChanged": "$110M Series C led by Goldman Sachs confirmed. Capital funding forward-deployed engineering expansion, industry-specific product capabilities, and a new São Paulo office (HQ NYC; offices Berlin, London).",
+      "recommendedAction": "Hold A/82. Expansion + international-office trigger supports a growth-story PR angle; geographic expansion (Brazil/LatAm) is a fresh hook beyond the raise.",
+      "sourceUrl": "https://www.fintechfutures.com/venture-capital-funding/taktile-110m-series-c-goldman-sachs"
+    }
+  ],
+  "skippedLeads": [
+    { "name": "JustAI", "reason": "Already captured in daily-scrape-2026-06-25 (pr-marketing, F42/I36). Duplicate." },
+    { "name": "Major Lindsey & Africa (Interim Fund Formation Attorney, Miami, $100-115/hr)", "reason": "Company already in legal-freelance-scrape-2026-06-23. Dedup by company name — skipped despite being a distinct posting." },
+    { "name": "Epiq Counsel (Commercial Contracts Attorney, remote/hybrid Fortune 500)", "reason": "Already in legal-freelance-scrape-2026-06-25. Duplicate." },
+    { "name": "Axiom / Paragon Legal (fund-formation talent networks)", "reason": "Both already in prior legal-freelance reports; no new distinct posting." },
+    { "name": "Poetic ($50M Series A, Kleiner Perkins)", "reason": "Announced June 10 — outside the 24-48h discovery window (16 days old)." },
+    { "name": "Melio (agentic B2B payment network launch)", "reason": "Large/late-stage (well beyond 10-500 employee growth-stage ICP); low pr-marketing fit." },
+    { "name": "Spinach Branding (freelance PR consultant)", "reason": "Lifestyle/luxury/consumer sector — low pr-freelance sector fit (ICP is finance/PE-VC/B2B/fintech). Suppressed per low-fit filter." },
+    { "name": "OpenRouter / Stitch", "reason": "Funding announced mid-May 2026 — outside discovery window." }
+  ],
+  "pipelineStatus": {
+    "pr-marketing": "5 new leads (Caplight, Corgi, Scaled Cognition, Hang Ten, Capchase) + 3 hot refreshes. Most productive pipeline today.",
+    "pr-freelance": "1 new lead (Seed-Series A VC fund via Sapio). Job boards mostly returned aggregator pages; few named, in-window briefs.",
+    "fund-formation": "1 new lead (Star51 Capital). Emerging-manager activity present but most surfaced funds had already closed.",
+    "legal-freelance": "0 new. Every named source (Epiq, MLA, Axiom, Paragon) already in recent reports; nothing cleared dedup.",
+    "legal-consulting": "0 new in-window leads found today.",
+    "coaching-ops": "0 new in-window leads found today.",
+    "media": "0 new in-window leads found today.",
+    "ai-consulting": "0 new buyer-side leads (AI raises found were vendors, routed to pr-marketing, not ai-consulting buyers)."
+  },
+  "trends": [
+    "Private-markets infrastructure is the week's dominant theme: Caplight (data/secondary), Chronograph (PE/private-credit monitoring), Allium (institutional blockchain data) all raised within ~10 days. A coordinated 'institutionalizing private markets' narrative could anchor multiple pitches.",
+    "Agentic AI is now table-stakes language in funding announcements (Scaled Cognition, Capchase 'Agentic Lending Coordinator', Caplight 'agentic workflows') — differentiation, not the AI itself, is the PR need.",
+    "Legal-freelance discovery is saturating on the same handful of ALSPs/staffing firms (Epiq, MLA, Axiom, Paragon). Consider widening to named end-employers (funds/portcos posting directly) or setting Indeed/CareerBuilder alerts to catch fresh first-party postings.",
+    "Most productive sources today: BusinessWire and PR Newswire for funding triggers; SiliconANGLE and fintech.global for AI/fintech raises."
+  ]
+}

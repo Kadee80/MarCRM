@@ -1,0 +1,193 @@
+{
+  "scrapeDate": "2026-07-06",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 5,
+  "note": "7-day sweep across LinkedIn (Google/Bing-indexed only), Indeed, ZipRecruiter, Glassdoor, ACC Jobline, Legal.io, The Mom Project, Major Lindsey & Africa, and Larson Maddox. Most surface results were aggregator/salary pages (ZipRecruiter salary data, Indeed flexible-jobs hubs, Glassdoor counts) rather than distinct employer briefs. Recent recurring employers (Axiom, Beacon Hill, Latitude Legal, Sleep Doctor, Ontra, Legalpeople, Taylor English, etc.) were deduplicated out against the last 7 days of legal-freelance reports. Five genuinely new qualifying leads surfaced. Several strong postings (aVenture, Karra Law) read as evergreen/rolling rather than posted-in-last-72h, so recency was scored conservatively (0). Reported honestly rather than padding with weak or duplicate leads.",
+  "leads": [
+    {
+      "name": "aVenture — Venture Capital Fund Attorney (Remote)",
+      "website": "https://aventure.vc",
+      "pipeline": "legal-freelance",
+      "industry": "Fintech / VC investment platform (retail access to venture funds)",
+      "location": "Remote (worldwide; ~4 hrs/day overlap with US Pacific required)",
+      "fundingStage": "Venture-backed fintech platform; direct posting via Gusto",
+      "fitScore": 50,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "+20 — fund formation/registration, VC fund setup, regulatory compliance for private/public funds",
+        "seniority": "+10 — counsel-level legal advisor role, own the fund legal stack",
+        "comp_credible": "+10 — comp stated ($80K-$120K equivalent; fixed monthly or hourly), market-credible and part-time-friendly",
+        "fund_focus": "+10 — explicit VC/private fund formation, subscription docs, side letters, service-provider contracts"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — part-time available, fixed monthly rate OR hourly; true fractional/contract operator model",
+        "remote_flex": "+15 — fully remote, work from anywhere",
+        "recency": "0 — posting reads evergreen/rolling; not confirmed within 72h",
+        "apply_path": "+10 — direct-apply via Gusto job posting"
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "part-time",
+      "buyerType": "fund",
+      "compensationText": "$80K-$120K equivalent; fixed rate per month or hourly rate; full-time or part-time",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Full-time or part-time; fixed monthly or hourly contract",
+      "urgencyScore": 55,
+      "contacts": [
+        { "name": "", "title": "Hiring team", "email": "", "linkedin": "" }
+      ],
+      "signals": ["fund formation", "private funds", "VC", "part-time", "hourly", "remote", "securities/regulatory", "direct apply"],
+      "source": "Gusto / Glassdoor (web search)",
+      "sourceUrl": "https://jobs.gusto.com/postings/aventure-investment-company-venture-capital-fund-attorney-6ade1aa1-d8c3-4622-b95d-f856899b023a",
+      "notes": "STRONGEST FIT this run. Buyer is a fintech platform building VC fund products and explicitly wants a fractional/hourly counsel to own fund registration, service-provider contracts (admin/custodian/auditor), registration statements, and operating agreements — squarely on-ICP (fund formation + maintenance). Part-time/hourly engagement is exactly Katie's model. Comp band is on the lower side ($80-120K equiv), so pitch a defined-scope monthly retainer rather than an hourly grind. PITCH ANGLE: 'Fractional fund counsel who has stood up Fund I/II vehicles end-to-end — I can own your fund-formation and service-provider paper on a fixed monthly scope.' CAVEAT: posting appears evergreen; confirm it is still live and gauge urgency before investing in a tailored pitch."
+    },
+    {
+      "name": "Larson Maddox — Funds / Investment Management Attorney (Fully Remote)",
+      "website": "https://www.larsonmaddox.com",
+      "pipeline": "legal-freelance",
+      "industry": "Legal & regulatory staffing / recruiting (placing into tier-1 investment firm)",
+      "location": "Remote (US)",
+      "fundingStage": "Staffing placement — end client is a tier-1 investment/asset-management firm",
+      "fitScore": 40,
+      "intentScore": 20,
+      "fitDetails": {
+        "practice_area": "+20 — funds / investment management / private funds mandate",
+        "seniority": "+10 — counsel-level investment funds attorney",
+        "comp_credible": "0 — comp not published",
+        "fund_focus": "+10 — investment management + private funds core to the role"
+      },
+      "intentDetails": {
+        "engagement_model": "0 — recruiter places both permanent and contract; engagement model not confirmed as freelance/fractional",
+        "remote_flex": "+15 — fully remote",
+        "recency": "0 — active listing, exact posting date not confirmed",
+        "apply_path": "+5 — apply via recruiter contact / firm portal"
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "contract",
+      "buyerType": "staffing",
+      "compensationText": "Not published",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Recruiter placement (permanent or contract; not specified)",
+      "urgencyScore": 40,
+      "contacts": [
+        { "name": "", "title": "Legal recruiter", "email": "", "linkedin": "https://www.linkedin.com/company/larson-maddox" }
+      ],
+      "signals": ["funds", "investment management", "private funds", "remote", "staffing/recruiter", "tier-1 investment firm"],
+      "source": "Larson Maddox (web search)",
+      "sourceUrl": "https://www.larsonmaddox.com/en-us/job/fundsinvestment-management-attorney-fully-remote-pr591520_1778104040",
+      "notes": "RELATIONSHIP / CHANNEL lead more than a direct gig. Larson Maddox is a legal-staffing recruiter that repeatedly posts remote funds/investment-management and securities counsel roles — worth building a standing relationship so Katie is on their bench for interim/contract funds work. This specific role may be permanent; confirm engagement model. PITCH ANGLE: introduce Katie to the recruiter as available for interim/fractional funds & investment-management engagements; ask to be added to their contract-counsel roster."
+    },
+    {
+      "name": "Karra Law — Emerging Company / Venture Capital Attorney (Remote, Contract)",
+      "website": "https://www.careers-page.com/karralaw",
+      "pipeline": "legal-freelance",
+      "industry": "Boutique NYC corporate/tech law firm (startups & high-growth companies)",
+      "location": "Remote (US; NY-based firm)",
+      "fundingStage": "Boutique law firm — direct contract engagement",
+      "fitScore": 20,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "+10 — venture financings, SAFEs, convertible notes, seed/Series A prep (corporate/venture/securities)",
+        "seniority": "+10 — experienced/senior attorney sought",
+        "comp_credible": "0 — comp not published",
+        "fund_focus": "0 — emerging-company (issuer) side, not fund-formation/LP-GP side"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — explicit contract basis",
+        "remote_flex": "+15 — fully remote",
+        "recency": "0 — rolling/evergreen contract posting",
+        "apply_path": "+10 — direct-apply via firm careers page / Justia"
+      },
+      "vertical": "legal",
+      "subvertical": "financing",
+      "engagementModel": "contract",
+      "buyerType": "law-firm",
+      "compensationText": "Not published",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contract (of-counsel / overflow attorney)",
+      "urgencyScore": 45,
+      "contacts": [
+        { "name": "", "title": "Hiring / Recruiting", "email": "", "linkedin": "" }
+      ],
+      "signals": ["contract", "remote", "venture financing", "SAFEs", "convertible notes", "Series A", "law-firm overflow"],
+      "source": "Justia Legal Jobs / Karra Law careers (web search)",
+      "sourceUrl": "https://jobs.justia.jobs/job/0eb3193cafb86aee601b969333408a9f",
+      "notes": "Law-firm overflow/of-counsel contract work — the firm places contract attorneys on early-stage financing matters. On the issuer/venture side (SAFEs, notes, seed/Series A) rather than fund-formation, so a solid but not perfect ICP fit. Good recurring-work potential if the relationship sticks. PITCH ANGLE: offer as senior contract counsel for their emerging-company financing overflow; emphasize speed on SAFE/note/Series A papering. Karra runs several rolling remote-contract postings (IP, litigation, corporate) — one intake likely covers all."
+    },
+    {
+      "name": "Major, Lindsey & Africa — Interim Senior Counsel, Technology Transactions (100% Remote)",
+      "website": "https://www.mlaglobal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Interim legal talent staffing (deal-based overflow for corporate legal depts & law firms)",
+      "location": "Remote (National, US; role nominally Peachtree Corners, GA)",
+      "fundingStage": "Interim staffing placement (3+ month assignment)",
+      "fitScore": 20,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "+10 — technology transactions / commercial contracts",
+        "seniority": "+10 — senior counsel level",
+        "comp_credible": "0 — comp not published",
+        "fund_focus": "0 — commercial/tech transactions, not funds"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — explicit interim / assignment-based contract",
+        "remote_flex": "+15 — 100% remote, national",
+        "recency": "+5 — immediate-need signal (interim talent, project-based)",
+        "apply_path": "+5 — apply via MLA careers portal / recruiter"
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "interim",
+      "buyerType": "staffing",
+      "compensationText": "Not published (interim/assignment day-rate typical)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Interim / contract assignment, 3+ months",
+      "urgencyScore": 60,
+      "contacts": [
+        { "name": "", "title": "Interim Legal Talent recruiter", "email": "", "linkedin": "" }
+      ],
+      "signals": ["interim", "contract", "remote", "technology transactions", "commercial contracts", "immediate need", "staffing bench"],
+      "source": "Major, Lindsey & Africa careers (web search)",
+      "sourceUrl": "https://careers.mlaglobal.com/us/en/job/221927/Interim-Senior-Counsel-Technology-Transactions-100-Remote-National",
+      "notes": "MLA's Interim Legal Talent group is a premier bench for exactly Katie's model (project/assignment-based counsel). This specific brief is tech-transactions/commercial-contracts — adjacent to her core corporate/fund work but a legitimate commercial-contracts engagement. Highest strategic value is getting onto MLA's interim roster. PITCH ANGLE: apply to this brief AND ask to be added to MLA's interim funds/corporate bench for future assignments; lead with commercial-contracts + corporate governance breadth."
+    },
+    {
+      "name": "The Mom Project (for Etsy) — Interim Securities Counsel (Remote, EST)",
+      "website": "https://themomproject.com",
+      "pipeline": "legal-freelance",
+      "industry": "Public-company (Etsy) securities/corporate counsel, sourced via flexible-talent marketplace",
+      "location": "Remote (US, EST hours; occasional Brooklyn, NY travel)",
+      "fundingStage": "Public company (Etsy) — contract engagement via marketplace",
+      "fitScore": 20,
+      "intentScore": 35,
+      "fitDetails": {
+        "practice_area": "+10 — securities/corporate: SEC filings (10-K/10-Q/8-K, proxy, S-8, Section 16), NASDAQ/SEC compliance",
+        "seniority": "+10 — experienced securities counsel",
+        "comp_credible": "0 — comp not published",
+        "fund_focus": "0 — public-company securities/disclosure, not private funds"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — explicit contract/interim basis",
+        "remote_flex": "+15 — remote (EST), occasional office travel",
+        "recency": "0 — listing live; exact posting date not confirmed",
+        "apply_path": "+5 — apply via The Mom Project marketplace"
+      },
+      "vertical": "legal",
+      "subvertical": "securities",
+      "engagementModel": "contract",
+      "buyerType": "operating-company",
+      "compensationText": "Not published",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contract / interim (marketplace placement)",
+      "urgencyScore": 40,
+      "contacts": [
+        { "name": "", "title": "The Mom Project talent team", "email": "", "linkedin": "" }
+      ],
+      "signals": ["interim", "contract", "remote", "securities", "SEC filings", "public company", "Etsy", "marketplace"],
+      "source": "The Mom Project (web search)",
+      "sourceUrl": "https://themomproject.com/projects/interim-securities-counsel-remote-est-f85959128b",
+      "notes": "Lowest-scoring lead this run (C grade, exactly at the 55 threshold). Strong brand (Etsy) and clean interim/contract engagement, but the work is public-company disclosure/securities compliance rather than Katie's fund/PE sweet spot. Include as a marketplace-relationship signal: The Mom Project regularly posts corporate/securities/contracts counsel gigs (also 'Corporate & Securities Attorney' and 'Contracts Counsel' live now) worth being registered for. PITCH ANGLE: only pursue if Katie wants public-company securities reps; otherwise register on The Mom Project for future corporate/fund-adjacent contract briefs."
+    }
+  ]
+}

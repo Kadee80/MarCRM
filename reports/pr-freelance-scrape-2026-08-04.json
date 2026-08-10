@@ -1,0 +1,263 @@
+{
+  "scrapeDate": "2026-08-04",
+  "scrapeType": "pr-freelance",
+  "totalLeads": 5,
+  "note": "Enhanced PR Freelance scrape, 7-day window. 5 new leads scoring 55+ after dedup against prior daily-scrape and pr-freelance-scrape reports (Jun 30 - Aug 3). This run skews toward fractional/interim marketplaces and white-label agency-overflow partners rather than single named operating-company postings, which were thin this week. Prior-captured leads (Four Pines Fund, Torry Harris, Thumbtack, Zy Media, Neolytix, PagerDuty, Wilson PR, 10to1, TrizCom, Mission North, Go Fractional/PagerDuty) were excluded as duplicates.",
+  "leads": [
+    {
+      "name": "Go Fractional — Investor Relations & Internal Communications Marketplace (Bench Membership)",
+      "website": "https://www.gofractional.com",
+      "pipeline": "pr-freelance",
+      "industry": "US fractional-executive marketplace matching pre-vetted senior operators to companies for fractional, interim, or full-time engagements. Runs dedicated Investor Relations Manager and Internal Communications Manager benches (1,400+ vetted comms/IR practitioners) and brokers interim comms roles (e.g., it placed the PagerDuty Interim Director of Communications). Buyers are venture/PE-backed and pre-IPO companies needing comms/IR help fast.",
+      "location": "Remote (US)",
+      "fundingStage": "Marketplace / platform (clients are venture & PE-backed, pre-IPO)",
+      "fitScore": 45,
+      "intentScore": 30,
+      "fitDetails": {
+        "pr_remit": "+20 — dedicated communications and investor-relations remit; matches senior comms/IR execution directly",
+        "sector_fit": "+15 — clients skew finance-adjacent, PE/VC-backed and pre-IPO (IR readiness is a headline use case)",
+        "workstream": "+10 — investor/IR narrative, internal comms, executive comms, interim comms leadership",
+        "buyer_quality": "+0 — marketplace/intermediary, not a direct operating-company hire",
+        "urgency": "included in intent"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — fractional / interim engagements are the core product",
+        "remote_flex": "+10 — remote, flexible, part-time by design",
+        "recency": "+0 — evergreen marketplace, not a dated posting",
+        "urgency_signals": "+0 — no single ASAP posting; steady flow of interim briefs",
+        "apply_path": "+5 — clear self-serve path to join the operator bench"
+      },
+      "vertical": "pr",
+      "subvertical": "investor-pr",
+      "engagementModel": "fractional",
+      "buyerType": "staffing",
+      "compensationText": "Varies by engagement (fractional/interim; rates set per brief)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional / interim / project engagements via marketplace",
+      "urgencyScore": 55,
+      "contacts": [
+        {
+          "name": null,
+          "title": "Operator onboarding (join the bench via site)",
+          "email": null,
+          "linkedin": "https://www.linkedin.com/company/gofractional"
+        }
+      ],
+      "signals": [
+        "fractional",
+        "interim",
+        "investor relations",
+        "internal communications",
+        "pre-IPO",
+        "remote"
+      ],
+      "source": "Web search — Go Fractional (IR & Internal Comms hire pages, jobs board), Aug 2026",
+      "sourceUrl": "https://www.gofractional.com/hire/investor-relations-manager",
+      "notes": "Grade B (combined 75) — hottest of the run as a recurring channel rather than a one-off. Go Fractional is a repeatable source of interim/fractional comms & IR briefs aimed at exactly Mark's buyer set (PE/VC-backed, pre-IPO, IR-readiness). It already brokered the PagerDuty interim comms role we logged earlier. ACTION: get Mark listed on the IR + Internal Comms benches with an IR-readiness / earned-media positioning; treat it as an ongoing inbound pipe, not a single application."
+    },
+    {
+      "name": "VMA Group — Interim Communications & Investor Relations Specialist Network",
+      "website": "https://vmagroup.com",
+      "pipeline": "pr-freelance",
+      "industry": "International executive-search and interim recruiter specialising in communications, corporate affairs, and investor relations. Maintains a network of interim comms/IR specialists placed at short notice into corporates, financial services, and PE/VC-backed businesses across the US, UK, and EU.",
+      "location": "Remote / hybrid (US, UK, EU)",
+      "fundingStage": "Recruiter / interim network (clients span corporates and financial services)",
+      "fitScore": 45,
+      "intentScore": 25,
+      "fitDetails": {
+        "pr_remit": "+20 — dedicated communications / corporate affairs remit",
+        "sector_fit": "+15 — strong financial-services and IR specialism (asset management, corporate comms)",
+        "workstream": "+10 — interim comms leadership, investor relations, corporate/executive comms",
+        "buyer_quality": "+0 — recruiter/intermediary rather than direct hire",
+        "urgency": "included in intent"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — interim engagements are the core offering",
+        "remote_flex": "+5 — hybrid/remote depending on client brief",
+        "recency": "+0 — evergreen network, not a dated posting",
+        "urgency_signals": "+0 — 'start at short notice' but no single ASAP brief",
+        "apply_path": "+5 — register with the interim desk"
+      },
+      "vertical": "pr",
+      "subvertical": "comms",
+      "engagementModel": "interim",
+      "buyerType": "staffing",
+      "compensationText": "Day-rate / interim (set per client brief)",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Interim / contract via specialist recruiter",
+      "urgencyScore": 45,
+      "contacts": [
+        {
+          "name": null,
+          "title": "Interim & IR desk (register as interim specialist)",
+          "email": null,
+          "linkedin": "https://www.linkedin.com/company/vma-group"
+        }
+      ],
+      "signals": [
+        "interim",
+        "communications",
+        "investor relations",
+        "corporate affairs",
+        "financial services",
+        "short notice"
+      ],
+      "source": "Web search — VMA Group (Investor Relations / interim comms specialisms), Aug 2026",
+      "sourceUrl": "https://vmagroup.com/communications/investor-relations/",
+      "notes": "Grade B (combined 70). Comms/IR-specialist recruiter with a genuine financial-services book — a strong ongoing channel for interim corporate-comms and IR briefs that fit Mark's finance-heavy ICP. ACTION: register Mark with the interim/IR desk, positioning senior earned-media + investor-narrative capability; nurture the relationship for repeat placements."
+    },
+    {
+      "name": "The James Collective — Freelance PR & Media Relations Consultant",
+      "website": "https://www.theprnet.com",
+      "pipeline": "pr-freelance",
+      "industry": "PR / communications agency hiring an external freelance PR & media relations consultant to drive media coverage and influencer engagement across its client roster. Remote, part-time engagement (~10–20 hours/month) — classic agency-overflow execution support.",
+      "location": "Remote (US)",
+      "fundingStage": "Agency (client-services)",
+      "fitScore": 35,
+      "intentScore": 30,
+      "fitDetails": {
+        "pr_remit": "+20 — explicit PR & media relations consultant remit (media coverage + influencer engagement)",
+        "sector_fit": "+0 — agency's client mix not finance-specific in the posting",
+        "workstream": "+10 — media relations / earned media execution",
+        "buyer_quality": "+5 — agency overflow / white-label execution support (immediate need)",
+        "urgency": "included in intent"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — true freelance consultant engagement",
+        "remote_flex": "+10 — 100% remote, part-time (10–20 hrs/mo)",
+        "recency": "+0 — active listing; posted date not confirmable within 72h",
+        "urgency_signals": "+0 — no explicit ASAP language",
+        "apply_path": "+5 — direct apply via The PR Net job listing"
+      },
+      "vertical": "pr",
+      "subvertical": "media-relations",
+      "engagementModel": "freelance",
+      "buyerType": "agency",
+      "compensationText": "Not stated (part-time, ~10–20 hrs/month)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Freelance / part-time consultant (remote)",
+      "urgencyScore": 50,
+      "contacts": [
+        {
+          "name": null,
+          "title": "Hiring contact (apply via The PR Net)",
+          "email": null,
+          "linkedin": null
+        }
+      ],
+      "signals": [
+        "freelance",
+        "media relations",
+        "agency overflow",
+        "remote",
+        "part-time",
+        "influencer engagement"
+      ],
+      "source": "Web search — The PR Net jobs board (job 1745), Aug 2026",
+      "sourceUrl": "https://www.theprnet.com/jobs/1745",
+      "notes": "Grade B (combined 65). Clean agency-overflow freelance brief — media relations execution, remote, low-hours, easy to plug into around other work. Sector isn't finance-specific, so fit is capped, but it's a real named posting with a direct apply path. ACTION: apply with earned-media placement samples; frame as fast plug-in overflow support the agency can hand clients to immediately."
+    },
+    {
+      "name": "No Strings Public Relations — White-Label PR Execution Partner (UK & US)",
+      "website": "https://www.nostringspublicrelations.com",
+      "pipeline": "pr-freelance",
+      "industry": "PR firm offering white-label PR delivery for SEO and marketing agencies across the UK and US — resells media mentions, digital PR campaigns, and press coverage under partner agencies' brands. Recruits external PR execution partners to fulfil overflow demand.",
+      "location": "Remote (UK & US)",
+      "fundingStage": "Agency (white-label)",
+      "fitScore": 35,
+      "intentScore": 25,
+      "fitDetails": {
+        "pr_remit": "+20 — pure PR / media-mention / digital-PR remit",
+        "sector_fit": "+0 — agency-client mix not finance-specific",
+        "workstream": "+10 — media relations, digital PR, earned coverage",
+        "buyer_quality": "+5 — white-label / agency-overflow model (recurring execution demand)",
+        "urgency": "included in intent"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — white-label freelance execution partner",
+        "remote_flex": "+10 — remote, project-based",
+        "recency": "+0 — evergreen partner recruitment",
+        "urgency_signals": "+0 — no dated ASAP brief",
+        "apply_path": "+0 — partner enquiry via site contact form only"
+      },
+      "vertical": "pr",
+      "subvertical": "agency-overflow",
+      "engagementModel": "freelance",
+      "buyerType": "agency",
+      "compensationText": "Project / per-campaign (white-label rates)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "White-label freelance execution partner",
+      "urgencyScore": 40,
+      "contacts": [
+        {
+          "name": null,
+          "title": "Partnerships (white-label enquiry via site)",
+          "email": null,
+          "linkedin": "https://www.linkedin.com/company/no-strings-pr"
+        }
+      ],
+      "signals": [
+        "white-label",
+        "agency overflow",
+        "digital PR",
+        "media mentions",
+        "remote",
+        "project-based"
+      ],
+      "source": "Web search — No Strings Public Relations (white-label PR page), Aug 2026",
+      "sourceUrl": "https://www.nostringspublicrelations.com/white-label-pr",
+      "notes": "Grade B (combined 60). White-label overflow partner in the same vein as Wilson PR / 10to1 / TrizCom already in the pipeline — a way for Mark to earn recurring behind-the-scenes execution work through agencies without owning the client. UK & US footprint widens the channel. ACTION: send a white-label partnership enquiry offering senior media-relations execution capacity; ask about typical brief volume and rate structure."
+    },
+    {
+      "name": "ALM Corp — White-Label Online PR Services Partner",
+      "website": "https://almcorp.com",
+      "pipeline": "pr-freelance",
+      "industry": "Marketing services firm offering white-label online PR under partner agencies' brands — strategy, outreach, content, media placement, monitoring, and reporting, all rebranded as the reselling agency's work. Uses external PR practitioners to deliver placements at volume.",
+      "location": "Remote",
+      "fundingStage": "Agency (white-label / marketing services)",
+      "fitScore": 30,
+      "intentScore": 25,
+      "fitDetails": {
+        "pr_remit": "+20 — full-funnel PR delivery (outreach, media placement, reporting)",
+        "sector_fit": "+0 — general marketing-agency clients, not finance-specific",
+        "workstream": "+5 — media placement + content, but leans digital-PR/backlink rather than senior earned-media strategy",
+        "buyer_quality": "+5 — white-label / agency-overflow model",
+        "urgency": "included in intent"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — white-label freelance delivery partner",
+        "remote_flex": "+10 — remote, project-based",
+        "recency": "+0 — evergreen partner recruitment",
+        "urgency_signals": "+0 — no dated ASAP brief",
+        "apply_path": "+0 — enquiry via site only"
+      },
+      "vertical": "pr",
+      "subvertical": "agency-overflow",
+      "engagementModel": "freelance",
+      "buyerType": "agency",
+      "compensationText": "Project / per-placement (white-label rates)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "White-label freelance PR delivery partner",
+      "urgencyScore": 35,
+      "contacts": [
+        {
+          "name": null,
+          "title": "Partnerships (white-label enquiry via site)",
+          "email": null,
+          "linkedin": null
+        }
+      ],
+      "signals": [
+        "white-label",
+        "agency overflow",
+        "media placement",
+        "content",
+        "remote",
+        "project-based"
+      ],
+      "source": "Web search — ALM Corp (white-label online PR services), Aug 2026",
+      "sourceUrl": "https://almcorp.com/white-label-services/white-label-social-media-marketing/white-label-online-pr-services/",
+      "notes": "Grade C (combined 55). Lowest-priority lead of the run — genuine white-label overflow demand, but the offering leans digital-PR/backlink volume rather than senior strategic earned media, so it undervalues Mark's level. Keep as a lower-tier overflow option. ACTION: only pursue if capacity is idle; if so, pitch senior media-relations strategy as an upsell over their commodity delivery."
+    }
+  ]
+}

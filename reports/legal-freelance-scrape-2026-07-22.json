@@ -1,0 +1,149 @@
+{
+  "scrapeDate": "2026-07-22",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 3,
+  "note": "7-day window. Fund-focused freelance postings remain scarce on public boards; the fractional job boards (Fractional Jobs, Go Fractional) surfaced multiple legal listings this week but the fund/corporate ones were either already captured (Battlement Systems, PsychPlus — 7/15) or stale/closed (Kindness for Capital added 9/2/2025 CLOSED; LWD Advisors added 2/18/2024 CLOSED; Stealth Startup added 2/14/2024 CLOSED, and comp-&-benefits specialty off-ICP). The three leads below all come from legal staffing/ALSP channels (MLA, Axiom, Latitude), which is where the genuine contract/interim fund and corporate work is concentrating. All are new companies not present in the 7/15–7/21 reports.",
+  "leads": [
+    {
+      "name": "Major, Lindsey & Africa — Interim Fund Formation Attorney (Miami)",
+      "website": "https://www.mlaglobal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Legal recruiting and interim legal talent firm (Allegis Group); places interim, contract, and permanent legal talent with law firms, corporations, and investment funds",
+      "location": "Miami, FL (interim engagement; remote/hybrid not confirmed in posting)",
+      "fundingStage": "Established legal talent firm (interim placement into a fund/law-firm client)",
+      "fitScore": 50,
+      "intentScore": 25,
+      "fitDetails": {
+        "practice_area": "Fund formation — direct ICP hit; interim mandate for a fund/PE client",
+        "seniority": "Attorney/counsel level, fund formation specialist — matches",
+        "comp_credible": "Yes — $100–$115/hr stated, market-credible interim rate",
+        "fund_focus": "Explicit — fund formation is the core of the role"
+      },
+      "intentDetails": {
+        "engagement_model": "Interim, explicitly — MLA interim legal talent placement",
+        "remote_flex": "Not confirmed — posting is Miami-based; MLA interim roles are often remote-capable but this one does not state it",
+        "recency": "Posting recency not stated on the aggregator; surfaced within the 7-day window",
+        "apply_path": "Direct via MLA recruiter / ZipRecruiter listing — easy apply through a placement contact"
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "interim",
+      "buyerType": "staffing",
+      "compensationText": "$100–$115 per hour (interim)",
+      "remoteFlag": "",
+      "employmentTypeRaw": "Interim / contract attorney placement, Miami, FL",
+      "urgencyScore": 70,
+      "contacts": [
+        {
+          "name": "Major, Lindsey & Africa — Interim Legal Talent Team",
+          "title": "Recruiter (interim placements)",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/major-lindsey-&-africa"
+        }
+      ],
+      "signals": [
+        "Interim engagement model — exactly the ICP's fractional/interim buyer shape",
+        "Fund formation is the explicit practice area — the highest-value, hardest-to-find signal for this pipeline",
+        "Comp stated ($100–115/hr) and credible for interim fund work",
+        "Placed through MLA, a top-tier interim legal talent firm — a relationship here can produce repeat fund placements"
+      ],
+      "source": "Major, Lindsey & Africa via ZipRecruiter (Interim Fund Formation Attorney, Miami FL)",
+      "sourceUrl": "https://www.ziprecruiter.com/c/Major-Lindsey-&-Africa/Job/Interim-Fund-Formation-Attorney/-in-Miami,FL?jid=e8159d3b819aaba5",
+      "notes": "Grade B (combined 75) — the headline lead of this run and the only true fund-formation opportunity found in the 7-day window. WHAT IT IS: MLA (interim legal talent arm of Allegis) is placing an interim fund formation attorney with a fund/PE client, $100–115/hr. WHY IT FITS: near-exact ICP match — fund formation practice area + interim engagement model + a placement firm that runs continuous interim fund/corporate mandates. This is the single most on-target posting in four-plus consecutive runs. WHAT DRAGS THE SCORE: intent is only 25 because (a) the posting is Miami-based and does NOT confirm remote, and (b) posting recency could not be verified on the aggregator. CAVEATS: (1) Confirm remote/hybrid before investing time — if it is genuinely Miami-onsite it may be a non-starter, though MLA can often flex an interim engagement to remote. (2) Verify the role is still open; ZipRecruiter aggregator listings can lag. (3) 'Interim' here likely means a defined-term W-2/1099 placement through MLA rather than a direct freelance client relationship — employmentTypeRaw (interim placement) and engagementModel (interim) both apply. PITCH: the higher-value move is not just this one role — it is getting into MLA's interim fund/corporate bench so Katie sees a stream of these. Reach out to the MLA interim legal talent recruiter, note fund formation + corporate governance depth and interim availability, and ask to be considered for this Miami role AND future remote interim fund mandates. ACTION: contact the MLA recruiter directly; lead with fund-formation credentials and interim availability, and ask about remote flexibility on this specific engagement."
+    },
+    {
+      "name": "Latitude Legal — Corporate Attorney, Securities & Corporate Governance (Remote Contract)",
+      "website": "https://latitudelegal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Flexible legal talent firm (ALSP) placing former in-house and Big Law attorneys into contract engagements with corporations and law firms nationwide; Chambers NewLaw-ranked",
+      "location": "Remote (anywhere in the US)",
+      "fundingStage": "Established ALSP / flexible legal talent firm",
+      "fitScore": 20,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Corporate securities and corporate governance — solid corporate fit, no fund-formation angle",
+        "seniority": "Former in-house / corporate practice group / Big Law background preferred — counsel level, matches",
+        "comp_credible": "Not stated in the posting",
+        "fund_focus": "None"
+      },
+      "intentDetails": {
+        "engagement_model": "Contract engagement, explicitly — Latitude's remote contract model",
+        "remote_flex": "Fully remote — work from anywhere in the US",
+        "recency": "Open role on Latitude's board; recency not date-stamped in the listing",
+        "apply_path": "Easy apply through Latitude's jobs portal / recruiter"
+      },
+      "vertical": "legal",
+      "subvertical": "securities",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Remote contract engagement, corporate securities & governance, US",
+      "urgencyScore": 60,
+      "contacts": [
+        {
+          "name": "Latitude Legal — Placement Team",
+          "title": "Recruiter (flexible/contract engagements)",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/latitude-legal"
+        }
+      ],
+      "signals": [
+        "Fully remote, contract engagement — strong intent signals (remote + contract model)",
+        "Corporate securities and corporate governance scope — core corporate practice fit",
+        "Latitude is a Chambers NewLaw-ranked ALSP with recurring corporate contract flow — relationship value beyond this one role",
+        "Former in-house / Big Law background preferred — seniority matches Katie's profile"
+      ],
+      "source": "Latitude Legal open opportunities (job 5077)",
+      "sourceUrl": "https://latitudelegal.com/jobs/5077",
+      "notes": "Grade B (combined 60). WHAT IT IS: a fully remote contract engagement for a corporate securities & corporate governance attorney, placed through Latitude Legal (ALSP). WHY IT FITS: clean corporate/securities/governance fit with two strong intent signals — remote-from-anywhere AND explicit contract engagement model. NO FUND ANGLE, which caps fit at 20 (corporate + seniority only; comp not stated). NOTE ON DEDUP: Latitude Legal already appears in the CRM from the 7/17 run (a Commercial Contracts Attorney role). This is a DIFFERENT posting (securities & governance), so it is a distinct lead record, but the practical takeaway is the same — the real asset is the Latitude relationship, not any single posting. The import guard dedupes by exact company-name string, and this name differs from the 7/17 record, so it will insert as its own row; if Katie would rather consolidate all Latitude activity under one company record, merge manually. PITCH: rather than applying cold to job 5077, treat Latitude as a standing channel — get on their flexible-talent roster for corporate/securities/governance and commercial contracts work so multiple remote contract engagements flow to her. ACTION: apply/register through Latitude's portal and name both this securities role and general corporate contract availability."
+    },
+    {
+      "name": "Axiom — Securities & Prime Brokerage Counsel (On-Demand, US)",
+      "website": "https://www.axiomlaw.com",
+      "pipeline": "legal-freelance",
+      "industry": "Alternative legal services provider (ALSP); 25+ years, 1,500+ legal departments, on-demand legal talent via secondments, projects, and specialized advice across 12 practice areas",
+      "location": "US — New York (Axiom engagements are typically remote-capable / flexible)",
+      "fundingStage": "Established global ALSP",
+      "fitScore": 30,
+      "intentScore": 35,
+      "fitDetails": {
+        "practice_area": "Securities / prime brokerage / financial-services regulatory — corporate-securities fit; funds-adjacent (serves asset managers) but not fund formation",
+        "seniority": "3+ years securities/financial-services counsel — counsel level, matches (arguably junior-leaning)",
+        "comp_credible": "Yes — Axiom states $104.5K–$325K total comp range for attorney roles",
+        "fund_focus": "Indirect — prime brokerage and margin work serves funds/asset managers, but this is not a fund-formation mandate"
+      },
+      "intentDetails": {
+        "engagement_model": "On-demand / secondment / specialized advice — Axiom's flexible ALSP model",
+        "remote_flex": "Axiom talent work is generally remote-capable; posting lists NY but flexibility is core to the model",
+        "recency": "Listed as an existing vacancy — open, not date-stamped to within 72h",
+        "apply_path": "Easy — direct Apply Now into Axiom's talent network"
+      },
+      "vertical": "legal",
+      "subvertical": "securities",
+      "engagementModel": "consultant",
+      "buyerType": "ALSP",
+      "compensationText": "Est. total comp $104,500–$325,000/yr for Axiom attorney roles (engagement-dependent)",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "On-demand / secondment attorney, Financial Services team, US-NY",
+      "urgencyScore": 55,
+      "contacts": [
+        {
+          "name": "Axiom — Legal Talent / Financial Services",
+          "title": "Talent recruiting (on-demand attorneys)",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/axiom_law"
+        }
+      ],
+      "signals": [
+        "ALSP on-demand / secondment model — flexible engagement structure fits the freelance ICP",
+        "Securities & financial-services regulatory scope (margin, Reg T/U, FINRA 4210) — corporate-securities fit",
+        "Serves asset managers and financial institutions — funds-adjacent client base, useful network",
+        "Comp range disclosed and market-credible; easy direct application into Axiom's bench"
+      ],
+      "source": "Axiom Law careers — Securities & Prime Brokerage Counsel (available positions 8036201002)",
+      "sourceUrl": "https://www.axiomlaw.com/careers/lawyers/available-positions/8036201002",
+      "notes": "Grade B (combined 65). WHAT IT IS: a securities & prime brokerage counsel role in Axiom's Financial Services talent bench — on-demand/secondment ALSP work advising financial institutions on securities agreements, margin lending, and regulatory compliance. WHY IT FITS: corporate-securities practice fit plus a flexible ALSP engagement model, and a client base (asset managers, financial institutions) that is adjacent to Katie's fund/corporate target market. WHAT LIMITS IT: (1) practice scope is prime brokerage / margin regulation (Reg T/U, FINRA 4210), which is a financial-services-regulatory niche, not fund formation or general corporate — confirm this is squarely in Katie's wheelhouse before pursuing; if her securities depth is corporate/capital-markets rather than trading/margin, this is a weaker fit than the score suggests. (2) Posting lists NY and '3+ years,' which reads more mid-level; Axiom benches are broad, so seniority is flexible, but the specific mandate may want a margin/prime-brokerage specialist. (3) 'Existing vacancy' — open but not freshly posted. STRATEGIC ANGLE: like Latitude and MLA, the durable value is getting onto Axiom's on-demand attorney network for corporate/commercial/finance work generally, not this single securities role. PITCH: apply into Axiom's talent network positioning corporate + commercial contracts + funds-adjacent experience; use this posting as the entry point even if the exact prime-brokerage mandate isn't the perfect fit. ACTION: submit through Axiom's Apply Now; frame availability for secondment/project corporate & finance work, and be candid in the note about depth of margin/prime-brokerage experience."
+    }
+  ]
+}

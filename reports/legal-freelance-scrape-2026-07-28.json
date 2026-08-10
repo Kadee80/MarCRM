@@ -1,0 +1,193 @@
+{
+  "scrapeDate": "2026-07-28",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 5,
+  "note": "7-day window (7/21-7/28). 5 new leads, all 55+. Deduplicated against legal-freelance, pr-freelance, and daily scrapes 7/14-7/24. Skipped as duplicates/stale (re-surfaced this week): Allocate, aVenture, Axiom, Latitude Legal, Paragon Legal, Epiq Counsel, Priori Legal, Robert Half Legal, Major Lindsey & Africa, Outside GC/OGC, Fractionus/NextGrad, Go Fractional, Tower Legal, Broughton, Bowery, Legal.io. Excluded off-ICP / stale: Safeguard Global 'M&A Legal Counsel (Contract)' on Built In (verified REMOVED May 2025 — dead posting, not counted); generic fractional-GC marketing pages (Acquisition Stars, AMBART, SVTechLaws, Faison, Krowne, Next Era) that are service-provider sites without an open freelance-counsel intake; Toptal hedge-fund consultants (finance, not legal). MARKET NOTE: fresh named single job reqs were thin this week — the fund-specific postings that surfaced (Allocate, aVenture, Broughton, Bowery) were all already captured in prior scrapes. This week's genuinely new, ICP-fit opportunities are all in the flexible-talent/marketplace/outsourced-GC channel — evergreen benches actively taking counsel intake. All clear 55 but grade B (no fresh, dated single posting with stated comp this window).",
+  "leads": [
+    {
+      "name": "Lawtrades — Corporate & Commercial Counsel Talent Network (Remote, Project/Fractional)",
+      "website": "https://www.lawtrades.com",
+      "pipeline": "legal-freelance",
+      "industry": "Tech-enabled legal talent marketplace placing vetted freelance, contract, and fractional attorneys (generalists to specialists) into legal departments from startups to Fortune 500. Practice areas include product counsel, commercial contracts, and corporate/general counsel.",
+      "location": "Remote (US); part-time, full-time, or project-based",
+      "fundingStage": "Established venture-backed legal marketplace / ALSP",
+      "fitScore": 20,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Commercial contracts, product/corporate counsel, fractional GC across in-house legal departments",
+        "seniority": "Counsel / GC level (marketplace places specialists and fractional leads)",
+        "comp_credible": "Rates market-set per engagement (not stated per-role)",
+        "fund_focus": "Indirect — corporate/commercial, VC-backed startup clients; no dedicated fund practice"
+      },
+      "intentDetails": {
+        "engagement_model": "Freelance / contract / project — scalable up or down",
+        "remote_flex": "Fully remote, flexible hours",
+        "recency": "Evergreen marketplace intake (not a dated single posting)",
+        "apply_path": "Direct sign-up to the talent network — easy apply"
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "freelance",
+      "buyerType": "ALSP",
+      "compensationText": "Engagement-dependent market rate (not published per-role)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Freelance / contract / project-based attorney via legal talent marketplace, remote US, scalable hours",
+      "urgencyScore": 55,
+      "contacts": [
+        { "name": "Lawtrades — Talent Network", "title": "Attorney onboarding / talent intake", "email": "", "linkedin": "https://www.linkedin.com/company/lawtrades" }
+      ],
+      "signals": ["marketplace/ALSP recurring engagement flow", "freelance/contract/project model", "fully remote flexible hours", "corporate + commercial-contracts + product counsel demand", "direct easy sign-up"],
+      "source": "Lawtrades — talent marketplace (indexed web search, July 2026)",
+      "sourceUrl": "https://www.lawtrades.com/",
+      "notes": "Grade B (combined 60). Strong US-based marketplace channel to add to Katie's ALSP roster alongside Axiom, Latitude, Epiq, and Priori already in the CRM. Value is recurring commercial-contracts / corporate-counsel engagement flow with venture-backed clients rather than one dated req. Fit capped at 20 (commercial + corporate, no dedicated fund practice). ACTION: register with the Lawtrades talent network, position commercial-contracts + corporate governance + fractional-GC availability, and flag fund/securities experience to catch VC-backed client matches."
+    },
+    {
+      "name": "Peerpoint (A&O Shearman) — Flexible Corporate & Funds Counsel (Interim/Contract Assignments)",
+      "website": "https://www.peerpoint.com",
+      "pipeline": "legal-freelance",
+      "industry": "Flexible legal talent platform backed by A&O Shearman, placing senior consultant lawyers into short-term to ~6-month assignments across corporate, funds, and commercial mandates with sophisticated clients globally.",
+      "location": "Remote / hybrid (global network; US and cross-border assignments)",
+      "fundingStage": "Established Big-Law-backed flexible-lawyer platform",
+      "fitScore": 30,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Corporate, private funds / investment management, commercial — mirrors A&O Shearman practice groups",
+        "seniority": "Senior consultant lawyer (GC / special counsel caliber)",
+        "comp_credible": "Yes — published fractional/interim day rates in the market band ($900-$2,000+/day equivalent)",
+        "fund_focus": "Yes — funds/investment-management mandates available through A&O Shearman client base"
+      },
+      "intentDetails": {
+        "engagement_model": "Interim / contract consultant assignments (short-term to ~6 months)",
+        "remote_flex": "Remote / hybrid assignments",
+        "recency": "Evergreen consultant intake (not a dated single posting)",
+        "apply_path": "Direct application to the Peerpoint consultant network — easy apply"
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "interim",
+      "buyerType": "ALSP",
+      "compensationText": "Fractional/interim day rates (published market band ~$900-$2,000+/day equivalent; assignment-dependent)",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Consultant lawyer, interim/contract assignments (short-term to 6 months), corporate & funds, remote/hybrid",
+      "urgencyScore": 55,
+      "contacts": [
+        { "name": "Peerpoint — Consultant Network", "title": "Legal talent / consultant intake", "email": "", "linkedin": "https://www.linkedin.com/company/peerpoint" }
+      ],
+      "signals": ["A&O Shearman-backed — access to funds & corporate mandates", "interim/contract assignment model", "published market day rates", "remote/hybrid", "funds/investment-management practice fit"],
+      "source": "Peerpoint (A&O Shearman) — flexible lawyer platform (indexed web search, July 2026)",
+      "sourceUrl": "https://www.peerpoint.com/",
+      "notes": "Grade B (combined 70) — highest-scoring lead this run and the best fund-adjacent match, because Peerpoint draws corporate and private-funds mandates from the A&O Shearman client base — squarely Katie's fund/corporate ICP. CAVEAT: the platform is UK/global-weighted, so US-based, US-hours assignments may be less frequent; confirm US assignment availability before investing heavily. ACTION: apply to the consultant network, lead with private-funds / fund-formation and corporate-counsel experience and interim/fractional availability, and ask specifically about US and cross-border funds mandates."
+    },
+    {
+      "name": "Elevate (ElevateFlex) — Flexible Corporate & Commercial Contracts Counsel (Remote)",
+      "website": "https://elevate.law",
+      "pipeline": "legal-freelance",
+      "industry": "Global alternative legal services provider (ALSP). ElevateFlex places vetted, experienced legal talent into full- or part-time, onsite or remote engagements — corporate, commercial contracts, and legal-ops support for in-house teams.",
+      "location": "Remote (US and global; onsite/hybrid options by engagement)",
+      "fundingStage": "Established global ALSP",
+      "fitScore": 20,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Commercial contracts, corporate, legal operations; financial-services clients present",
+        "seniority": "Experienced counsel level (flexible-talent placements into in-house teams)",
+        "comp_credible": "Engagement-dependent market rate (not published per-role)",
+        "fund_focus": "Indirect — financial-services clients but no dedicated fund practice line"
+      },
+      "intentDetails": {
+        "engagement_model": "Contract / flexible resourcing — full- or part-time",
+        "remote_flex": "Remote, with onsite/hybrid options",
+        "recency": "Evergreen flexible-talent intake (not a dated single posting)",
+        "apply_path": "Direct ElevateFlex talent application — easy apply"
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "Engagement-dependent market rate (not published per-role)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Flexible legal talent (ElevateFlex), full- or part-time contract, corporate & commercial contracts, remote/onsite options",
+      "urgencyScore": 52,
+      "contacts": [
+        { "name": "Elevate / ElevateFlex — Talent Team", "title": "Flexible legal talent recruiter", "email": "", "linkedin": "https://www.linkedin.com/company/elevate-services" }
+      ],
+      "signals": ["global ALSP recurring engagement flow", "contract/flexible full- or part-time model", "remote with onsite options", "commercial-contracts + corporate demand", "diversifies ALSP bench pipeline"],
+      "source": "Elevate — ElevateFlex flexible legal resourcing (indexed web search, July 2026)",
+      "sourceUrl": "https://elevate.law/elevateflex/",
+      "notes": "Grade B (combined 60). Another ALSP bench to diversify Katie's flexible-talent pipeline. Overlaps in model with Epiq/Axiom/Latitude already in the CRM, but Elevate's financial-services client base can surface corporate/commercial work with fund-adjacent counterparties. Fit capped at 20 (commercial + corporate, no dedicated fund line). ACTION: register with ElevateFlex for commercial-contracts + corporate engagements; note fund/securities background to catch financial-services client matches."
+    },
+    {
+      "name": "Continuum Legal — Fractional GC / Outside Counsel for Growing Companies (Remote)",
+      "website": "https://continuum.legal",
+      "pipeline": "legal-freelance",
+      "industry": "Fractional legal-support firm providing part-time general counsel and outside-counsel services to growing companies at a fraction of the cost of a full-time GC — commercial contracts, corporate, and day-to-day legal coverage.",
+      "location": "Remote (US)",
+      "fundingStage": "Established fractional-GC / outsourced legal firm (bench expansion)",
+      "fitScore": 20,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Fractional GC, commercial contracts, corporate governance, general legal coverage for growth-stage operating companies",
+        "seniority": "GC-level (fractional/embedded counsel)",
+        "comp_credible": "Not stated per-role (fractional retainer model)",
+        "fund_focus": "Indirect — corporate/commercial operating-company clients"
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional / part-time outside counsel",
+        "remote_flex": "Fully remote",
+        "recency": "Evergreen bench intake (not a dated single posting)",
+        "apply_path": "Direct contact to the firm — join the fractional-counsel bench"
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "law-firm",
+      "compensationText": "Fractional retainer model (not published per-role)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional / part-time general counsel & outside counsel, remote, growth-stage company clients",
+      "urgencyScore": 50,
+      "contacts": [
+        { "name": "Continuum Legal — Hiring / Bench", "title": "Fractional counsel intake", "email": "", "linkedin": "https://www.linkedin.com/company/continuum-legal" }
+      ],
+      "signals": ["fractional-GC firm bench opportunity", "part-time outside-counsel model", "fully remote", "commercial + corporate coverage for growing companies", "textbook ICP: complexity without full-time capacity"],
+      "source": "Continuum Legal — fractional legal support (indexed web search, July 2026)",
+      "sourceUrl": "https://continuum.legal/",
+      "notes": "Grade B (combined 60). Textbook fractional-GC ICP: a firm placing part-time GCs into growing companies that have contract/governance complexity but not a full-time bench. Model and remote flag ideal; fit capped at 20 (commercial + corporate, no fund line). ACTION: contact the firm to join their fractional-counsel bench, positioning fractional-GC / outside-counsel experience on commercial contracts, governance, and corporate matters."
+    },
+    {
+      "name": "Uncommon Counsel — NYC Outsourced GC for Startups & Growing Companies (Remote/Hybrid)",
+      "website": "https://uncommoncounsel.com",
+      "pipeline": "legal-freelance",
+      "industry": "Outsourced / fractional general counsel firm serving startups and growing companies. Owns commercial contracting, corporate and regulatory governance, legal-risk management, and M&A support on a flexible retainer basis.",
+      "location": "New York City (remote/hybrid; NY-based clients)",
+      "fundingStage": "Established outsourced-GC firm (bench expansion)",
+      "fitScore": 20,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Commercial contracting, corporate & regulatory governance, M&A support, legal-risk management",
+        "seniority": "GC-level (fractional/outsourced general counsel)",
+        "comp_credible": "Not stated per-role (fractional retainer model)",
+        "fund_focus": "Indirect — startup/growth corporate clients, some venture-backed"
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional / outsourced general counsel",
+        "remote_flex": "Remote / hybrid (NYC-based)",
+        "recency": "Evergreen bench intake (not a dated single posting)",
+        "apply_path": "Direct contact to the firm — join the outsourced-GC bench"
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "law-firm",
+      "compensationText": "Fractional retainer model (not published per-role)",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Fractional / outsourced general counsel, remote/hybrid NYC, startup & growth-company clients",
+      "urgencyScore": 55,
+      "contacts": [
+        { "name": "Uncommon Counsel — Hiring", "title": "Outsourced-GC bench intake", "email": "", "linkedin": "https://www.linkedin.com/company/uncommon-counsel" }
+      ],
+      "signals": ["outsourced-GC firm bench opportunity", "commercial + M&A + governance scope", "NYC + remote/hybrid", "startup/growth (some venture-backed) clients", "fractional retainer model"],
+      "source": "Uncommon Counsel — NYC outsourced general counsel (indexed web search, July 2026)",
+      "sourceUrl": "https://uncommoncounsel.com/new-york-outsourced-general-counsel/",
+      "notes": "Grade B (combined 60). NYC-based outsourced-GC firm covering commercial contracting, governance, and M&A for startups/growth companies — a good local + remote bench to pair with the marketplace channels above. Some clients are venture-backed, which can surface fund-adjacent corporate work. Fit capped at 20 (commercial + M&A + governance, no dedicated fund line). ACTION: contact the firm about joining the outsourced-GC bench; lead with commercial-contracting + M&A + governance depth and fractional availability; flag fund/securities background for VC-backed client matches."
+    }
+  ]
+}

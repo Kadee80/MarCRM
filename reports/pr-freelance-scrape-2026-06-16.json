@@ -1,0 +1,59 @@
+{
+  "runDate": "2026-06-16",
+  "pipeline": "pr-freelance",
+  "leadCount": 2,
+  "scoreThreshold": 55,
+  "leads": [
+    {
+      "name": "FINN Partners",
+      "website": "finnpartners.com",
+      "pipeline": "pr-freelance",
+      "vertical": "pr",
+      "industry": "Financial Services PR (Agency)",
+      "location": "New York, NY",
+      "fitScore": 45,
+      "intentScore": 20,
+      "totalScore": 65,
+      "grade": "B",
+      "subvertical": "media-relations,comms",
+      "engagementModel": "consultant",
+      "buyerType": "agency",
+      "compensationText": null,
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "full-time",
+      "urgencyScore": 15,
+      "sourceUrl": "https://www.finnpartners.com/job/public-relations-senior-account-executive-financial-services-pr/",
+      "notes": "Growing FS PR team with 2 open roles (AE + Sr AE) in fintech, investing, crypto, insurance, banking, payments. Right play is proactive outreach re: overflow/project work — not direct FT application. One of the top independent PR firms in the U.S."
+    },
+    {
+      "name": "Prosek Partners",
+      "website": "prosek.com",
+      "pipeline": "pr-freelance",
+      "vertical": "pr",
+      "industry": "Financial Services PR / Private Markets",
+      "location": "New York, NY",
+      "fitScore": 45,
+      "intentScore": 15,
+      "totalScore": 60,
+      "grade": "B",
+      "subvertical": "investor-pr,executive-comms",
+      "engagementModel": "consultant",
+      "buyerType": "agency,ir-firm",
+      "compensationText": null,
+      "remoteFlag": "onsite",
+      "employmentTypeRaw": "full-time",
+      "urgencyScore": 10,
+      "sourceUrl": "https://job-boards.greenhouse.io/prosek/jobs/7890274",
+      "notes": "Top-5 U.S. financial services PR firm. Specializes in PE/VC, private markets, IR, financial comms, crisis. Open role: Communications Private Markets (NYC). Best-fit agency for Mark's sector. Target for fractional/white-label/overflow engagement — not FT application."
+    }
+  ],
+  "excluded": [
+    { "name": "Mission North", "reason": "Already captured 2026-06-09" },
+    { "name": "FractionalJobs.io — quip Media Consultant", "reason": "Role closed" },
+    { "name": "FractionalJobs.io — Taiga PR Specialist", "reason": "Role closed" },
+    { "name": "Zy Media Group", "reason": "Application deadline expired (April 17, 2026)" },
+    { "name": "The PR Net / James Collective", "reason": "Food & beverage sector — ICP miss" },
+    { "name": "Funders Committee for Civic Participation", "reason": "Nonprofit civic sector miss; deadline Oct 2025" }
+  ],
+  "marketNotes": "Thin week for discrete freelance PR postings. Fractional market clears fast — FractionalJobs.io roles filled within weeks of posting. Two new financial services PR agencies surfaced with active headcount signals; both represent overflow/white-label outreach opportunities rather than direct applications."
+}

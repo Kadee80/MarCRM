@@ -1,0 +1,82 @@
+{
+  "scrapeDate": "2026-06-30",
+  "scrapeType": "pr-freelance",
+  "totalLeads": 2,
+  "note": "Enhanced PR Freelance scrape, 7-day window. Market again dominated by aggregator/platform walls (Upwork, Toptal, ZipRecruiter, RemotePRJobs membership) and by named direct postings already captured in prior scrapes — The PR Net job 1745 resolves to The James Collective (captured 2026-06-26) and the Daybook 'Fractional Director of Communications' resolves to Four Pines Fund (captured 2026-06-24), both correctly suppressed as dedups. Two NEW leads cleared the 55 threshold: one Grade A channel (The Work Crowd — fintech/financial-PR freelance marketplace, perfect ICP) and one Grade B named fractional comms posting (VOW for Girls). Borderline near-misses below threshold this week: Ezra Productions freelance lifestyle publicist (theprnet.com/jobs/283, ~50, off-ICP consumer/lifestyle) and Burlap & Barrel Dir. Marketing & Comms (~50, marketing-led consumer). Quality over quantity per spec. Dedup checked against pr-freelance reports 2026-06-23 through 2026-06-26.",
+  "leads": [
+    {
+      "name": "The Work Crowd (Fintech & Financial PR network)",
+      "website": "https://theworkcrowd.com/fintech-pr",
+      "pipeline": "pr-freelance",
+      "industry": "Vetted freelance/interim network placing PR & comms experts into fintech, asset management and financial-services clients",
+      "location": "Remote (global; US/UK clients)",
+      "fundingStage": "Freelance talent marketplace / staffing network",
+      "fitScore": 50,
+      "intentScore": 30,
+      "fitDetails": {
+        "pr_remit": "Yes — places PR, media relations and financial communications experts directly with financial clients (+20)",
+        "sector_fit": "Core ICP bullseye — fintech, asset management, financial services, investor/analyst audiences (+15)",
+        "workstream": "Financial media relations, IR/investor narrative, corporate comms, thought leadership (+10)",
+        "buyer_quality": "White-label / overflow model — recurring multi-client scopes, not a one-off (+5)",
+        "urgency": "Evergreen network — demand is ongoing rather than a dated posting"
+      },
+      "intentDetails": {
+        "engagement_model": "Freelance / contract / interim, retainer and project scopes (+15)",
+        "remote_flex": "Fully remote, flexible (+10)",
+        "recency": "Evergreen marketplace — no single posting date (+0)",
+        "urgency_signals": "None dated; demand-driven (+0)",
+        "apply_path": "Register / build a freelancer profile to be matched to client briefs (+5)"
+      },
+      "vertical": "pr",
+      "subvertical": "media-relations",
+      "engagementModel": "freelance",
+      "buyerType": "staffing",
+      "compensationText": "Project / retainer / day-rate, set per client brief (not published)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Freelance / interim (marketplace)",
+      "urgencyScore": 35,
+      "contacts": [],
+      "signals": ["freelance", "interim", "retainer", "remote", "fintech", "asset-management", "financial-PR", "white-label", "media-relations", "marketplace-register"],
+      "source": "The Work Crowd (web search)",
+      "sourceUrl": "https://theworkcrowd.com/fintech-pr",
+      "notes": "This is a CHANNEL, not a single posting — but it is the single best-fit item this week for Mark's ICP. The Work Crowd is a vetted marketplace that places freelance/interim PR & comms operators specifically into fintech, asset-management and financial-services clients (exactly Mark's sweet spot), on retainer/project/day-rate terms. Graded A on fit-to-ICP value of registering. ACTION: build a freelancer profile positioning Mark as a senior financial-PR/IR-narrative operator (media relations + executive comms + investor narrative) available on retainer or project. Recurring, white-label/overflow brief flow rather than a one-time gig. Caveat: marketplace registration, so no named hiring contact and no dated urgency."
+    },
+    {
+      "name": "VOW for Girls",
+      "website": "https://vowforgirls.org",
+      "pipeline": "pr-freelance",
+      "industry": "Nonprofit / global girls' rights and ending child marriage; founded with support from the Bill & Melinda Gates Foundation ecosystem",
+      "location": "Remote (USA)",
+      "fundingStage": "Established nonprofit (foundation-backed)",
+      "fitScore": 35,
+      "intentScore": 35,
+      "fitDetails": {
+        "pr_remit": "Yes — comms remit explicit: strategic leadership of marketing & communications (+20)",
+        "sector_fit": "Nonprofit/social-impact — outside Mark's core finance/PE/fintech list (+0)",
+        "workstream": "Strategic communications leadership, executive/brand comms, narrative during a transition (+10)",
+        "buyer_quality": "Interim/transitional leadership need — senior fractional seat (+5)",
+        "urgency": "Transitional period flagged — active need for senior cover"
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional VP, part-time up to 3 days/week (+15)",
+        "remote_flex": "Remote, part-time (+10)",
+        "recency": "Live 'new job' on Fractional Jobs board within window (+0; exact post date unverified)",
+        "urgency_signals": "'Transitional period' senior-cover need (+5)",
+        "apply_path": "Apply via Fractional Jobs board listing (+5)"
+      },
+      "vertical": "pr",
+      "subvertical": "executive-comms",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "Not published; comparable fractional comms roles on the board list $80-100/hr",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional / part-time (up to 3 days/week)",
+      "urgencyScore": 50,
+      "contacts": [],
+      "signals": ["fractional", "part-time", "remote", "executive-comms", "marketing-communications", "transitional-leadership", "nonprofit"],
+      "source": "Fractional Jobs (fractionaljobs.io)",
+      "sourceUrl": "https://www.fractionaljobs.io/jobs/marketing-communications-leader-at-vow",
+      "notes": "Clean fractional comms-leadership seat (up to 3 days/week, remote) with a named org and a defined transitional need. CAVEAT: nonprofit/social-impact sector — outside Mark's finance/PE/fintech core, and the role blends marketing with communications. Pursue if Mark wants a steady part-time anchor retainer and is comfortable with cause-led comms. Pitch angle: senior interim comms leader who can stand up strategy and run day-to-day media/executive comms through a leadership transition. Verify exact post date and compensation on the listing before outreach."
+    }
+  ]
+}

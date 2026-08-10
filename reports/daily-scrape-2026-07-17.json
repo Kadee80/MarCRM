@@ -1,0 +1,275 @@
+{
+  "scrapeDate": "2026-07-17",
+  "totalLeads": 6,
+  "note": "Friday scrape. Discovery rebounded after three quiet cycles — the Jul 15 and Jul 16 techstartups funding tapes delivered a dense batch of FS/Tech B2B rounds. Six net-new pr-marketing leads, all Grade A/B, led by Oak ($60M identity-security seed, out of stealth today = perfect launch trigger) and two pure-fintech infrastructure plays (Cyclops stablecoin payments, Glacis Labs digital-asset clearing). Freelance pipelines (legal-freelance, pr-freelance) surfaced ONLY recurring platforms/watch items already covered (The Work Crowd, Fractional Jobs, Chameleon Collective, ACC Jobline #54004) — no net-new freelance postings this cycle. Signal refresh confirms Norm AI's $120M Series C at $1.2B (Khosla-led) but the unicorn valuation is now pushing it beyond the SMB pr-marketing budget ICP; Databento's Series B is ~8 days old and its window is closing. Skipped several large/out-of-ICP rounds (Fireworks $1.505B, Wonder $650M food-tech, Emergent/Spectro Cloud large & well-resourced, Senra/Monumental/microagi industrial, TytoCare/Xenter/Bunkerhill healthcare, Kind Designs climate).",
+  "leads": [
+    {
+      "name": "Oak",
+      "website": "https://www.oak.id/",
+      "pipeline": "pr-marketing",
+      "industry": "AI-native identity security — a unified identity operating system governing humans, machines and AI agents across the enterprise (agentic-era IAM)",
+      "location": "Tel Aviv, Israel & San Francisco, CA, US",
+      "fundingStage": "Seed ($60M, co-led by Accel, Greylock, CRV; Hetz Ventures, AlphaDrive Ventures + strategic angels; round closed late 2025, made public Jul 15, 2026 on product GA)",
+      "fitScore": 44,
+      "intentScore": 36,
+      "fitDetails": {
+        "industryMatchFSTech": 9,
+        "stageSizeGrowth": 8,
+        "clearB2BBuyerSalesMotion": 10,
+        "proofAssetsExist": 9,
+        "budget5kTo25kMonth": 8
+      },
+      "intentDetails": {
+        "triggerPresent": 15,
+        "timelineToStart0to30d": 7,
+        "decisionMakerEngaged": 5,
+        "urgencyPain": 6,
+        "responsiveness": 3
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "", "title": "Founder/CEO (serial founder w/ prior exits — sets category narrative)", "email": "", "linkedin": "" },
+        { "name": "", "title": "Head of Marketing / Comms (likely unfilled at seed — opening for external positioning support)", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "$60M seed co-led by Accel, Greylock and CRV — an enormous seed even for identity security",
+        "Emerged from stealth Jul 15, 2026 with product already GA and deployed with enterprise customers — timed launch, ready for a coordinated earned-media push",
+        "Founder has prior exits — quotable, credible spokesperson",
+        "Category-creation narrative: non-human / AI-agent identity is a brand-new attack surface — strong thought-leadership hook vs legacy IAM incumbents (Okta, CyberArk, etc.)",
+        "Deliberately delayed publicity until GA — signals they want a 'arrive already mature' comms motion, i.e. open to specialist positioning help"
+      ],
+      "source": "TechStartups VC funding roundup Jul 15, 2026 + PR Newswire",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/oak-raises-60m-in-seed-funding-to-build-the-ai-native-identity-operating-system-302826349.html",
+      "notes": "Grade A (80). Hottest net-new lead this cycle. Perfect launch trigger — out of stealth TODAY with $60M and product GA. Category-defining 'identity OS for the AI enterprise' story is a ready-made thought-leadership + tier-1 security/enterprise-tech press program. Deep-pocketed seed = can afford a retainer or a launch sprint. CAVEAT: dual HQ (Tel Aviv/SF) and top-tier VC syndicate mean they may already have PR representation or in-house comms — qualify before pitching. ACTION: pitch a category-creation narrative sprint (own 'non-human identity') + analyst/press positioning tied to the stealth-emergence moment while it's fresh."
+    },
+    {
+      "name": "Cyclops",
+      "website": "https://www.cyclops.xyz/",
+      "pipeline": "pr-marketing",
+      "industry": "Fintech / stablecoin payments infrastructure — settlement, pay-ins and payouts purpose-built for merchants, processors and payments firms",
+      "location": "Miami, FL, US",
+      "fundingStage": "Series A ($20M, led by Nava Ventures; Castle Island Ventures, Coinbase Ventures, Circle, Lasagna Ventures, Global PayTech Ventures participating; announced Jul 15, 2026)",
+      "fitScore": 43,
+      "intentScore": 35,
+      "fitDetails": {
+        "industryMatchFSTech": 10,
+        "stageSizeGrowth": 9,
+        "clearB2BBuyerSalesMotion": 10,
+        "proofAssetsExist": 8,
+        "budget5kTo25kMonth": 6
+      },
+      "intentDetails": {
+        "triggerPresent": 14,
+        "timelineToStart0to30d": 7,
+        "decisionMakerEngaged": 5,
+        "urgencyPain": 6,
+        "responsiveness": 3
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "", "title": "Co-founder/CEO (ex-The Giving Block; ran crypto/stablecoin at Shift4)", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "$20M Series A led by Nava Ventures, announced Jul 15, 2026",
+        "Strategic cap table of payments/crypto incumbents: Circle, Coinbase Ventures, Global PayTech Ventures — instant credibility and partnership-announcement fodder",
+        "Founders previously built The Giving Block and ran crypto/stablecoin work inside Shift4 — quotable, enterprise-credible team",
+        "Positioning: 'stablecoin rails for the payments industry itself' (B2B infrastructure, not retail crypto) — clean, differentiated narrative amid the GENIUS-Act-era stablecoin news cycle",
+        "Clear B2B buyer: merchants, processors, payments firms and treasury teams"
+      ],
+      "source": "TechStartups VC funding roundup Jul 15, 2026",
+      "sourceUrl": "https://techstartups.com/2026/07/15/venture-capital-startup-funding-roundup-july-15-2026-accel-crv-greylock-goldman-sachs-khosla-ventures-m13-and-nava-ventures/",
+      "notes": "Grade B (78). Pure-play FS/fintech fit — stablecoin payments infrastructure is squarely in the agency's financial-services ICP and rides a hot regulatory/news cycle. Series A stage = right size for a $5k-$25k/mo retainer; founders are media-credible. ACTION: pitch an earned-media + thought-leadership program positioning Cyclops as the neutral B2B stablecoin-settlement layer for incumbents (Circle/Coinbase relationships give ready partnership-announcement hooks). Identify CEO/CMO decision-maker."
+    },
+    {
+      "name": "Beacon Security",
+      "website": "https://www.beaconsecurity.ai/",
+      "pipeline": "pr-marketing",
+      "industry": "Cybersecurity — 'context layer' / trusted data layer for agentic (AI-native) cyber defense; serves financial services, insurance and technology buyers",
+      "location": "New York, NY, US",
+      "fundingStage": "Seed ($13M, led by Notable Capital; Holly Ventures, AlphaDrive Ventures, SVCI, Jefferies Family Office + 60+ founders/CISOs; announced Jul 16, 2026)",
+      "fitScore": 43,
+      "intentScore": 35,
+      "fitDetails": {
+        "industryMatchFSTech": 10,
+        "stageSizeGrowth": 9,
+        "clearB2BBuyerSalesMotion": 10,
+        "proofAssetsExist": 9,
+        "budget5kTo25kMonth": 5
+      },
+      "intentDetails": {
+        "triggerPresent": 14,
+        "timelineToStart0to30d": 7,
+        "decisionMakerEngaged": 5,
+        "urgencyPain": 6,
+        "responsiveness": 3
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "", "title": "Co-founder/CEO", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "$13M seed led by Notable Capital, announced Jul 16, 2026",
+        "300% ARR growth in H1 2026 — a hard, quotable metric that anchors a growth-story pitch",
+        "Customers concentrated in financial services, insurance and technology — core FS ICP fit",
+        "Backed by 60+ founders and CISOs as angels + Jefferies Family Office — a built-in reference/advocacy network for earned media",
+        "Category tailwind: securing AI agents / non-human identities is a fresh, press-friendly beat"
+      ],
+      "source": "TechStartups VC funding roundup Jul 16, 2026 + TechStartups company post",
+      "sourceUrl": "https://techstartups.com/2026/07/16/beacon-security-raises-13m-seed-to-build-ai-powered-agentic-cybersecurity-platform/",
+      "notes": "Grade B (78). Strong FS-adjacent cyber lead: explicit financial-services/insurance customer base, a killer 300% ARR growth stat, and a fresh $13M seed trigger. Seed budget is tighter (scored budget down) but a focused launch/thought-leadership sprint fits. ACTION: pitch a growth-story + agentic-security thought-leadership program leveraging the 300% ARR metric and the CISO angel network as reference sources; target CEO/founder as decision-maker."
+    },
+    {
+      "name": "Rime",
+      "website": "https://www.rime.ai/",
+      "pipeline": "pr-marketing",
+      "industry": "Voice AI — enterprise speech layer optimized for regulated, high-stakes workflows in healthcare and finance",
+      "location": "San Francisco, CA, US",
+      "fundingStage": "Series A ($24M, led by M13; Twilio Ventures, Corazon Capital, Unusual Ventures + existing investors; announced Jul 15, 2026)",
+      "fitScore": 40,
+      "intentScore": 32,
+      "fitDetails": {
+        "industryMatchFSTech": 8,
+        "stageSizeGrowth": 9,
+        "clearB2BBuyerSalesMotion": 9,
+        "proofAssetsExist": 8,
+        "budget5kTo25kMonth": 6
+      },
+      "intentDetails": {
+        "triggerPresent": 13,
+        "timelineToStart0to30d": 6,
+        "decisionMakerEngaged": 5,
+        "urgencyPain": 5,
+        "responsiveness": 3
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "", "title": "Founder/CEO", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "$24M Series A led by M13, announced Jul 15, 2026; Twilio Ventures participation signals distribution + enterprise credibility",
+        "Named customers include Mayo Clinic, Dialpad, Upstart and Asurion — strong proof assets (Upstart = FS logo)",
+        "Differentiates on linguistics, latency and regulated-workflow reliability vs ElevenLabs/Sierra — a clear positioning wedge to seed with press",
+        "Enterprise voice moving from novelty to regulated workflow product — a timely thought-leadership narrative"
+      ],
+      "source": "TechStartups VC funding roundup Jul 15, 2026",
+      "sourceUrl": "https://techstartups.com/2026/07/15/venture-capital-startup-funding-roundup-july-15-2026-accel-crv-greylock-goldman-sachs-khosla-ventures-m13-and-nava-ventures/",
+      "notes": "Grade B (72). Tech B2B with partial FS exposure (Upstart, regulated-finance use cases). Series A + strong logos = fundable proof. Crowded voice-AI category means the story needs sharp differentiation (regulated reliability), which is exactly where earned media/thought leadership helps. ACTION: pitch a differentiation-narrative program ('voice AI built for regulated finance & healthcare') anchored on the marquee logos and the M13/Twilio raise."
+    },
+    {
+      "name": "Sable",
+      "website": "https://www.sable.ai/",
+      "pipeline": "pr-marketing",
+      "industry": "Enterprise AI — customer-facing 'AI employee' (Aidan) combining computer use, browser navigation, vision, voice and screen-share to run live product experiences (demos, onboarding, support)",
+      "location": "San Francisco, CA, US",
+      "fundingStage": "Venture round ($45M, led by Sequoia Capital & 8VC; BoxGroup, SV Angel, Valor Atreides AI Fund + angels; announced Jul 16, 2026)",
+      "fitScore": 39,
+      "intentScore": 32,
+      "fitDetails": {
+        "industryMatchFSTech": 7,
+        "stageSizeGrowth": 8,
+        "clearB2BBuyerSalesMotion": 9,
+        "proofAssetsExist": 8,
+        "budget5kTo25kMonth": 7
+      },
+      "intentDetails": {
+        "triggerPresent": 13,
+        "timelineToStart0to30d": 6,
+        "decisionMakerEngaged": 5,
+        "urgencyPain": 5,
+        "responsiveness": 3
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "", "title": "Founder/CEO", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "$45M round led by Sequoia Capital and 8VC, announced Jul 16, 2026 — large check for a company founded <1 year ago",
+        "Already live with Notion and Decagon plus unnamed large public companies — unusually strong early-enterprise traction",
+        "Product 'Aidan' reframes AI from back-office chatbot to customer-facing sales/onboarding labor — a fresh, contrarian narrative",
+        "Top-tier syndicate (Sequoia/8VC) lends credibility for a founder-profile / category-definition press push"
+      ],
+      "source": "TechStartups VC funding roundup Jul 16, 2026",
+      "sourceUrl": "https://techstartups.com/2026/07/16/venture-capital-startup-funding-roundup-july-16-2026-8vc-accel-ark-invest-gv-khosla-ventures-mark-cuban-and-sequoia-capital/",
+      "notes": "Grade B (71). Tech B2B (not FS-specific), but exceptional early traction and a differentiated 'customer-facing AI employee' story make it a strong earned-media candidate. CAVEAT: Sequoia/8VC-backed companies frequently arrive with PR agencies already engaged — qualify hard before pitching. ACTION: if unrepped, pitch a category-definition + founder-profile program around the Notion/Decagon proof and the $45M raise."
+    },
+    {
+      "name": "Glacis Labs",
+      "website": "https://www.glacis.com/",
+      "pipeline": "pr-marketing",
+      "industry": "Crypto / digital-asset infrastructure — ZeroDelta multichain clearinghouse for institutional settlement and clearing across 40+ chains",
+      "location": "New York, NY, US",
+      "fundingStage": "Seed ($6.8M, led by Lightspeed Faction; Franklin Templeton, Coinbase Ventures, Again, Protein Capital, Techni Ventures; announced Jul 15, 2026)",
+      "fitScore": 38,
+      "intentScore": 32,
+      "fitDetails": {
+        "industryMatchFSTech": 10,
+        "stageSizeGrowth": 7,
+        "clearB2BBuyerSalesMotion": 9,
+        "proofAssetsExist": 8,
+        "budget5kTo25kMonth": 4
+      },
+      "intentDetails": {
+        "triggerPresent": 13,
+        "timelineToStart0to30d": 6,
+        "decisionMakerEngaged": 5,
+        "urgencyPain": 5,
+        "responsiveness": 3
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "", "title": "Founder/CEO", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "$6.8M seed led by Lightspeed Faction, announced Jul 15, 2026",
+        "Franklin Templeton and Coinbase Ventures on the cap table — traditional asset-management validation of on-chain settlement plumbing",
+        "ZeroDelta has already settled $1B+ in volume at a $1.5B annualized run rate across 40+ chains — concrete proof metrics",
+        "Institutional settlement/clearing (not retail trading) narrative fits the tokenized-securities / RWA news cycle"
+      ],
+      "source": "TechStartups VC funding roundup Jul 15, 2026",
+      "sourceUrl": "https://techstartups.com/2026/07/15/venture-capital-startup-funding-roundup-july-15-2026-accel-crv-greylock-goldman-sachs-khosla-ventures-m13-and-nava-ventures/",
+      "notes": "Grade B (70). Pure FS-infrastructure fit (institutional clearing/settlement) with a marquee validator (Franklin Templeton). Lowest budget of the batch — a $6.8M seed likely can't sustain a large retainer, so pitch a scoped launch/thought-leadership sprint. ACTION: position Glacis as the auditable institutional clearing layer for tokenized assets; leverage the Franklin Templeton relationship and the $1B+ settled metric as earned-media hooks."
+    }
+  ]
+}

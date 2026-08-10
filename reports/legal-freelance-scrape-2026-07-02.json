@@ -1,0 +1,261 @@
+{
+  "scrapeDate": "2026-07-02",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 6,
+  "note": "Legal Freelance pipeline scrape. 7-day window across fractional/interim GC, contract counsel, fund formation, commercial contracts, securities, and ALSP/staffing clusters. Deduplicated against legal-freelance, pr-freelance, and daily scrapes back through 2026-06-24. Only leads scoring 55+ included. LinkedIn accessed only via indexed search results, never scraped directly.",
+  "leads": [
+    {
+      "name": "Axiom Law — Capital Markets & Securities Counsel (Remote Contract Engagement)",
+      "website": "https://www.axiomlaw.com/",
+      "pipeline": "legal-freelance",
+      "industry": "Alternative legal services provider (ALSP) placing experienced attorneys into corporations and law firms on a flexible, engagement basis. Active capital-markets & securities practice area places counsel into fixed hourly/daily/weekly contract engagements for financings, securities distribution, investor relations, and capital-raising work.",
+      "location": "Remote (U.S.)",
+      "fundingStage": "Established ALSP / flexible legal talent platform",
+      "fitScore": 30,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Capital markets & securities — on-ICP corporate/securities; work sits at capital raising, investor relations, and securities distribution. Fund-adjacent but not explicit fund formation; scored +10 corporate/securities (not the +20 fund-formation bonus).",
+        "seniority": "Counsel level — ALSP places senior/experienced attorneys (typically 4+ yrs); +10.",
+        "comp_credible": "Fixed hourly/daily/weekly/monthly, rate-driven ALSP model — market-credible paid engagement; +10.",
+        "fund_focus": "Capital-markets/securities is fund-adjacent; no dedicated fund-formation mandate."
+      },
+      "intentDetails": {
+        "engagement_model": "Flexible contract/consultant engagement through an ALSP — squarely Katie's freelance-operator model.",
+        "remote_flex": "Remote engagements; ALSP explicitly supports work-from-anywhere.",
+        "recency": "Evergreen practice-area / talent-network listing; specific posting freshness <72h not confirmable — scored 0.",
+        "apply_path": "Direct talent-network intake via axiomlaw.com; low friction; +10."
+      },
+      "vertical": "legal",
+      "subvertical": "securities",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "Fixed hourly / daily / weekly / monthly; rate-driven ALSP model (no public number).",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contract engagement via Axiom talent network — capital markets & securities counsel; distinguish ALSP staffing (W-2-style engagement) from true freelance-operator, but commercial model is flexible/hourly.",
+      "urgencyScore": 65,
+      "contacts": [
+        {
+          "name": "Axiom — Capital Markets & Securities Talent Team",
+          "title": "Attorney placement (capital markets & securities practice)",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/axiom-law"
+        }
+      ],
+      "signals": ["ALSP", "contract", "remote", "capital markets", "securities", "hourly/flexible", "direct talent intake"],
+      "source": "Web search (Axiom Law capital markets practice)",
+      "sourceUrl": "https://www.axiomlaw.com/practice-areas/capital-markets",
+      "notes": "Grade B (combined 70) — hottest lead of the run. ALSP is a best-fit buyer type (flexible legal staffing placing contract counsel). Best action: join Axiom's talent network so Katie is in the pool for securities/capital-markets engagements. PITCH: senior corporate/securities counsel available for flexible hourly/weekly engagements; fund-adjacent capital-markets depth. Confirm rate band and typical engagement length at intake."
+    },
+    {
+      "name": "Interlink Cloud Advisors — Fractional General Counsel (Remote)",
+      "website": "https://www.interlink.com/",
+      "pipeline": "legal-freelance",
+      "industry": "Microsoft-focused cloud consulting / managed services firm. Role: Fractional General Counsel reporting to the CEO — build scalable legal infrastructure, legal strategy & risk management, contract management, regulatory & compliance oversight (incl. SOC 2), cross-functional support. 3+ yrs experience.",
+      "location": "Remote (U.S.)",
+      "fundingStage": "Owner-operated cloud consulting / managed-services company",
+      "fitScore": 20,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Commercial contracts + corporate governance + regulatory/compliance (SOC 2) — solid commercial-contracts overlap; +10.",
+        "seniority": "GC-level function (reports to CEO), though only 3+ yrs required — counsel/GC scope; +10.",
+        "comp_credible": "No comp stated — scored 0.",
+        "fund_focus": "None — no fund/PE component."
+      },
+      "intentDetails": {
+        "engagement_model": "Explicit fractional GC — Katie's part-time/fractional model; +15.",
+        "remote_flex": "Fully remote; +15.",
+        "recency": "Board listing freshness <72h not confirmable — scored 0.",
+        "apply_path": "Direct apply via GoInhouse listing; +10."
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional General Counsel — remote; reports to CEO; contract/scalable-legal-infrastructure mandate.",
+      "urgencyScore": 60,
+      "contacts": [
+        {
+          "name": "Interlink Cloud Advisors — CEO / Leadership",
+          "title": "Hiring manager, Fractional GC (reports to CEO)",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/interlink-cloud-advisors"
+        }
+      ],
+      "signals": ["fractional", "remote", "commercial contracts", "SOC 2 / compliance", "reports to CEO", "direct apply"],
+      "source": "Web search (GoInhouse.com)",
+      "sourceUrl": "https://www.goinhouse.com/jobs/451717130-fractional-general-counsel-at-interlink-cloud-advisors",
+      "notes": "Grade B (combined 60). Clean fractional-GC engagement at an operating company with a contract-heavy, build-the-function mandate — right shape for Katie. Low 3+ yr bar suggests budget-conscious buyer; confirm scope and hours. PITCH: fractional GC who stands up scalable legal infrastructure (contract playbooks, governance, SOC 2 vendor paper) without full-time cost. Confirm hours/week and rate."
+    },
+    {
+      "name": "Hayden Industrial LLC — Fractional General Counsel (Remote)",
+      "website": "",
+      "pipeline": "legal-freelance",
+      "industry": "Industrial / engineered-equipment supplier delivering industrial projects. Role: Fractional General Counsel serving as the company's primary legal advisor, reporting to the Company President — focus on reviewing, redlining, and negotiating commercial contracts, especially engineered-equipment supply and industrial project-delivery agreements.",
+      "location": "Remote (U.S.)",
+      "fundingStage": "Owner-operated industrial operating company",
+      "fitScore": 20,
+      "intentDetails_placeholder": null,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Commercial contracts — reviewing/redlining/negotiating supply and project-delivery agreements; strong commercial-contracts overlap; +10.",
+        "seniority": "Primary legal advisor reporting to President — GC-level scope; +10.",
+        "comp_credible": "No comp stated — scored 0.",
+        "fund_focus": "None."
+      },
+      "intentDetails": {
+        "engagement_model": "Explicit fractional GC engagement; +15.",
+        "remote_flex": "Fully remote; +15.",
+        "recency": "Freshness <72h not confirmable — scored 0.",
+        "apply_path": "Indexed via Indeed/ZipRecruiter; standard apply; +10."
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional General Counsel — remote; primary legal advisor; commercial-contracts / redlining focus.",
+      "urgencyScore": 58,
+      "contacts": [
+        {
+          "name": "Hayden Industrial LLC — Company President",
+          "title": "Hiring manager, Fractional GC (role reports to President)",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": ["fractional", "remote", "commercial contracts", "redlining/negotiation", "reports to President"],
+      "source": "Web search (Indeed / ZipRecruiter indexed)",
+      "sourceUrl": "https://www.indeed.com/q-general-counsel-l-remote-jobs.html",
+      "notes": "Grade B (combined 60). Narrow, contract-centric fractional GC mandate at an industrial operating company — a tight fit for a commercial-contracts operator. Vendor/customer paper is exactly Katie's workstream. PITCH: fractional counsel who owns the supply/project-delivery contract stack (redlines, playbook, negotiation) on a part-time retainer. Verify exact posting URL and comp at outreach; company website not yet confirmed."
+    },
+    {
+      "name": "Roasa Law Group — Part-Time Contract Transactional Attorney (M&A / Small Business, Remote)",
+      "website": "https://www.roasalaw.com/",
+      "pipeline": "legal-freelance",
+      "industry": "Boutique transactional law firm serving small businesses. Role: part-time, contract transactional attorney with experience in small-business transactions and M&A; fully remote. Overflow / specialist support for the firm's deal work.",
+      "location": "Remote (U.S.)",
+      "fundingStage": "Boutique transactional law firm",
+      "fitScore": 20,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Small-business transactions and M&A — on-ICP corporate/M&A; +10.",
+        "seniority": "Transactional attorney (counsel-level function on deals); +10.",
+        "comp_credible": "No public rate — scored 0 (law-firm overflow typically hourly).",
+        "fund_focus": "None explicit."
+      },
+      "intentDetails": {
+        "engagement_model": "Part-time + contract engagement — squarely Katie's model; +15.",
+        "remote_flex": "Fully remote; +15.",
+        "recency": "Freshness <72h not confirmable — scored 0.",
+        "apply_path": "Direct apply via firm / job board; +10."
+      },
+      "vertical": "legal",
+      "subvertical": "M&A",
+      "engagementModel": "part-time",
+      "buyerType": "law-firm",
+      "compensationText": "",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Part-time, contract transactional attorney — remote; small-business transactions & M&A; law-firm overflow/specialist support.",
+      "urgencyScore": 55,
+      "contacts": [
+        {
+          "name": "Roasa Law Group — Hiring / Managing Attorney",
+          "title": "Hiring contact, part-time contract transactional attorney",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": ["part-time", "contract", "remote", "M&A", "small-business transactions", "law-firm overflow"],
+      "source": "Web search (ZipRecruiter part-time contract attorney)",
+      "sourceUrl": "https://www.ziprecruiter.com/Jobs/Part-Time-Contract-Attorney",
+      "notes": "Grade B (combined 60). Law-firm overflow is an on-ICP buyer type (firms needing project/specialist support for corporate/M&A). Steady deal-flow source if the fit is good. PITCH: contract transactional attorney available part-time for M&A and small-business deal execution — diligence, drafting, transaction management. Confirm hourly rate and volume."
+    },
+    {
+      "name": "Lyfecoin — Fractional General Counsel (Remote)",
+      "website": "https://www.legal.io/jobs/5660179/Other/Fractional-General-Counsel/Remote",
+      "pipeline": "legal-freelance",
+      "industry": "Consumer / fintech (crypto rewards) company. Role: Fractional General Counsel, remote — corporate governance, commercial contracts, and regulatory oversight for a scaling digital-assets consumer product. Posted via the Legal.io talent marketplace.",
+      "location": "Remote (U.S.)",
+      "fundingStage": "Early/growth-stage digital-assets operating company",
+      "fitScore": 20,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Corporate governance + commercial contracts + regulatory — commercial/corporate overlap; +10.",
+        "seniority": "GC-level scope; +10.",
+        "comp_credible": "No comp stated — scored 0.",
+        "fund_focus": "None; crypto/regulatory rather than fund formation."
+      },
+      "intentDetails": {
+        "engagement_model": "Explicit fractional GC; +15.",
+        "remote_flex": "Fully remote; +15.",
+        "recency": "Marketplace listing; freshness <72h not confirmable — scored 0.",
+        "apply_path": "Direct apply through Legal.io marketplace; +10."
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional General Counsel — remote; posted via Legal.io marketplace; digital-assets operating company.",
+      "urgencyScore": 57,
+      "contacts": [
+        {
+          "name": "Lyfecoin — via Legal.io Marketplace",
+          "title": "Fractional GC hiring (marketplace posting)",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": ["fractional", "remote", "corporate governance", "commercial contracts", "marketplace apply", "crypto/regulatory"],
+      "source": "Web search (Legal.io marketplace)",
+      "sourceUrl": "https://www.legal.io/jobs/5660179/Other/Fractional-General-Counsel/Remote",
+      "notes": "Grade B (combined 60). Clean fractional-GC posting on a marketplace Katie can join once and pull recurring leads from. CAVEAT: digital-assets/crypto regulatory exposure — pursue if Katie is comfortable with the regulatory surface; the corporate/contracts core is well within scope. PITCH: fractional GC for governance + commercial paper; co-manage crypto-regulatory with specialists."
+    },
+    {
+      "name": "Ontra — Solutions Consultant (Funds Lawyer, Remote)",
+      "website": "https://www.ontra.ai/",
+      "pipeline": "legal-freelance",
+      "industry": "Legal-tech / legal-ops company automating private-funds legal workflows (NDAs, side letters, fund documents) for PE and VC. Role: Solutions Consultant (Funds Lawyer) — funds lawyer applying private-funds expertise in a client-facing product/consulting capacity.",
+      "location": "Remote (U.S.)",
+      "fundingStage": "VC-backed legal-tech / legal-ops company",
+      "fitScore": 30,
+      "intentScore": 25,
+      "fitDetails": {
+        "practice_area": "Private funds — side letters, fund documents; directly on the fund-formation ICP; +20.",
+        "seniority": "Funds lawyer in a consultant/solutions role — not a pure counsel seat; seniority partial; +0.",
+        "comp_credible": "Established VC-backed employer, market comp expected; +10.",
+        "fund_focus": "Strong — private-funds workflows are the core of the product."
+      },
+      "intentDetails": {
+        "engagement_model": "Consultant title, but role is a full-time product/solutions seat, not a freelance engagement — low on intent; +0.",
+        "remote_flex": "Remote; +15.",
+        "recency": "Freshness <72h not confirmable — scored 0.",
+        "apply_path": "Direct apply via Built In / Ontra careers; +10."
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "consultant",
+      "buyerType": "ALSP",
+      "compensationText": "",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Solutions Consultant (Funds Lawyer) — remote; appears full-time product/consulting role rather than a contract engagement.",
+      "urgencyScore": 40,
+      "contacts": [
+        {
+          "name": "Ontra — Solutions / Talent Team",
+          "title": "Hiring, Solutions Consultant (Funds Lawyer)",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/ontra"
+        }
+      ],
+      "signals": ["private funds", "side letters", "fund documents", "consultant", "remote", "legal-ops/ALSP"],
+      "source": "Web search (Built In Seattle / Ontra)",
+      "sourceUrl": "https://www.builtinseattle.com/job/solutions-consultant-funds-lawyer/93796",
+      "notes": "Grade C (combined 55) — included for network value, not immediate freelance fit. This is a full-time product/consulting seat, NOT a contract engagement, so intent is low; it clears the 55 cutoff only on strong fund-formation fit. Value: (1) confirms live demand for private-funds expertise, (2) Ontra's client network (PE/VC funds automating fund docs) is a warm source of downstream fractional/contract work. ACTION: relationship/network play, not a pitch."
+    }
+  ]
+}

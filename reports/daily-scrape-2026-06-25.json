@@ -1,0 +1,323 @@
+{
+  "scrapeDate": "2026-06-25",
+  "scrapeTime": "automated",
+  "totalLeads": 5,
+  "note": "5 new leads (4 pr-marketing from the June 24 TechStartups roundup + 1 legal-freelance). 2 Grade-A (Taktile $110M Series C Goldman-led AI decisioning for banks/insurers = 82; Runlayer $30M Series A enterprise AI-agent control layer = 82), 3 Grade-B (JustAI $17M Series A AI marketing platform = 78; Trace Finance $32M Series A stablecoin banking infra = 77, raise ~8 days old; Legalpeople interim corporate-securities counsel placement = 63). Freelance side thin again today — PR-freelance returned only evergreen aggregator/agency directory pages (The Work Crowd, Toptal, Crackle PR — all already captured); only one fresh legal-freelance posting (Legalpeople) above threshold. 6 signal refreshes on hot leads: Allium sharpened (+1 — board seat to Amplify's David Beyer, 10x revenue, 50 employees, active eng/product/GTM hiring), Attention sharpened (+1 — RTP Global led, 20M agent actions/mo, ARR up 4x, moving upmarket), Chronograph holds 93 (added private-credit platform LAUNCH on top of the raise = double trigger; window aging ~9 days), Bland AI holds (Dell Tech Capital led $50M Series C, 3.5M calls/wk, FS customers; window aging), Ent.AI stable (no new public signal), Ploy stable (no new public signal). LinkedIn used via Google-indexed results only.",
+  "newLeads": [
+    {
+      "name": "Taktile",
+      "website": "taktile.com",
+      "pipeline": "pr-marketing",
+      "industry": "Fintech / Enterprise AI / Agentic Decisioning for Banks & Insurers",
+      "location": "New York, NY / Berlin, Germany",
+      "fundingStage": "Series C ($110M, June 24 2026; ~$184M total)",
+      "fitScore": 44,
+      "intentScore": 38,
+      "grade": "A",
+      "fitDetails": {
+        "industry_match_fs_fintech": 10,
+        "stage_size_series_c_scaling": 7,
+        "b2b_buyer_clear_sales_motion": 10,
+        "proof_assets_monzo_mercury_pleo_insurer_90M_savings": 10,
+        "budget_well_funded_184M_total": 7,
+        "total": 44
+      },
+      "intentDetails": {
+        "trigger_110M_series_c_goldman_led_global_expansion": 15,
+        "timeline_immediate_post_raise": 8,
+        "decision_maker_founder_led_public": 5,
+        "urgency_competitive_ai_finance_category_narrative": 7,
+        "responsiveness_fortune_pymnts_businesswire_coverage": 3,
+        "total": 38
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "Maik Taro Wehmeyer", "title": "Co-Founder & CEO", "email": "", "linkedin": "" },
+        { "name": "Maximilian Eber", "title": "Co-Founder & CTO", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "$110M Series C announced June 24 2026, led by Goldman Sachs Alternatives; Tiger Global, Index Ventures, Y Combinator participating",
+        "Brings total funding to $184M",
+        "Agentic Decision Platform lets banks/insurers turn frontier AI models into agents for underwriting, claims, fraud, customer approval",
+        "Customers include Monzo, Mercury, Pleo; one of the world's largest insurers projects $90M+ in claims-processing savings",
+        "Funds earmarked for global expansion and platform enhancement"
+      ],
+      "source": "TechStartups Funding Roundup June 24 2026 / Fortune / Businesswire",
+      "sourceUrl": "https://techstartups.com/2026/06/24/venture-capital-startup-funding-roundup-june-24-2026/",
+      "notes": "Strongest FS-fit of the batch. AI-for-high-stakes-finance positioning + just-closed Goldman round = real earned-media moment. May already retain comms (Series C); lead with advisory/retainer angle on the agentic-finance narrative rather than first-PR-hire pitch. Founders public."
+    },
+    {
+      "name": "Runlayer",
+      "website": "runlayer.com",
+      "pipeline": "pr-marketing",
+      "industry": "Enterprise AI / AI-Agent Governance & Control Layer (MCP)",
+      "location": "United States",
+      "fundingStage": "Series A ($30M, June 24 2026; ~$42M total)",
+      "fitScore": 44,
+      "intentScore": 38,
+      "grade": "A",
+      "fitDetails": {
+        "industry_match_tech_enterprise_ai": 8,
+        "stage_size_series_a_growth_ideal": 10,
+        "b2b_buyer_clear_sales_motion": 10,
+        "proof_assets_instacart_gusto_lemonade_fortune500": 9,
+        "budget_series_a_30M": 7,
+        "total": 44
+      },
+      "intentDetails": {
+        "trigger_30M_series_a_felicis_khosla": 15,
+        "timeline_immediate_post_raise": 7,
+        "decision_maker_founder_unknown": 5,
+        "urgency_hot_ai_governance_category_thought_leadership": 7,
+        "responsiveness_press_coverage": 4,
+        "total": 38
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [],
+      "signals": [
+        "$30M Series A announced June 24 2026, led by Felicis and Khosla Ventures; total funding ~$42M",
+        "Control layer governing how employees and AI agents connect to tools, data and policies (visibility, data access, cost)",
+        "Customers include Instacart, Gusto, Decagon, Opendoor, dbt Labs, AngelList, Lemonade and Fortune 500 firms",
+        "Riding the AI-agent governance / MCP-security wave — strong thought-leadership runway"
+      ],
+      "source": "TechStartups Funding Roundup June 24 2026 / TAMradar",
+      "sourceUrl": "https://www.tamradar.com/funding-rounds/runlayer-series-a-30m",
+      "notes": "Ideal agency-size Series A with exceptional enterprise logos and a category (AI-agent governance) that rewards thought leadership. Strong fit for a 90-day comms/earned-media sprint. Find marketing/founder decision-maker."
+    },
+    {
+      "name": "JustAI",
+      "website": "justai.com",
+      "pipeline": "pr-marketing",
+      "industry": "MarTech / AI-Native Marketing Personalization Platform",
+      "location": "United States",
+      "fundingStage": "Series A ($17M, June 24 2026)",
+      "fitScore": 42,
+      "intentScore": 36,
+      "grade": "B",
+      "fitDetails": {
+        "industry_match_tech_martech": 8,
+        "stage_size_series_a_growth_ideal": 10,
+        "b2b_buyer_clear_sales_motion": 10,
+        "proof_assets_yc_credible_angels_600_decisions_mo": 8,
+        "budget_series_a_17M": 6,
+        "total": 42
+      },
+      "intentDetails": {
+        "trigger_17M_series_a_base10": 15,
+        "timeline_immediate_post_raise": 7,
+        "decision_maker_founder_named": 5,
+        "urgency_competitive_martech_category": 6,
+        "responsiveness_press_coverage": 3,
+        "total": 36
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "Neha Mittal", "title": "Co-Founder & CEO", "email": "", "linkedin": "" },
+        { "name": "Jeff Hara", "title": "Co-Founder", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "$17M+ Series A announced June 24 2026, led by Base10; Y Combinator, Peak XV Partners and strategic angels (HubSpot CTO, growth leaders from Anthropic & Chime, founders of Eppo and Vapi)",
+        "AI-native marketing platform automating personalization via reinforcement-learning and agentic decisioning",
+        "600+ marketing decisions delegated to AI monthly",
+        "Founders Neha Mittal and Jeff Hara"
+      ],
+      "source": "TechStartups Funding Roundup June 24 2026 / VentureCapital.com",
+      "sourceUrl": "https://venturecapital.com/news/funding-events/justai-raises-17m-in-series-a-funding-to-scale-ainative-marketing-platform-v1",
+      "notes": "Meta but valid — an AI marketing platform that itself needs a launch/raise narrative. Strong angel roster gives instant credibility. Ideal agency-size Series A. Pitch product-launch + category-creation comms."
+    },
+    {
+      "name": "Trace Finance",
+      "website": "tracefinance.com",
+      "pipeline": "pr-marketing",
+      "industry": "Fintech / Stablecoin Banking & Cross-Border Payments Infrastructure",
+      "location": "New York, NY",
+      "fundingStage": "Series A ($32M, June 17 2026)",
+      "fitScore": 45,
+      "intentScore": 32,
+      "grade": "B",
+      "fitDetails": {
+        "industry_match_fs_fintech": 10,
+        "stage_size_series_a_growth": 9,
+        "b2b_buyer_clear_sales_motion": 10,
+        "proof_assets_10B_volume_top_crypto_vcs": 9,
+        "budget_series_a_32M": 7,
+        "total": 45
+      },
+      "intentDetails": {
+        "trigger_32M_series_a_but_8_days_old": 12,
+        "timeline_post_raise_window_aging": 6,
+        "decision_maker_founder_unknown": 5,
+        "urgency_competitive_stablecoin_infra": 6,
+        "responsiveness_businesswire_coverage": 3,
+        "total": 32
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [],
+      "signals": [
+        "$32M Series A (June 17 2026), led by CoinFund; Coinbase Ventures, Haun Ventures, Jump Crypto, Valor Capital, Paxos, HOF Capital participating",
+        "Regulated banking + stablecoin settlement infra for cross-border payments; >$10B institutional cross-border volume processed",
+        "Brazil proving ground, now expanding across LatAm, U.S. and APAC",
+        "Selling compliance-heavy regulated settlement, not tokens"
+      ],
+      "source": "TechStartups Funding Roundup June 17 2026 / Businesswire",
+      "sourceUrl": "https://techstartups.com/2026/06/17/venture-capital-startup-funding-roundup-june-17-2026/",
+      "notes": "Strong FS fit but raise is ~8 days old (intent timing decayed — scored down). Still un-captured and worth surfacing: regulated stablecoin rails is a hot, credibility-sensitive narrative. If pursuing, move quickly before the funding window fully closes."
+    },
+    {
+      "name": "Legalpeople",
+      "website": "legalpeople.com",
+      "pipeline": "legal-freelance",
+      "industry": "Legal Staffing / ALSP — Interim & Contract Counsel Placement",
+      "location": "Remote (US)",
+      "fundingStage": "",
+      "fitScore": 20,
+      "intentScore": 43,
+      "grade": "B",
+      "fitDetails": {
+        "fund_private_funds_formation": 0,
+        "corporate_commercial_securities_ma": 10,
+        "seniority_interim_counsel_match": 10,
+        "comp_stated_market_credible": 0,
+        "total": 20
+      },
+      "intentDetails": {
+        "engagement_model_interim_contract": 15,
+        "remote_or_hybrid_flex": 15,
+        "posted_within_72h_recent_listing": 5,
+        "easy_apply_direct_staffing_path": 8,
+        "total": 43
+      },
+      "vertical": "legal",
+      "subvertical": "securities",
+      "engagementModel": "interim",
+      "buyerType": "staffing",
+      "compensationText": "",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Interim Corporate Securities Attorney (Remote) — contract placement via legal staffing firm",
+      "urgencyScore": 60,
+      "contacts": [],
+      "signals": [
+        "Legalpeople (legal staffing/ALSP) hiring Interim Corporate Securities Attorney for a leading tech company, fully remote",
+        "Engagement model: interim/contract placement; corporate & securities practice area",
+        "Surfaced via Google-indexed LinkedIn result (not scraped directly)"
+      ],
+      "source": "LinkedIn (via Google-indexed results) / Legalpeople",
+      "sourceUrl": "https://www.linkedin.com/jobs/view/interim-corporate-securities-attorney-leading-tech-company-remote-at-legalpeople-4298959513",
+      "notes": "Low fit (corporate/securities, not funds-focused) but high intent — interim + remote + direct staffing path. Good fractional/interim fit for Mark's legal-freelance pipeline. Distinguish employment type (contract placement) from commercial model (interim/fractional engagement)."
+    }
+  ],
+  "signalRefreshes": [
+    {
+      "name": "Allium",
+      "pipeline": "pr-marketing",
+      "priorScore": 91,
+      "newScore": 92,
+      "delta": "+1",
+      "whatChanged": "Series B fully confirmed ($40M, Amplify Partners led, Kleiner Perkins + Theory Ventures). Amplify's David Beyer joins board. Revenue up >10x since Series A; 150+ enterprise clients; 50 employees; actively hiring across engineering, product and GTM. Data cited by U.S. Federal Reserve and Stanford.",
+      "windowStatus": "Open / fresh (raise June 23). Hiring surge + board addition reinforce the growth trigger.",
+      "recommendedAction": "Prioritize outreach this week. Lead with the institutional onchain-finance data-trust narrative; reference the GTM hiring build-out as evidence of comms capacity need."
+    },
+    {
+      "name": "Attention",
+      "pipeline": "pr-marketing",
+      "priorScore": 88,
+      "newScore": 89,
+      "delta": "+1",
+      "whatChanged": "$30M Series B confirmed (RTP Global led; Aglaé, Eniac, Alven returning; Linea new; customer-angels). Now running 20M+ agent actions/month; ARR up 4x YoY; launching an autonomous action engine and moving upmarket into enterprise revenue orgs.",
+      "windowStatus": "Open / fresh (June 23). Upmarket enterprise push = elevated comms need.",
+      "recommendedAction": "Pitch enterprise-revenue thought leadership + product-launch comms for the autonomous action engine."
+    },
+    {
+      "name": "Chronograph",
+      "pipeline": "pr-marketing",
+      "priorScore": 93,
+      "newScore": 93,
+      "delta": "0",
+      "whatChanged": "Double trigger confirmed: $140M+ Sixth Street Growth investment (June 16) PLUS launch of a new private-credit portfolio-monitoring platform and AI-suite expansion. Trusted by 8 of 10 largest PE GPs; monitoring $5.9T across 15,000 funds.",
+      "windowStatus": "Aging (~9 days since raise). Funding window starting to close, but the product launch is a fresh, separate hook.",
+      "recommendedAction": "Move now. Even if the funding-news window narrows, the private-credit platform launch gives a clean earned-media angle for a retainer pitch."
+    },
+    {
+      "name": "Bland AI",
+      "pipeline": "pr-marketing",
+      "priorScore": 83,
+      "newScore": 83,
+      "delta": "0",
+      "whatChanged": "$50M Series C (June 16) confirmed, led by Dell Technologies Capital with HubSpot Ventures; >$100M total raised. 3.5M calls/week across healthcare, FS and regulated industries (Samsara, Kin Insurance, CNO Financial). Hiring ~3 roles (support/engineering).",
+      "windowStatus": "Aging (~9 days). FS/regulated customer base keeps it relevant.",
+      "recommendedAction": "Pitch regulated-industries voice-AI credibility narrative; modest hiring suggests lean internal comms = retainer opportunity."
+    },
+    {
+      "name": "Ent.AI",
+      "pipeline": "pr-marketing",
+      "priorScore": 89,
+      "newScore": 89,
+      "delta": "0",
+      "whatChanged": "No new public signal since June 24 sharpening (founders public, product GA, Global 2000 deployments).",
+      "windowStatus": "Stable.",
+      "recommendedAction": "Maintain on hot list; continue prior outreach plan."
+    },
+    {
+      "name": "Ploy",
+      "pipeline": "pr-marketing",
+      "priorScore": 86,
+      "newScore": 86,
+      "delta": "0",
+      "whatChanged": "No new public signal found (early/low public footprint).",
+      "windowStatus": "Stable.",
+      "recommendedAction": "Hold; monitor for next funding or launch trigger."
+    }
+  ],
+  "skippedLeads": [
+    { "name": "Assort Health", "reason": "$120M Series C ($1.2B valuation) but healthcare-AI — off core FS/Tech ICP and large/likely already retains PR." },
+    { "name": "Behavox", "reason": "$175M growth equity but London-based, late-stage/established with 100+ FI customers — likely retained comms; low intent for agency retainer." },
+    { "name": "Flagright", "reason": "FS/regtech AML fit but small ($12.5M) and raise ~8 days old; below the freshness/scale bar today." },
+    { "name": "Limitless Labs / Hang Ten Systems", "reason": "Manufacturing/hardware (CAD-CAM physical AI, deep tech) — off ICP." },
+    { "name": "Odyssey", "reason": "$310M / $1.45B world-models infra — too large and well-resourced for agency retainer fit." },
+    { "name": "PR-freelance aggregator pages (The Work Crowd, Toptal, Upwork, Crackle PR)", "reason": "Evergreen directory/hire pages, not dated postings; already captured. No fresh PR-freelance company posting above 40 today." }
+  ],
+  "pipelineStatus": {
+    "pr-marketing": "4 new (Taktile A, Runlayer A, JustAI B, Trace Finance B) + 6 refreshes",
+    "legal-freelance": "1 new (Legalpeople B)",
+    "pr-freelance": "0 new — only evergreen aggregators surfaced",
+    "fund-formation": "0 new",
+    "legal-consulting": "0 new",
+    "coaching-ops": "0 new",
+    "media": "0 new",
+    "ai-consulting": "0 new"
+  },
+  "trends": [
+    "AI 'control layer' funding continues to dominate the June 24 roundup (Runlayer agent governance, Taktile agentic decisioning) — strong thought-leadership runway for agency PR clients.",
+    "Fintech/regulated-finance remains the richest vein for pr-marketing fits (Taktile, Trace Finance) given the agency's FS positioning.",
+    "Freelance pipelines stayed quiet for a 2nd straight day — job boards mostly surfacing evergreen aggregator/category pages rather than fresh dated postings. Consider native Indeed/CareerBuilder job alerts to catch new freelance postings faster.",
+    "Several top existing leads (Chronograph, Bland AI) are now ~9 days past their funding news — funding-news windows are aging; product-launch hooks (Chronograph private credit) extend their relevance."
+  ]
+}

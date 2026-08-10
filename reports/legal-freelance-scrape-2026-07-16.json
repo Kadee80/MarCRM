@@ -1,0 +1,62 @@
+{
+  "scrapeDate": "2026-07-16",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 2,
+  "note": "7-day window (extended context noted per lead). Thin-yield run: the daily/weekly legal-freelance scrapes have already captured the major recurring flexible-legal channels, so most fresh web results this run were either (a) already in CRM or (b) stale/closed syndicated posts. Deduped against legal-freelance and pr-freelance reports through 2026-07-15. EXCLUDED as already-captured recurring channels/companies: Paragon Legal, PsychPlus, Battlement Systems, Axiom, Priori Legal, Epiq Counsel, Outside GC (OGC), Roasa Law, Legal.io, ACC Jobline, Latitude, Ropes & Gray, Allocate, Interlink, Robert Half, Atlas Road, Tower Legal (prior remote NY role — see below re: NEW distinct on-site role). EXCLUDED as stale/closed this run: LWD Advisors fractional Senior Legal Counsel (fractionaljobs.io, added 2/18/2024, CLOSED), Stealth Startup fractional comp&benefits counsel (fractionaljobs.io, added 2/14/2024, CLOSED — also off-ICP: exec-comp/ERISA only), Latitude 'Corporate Attorney – Investment Funds' (Jobright: posted ~6 months ago, CLOSED), Kindness for Capital / Lyfecoin (prior-run filled). EXCLUDED as off-ICP: Shulman Rogers / NEXT 'Startup & VC Counsel' (full-time W-2 associate hire, MD Bar required — not a freelance/contract engagement). LEAD-SPECIFIC WINDOW NOTES: Lead 1 (Tower Legal 'Private Funds Contract Attorney — Temporary') indexed 5 days ago — a NEW, distinct, on-site NY temp role separate from the prior remote Tower posting already in CRM; import dedup is by exact company/role name so it will create a distinct row — verify still live before applying. Lead 2 (Broughton Group) indexed ~22 days ago, OUTSIDE the strict 7-day window — included because Broughton is a genuinely new distinct company with a strong ICP-fit private-funds contract mandate; urgency scored down and flagged VERIFY-LIVE.",
+  "leads": [
+    {
+      "name": "Tower Legal Solutions — Private Funds Contract Attorney (Temporary, On-site NY)",
+      "website": "https://www.towerls.com/",
+      "pipeline": "legal-freelance",
+      "industry": "Legal staffing / contract-attorney placement firm; end client is a corporate fund practice (private investment funds)",
+      "location": "New York, NY (on-site)",
+      "fundingStage": "n/a",
+      "fitScore": 40,
+      "intentScore": 25,
+      "fitDetails": { "practice_area": "Private funds — drafting & negotiating fund side letter agreements, feeder fund formation documents, and other fund governing agreements; reviewing documentation for compliance obligations across the fund lifecycle", "seniority": "Staff Attorney (NY-admitted); experienced fund drafter but below GC/special-counsel tier", "comp_credible": "$80–$120/hr stated (market-credible for contract fund staff attorney)", "fund_focus": "very strong — dedicated private funds / side-letter & feeder-fund mandate" },
+      "intentDetails": { "engagement_model": "temporary contract via staffing firm (W-2)", "remote_flex": "on-site NY (no remote — a fit drawback for Katie)", "recency": "indexed ~5 days ago (within 7-day window)", "apply_path": "JobLeads 'I'm interested' apply / Tower Legal recruiting" },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "contract",
+      "buyerType": "staffing",
+      "compensationText": "$80–$120/hr depending on experience; temporary staff-attorney engagement",
+      "remoteFlag": "onsite",
+      "employmentTypeRaw": "Temporary / part-time Staff Attorney (W-2 via Tower Legal Solutions)",
+      "urgencyScore": 58,
+      "contacts": [
+        { "name": "Tower Legal Solutions — Attorney Recruiting", "title": "Legal Staffing / Recruiting", "email": "info@towerls.com", "linkedin": "https://www.linkedin.com/company/tower-legal-solutions" }
+      ],
+      "signals": ["Direct private-funds mandate — side letters + feeder fund formation (best-fit workstreams)", "Market-credible stated hourly rate ($80-120/hr)", "Fresh posting (within 7-day window)", "Recurring channel already in CRM but this is a NEW distinct on-site role"],
+      "source": "Web search + direct fetch (JobLeads / Tower Legal Solutions, July 2026)",
+      "sourceUrl": "https://www.jobleads.com/us/job/private-funds-contract-attorney-temporary--new-york--ed8a159e69fa3c5b3d67db0e759e12bc9",
+      "notes": "Grade B (combined 65). Strong practice-area fit (private-fund side letters + feeder fund formation) at a credible contract rate. Two drawbacks vs. Katie's profile: (1) ON-SITE NY (no remote flexibility) and (2) staff-attorney tier rather than counsel/GC. Tower is a recurring flexible-legal channel already in the CRM, but this specific on-site 'Temporary' private-funds role is distinct from the prior remote Tower posting. ACTION: if NY-based/available on-site, apply and lead with side-letter and feeder-fund drafting; otherwise submit to Tower's bench for the remote private-funds variants they rotate. Verify posting is still live before applying."
+    },
+    {
+      "name": "Broughton Group — Private Funds Transactions Attorney (3-Month Contract, Hybrid NY)",
+      "website": "https://www.jobleads.com/us/job/private-funds-transactions-attorney-3-month-contract--new-york--ef1ac7919fd74317136ca7ea87637a4b0",
+      "pipeline": "legal-freelance",
+      "industry": "Legal staffing / contract-attorney placement (transactional); end client is a private funds / corporate transactions practice",
+      "location": "New York, NY (hybrid)",
+      "fundingStage": "n/a",
+      "fitScore": 40,
+      "intentScore": 35,
+      "fitDetails": { "practice_area": "Private funds transactions — fund transactional support, drafting/negotiating fund documents; corporate transactional overlap", "seniority": "Transactions Attorney (experienced, mid-level+); contract role", "comp_credible": "~$115,000 (annualized equivalent for the 3-month term) — market-credible", "fund_focus": "strong — private funds transactions mandate" },
+      "intentDetails": { "engagement_model": "3-month contract engagement", "remote_flex": "hybrid NY", "recency": "indexed ~22 days ago — OUTSIDE strict 7-day window; verify still live", "apply_path": "JobLeads apply / Broughton Group recruiting" },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "contract",
+      "buyerType": "staffing",
+      "compensationText": "USD ~115,000 (annualized equivalent); 3-month contract engagement",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "3-Month Contract (full-time hours), transactional attorney",
+      "urgencyScore": 42,
+      "contacts": [
+        { "name": "Broughton Group — Legal Recruiting", "title": "Legal Staffing / Recruiting", "email": "", "linkedin": "https://www.linkedin.com/company/broughton-group" }
+      ],
+      "signals": ["Private-funds transactions mandate (ICP workstream)", "Defined 3-month contract — clean freelance-style engagement", "Hybrid NY (some remote flex)", "NEW distinct company not previously captured", "Recency outside strict window — verify live"],
+      "source": "Web search + direct fetch (JobLeads / Broughton Group, July 2026)",
+      "sourceUrl": "https://www.jobleads.com/us/job/private-funds-transactions-attorney-3-month-contract--new-york--ef1ac7919fd74317136ca7ea87637a4b0",
+      "notes": "Grade B (combined 75; urgency scored down for age). Genuinely new company with a well-fit private-funds transactional contract mandate — a clean, defined 3-month engagement, hybrid NY. Included despite being ~22 days old (outside the strict 7-day window) because it is a distinct new channel and a strong ICP match; the age is the only knock. ACTION: verify the posting is still open (may be filled); if live, pitch private-funds transactional drafting/negotiation and note availability for the full 3-month term. Broughton also runs adjacent transactional staff-attorney contracts worth tracking as a recurring NY fund channel."
+    }
+  ]
+}

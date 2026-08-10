@@ -1,0 +1,258 @@
+{
+  "scrapeDate": "2026-06-30",
+  "scrapeTime": "11:10 UTC",
+  "totalLeads": 5,
+  "note": "Weekday daily scrape. 5 new leads (4 pr-marketing, 1 legal-freelance). Strong funding-trigger day for FS/AI pr-marketing (Arca, Performativ, xCures). Legal-freelance produced one A-grade private-funds contract role (Tower Legal Solutions). pr-freelance and fund-formation were thin: only aggregator/platform results (Indeed, gofractional, fractionaljobs.io, Upwork) surfaced with no specific named company posting clearing quality/dedup, and no new named emerging manager with an imminent raise appeared (Star51 already in 06-26). 4 signal refreshes on hot existing leads (Caplight, Attention, Runlayer, Scaled Cognition) — all confirmed their funding triggers; act-now windows open. Mega-rounds (Baseten $1.5B, Cognition $1B, Prometheus $41B) skipped as too large for agency ICP. Scores use the exact pr-marketing / legal-freelance rubrics.",
+  "leads": [
+    {
+      "name": "Tower Legal Solutions — Private Funds Contract Attorney (Temporary, NY)",
+      "website": "https://towerls.com",
+      "pipeline": "legal-freelance",
+      "industry": "Legal staffing / ALSP (private funds)",
+      "location": "New York, NY (hybrid; remote NY-barred variant also posted)",
+      "fundingStage": "",
+      "fitScore": 48,
+      "intentScore": 42,
+      "fitDetails": {
+        "fundPrivateFunds(+20)": 20,
+        "corporateContractsMA(+10)": 10,
+        "seniorityCounselGC(+10)": 8,
+        "compStatedCredible(+10)": 10
+      },
+      "intentDetails": {
+        "engagementModel(+15)": 15,
+        "remoteHybridFlex(+15)": 13,
+        "postedWithin72h(+10)": 6,
+        "easyApplyDirectContact(+10)": 8
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "contract",
+      "buyerType": "staffing",
+      "compensationText": "$80–120/hour DOE",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Temporary / Contract Staff Attorney",
+      "urgencyScore": 75,
+      "contacts": [],
+      "signals": [
+        "Active temp posting: draft/negotiate fund side letters, feeder fund formation docs, fund-ops compliance review",
+        "NY Bar required; $80–120/hr stated",
+        "Tower also has companion postings: remote NY-barred private-funds contract staff attorney + temporary funds attorney (private funds & fund ops)"
+      ],
+      "source": "JobLeads / LinkedIn (Tower Legal Solutions)",
+      "sourceUrl": "https://www.jobleads.com/us/job/private-funds-contract-attorney-temporary--new-york--ed8a159e69fa3c5b3d67db0e759e12bc9",
+      "notes": "A-grade. Bucket A (temporary/contract) + Bucket D (legal staffing) + private-funds practice area. employmentTypeRaw is temp W-2 staffing; engagementModel classified as contract. Buyer is a staffing/ALSP placing fund contract counsel — direct fit for Mark's freelance pitch. Companion remote variant raises flexibility."
+    },
+    {
+      "name": "Arca",
+      "website": "https://arca.com",
+      "pipeline": "pr-marketing",
+      "industry": "Wealthtech / AI-native wealth management (financial services)",
+      "location": "New York, NY",
+      "fundingStage": "Series A ($48.5M, led by General Catalyst) + $15.5M seed (Venrock) — $64M total, exited stealth June 24, 2026",
+      "fitScore": 47,
+      "intentScore": 37,
+      "fitDetails": {
+        "industryMatchFSTech(+10)": 10,
+        "stageSizeGrowth(+10)": 10,
+        "b2bBuyerSalesMotion(+10)": 7,
+        "proofAssets(+10)": 10,
+        "budget5k-25k(+10)": 10
+      },
+      "intentDetails": {
+        "triggerPresent(+15)": 15,
+        "timeline0-30days(+10)": 8,
+        "decisionMakerEngaged(+10)": 6,
+        "urgencyPain(+10)": 6,
+        "responsiveness(+5)": 2
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "Rron Rexha", "title": "Founder & CEO (ex-Plaid product lead)", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "Exited stealth June 24, 2026 with $64M (Series A led by General Catalyst; Index Ventures, Venrock)",
+        "Already manages $1B+ in client assets; 28 employees",
+        "High-profile board/advisors: Bill McNabb (Vanguard), Peter Crawford (Schwab), Jason Wenk (Altruist), Morgan Housel"
+      ],
+      "source": "BusinessWire / FintechFutures / WealthManagement.com",
+      "sourceUrl": "https://www.businesswire.com/news/home/20260624333055/en/Arca-Raises-$64-Million-to-Revolutionize-and-Humanize-Wealth-Management-at-Scale",
+      "notes": "A-grade. Top pr-marketing lead today: FS + AI, just-funded stealth exit (classic trigger), elite proof assets. B2B buyer score trimmed (advisory/B2C2C motion). Founder-led — no CMO yet, so first-comms-hire / narrative-build angle."
+    },
+    {
+      "name": "Performativ",
+      "website": "https://performativ.com",
+      "pipeline": "pr-marketing",
+      "industry": "Wealthtech / portfolio & wealth management SaaS (financial services)",
+      "location": "Copenhagen, Denmark (EU — geography caveat for US agency)",
+      "fundingStage": "Series A ($14M, led by Deutsche Börse Group; Rabo Investments, McKinsey & Co.)",
+      "fitScore": 44,
+      "intentScore": 31,
+      "fitDetails": {
+        "industryMatchFSTech(+10)": 10,
+        "stageSizeGrowth(+10)": 10,
+        "b2bBuyerSalesMotion(+10)": 8,
+        "proofAssets(+10)": 8,
+        "budget5k-25k(+10)": 8
+      },
+      "intentDetails": {
+        "triggerPresent(+15)": 15,
+        "timeline0-30days(+10)": 6,
+        "decisionMakerEngaged(+10)": 3,
+        "urgencyPain(+10)": 5,
+        "responsiveness(+5)": 2
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [],
+      "signals": [
+        "Series A led by Deutsche Börse Group (strategic) — strong credibility signal",
+        "B2B SaaS for wealth/portfolio managers; expansion capital"
+      ],
+      "source": "FintechFutures funding round-up",
+      "sourceUrl": "https://www.fintechfutures.com/venture-capital-funding/icymi-fintech-funding-round-up-marloo-onsetto-tenora-and-more",
+      "notes": "B-grade. Strong FS/SaaS fit and funding trigger, but Denmark-based — lower realistic intent/responsiveness for a US-based agency. Worth a low-effort outbound; deprioritize vs. US leads."
+    },
+    {
+      "name": "xCures",
+      "website": "https://xcures.com",
+      "pipeline": "pr-marketing",
+      "industry": "Health AI / clinical data infrastructure",
+      "location": "United States",
+      "fundingStage": "Series B ($46M; ~$127M post-money), announced June 24, 2026",
+      "fitScore": 41,
+      "intentScore": 34,
+      "fitDetails": {
+        "industryMatchFSTech(+10)": 6,
+        "stageSizeGrowth(+10)": 9,
+        "b2bBuyerSalesMotion(+10)": 8,
+        "proofAssets(+10)": 9,
+        "budget5k-25k(+10)": 9
+      },
+      "intentDetails": {
+        "triggerPresent(+15)": 15,
+        "timeline0-30days(+10)": 7,
+        "decisionMakerEngaged(+10)": 5,
+        "urgencyPain(+10)": 5,
+        "responsiveness(+5)": 2
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [],
+      "signals": [
+        "Series B $46M at ~$127M post-money (June 24, 2026)",
+        "AI clinical-data infrastructure; well-funded, scaling"
+      ],
+      "source": "Crunchbase News / AI funding trackers",
+      "sourceUrl": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-autonomy-biotech-anthropic/",
+      "notes": "B-grade. Sector-adjacent (healthtech, not core FS) — industry fit scored down. Solid raise trigger and real product proof. Credibility-sensitive (clinical) → genuine earned-media need."
+    },
+    {
+      "name": "SquareFi",
+      "website": "",
+      "pipeline": "pr-marketing",
+      "industry": "Stablecoin / digital-assets fintech infrastructure",
+      "location": "United States (reported)",
+      "fundingStage": "Emerged from stealth (June 2026; funding amount not disclosed)",
+      "fitScore": 31,
+      "intentScore": 28,
+      "fitDetails": {
+        "industryMatchFSTech(+10)": 10,
+        "stageSizeGrowth(+10)": 5,
+        "b2bBuyerSalesMotion(+10)": 7,
+        "proofAssets(+10)": 4,
+        "budget5k-25k(+10)": 5
+      },
+      "intentDetails": {
+        "triggerPresent(+15)": 13,
+        "timeline0-30days(+10)": 6,
+        "decisionMakerEngaged(+10)": 4,
+        "urgencyPain(+10)": 3,
+        "responsiveness(+5)": 2
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [],
+      "signals": [
+        "Exited stealth (FintechFutures exclusive, June 2026) — stablecoin-focused",
+        "Crypto/stablecoin positioning = credibility-sensitive narrative need"
+      ],
+      "source": "FintechFutures (exclusive)",
+      "sourceUrl": "https://www.fintechfutures.com/blockchain-crypto-digital-assets/exclusive-squarefi-emerges-from-stealth",
+      "notes": "C-grade. Real trigger (stealth exit) and crypto credibility need, but thin proof (no disclosed funding/metrics, size unknown). Hold for monitoring; revisit if a funding number or customer logos surface."
+    }
+  ],
+  "signalRefresh": [
+    {
+      "name": "Caplight Technologies",
+      "pipeline": "pr-marketing",
+      "priorCombined": 83,
+      "newCombined": 84,
+      "delta": 1,
+      "whatChanged": "Confirmed the trigger behind its 06-26 score: $16M Series A led by BlackRock & Fin Capital with UBS Investment Bank participation (June 24). Platform now cites $52T in customer AUM, $4T funding-round data, $5B+ daily live transaction flow.",
+      "recommendedAction": "Act now — fresh institutional-investor raise is peak earned-media moment. Pitch a post-raise narrative/thought-leadership sprint to founders Javier Avalos / Justin Moore.",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/caplight-raises-16m-series-a-led-by-blackrock-and-fin-capital-to-power-the-next-era-of-private-markets-302808600.html"
+    },
+    {
+      "name": "Attention",
+      "pipeline": "pr-marketing",
+      "priorCombined": 88,
+      "newCombined": 89,
+      "delta": 1,
+      "whatChanged": "$30M Series B (June 24, RTP Global). 87 employees, ARR up 4x YoY, 20M+ agent actions/month, explicitly moving upmarket into enterprise revenue orgs.",
+      "recommendedAction": "Hot. Enterprise move = rising comms/analyst-relations need. Window open; prioritize outreach this week.",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/attention-raises-30m-series-b-to-build-the-ai-system-that-runs-revenue-teams--not-just-records-them-302808821.html"
+    },
+    {
+      "name": "Runlayer",
+      "pipeline": "pr-marketing",
+      "priorCombined": 82,
+      "newCombined": 83,
+      "delta": 1,
+      "whatChanged": "$30M Series A (Felicis preempted; Khosla participating), $42M total raised. NY-based, out of stealth ~7 months. Customers include Instacart, Gusto, Lemonade, AngelList. Expanding GTM team.",
+      "recommendedAction": "Strong. GTM expansion + marquee logos = clear PR/positioning need around AI-agent governance. Pitch a launch/category-creation narrative.",
+      "sourceUrl": "https://fortune.com/2026/06/24/exclusive-vinod-khosla-felicis-runlayer-nanit-30-million-enterprise-ai/"
+    },
+    {
+      "name": "Scaled Cognition",
+      "pipeline": "pr-marketing",
+      "priorCombined": 83,
+      "newCombined": 81,
+      "delta": -2,
+      "whatChanged": "$100M Series A (Khosla-led, $750M valuation) confirmed — but announced June 9, so the raise is now ~3 weeks old and the freshest news window is closing.",
+      "recommendedAction": "Still strong but cooling on recency. Reach out promptly with a follow-on angle (product/research-team build-out) rather than the raise itself.",
+      "sourceUrl": "https://www.finsmes.com/2026/06/scaled-cognition-raises-100m-in-series-a-funding.html"
+    }
+  ],
+  "skipped": [
+    { "candidate": "pr-freelance pipeline", "reason": "Only aggregators/platforms surfaced (Indeed, gofractional, fractionaljobs.io, Upwork, The Work Crowd) — no specific named company posting (first-PR-hire / interim comms director / freelance publicist) cleared quality + dedup." },
+    { "candidate": "fund-formation pipeline", "reason": "No new named emerging manager with an imminent/announced raise. Only 2026 outlook content and Star51 Capital (already in 06-26)." },
+    { "candidate": "Baseten ($1.5B Series F), Cognition ($1B / $26B val), Prometheus ($41B val)", "reason": "Mega-rounds — company size/stage far outside agency ICP ($5k–25k/mo retainer buyers)." },
+    { "candidate": "Keel (BaaS, Manchester), Lloyds×Stripe", "reason": "Foreign / enterprise incumbent — outside ICP." }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "scrapeDate": "2026-07-08",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 3,
+  "note": "7-day window run. New inventory this cycle was thin: most fresh fund/interim postings surfaced (Latitude 5077, The Mom Project/Etsy interim securities counsel, Major Lindsey & Africa tech-transactions interim, Ropes & Gray funds, Lyfecoin fractional GC) were already captured in the 6/29–7/07 reports and were deduped out. Three genuinely new, uncaptured leads passed the 55+ threshold — all corporate/commercial fractional or interim roles rather than pure fund-formation work. Sigma7 is the standout for Katie's corporate/contracts/M&A profile. Postings this cycle skewed 15–20 days old, so recency/urgency scores are modest.",
+  "leads": [
+    {
+      "name": "Sigma7 — Fractional Corporate Legal Counsel (Remote)",
+      "website": "https://www.sigma7.com",
+      "pipeline": "legal-freelance",
+      "industry": "Global risk information & resilience services platform (400+ enterprise/government/NGO clients, 300+ employees, six brands). Fractional Corporate Legal Counsel leading commercial contract negotiation (consulting agreements, SaaS/threat-intelligence subscriptions, EULAs, DPAs), governance & compliance, privacy/data protection, and limited M&A diligence and acquisition NDA support.",
+      "location": "Remote (US)",
+      "fundingStage": "Established operating company / multi-brand risk-services platform (lean in-house legal team)",
+      "fitScore": 30,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "+10 — commercial contracting, corporate governance, plus limited M&A diligence and strategic-transaction NDA support.",
+        "seniority": "+10 — Senior Corporate Counsel level, 8+ years required, positioned as lead for legal judgment and negotiation strategy.",
+        "comp_credible": "+10 — $150–$200/hr stated, market-credible for fractional senior counsel.",
+        "fund_focus": "0 — no fund-formation / private-funds component; corporate/commercial operator."
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — explicit fractional engagement, autonomous operator model.",
+        "remote_flex": "+15 — fully remote, globally distributed team.",
+        "recency": "0 — posted ~20 days ago (outside 72h window).",
+        "apply_path": "+10 — direct 'Apply Now' to original external posting."
+      },
+      "vertical": "legal",
+      "subvertical": "corporate",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "$150–$200/hr; 10–30 hrs/week; indefinite duration",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional Corporate Legal Counsel (1099/independent, indefinite) — external post via Go Fractional",
+      "urgencyScore": 55,
+      "contacts": [
+        {
+          "name": "Sigma7 — Legal / Hiring Team",
+          "title": "Hiring contact (Legal Operations leadership)",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/sigma7"
+        }
+      ],
+      "signals": [
+        "fractional",
+        "remote",
+        "commercial contracting",
+        "corporate governance",
+        "M&A diligence",
+        "privacy/data protection",
+        "senior counsel (8+ yrs)",
+        "$150-200/hr stated"
+      ],
+      "source": "Go Fractional — Legal (external job post)",
+      "sourceUrl": "https://www.gofractional.com/job/sigma7-fractional-corporate-legal-counsel",
+      "notes": "Strongest fit this cycle for Katie. Pitch angle: high-judgment corporate counsel who can own commercial negotiation strategy, governance, and escalated risk for a lean, globally distributed legal function — exactly the 'complex enough to pay for judgment, not enough capacity to hire FT' buyer profile. Posting ~20 days old, so lead with a proactive note rather than assuming an open urgent req."
+    },
+    {
+      "name": "Nuvei — Interim Head of North American Compliance (Remote, 20-Month Contract)",
+      "website": "https://www.nuvei.com",
+      "pipeline": "legal-freelance",
+      "industry": "Global payment technology / fintech. Interim Head of North American Compliance on a fixed-term (~20-month) contract covering regulatory compliance for US/Canada payments operations — money-transmission, AML/regulatory frameworks, and corporate compliance governance.",
+      "location": "Remote (USA/Canada)",
+      "fundingStage": "Large public fintech (payments) — corporate compliance function",
+      "fitScore": 20,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "0 — compliance-heavy (payments/AML regulatory) rather than corporate/commercial/fund transactional work; sits at the edge of the ICP's 'regulatory/compliance tied to corporate operations' workstream.",
+        "seniority": "+10 — Head-of-Compliance leadership level.",
+        "comp_credible": "+10 — $150–$225/hr equivalent stated.",
+        "fund_focus": "0 — no fund/private-funds component."
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — interim / fixed-term contract engagement.",
+        "remote_flex": "+15 — remote across USA/Canada.",
+        "recency": "0 — posted ~16 days ago.",
+        "apply_path": "+10 — external apply via Go Fractional / Workable."
+      },
+      "vertical": "legal",
+      "subvertical": "compliance",
+      "engagementModel": "interim",
+      "buyerType": "operating-company",
+      "compensationText": "$150–$225/hr equivalent; ~20-month fixed-term contract; 30–40 hrs/week",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Interim Head of North American Compliance — 20-month fixed-term contract (Workable), external post via Go Fractional",
+      "urgencyScore": 50,
+      "contacts": [
+        {
+          "name": "Nuvei — Talent / Legal Hiring Team",
+          "title": "Recruiter (interim compliance leadership)",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/nuvei"
+        }
+      ],
+      "signals": [
+        "interim",
+        "contract (20-month)",
+        "remote",
+        "compliance leadership",
+        "payments/fintech regulatory",
+        "$150-225/hr"
+      ],
+      "source": "Go Fractional — Legal (external job post / Workable)",
+      "sourceUrl": "https://www.gofractional.com/job/workable-head-of-north-american-compliance-20-month-contract-nuvei",
+      "notes": "Borderline fit — compliance-heavy and closer to interim staffing (fixed-term) than true freelance operator work, and outside Katie's corporate/fund sweet spot. Included as a B-grade lead on engagement model + comp credibility. Pitch only if Katie wants to widen into payments/AML compliance; otherwise deprioritize vs. Sigma7."
+    },
+    {
+      "name": "OneRail — Fractional Commercial Counsel (Remote, Part-Time)",
+      "website": "https://www.onerail.com",
+      "pipeline": "legal-freelance",
+      "industry": "Last-mile delivery / logistics orchestration software. Fractional Commercial Counsel supporting commercial contracting and vendor/customer paper on a part-time basis for the company's operations.",
+      "location": "Remote (Australia-based buyer)",
+      "fundingStage": "Growth-stage logistics-software company",
+      "fitScore": 30,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "+10 — commercial contracts / vendor & customer paper.",
+        "seniority": "+10 — Commercial Counsel / GC-level tag.",
+        "comp_credible": "+10 — $145–$185/hr stated.",
+        "fund_focus": "0 — commercial operator, no fund work."
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — explicit fractional, part-time.",
+        "remote_flex": "+15 — fully remote.",
+        "recency": "0 — posted ~18 days ago.",
+        "apply_path": "+10 — direct external apply via Go Fractional."
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "$145–$185/hr; 10–15 hrs/week; part-time",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional Commercial Counsel (part-time) — external post via Go Fractional",
+      "urgencyScore": 42,
+      "contacts": [
+        {
+          "name": "OneRail — Hiring Team",
+          "title": "Hiring contact (Commercial/Legal)",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/onerail"
+        }
+      ],
+      "signals": [
+        "fractional",
+        "part-time",
+        "remote",
+        "commercial contracts",
+        "vendor/customer paper",
+        "$145-185/hr"
+      ],
+      "source": "Go Fractional — Legal (external job post)",
+      "sourceUrl": "https://www.gofractional.com/job/one-rail-australia-commercial-counsel-part-time",
+      "notes": "Fit on engagement model + commercial-contracts work, but the buyer is Australia-based — likely APAC-timezone expectations despite the remote flag, which is a real friction for a US-based operator. Lowest priority of the three; include only if Katie is open to async/APAC-overlap commercial-contracts work."
+    }
+  ]
+}

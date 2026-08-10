@@ -1,0 +1,192 @@
+{
+  "scrapeDate": "2026-06-23",
+  "scrapeType": "pr-freelance",
+  "totalLeads": 4,
+  "note": "4 new leads scored 55+. No overlap with prior runs through 2026-06-22. Financial/IR-specific postings thin this week; best leads are agency overflow channels (Mission North, Crackle PR) and a fractional consumer PR role with strong intent signals. Crackle PR is the highest-priority outreach.",
+  "leads": [
+    {
+      "name": "Mission North",
+      "website": "https://www.missionnorth.com",
+      "pipeline": "pr-freelance",
+      "industry": "Integrated PR & Communications Agency (B2B Tech)",
+      "location": "Remote (US) — SF, New York, Portland hubs",
+      "fundingStage": "Independent Agency (est. ~2012, formerly Bateman Group)",
+      "fitScore": 45,
+      "intentScore": 40,
+      "fitDetails": {
+        "pr_remit": true,
+        "sector_fit": "B2B tech, AI, fintech, enterprise SaaS",
+        "workstream": "earned media, thought leadership, executive comms, media relations",
+        "buyer_quality": "agency — repeat overflow relationship potential",
+        "urgency": "reposted 6 days ago, always open bench listing"
+      },
+      "intentDetails": {
+        "engagement_model": "freelance/contractor explicitly stated",
+        "remote_flex": "100% remote, US only",
+        "recency": "reposted June 17, 2026",
+        "urgency_signals": "active bench recruitment, year-round",
+        "apply_path": "Greenhouse direct apply link"
+      },
+      "vertical": "pr",
+      "subvertical": "agency-overflow",
+      "engagementModel": "freelance",
+      "buyerType": "agency",
+      "compensationText": "Not stated — hourly/project negotiated per engagement",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Freelance (independent contractor)",
+      "urgencyScore": 70,
+      "contacts": [
+        {
+          "name": "Mission North Talent",
+          "title": "Recruiting",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/mission-north"
+        }
+      ],
+      "signals": [
+        "Reposted June 17 — active bench building",
+        "B2B tech / integrated comms focus aligns with Mark's ICP",
+        "Explicit senior freelancer ask (PR, comms, digital marketing, content)",
+        "Year-round listing — ongoing overflow need"
+      ],
+      "source": "Built In NYC",
+      "sourceUrl": "https://www.builtinnyc.com/job/freelance-opportunities/7211354",
+      "notes": "Mission North (formerly Bateman Group) maintains an active freelance bench for PR, comms, digital marketing, and content creation. Reposted 6 days ago. Apply directly via Greenhouse: https://www.missionnorth.com/job-posting-detail?gh_jid=8182703002. Strong fit for B2B tech overflow and thought leadership work. Mark should lead with executive comms and earned media experience in the cover note."
+    },
+    {
+      "name": "Consumer Marketing Company (via Go Fractional)",
+      "website": "https://www.gofractional.com/job/fractional-pr-growth-marketer-cmqbe3b4",
+      "pipeline": "pr-freelance",
+      "industry": "D2C Consumer Gift Products / Specialty Retail",
+      "location": "Remote — Washington state (US)",
+      "fundingStage": "Bootstrapped / Founder-led",
+      "fitScore": 35,
+      "intentScore": 50,
+      "fitDetails": {
+        "pr_remit": true,
+        "sector_fit": "LOW — consumer D2C gift products, not B2B/finance",
+        "workstream": "earned media, media relations, gift guide placements, editorial outreach",
+        "buyer_quality": "startup/founder-led — single engagement",
+        "urgency": "immediate start needed for holiday season"
+      },
+      "intentDetails": {
+        "engagement_model": "fractional explicitly stated",
+        "remote_flex": "100% remote",
+        "recency": "posted June 21, 2026 (2 days ago)",
+        "urgency_signals": "begins soon, targeting seasonal holiday deadlines — high urgency",
+        "apply_path": "Go Fractional platform direct apply"
+      },
+      "vertical": "pr",
+      "subvertical": "media-relations",
+      "engagementModel": "fractional",
+      "buyerType": "startup",
+      "compensationText": "$50–$95/hr",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional (independent contractor)",
+      "urgencyScore": 85,
+      "contacts": [],
+      "signals": [
+        "Posted 2 days ago — very fresh",
+        "$50-$95/hr with 15-30 hrs/week = solid hourly income",
+        "Seasonal urgency: holiday gift guide deadline approaching",
+        "Senior-level CMO/Head of PR profile explicitly requested",
+        "100% fractional/remote — no full-time commitment"
+      ],
+      "source": "Go Fractional",
+      "sourceUrl": "https://www.gofractional.com/job/fractional-pr-growth-marketer-cmqbe3b4",
+      "notes": "CAVEAT: Weak sector fit — this is consumer D2C (specialty gift products, Pinterest, holiday gift guides), NOT B2B/finance/IR. Score is high on intent (recency, urgency, fractional model) but low on sector alignment with Mark's core ICP. Good income diversification play if Mark wants a short seasonal fractional engagement. Do NOT pitch financial PR credentials here — irrelevant. Apply at: https://www.gofractional.com/job/fractional-pr-growth-marketer-cmqbe3b4"
+    },
+    {
+      "name": "Crackle PR",
+      "website": "https://www.cracklepr.com",
+      "pipeline": "pr-freelance",
+      "industry": "B2B Tech PR Agency (VC-backed brands, fintech, SaaS, enterprise)",
+      "location": "Remote-first — Boston, NYC, SF, Austin, Portsmouth (NH) hubs",
+      "fundingStage": "Independent Agency (Parry Headrick, founder)",
+      "fitScore": 50,
+      "intentScore": 30,
+      "fitDetails": {
+        "pr_remit": true,
+        "sector_fit": "HIGH — B2B tech, fintech (Creditsafe case study), enterprise, VC-backed startups",
+        "workstream": "earned media, media relations, thought leadership, executive comms, content creation, GEO/AI",
+        "buyer_quality": "agency — ongoing senior consultant relationship potential",
+        "urgency": "evergreen but actively interviewing B2B tech freelancers"
+      },
+      "intentDetails": {
+        "engagement_model": "freelance/consultant — always hiring senior operators",
+        "remote_flex": "100% remote",
+        "recency": "evergreen listing",
+        "urgency_signals": "founder runs short hiring process, no committee interviews",
+        "apply_path": "Direct email to founder: parry@cracklepr.com"
+      },
+      "vertical": "pr",
+      "subvertical": "comms",
+      "engagementModel": "consultant",
+      "buyerType": "agency",
+      "compensationText": "Not stated — senior B2B tech PR market rate ($150–$250/hr)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Freelance / Consultant (1099)",
+      "urgencyScore": 55,
+      "contacts": [
+        {
+          "name": "Parry Headrick",
+          "title": "Founder & Chief Evangelist",
+          "email": "parry@cracklepr.com",
+          "linkedin": "https://www.linkedin.com/company/crackle-pr"
+        }
+      ],
+      "signals": [
+        "Fintech case study: Creditsafe — 1,940+ media mentions in 1 year, MarketWatch/TheStreet/Fintech Times",
+        "All-senior team — no junior coords — Mark fits the profile exactly",
+        "Explicitly interviewing B2B tech freelancers and consultants",
+        "Direct founder email (parry@cracklepr.com) — short hiring process",
+        "Clients include ON24, Schneider Electric, Oracle, SoftBank — enterprise narrative work"
+      ],
+      "source": "Crackle PR / Web Search",
+      "sourceUrl": "https://www.cracklepr.com/careers",
+      "notes": "Highest-priority outreach this run. Crackle PR is a remote-first B2B tech PR agency always hiring senior operators. Their fintech case study (Creditsafe: 1,940 media mentions, MarketWatch, TheStreet, Fintech Times) is a direct analog to Mark's ICP. Email Parry Headrick directly: parry@cracklepr.com. Pitch: senior PR strategist, B2B/fintech earned media, executive comms, able to embed fast on accounts with no ramp time. No committee interviews — founder runs the process."
+    },
+    {
+      "name": "Scion Creative Staffing",
+      "website": "https://scionstaffing.com",
+      "pipeline": "pr-freelance",
+      "industry": "Creative & Communications Contract Staffing",
+      "location": "National (remote and hybrid placements)",
+      "fundingStage": "Established Staffing Agency",
+      "fitScore": 45,
+      "intentScore": 30,
+      "fitDetails": {
+        "pr_remit": true,
+        "sector_fit": "Medium — places in finance, tech, B2B, nonprofits, agencies",
+        "workstream": "media relations, PR, communications, content — any senior comms workstream",
+        "buyer_quality": "staffing intermediary — ongoing passive channel",
+        "urgency": "ongoing contractor pipeline"
+      },
+      "intentDetails": {
+        "engagement_model": "W-2 contract, temp-to-hire, contract-to-hire",
+        "remote_flex": "remote, hybrid, and onsite placements available",
+        "recency": "evergreen",
+        "urgency_signals": "immediate access to clients needing fast PR placement",
+        "apply_path": "Register at scionstaffing.com/search-jobs or contact creative division"
+      },
+      "vertical": "pr",
+      "subvertical": "comms",
+      "engagementModel": "contract",
+      "buyerType": "staffing",
+      "compensationText": "Varies by placement — senior PR typically $65–$150/hr",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "W-2 contractor (placed by staffing agency)",
+      "urgencyScore": 40,
+      "contacts": [],
+      "signals": [
+        "National network of PR/comms contractor placements",
+        "Specializes in temporary and contract-to-hire comms roles",
+        "Serves agencies, operating companies, nonprofits, and enterprises",
+        "Remote capabilities across US"
+      ],
+      "source": "Scion Staffing / Web Search",
+      "sourceUrl": "https://scionstaffing.com/temporary-communications-staffing/",
+      "notes": "Pipeline infrastructure play — not a single job posting. Registering with Scion creates a passive channel for senior PR contractor placements. When their clients need emergency overflow (maternity leave backfill, campaign sprint, agency overflow), Mark's profile surfaces. Note: W-2 contractor model, not 1099 — different from Mark's preferred freelance structure. Good for diversification. Apply/register at: https://scionstaffing.com/search-jobs/"
+    }
+  ]
+}

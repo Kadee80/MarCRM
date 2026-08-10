@@ -1,0 +1,248 @@
+{
+  "scrapeDate": "2026-06-26",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 5,
+  "note": "Automated scrape, 7-day window. Recurring-firm saturation continues: the majority of live freelance/fractional/interim legal postings this run matched firms already captured across prior legal-freelance reports (Axiom, Major Lindsey & Africa, Ontra, Paragon Legal, Lawyers on Demand, Robert Half Legal, Ropes & Gray, aVenture, Larson Maddox/Phaidon, Latitude Legal, Taylor Root, SPZ Legal, Faison Law Group, Epiq Counsel, Next Era Legal, The Mom Project). 5 NEW entities pass the 55+ threshold. Strongest is Practus LLP (Grade A) — a distributed virtual law firm with a genuine fund-formation/hedge-fund + corporate desk and an of-counsel intake, though it favors practitioners with a portable book. The other four are Grade B: Consilio TalentConnect (live remote hourly commercial-contracts req), OutsideGC, Intellectual Strategies, and Legal.io. Deduplicated against legal-freelance, pr-freelance, and daily reports through 2026-06-25.",
+  "leads": [
+    {
+      "name": "Practus LLP — Outsourced General Counsel / Of-Counsel (Funds & Corporate, Remote)",
+      "website": "https://practus.com/join-us/",
+      "pipeline": "legal-freelance",
+      "industry": "Distributed virtual law firm providing outsourced/fractional general counsel to emerging, growth-stage, and established companies and investment funds; corporate, fund formation, hedge fund services, M&A, governance",
+      "location": "Remote / virtual (US, distributed firm)",
+      "fundingStage": "Established virtual law firm (partner-centric model)",
+      "fitScore": 45,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Outsourced GC plus dedicated Corporate Services and Hedge Fund / fund-formation desks — strong overlap with Katie's corporate + private-funds profile. Serves venture/PE-backed enterprises off the CFO/CEO plate.",
+        "seniority": "Counsel / OGC / partner level — senior practitioners expected",
+        "comp_credible": "Yes — stated economics: attorneys keep ~80% of what they bill/originate, 52% on referred work",
+        "fund_focus": "High — explicit hedge fund services + fund formation alongside corporate"
+      },
+      "intentDetails": {
+        "engagement_model": "Of-counsel / fractional platform; attorneys run their own book on the firm's virtual infrastructure",
+        "remote_flex": "Fully remote / virtual",
+        "recency": "Evergreen of-counsel intake (no single dated req)",
+        "apply_path": "Direct apply via Join Us page / of-counsel intake"
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "fractional",
+      "buyerType": "law-firm",
+      "compensationText": "Partner-centric: attorneys keep ~80% of what they bill and originate; 52% on work referred by Practus partners",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Of-counsel / partner on a distributed virtual platform — favors practitioners with a portable book of business; distinct from per-engagement 1099 staffing",
+      "urgencyScore": 55,
+      "contacts": [
+        {
+          "name": "Practus LLP — Attorney Recruiting / Join Us",
+          "title": "Distributed virtual law firm (outsourced GC, funds & corporate)",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/practus-llp"
+        }
+      ],
+      "signals": [
+        "Outsourced general counsel + dedicated hedge fund / fund-formation desk",
+        "Stated comp economics (keep ~80% of billings)",
+        "Fully remote / virtual distributed firm",
+        "Serves venture/PE-backed enterprises and investment funds",
+        "NEW entity — not in prior reports"
+      ],
+      "source": "Practus LLP / web search",
+      "sourceUrl": "https://practus.com/join-us/",
+      "notes": "Grade A (combined 85 — best fund+corporate fit this run). NEW entity. ACTION: explore of-counsel intake; positions Katie's fund-formation + corporate experience well. CAVEAT: model favors attorneys bringing a portable book of business, so frame as a platform for her own client relationships rather than a staffing bench. Fund desk (hedge fund services) is the differentiator vs. OGC firms already captured (SPZ Legal, Faison, Next Era, Roasa)."
+    },
+    {
+      "name": "Consilio TalentConnect — Commercial Contracts Attorney (Remote, Hourly)",
+      "website": "https://talentconnect.consilio.com/",
+      "pipeline": "legal-freelance",
+      "industry": "Global flexible legal talent / ALSP (Consilio, parent of Lawyers on Demand); TalentConnect places contract & interim counsel into in-house teams and firms",
+      "location": "Remote (US)",
+      "fundingStage": "Established global ALSP (Consilio)",
+      "fitScore": 30,
+      "intentScore": 42,
+      "fitDetails": {
+        "practice_area": "Live fully-remote commercial-contracting attorney req (drafting/negotiating commercial paper); broad corporate/commercial overlap. No fund-formation desk on this specific req.",
+        "seniority": "Experienced counsel level",
+        "comp_credible": "Yes — stated $80–85/hr on the live commercial-contracting posting",
+        "fund_focus": "Low — commercial contracts, not private funds"
+      },
+      "intentDetails": {
+        "engagement_model": "Contract / hourly via TalentConnect bench — true single live req plus ongoing flexible-talent demand",
+        "remote_flex": "Fully remote",
+        "recency": "Live June 2026 postings surfaced (TalentConnect / Indeed Consilio remote, dated June 22, 2026)",
+        "apply_path": "Direct apply via TalentConnect portal / Legal.io listing"
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "$80–85/hr on the live commercial-contracting req (one posting noted clinical-trials experience, a separate corporate/commercial track exists)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contract / hourly via ALSP (W-2 staffing) — distinct from independent 1099 operator; note Consilio is the parent of Lawyers on Demand (LOD captured separately)",
+      "urgencyScore": 70,
+      "contacts": [
+        {
+          "name": "Consilio TalentConnect — Flexible Talent",
+          "title": "ALSP / contract & interim legal staffing (Consilio)",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/consilio-llc/"
+        }
+      ],
+      "signals": [
+        "Live remote Commercial Contracts Attorney req at stated $80–85/hr",
+        "TalentConnect portal places contract/interim counsel",
+        "Recent (June 22, 2026) remote Consilio postings",
+        "Parent of Lawyers on Demand — broader corporate/securities bench",
+        "NEW entity (LOD captured separately) — not in prior reports"
+      ],
+      "source": "Consilio TalentConnect / web search",
+      "sourceUrl": "https://talentconnect.consilio.com/flexible-talent-career-opportunities/",
+      "notes": "Grade B (combined 72 — strongest intent this run: live, dated, remote, hourly). NEW entity. ACTION: register with TalentConnect and apply to the remote commercial-contracts req; ask about corporate/securities/fund-adjacent reqs given LOD's broader bench. Track employmentTypeRaw (W-2 staffing) vs. true freelance. Overlaps the already-captured Lawyers on Demand relationship — note Consilio is the parent."
+    },
+    {
+      "name": "OutsideGC — Fractional / Outside General Counsel (Corporate, Remote)",
+      "website": "https://outsidegc.com/",
+      "pipeline": "legal-freelance",
+      "industry": "Outside/fractional general counsel firm with 100+ attorneys serving companies of all sizes; corporate, governance, M&A, commercial contracts on a part-time/project basis",
+      "location": "Remote / hybrid (US)",
+      "fundingStage": "Established outside-GC firm (100+ attorneys)",
+      "fitScore": 20,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Fractional/outside GC: corporate, governance, M&A, commercial contracts — solid corporate overlap; no dedicated fund-formation desk surfaced.",
+        "seniority": "GC / counsel level",
+        "comp_credible": "Not stated (per-engagement / of-counsel)",
+        "fund_focus": "Low-medium — corporate & governance, fund-adjacent at most"
+      },
+      "intentDetails": {
+        "engagement_model": "Of-counsel network that staffs engagements with experienced attorneys — natural overflow/of-counsel relationship for a fractional operator",
+        "remote_flex": "Remote / hybrid",
+        "recency": "Evergreen of-counsel intake (no single dated req)",
+        "apply_path": "Warm outreach via firm contact / of-counsel intake"
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "law-firm",
+      "compensationText": "Not stated (per-engagement / of-counsel)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Of-counsel / fractional engagements (distributed firm)",
+      "urgencyScore": 50,
+      "contacts": [
+        {
+          "name": "OutsideGC — Attorney Recruiting / Of Counsel",
+          "title": "Outside / fractional general counsel firm",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/outside-gc-llc/"
+        }
+      ],
+      "signals": [
+        "100+ attorney fractional/outside GC firm",
+        "Corporate, governance, M&A, commercial contracts",
+        "Remote / hybrid of-counsel model",
+        "Staffs engagements with experienced counsel — overflow target",
+        "NEW entity — not in prior reports"
+      ],
+      "source": "OutsideGC / web search",
+      "sourceUrl": "https://outsidegc.com/blog/fractional-general-counsel-a-right-sized-solution-for-startups-and-smes/",
+      "notes": "Grade B (combined 60 — relationship/overflow lead, no single live req). NEW entity. ACTION: warm outreach offering fractional/overflow corporate, governance, and commercial-contracts capacity. Verify current of-counsel intake and decision-maker before pitching. Distinct from OGC firms already captured (SPZ Legal, Faison, Next Era, Roasa, Practus)."
+    },
+    {
+      "name": "Intellectual Strategies — Fractional General Counsel for Funded Startups (Remote)",
+      "website": "https://www.intellectualstrategies.com/services/fractional-legal-services/fractional-general-counsel",
+      "pipeline": "legal-freelance",
+      "industry": "Fractional legal team / embedded GC provider for funded startups, scaling SaaS, ecommerce, and tech-enabled B2B; corporate, contracts, IP, employment, data privacy",
+      "location": "Remote (US)",
+      "fundingStage": "Established fractional legal-team practice (led by Jeff Holman)",
+      "fitScore": 20,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Embedded fractional GC + custom legal teams for funded startups: corporate, commercial contracts, governance — good corporate/contracts overlap; venture-adjacent rather than fund formation.",
+        "seniority": "Fractional GC / counsel level (specialized, not generalist)",
+        "comp_credible": "Not stated (per-engagement / fractional retainer)",
+        "fund_focus": "Low-medium — funded-startup corporate work, not private-fund formation"
+      },
+      "intentDetails": {
+        "engagement_model": "Builds custom fractional legal teams from specialized attorneys — natural of-counsel / specialist relationship for a corporate operator",
+        "remote_flex": "Fully remote",
+        "recency": "Evergreen firm relationship (no single dated req)",
+        "apply_path": "Warm outreach via firm contact / specialist intake"
+      },
+      "vertical": "legal",
+      "subvertical": "corporate",
+      "engagementModel": "fractional",
+      "buyerType": "ALSP",
+      "compensationText": "Not stated (per-engagement / fractional retainer)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Of-counsel / specialist engagements within a fractional legal team",
+      "urgencyScore": 50,
+      "contacts": [
+        {
+          "name": "Intellectual Strategies — Hiring / Specialist Counsel",
+          "title": "Fractional legal team / embedded GC provider",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/intellectual-strategies/"
+        }
+      ],
+      "signals": [
+        "Embedded fractional GC + custom legal teams for funded startups",
+        "Corporate, commercial contracts, governance, IP",
+        "Fully remote; uses specialized (non-generalist) attorneys",
+        "Builds teams from outside specialists — of-counsel target",
+        "NEW entity — not in prior reports"
+      ],
+      "source": "Intellectual Strategies / web search",
+      "sourceUrl": "https://www.intellectualstrategies.com/services/fractional-legal-services/fractional-general-counsel",
+      "notes": "Grade B (combined 60 — relationship/overflow lead). NEW entity. ACTION: warm outreach offering corporate/commercial-contracts/governance specialist capacity for their fractional teams (funded-startup clients). Verify current specialist intake before pitching. Distinct from OGC/fractional firms already captured."
+    },
+    {
+      "name": "Legal.io — Enterprise Legal Talent Marketplace (Contract Corporate Counsel, Remote)",
+      "website": "https://www.legal.io/",
+      "pipeline": "legal-freelance",
+      "industry": "Enterprise legal marketplace / talent network connecting companies with vetted legal professionals for contract, part-time, and permanent roles; 100k+ professional community, serves large in-house teams",
+      "location": "Remote (US)",
+      "fundingStage": "VC-backed legal-tech marketplace (founded 2015)",
+      "fitScore": 20,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Marketplace surfacing contract corporate/commercial-contracts counsel reqs for enterprise in-house teams; broad corporate overlap. No dedicated fund desk, but high volume of corporate reqs.",
+        "seniority": "Counsel level (vetted network)",
+        "comp_credible": "Varies by req (rates set per posting); marketplace, not unpaid",
+        "fund_focus": "Low — enterprise corporate/commercial, not private funds"
+      },
+      "intentDetails": {
+        "engagement_model": "Contract / part-time placements via vetted marketplace — register once, apply to live corporate reqs",
+        "remote_flex": "Remote / hybrid reqs common",
+        "recency": "Evergreen marketplace with rolling live reqs (e.g., remote Commercial Contracts Attorney listings)",
+        "apply_path": "Easy apply — create profile and apply to live reqs"
+      },
+      "vertical": "legal",
+      "subvertical": "corporate",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "Per-req rates set by posting; marketplace placements (contract/part-time)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contract / part-time via marketplace — mix of 1099 and W-2 depending on the end client",
+      "urgencyScore": 55,
+      "contacts": [
+        {
+          "name": "Legal.io — Talent Network",
+          "title": "Enterprise legal talent marketplace",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/legal-io/"
+        }
+      ],
+      "signals": [
+        "Enterprise legal marketplace, 100k+ vetted professionals",
+        "Contract / part-time corporate & commercial-contracts reqs",
+        "Serves large in-house legal teams (incl. major tech)",
+        "Easy-apply, register-once model with rolling live reqs",
+        "NEW entity — not in prior reports"
+      ],
+      "source": "Legal.io / web search",
+      "sourceUrl": "https://www.legal.io/jobs/5544338/Full-time/Commercial-Contracts-Attorney/Remote",
+      "notes": "Grade B (combined 60 — marketplace relationship with rolling corporate reqs). NEW entity. ACTION: create a vetted profile and set alerts for remote contract corporate/commercial-contracts and securities reqs. Lower fund-fit but high volume and easy-apply. Distinct from staffing/ALSP entities already captured."
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "scrapeDate": "2026-06-22",
+  "scrapeType": "pr-freelance",
+  "totalLeads": 5,
+  "note": "Dedup checked against 2026-06-15 through 2026-06-19 reports. All 5 leads are new. Sources: LinkedIn (via Google), Indeed, ZipRecruiter, Built In, Remotive, Mediabistro, JobLeads, Glassdoor, The PR Net, FractionalJobs.io.",
+  "leads": [
+    {
+      "name": "Torry Harris Integration Solutions",
+      "website": "https://www.torryharris.com",
+      "pipeline": "pr-freelance",
+      "industry": "B2B Enterprise SaaS / IT Integration",
+      "location": "Remote (US-based required)",
+      "fundingStage": "Established / Global IT Firm",
+      "fitScore": 40,
+      "intentScore": 40,
+      "fitDetails": {
+        "pr_remit": true,
+        "pr_remit_note": "Freelance PR & Communications Manager — agency liaison, media narratives, B2B SaaS",
+        "sector_fit": "B2B SaaS / Enterprise IT — strong sector match (+10)",
+        "workstream": "Agency management, media relations, technical narrative translation (+10)",
+        "buyer_quality": "Global established IT firm with active PR agency retainer",
+        "urgency": "Role posted April 2026 and still open — backfill signal"
+      },
+      "intentDetails": {
+        "engagement_model": "Freelance (1099/independent) — explicitly labeled freelance (+15)",
+        "remote_flex": "100% Remote, US time zones required (+10)",
+        "recency": "Posted April 2026, still actively listed — 8+ weeks open",
+        "urgency_signals": "Long open = difficulty filling senior role, strong urgency (+10)",
+        "apply_path": "JobLeads.com direct apply + Torry Harris careers portal (+5)"
+      },
+      "vertical": "pr",
+      "subvertical": "comms",
+      "engagementModel": "freelance",
+      "buyerType": "operating-company",
+      "compensationText": "$40–$50/hour, 15–20 hours per week, 6+ month duration",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Freelance",
+      "urgencyScore": 75,
+      "contacts": [
+        {
+          "name": "",
+          "title": "Hiring Manager",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/torry-harris-integration-solutions"
+        }
+      ],
+      "signals": [
+        "Active PR agency retainer — needs senior liaison",
+        "B2B Enterprise SaaS product",
+        "Global team, US time zone alignment required",
+        "Open since April 2026 — urgency/backfill signal",
+        "$40-50/hr rate is competitive for freelance PR"
+      ],
+      "source": "JobLeads",
+      "sourceUrl": "https://www.jobleads.com/us/job/remote-us-pr-communications-lead-b2b-saas--united-states--e1a17fc71561786e886eecd8d3421d945",
+      "notes": "Torry Harris is a global IT integration company. The role is a pure plug-in freelance position to manage their existing US PR agency relationship. Role requires 5-8+ years B2B SaaS PR. Strong fit for Mark's strategic + executional profile. 100% remote. Highest-priority lead this run."
+    },
+    {
+      "name": "LaunchSquad",
+      "website": "https://launchsquad.com",
+      "pipeline": "pr-freelance",
+      "industry": "B2B Technology PR Agency",
+      "location": "Remote (US)",
+      "fundingStage": "Independent Agency (est. 2000)",
+      "fitScore": 35,
+      "intentScore": 40,
+      "fitDetails": {
+        "pr_remit": true,
+        "pr_remit_note": "Writer, PR & Communications — press releases, bylines, thought leadership, media materials",
+        "sector_fit": "B2B tech (AI, data, cybersecurity, enterprise software) — partial sector match (+5)",
+        "workstream": "Earned media, thought leadership, press releases, executive content, bylines (+10)",
+        "buyer_quality": "Award-winning independent B2B tech PR agency with major client roster",
+        "urgency": "Active posting on Remotive and Lever, contract-to-hire structure"
+      },
+      "intentDetails": {
+        "engagement_model": "Contract (W-2 contractor) — 3-6 month engagement, path to FT (+15)",
+        "remote_flex": "100% Remote (+10)",
+        "recency": "Active 2026 posting on Remotive and Lever (+5)",
+        "urgency_signals": "Contract-to-hire with defined engagement period and clear deliverables (+5)",
+        "apply_path": "Lever application portal, direct apply (+5)"
+      },
+      "vertical": "pr",
+      "subvertical": "media-relations",
+      "engagementModel": "contract",
+      "buyerType": "agency",
+      "compensationText": "$3,000–$6,000/month",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contract (W-2 contractor)",
+      "urgencyScore": 60,
+      "contacts": [
+        {
+          "name": "",
+          "title": "Talent Team",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/launchsquad"
+        }
+      ],
+      "signals": [
+        "B2B tech PR agency with blue-chip client roster",
+        "Contract-to-hire — clear path for Mark",
+        "Earned media + thought leadership focus",
+        "Requires B2B tech experience and agency background",
+        "$3-6k/month (~$37-75/hr depending on hours)"
+      ],
+      "source": "Remotive",
+      "sourceUrl": "https://remotive.com/remote/jobs/writing/writer-public-relations-communications-4473257",
+      "notes": "LaunchSquad is an established B2B tech PR agency (founded 2000, SF/NY/Boston/Chicago). Contract-to-hire starts as W-2 contractor for 3-6 months with path to full-time. Requires strong B2B tech PR writing portfolio — Mark should pull 2-3 press releases and bylines before applying. Also apply via: https://jobs.lever.co/launchsquad/b853390a-1438-4eab-99b8-eb61956205b4"
+    },
+    {
+      "name": "PR Volt",
+      "website": "https://pr-volt.breezy.hr",
+      "pipeline": "pr-freelance",
+      "industry": "PR Tech / Startup PR Agency",
+      "location": "Remote (100%)",
+      "fundingStage": "Bootstrapped / Independent (est. 2017)",
+      "fitScore": 40,
+      "intentScore": 35,
+      "fitDetails": {
+        "pr_remit": true,
+        "pr_remit_note": "PR Campaign Manager — media list development, pitching, media relations execution",
+        "sector_fit": "B2C/B2B tech, lifestyle, CPG — weaker finance sector match (+5)",
+        "workstream": "Media relations, pitching, earned media coverage, client campaign management (+10)",
+        "buyer_quality": "High-volume startup PR shop with tech pedigree (Amazon/Google alumni)",
+        "urgency": "Agency overflow / white-label signals: multiple clients, rolling need"
+      },
+      "intentDetails": {
+        "engagement_model": "Independent contractor (1099), pay by deliverable (~$40/hr) (+15)",
+        "remote_flex": "100% Remote, 20-40 hrs/week (+10)",
+        "recency": "Active on Workable, Built In, WeWorkRemotely as of June 2026 (+5)",
+        "urgency_signals": "Rolling/evergreen need for contractors, multiple job boards (+5)",
+        "apply_path": "Workable portal (apply.workable.com/pr-volt/), multiple boards (+5)"
+      },
+      "vertical": "pr",
+      "subvertical": "media-relations",
+      "engagementModel": "freelance",
+      "buyerType": "agency",
+      "compensationText": "Pay by deliverable, ~$40/hr average, 20-40 hrs/week",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Independent Contractor",
+      "urgencyScore": 55,
+      "contacts": [
+        {
+          "name": "",
+          "title": "Hiring Team",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/pr-volt"
+        }
+      ],
+      "signals": [
+        "Independent contractor structure — true freelance",
+        "Pay by deliverable averaging $40/hr",
+        "Active on 4+ job boards simultaneously — volume hiring",
+        "Flexible hours 20-40 hrs/week",
+        "B2B experience welcomed as a plus"
+      ],
+      "source": "Built In / Workable",
+      "sourceUrl": "https://builtin.com/job/public-relations-campaign-manager-100-remote/1898633",
+      "notes": "PR Volt is a volume PR shop for startups. Sector fit is weaker (more B2C/lifestyle than finance), but the independent contractor model and volume of media relations work makes it a good bridge/income-diversification play. Lower prestige than other leads but easiest to convert to billable hours quickly. Apply also via: https://apply.workable.com/pr-volt/"
+    },
+    {
+      "name": "Caliber Corporate Advisers",
+      "website": "https://www.calibercorporate.com",
+      "pipeline": "pr-freelance",
+      "industry": "Financial Services & Fintech PR Agency",
+      "location": "Remote (US + Europe)",
+      "fundingStage": "Independent Agency",
+      "fitScore": 45,
+      "intentScore": 25,
+      "fitDetails": {
+        "pr_remit": true,
+        "pr_remit_note": "Director, Public Relations — media programs, client counsel, daily pitching, thought leadership",
+        "sector_fit": "Fintech, financial services, proptech, insurtech — MAXIMUM sector fit (+15)",
+        "workstream": "Media relations, thought leadership, earned media, client service, pitching (+10)",
+        "buyer_quality": "Premier independent fintech/financial services PR agency — exactly Mark's buyer profile",
+        "urgency": "Active Director-level opening — apply + pitch freelance separately"
+      },
+      "intentDetails": {
+        "engagement_model": "Full-time posted — does NOT score for freelance engagement (+0). Recommend: apply + pitch fractional/freelance directly",
+        "remote_flex": "Remote workplace model, US coworking access (+10)",
+        "recency": "Active 2026 posting on Mediabistro + ZipRecruiter (+5)",
+        "urgency_signals": "Director-level hire signals growth; senior freelancer could support overflow (+5)",
+        "apply_path": "Mediabistro + ZipRecruiter direct apply (+5)"
+      },
+      "vertical": "pr",
+      "subvertical": "comms",
+      "engagementModel": "consultant",
+      "buyerType": "agency",
+      "compensationText": "$120,000–$150,000 base salary + commission + bonuses (full-time posted rate); freelance rate TBD",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Full-time (posted); target for freelance/fractional pitch",
+      "urgencyScore": 45,
+      "contacts": [
+        {
+          "name": "",
+          "title": "Talent / Leadership Team",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/caliber-corporate-advisers"
+        }
+      ],
+      "signals": [
+        "ONLY financial services / fintech PR agency — perfect sector fit",
+        "Active Director-level opening = growth signal",
+        "Remote culture with US coworking",
+        "Deep fintech/financial services media specialization",
+        "12+ years required — fits Mark's seniority"
+      ],
+      "source": "Mediabistro",
+      "sourceUrl": "https://www.mediabistro.com/jobs/1644721993-caliber-corporate-advisers-is-hiring-director-public-relations-in-new-york",
+      "notes": "IMPORTANT: This is posted as a full-time role ($120-150k base) but Caliber exclusively serves the exact companies Mark wants to reach — fintech, financial services, proptech, insurtech. Strategy: (1) Apply to the Director role formally via Mediabistro/ZipRecruiter; (2) ALSO send a direct email to Caliber leadership pitching freelance/fractional capacity for client overflow. Best sector-fit target this run. Company: calibercorporate.com/team/ for contacts."
+    },
+    {
+      "name": "Lightspeed PR/Marketing",
+      "website": "https://lightspeedpr.com",
+      "pipeline": "pr-freelance",
+      "industry": "B2B/B2C Technology PR Agency",
+      "location": "Remote (100%, since 2013)",
+      "fundingStage": "Independent Agency (est. 2013)",
+      "fitScore": 40,
+      "intentScore": 30,
+      "fitDetails": {
+        "pr_remit": true,
+        "pr_remit_note": "PR Freelancer/Contractor — earned media execution, media relations, pitching for B2B/B2C tech clients",
+        "sector_fit": "B2B tech (Consumer Electronics, HealthTech, Robotics, AR/VR, Smart Home) — moderate sector fit (+5)",
+        "workstream": "Earned media, media relations, agency overflow/white-label support (+15)",
+        "buyer_quality": "Remote-native agency with structured freelance bench model",
+        "urgency": "Agency overflow model — may be evergreen. Apply + flag immediate availability."
+      },
+      "intentDetails": {
+        "engagement_model": "Contractor (hourly, experience-based rate) (+15)",
+        "remote_flex": "100% Remote since founding (+10)",
+        "recency": "LinkedIn posting may be older/evergreen — verify on apply (+0)",
+        "urgency_signals": "Agency freelance bench = rolling capacity need (+5)",
+        "apply_path": "LinkedIn Easy Apply or direct via lightspeedpr.com (+5)"
+      },
+      "vertical": "pr",
+      "subvertical": "media-relations",
+      "engagementModel": "contract",
+      "buyerType": "agency",
+      "compensationText": "Hourly rate commensurate with experience (not specified)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contractor (hourly)",
+      "urgencyScore": 40,
+      "contacts": [
+        {
+          "name": "",
+          "title": "Hiring Team / New Business",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/lightspeed-pr-and-marketing"
+        }
+      ],
+      "signals": [
+        "100% remote since 2013 — mature distributed agency",
+        "Actively builds freelance bench for client overflow",
+        "B2B + B2C tech clients (not pure finance but strong tech PR)",
+        "Fast-paced, collaborative culture",
+        "Hourly contractor model — flexible commitment"
+      ],
+      "source": "LinkedIn",
+      "sourceUrl": "https://www.linkedin.com/jobs/view/public-relations-pr-freelancer-contractor-tech-pr-remote-at-lightspeed-pr-marketing-3164832752",
+      "notes": "Lightspeed is a fully remote B2B/B2C tech PR agency with an established freelance bench model. LinkedIn posting (ID 3164832752) may be evergreen — reach out directly via lightspeedpr.com even if the listing appears old. Consumer Electronics and HealthTech focus rather than pure finance, but the agency overflow model is ideal for Mark's flow of billable hours. Send direct outreach to be added to bench."
+    }
+  ]
+}

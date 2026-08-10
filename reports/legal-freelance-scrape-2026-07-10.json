@@ -1,0 +1,31 @@
+{
+  "scrapeDate": "2026-07-10",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 0,
+  "note": "Saturated-pipeline day. Ten boolean search clusters run across LinkedIn (via Google/Bing index), Indeed, ZipRecruiter, Glassdoor, ACC Jobline, FractionalJobs.io, Wellfound, and Built In, plus a direct read of the live FractionalJobs.io legal board. After deduplication against prior legal-freelance and pr-freelance reports and 100-point fit/intent scoring, no new posting cleared the 55+ include threshold. Nearly every live fund / fractional-GC posting surfaced this run was already captured (Latitude Legal, Ropes & Gray, aVenture, Allocate, Ontra, The Mom Project/Etsy, Socket, Lyfecoin, Fractionus, Roasa Law, CookUnity Healthcare Counsel, ACC Jobline #54004). One watchlist near-miss, held below threshold pending confirmation: ACC Jobline #53153 Commercial Contracts Attorney (In-House, Remote) scored 45 (fit 20 / intent 25) — engagement model (direct in-house vs. contract/interim) and recency were not confirmable because the ACC posting page is client-rendered and returned no body. This is expected diminishing-return behavior for a niche ICP scraped daily for 2+ months; no fabricated leads were added to hit a quota.",
+  "watchlist": [
+    {
+      "name": "ACC Jobline #53153 — Commercial Contracts Attorney (In-House, Remote)",
+      "website": "https://jobline.acc.com",
+      "pipeline": "legal-freelance",
+      "industry": "unknown (employer withheld on ACC Jobline)",
+      "location": "Remote (US)",
+      "fitScore": 20,
+      "intentScore": 25,
+      "combinedScore": 45,
+      "priorityGrade": "C",
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "contract",
+      "buyerType": "operating-company",
+      "compensationText": "",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "In-House (model unconfirmed)",
+      "urgencyScore": 40,
+      "source": "ACC Jobline",
+      "sourceUrl": "https://jobline.acc.com/job/commercial-contracts-attorney-in-house--53153",
+      "notes": "Below 55 threshold. Held for confirmation of engagement model and recency (page client-rendered, no body). Fits the ICP commercial-contracts workstream and is a plausible overflow / fractional pitch target if it proves to be a contract or interim engagement."
+    }
+  ],
+  "leads": []
+}

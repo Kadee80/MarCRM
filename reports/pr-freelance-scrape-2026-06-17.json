@@ -1,0 +1,158 @@
+{
+  "scrapeDate": "2026-06-17",
+  "scrapeType": "pr-freelance",
+  "totalLeads": 3,
+  "note": "Deduplication against 2026-06-08 through 2026-06-16 reports (19 prior leads excluded). Crackle PR is Grade A agency overflow target. Imprint is full-time FTE posting but urgent fractional pitch opportunity. Firebrand is agency overflow partnership play.",
+  "leads": [
+    {
+      "name": "Crackle PR",
+      "website": "https://www.cracklepr.com",
+      "pipeline": "pr-freelance",
+      "industry": "PR Agency — B2B Tech / Fintech",
+      "location": "Remote (Boston, NYC, SF, Austin, Portsmouth NH)",
+      "fundingStage": "Agency (private)",
+      "fitScore": 50,
+      "intentScore": 45,
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 15,
+        "workstream": 10,
+        "buyer_quality": 5,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 15,
+        "remote_flex": 10,
+        "recency": 5,
+        "urgency_signals": 10,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "media-relations",
+      "engagementModel": "freelance",
+      "buyerType": "agency",
+      "compensationText": "Not listed; senior strategist rates typical for B2B tech PR",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Freelance / contractor (explicitly stated on careers page)",
+      "urgencyScore": 75,
+      "contacts": [
+        {
+          "name": "Parry Headrick",
+          "title": "Founder & Chief Evangelist",
+          "email": "parry@cracklepr.com",
+          "linkedin": "https://www.linkedin.com/company/crackle-pr"
+        }
+      ],
+      "signals": [
+        "Always hiring senior B2B tech PR strategists and media relations leads",
+        "No committee interviews — short founder-led hiring process",
+        "All-senior model means overflow/freelance operators fill capacity gaps",
+        "Fintech client Creditsafe: 1940+ media mentions in one year",
+        "Clients include Oracle, Schneider Electric, ON24, SoftBank"
+      ],
+      "source": "Crackle PR Careers Page",
+      "sourceUrl": "https://www.cracklepr.com/careers",
+      "notes": "Best pitch: email parry@cracklepr.com directly. Position as senior B2B/fintech media relations operator available for overflow and white-label. Mention GEO/earned media angle if relevant. Grade A."
+    },
+    {
+      "name": "Imprint",
+      "website": "https://www.imprint.co",
+      "pipeline": "pr-freelance",
+      "industry": "Fintech / Payments",
+      "location": "New York, NY (Hybrid / Fully Flexible)",
+      "fundingStage": "Growth (Kleiner Perkins, Thrive Capital, Ribbit, Khosla Ventures)",
+      "fitScore": 50,
+      "intentScore": 30,
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 15,
+        "workstream": 10,
+        "buyer_quality": 5,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 0,
+        "remote_flex": 5,
+        "recency": 10,
+        "urgency_signals": 10,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "executive-comms",
+      "engagementModel": "fractional",
+      "buyerType": "startup",
+      "compensationText": "Competitive compensation and equity packages (full-time posting); fractional rate to be negotiated",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Full-Time Employee (posted as founding hire with benefits + equity)",
+      "urgencyScore": 80,
+      "contacts": [
+        {
+          "name": "",
+          "title": "Hiring Team",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/imprint-payments"
+        }
+      ],
+      "signals": [
+        "Founding communications hire — building PR from scratch",
+        "Backed by Kleiner Perkins, Thrive Capital, Ribbit, Khosla Ventures",
+        "Partners: Crate & Barrel, Rakuten, Booking.com, H-E-B, Fetch, Shell",
+        "Targeting fintech, payments, retail, and AI media",
+        "CEO-adjacent role: executive comms, thought leadership, investor narrative",
+        "Posting language: bias to ship, founder instinct for leverage"
+      ],
+      "source": "Ashby HQ Job Board",
+      "sourceUrl": "https://jobs.ashbyhq.com/imprint/c093b16c-cdbb-417d-9409-0948d12f38df",
+      "notes": "IMPORTANT: This is a full-time W-2 job posting, not a freelance role. However, acute need (building from scratch at VC-backed fintech) makes it an ideal fractional bridge pitch. Mark should apply with a 30-day fractional sprint offer alongside the full-time application. Grade B."
+    },
+    {
+      "name": "Firebrand Communications",
+      "website": "https://www.firebrand.marketing",
+      "pipeline": "pr-freelance",
+      "industry": "PR Agency — B2B AI / Tech",
+      "location": "San Francisco, CA (Remote roles available)",
+      "fundingStage": "Agency (private)",
+      "fitScore": 45,
+      "intentScore": 25,
+      "fitDetails": {
+        "pr_remit": 20,
+        "sector_fit": 10,
+        "workstream": 10,
+        "buyer_quality": 5,
+        "urgency": 0
+      },
+      "intentDetails": {
+        "engagement_model": 5,
+        "remote_flex": 10,
+        "recency": 5,
+        "urgency_signals": 0,
+        "apply_path": 5
+      },
+      "vertical": "pr",
+      "subvertical": "media-relations",
+      "engagementModel": "consultant",
+      "buyerType": "agency",
+      "compensationText": "Not listed",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Open roles on Workable — type unconfirmed; agency overflow pitch recommended",
+      "urgencyScore": 40,
+      "contacts": [
+        {
+          "name": "",
+          "title": "Hiring / Agency Leadership",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/firebrand-communications"
+        }
+      ],
+      "signals": [
+        "Active hiring on Workable (apply.workable.com/firebrandcomms)",
+        "Exclusive B2B AI/tech focus since 2016",
+        "Services: media relations, demand gen, content, digital marketing, thought leadership",
+        "Natural overflow partner for senior PR freelancers with B2B tech depth"
+      ],
+      "source": "Firebrand Communications Workable Careers Page",
+      "sourceUrl": "https://apply.workable.com/firebrandcomms/",
+      "notes": "Primarily an agency overflow/partnership pitch. Check Workable directly for any contractor-specific openings. Also check firebrand.marketing/join-pr-am. Grade B (lower confidence on freelance intent)."
+    }
+  ]
+}

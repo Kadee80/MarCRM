@@ -1,0 +1,523 @@
+{
+  "scrapeDate": "2026-06-18",
+  "scrapeTime": "automated",
+  "totalLeads": 8,
+  "note": "8 new leads across 4 pipelines. 3 Grade-A pr-marketing (AI funding wave), 1 Grade-A pr-freelance (Forage Head of Comms hiring), 3 legal-freelance (aVenture near-perfect ICP), 1 fund-formation. 5 signal refreshes — Forage upgraded +10 in pr-marketing.",
+  "newLeads": [
+    {
+      "company": "aVenture",
+      "website": "aventure.com",
+      "pipeline": "legal-freelance",
+      "industry": "Fintech / Venture Capital Platform",
+      "location": "San Francisco, CA (remote)",
+      "fundingStage": "Startup",
+      "fitScore": 48,
+      "intentScore": 48,
+      "grade": "A",
+      "fitDetails": {
+        "fund_private_funds": 20,
+        "corporate_securities": 10,
+        "seniority": 10,
+        "comp_stated": 8,
+        "total": 48
+      },
+      "intentDetails": {
+        "engagement_model_contract": 15,
+        "remote": 15,
+        "posted_within_72hrs": 10,
+        "easy_apply": 8,
+        "total": 48
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "contract",
+      "buyerType": "startup",
+      "compensationText": "$80K–$120K (Glassdoor estimate); fixed monthly or hourly rate",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Full-time or Part-time",
+      "urgencyScore": 85,
+      "contacts": [
+        {
+          "name": "",
+          "title": "Hiring Manager",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "Fintech startup making VC funds accessible to ordinary investors",
+        "Seeking contract/PT fund attorney for fund registration + regulatory compliance",
+        "Remote globally (min 4hrs US Pacific overlap)",
+        "Easy apply via Gusto job posting"
+      ],
+      "source": "Glassdoor / Gusto",
+      "sourceUrl": "https://jobs.gusto.com/postings/aventure-investment-company-venture-capital-fund-attorney-6ade1aa1-d8c3-4622-b95d-f856899b023a",
+      "notes": "Near-perfect ICP: fund/VC platform needing contract attorney for fund registration and compliance. Remote globally with Pacific hours overlap. Fund + securities + contract + remote = all high-intent buckets hit. Easiest path to apply in this cycle."
+    },
+    {
+      "company": "NewCore",
+      "website": "newcore.com",
+      "pipeline": "pr-marketing",
+      "industry": "AI / Cybersecurity / Identity Management",
+      "location": "New York, NY",
+      "fundingStage": "Seed ($66M)",
+      "fitScore": 42,
+      "intentScore": 48,
+      "grade": "A",
+      "fitDetails": {
+        "industry_match": 8,
+        "stage_size": 9,
+        "b2b_sales_motion": 10,
+        "proof_assets": 8,
+        "budget": 7,
+        "total": 42
+      },
+      "intentDetails": {
+        "trigger_stealth_exit_funding": 15,
+        "timeline": 10,
+        "decision_maker": 10,
+        "urgency": 10,
+        "responsiveness": 3,
+        "total": 48
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        {
+          "name": "Zohar Alon",
+          "title": "CEO & Co-Founder",
+          "email": "",
+          "linkedin": ""
+        },
+        {
+          "name": "Erez Yarkoni",
+          "title": "Chief Commercial Officer",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "Emerged from stealth June 15, 2026 with $66M seed at $300M valuation",
+        "Backed by Cyberstarts (lead), Index Ventures, Evolution Equity Partners",
+        "Zero prior public PR presence — first-ever market moment",
+        "Ex-Unit 8200 founders with enterprise security background",
+        "Platform gives AI agents identity, permissions, and lifecycle governance in enterprise",
+        "B2B enterprise cybersecurity — credibility-sensitive category"
+      ],
+      "source": "TechCrunch + PRNewswire",
+      "sourceUrl": "https://techcrunch.com/2026/06/15/ai-agents-are-becoming-employees-newcore-emerges-with-66m-to-give-them-identities/",
+      "notes": "First-ever PR opportunity for a well-funded AI security company. Founders are enterprise operators with no PR background. Pitch: build the comms narrative from scratch post-stealth. PRNewswire press release issued by the company shows they have a wire service but no ongoing comms strategy."
+    },
+    {
+      "company": "Respond.io",
+      "website": "respond.io",
+      "pipeline": "pr-marketing",
+      "industry": "AI / B2B SaaS / Customer Messaging",
+      "location": "Kuala Lumpur, Malaysia (expanding to US/EU)",
+      "fundingStage": "Series B ($62.5M)",
+      "fitScore": 43,
+      "intentScore": 48,
+      "grade": "A",
+      "fitDetails": {
+        "industry_match": 9,
+        "stage_size": 9,
+        "b2b_sales_motion": 10,
+        "proof_assets": 8,
+        "budget": 7,
+        "total": 43
+      },
+      "intentDetails": {
+        "trigger_funding_expansion": 15,
+        "timeline": 10,
+        "decision_maker": 9,
+        "urgency_us_expansion": 10,
+        "responsiveness": 4,
+        "total": 48
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        {
+          "name": "Gerardo Salandra",
+          "title": "CEO & Founder",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "$62.5M Series B announced June 15-16, led by Camber Partners",
+        "35M ARR, 169% YoY growth, 30% profit margin",
+        "Explicitly entering North America and Europe cold via hiring + acquisitions",
+        "No US PR/media presence currently — Malaysia-based",
+        "Mid-market B2C AI messaging (WhatsApp, IG, TikTok + CRM) with proven revenue",
+        "Eyes acquisitions in North America — announcement-rich next 12 months"
+      ],
+      "source": "TechCrunch + BusinessWire",
+      "sourceUrl": "https://techcrunch.com/2026/06/15/malaysias-respond-io-raises-62-5m-eyes-acquisitions-in-north-america-and-europe/",
+      "notes": "Classic international expansion PR play. They're entering the US market with money and momentum but zero US comms footprint. Pitch: build North America media narrative, pre-acquisition positioning. CEO is accessible and clearly growth-oriented."
+    },
+    {
+      "company": "Pramaana Labs",
+      "website": "pramaana.ai",
+      "pipeline": "pr-marketing",
+      "industry": "AI / Formal Verification / Regulated Industries",
+      "location": "India / US (dual)",
+      "fundingStage": "Seed ($27M)",
+      "fitScore": 44,
+      "intentScore": 47,
+      "grade": "A",
+      "fitDetails": {
+        "industry_match": 9,
+        "stage_size": 8,
+        "b2b_regulated_verticals": 10,
+        "proof_assets_khosla_accel": 9,
+        "budget": 8,
+        "total": 44
+      },
+      "intentDetails": {
+        "trigger_seed_announcement_yesterday": 15,
+        "timeline_immediate": 10,
+        "decision_maker_accessible": 8,
+        "urgency_fresh_24hrs": 10,
+        "responsiveness": 4,
+        "total": 47
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        {
+          "name": "Ranjan Rajagopalan",
+          "title": "CEO & Co-Founder",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "$27M seed announced June 17, 2026 — 24 hours old at time of scrape",
+        "Led by Khosla Ventures; Accel, BoldCap, Nexus, Premji Invest also participating",
+        "Former IRS Commissioner Danny Werfel advising on tax; IIT/UC Berkeley professors on cybersecurity + drug discovery",
+        "B2B verticals: law, tax, healthcare, financial compliance, cybersecurity — all PR-rich categories",
+        "Formal verification AI — highly technical, needs narrative translation for media",
+        "SiliconANGLE, Business Standard, Inc42 coverage confirms press appetite"
+      ],
+      "source": "TechCrunch + SiliconANGLE",
+      "sourceUrl": "https://techcrunch.com/2026/06/17/pramaana-labs-raises-27-million-seed-round-from-khosla-ventures-to-bring-formal-verification-to-ai/",
+      "notes": "24-hour-fresh seed announcement. Highly technical product (formal verification) with blue-chip backers. Their verticals (law, tax, compliance) overlap with Mark's existing relationships. Strong angle: position Pramaana as the 'trust layer' for AI in regulated industries — that's a story tier-1 journalists will run. First-mover advantage to become their US comms advisor."
+    },
+    {
+      "company": "Forage",
+      "website": "joinforage.com",
+      "pipeline": "pr-freelance",
+      "industry": "Fintech / Government Benefits / EBT-SNAP Payments",
+      "location": "US (likely NY or SF)",
+      "fundingStage": "Series B ($40M, June 3, 2026)",
+      "fitScore": 45,
+      "intentScore": 35,
+      "grade": "A",
+      "fitDetails": {
+        "pr_comms_stated": 20,
+        "sector_fit_fintech": 15,
+        "workstream_exec_comms_thought_leadership": 10,
+        "total": 45
+      },
+      "intentDetails": {
+        "engagement_model": 0,
+        "post_funding_build": 10,
+        "recent_posting": 10,
+        "urgency_scaling": 10,
+        "easy_apply": 5,
+        "total": 35
+      },
+      "vertical": "pr",
+      "subvertical": "comms",
+      "engagementModel": "fractional",
+      "buyerType": "startup",
+      "compensationText": "Not stated (FT hire posting; pitch as fractional)",
+      "remoteFlag": "",
+      "employmentTypeRaw": "Full-time (internal hire posting — pitch as fractional interim)",
+      "urgencyScore": 65,
+      "contacts": [
+        {
+          "name": "",
+          "title": "Head of People / Hiring Manager",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "Hiring 'Head of Storytelling and Communications' — 8–12+ years, build PR strategy from scratch",
+        "$40M Series B closed June 3 (Mouro Capital, PayPal Ventures, Intuit Ventures)",
+        "100K+ app downloads, targeting 1M families by end of 2026",
+        "PR Intent Signal #2: Head of PR/Director of Comms scaling — pitch fractional while they search",
+        "NOTE: posting says 'not engaging third-party recruiters' — pitch Mark as INDIVIDUAL fractional, not agency"
+      ],
+      "source": "NYCA Partners job board",
+      "sourceUrl": "https://jobs.nyca.com/companies/forage-2-4a875c45-b1a8-43e3-9103-619620e48973/jobs/63381987-head-of-storytelling-and-communications",
+      "notes": "Forage also exists in pr-marketing pipeline (score 87 after today's upgrade). This pr-freelance lead is specifically keyed to the job posting. They need someone to build comms from scratch, PR agency management, thought leadership. Mark can pitch: fractional head of comms while you recruit, covering the transition period at 1/3 the cost of a FT hire. Critical: approach as individual operator, not agency, due to their recruiter exclusion."
+    },
+    {
+      "company": "Innovative Driven",
+      "website": "innovativedriven.com",
+      "pipeline": "legal-freelance",
+      "industry": "Legal Staffing / Financial Services (client undisclosed)",
+      "location": "Remote",
+      "fundingStage": "N/A (staffing firm)",
+      "fitScore": 28,
+      "intentScore": 45,
+      "grade": "B",
+      "fitDetails": {
+        "fund_private_funds": 0,
+        "financial_services_compliance": 8,
+        "seniority": 10,
+        "comp_stated": 10,
+        "total": 28
+      },
+      "intentDetails": {
+        "engagement_model_contract": 15,
+        "remote": 15,
+        "posted_within_72hrs": 10,
+        "easy_apply": 5,
+        "total": 45
+      },
+      "vertical": "legal",
+      "subvertical": "compliance",
+      "engagementModel": "contract",
+      "buyerType": "staffing",
+      "compensationText": "$40–$60/hr, 40 hrs/week",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contract",
+      "urgencyScore": 70,
+      "contacts": [
+        {
+          "name": "",
+          "title": "Recruiter",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "Contract attorney for financial services client, escheatment/unclaimed property compliance",
+        "$40–$60/hr, 40 hrs/wk, fully remote, posted 'New'",
+        "Legal and business analysis for statute reconciliation and compliance standards"
+      ],
+      "source": "Indeed",
+      "sourceUrl": "https://www.indeed.com/q-private-funds-attorney-l-remote-jobs.html",
+      "notes": "Adjacent fit — escheatment compliance is financial services legal work but not core to fund/corporate/M&A practice. Include as B-tier contract opportunity. End client is undisclosed financial services company. $40–60/hr = $80–120k annualized, market credible for contract work."
+    },
+    {
+      "company": "Atlas Road Advisors",
+      "website": "atlasroadadvisors.com",
+      "pipeline": "legal-freelance",
+      "industry": "Corporate / Transactional Advisory",
+      "location": "Unknown (verify remote)",
+      "fundingStage": "N/A",
+      "fitScore": 20,
+      "intentScore": 45,
+      "grade": "B",
+      "fitDetails": {
+        "fund_private_funds": 0,
+        "corporate_vc_securities_ma": 10,
+        "seniority": 10,
+        "comp_stated": 0,
+        "total": 20
+      },
+      "intentDetails": {
+        "engagement_model_contract": 15,
+        "remote_unconfirmed": 10,
+        "posted_recently": 10,
+        "easy_apply_indeed": 10,
+        "total": 45
+      },
+      "vertical": "legal",
+      "subvertical": "corporate",
+      "engagementModel": "contract",
+      "buyerType": "operating-company",
+      "compensationText": "Not stated",
+      "remoteFlag": "",
+      "employmentTypeRaw": "Contract (Part-time or Full-time)",
+      "urgencyScore": 55,
+      "contacts": [
+        {
+          "name": "",
+          "title": "Hiring Contact",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "Contract attorney, 4+ years, VC financing, securities law, M&A, general corporate transactions",
+        "Part-time or full-time engagement available",
+        "Posted on Indeed; easy apply path"
+      ],
+      "source": "Indeed",
+      "sourceUrl": "https://www.indeed.com/q-remote-contract-attorney-jobs.html",
+      "notes": "Solid B-tier contract legal lead. No fund focus lowers fit but transactional scope (VC financing, M&A, securities, corporate) aligns with Mark's practice. Verify remote availability before applying. Comp not stated — ask upfront."
+    },
+    {
+      "company": "Altair Industries",
+      "website": "altairindustries.com",
+      "pipeline": "fund-formation",
+      "industry": "Private Equity / Aerospace & Defense / Industrial",
+      "location": "New York, NY",
+      "fundingStage": "Fund I (seeking $550M)",
+      "fitScore": 48,
+      "intentScore": 25,
+      "grade": "B",
+      "fitDetails": {
+        "manager_type_fund_i": 15,
+        "strategy_pe_control_equity": 10,
+        "operational_readiness": 8,
+        "jurisdiction": 5,
+        "ability_to_pay": 10,
+        "total": 48
+      },
+      "intentDetails": {
+        "seed_imminent_raise": 5,
+        "target_launch_window": 8,
+        "providers_likely_already_selected": 5,
+        "founder_urgency": 5,
+        "referral": 2,
+        "total": 25
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        {
+          "name": "Michael Livanos",
+          "title": "Co-Founder (ex-Stellex Capital)",
+          "email": "",
+          "linkedin": ""
+        },
+        {
+          "name": "David Waxman",
+          "title": "Co-Founder (ex-Stellex Capital)",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "Fund I launched Oct 2025, targeting $550M control equity in aerospace/defense/industrial",
+        "Spin-out from Stellex Capital Management (PE firm)",
+        "Coverage in Buyouts Insider, PE industry press",
+        "Caveat: 8 months in market — likely has formation counsel already"
+      ],
+      "source": "Buyouts Insider / withintelligence.com",
+      "sourceUrl": "https://www.withintelligence.com/insights/private-equity-emerging-managers-to-watch-in-2026/",
+      "notes": "Strong ICP fit but low intent — they've been fundraising since October 2025 and almost certainly have formation counsel in place. Best approach: add to watch list for Fund II, or pitch LP document/side letter support as a supplemental engagement."
+    }
+  ],
+  "signalRefreshes": [
+    {
+      "company": "Jedify",
+      "pipeline": "pr-marketing",
+      "previousScore": 82,
+      "previousScoreDate": "2026-06-15",
+      "updatedScore": 82,
+      "scoreDelta": 0,
+      "grade": "A",
+      "signalChange": "No new signals June 17–18. TechCrunch Series A (June 10) and Snowflake Cortex AI partnership remain active. Press window is open but closing — 8 days since announcement.",
+      "windowStatus": "open-closing",
+      "outreachDeadline": "2026-06-24",
+      "action": "Outreach THIS WEEK. June 24 deadline is 6 days away. If no contact yet, this is the highest-priority outreach in the pr-marketing queue."
+    },
+    {
+      "company": "Forage",
+      "pipeline": "pr-marketing",
+      "previousScore": 77,
+      "previousScoreDate": "2026-06-12",
+      "updatedScore": 87,
+      "scoreDelta": 10,
+      "grade": "A",
+      "signalChange": "UPGRADE: Forage posted 'Head of Storytelling and Communications' on NYCA job board. They have NO internal comms leader — Series B raised, app at 100K downloads, targeting 1M families. Comms function is an active organizational gap, not just a trigger event. Also creates new pr-freelance lead.",
+      "windowStatus": "open-accelerating",
+      "outreachDeadline": "2026-06-23",
+      "action": "MOVE UP outreach to June 23 (from June 28). Two-track pitch: (1) pr-marketing retainer for media/investor narrative; (2) Mark as fractional Head of Comms while they recruit. Dual pipeline opportunity."
+    },
+    {
+      "company": "Arootah",
+      "pipeline": "legal-freelance",
+      "previousScore": 85,
+      "previousScoreDate": "2026-06-15",
+      "updatedScore": 85,
+      "scoreDelta": 0,
+      "grade": "A",
+      "signalChange": "Two active Lever job postings confirmed: Fractional GC/CLO and Fractional CCO roles. Arootah is actively placing legal talent with alt-investment clients. Clarification: Arootah is a talent placement platform — the opportunity may be channel partnership rather than direct legal services sale.",
+      "windowStatus": "open-stable",
+      "outreachDeadline": null,
+      "action": "Stable. Consider whether the right angle is (a) Mark as a consultant on their advisor network, or (b) Arootah as a channel to their clients who need legal advisory. Clarify the commercial relationship before outreach."
+    },
+    {
+      "company": "Capsa AI",
+      "pipeline": "pr-marketing",
+      "previousScore": 82,
+      "previousScoreDate": "2026-06-11",
+      "updatedScore": 82,
+      "scoreDelta": 0,
+      "grade": "A",
+      "signalChange": "No new coverage June 11–18. Series A metrics are exceptional (100% renewal, 122% NDR, 14x ARR YoY). US expansion confirmed. 8 days since announcement — window is aging.",
+      "windowStatus": "open-aging",
+      "outreachDeadline": "2026-06-24",
+      "action": "Outreach this week or move to watch list. Same urgency window as Jedify — June 24 deadline. Private capital AI is a strong sector angle for a PR pitch."
+    },
+    {
+      "company": "Vinyl Equity",
+      "pipeline": "pr-marketing",
+      "previousScore": 81,
+      "previousScoreDate": "2026-06-11",
+      "updatedScore": 79,
+      "scoreDelta": -2,
+      "grade": "B",
+      "signalChange": "Minor downgrade: PRNewswire press release was well-distributed (Morningstar, FFNews, Fintech Global). They appear to already have some PR infrastructure. 9 days since announcement.",
+      "windowStatus": "open-aging",
+      "outreachDeadline": "2026-06-24",
+      "action": "Deprioritize slightly vs. NewCore/Respond.io/Pramaana (who have zero PR). Still worth outreach before June 24, but lower priority than fresh signals this cycle."
+    }
+  ],
+  "skippedLeads": [
+    { "company": "Flutterwave", "reason": "Africa-focused fintech; no US PR need confirmed; established team" },
+    { "company": "Odyssey (world model)", "reason": "Gaming/AI; no FS or B2B angle; outside ICP sectors" },
+    { "company": "Probably", "reason": "Too early/small; no B2B PR trigger" },
+    { "company": "Latitude", "reason": "Legal staffing competitor, not an ICP buyer" },
+    { "company": "Indeed family law / estate planning listings", "reason": "Low-fit per rubric: no fund/corporate/M&A workstream, litigation/trusts/estates" }
+  ],
+  "pipelineStatus": {
+    "pr-marketing": { "newLeads": 3, "gradeA": 3, "gradeB": 0 },
+    "pr-freelance": { "newLeads": 1, "gradeA": 1, "gradeB": 0 },
+    "legal-freelance": { "newLeads": 3, "gradeA": 1, "gradeB": 2 },
+    "fund-formation": { "newLeads": 1, "gradeA": 0, "gradeB": 1 },
+    "legal-consulting": { "newLeads": 0 },
+    "coaching-ops": { "newLeads": 0 },
+    "media": { "newLeads": 0 },
+    "ai-consulting": { "newLeads": 0 }
+  },
+  "trends": [
+    "AI agent infrastructure is the dominant funding theme this week (NewCore, Respond.io, Pramaana)",
+    "Fintech Series B/expansion plays creating Head of Comms hiring windows (Forage)",
+    "Remote contract legal work remains active; 3 qualifying legal-freelance postings found",
+    "Emerging PE fund pipeline continues (Altair Industries Fund I)"
+  ]
+}

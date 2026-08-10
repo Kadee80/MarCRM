@@ -1,0 +1,125 @@
+{
+  "scrapeDate": "2026-08-10",
+  "scrapeType": "pr-freelance",
+  "totalLeads": 3,
+  "note": "Fresh, specific freelance/contract PR postings were thin this cycle — most job-board searches returned aggregator/directory pages rather than individual live reqs. The three leads below are the strongest ICP-aligned finds with a real URL each: one confirmed fresh freelance posting (JIH PR) plus two financial-services PR agencies that fit Mark's white-label/overflow ICP squarely (Caliber, Vested). Recurring names from prior runs (Neolytix, The James Collective, Wilson PR, SERPpro, etc.) were deduplicated out. 7-day window.",
+  "leads": [
+    {
+      "name": "JIH Public Relations — Freelance PR Consultant (Remote, Project-Based)",
+      "website": "https://theprnet.com/jobs/9049",
+      "pipeline": "pr-freelance",
+      "industry": "Boutique PR agency specializing in design, culture, fashion, tech and lifestyle. Hiring a remote, project-based Freelance PR Consultant to support media outreach, pitch development, media-list maintenance, competitor audits and strategic research for its client roster. Honoree in the 2025 PR Net Next Gen Awards.",
+      "location": "Remote (US-based required)",
+      "fundingStage": "Boutique independent PR agency",
+      "fitScore": 35,
+      "intentScore": 30,
+      "fitDetails": {
+        "pr_remit": "+20 — explicit PR/media-relations remit (pitch dev, media outreach, media lists)",
+        "sector_fit": "+0 — design/culture/fashion/lifestyle/tech; outside Mark's core finance/legal/PE/B2B sectors",
+        "workstream": "+10 — media relations, pitching, media-opportunity identification",
+        "buyer_quality": "+5 — boutique agency using freelance overflow execution",
+        "urgency": "posting live on The PR Net jobs board"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — freelance, project-based, 1099-style",
+        "remote_flex": "+10 — fully remote, part-time",
+        "recency": "+0 — within 7-day window but exact post date not confirmable",
+        "urgency_signals": "+0 — no explicit ASAP/overflow language",
+        "apply_path": "+5 — direct email (press@jihpr.com)"
+      },
+      "vertical": "pr",
+      "subvertical": "media-relations",
+      "engagementModel": "freelance",
+      "buyerType": "agency",
+      "compensationText": "Compensation based on experience (not disclosed)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Freelance — part-time, project-based",
+      "urgencyScore": 40,
+      "contacts": [
+        { "name": null, "title": "Apply via direct email", "email": "press@jihpr.com", "linkedin": "https://www.linkedin.com/company/the-pr-net/" }
+      ],
+      "signals": ["freelance", "remote", "project-based", "boutique agency", "direct email apply path"],
+      "source": "The PR Net jobs board, Aug 2026",
+      "sourceUrl": "https://theprnet.com/jobs/9049",
+      "notes": "Grade B (combined 65). Only confirmed-fresh, specific freelance PR posting this cycle. CAVEAT: role is pitched to early-career (1-2 yrs) and sits in lifestyle/fashion/tech, not Mark's core finance/legal sectors — so it's a soft fit for a senior operator. Angle: pitch as senior freelance overflow/execution capacity (media strategy + placements) rather than as a junior hire. ACTION: quick, low-cost outreach to press@jihpr.com positioning senior media-relations horsepower for their client load; low priority vs. financial-comms targets."
+    },
+    {
+      "name": "Caliber Corporate Advisers — Financial/Fintech PR Agency (Overflow / White-Label Target)",
+      "website": "https://www.calibercorporate.com/careers/",
+      "pipeline": "pr-freelance",
+      "industry": "Strategic marketing & communications firm serving financial services, fintech, insurtech, real estate and proptech. Remote-first with US co-working access; named an Inc. Best Workplace and Fast Company Best Workplace for Innovators. Currently actively hiring (Senior Account Executive, PR, posted on Mediabistro) — a signal of client-load/capacity pressure.",
+      "location": "Remote (US)",
+      "fundingStage": "Established boutique financial-comms agency (Inc.-recognized)",
+      "fitScore": 50,
+      "intentScore": 25,
+      "fitDetails": {
+        "pr_remit": "+20 — core PR/media-relations agency (journalist-network building, client media goals)",
+        "sector_fit": "+15 — squarely fintech / financial services / insurtech / proptech, Mark's core ICP",
+        "workstream": "+10 — earned media, media relations, thought leadership",
+        "buyer_quality": "+5 — agency with overflow/white-label potential",
+        "urgency": "actively hiring (perm SAE live on Mediabistro) — capacity strain signal"
+      },
+      "intentDetails": {
+        "engagement_model": "+0 — active posting is full-time perm, not a freelance req; overflow model inferred",
+        "remote_flex": "+10 — fully remote firm",
+        "recency": "+5 — hiring listing currently live",
+        "urgency_signals": "+5 — actively expanding journalist-network/PR capacity",
+        "apply_path": "+5 — careers page + direct BD contact"
+      },
+      "vertical": "pr",
+      "subvertical": "agency-overflow",
+      "engagementModel": "contract",
+      "buyerType": "agency",
+      "compensationText": "N/A — agency-overflow/white-label target (not a comp-bearing freelance posting)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Firm actively hiring full-time SAE (Mediabistro); approached as white-label/overflow target",
+      "urgencyScore": 55,
+      "contacts": [
+        { "name": null, "title": "BD / partnerships (via careers + firm site)", "email": null, "linkedin": "https://www.linkedin.com/company/caliber-corporate-advisers" }
+      ],
+      "signals": ["financial services", "fintech", "insurtech", "proptech", "remote-first", "actively hiring", "overflow potential"],
+      "source": "Web search — Caliber careers + Mediabistro SAE posting, Aug 2026",
+      "sourceUrl": "https://www.mediabistro.com/jobs/3540894180-caliber-corporate-advisers-is-hiring-senior-account-executive-public-relations",
+      "notes": "Grade B (combined 75) — strongest sector fit of the run. This is an agency-OVERFLOW/white-label TARGET, not an active freelance posting: the signal is that they're hiring PR capacity (SAE) in Mark's exact sectors, which is when overflow help gets bought. ACTION: BD outreach positioning Mark as senior freelance/white-label execution for fintech/financial-services media programs during capacity crunches; strong pitch-target, medium confidence on immediate need."
+    },
+    {
+      "name": "Vested — Financial & Fintech PR Agency (White-Label / Overflow Target)",
+      "website": "https://fullyvested.com/",
+      "pipeline": "pr-freelance",
+      "industry": "Global financial PR & marketing agency (self-described 4th-largest financial-services agency), team spans former investment professionals and creatives; capabilities in message development, media training, crisis comms, newsroom management and internal comms. Built reporter-source tools (Qwoted). 2022 PR News Top Elite Agency.",
+      "location": "Remote / NYC-HQ",
+      "fundingStage": "Established financial-comms agency (founded 2015)",
+      "fitScore": 50,
+      "intentScore": 15,
+      "fitDetails": {
+        "pr_remit": "+20 — full financial-PR/media-relations shop",
+        "sector_fit": "+15 — financial services / fintech core ICP",
+        "workstream": "+10 — media relations, IR-adjacent comms, crisis, internal comms",
+        "buyer_quality": "+5 — large agency with recurring overflow/white-label need",
+        "urgency": "no active freelance posting confirmed"
+      },
+      "intentDetails": {
+        "engagement_model": "+0 — no live freelance req found; overflow model inferred",
+        "remote_flex": "+10 — remote-friendly",
+        "recency": "+0 — no dated hiring signal captured this cycle",
+        "urgency_signals": "+0 — none confirmed",
+        "apply_path": "+5 — careers/contact path available"
+      },
+      "vertical": "pr",
+      "subvertical": "investor-pr",
+      "engagementModel": "contract",
+      "buyerType": "agency",
+      "compensationText": "N/A — agency-overflow/white-label target",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Agency-overflow / white-label pitch target (no live freelance posting)",
+      "urgencyScore": 25,
+      "contacts": [
+        { "name": null, "title": "BD / partnerships (via firm site)", "email": null, "linkedin": "https://www.linkedin.com/company/fullyvested" }
+      ],
+      "signals": ["financial PR", "fintech", "IR-adjacent", "crisis comms", "large agency", "overflow potential"],
+      "source": "Web search — Vested agency profile (Avenue Z / Bolt PR fintech-agency indexes), Aug 2026",
+      "sourceUrl": "https://avenuez.com/blog/best-fintech-pr-agencies-of-2025-2026/",
+      "notes": "Grade B by score (combined 65) but LOWER CONFIDENCE — a strong sector-fit pitch target with NO active posting found, so intent is inferred not observed. Included because it's directly ICP-aligned (large financial/fintech PR agency that routinely needs overflow). ACTION: warm BD/white-label outreach; verify current capacity need before investing time. Deprioritize vs. Caliber and JIH."
+    }
+  ]
+}

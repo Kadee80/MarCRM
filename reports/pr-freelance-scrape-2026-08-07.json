@@ -1,0 +1,125 @@
+{
+  "scrapeDate": "2026-08-07",
+  "scrapeType": "pr-freelance",
+  "totalLeads": 3,
+  "note": "Enhanced PR Freelance pipeline scrape, 7-day window. Sources: The PR Net, Built In, Mediabistro, Idealist, ZipRecruiter/Indeed indexed results, agency white-label pages, and Google/Bing-indexed LinkedIn results (no bot scraping). Deduplicated against the FULL pr-freelance history (~100 companies, 2026-07-02 → 2026-08-06), not just the 7-day window: Mission North, JIH PR, and 10 to 1 Public Relations all surfaced fresh this run but were dropped as prior captures (07-09/07-23, 07-03, and 07-22 respectively). Only genuinely-new leads scoring 55+ are included. The PR freelance market is now heavily covered by prior runs, so this is a deliberately small, high-confidence set (quality over quantity).",
+  "leads": [
+    {
+      "name": "CrowdPharm / Hot Iron Health — Freelance Investor Relations Consultant (Remote)",
+      "website": "https://builtin.com/job/freelance-investor-relations-consultant/3753137",
+      "pipeline": "pr-freelance",
+      "industry": "Hot Iron Health (via CrowdPharm's freelance marketplace) is hiring a remote freelance Investor Relations consultant to develop and execute IR strategy, communicate financial performance and business updates to investors and analysts, and support capital-raising activities in the healthcare industry.",
+      "location": "Remote (US)",
+      "fundingStage": "Growth-stage healthcare company (active capital raising)",
+      "fitScore": 40,
+      "intentScore": 30,
+      "fitDetails": {
+        "pr_remit": "+20 — financial communications / investor messaging is the core remit",
+        "sector_fit": "+10 — IR + capital raising (finance-adjacent); healthcare vertical",
+        "workstream": "+10 — investor/media narrative, financial-performance comms, IR strategy",
+        "buyer_quality": "operating company with a defined IR need",
+        "urgency": "0 — active capital raising but no explicit overflow/ASAP tag"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — explicitly freelance",
+        "remote_flex": "+10 — fully remote",
+        "recency": "0 — listing first surfaced earlier in 2026; treat as possibly reposted",
+        "urgency_signals": "0 — capital-raise need implied, not stated urgent",
+        "apply_path": "+5 — Built In / CrowdPharm marketplace apply path"
+      },
+      "vertical": "pr",
+      "subvertical": "investor-pr",
+      "engagementModel": "freelance",
+      "buyerType": "operating-company",
+      "compensationText": "Not stated (freelance/project basis)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Freelance Investor Relations consultant — remote",
+      "urgencyScore": 40,
+      "contacts": [
+        { "name": null, "title": "Apply via Built In / CrowdPharm marketplace", "email": null, "linkedin": "https://www.linkedin.com/company/crowdpharm" }
+      ],
+      "signals": ["freelance", "investor relations", "financial communications", "capital raising", "remote"],
+      "source": "Web search — Built In (CrowdPharm / Hot Iron Health), Aug 2026",
+      "sourceUrl": "https://builtin.com/job/freelance-investor-relations-consultant/3753137",
+      "notes": "Grade B (combined 70) — strongest lead of the run. IR/financial-comms fit is squarely in Mark's wheelhouse (investor narrative + capital-raise support). DEDUP CAVEAT: CrowdPharm the freelance NETWORK was captured 2026-06-03 as a general talent-bench lead; this is a DISTINCT, higher-value sub-req (a specific Hot Iron Health Investor Relations role via that marketplace) — treat as a separate opportunity, not a re-scrape of the network. Verify the listing is still live (may be a repost). ACTION: apply with IR-narrative and investor/media case studies; confirm freelance scope and cadence."
+    },
+    {
+      "name": "SERPpro — White-Label PR Services for Agencies",
+      "website": "https://www.serppro.ai/white-label-pr",
+      "pipeline": "pr-freelance",
+      "industry": "White-label PR/digital-PR provider for agencies — secures media placements and coverage delivered under the partner agency's brand. More placement/earned-link oriented than full earned-media strategy, but a viable overflow execution channel.",
+      "location": "Remote",
+      "fundingStage": "Digital-PR services firm (white-label)",
+      "fitScore": 30,
+      "intentScore": 30,
+      "fitDetails": {
+        "pr_remit": "+20 — PR/media placements are the core service",
+        "sector_fit": "0 — no specific finance/B2B sector focus",
+        "workstream": "+5 — placement/coverage delivery (narrower than full earned-media strategy)",
+        "buyer_quality": "white-label provider; execution-heavy, strategy-light",
+        "urgency": "+5 — white-label/overflow model"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — white-label execution partner",
+        "remote_flex": "+10 — remote delivery",
+        "recency": "0 — evergreen service page",
+        "urgency_signals": "0 — standing capacity",
+        "apply_path": "+5 — direct partner/contact path"
+      },
+      "vertical": "pr",
+      "subvertical": "agency-overflow",
+      "engagementModel": "contract",
+      "buyerType": "agency",
+      "compensationText": "Not stated (white-label project basis)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "White-label PR execution partner — project basis",
+      "urgencyScore": 40,
+      "contacts": [
+        { "name": null, "title": "Reach out re: white-label PR partnership", "email": null, "linkedin": null }
+      ],
+      "signals": ["white-label", "digital PR", "media placements", "remote"],
+      "source": "Web search — SERPpro white-label PR page, Aug 2026",
+      "sourceUrl": "https://www.serppro.ai/white-label-pr",
+      "notes": "Grade C (combined 60). Lower fit — placement/link-oriented rather than senior earned-media strategy, so a weaker match for Mark's strategic profile. Fresh name (companion to already-captured Wilson PR, No Strings, 10to1 white-label channels). ACTION: low priority; pursue only for supplemental placement-execution volume."
+    },
+    {
+      "name": "Funders' Committee for Civic Participation — Communications Consultant (Remote)",
+      "website": "https://www.idealist.org/en/nonprofit-job/accaeeca178440eeb4e3c3a96c5c5007-communications-consultant-funders-committee-for-civic-participation-new-york",
+      "pipeline": "pr-freelance",
+      "industry": "Nonprofit funder network (civic participation / democracy sector) hiring a communications consultant to lead comms strategy, messaging and content on a contract basis. NYC-associated, remote-friendly.",
+      "location": "Remote (US); NYC-associated",
+      "fundingStage": "Nonprofit / funder collaborative (consultant model)",
+      "fitScore": 25,
+      "intentScore": 30,
+      "fitDetails": {
+        "pr_remit": "+20 — communications consultant is the core role",
+        "sector_fit": "0 — civic/nonprofit; off Mark's finance/B2B core",
+        "workstream": "+5 — comms strategy, messaging, content (limited earned-media remit)",
+        "buyer_quality": "credible funder network but off-sector",
+        "urgency": "0 — no overflow/ASAP tag"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — consultant / contract engagement",
+        "remote_flex": "+10 — remote-friendly",
+        "recency": "0 — posting date not confirmed",
+        "urgency_signals": "0 — none stated",
+        "apply_path": "+5 — direct application via Idealist"
+      },
+      "vertical": "pr",
+      "subvertical": "content-strategy",
+      "engagementModel": "consultant",
+      "buyerType": "operating-company",
+      "compensationText": "Not stated (consultant/contract)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Communications consultant — contract, remote (nonprofit)",
+      "urgencyScore": 30,
+      "contacts": [
+        { "name": null, "title": "Apply via Idealist listing", "email": null, "linkedin": null }
+      ],
+      "signals": ["communications consultant", "contract", "remote", "nonprofit / civic"],
+      "source": "Web search — Idealist (Funders' Committee for Civic Participation), Aug 2026",
+      "sourceUrl": "https://www.idealist.org/en/nonprofit-job/accaeeca178440eeb4e3c3a96c5c5007-communications-consultant-funders-committee-for-civic-participation-new-york",
+      "notes": "Grade C (combined 55, at threshold). Real, fresh, remote freelance comms-consultant req but OFF-SECTOR (civic/nonprofit) and content/messaging-weighted rather than earned-media strategy. Included as a genuinely-new lead in a run where most fresh names were prior captures. ACTION: low priority; verify posting is live and scope before pursuing."
+    }
+  ]
+}

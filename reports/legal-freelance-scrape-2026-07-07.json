@@ -1,0 +1,156 @@
+{
+  "scrapeDate": "2026-07-07",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 4,
+  "note": "7-day sweep across web-indexed LinkedIn (Google/Bing only), Indeed, ZipRecruiter, Glassdoor, CareerBuilder, ACC Jobline, Robert Half Legal, Major Lindsey & Africa, FractionalJobs.io, and JobLeads. Net-new inventory was thin this run: the legal-freelance market is heavily covered by the last ~6 weeks of daily runs, and most surface results were aggregator/salary hubs (ZipRecruiter salary pages, Indeed flexible-jobs landing pages, Glassdoor counts) or recurring employers already captured (Axiom, Latitude Legal, Ontra, Beacon Hill, aVenture, Major Lindsey & Africa, Larson Maddox, Sleep Doctor, etc.), which were deduplicated out against the last 14 legal-freelance reports. Four genuinely new qualifying leads (all Priority B, combined 60-72) surfaced. Robert Half staffing reqs and the Tower Legal temp posting read as rolling/evergreen rather than posted-in-last-72h, so recency was scored conservatively (0). Reported honestly rather than padding with weak or duplicate leads.",
+  "leads": [
+    {
+      "name": "Tower Legal Solutions — Private Funds Contract Attorney (Temporary, Remote-eligible)",
+      "website": "https://www.towerls.com",
+      "pipeline": "legal-freelance",
+      "industry": "Legal staffing / contract-attorney placement (end client: private funds / asset manager)",
+      "location": "New York, NY (remote/hybrid-eligible)",
+      "fundingStage": "Staffing placement — end client is an established private-funds / investment-management group",
+      "fitScore": 40,
+      "intentScore": 32,
+      "fitDetails": {
+        "practice_area": "+20 — private funds mandate: fund documentation, LPAs, side letters, subscription docs",
+        "seniority": "+10 — specialized private-funds counsel/attorney level (deal-experienced transactional lawyer)",
+        "comp_credible": "0 — hourly rate not published in the listing",
+        "fund_focus": "+10 — explicit private funds / investment management core to the role"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — temporary/contract staffing engagement; true contract-operator model",
+        "remote_flex": "+7 — NY-based but temp private-funds work is routinely remote/hybrid; not explicitly confirmed",
+        "recency": "0 — posting reads as a rolling staffing req (first indexed ~early June); not confirmed within 72h",
+        "apply_path": "+10 — direct intake via Tower/JobLeads recruiter contact"
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "contract",
+      "buyerType": "staffing",
+      "compensationText": "Not published; temporary contract engagement (hourly, W-2 through Tower)",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Temporary contract attorney (private funds) — W-2 through staffing agency",
+      "urgencyScore": 52,
+      "contacts": [
+        { "name": "Tower Legal Solutions — Attorney Placement Desk", "title": "Recruiter, private funds contract placements", "email": "", "linkedin": "https://www.linkedin.com/company/tower-legal-solutions" }
+      ],
+      "signals": ["private funds", "fund documentation", "side letters", "contract", "temporary", "staffing", "corporate/transactional"],
+      "source": "JobLeads / Tower Legal Solutions (web search)",
+      "sourceUrl": "https://www.jobleads.com/us/job/private-funds-contract-attorney-temporary--new-york--ed8a159e69fa3c5b3d67db0e759e12bc9",
+      "notes": "On-ICP on practice area (private funds). Distinguish employment vs. commercial model: this is a W-2 temp staffing engagement, not a true 1099 freelance operator role — track employmentTypeRaw='temporary contract' vs engagementModel='contract'. PITCH ANGLE: register with Tower's private-funds desk as a deal-experienced fund lawyer available for interim/overflow; useful pipeline into a recurring-placement source even if this specific req is filled. CAVEAT: confirm the req is live and whether it can run remote before investing time."
+    },
+    {
+      "name": "Robert Half — Remote Part-Time Corporate & Securities Attorney (Contract)",
+      "website": "https://www.roberthalf.com",
+      "pipeline": "legal-freelance",
+      "industry": "Legal staffing (Robert Half Legal) — end client: technology companies needing corporate & securities support",
+      "location": "Los Angeles, CA (remote)",
+      "fundingStage": "Staffing placement — end client is a growth-stage technology company / law firm expanding its corporate-securities practice",
+      "fitScore": 30,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "+10 — corporate + securities advisory for technology companies (no fund-formation component)",
+        "seniority": "+10 — 7+ years required; counsel-level corporate/securities lawyer",
+        "comp_credible": "+10 — comp stated ($57–$90/hr) and market-credible for contract senior counsel",
+        "fund_focus": "0 — corporate/securities but not private-funds specific"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — explicit contract + part-time engagement",
+        "remote_flex": "+15 — fully remote",
+        "recency": "0 — Robert Half rolling req; posting age not confirmed within 72h",
+        "apply_path": "+10 — direct low-friction apply via Robert Half"
+      },
+      "vertical": "legal",
+      "subvertical": "corporate",
+      "engagementModel": "contract",
+      "buyerType": "staffing",
+      "compensationText": "$57–$90 per hour; part-time; contract engagement (7+ years' experience)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contract, part-time corporate & securities attorney (remote) via Robert Half Legal",
+      "urgencyScore": 58,
+      "contacts": [
+        { "name": "Robert Half Legal — Legal Talent Team", "title": "Practice director, contract legal placements", "email": "", "linkedin": "https://www.linkedin.com/company/robert-half-legal" }
+      ],
+      "signals": ["contract", "part-time", "remote", "corporate", "securities", "technology companies", "hourly comp stated"],
+      "source": "Robert Half (web search)",
+      "sourceUrl": "https://www.roberthalf.com/us/en/jobs/los-angeles-ca/remote-part-time-corporate-securities-attorney",
+      "notes": "Strong engagement-model fit (contract + part-time + remote + stated hourly comp). Corporate/securities is adjacent to Katie's fund/corporate ICP even without a fund component. PITCH ANGLE: pitch as senior corporate/securities contract counsel who can carry financings, corporate governance and securities filings for tech clients on a part-time basis. Register with the Robert Half Legal practice director as a recurring source of contract corporate work."
+    },
+    {
+      "name": "Robert Half — Corporate Counsel, Contracts (NYC Pension Fund, Contract)",
+      "website": "https://www.roberthalf.com",
+      "pipeline": "legal-freelance",
+      "industry": "Legal staffing (Robert Half) — end client: New York City pension fund (institutional asset owner)",
+      "location": "New York, NY (hybrid)",
+      "fundingStage": "Staffing placement — end client is an established NYC pension fund adding contracts-focused corporate counsel",
+      "fitScore": 30,
+      "intentScore": 35,
+      "fitDetails": {
+        "practice_area": "+10 — commercial/vendor contracts + corporate support for an institutional investor",
+        "seniority": "+10 — counsel-level corporate contracts attorney",
+        "comp_credible": "0 — rate not published in the listing",
+        "fund_focus": "+10 — buyer is a pension fund (institutional asset owner); contracts tie to investment operations"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — contract engagement",
+        "remote_flex": "+10 — NYC hybrid; some remote flexibility",
+        "recency": "0 — Robert Half rolling req; age not confirmed within 72h",
+        "apply_path": "+10 — direct apply via Robert Half"
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "contract",
+      "buyerType": "fund",
+      "compensationText": "Not published; contract engagement (contracts-focused corporate counsel)",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Contract corporate counsel (contracts focus) — NYC pension fund via Robert Half",
+      "urgencyScore": 50,
+      "contacts": [
+        { "name": "Robert Half Legal — Legal Talent Team", "title": "Practice director, contract legal placements", "email": "", "linkedin": "https://www.linkedin.com/company/robert-half-legal" }
+      ],
+      "signals": ["contract", "corporate counsel", "commercial contracts", "pension fund", "institutional investor", "hybrid"],
+      "source": "Robert Half (web search)",
+      "sourceUrl": "https://www.roberthalf.com/us/en/jobs/all/corporate-counsel",
+      "notes": "Buyer type is an institutional asset owner (pension fund) — adjacent to Katie's fund/investment-management ICP, with a contracts + corporate-governance workstream she can own. PITCH ANGLE: contract counsel who understands both the vendor/commercial paper and the investment-operations context of an institutional allocator. CAVEAT: role is contracts-focused rather than fund formation; confirm scope and hybrid/remote split."
+    },
+    {
+      "name": "FractionalJobs.io — Fractional Legal Counsel (Stealth Startup, ~10 hrs/week)",
+      "website": "https://www.fractionaljobs.io",
+      "pipeline": "legal-freelance",
+      "industry": "Job board for fractional work — end client: stealth-mode startup seeking fractional legal counsel",
+      "location": "Remote (U.S.)",
+      "fundingStage": "Early-stage / stealth startup (fractional legal need, ongoing)",
+      "fitScore": 20,
+      "intentScore": 50,
+      "fitDetails": {
+        "practice_area": "0 — primary need is compensation & benefits law; limited corporate/fund overlap as posted",
+        "seniority": "+10 — counsel-level fractional engagement owning the legal function",
+        "comp_credible": "+10 — comp stated (~$5,000–$6,500/month for the fractional scope)",
+        "fund_focus": "0 — no fund-formation component"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — explicit fractional engagement (~10 hrs/week, ongoing)",
+        "remote_flex": "+15 — fully remote",
+        "recency": "+10 — posted July 2026, within the current window (freshest lead this run)",
+        "apply_path": "+10 — direct apply via FractionalJobs.io"
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "portfolio-company",
+      "compensationText": "~$5,000–$6,500 per month; ~10 hrs/week; ongoing fractional engagement",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional legal counsel (1099 / independent contractor), ~10 hrs/week, ongoing",
+      "urgencyScore": 68,
+      "contacts": [
+        { "name": "", "title": "Founder / hiring team (stealth startup, via FractionalJobs)", "email": "", "linkedin": "" }
+      ],
+      "signals": ["fractional", "remote", "part-time (~10 hrs/week)", "monthly retainer", "startup", "fresh posting", "direct apply"],
+      "source": "FractionalJobs.io (web search)",
+      "sourceUrl": "https://www.fractionaljobs.io/jobs/fractional-legal-counsel-stealth-startup",
+      "notes": "Freshest lead this run (posted July 2026) and the cleanest true-fractional operator model (~10 hrs/week, monthly retainer). WEAKER on practice-area fit: the posted emphasis is compensation & benefits law rather than Katie's corporate/fund/commercial-contracts core, which caps the fit score. PITCH ANGLE only if the role can flex toward general corporate/commercial support: 'fractional counsel who can own your full early-stage legal stack — comp/benefits, commercial contracts, entity/governance, and financing docs.' CAVEAT: confirm the actual scope before pitching; if it is narrowly comp-&-benefits, it is off-ICP."
+    }
+  ]
+}

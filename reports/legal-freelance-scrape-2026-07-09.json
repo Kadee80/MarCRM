@@ -1,0 +1,218 @@
+{
+  "scrapeDate": "2026-07-09",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 5,
+  "note": "Legal Freelance pipeline scrape. 7-day window (2026-07-02 to 2026-07-09). Deduped against daily/pr-freelance/legal-freelance reports back to 2026-07-02; no company repeated from prior week (Major, Lindsey & Africa surfaced a new interim corporate/securities role but was captured 2026-07-06, so suppressed at company level). Only leads scoring 55+ included. LinkedIn results via Google/Bing indexed pages only. Neon DB unreachable from sandbox — run import script locally.",
+  "leads": [
+    {
+      "name": "Latitude — Investment Funds Attorney (Contract, Remote US)",
+      "website": "https://www.latitudelegal.com",
+      "pipeline": "legal-freelance",
+      "industry": "National legal talent / flexible staffing firm (ALSP) placing attorneys into contract and secondment engagements. This role: flexible multi-month contract supporting a global law firm client on an internal investment-funds project; formation, structuring, and ongoing operation of PE/VC/hedge/real estate/pooled vehicles.",
+      "location": "Remote (anywhere US)",
+      "fundingStage": "Established legal staffing firm — end client is a global law firm",
+      "fitScore": 40,
+      "intentScore": 50,
+      "fitDetails": {
+        "practice_area": "+20 fund/private-funds formation, structuring, ongoing operation (PE, VC, hedge, real estate, pooled vehicles); +10 corporate — cleanest ICP match this run.",
+        "seniority": "+10 — 5+ yrs investment-funds experience at large/mid-size firm; counsel level.",
+        "comp_credible": "0 — contract hourly implied but no rate stated in posting.",
+        "fund_focus": "strong — pure private-funds engagement."
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — flexible multi-month contract engagement.",
+        "remote_flex": "+15 — work anywhere in the U.S.",
+        "recency": "+10 — surfaced as current in 7-day window.",
+        "apply_path": "+10 — direct apply / Latitude attorney desk."
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "contract",
+      "buyerType": "staffing",
+      "compensationText": "",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Flexible multi-month contract engagement (via Latitude; end client global law firm)",
+      "urgencyScore": 85,
+      "contacts": [
+        {
+          "name": "Latitude — Attorney Placement / Talent Desk",
+          "title": "Legal recruiting / placement contact",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/latitude-legal"
+        }
+      ],
+      "signals": ["investment funds", "private funds", "fund formation", "contract", "multi-month", "remote US", "5+ yrs", "global law firm client"],
+      "source": "Indeed (Latitude posting, indexed)",
+      "sourceUrl": "https://www.indeed.com/q-Private-Fund-Attorney-l-Remote-jobs.html",
+      "notes": "Highest-fit lead of the run. Latitude is a repeat-placement relationship — register with attorney desk regardless of this specific req."
+    },
+    {
+      "name": "Ropes & Gray — Funds Attorney, Asset Management Group (Remote, Flexible/Hourly)",
+      "website": "https://www.ropesgray.com",
+      "pipeline": "legal-freelance",
+      "industry": "Global law firm flexible-attorney / remote track within the Asset Management Group. Funds attorneys engaged 100% remote, compensated hourly on billable work — firm-run overflow/flex bench for private-funds matters.",
+      "location": "Remote (US)",
+      "fundingStage": "Global law firm — flexible attorney program",
+      "fitScore": 40,
+      "intentScore": 42,
+      "fitDetails": {
+        "practice_area": "+20 private-funds / asset-management matters; +10 corporate.",
+        "seniority": "+10 — experienced funds attorney track.",
+        "comp_credible": "0 — hourly billable but rate not stated.",
+        "fund_focus": "strong — asset-management/private-funds group."
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — flexible/hourly contract-style engagement (firm flex bench).",
+        "remote_flex": "+15 — 100% remote.",
+        "recency": "+2 — active recruiting page, date not stated.",
+        "apply_path": "+10 — direct apply via recruiting site."
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "contract",
+      "buyerType": "law-firm",
+      "compensationText": "Hourly, compensated on billable work",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Flexible/remote funds attorney (hourly billable) — Asset Management Group flex track",
+      "urgencyScore": 65,
+      "contacts": [
+        {
+          "name": "Ropes & Gray — Legal Recruiting (Asset Management / Flexible Attorneys)",
+          "title": "Recruiting contact",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/ropes-&-gray-llp"
+        }
+      ],
+      "signals": ["funds attorney", "asset management", "100% remote", "hourly billable", "flexible attorney", "overflow/flex bench", "private funds"],
+      "source": "Ropes & Gray Recruiting (firm career page)",
+      "sourceUrl": "https://www.ropesgrayrecruiting.com/en/life-at-ropes-and-gray/positions/funds-attorney-asset-management-group-remote",
+      "notes": "Strong logo + durable remote/hourly funds work. ICP 'law firm overflow/specialist support' bucket."
+    },
+    {
+      "name": "Allocate — Fund Formation Attorney (Remote, US)",
+      "website": "https://www.allocate.co",
+      "pipeline": "legal-freelance",
+      "industry": "Private-markets investment platform (Palo Alto, remote-friendly) building out its legal team. Fund formation, onboarding, fund filings, regulatory compliance, corporate governance; drafting/reviewing LPAs, PPMs, subscription documents. Open at Associate (4+ yrs) and Senior (6+ yrs) levels.",
+      "location": "Remote (US); HQ Palo Alto, CA",
+      "fundingStage": "Venture-backed private-markets platform, scaling legal function",
+      "fitScore": 40,
+      "intentScore": 35,
+      "fitDetails": {
+        "practice_area": "+20 fund formation (LPAs, PPMs, subscription docs, filings); +10 corporate governance.",
+        "seniority": "+10 — 4-6+ yrs fund formation, counsel level.",
+        "comp_credible": "0 — role-specific comp not stated.",
+        "fund_focus": "strong — dedicated fund-formation function."
+      },
+      "intentDetails": {
+        "engagement_model": "0 — permanent in-house hire, not a freelance engagement (BD/relationship lead).",
+        "remote_flex": "+15 — remote in U.S.",
+        "recency": "+10 — applications close ~2026-07-11 (very recent/time-sensitive).",
+        "apply_path": "+10 — direct apply via Freshteam/LinkedIn."
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "",
+      "buyerType": "fund",
+      "compensationText": "",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Full-time in-house (Associate 4+ yrs / Senior 6+ yrs); applications close ~2026-07-11",
+      "urgencyScore": 70,
+      "contacts": [
+        {
+          "name": "Allocate — Legal / Talent Team",
+          "title": "Hiring team (Legal)",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/allocate-co"
+        }
+      ],
+      "signals": ["fund formation", "LPAs", "PPMs", "subscription documents", "regulatory compliance", "corporate governance", "remote", "private markets platform", "applications close 2026-07-11"],
+      "source": "Allocate careers (Freshteam) / LinkedIn",
+      "sourceUrl": "https://allocate.freshteam.com/jobs/siS-YMRJZ3h5/junior-fund-formation-attorney-remote",
+      "notes": "FT req lowers engagement-model intent; treat as BD/relationship lead — pitch interim/overflow fund-formation coverage before/around the permanent hire. Time-sensitive (~July 11 close)."
+    },
+    {
+      "name": "Latitude — Fractional Franchise Counsel (Remote, Part-Time)",
+      "website": "https://www.latitudelegal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Part-time, remote fractional counsel engagement for a national franchisor in the health & wellness sector (via Latitude). Franchise/commercial documentation, ongoing corporate/commercial matters.",
+      "location": "Remote; end client based Austin, TX region",
+      "fundingStage": "Operating company (national franchisor) — engagement via Latitude",
+      "fitScore": 20,
+      "intentScore": 50,
+      "fitDetails": {
+        "practice_area": "+10 commercial contracts / corporate (franchise documentation); no fund component.",
+        "seniority": "+10 — experienced fractional counsel.",
+        "comp_credible": "0 — not stated.",
+        "fund_focus": "0 — franchise/commercial operator."
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — fractional, part-time engagement.",
+        "remote_flex": "+15 — remote.",
+        "recency": "+10 — current listing in window.",
+        "apply_path": "+10 — direct apply / Latitude desk."
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Part-time fractional engagement (via Latitude; national health/wellness franchisor)",
+      "urgencyScore": 70,
+      "contacts": [
+        {
+          "name": "Latitude — Attorney Placement / Talent Desk",
+          "title": "Legal recruiting / placement contact",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/latitude-legal"
+        }
+      ],
+      "signals": ["fractional", "franchise counsel", "part-time", "remote", "commercial contracts", "corporate", "national franchisor", "health & wellness"],
+      "source": "Glassdoor (Latitude posting, indexed)",
+      "sourceUrl": "https://www.glassdoor.com/job-listing/fractional-franchise-counsel-remote-part-time-engagement-latitude-JV_IC1139761_KO0,56_KE57,65.htm",
+      "notes": "Lower practice-area fit (franchise-specific) but clean fractional/part-time/remote engagement. Second reason to be on Latitude's active roster."
+    },
+    {
+      "name": "ACC Jobline — Fractional General Counsel (Industrial Manufacturing, Remote)",
+      "website": "https://jobline.acc.com",
+      "pipeline": "legal-freelance",
+      "industry": "Fractional General Counsel for an industrial-manufacturing operating company (employer name withheld), posted on the Association of Corporate Counsel Jobline (#54004). Fully remote, ~1-2 days/week: commercial contracts, supply/vendor agreements, governance, outside-counsel coordination.",
+      "location": "Remote (US)",
+      "fundingStage": "Established operating company (industrial manufacturing)",
+      "fitScore": 20,
+      "intentScore": 50,
+      "fitDetails": {
+        "practice_area": "+10 corporate / commercial contracts / governance; no fund component.",
+        "seniority": "+10 — GC-level fractional role.",
+        "comp_credible": "0 — not stated.",
+        "fund_focus": "0 — operating company."
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — fractional GC, ~1-2 days/week.",
+        "remote_flex": "+15 — fully remote.",
+        "recency": "+10 — active Jobline listing.",
+        "apply_path": "+10 — direct apply via ACC Jobline."
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional General Counsel, ~1-2 days/week (employer name withheld)",
+      "urgencyScore": 60,
+      "contacts": [
+        {
+          "name": "ACC Jobline — Hiring Employer (withheld) / Application Desk",
+          "title": "Hiring contact",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": ["fractional GC", "1-2 days/week", "remote", "commercial contracts", "supply/vendor", "governance", "outside counsel", "industrial manufacturing"],
+      "source": "Association of Corporate Counsel (ACC) Jobline",
+      "sourceUrl": "https://jobline.acc.com/job/fractional-general-counsel-remote--54004",
+      "notes": "Textbook fractional GC for an operating company; low hours make it stackable. Warm secondary."
+    }
+  ]
+}

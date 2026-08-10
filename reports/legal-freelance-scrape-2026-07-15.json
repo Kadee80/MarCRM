@@ -1,0 +1,89 @@
+{
+  "scrapeDate": "2026-07-15",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 3,
+  "note": "7-day window. 3 new leads, all pipeline=legal-freelance, all scoring 55+. Deduped against legal-freelance and pr-freelance reports through 2026-07-14 (excluded already-captured recurring channels/companies: Axiom, Priori Legal, Epiq Counsel, Outside GC, Roasa Law, Legal.io, ACC Jobline #53153, Latitude, Ropes & Gray, Allocate, Sigma7, Nuvei, OneRail, Tower Legal, Robert Half, FractionalJobs.io platform prior entries, aVenture, Larson Maddox, Karra Law, Major Lindsey & Africa, The Mom Project/Etsy, Sleep Doctor, Beacon Hill, Interlink, Hayden Industrial, Lyfecoin, Ontra, CookUnity, Atlas Road, Legalpeople, Taylor English). Excluded as stale/filled this run: Socket fractional GC (Built In posting removed Feb 2025), Kindness for Capital fractional GC (added 9/2/2025, filled), Allocate Senior Fund Formation Attorney posted 7/11 (company already captured 7/9). Market note: fractionaljobs.io syndication flags syndicated posts as 'closed' by boilerplate; both PsychPlus and Battlement were added 7/13 with live LinkedIn application links, treated as active — verify before applying.",
+  "leads": [
+    {
+      "name": "Paragon Legal — Private Funds Attorney (Contract, Remote/Hybrid)",
+      "website": "https://paragonlegal.com/",
+      "pipeline": "legal-freelance",
+      "industry": "Alternative legal services provider (flexible/interim in-house counsel) — end client is a global investment management firm",
+      "location": "Remote; hybrid preference for Nashville or Minneapolis",
+      "fundingStage": "n/a",
+      "fitScore": 50,
+      "intentScore": 40,
+      "fitDetails": { "practice_area": "Private fund formation — private credit, hedge, real estate & alternative funds; PPMs, LPAs, side letters, subscription docs, regulatory", "seniority": "3+ yrs private fund formation; experienced counsel", "comp_credible": "$110–$120/hr stated", "fund_focus": "very strong — dedicated private funds / alternative investments mandate" },
+      "intentDetails": { "engagement_model": "contract via ALSP; ~20+ hrs/week up to full-time", "remote_flex": "remote with hybrid preference", "recency": "posted 2026-07-09 (within 7-day window)", "apply_path": "direct apply form on paragonlegal.com job page" },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "$110–$120/hr; approx. 3-month project with potential extension through year-end; ~20+ hrs/week up to full-time",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Contract (W-2 via Paragon Legal); project-based",
+      "urgencyScore": 78,
+      "contacts": [
+        { "name": "Paragon Legal — Attorney Recruiting", "title": "Recruiting / Sourcing Team", "email": "info@paragonlegal.com", "linkedin": "https://www.linkedin.com/company/paragon-legal" }
+      ],
+      "signals": ["Direct private fund formation mandate (best-fit workstream)", "Global investment management firm end client", "Stated market-credible hourly rate", "ASAP start, extension likely", "Remote-first with flexible hours"],
+      "source": "Web search + direct fetch (Paragon Legal opportunities, July 2026)",
+      "sourceUrl": "https://paragonlegal.com/jobs/private-funds-attorney/",
+      "notes": "Grade A (combined 90). Strongest lead this run and a bullseye on Katie's ICP: private fund formation for an investment management firm, contract, remote, credible rate. Paragon is a new channel (not previously captured) and staffs top corporate/in-house departments nationally. ACTION: apply directly on the Paragon job page; lead with fund formation (private credit/hedge/RE), LPA/PPM/side-letter drafting, and offshore fund structuring; note ~20+ hr/week availability and hybrid-from-Minneapolis flexibility if applicable. Also worth submitting a general resume to Paragon's talent bench for future fund/corporate briefs."
+    },
+    {
+      "name": "PsychPlus — Fractional General Counsel (Remote)",
+      "website": "https://www.psychplus.com",
+      "pipeline": "legal-freelance",
+      "industry": "Healthtech / digital-first mental health (physician group practice), growth-stage VC-backed",
+      "location": "Remote (USA only)",
+      "fundingStage": "Growth-stage VC",
+      "fitScore": 30,
+      "intentScore": 50,
+      "fitDetails": { "practice_area": "Fractional GC — commercial contracts, corporate governance, risk, compliance (healthcare-regulatory heavy: HIPAA, Stark, AKS, telehealth, corporate practice of medicine)", "seniority": "10+ yrs; GC / fractional GC level", "comp_credible": "$150–$200/hr stated", "fund_focus": "none — operating-company GC role" },
+      "intentDetails": { "engagement_model": "fractional / part-time contract", "remote_flex": "remote (USA)", "recency": "posted 2026-07-13 (within 72 hours)", "apply_path": "LinkedIn easy-apply + FractionalJobs intro" },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "$150–$200/hr; 10–20 hrs/week",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional / part-time contract (1099)",
+      "urgencyScore": 82,
+      "contacts": [
+        { "name": "PsychPlus — Executive Leadership / Hiring", "title": "Hiring Team", "email": "", "linkedin": "https://www.linkedin.com/jobs/view/4436806730/" }
+      ],
+      "signals": ["Highest stated rate this run ($150–200/hr)", "Fractional GC, remote, 10–20 hrs/week", "Posted within 72 hours", "Growth-stage VC-backed = financing/governance work exists"],
+      "source": "Web search + direct fetch (FractionalJobs.io / LinkedIn, July 2026)",
+      "sourceUrl": "https://www.fractionaljobs.io/jobs/general-counsel-at-psychplus",
+      "notes": "Grade B (raw model combined 80; downgraded on practice-area fit). Terms are excellent — fractional GC, remote, $150–200/hr — but the posting REQUIRES extensive healthcare / physician-group-practice experience (HIPAA, Stark, Anti-Kickback, corporate practice of medicine). This is a stretch for Katie's corporate/fund positioning unless she has healthcare-regulatory exposure. INCLUDE as a watch/relationship lead: if applying, pitch the corporate-governance, commercial-contracting, financing, and board-support half of the mandate and be candid about healthcare-regulatory depth. Verify the LinkedIn posting is still live (FractionalJobs shows a boilerplate 'closed' banner on syndicated posts)."
+    },
+    {
+      "name": "Battlement Systems — Fractional Corporate Counsel (Remote, NJ Bar)",
+      "website": "https://www.linkedin.com/company/battlement-systems/",
+      "pipeline": "legal-freelance",
+      "industry": "Sovereign AI Infrastructure-as-a-Service (IaaS); pre-revenue, NJ-headquartered",
+      "location": "Remote (NJ Bar required)",
+      "fundingStage": "Pre-revenue / early",
+      "fitScore": 20,
+      "intentScore": 50,
+      "fitDetails": { "practice_area": "Corporate architecture, technology infrastructure leasing, project finance, partnership taxation; structure entities to unlock project-backed institutional debt lines", "seniority": "5+ yrs sophisticated corporate; AmLaw 100 / top regional preferred", "comp_credible": "not stated (Unknown)", "fund_focus": "none directly — but financing/structuring and partnership-tax overlap with fund work" },
+      "intentDetails": { "engagement_model": "fractional 1099 independent contractor", "remote_flex": "remote (NJ only)", "recency": "posted 2026-07-13 (within 72 hours)", "apply_path": "LinkedIn application + FractionalJobs intro" },
+      "vertical": "legal",
+      "subvertical": "financing",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "Not stated",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional 1099 independent contractor (NJ ABC-test compliant)",
+      "urgencyScore": 80,
+      "contacts": [
+        { "name": "Battlement Systems — Hiring / Founder", "title": "Founder / Hiring", "email": "", "linkedin": "https://www.linkedin.com/jobs/view/4437071865/" }
+      ],
+      "signals": ["Corporate structuring + project finance mandate", "Fractional 1099 independent-operator model (fits Katie's positioning)", "Posted within 72 hours", "Discrete defined-scope build (no red-lining / negotiation)"],
+      "source": "Web search + direct fetch (FractionalJobs.io / LinkedIn, July 2026)",
+      "sourceUrl": "https://www.fractionaljobs.io/jobs/corporate-counsel-at-battlement-systems",
+      "notes": "Grade B (combined 70). Corporate-structuring and project-finance mandate for a fractional independent operator — good model fit, but two constraints: (1) requires active NJ Bar membership in good standing (out-of-state cannot be considered), and (2) compensation is not stated. If Katie is NJ-barred, this is a clean defined-scope engagement; lead with entity structuring, project finance / debt-line readiness, and partnership-tax framework experience. Verify the LinkedIn posting is still live before applying."
+    }
+  ]
+}

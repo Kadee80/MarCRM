@@ -1,0 +1,119 @@
+{
+  "scrapeDate": "2026-07-31",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 3,
+  "note": "First legal-freelance-scrape file in reports/. 7-day window. Market is heavily saturated with recurring ALSPs/staffing firms already captured across prior pr-freelance scrapes (Axiom, Latitude Legal, Major Lindsey & Africa, Ropes & Gray, Ontra, Robert Half, Epiq Counsel, Tower Legal, Paragon, Legal.io, etc. — 249 prior lead names deduped). Only genuinely new companies or clearly distinct fresh postings are included, filtered to combined 55+. Quality over quantity. All three leads carry an actual posting URL. Lower-fit/no-active-posting items (Bratby Law — UK regulatory; Montague Law — fund-formation firm as a co-counsel/overflow BD target; CareerBuilder Corporate M&A #148523 — engagement model unverified; Robert Half VC/emerging-companies corporate counsel) are noted in the markdown trends/next-steps rather than scored as leads.",
+  "leads": [
+    {
+      "name": "Lawyers on Demand (LOD) — Commercial Contracts Attorney (6+ Month Remote Engagement, $70/hr)",
+      "website": "https://careers.lodlaw.com",
+      "pipeline": "legal-freelance",
+      "industry": "ALSP / flexible legal talent (Consilio company). Placing a contract commercial-contracts attorney on a long-term, fully remote engagement supporting a large law firm client.",
+      "location": "Remote (US)",
+      "fundingStage": "",
+      "fitScore": 30,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "commercial contracts",
+        "seniority": "attorney/counsel level",
+        "comp_credible": true,
+        "fund_focus": false
+      },
+      "intentDetails": {
+        "engagement_model": "long-term contract (6+ months, 40 hrs/wk)",
+        "remote_flex": "fully remote (US)",
+        "recency": "active listing (posting #102220)",
+        "apply_path": "easy apply via LOD careers portal"
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "$70/hour+ (commensurate with experience)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Long-term contract, full-time (40 hrs/wk), 6+ months",
+      "urgencyScore": 70,
+      "contacts": [
+        { "name": null, "title": "LOD recruiter / talent bench", "email": null, "linkedin": "https://careers.lodlaw.com/jobs/102220" }
+      ],
+      "signals": ["6+ month engagement", "$70/hr stated", "fully remote", "supporting a large law firm client", "immediate/active need"],
+      "source": "Lawyers on Demand (Consilio) careers, July 2026",
+      "sourceUrl": "https://careers.lodlaw.com/jobs/102220",
+      "notes": "Grade B (combined 70). Strongest of the run: explicit rate, fully remote, long duration, clear commercial-contracts remit. COMMERCIAL-MODEL CAVEAT: LOD staffs on its own engagement terms (contractor via ALSP) rather than a direct 1099 retainer with the end client. LOD/Consilio already appears in prior scrapes as a company; this is a distinct fresh posting (#102220). ACTION: apply/register; position senior commercial-contracts + corporate governance depth for the large-firm client engagement."
+    },
+    {
+      "name": "SylloTips — Fractional General Counsel / Legal Officer (AI/SaaS, ~1–2 days/wk)",
+      "website": "https://jobs.techstars.com/companies/syllotips",
+      "pipeline": "legal-freelance",
+      "industry": "Early-stage enterprise AI / SaaS company (Rome-founded; Techstars-accelerated; Harvard Innovation Labs). Turns undocumented human expertise into adaptive enterprise AI. Hiring a fractional GC to own corporate governance, commercial contracts, data privacy (GDPR / EU AI Act), employment, IP and fundraising, reporting to the CEO.",
+      "location": "Remote / Rome-based (international)",
+      "fundingStage": "Early-stage (Techstars / Harvard iLab)",
+      "fitScore": 20,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "corporate governance / commercial contracts / IP / fundraising",
+        "seniority": "GC / Legal Officer",
+        "comp_credible": false,
+        "fund_focus": false
+      },
+      "intentDetails": {
+        "engagement_model": "fractional (~1–2 days/week)",
+        "remote_flex": "remote / hybrid",
+        "recency": "active listing (recency unconfirmed)",
+        "apply_path": "Techstars job board easy apply"
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Fractional, ~1–2 days/week",
+      "urgencyScore": 55,
+      "contacts": [
+        { "name": null, "title": "CEO (direct report)", "email": null, "linkedin": "https://jobs.techstars.com/companies/syllotips" }
+      ],
+      "signals": ["fractional 1–2 days/wk", "reports directly to CEO", "fundraising + commercial contracts + IP scope", "Techstars / Harvard iLab backed", "AI-governance exposure (EU AI Act)"],
+      "source": "Techstars Job Board (SylloTips), July 2026",
+      "sourceUrl": "https://jobs.techstars.com/companies/syllotips/jobs/61810743-privacy-cybersecurity-expert",
+      "notes": "Grade B (combined 60). New company. Genuine fractional GC engagement with startup-formation, commercial-contracts and fundraising scope — good practice fit. CAVEAT: Rome-based with GDPR / EU AI Act emphasis, so US-license value is limited and remote eligibility for a US-based counsel needs confirmation. Best if Katie wants AI-governance / cross-border commercial exposure. ACTION: confirm US-remote eligibility before pitching; lead with corporate governance + fundraising + commercial-contracts wins."
+    },
+    {
+      "name": "Robert Half — General Counsel (Midtown NYC, Contract-to-Hire, $75–125/hr)",
+      "website": "https://www.roberthalf.com",
+      "pipeline": "legal-freelance",
+      "industry": "Legal staffing firm placing a General Counsel directly with a client in Midtown Manhattan on a contract-to-hire basis; start July 2026.",
+      "location": "New York, NY (Midtown) — hybrid/onsite",
+      "fundingStage": "",
+      "fitScore": 30,
+      "intentScore": 25,
+      "fitDetails": {
+        "practice_area": "general counsel / corporate",
+        "seniority": "GC",
+        "comp_credible": true,
+        "fund_focus": false
+      },
+      "intentDetails": {
+        "engagement_model": "contract-to-hire",
+        "remote_flex": "hybrid / onsite (NYC)",
+        "recency": "July 2026 start",
+        "apply_path": "Robert Half recruiter easy apply"
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "contract",
+      "buyerType": "staffing",
+      "compensationText": "$75–$125/hour (contract-to-hire)",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Contract-to-hire, July 2026 start",
+      "urgencyScore": 60,
+      "contacts": [
+        { "name": null, "title": "Robert Half legal recruiter", "email": null, "linkedin": "https://www.roberthalf.com/us/en/jobs/new-york-ny/general-counsel" }
+      ],
+      "signals": ["$75–125/hr stated", "GC-level need", "July 2026 start", "contract-to-hire"],
+      "source": "Robert Half Legal (New York GC listings), July 2026",
+      "sourceUrl": "https://www.roberthalf.com/us/en/jobs/new-york-ny/general-counsel",
+      "notes": "Grade C (combined 55). Legitimate GC-level contract engagement with a credible stated rate and immediate start. WEAKNESS: Midtown NYC (hybrid/onsite likely), so weaker on remote-flex, which caps the intent score. Robert Half appears in prior scrapes as a company; this is a distinct fresh GC posting. ACTION: worth a quick recruiter conversation if Katie is open to NYC hybrid; confirm remote/hybrid split and the client's industry (fund-adjacent would raise fit)."
+    }
+  ]
+}

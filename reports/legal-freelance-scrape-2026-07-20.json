@@ -1,0 +1,95 @@
+{
+  "scrapeDate": "2026-07-20",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 2,
+  "note": "7-day window (2026-07-13 → 2026-07-20). Deduped against all legal-freelance reports 2026-05-06 → 2026-07-17, pr-freelance reports through 2026-07-17, and daily-scrape through 2026-07-17. THIN RUN — only 2 net-new leads cleared the 55-point threshold, and this is a real finding rather than a search failure: after ~11 weeks of daily scraping, the recurring flexible-legal channels are saturated. All 10 boolean clusters were run; the overwhelming majority of returns were either (a) aggregator landing pages with no distinct employer (Indeed/ZipRecruiter/Glassdoor/LawCrossing category pages), or (b) companies already in the CRM. EXCLUDED as already-captured companies/channels: Axiom, Epiq Counsel, Paragon Legal, Priori Legal, Legal.io, Latitude Legal, Robert Half Legal, Tower Legal Solutions, Larson Maddox, Major Lindsey & Africa, Taylor Root, Arootah, Legalpeople, Outside GC, Practus, Montage Legal, Hire an Esquire, Lawyers on Demand, Consilio, Beacon Hill Legal, FractionalJobs.io, Go Fractional (platform itself), Ropes & Gray, Allocate, aVenture, Nuvei, OneRail, Sigma7, PsychPlus, Battlement Systems, CookUnity, NextGrad, Fractionus, Hayden Industrial, Learntastic, Socket, ACC Jobline. EXCLUDED as off-geography (non-US, Katie is US-based): unybrands (UK), Footasylum (UK), Valeo Foods (UK), Trainline (UK), Basic-Fit (NL), Deliveroo (FR), Rettie (UK), Stake (Sydney AU), EROAD (NZ), Trustpilot (UK). EXCLUDED as failing the engagement-model gate (full-time permanent, not freelance/fractional/contract): Blackstone Fund Formation Attorney MD; Larson Maddox Private Funds Counsel (NY, on-site, full-time, USD 120-160k, posted 30+ days ago); JCW Group Regulatory Counsel; Phoenix VX Investment Funds Attorney; Page Executive VP Legal Counsel Private Funds; Simmons & Hanbury Funds Counsel. EXCLUDED as off-practice-area: Go Fractional 'Fractional Recruiter/Sourcer' at an in-house legal recruiting company (recruiting, not counsel); TMFHQI Fractional Arbitrator (arbitration, adjacent to the litigation low-fit filter); FractionalJobs.io stealth-startup fractional counsel (comp & benefits focus, no corporate/fund angle). NOTED BUT NOT COUNTED AS NEW: a second JobLeads Tower Legal Solutions posting ('Temporary Funds Attorney — Private Funds & Fund Ops', NY, $80-120/hr, side letters + feeder fund formation) appears to be a re-list or sibling of the Tower private-funds contract role already captured 2026-07-16; the job page returned empty on fetch so the overlap could not be confirmed, and company-name dedup would skip it on import regardless. BLOCKED SOURCE: latitudelegal.com/jobs returns a JavaScript shell with no server-rendered content, so Latitude's current board could not be enumerated this run; individual Latitude postings surfaced via search (jobs 5064, 5075) could not be verified and were not included. Both leads below were posted 2026-07-13 (7 days old), so neither earns the 72-hour recency bonus. Both scored 55+.",
+  "leads": [
+    {
+      "name": "Early-Stage Investment Firm (via Go Fractional) — Fractional Chief Compliance Officer",
+      "website": "https://www.gofractional.com/job/fractional-chief-compliance-officer-cmrb15e7",
+      "pipeline": "legal-freelance",
+      "industry": "Early-stage, fully remote investment firm / fund founded by technology entrepreneurs entering financial services; launching its first fund",
+      "location": "Remote (US)",
+      "fundingStage": "Emerging manager — first fund launching",
+      "fitScore": 50,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Private funds regulatory and compliance — SEC and FINRA registration, ongoing filings and reporting, internal compliance policies and controls, audit readiness, fund structure and operations risk",
+        "seniority": "Chief Compliance Officer level; posting asks for 10+ years in financial compliance at hedge funds, investment advisers, or asset managers",
+        "comp_credible": "Yes — $95-$155/hr stated, 5-20 hrs/week; market-credible for fractional senior fund compliance work",
+        "fund_focus": "very strong — the buyer IS an emerging-manager fund, and the mandate is fund registration, structure, and compliance build"
+      },
+      "intentDetails": {
+        "engagement_model": "fractional / part-time, explicitly scoped at 5-20 hrs/week",
+        "remote_flex": "fully remote (US)",
+        "recency": "posted 2026-07-13 — 7 days old, inside the 7-day window but outside the 72-hour bonus",
+        "apply_path": "direct 'Apply Now' on the Go Fractional job page"
+      },
+      "vertical": "legal",
+      "subvertical": "compliance",
+      "engagementModel": "fractional",
+      "buyerType": "fund",
+      "compensationText": "$95-$155/hr, 5-20 hrs/week",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional / part-time engagement, 5-20 hrs/week, fully remote (US)",
+      "urgencyScore": 65,
+      "contacts": [
+        { "name": "Go Fractional — Marketplace", "title": "Talent Platform (route to the hiring fund)", "email": "hello@gofractional.com", "linkedin": "https://www.linkedin.com/company/gofractional" }
+      ],
+      "signals": [
+        "Textbook emerging-manager buyer: Fund I launching, no internal legal or compliance bench, explicitly buying senior judgment part-time",
+        "Founders are technology entrepreneurs new to financial services — posting says they need regulatory requirements translated 'for a non-finance founding team', which is exactly the judgment-over-execution sale",
+        "Stated, credible fractional rate ($95-155/hr) at 5-20 hrs/week — no comp ambiguity",
+        "Fully remote US",
+        "Net-new buyer, not a recycled staffing channel"
+      ],
+      "source": "Go Fractional job board (Finance category), posted 2026-07-13",
+      "sourceUrl": "https://www.gofractional.com/job/fractional-chief-compliance-officer-cmrb15e7",
+      "notes": "Grade A (combined 90) — the strongest lead this run and the best emerging-manager fit in roughly two weeks. IMPORTANT CAVEAT, scored optimistically and flagged for Katie's judgment: this is posted as a CCO role, not a counsel role. The listing asks for Series 65 / CFA / CAMS-type certifications and audit experience, which Katie may not hold. It is scored 50/50 on fit because the underlying work — fund structure, SEC/FINRA registration, side-letter-adjacent fund documentation, governance, policies — is squarely her ICP, not because she is a literal match for the CCO title. PITCH ANGLE: do not apply as a compliance officer. Approach as fund counsel who can own the legal and regulatory build for a Fund I launch (entity and fund structure, registration mechanics, LPA/PPM/subscription document review, governance and policy drafting), and either (a) propose a scoped counsel engagement alongside a credentialed CCO, or (b) ask whether they would split the mandate. Emerging managers frequently post one blended role because they do not yet know they need two. Even if this specific engagement is not the fit, the firm is a high-value relationship target — a first-time fund founded by non-finance operators is the ideal fractional fund-counsel client. ACTION: verify the posting is still live, then apply via Go Fractional with a scoped-counsel reframe rather than a straight application."
+    },
+    {
+      "name": "Media/PR Monitoring SaaS Company (via Go Fractional) — Interim Head of Legal (Fractional)",
+      "website": "https://www.gofractional.com/job/interim-head-of-legal-fractional-cmrb2mqa",
+      "pipeline": "legal-freelance",
+      "industry": "Global SaaS platform serving the media, PR, and journalism industries (media monitoring, journalist relationship management, story distribution); mid-size, roughly up to ~500 employees",
+      "location": "Remote (US)",
+      "fundingStage": "Mid-size / growth-stage SaaS; posting notes prior acquisition exposure is a plus",
+      "fitScore": 20,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Commercial contracts — end-to-end enterprise customer agreements, vendor and procurement paper, SaaS agreements, CLM workflow ownership; plus AI/data/content licensing terms and light employment counsel",
+        "seniority": "Head of Legal / General Counsel level; posting asks for proven in-house GC or senior legal leader experience and includes managing one direct report",
+        "comp_credible": "NO — listed at $25/hr for a 40 hrs/week GC-level role, which is not market-credible and scored zero on this criterion. Almost certainly a platform data error; comparable interim Head of Legal roles on the same board list $130-$300/hr",
+        "fund_focus": "none — pure commercial/corporate operating-company work, no fund angle"
+      },
+      "intentDetails": {
+        "engagement_model": "interim / fractional per the title, though 40 hrs/week is effectively full-time coverage",
+        "remote_flex": "fully remote (US)",
+        "recency": "posted 2026-07-13 — 7 days old, inside the 7-day window but outside the 72-hour bonus",
+        "apply_path": "direct 'Apply Now' on the Go Fractional job page"
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "interim",
+      "buyerType": "operating-company",
+      "compensationText": "$25/hr listed, 40 hrs/week — flagged as a probable data error; comparable roles on the same board list $130-$300/hr",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Interim Head of Legal (Fractional), 40 hrs/week, fully remote (US)",
+      "urgencyScore": 75,
+      "contacts": [
+        { "name": "Go Fractional — Marketplace", "title": "Talent Platform (route to the hiring company)", "email": "hello@gofractional.com", "linkedin": "https://www.linkedin.com/company/gofractional" }
+      ],
+      "signals": [
+        "High urgency — posting says 'step in soon', 'time-sensitive environment', 'operate autonomously from day one', with month- and quarter-end deal spikes",
+        "Real GC-level scope: owns contract review through signature, manages a direct report, reports to COO/CFO",
+        "Commercial contracts and vendor/customer paper are core ICP workstreams",
+        "Fully remote US",
+        "Net-new buyer",
+        "Interesting cross-pipeline note: the client is a media/PR SaaS platform, so this company may also be relevant to the pr-marketing pipeline as a vendor or partner target"
+      ],
+      "source": "Go Fractional job board (Legal category), posted 2026-07-13",
+      "sourceUrl": "https://www.gofractional.com/job/interim-head-of-legal-fractional-cmrb2mqa",
+      "notes": "Grade B (combined 60). Clears the 55 threshold on engagement model, remote flex, and apply path rather than on practice-area fit. TWO THINGS TO VERIFY BEFORE SPENDING TIME: (1) The $25/hr rate is almost certainly wrong — every comparable interim Head of Legal on the same board lists $130-$300/hr. Confirm the actual rate before investing effort; if it really is $25/hr, drop it. (2) 'Fractional' is a misnomer here — 40 hrs/week is full-time interim coverage, not a part-time retainer, so it would crowd out other engagements. This matters for Katie's portfolio strategy, not just her calendar. FIT LIMITS: no fund angle at all, and the AI/data/content licensing emphasis plus light employment counsel sit outside her core corporate/fund strength. PITCH ANGLE if the rate checks out: lead with high-volume enterprise commercial contracting and deal-desk throughput under quarter-end pressure, plus governance and vendor paper; be candid that AI/content licensing is adjacent rather than core. The acquisition-exposure preference is a genuine hook — M&A cleanup and post-acquisition contract harmonization is squarely her background. ACTION: message via Go Fractional to confirm rate and true hours commitment before applying."
+    }
+  ]
+}

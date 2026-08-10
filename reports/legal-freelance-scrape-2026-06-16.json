@@ -1,0 +1,286 @@
+{
+  "scrapeDate": "2026-06-16",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 7,
+  "note": "Deduplicated against legal-freelance-scrape-2026-06-15.json and pr-freelance-scrape-2026-06-15.json. All leads are net-new.",
+  "leads": [
+    {
+      "name": "Allocate — Fund Formation Attorney (Remote in U.S.)",
+      "website": "https://allocate.co",
+      "pipeline": "legal-freelance",
+      "industry": "Legal Technology / Fund Administration",
+      "location": "Remote (US)",
+      "fundingStage": "Growth",
+      "fitScore": 50,
+      "intentScore": 50,
+      "fitDetails": {
+        "practice_area": "Fund formation, investment management, regulatory compliance",
+        "seniority": "Attorney / Senior Counsel (4-6+ years fund formation required)",
+        "comp_credible": true,
+        "fund_focus": true
+      },
+      "intentDetails": {
+        "engagement_model": "Direct hire, fully remote",
+        "remote_flex": "Remote",
+        "recency": "Active LinkedIn posting (2026-Q2)",
+        "apply_path": "LinkedIn direct apply"
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "contract",
+      "buyerType": "fund",
+      "compensationText": "$190,000 - $220,000 annualized",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Full-time / direct hire (fund formation platform)",
+      "urgencyScore": 85,
+      "contacts": [],
+      "signals": [
+        "Fund formation platform serving 4000+ investment managers",
+        "LPA, PPM, subscription docs, IA Act compliance",
+        "Strong comp $190-220k",
+        "LinkedIn posting active Q2 2026"
+      ],
+      "source": "LinkedIn / The Ladders",
+      "sourceUrl": "https://www.linkedin.com/jobs/view/fund-formation-attorney-remote-at-allocate-4307034119",
+      "notes": "Highest-fit fund formation role in this batch. Full ICP match: fund administration platform, LPA/PPM/subscription docs, regulatory compliance, fully remote. Strong compensation. Apply via LinkedIn."
+    },
+    {
+      "name": "Ontra — US-Licensed Freelance Fund Formation Lawyer",
+      "website": "https://ontra.ai",
+      "pipeline": "legal-freelance",
+      "industry": "Legal Technology / ALSP",
+      "location": "Remote (US)",
+      "fundingStage": "Late Stage / Established",
+      "fitScore": 50,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Fund formation: LPAs, side letters, term sheets, operating agreements",
+        "seniority": "Senior attorney preferred (AmLaw 100 / in-house investment adviser background)",
+        "comp_credible": true,
+        "fund_focus": true
+      },
+      "intentDetails": {
+        "engagement_model": "True 1099 freelance — Ontra handles billing and client dev",
+        "remote_flex": "Fully remote",
+        "recency": "Evergreen posting — ongoing network recruitment",
+        "apply_path": "Built In SF / Austin / Colorado job board application"
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "freelance",
+      "buyerType": "ALSP",
+      "compensationText": "Hourly / per-matter (Ontra-negotiated rates with clients; market-competitive)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "1099 independent contractor / freelance network member",
+      "urgencyScore": 70,
+      "contacts": [],
+      "signals": [
+        "600+ investment firm clients",
+        "True 1099 freelance — zero admin overhead",
+        "LPAs, side letters, term sheets, operating agreements",
+        "Ontra handles invoicing, billing, collections, and BD"
+      ],
+      "source": "Built In SF / Austin / Colorado",
+      "sourceUrl": "https://www.builtinsf.com/job/legal/us-licensed-freelance-fund-formation-lawyer-remote/103064",
+      "notes": "Ideal ALSP network for fund formation freelance. No overhead — just legal work. Preferred: AmLaw 100 / top-tier firm fund group background or in-house IA experience. Low urgency score only because it's evergreen (not time-sensitive). High strategic priority."
+    },
+    {
+      "name": "Major, Lindsey & Africa — Interim Commercial Contracts Counsel (REMOTE)",
+      "website": "https://www.mlaglobal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Legal Staffing / Interim Placement",
+      "location": "Remote",
+      "fundingStage": "Established",
+      "fitScore": 30,
+      "intentScore": 50,
+      "fitDetails": {
+        "practice_area": "Commercial contracts: customer-facing agreements, renewals, business terms, payable terms",
+        "seniority": "Senior counsel (8-10+ years commercial contracts required)",
+        "comp_credible": true,
+        "fund_focus": false
+      },
+      "intentDetails": {
+        "engagement_model": "Interim / contract (W-2 through MLA), 8+ months",
+        "remote_flex": "Fully remote",
+        "recency": "Active posting (career.mlaglobal.com job 211106)",
+        "apply_path": "Direct apply via MLA careers portal"
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "interim",
+      "buyerType": "staffing",
+      "compensationText": "Market rate for senior commercial counsel (MLA interim rates est. $175-250/hr)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Interim contract, W-2 through MLA, 8+ months",
+      "urgencyScore": 80,
+      "contacts": [],
+      "signals": [
+        "Immediate need per posting",
+        "8+ month engagement (substantial duration)",
+        "Overflow customer-facing commercial contracts",
+        "Fully remote, direct apply path"
+      ],
+      "source": "MLA Careers Portal",
+      "sourceUrl": "https://careers.mlaglobal.com/us/en/job/211106/Interim-Commercial-Contracts-Counsel-REMOTE",
+      "notes": "No fund focus, but MLA is a top-tier interim legal staffing firm. 8+ months at strong rates. Getting into MLA's interim talent pool opens recurring opportunities. Priority: apply to this role AND register broadly as MLA interim talent."
+    },
+    {
+      "name": "Latitude Legal — Corporate Attorney, In-House and Remote (jobs/6510)",
+      "website": "https://latitudelegal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Legal Staffing / ALSP",
+      "location": "Remote (Denver preferred for potential conversion)",
+      "fundingStage": "Established",
+      "fitScore": 30,
+      "intentScore": 50,
+      "fitDetails": {
+        "practice_area": "M&A due diligence, commercial contracts (energy company)",
+        "seniority": "Senior attorney (5+ years M&A and commercial contracts required)",
+        "comp_credible": true,
+        "fund_focus": false
+      },
+      "intentDetails": {
+        "engagement_model": "Part-time in-house contract engagement via Latitude",
+        "remote_flex": "Fully remote",
+        "recency": "Active Latitude platform listing",
+        "apply_path": "Apply via Latitude Legal jobs portal"
+      },
+      "vertical": "legal",
+      "subvertical": "M&A",
+      "engagementModel": "contract",
+      "buyerType": "operating-company",
+      "compensationText": "$175,000 - $225,000+ annualized (part-time, prorated)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Part-time contract engagement (may convert to full-time in-office in Denver)",
+      "urgencyScore": 75,
+      "contacts": [],
+      "signals": [
+        "Part-time, fully remote",
+        "Strong comp $175-225k annualized",
+        "M&A + commercial contracts focus",
+        "Chambers-ranked platform (2026 NewLaw Guide)"
+      ],
+      "source": "Latitude Legal",
+      "sourceUrl": "https://latitudelegal.com/jobs/6510",
+      "notes": "Energy company seeking part-time M&A + commercial attorney. Good comp, good engagement model, no fund exposure. Secondary benefit: registering with Latitude opens entire platform inventory. Denver conversion option exists but not required."
+    },
+    {
+      "name": "Latitude Legal — Commercial Contracts Attorney (Remote Contract Engagement, jobs/5073)",
+      "website": "https://latitudelegal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Legal Staffing / ALSP",
+      "location": "Remote",
+      "fundingStage": "Established",
+      "fitScore": 30,
+      "intentScore": 45,
+      "fitDetails": {
+        "practice_area": "Commercial contracts: sales, vendor/procurement, IT, marketing, supply chain, consulting services",
+        "seniority": "Senior attorney (commercial contracts depth required)",
+        "comp_credible": true,
+        "fund_focus": false
+      },
+      "intentDetails": {
+        "engagement_model": "Contract engagement (remote) via Latitude",
+        "remote_flex": "Fully remote",
+        "recency": "Evergreen / ongoing platform listing",
+        "apply_path": "Apply via Latitude Legal jobs portal"
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "contract",
+      "buyerType": "operating-company",
+      "compensationText": "$160,000 - $200,000+ annualized",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contract engagement, remote",
+      "urgencyScore": 60,
+      "contacts": [],
+      "signals": [
+        "Broad commercial paper (vendor, procurement, IT, marketing, supply chain)",
+        "Comp $160-200k annualized",
+        "Evergreen platform role — ongoing placement opportunities"
+      ],
+      "source": "Latitude Legal",
+      "sourceUrl": "https://latitudelegal.com/jobs/5073",
+      "notes": "Evergreen commercial contracts platform role at Latitude. Good pathway to sustained contract work. Lower urgency score because it's not a specific time-sensitive posting, but valuable as ongoing pipeline."
+    },
+    {
+      "name": "aVenture — Venture Capital Fund Attorney",
+      "website": "https://aventure.vc",
+      "pipeline": "legal-freelance",
+      "industry": "Fintech / VC Platform",
+      "location": "Remote (4+ hrs Pacific overlap required)",
+      "fundingStage": "Early Stage",
+      "fitScore": 45,
+      "intentScore": 30,
+      "fitDetails": {
+        "practice_area": "VC fund registration, regulatory compliance, fund structuring, investment adviser obligations",
+        "seniority": "Attorney with VC / fund compliance background",
+        "comp_credible": false,
+        "fund_focus": true
+      },
+      "intentDetails": {
+        "engagement_model": "Direct hire (full-time or part-time — unclear from posting)",
+        "remote_flex": "Remote (Pacific time overlap required)",
+        "recency": "Active Glassdoor listing",
+        "apply_path": "Glassdoor direct apply"
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "consultant",
+      "buyerType": "fund",
+      "compensationText": "$80,000 - $120,000 (stated; below market for senior fund attorney)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Direct hire (appears full-time or part-time)",
+      "urgencyScore": 55,
+      "contacts": [],
+      "signals": [
+        "VC fund focus — fund registration, compliance, structuring",
+        "aVenture democratizes VC access to retail investors (growth-stage platform)",
+        "Pacific time overlap reduces flexibility"
+      ],
+      "source": "Glassdoor",
+      "sourceUrl": "https://www.glassdoor.com/job-listing/venture-capital-fund-attorney-aventure-JV_IC1139761_KO0,29_KE30,38.htm?jl=1008239968893",
+      "notes": "Strong fund-practice fit but comp ($80-120k) is below market for senior contract fund counsel. Worth a conversation to clarify engagement model and negotiate comp. Pacific time overlap is a mild constraint."
+    },
+    {
+      "name": "K&L Gates — Special Projects Lawyer, Emerging Growth & VC (Remote)",
+      "website": "https://www.klgates.com",
+      "pipeline": "legal-freelance",
+      "industry": "Law Firm (AmLaw 100)",
+      "location": "Remote (must be licensed in K&L Gates office state)",
+      "fundingStage": "Established",
+      "fitScore": 30,
+      "intentScore": 35,
+      "fitDetails": {
+        "practice_area": "Company formations, equity issuances, employment agreements, VC/emerging growth",
+        "seniority": "5+ years corporate experience required",
+        "comp_credible": true,
+        "fund_focus": false
+      },
+      "intentDetails": {
+        "engagement_model": "Special projects (project-based within law firm structure)",
+        "remote_flex": "Remote",
+        "recency": "Posted May 18, 2026",
+        "apply_path": "everyopening.com / K&L Gates careers portal"
+      },
+      "vertical": "legal",
+      "subvertical": "corporate",
+      "engagementModel": "contract",
+      "buyerType": "law-firm",
+      "compensationText": "Law firm contract rates (est. $120,000-$200,000 annualized)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Special projects attorney (law firm, project-based engagement)",
+      "urgencyScore": 65,
+      "contacts": [],
+      "signals": [
+        "Posted May 18, 2026 — within 30-day window",
+        "Project-based framing (not traditional associate track)",
+        "VC/emerging growth clients — adjacent to fund-side work",
+        "AmLaw 100 firm — credibility and client quality"
+      ],
+      "source": "everyopening.com",
+      "sourceUrl": "https://www.everyopening.com/jobs/k-l-gates-emerging-growth-and-venture-capital-special-projects-lawyer-los-angeles-california-2026-03",
+      "notes": "Law firm special projects role in VC/emerging growth practice. Project-based framing makes it closer to contract work. Requires K&L Gates office state license. Good pathway to VC-adjacent work and law firm relationship. Not as strong on fund-side as Allocate or Ontra."
+    }
+  ]
+}

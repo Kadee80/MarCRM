@@ -1,0 +1,141 @@
+{
+  "scrapeDate": "2026-06-18",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 3,
+  "note": "3 new leads (1×A, 2×B). Sources: Arootah (Lever), Learntastic (FractionalPulse/Indeed), Hayden Industrial (ACC Jobline). Deduped against prior legal-freelance scrapes through 2026-06-17.",
+  "leads": [
+    {
+      "name": "Arootah — Consultant, Chief Legal Counsel or General Counsel (Fractional/Contract Role)",
+      "website": "https://arootah.com",
+      "pipeline": "legal-freelance",
+      "industry": "Hedge Fund & Family Office Advisory / Business Consulting",
+      "location": "New York, NY (Remote)",
+      "fundingStage": "Private growth-stage (founded by Blue Ridge Capital alumni)",
+      "fitScore": 50,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Fund GC advisory — LPAs, side letters, fund formation, IAA/ICA, securities laws",
+        "seniority": "GC/CLO level — 12+ years required (senior bar)",
+        "comp_credible": true,
+        "fund_focus": "Direct — hedge fund and family office clients"
+      },
+      "intentDetails": {
+        "engagement_model": "Contractor / part-time / fractional (explicit)",
+        "remote_flex": "Remote (listed as New York but work is remote-eligible)",
+        "recency": "Evergreen posting — likely ongoing pipeline build",
+        "apply_path": "Direct via Lever.co"
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "fractional",
+      "buyerType": "fund",
+      "compensationText": "$400–$600 per hour; rate determined by length of engagement, difficulty, specialization, designations, and years of experience",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contractor (Part-time / Hours based on client needs, 0–40 hrs/week)",
+      "urgencyScore": 70,
+      "contacts": [
+        {
+          "name": "Arootah Recruiting",
+          "title": "Talent Acquisition",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/arootah/"
+        }
+      ],
+      "signals": [
+        "hedge_fund_family_office_gc_consulting",
+        "fund_formation_lpa_side_letters",
+        "securities_laws_iaa_ica_1940",
+        "400_600_per_hour_compensation",
+        "part_time_contractor_structure",
+        "remote_flexible_hours"
+      ],
+      "source": "Google / jobs.lever.co",
+      "sourceUrl": "https://jobs.lever.co/arootah/7cb30dcb-ecca-4e5c-95d1-acdb4d0ad25b",
+      "notes": "A-grade lead. Arootah places consultants with hedge fund/family office clients for GC advisory: LPAs, side letters, fund formation, IAA/ICA compliance, investment management agreements. $400–600/hr contractor. Ideal for getting on a fund-client consulting roster. Key caveat: requires 12+ years as GC/CLO at a hedge fund or family office — senior bar. Apply and position around breadth of fund and securities work. Lever direct apply."
+    },
+    {
+      "name": "Learntastic — Fractional Chief Legal Officer (CLO)",
+      "website": "https://learntastic.com",
+      "pipeline": "legal-freelance",
+      "industry": "EdTech / Online Continuing Education",
+      "location": "Remote (USA)",
+      "fundingStage": "Growth-stage (1M+ learners, 1,000+ courses)",
+      "fitScore": 25,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Corporate/commercial law, M&A advisory, contract review, compliance — no fund focus",
+        "seniority": "CLO level (strategic advisory)",
+        "comp_credible": false,
+        "fund_focus": "None — EdTech operating company"
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional / advisory (5–10 hours per month, explicit)",
+        "remote_flex": "Fully remote, USA",
+        "recency": "Posted June 7, 2026 (11 days ago)",
+        "apply_path": "Indeed direct (easy apply)"
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "$1,000–$2,500 per month (fractional advisory, 5–10 hours per month)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional / Advisory (not FTE)",
+      "urgencyScore": 55,
+      "contacts": [],
+      "signals": [
+        "fractional_clo_explicit",
+        "5_10_hours_per_month",
+        "remote_us",
+        "ma_due_diligence_advisory",
+        "corporate_commercial_contracts",
+        "posted_june_7_2026"
+      ],
+      "source": "FractionalPulse.com → Indeed",
+      "sourceUrl": "https://fractionalpulse.com/jobs/learntastic-fractional-chief-legal-officer-clo-553191/",
+      "notes": "B-grade lead. Explicit fractional CLO role (5–10 hrs/mo, $1k–2.5k/mo). M&A advisory, contracts, compliance for EdTech company. Industry is off-target (not funds/PE) but engagement model is perfect. Low comp but good for building fractional GC track record. Apply via Indeed (jk=cc1cddcdce833498). Posted June 7."
+    },
+    {
+      "name": "Hayden Industrial LLC — Fractional General Counsel (Remote)",
+      "website": "https://www.haydenindustrial.com",
+      "pipeline": "legal-freelance",
+      "industry": "Industrial Manufacturing / Engineered Heat Exchanger Systems",
+      "location": "Remote (US)",
+      "fundingStage": "Established ($300M annual revenue, ~200 employees, rapid expansion phase)",
+      "fitScore": 25,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Commercial contracts — engineered equipment supply, vendor/customer paper, employment, insurance, real estate; no fund focus",
+        "seniority": "GC level",
+        "comp_credible": false,
+        "fund_focus": "None — industrial operating company"
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional (~1–2 days/week; retainer or fractional hourly)",
+        "remote_flex": "Fully remote",
+        "recency": "Posted April 8, 2026 (~70 days); still live",
+        "apply_path": "ACC Jobline direct"
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "Monthly retainer or fractional hourly basis (amount not stated); 1–2 days/week expected",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional / Part-time engagement (retainer or hourly)",
+      "urgencyScore": 45,
+      "contacts": [],
+      "signals": [
+        "fractional_gc_explicit",
+        "1_2_days_per_week",
+        "fully_remote",
+        "commercial_contracts_focus",
+        "acc_jobline_posted",
+        "company_doubling_headcount"
+      ],
+      "source": "ACC Jobline",
+      "sourceUrl": "https://jobline.acc.com/job/fractional-general-counsel-remote--54004",
+      "notes": "B-grade lead. Fractional GC for industrial manufacturing co ($300M revenue, doubling headcount). Primary work: commercial contracts for engineered equipment supply, vendor/customer agreements, supply chain, insurance, employment, outside counsel coordination. Compensation not stated. Posted April 8 — still active 70 days later suggests motivated buyer who hasn't filled. Non-fund subvertical but valid fractional GC engagement. Apply via ACC Jobline."
+    }
+  ]
+}

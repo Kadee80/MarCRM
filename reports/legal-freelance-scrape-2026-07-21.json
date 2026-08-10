@@ -1,0 +1,102 @@
+{
+  "scrapeDate": "2026-07-21",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 2,
+  "note": "Sparse run — two new leads, and the sparseness is the finding. Search surfaced ~12 apparently strong matches; verification eliminated ten. Three of the best-looking were CLOSED postings still ranking well in search (Kindness for Capital, The Mom Project, LWD Advisors — the last of these dated Feb 2024). Three more were already in the CRM with identical source URLs (GeneFab, captured 2026-06-08 and 2026-06-16; Robert Half Remote Part-Time Corporate & Securities, captured 2026-05-27 and 2026-07-07; LearnTastic, captured 2026-06-18). Four more were previously captured companies or full-time salaried roles that fail the engagement-model test (Hayden Industrial = ACC Jobline #54004, Tower Legal Solutions, Epiq Counsel, Allocate). Zero qualifying freelance fund-formation postings appeared in the 7-day window — the fourth consecutive run with that result. See the .md for the channel-strategy recommendation this implies.",
+  "leads": [
+    {
+      "name": "Water Quality Association — Fractional General Counsel",
+      "website": "https://wqa.org",
+      "pipeline": "legal-freelance",
+      "industry": "Not-for-profit trade association for the residential, commercial, and industrial water treatment industry; represents manufacturers, suppliers, and dealers, and runs a product certification/testing program",
+      "location": "Chicago, IL (hybrid)",
+      "fundingStage": "Established trade association (non-profit, membership-funded)",
+      "fitScore": 30,
+      "intentScore": 50,
+      "fitDetails": {
+        "practice_area": "Corporate governance, contracts, entity work, association/regulatory matters — no fund angle",
+        "seniority": "General Counsel level — matches",
+        "comp_credible": "Yes — $14.6K-$18.8K/month stated for 24 hrs/week, roughly $150-$190/hr equivalent",
+        "fund_focus": "None"
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional, explicitly — 24 hrs/week",
+        "remote_flex": "Hybrid (Chicago-based)",
+        "recency": "Posted 2026-07-20 — within 72 hours",
+        "apply_path": "Direct via Fractional Jobs board listing"
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "$14.6K–$18.8K per month, 24 hours/week",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Fractional General Counsel, 24 hrs/week, hybrid Chicago",
+      "urgencyScore": 80,
+      "contacts": [
+        {
+          "name": "Water Quality Association — Staff Leadership",
+          "title": "Executive team (hiring contact not named in posting)",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/water-quality-association"
+        }
+      ],
+      "signals": [
+        "Posted within 72 hours (2026-07-20)",
+        "Explicitly fractional at 24 hrs/week — a real part-time mandate, not disguised full-time",
+        "Comp stated and market-credible",
+        "Trade association with certification program = standing contract, governance, IP-licensing and antitrust-adjacent workload"
+      ],
+      "source": "Fractional Jobs (fractionaljobs.io), posted 2026-07-20",
+      "sourceUrl": "https://www.fractionaljobs.io/",
+      "notes": "Grade A (combined 80) — highest-scoring lead this run and the only one where engagement model, recency, and comp all check out simultaneously. WHAT IT IS: a membership trade association that also runs a product certification/testing program, hiring its own fractional GC at 24 hrs/week. WHY IT FITS: classic ICP shape — enough legal complexity (member governance, certification program contracts and licensing, vendor paper, board/committee governance, entity maintenance) to need judgment, not enough volume to justify a full-time GC. Katie's corporate governance and commercial contracts work maps directly. NO FUND ANGLE — the fit score of 30 is entirely corporate/governance/seniority/comp, zero on fund focus. CAVEATS: (1) Hybrid Chicago is the real constraint — confirm how many days on-site are actually required before investing time; if it is genuinely 2-3 days/week in the Chicago area this is a non-starter unless she is willing to travel. (2) 24 hrs/week is a large share of capacity — it would function as an anchor client, not a side engagement, so it is a portfolio decision. (3) Trade associations carry antitrust sensitivity around member conduct and standard-setting; if she has no antitrust exposure, say so plainly and propose outside antitrust counsel for those questions rather than overstating. (4) Source URL is the Fractional Jobs board index rather than a stable per-job permalink — the listing was surfaced via search and the direct job URL could not be isolated; find it on the board before applying. PITCH: lead with governance-plus-contracts as a package — board and committee support, certification program agreements, vendor and event contracts, entity housekeeping — and position the fractional structure as GC-level judgment at roughly half the loaded cost of a full-time hire. ACTION: verify the on-site requirement first, then apply via the Fractional Jobs listing."
+    },
+    {
+      "name": "Bowery Legal (Interplay Venture Capital) — Investment Funds Attorney",
+      "website": "https://www.interplay.vc",
+      "pipeline": "legal-freelance",
+      "industry": "Boutique corporate/transactional and investment funds law firm affiliated with Interplay Venture Capital; attorneys trained at Latham, Gunderson Dettmer, Skadden, Mayer Brown, Greenberg Traurig, Baker McKenzie",
+      "location": "New York, NY (remote-eligible)",
+      "fundingStage": "Boutique law firm attached to an active VC platform",
+      "fitScore": 50,
+      "intentScore": 25,
+      "fitDetails": {
+        "practice_area": "Fund formation and structuring — VC/PE/RE/hedge funds, SPVs, co-invest vehicles, parallel funds, management companies, GPs; LPAs, PPMs, subscription docs, side letters, MFN matrices; Form D/Blue Sky; fund ops (capital calls, distributions, transfers, secondaries)",
+        "seniority": "5-10+ years, senior level — matches",
+        "comp_credible": "Yes — $200K-$250K annually stated",
+        "fund_focus": "Maximum — the single best practice-area match found in the window"
+      },
+      "intentDetails": {
+        "engagement_model": "NONE — advertised as a full-time salaried role, not freelance",
+        "remote_flex": "In-office or remote, hiring remotely in NY",
+        "recency": "Reposted ~10 days ago — outside the 72-hour bonus",
+        "apply_path": "Easy apply via Ashby"
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "contract",
+      "buyerType": "law-firm",
+      "compensationText": "$200,000–$250,000 annually (full-time salaried)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Full-time, senior level, in-office or remote (New York, NY)",
+      "urgencyScore": 55,
+      "contacts": [
+        {
+          "name": "Bowery Legal — Hiring Team",
+          "title": "Investment Funds Practice",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/interplay-vc"
+        }
+      ],
+      "signals": [
+        "Reposted after an earlier run — suggests the role has been hard to fill",
+        "Scope explicitly includes training other attorneys in the funds practice and building playbooks/templates — reads like a capability gap, not just a headcount gap",
+        "Boutique founded on the premise that there is a 'more humane way to practice law' — culturally pre-sold on flexible arrangements",
+        "Affiliated with an active VC platform, so recurring fund-launch volume"
+      ],
+      "source": "Built In NYC job board (Interplay Venture Capital / Bowery Legal), reposted ~2026-07-11",
+      "sourceUrl": "https://www.builtinnyc.com/job/investment-funds-attorney/8041926",
+      "notes": "Grade B (combined 75) — highest FIT score of the run (50/50) and the lowest intent (25/50). READ THIS CAVEAT BEFORE ACTING: posted as a FULL-TIME SALARIED role at $200-250K. It does not satisfy the ICP's engagement-model test and is not an apply-as-freelance posting. It is in this report as a RELATIONSHIP TARGET, because the practice-area overlap is close to exact and two details suggest an opening for a flexible pitch: the role has been reposted (hard to fill at that comp for that skillset), and the scope explicitly includes training other Bowery attorneys on funds work and building playbooks and templates — a knowledge-transfer mandate, which is exactly the kind of work that delivers well on a fractional or project basis. WHY IT MATTERS: Bowery is a boutique attached to Interplay VC, so it has recurring fund-launch volume and the ICP profile of 'law firm needing overflow or specialist support for fund formation.' Given that public boards have not produced a qualifying freelance fund posting in four consecutive runs, a relationship with a funds boutique that has continuous launch volume is arguably worth more than any single posting. PITCH: do not apply to the posting as written. Approach the funds partner directly with a scoped alternative — overflow capacity on live fund formations during launch crunches, plus a defined engagement to build the LPA/PPM/side-letter/MFN template set and train the associates. Frame it as standing up the funds capability now rather than waiting for the right full-time hire, and note it can convert if volume justifies it. If they only want a full-time body, this becomes a network contact rather than a client. ACTION: identify the funds partner on LinkedIn and send a direct scoped-overflow note; do not route through the Ashby application."
+    }
+  ]
+}

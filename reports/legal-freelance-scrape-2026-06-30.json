@@ -1,0 +1,156 @@
+{
+  "scrapeDate": "2026-06-30",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 4,
+  "note": "Legal Freelance pipeline scrape, 7-day window. Web search via Google/Bing-indexed results (no direct LinkedIn scraping). Dedup-checked against all June legal-freelance reports (6/01–6/29), pr-freelance reports, and daily-scrape outputs. All 4 leads are new postings. Latitude Legal appeared on 6/29 for a commercial-contracts req (jobs/5073); this run captures a DISTINCT Latitude securities/corporate-governance contract req (jobs/5077) — tracked as a separate posting per its own URL and scope. Recency (<72h) scored conservatively: job-board/ALSP listings awarded 0 on the 72h bucket unless freshness was confirmable, so combined scores are deliberately cautious. All 4 leads scored 60 (Grade B). This run is corporate/commercial/securities-weighted (no explicit fund-formation +20 hit); the fund-heavy buyers were captured 6/29 (Allocate, Ropes & Gray).",
+  "leads": [
+    {
+      "name": "LWD Advisors — Fractional Corporate Legal Counsel (Remote)",
+      "website": "https://www.fractionaljobs.io/jobs/senior-legal-counsel-at-lwd-advisors",
+      "pipeline": "legal-freelance",
+      "industry": "Virtual 'in-house' legal department serving a portfolio of venture-backed startups; partners with founders to deliver solutions-oriented corporate legal support. Role: experienced corporate attorney joining in a fractional capacity (commercial contracts, corporate governance, financings, venture support).",
+      "location": "Remote (U.S.)",
+      "fundingStage": "Boutique virtual legal department / fractional legal services firm (serves venture-backed startups)",
+      "fitScore": 20,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Corporate, commercial contracts, governance, and venture-financing support for venture-backed startups — strong corporate ICP overlap; no explicit standalone fund-formation component.",
+        "seniority": "Experienced corporate attorney / senior counsel level.",
+        "comp_credible": "Not stated in listing — scored 0.",
+        "fund_focus": "Indirect — clients are venture-backed; touches venture financings but not dedicated fund formation."
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional engagement — explicit; squarely on Katie's part-time/interim ICP.",
+        "remote_flex": "Remote.",
+        "recency": "Active on Fractional Jobs (June 2026); not confirmable <72h, scored 0.",
+        "apply_path": "Request-intro via Fractional Jobs — low-friction direct path."
+      },
+      "vertical": "legal",
+      "subvertical": "corporate",
+      "engagementModel": "fractional",
+      "buyerType": "ALSP",
+      "compensationText": "Not stated in listing.",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional corporate counsel engagement via LWD Advisors (virtual in-house legal department), syndicated through Fractional Jobs",
+      "urgencyScore": 55,
+      "contacts": [
+        { "name": "LWD Advisors — Talent / Of Counsel", "title": "Virtual in-house legal department for venture-backed startups (fractional corporate counsel hiring)", "email": "", "linkedin": "https://www.linkedin.com/company/lwd-advisors" }
+      ],
+      "signals": ["fractional", "corporate", "commercial contracts", "venture-backed clients", "corporate governance", "remote", "request-intro path"],
+      "source": "Web search (Fractional Jobs), 2026-06-30",
+      "sourceUrl": "https://www.fractionaljobs.io/jobs/senior-legal-counsel-at-lwd-advisors",
+      "notes": "Grade B (combined 60). NEW. Best-fit lead of the run: an ALSP/virtual-legal-dept that itself contracts fractional corporate attorneys for a book of venture-backed startups — getting on LWD's bench creates recurring corporate/commercial/venture work matching Katie's part-time model. PITCH: position as plug-in fractional corporate counsel for their startup portfolio (financings, governance, commercial paper). Confirm 1099/independent-operator terms vs. W-2 bench."
+    },
+    {
+      "name": "Latitude Legal — Corporate Attorney, Securities & Corporate Governance (Remote Contract Engagement)",
+      "website": "https://latitudelegal.com/jobs/5077",
+      "pipeline": "legal-freelance",
+      "industry": "ALSP / flexible legal talent provider (Chambers NewLaw-ranked, ~20 U.S. offices) placing former in-house and Big Law attorneys into flexible contract engagements. Role: corporate attorney handling securities and corporate-governance matters on a remote contract engagement for a client company.",
+      "location": "Remote (U.S.)",
+      "fundingStage": "Established ALSP / flexible legal staffing",
+      "fitScore": 20,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Securities + corporate governance — direct overlap with Katie's corporate/securities wheelhouse (board support, corporate structuring, securities filings/compliance).",
+        "seniority": "Experienced attorney / counsel level (former in-house / Big Law profile).",
+        "comp_credible": "Not stated in listing — scored 0.",
+        "fund_focus": "Securities/governance is fund-adjacent but no explicit fund-formation mandate in this req."
+      },
+      "intentDetails": {
+        "engagement_model": "Contract engagement via ALSP — on-ICP commercial model.",
+        "remote_flex": "Remote.",
+        "recency": "Open opportunity on Latitude portal; not confirmable <72h, scored 0.",
+        "apply_path": "Apply via Latitude jobs portal — direct."
+      },
+      "vertical": "legal",
+      "subvertical": "securities",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "Not stated in listing.",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contract engagement placed through Latitude Legal (ALSP); securities & corporate governance scope. Track employmentTypeRaw (likely temp/contract W-2 staffing) separately from commercial model.",
+      "urgencyScore": 55,
+      "contacts": [
+        { "name": "Latitude Legal — Talent Team", "title": "ALSP / flexible legal talent (securities & corporate governance placement)", "email": "", "linkedin": "https://www.linkedin.com/company/latitude-legal/" }
+      ],
+      "signals": ["securities", "corporate governance", "contract engagement", "ALSP", "remote", "Chambers NewLaw-ranked"],
+      "source": "Web search (Latitude Legal jobs portal), 2026-06-30",
+      "sourceUrl": "https://latitudelegal.com/jobs/5077",
+      "notes": "Grade B (combined 60). NEW. DISTINCT from the 6/29 Latitude commercial-contracts req (jobs/5073) — this is a securities/corporate-governance posting (higher fit for Katie's securities/funds-adjacent expertise). One Latitude relationship can unlock multiple placements; this req is the better foot-in-the-door for fund/securities-leaning work. CAVEAT: ALSP placements often run as temp/contract W-2 — confirm 1099/independent support."
+    },
+    {
+      "name": "TheyDo — Fractional Head of Legal (Remote, ~3 days/week)",
+      "website": "https://www.gofractional.com/job/ashbyhq-fractional-head-of-legal-3-days-per-week-theydo-jobs",
+      "pipeline": "legal-freelance",
+      "industry": "B2B SaaS (journey-management software for enterprise product/CX teams). Role: fractional Head of Legal, ~3 days/week — commercial contracts (enterprise SaaS/vendor/customer paper), corporate governance, data/privacy, and general counsel function for a venture-backed scale-up.",
+      "location": "Remote",
+      "fundingStage": "Venture-backed SaaS scale-up",
+      "fitScore": 20,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Commercial contracts + corporate governance + GC function for a SaaS company — solid corporate/contracts overlap; no fund component.",
+        "seniority": "Head of Legal / GC level — senior.",
+        "comp_credible": "Not stated in listing — scored 0.",
+        "fund_focus": "None (operating-company SaaS)."
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional (~3 days/week) — explicit; on-ICP part-time model.",
+        "remote_flex": "Remote.",
+        "recency": "Active on Go Fractional / Ashby (June 2026); not confirmable <72h, scored 0.",
+        "apply_path": "Apply via Go Fractional / Ashby ATS — direct."
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "Not stated in posting.",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional Head of Legal engagement (~3 days/week), syndicated via Go Fractional (Ashby ATS)",
+      "urgencyScore": 55,
+      "contacts": [
+        { "name": "TheyDo — Founding / People Team", "title": "B2B SaaS scale-up (fractional Head of Legal hiring)", "email": "", "linkedin": "https://www.linkedin.com/company/theydo" }
+      ],
+      "signals": ["fractional", "Head of Legal", "commercial contracts", "SaaS", "corporate governance", "remote", "3 days/week"],
+      "source": "Web search (Go Fractional / Ashby), 2026-06-30",
+      "sourceUrl": "https://www.gofractional.com/job/ashbyhq-fractional-head-of-legal-3-days-per-week-theydo-jobs",
+      "notes": "Grade B (combined 60). NEW. Clean fractional Head-of-Legal engagement at a venture-backed SaaS scale-up — exactly the part-time GC model Katie targets, with a defined 3-day cadence. PITCH: enterprise commercial-contracts throughput + governance build-out for a fast-scaling product org. Operating-company buyer, no fund work."
+    },
+    {
+      "name": "TodayTix Group — Fractional General Counsel (Remote)",
+      "website": "https://www.builtinnyc.com/job/fractional-general-counsel/4832569",
+      "pipeline": "legal-freelance",
+      "industry": "Live-events / theatre ticketing technology company (consumer marketplace + B2B ticketing tech). Role: fractional General Counsel — commercial contracts, corporate governance, compliance, and general counsel coverage for an established operating company.",
+      "location": "Remote (NYC-based company)",
+      "fundingStage": "Established operating company (venture/PE-backed events-tech)",
+      "fitScore": 20,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Commercial contracts, corporate governance, compliance, GC coverage — solid corporate/contracts overlap; no fund component.",
+        "seniority": "General Counsel level — senior.",
+        "comp_credible": "Not stated in listing — scored 0.",
+        "fund_focus": "None (operating company)."
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional GC — explicit; on-ICP part-time model.",
+        "remote_flex": "Remote / flex (Built In listing).",
+        "recency": "Active on Built In NYC (June 2026); not confirmable <72h, scored 0.",
+        "apply_path": "Easy apply via Built In — direct."
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "Not stated in posting.",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional general counsel engagement (Built In NYC listing)",
+      "urgencyScore": 50,
+      "contacts": [
+        { "name": "TodayTix Group — People / Legal Team", "title": "Live-events ticketing tech company (fractional GC hiring)", "email": "", "linkedin": "https://www.linkedin.com/company/todaytix" }
+      ],
+      "signals": ["fractional GC", "commercial contracts", "corporate governance", "compliance", "remote", "established operating company"],
+      "source": "Web search (Built In NYC), 2026-06-30",
+      "sourceUrl": "https://www.builtinnyc.com/job/fractional-general-counsel/4832569",
+      "notes": "Grade B (combined 60). NEW. Fractional GC at an established events-tech operating company — larger/more mature buyer than a seed startup, so likely steadier commercial-contracts and vendor/partner-paper volume. PITCH: fractional GC covering commercial contracts + governance + compliance for a high-transaction-volume marketplace. Confirm remote vs. NYC-hybrid expectation."
+    }
+  ]
+}

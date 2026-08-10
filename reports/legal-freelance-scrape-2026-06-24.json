@@ -1,0 +1,152 @@
+{
+  "scrapeDate": "2026-06-24",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 3,
+  "note": "Automated scrape, 7-day window. Thin yield day: the large majority of live freelance/fractional/interim legal postings surfaced this run matched recurring firms already captured in prior reports (Axiom, Major Lindsey & Africa, Latitude Legal, Ropes & Gray, Ontra, Paragon Legal, Robert Half Legal, Taylor Root). 3 NEW entities passing the 55+ threshold, all Grade B. No Grade A this run. All three lean relationship/overflow rather than single live freelance reqs — scored honestly (intent is the limiting factor; advertised Larson Maddox roles are permanent, SPZ/Faison are distributed-firm relationships). Deduplicated against legal-freelance, pr-freelance, and daily reports through 2026-06-23.",
+  "leads": [
+    {
+      "name": "Larson Maddox (Phaidon International) — Funds / Investment Management Attorney Placements (Remote)",
+      "website": "https://www.larsonmaddox.com",
+      "pipeline": "legal-freelance",
+      "industry": "Legal recruitment / flexible legal staffing (regulatory & legal desk of Phaidon International; interim & consultancy capability)",
+      "location": "Remote (US); NYC-based desks",
+      "fundingStage": "Established global legal recruitment firm",
+      "fitScore": 50,
+      "intentScore": 25,
+      "fitDetails": {
+        "practice_area": "Active fund-formation / investment-management deal flow: a boutique entrepreneur-driven firm seeking a fully-remote Funds/Investment Management attorney ($500k+), and a global alternative-investment platform seeking a VP Private Fund Attorney (1940 Act, Advisers Act, LP agreements, side letters). Squarely Katie's fund/corporate core.",
+        "seniority": "Counsel / VP level, 3-7+ yrs fund formation & investment management",
+        "comp_credible": true,
+        "fund_focus": "High — both surfaced roles are private-funds / investment-management"
+      },
+      "intentDetails": {
+        "engagement_model": "Limiting factor: the two surfaced roles are PERMANENT (private practice / in-house), not freelance. Value is the recruiter relationship — Larson Maddox (via Phaidon's interim & consultancy capability) places interim/contract counsel and has demonstrable fund-formation deal flow.",
+        "remote_flex": "One role fully remote (US); the VP role is NYC in-house",
+        "recency": "Live postings; exact post date not confirmed within 72h",
+        "apply_path": "Direct apply / named consultant via Larson Maddox; register for interim bench"
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "contract",
+      "buyerType": "staffing",
+      "compensationText": "Boutique Funds/IM Attorney: $500,000+ (permanent). VP Private Fund Attorney: $200,000-$220,000 (permanent).",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Permanent placements surfaced; recruiter also offers interim/consultancy engagements",
+      "urgencyScore": 55,
+      "contacts": [
+        {
+          "name": "Larson Maddox — Legal Recruitment Desk",
+          "title": "Regulatory & Legal Recruitment (interim & permanent)",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/larson-maddox/"
+        }
+      ],
+      "signals": [
+        "Active fund-formation / investment-management placements",
+        "Fully-remote funds attorney role ($500k+)",
+        "VP Private Fund Attorney (1940 Act, Advisers Act, side letters)",
+        "Phaidon group offers interim & consultancy placements",
+        "NEW recruiter relationship — not in prior reports"
+      ],
+      "source": "Larson Maddox / web search",
+      "sourceUrl": "https://www.larsonmaddox.com/en-us/job/fundsinvestment-management-attorney-fully-remote-pr591520_1778104040",
+      "notes": "Grade B (combined 75; fit-heavy because fund focus is a perfect match — intent capped because the surfaced roles are permanent, not freelance). ACTION: register with the Larson Maddox legal desk as available interim/fractional fund-formation & investment-management counsel; the live perm reqs confirm they have fund deal flow Katie can plug into. Second posting URL: https://www.larsonmaddox.com/en-us/job/global-alternative-investment-platform-vice-president-private-fund-attorney-pr591741_1782259431"
+    },
+    {
+      "name": "SPZ Legal — Outside General Counsel for Startups (Fund Formation / Securities / Venture, Remote)",
+      "website": "https://spzlegal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Boutique remote/distributed startup law firm providing outside general counsel across fintech, SaaS, consumer; fund formation, securities, venture financing",
+      "location": "Remote / distributed (US, global client base)",
+      "fundingStage": "Established boutique law firm (distributed model)",
+      "fitScore": 40,
+      "intentScore": 30,
+      "fitDetails": {
+        "practice_area": "Outside GC for venture-backed and bootstrapped startups: corporate finance, securities compliance, fund formation, commercial contracts, venture financings — strong overlap with Katie's corporate/fund/contracts profile",
+        "seniority": "Outside-GC / counsel level engagements",
+        "comp_credible": "Not stated (per-engagement / of-counsel)",
+        "fund_focus": "Medium-high — fund formation + venture financing in core scope"
+      },
+      "intentDetails": {
+        "engagement_model": "Distributed firm that staffs engagements with remote/of-counsel attorneys — natural overflow / of-counsel relationship for a fractional operator",
+        "remote_flex": "Fully remote / distributed",
+        "recency": "Evergreen firm relationship (no single dated req)",
+        "apply_path": "No live single posting — requires warm outreach / careers contact"
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "consultant",
+      "buyerType": "law-firm",
+      "compensationText": "Not stated (per-engagement / of-counsel)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Of-counsel / contract engagements (distributed firm)",
+      "urgencyScore": 45,
+      "contacts": [
+        {
+          "name": "SPZ Legal — Hiring / Of Counsel",
+          "title": "Startup Outside General Counsel firm",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/spz-legal/"
+        }
+      ],
+      "signals": [
+        "Outside GC for startups (fintech, SaaS, consumer)",
+        "Fund formation + securities + venture financing in scope",
+        "Fully remote / distributed firm",
+        "Uses of-counsel / contract attorneys — overflow target",
+        "NEW entity — not in prior reports"
+      ],
+      "source": "SPZ Legal / web search",
+      "sourceUrl": "https://spzlegal.com/",
+      "notes": "Grade B (combined 70 — relationship/overflow lead, no single live req). ACTION: warm outreach offering of-counsel / overflow capacity on fund formation, venture financings, and commercial contracts. Verify current of-counsel needs before pitching. Distinct from law-firm leads already captured (Ropes & Gray, K&L Gates, Roasa Law)."
+    },
+    {
+      "name": "Faison Law Group — Virtual Outside General Counsel (Fund Formation / Securities / Early-Stage, Remote)",
+      "website": "https://faisonlawgroup.com",
+      "pipeline": "legal-freelance",
+      "industry": "Virtual law firm serving as outside general counsel for early-stage companies; corporate finance, securities compliance, fund formation, transactional",
+      "location": "Remote / virtual (US, cross-timezone)",
+      "fundingStage": "Established virtual law firm",
+      "fitScore": 40,
+      "intentScore": 30,
+      "fitDetails": {
+        "practice_area": "Startup outside GC: corporate finance, securities compliance, fund formation, transactional matters for early-stage companies — direct overlap with Katie's fund/corporate work",
+        "seniority": "Outside-GC / counsel level",
+        "comp_credible": "Not stated (per-engagement)",
+        "fund_focus": "Medium-high — fund formation explicitly in core scope"
+      },
+      "intentDetails": {
+        "engagement_model": "Virtual OGC firm operating across time zones — uses remote contract/of-counsel attorneys; natural fractional/overflow relationship",
+        "remote_flex": "Fully remote / virtual",
+        "recency": "Evergreen firm relationship (no single dated req)",
+        "apply_path": "No live single posting — requires warm outreach / contact"
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "consultant",
+      "buyerType": "law-firm",
+      "compensationText": "Not stated (per-engagement)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Of-counsel / contract engagements (virtual firm)",
+      "urgencyScore": 45,
+      "contacts": [
+        {
+          "name": "Faison Law Group — Hiring / Of Counsel",
+          "title": "Virtual Outside General Counsel firm",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "Virtual outside GC for early-stage companies",
+        "Fund formation + securities compliance in core scope",
+        "Operates fully virtually across time zones",
+        "Uses remote of-counsel attorneys — overflow target",
+        "NEW entity — not in prior reports"
+      ],
+      "source": "Faison Law Group / web search",
+      "sourceUrl": "https://faisonlawgroup.com/blog/outside-general-counsel-for-startups/",
+      "notes": "Grade B (combined 70 — relationship/overflow lead, no single live req). ACTION: warm outreach offering overflow / of-counsel fund-formation and securities capacity for their early-stage book. Verify current needs/decision-maker before pitching."
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "scrapeDate": "2026-07-20",
+  "scrapeType": "pr-freelance",
+  "totalLeads": 4,
+  "note": "Enhanced PR Freelance scrape, 7-day window (2026-07-13 to 2026-07-20). Sources searched: LinkedIn (via indexed search only, no bot scraping), Indeed, CareerBuilder, ZipRecruiter, Mediabistro, The PR Net, The Work Crowd, Go Fractional. Deduplicated against all pr-freelance-scrape-*.json and daily-scrape-*.json reports from 2026-06-30 onward. Only leads scoring 55+ included. Note: mediabistro.com filtered job board could not be fetched (URL blocked by provenance rules) — Mediabistro coverage this run is search-index only. Two known-name listings (JIH PR, The PR Net #1745, Go Fractional Comms Director) were suppressed as already captured in prior runs.",
+  "leads": [
+    {
+      "name": "SJP Legal Talent (Chambers-ranked NewLaw provider, via The Work Crowd)",
+      "website": "https://theworkcrowd.com/jobs/freelance-legal-pr-consultant",
+      "pipeline": "pr-freelance",
+      "industry": "Flexible legal talent / NewLaw services to financial institutions and in-house legal teams",
+      "location": "Remote (UK; occasional London meetings)",
+      "fundingStage": "n/a",
+      "fitScore": 45,
+      "intentScore": 30,
+      "fitDetails": {
+        "pr_remit": "+20 — explicit PR strategy, media relations, earned media, founder positioning",
+        "sector_fit": "+15 — legal / professional services selling into financial institutions; squarely in Mark's legal+PR ICP",
+        "workstream": "+10 — thought leadership, executive positioning, reactive commentary, awards strategy",
+        "buyer_quality": "0 — direct operating-company buyer, no stated overflow/immediate need"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — fractional, 6-month initial engagement, ~1 day/month",
+        "remote_flex": "+10 — remote, part-time",
+        "recency": "0 — posted 2026-07-07 (13 days)",
+        "urgency_signals": "0 — no ASAP/backfill language",
+        "apply_path": "+5 — direct application form on The Work Crowd"
+      },
+      "vertical": "pr",
+      "subvertical": "thought-leadership",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "£150–£1,500 (day-rate band as posted); ~1 day per month, 6 months initial",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional contract, longer than 6 months",
+      "urgencyScore": 45,
+      "contacts": [],
+      "signals": [
+        "Chambers & Partners ranked in NewLaw / Flexible Legal Staffing category — fresh credential to amplify",
+        "Explicitly 'investing in our external profile' — net-new comms function, no incumbent agency",
+        "Wants 'the contacts and judgement of an agency without the agency overhead' — direct anti-agency buying signal",
+        "Reports to Managing Director — founder-level access, short decision chain"
+      ],
+      "source": "The Work Crowd jobs board (PR and comms), posted 2026-07-07",
+      "sourceUrl": "https://theworkcrowd.com/jobs/freelance-legal-pr-consultant",
+      "notes": "Grade B (combined 75) — best fit of the run. Legal-sector PR for a flexible-legal-talent business selling into financial institutions hits Mark's legal + finance ICP simultaneously. Target media named in the brief (The Lawyer, Legal Week, Legal Futures, Global Legal Post) is exactly the trade set a senior legal-PR operator owns. Low hours (1 day/month) caps revenue but the 6-month term plus 'scope to increase' makes it a land-and-expand. CAVEAT: UK market experience explicitly required — this is a fit only if Mark has UK legal-trade relationships. ACTION: apply with 2–3 named legal/B2B placements and a one-page 6-month plan (strategy → Chambers amplification → founder commentary programme)."
+    },
+    {
+      "name": "Capital One — Interim Head of Brand Marketing and PR (12-month contract)",
+      "website": "https://www.gofractional.com/job/workday-head-of-brand-marketing-and-pr-12-month-contract",
+      "pipeline": "pr-freelance",
+      "industry": "Diversified financial services — credit cards, banking, lending",
+      "location": "McLean, Virginia, United States (remote)",
+      "fitScore": 45,
+      "intentScore": 30,
+      "fundingStage": "public (NYSE: COF)",
+      "fitDetails": {
+        "pr_remit": "+20 — PR is named in the title and the remit",
+        "sector_fit": "+15 — large-cap financial services, core ICP sector",
+        "workstream": "+10 — brand narrative + earned media leadership at enterprise scale",
+        "buyer_quality": "0 — interim backfill, not agency overflow"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — 12-month interim contract",
+        "remote_flex": "+10 — remote, though 30–40 hrs/week is near-full-time",
+        "recency": "0 — posted ~3 months ago, still listed",
+        "urgency_signals": "0 — no explicit urgency copy",
+        "apply_path": "+5 — direct apply link through Go Fractional to the original posting"
+      },
+      "vertical": "pr",
+      "subvertical": "comms",
+      "engagementModel": "interim",
+      "buyerType": "operating-company",
+      "compensationText": "$160–$220/hour, 30–40 hrs/week, 12-month duration",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "12-month contract (interim leadership), 30–40 hrs/week",
+      "urgencyScore": 25,
+      "contacts": [],
+      "signals": [
+        "Highest published rate in the pipeline this run: $160–$220/hr",
+        "12-month term at near-full-time hours — largest single contract value seen in this vertical",
+        "Interim head-of-function backfill at a major bank implies a departure or leave to cover",
+        "Go Fractional flags this as an external repost — the underlying req may have moved or closed"
+      ],
+      "source": "Go Fractional job board (external repost of Capital One req)",
+      "sourceUrl": "https://www.gofractional.com/job/workday-head-of-brand-marketing-and-pr-12-month-contract",
+      "notes": "Grade B (combined 75). Economics are far and away the best on the board — at 30–40 hrs/week for 12 months this is a near-full-time engagement, so it competes with Mark's whole book rather than slotting alongside it. Scored down hard on recency: posted ~3 months ago and Go Fractional explicitly disclaims any relationship with the company for this role. ACTION: verify the req is live on Capital One's own careers site before investing pitch time; if live, route through Capital One's contingent-labour channel rather than the aggregator."
+    },
+    {
+      "name": "Dysphagia Healthcare Business (via The Work Crowd)",
+      "website": "https://theworkcrowd.com/jobs/freelance-healthcare-pr-specialist-media-relations",
+      "pipeline": "pr-freelance",
+      "industry": "Healthcare / medtech — dysphagia (swallowing difficulties) patient and clinician market",
+      "location": "Remote (UK market experience required)",
+      "fundingStage": "n/a",
+      "fitScore": 30,
+      "intentScore": 40,
+      "fitDetails": {
+        "pr_remit": "+20 — pure media relations and coverage-securing brief",
+        "sector_fit": "0 — healthcare, outside the finance/legal/B2B core ICP",
+        "workstream": "+10 — earned media / media relations execution",
+        "buyer_quality": "0 — direct client, not agency overflow"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — freelance, 6-month initial engagement",
+        "remote_flex": "+10 — remote, 1–2 days per month",
+        "recency": "0 — posted 2026-07-16 (4 days, just outside the 72-hour bonus)",
+        "urgency_signals": "+10 — campaigns and story pipeline already built, buyer needs execution now ('not looking for someone to create our PR')",
+        "apply_path": "+5 — direct application form"
+      },
+      "vertical": "pr",
+      "subvertical": "media-relations",
+      "engagementModel": "freelance",
+      "buyerType": "operating-company",
+      "compensationText": "£150–£1,500 (day-rate band as posted); ~1–2 days/month, ~6 months initial",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Freelance contract, longer than 6 months",
+      "urgencyScore": 70,
+      "contacts": [],
+      "signals": [
+        "Highest urgency signal of the run — media database, campaigns and story pipeline are already built and waiting to be pitched",
+        "Buyer has self-diagnosed the gap as execution, not strategy — fastest possible path to billable work",
+        "Explicitly 'not typical Pharma messaging' — narrative-led rather than regulated medical comms",
+        "Scope may expand based on results — performance-linked growth path"
+      ],
+      "source": "The Work Crowd jobs board (PR and comms), posted 2026-07-16",
+      "sourceUrl": "https://theworkcrowd.com/jobs/freelance-healthcare-pr-specialist-media-relations",
+      "notes": "Grade B (combined 70). Off-ICP on sector but the cleanest execution brief in the batch: everything upstream is done and the buyer just wants placements. That maps directly to Mark's 'plug in fast, manage media' positioning. Risk is the stated preference for existing healthcare-journalist relationships — Mark would be competing against health-specialist freelancers. ACTION: pitch only if Mark wants healthcare category exposure; lead with pitch-conversion rate and named placements rather than sector credentials, and offer a paid 1-day trial pitch sprint to sidestep the relationships objection."
+    },
+    {
+      "name": "Men's Grooming & Lifestyle Brand (via The Work Crowd)",
+      "website": "https://theworkcrowd.com/jobs/freelance-consumer-pr-specialist-mens-grooming-brand",
+      "pipeline": "pr-freelance",
+      "industry": "Consumer goods — men's grooming and lifestyle",
+      "location": "Remote (UK)",
+      "fundingStage": "n/a",
+      "fitScore": 30,
+      "intentScore": 30,
+      "fitDetails": {
+        "pr_remit": "+20 — consumer PR specialist, media coverage remit",
+        "sector_fit": "0 — consumer lifestyle, off-ICP",
+        "workstream": "+10 — media relations / earned media",
+        "buyer_quality": "0 — direct brand, no overflow signal"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — freelance, defined project fee",
+        "remote_flex": "+10 — remote",
+        "recency": "0 — posted 2026-07-15 (5 days)",
+        "urgency_signals": "0 — no urgency copy",
+        "apply_path": "+5 — direct application form"
+      },
+      "vertical": "pr",
+      "subvertical": "media-relations",
+      "engagementModel": "freelance",
+      "buyerType": "operating-company",
+      "compensationText": "£1,000 fixed project fee",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Freelance project",
+      "urgencyScore": 40,
+      "contacts": [],
+      "signals": [
+        "Fixed, pre-approved £1,000 budget — no rate negotiation, fast close",
+        "Consumer lifestyle category — furthest from Mark's B2B/finance/legal positioning of anything in this batch"
+      ],
+      "source": "The Work Crowd jobs board (PR and comms), posted 2026-07-15",
+      "sourceUrl": "https://theworkcrowd.com/jobs/freelance-consumer-pr-specialist-mens-grooming-brand",
+      "notes": "Grade B (combined 60) — included because it clears the 55 threshold, but it is the weakest lead here and I would not prioritise it. Consumer grooming PR is off-positioning for a senior B2B/financial comms operator and the £1,000 fixed fee caps the upside with no stated expansion path. ACTION: skip unless Mark wants filler work between retainers, or wants to keep The Work Crowd profile active with application volume."
+    }
+  ]
+}

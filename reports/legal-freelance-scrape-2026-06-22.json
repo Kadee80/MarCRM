@@ -1,0 +1,213 @@
+{
+  "scrapeDate": "2026-06-22",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 5,
+  "note": "Automated scrape. 5 new leads passing 55+ threshold. 2 Grade A (Axiom Investment Management Counsel, Axiom Structured Finance/Fund Counsel), 2 Grade B (Axiom Corporate Governance, MLA Corporate & Securities), 1 Grade C (Interlink Cloud Advisors Fractional GC). Deduplicated against reports through 2026-06-18.",
+  "leads": [
+    {
+      "name": "Axiom Law — Investment Management Counsel (Remote)",
+      "website": "https://www.axiomlaw.com",
+      "pipeline": "legal-freelance",
+      "industry": "Legal / ALSP",
+      "location": "Remote (US)",
+      "fundingStage": "Established (public company)",
+      "fitScore": 50,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Investment management, private investment vehicles, unregistered funds, Investment Advisers Act of 1940, wealth management, fiduciary compliance",
+        "seniority": "6+ years required — counsel level",
+        "comp_credible": true,
+        "fund_focus": "High — explicitly covers unregistered funds, private investment vehicles, investment advisory for private funds"
+      },
+      "intentDetails": {
+        "engagement_model": "ALSP on-demand contract — attorneys select engagements, flexible hours",
+        "remote_flex": "Fully remote",
+        "recency": "Active posting (listed live on axiomlaw.com as of 2026-06-22)",
+        "apply_path": "Easy apply via Axiom careers portal — no intermediary"
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "$104,500-$325,000 per year (full-time equivalent)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "On-demand attorney engagement through Axiom ALSP platform",
+      "urgencyScore": 75,
+      "contacts": [],
+      "signals": [
+        "Private investment vehicles explicitly mentioned",
+        "Unregistered funds in scope",
+        "Investment Advisers Act of 1940 compliance",
+        "Remote — fully flexible",
+        "Axiom handles billing/BD — turnkey for fractional attorney"
+      ],
+      "source": "Axiom Law Careers",
+      "sourceUrl": "https://www.axiomlaw.com/careers/lawyers/available-positions/5959811002",
+      "notes": "Grade A (90). Strong match for Katie's investment management/fund counsel background. Distinct from Axiom Securities & Prime Brokerage Counsel captured 2026-06-17. Axiom allows part-time and multi-client engagements — ideal for building a fractional legal practice."
+    },
+    {
+      "name": "Axiom Law — Structured Finance Attorney (Investment Fund Counsel)",
+      "website": "https://www.axiomlaw.com",
+      "pipeline": "legal-freelance",
+      "industry": "Legal / ALSP",
+      "location": "New York, NY (Axiom engagement; may allow remote/hybrid)",
+      "fundingStage": "Established (public company)",
+      "fitScore": 50,
+      "intentScore": 33,
+      "fitDetails": {
+        "practice_area": "Fund formation, offering memoranda, investment management agreements, partnership agreements (LP/GP), SEC registration, AIFMD/UCITS, private equity, hedge funds",
+        "seniority": "3+ years fund formation experience required — counsel level",
+        "comp_credible": true,
+        "fund_focus": "Very high — pure fund formation and governance role; private and registered investment funds"
+      },
+      "intentDetails": {
+        "engagement_model": "ALSP on-demand contract through Axiom",
+        "remote_flex": "Listed as NY; Axiom often allows remote/hybrid per client — verify at screening",
+        "recency": "Active posting (listed live on axiomlaw.com as of 2026-06-22)",
+        "apply_path": "Easy apply via Axiom careers portal"
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "$104,500-$325,000 per year (full-time equivalent)",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "On-demand attorney engagement through Axiom ALSP platform",
+      "urgencyScore": 70,
+      "contacts": [],
+      "signals": [
+        "Fund formation documents — LPA, offering memoranda, investment management agreements",
+        "LP/GP structure experience required",
+        "SEC registration and fund governance in scope",
+        "AIFMD/UCITS international fund compliance",
+        "Private equity and hedge fund clients"
+      ],
+      "source": "Axiom Law Careers",
+      "sourceUrl": "https://www.axiomlaw.com/careers/lawyers/available-positions/6414613002",
+      "notes": "Grade A (83). Title says 'Structured Finance' but description is full fund formation counsel. Best fund-formation match in this scrape. Ask about remote availability during Axiom screening — listed as NY but Axiom engagements are frequently remote-capable."
+    },
+    {
+      "name": "Axiom Law — Corporate Governance Attorney",
+      "website": "https://www.axiomlaw.com",
+      "pipeline": "legal-freelance",
+      "industry": "Legal / ALSP",
+      "location": "Remote (US)",
+      "fundingStage": "Established (public company)",
+      "fitScore": 30,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Corporate governance, board advisory, fiduciary duties, SEC reporting/compliance, NYSE listing standards, annual meeting support",
+        "seniority": "Counsel level — senior experience with publicly-traded clients",
+        "comp_credible": true,
+        "fund_focus": "Low — public company governance focus, not fund formation"
+      },
+      "intentDetails": {
+        "engagement_model": "ALSP on-demand contract through Axiom",
+        "remote_flex": "Fully remote",
+        "recency": "Active posting (live on axiomlaw.com as of 2026-06-22)",
+        "apply_path": "Easy apply via Axiom careers portal"
+      },
+      "vertical": "legal",
+      "subvertical": "corporate",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "$104,500-$325,000 per year (full-time equivalent)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "On-demand attorney engagement through Axiom ALSP platform",
+      "urgencyScore": 60,
+      "contacts": [],
+      "signals": [
+        "Board of Directors advisory",
+        "SEC reporting and compliance",
+        "NYSE listing standards",
+        "Fiduciary duty analysis",
+        "Multiple concurrent clients via Axiom bench"
+      ],
+      "source": "Axiom Law Careers",
+      "sourceUrl": "https://www.axiomlaw.com/careers/lawyers/available-positions/5959882002",
+      "notes": "Grade B (70). Not fund-focused, but strong corporate/securities match. Good for expanding Katie's practice into public-company governance. Axiom model means multi-client exposure. Not in prior reports."
+    },
+    {
+      "name": "Major, Lindsey & Africa — Interim Counsel, Corporate and Securities",
+      "website": "https://www.mlaglobal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Legal Staffing / Interim Placement",
+      "location": "Remote (National)",
+      "fundingStage": "Unknown — global technology solutions corporation client",
+      "fitScore": 30,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Corporate and securities matters — range of ongoing projects at global tech company",
+        "seniority": "Senior counsel implied by MLA Interim Legal Talent placement",
+        "comp_credible": true,
+        "fund_focus": "Low — corporate/securities at operating company, not fund formation"
+      },
+      "intentDetails": {
+        "engagement_model": "Interim W-2 staffing through MLA Interim Legal Talent",
+        "remote_flex": "Remote (national)",
+        "recency": "Posted on LinkedIn (indexed June 2026)",
+        "apply_path": "Apply via mlaglobal.com/careers or direct contact with MLA interim recruiter"
+      },
+      "vertical": "legal",
+      "subvertical": "corporate",
+      "engagementModel": "interim",
+      "buyerType": "staffing",
+      "compensationText": "$95-$110/hr",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Interim W-2 contract placement — duration not specified",
+      "urgencyScore": 65,
+      "contacts": [],
+      "signals": [
+        "$95-110/hr stated — strong hourly rate",
+        "Global technology solutions corporation client",
+        "Corporate and securities matters (range)",
+        "Remote national",
+        "MLA Interim Legal Talent — established placement track record"
+      ],
+      "source": "LinkedIn (MLA Interim Legal Talent)",
+      "sourceUrl": "https://www.linkedin.com/jobs/view/interim-counsel-corporate-and-securities-at-major-lindsey-africa-4321299601",
+      "notes": "Grade B (70). Distinct from MLA Interim Commercial Contracts Counsel (REMOTE) captured 2026-06-16. Corporate and securities focus at a global tech company. At $95-110/hr remote, financially compelling even at 20 hrs/week."
+    },
+    {
+      "name": "Interlink Cloud Advisors — Fractional General Counsel",
+      "website": "https://www.interlink.com",
+      "pipeline": "legal-freelance",
+      "industry": "Cloud Technology Consulting",
+      "location": "Remote (nationwide)",
+      "fundingStage": "Established (premier Microsoft Cloud consulting firm)",
+      "fitScore": 15,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Commercial contracts (MSAs, PSAs, NDAs, vendor agreements), regulatory compliance (SOC 2), legal strategy, cross-functional advisory",
+        "seniority": "3+ years required — GC/primary advisor level",
+        "comp_credible": false,
+        "fund_focus": "None — B2B tech/cloud consulting company"
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional — independent contractor, estimated 2-5 hrs/week, retainer-basis",
+        "remote_flex": "Remote",
+        "recency": "Active (appeared on GoInhouse.com and Facebook via GoInhouse — recent)",
+        "apply_path": "Apply via GoInhouse.com or Interlink careers page (paylocity ATS)"
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "Not stated (company avg ~$75K/yr but that is all-employee; GC retainer likely $150-250/hr)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Independent contractor / fractional engagement",
+      "urgencyScore": 50,
+      "contacts": [],
+      "signals": [
+        "Fractional GC engagement — independent contractor",
+        "Remote, low-hours commitment (2-5 hrs/week estimated)",
+        "Growth into long-term strategic advisor stated",
+        "B2B cloud consulting — stable company, recurring commercial contract volume",
+        "Reports directly to CEO"
+      ],
+      "source": "GoInhouse.com",
+      "sourceUrl": "https://www.goinhouse.com/jobs/438711760-fractional-general-counsel-at-interlink-cloud-advisors",
+      "notes": "Grade C (55). Low fund-fit but viable as anchor retainer engagement. Interlink is a well-resourced Microsoft partner. Good for building fractional GC track record while pursuing higher-value fund counsel work. Compensation not stated — negotiate retainer directly."
+    }
+  ]
+}

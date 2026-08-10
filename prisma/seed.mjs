@@ -1,10 +1,83 @@
 import { PrismaClient } from "@prisma/client";
 const prisma = new PrismaClient();
 
+// ─── Safety guards ──────────────────────────────────────────────
+// This script WIPES contact, company and scrapeResult before loading
+// demo data. It must never nuke production by accident (as happened once).
+// Two independent locks, both must be cleared for a destructive run:
+//   1. Remote DBs (anything not localhost) are blocked unless --allow-remote.
+//   2. A DB that already has rows is blocked unless --force.
+import { readFileSync } from "node:fs";
+import { fileURLToPath } from "node:url";
+import { dirname, join } from "node:path";
+
+const ARGV = process.argv.slice(2);
+const FORCE = ARGV.includes("--force") || process.env.SEED_FORCE === "1";
+const ALLOW_REMOTE = ARGV.includes("--allow-remote") || process.env.SEED_ALLOW_REMOTE === "1";
+
+// Resolve DATABASE_URL from the environment, falling back to the project .env
+// so the guard sees the real target even when run via plain `node`.
+function resolveDbUrl() {
+  if (process.env.DATABASE_URL) return process.env.DATABASE_URL;
+  try {
+    const envPath = join(dirname(fileURLToPath(import.meta.url)), "..", ".env");
+    const line = readFileSync(envPath, "utf8")
+      .split("\n")
+      .find((l) => l.trim().startsWith("DATABASE_URL="));
+    if (line) return line.slice(line.indexOf("=") + 1).trim().replace(/^["']|["']$/g, "");
+  } catch {
+    /* no .env — leave unset, guard will fail closed */
+  }
+  return "";
+}
+const DB_URL = resolveDbUrl();
+const DB_HOST = (DB_URL.match(/@([^/:?]+)/) || [])[1] || "(unknown host)";
+const IS_LOCAL = /@(localhost|127\.0\.0\.1|\[?::1\]?)(:|\/)/.test(DB_URL);
+
+async function assertSafeToWipe() {
+  const problems = [];
+
+  if (!IS_LOCAL && !ALLOW_REMOTE) {
+    problems.push(
+      `Refusing to wipe a REMOTE database (${DB_HOST}) — this looks like production.\n` +
+      `     To override (be certain!): re-run with  --force --allow-remote`
+    );
+  }
+
+  let existingCompanies = 0;
+  try {
+    existingCompanies = await prisma.company.count();
+  } catch {
+    /* table may not exist on a brand-new DB — treat as empty */
+  }
+  if (existingCompanies > 0 && !FORCE) {
+    problems.push(
+      `Database already holds ${existingCompanies} companies — seeding will DELETE them.\n` +
+      `     To override (be certain!): re-run with  --force`
+    );
+  }
+
+  if (problems.length) {
+    console.error("\n🛑 seed.mjs aborted — destructive wipe blocked. Nothing was changed.\n");
+    for (const p of problems) console.error("  • " + p);
+    console.error(`\n  Target host: ${DB_HOST}   local=${IS_LOCAL}   existing companies=${existingCompanies}\n`);
+    await prisma.$disconnect();
+    process.exit(1);
+  }
+
+  if (!IS_LOCAL) {
+    console.warn(
+      `\n⚠️  FORCE-WIPING REMOTE DATABASE: ${DB_HOST}\n` +
+      `   ${existingCompanies} companies + their contacts + scrape results are about to be deleted.\n`
+    );
+  }
+}
+
 async function main() {
   console.log("Seeding MarCRM database...");
 
-  // Clear existing data
+  // Clear existing data — guarded (see assertSafeToWipe above).
+  await assertSafeToWipe();
   await prisma.contact.deleteMany();
   await prisma.company.deleteMany();
   await prisma.scrapeResult.deleteMany();

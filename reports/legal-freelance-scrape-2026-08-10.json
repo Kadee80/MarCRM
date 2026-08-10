@@ -1,0 +1,82 @@
+{
+  "scrapeDate": "2026-08-10",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 2,
+  "note": "7-day window (Aug 3–10, 2026). Quiet week: most fresh-looking postings were PRIOR CAPTURES and were deduped out — TodayTix Group (Fractional GC), Socket Protocol (Web3 Fractional GC), NextGrad (Fractional GC via Go Fractional), and The Mom Project / Etsy (Interim Securities Counsel) all already exist in earlier legal-freelance reports. The recurring fund-formation platforms (Axiom, Allocate, Arootah, Peerpoint, Major Lindsey & Africa, Robert Half, Lawtrades) were likewise deduped. Only 2 genuinely new named leads this run. Trophy Point (private-lender contract attorney, Atlanta) surfaced but was excluded for scoring ~45 (<55 threshold; remote unconfirmed / likely onsite). Do NOT scrape LinkedIn directly — LinkedIn-indexed results reached via Google/Bing only.",
+  "leads": [
+    {
+      "name": "Davis Wright Tremaine (DWTSurge) — Contract M&A Due Diligence Attorney (Remote)",
+      "website": "https://www.legal.io/jobs/5731954/Contract/DWTSurge-Contract-M-A-Due-Diligence-Attorney-Remote/Remote",
+      "pipeline": "legal-freelance",
+      "industry": "DWTSurge is Davis Wright Tremaine's contract-attorney / alternative legal staffing program. Hiring a contract M&A due-diligence attorney to review and analyze contracts, corporate governance documents, financial documents, regulatory filings, real estate, IP, litigation and compliance records in support of M&A transactions.",
+      "location": "Remote (must maintain West Coast business hours)",
+      "fundingStage": "AmLaw firm ALSP / flexible-staffing program",
+      "fitScore": 20,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "M&A due diligence + corporate governance",
+        "seniority": "Experienced contract counsel",
+        "comp_credible": "Not stated",
+        "fund_focus": "None (M&A / corporate)"
+      },
+      "intentDetails": {
+        "engagement_model": "3-month contract engagement (extension possible), variable hours up to 40/wk on deal flow",
+        "remote_flex": "Remote (West Coast hours)",
+        "recency": "Active listing (Aug 2026); exact post date not confirmed",
+        "apply_path": "Direct apply via Legal.io / DWTSurge program"
+      },
+      "vertical": "legal",
+      "subvertical": "M&A",
+      "engagementModel": "contract",
+      "buyerType": "law-firm",
+      "compensationText": "Not stated",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contract M&A due-diligence attorney — 3-month engagement, remote (West Coast hours)",
+      "urgencyScore": 55,
+      "contacts": [
+        { "name": null, "title": "Apply via Legal.io / DWTSurge program", "email": null, "linkedin": "https://www.linkedin.com/company/davis-wright-tremaine-llp" }
+      ],
+      "signals": ["Law-firm overflow (DWTSurge)", "M&A + corporate governance diligence", "Remote contract", "Deal-driven variable hours", "Direct apply path"],
+      "source": "Web search — Legal.io (Davis Wright Tremaine / DWTSurge), Aug 2026",
+      "sourceUrl": "https://www.legal.io/jobs/5731954/Contract/DWTSurge-Contract-M-A-Due-Diligence-Attorney-Remote/Remote",
+      "notes": "Grade B (combined 60). Best new lead of the run. Law-firm-overflow / ALSP channel — exactly the 'firms needing overflow or specialist support for corporate work' bucket in the ICP. M&A diligence is core corporate transactional work, and a bench relationship here can generate repeat contract flow beyond this single req. Constraint: West Coast hours. ACTION: apply to the DWTSurge bench with M&A / corporate-diligence experience."
+    },
+    {
+      "name": "Sustainable Wealth Group — Fractional Head of Legal & Compliance (Remote)",
+      "website": "https://www.gofractional.com/job/sustainable-wealth-group-fractional-head-of-legal-compliance",
+      "pipeline": "legal-freelance",
+      "industry": "Wealth-management / advisory firm hiring a fractional Head of Legal & Compliance — investment-adviser regulatory compliance, corporate governance and legal risk for the advisory business. Routed through Go Fractional.",
+      "location": "Remote",
+      "fundingStage": "Wealth-management / advisory firm",
+      "fitScore": 20,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Compliance + corporate governance (investment-adviser / wealth context)",
+        "seniority": "Head of Legal & Compliance",
+        "comp_credible": "Not stated",
+        "fund_focus": "Fund-adjacent (wealth/investment advisory compliance)"
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional",
+        "remote_flex": "Remote",
+        "recency": "Active listing (Aug 2026); exact post date not confirmed",
+        "apply_path": "Apply via Go Fractional marketplace"
+      },
+      "vertical": "legal",
+      "subvertical": "compliance",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "Not stated (Go Fractional legal roles typically ~$150–200/hr)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional Head of Legal & Compliance — remote (Go Fractional)",
+      "urgencyScore": 55,
+      "contacts": [
+        { "name": null, "title": "Apply via Go Fractional marketplace", "email": null, "linkedin": "https://www.linkedin.com/company/gofractional" }
+      ],
+      "signals": ["Fractional", "Remote", "Legal + compliance in investment-advisory context", "Go Fractional easy-apply"],
+      "source": "Web search — Go Fractional (Sustainable Wealth Group), Aug 2026",
+      "sourceUrl": "https://www.gofractional.com/job/sustainable-wealth-group-fractional-head-of-legal-compliance",
+      "notes": "Grade B (combined 60). Fund-adjacent compliance + governance role in the wealth/investment-advisory space — closest thing this week to the funds/regulatory bucket of the ICP. NEW end client via Go Fractional (the marketplace itself is a prior capture; this named client is not). ACTION: apply through Go Fractional; lead with investment-adviser / regulatory-compliance and governance experience; confirm whether scope touches private funds or only advisory compliance."
+    }
+  ]
+}

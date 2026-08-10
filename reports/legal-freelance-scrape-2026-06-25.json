@@ -1,0 +1,152 @@
+{
+  "scrapeDate": "2026-06-25",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 3,
+  "note": "Automated scrape, 7-day window. Continued recurring-firm saturation: the bulk of live freelance/fractional/interim legal postings this run matched firms already captured (Axiom, Major Lindsey & Africa, Ontra, Paragon Legal, Lawyers on Demand, Robert Half Legal, Ropes & Gray, aVenture, Larson Maddox/Phaidon, Latitude Legal, Taylor Root, SPZ Legal, Faison Law Group). 3 NEW entities pass the 55+ threshold, all Grade B; no Grade A this run. The Mom Project (Interim Securities Counsel supporting Etsy) is the strongest — a genuine single live contract req, not a bench relationship. Epiq Counsel and Next Era Legal are ALSP/flexible-talent relationships with live or evergreen contract demand. Deduplicated against legal-freelance, pr-freelance, and daily reports through 2026-06-24.",
+  "leads": [
+    {
+      "name": "The Mom Project — Interim Securities Counsel (Remote, EST) [client: Etsy]",
+      "website": "https://themomproject.com",
+      "pipeline": "legal-freelance",
+      "industry": "Talent marketplace / flexible legal staffing placing contract counsel; this engagement is interim securities counsel for a publicly listed e-commerce company (Etsy)",
+      "location": "Remote (US, aligned to Eastern Time)",
+      "fundingStage": "Public company end-client (Etsy); marketplace placement",
+      "fitScore": 30,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Interim securities counsel: SEC reporting (10-K, 10-Q, 8-K, proxy, S-8, Section 16), SEC/NASDAQ compliance, corporate & securities advisory. Direct overlap with Katie's corporate/securities core; no fund-formation component.",
+        "seniority": "Counsel level — substantive corporate & securities experience expected",
+        "comp_credible": true,
+        "fund_focus": "Low — public-company securities/reporting, not private funds"
+      },
+      "intentDetails": {
+        "engagement_model": "True interim/contract engagement (not a bench-registration relationship) — a single live req with a defined scope at a named public company",
+        "remote_flex": "Fully remote, EST hours",
+        "recency": "Live posting surfaced in June 2026 run; exact post date not confirmed within 72h",
+        "apply_path": "Easy apply via The Mom Project marketplace profile"
+      },
+      "vertical": "legal",
+      "subvertical": "securities",
+      "engagementModel": "interim",
+      "buyerType": "staffing",
+      "compensationText": "Not numerically stated; substantive interim contract role at a publicly listed company (not unpaid/intern)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contract / interim (W-2 or 1099 via marketplace) — distinct from a permanent in-house securities counsel hire",
+      "urgencyScore": 65,
+      "contacts": [
+        {
+          "name": "The Mom Project — Talent / Hiring",
+          "title": "Flexible legal talent marketplace (interim securities counsel placement)",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/company/the-mom-project/"
+        }
+      ],
+      "signals": [
+        "Interim Securities Counsel — live contract req",
+        "Public-company SEC reporting (10-K/10-Q/8-K/proxy/S-8/Section 16)",
+        "Fully remote, EST",
+        "Easy apply via marketplace",
+        "NEW entity — not in prior reports"
+      ],
+      "source": "The Mom Project / web search",
+      "sourceUrl": "https://themomproject.com/projects/interim-securities-counsel-remote-est-f85959128b",
+      "notes": "Grade B (combined 70). Strongest lead this run — a real single live contract req, not a bench relationship. ACTION: apply directly via The Mom Project as available interim securities/corporate counsel; also register a marketplace profile to catch future interim corporate/securities placements. Fund focus is low, so pitch the corporate/securities/SEC-reporting half of Katie's profile."
+    },
+    {
+      "name": "Epiq Counsel — Flexible Legal Talent (Corporate & Commercial Contracts, Remote)",
+      "website": "https://www.epiqglobal.com/en-us/services/business-of-law-services/epiq-counsel",
+      "pipeline": "legal-freelance",
+      "industry": "ALSP / flexible legal talent arm of Epiq Global; places contract & interim lawyers (corporate, commercial contracts, licensing, legal ops) into in-house teams and law firms",
+      "location": "Remote / hybrid (US); traditional or non-traditional schedules",
+      "fundingStage": "Established global ALSP (Epiq Global)",
+      "fitScore": 25,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Live demand for commercial-contracts & licensing and corporate counsel placements; broad corporate/commercial overlap with Katie's contracts/corporate profile. No dedicated fund-formation desk surfaced.",
+        "seniority": "Counsel level; Epiq is highly selective (≈1 in 50 applicants)",
+        "comp_credible": "Market rate + benefits (PTO, holidays, health, 401k) but per-engagement rate not stated",
+        "fund_focus": "Low-medium — corporate & commercial contracts, not private funds"
+      },
+      "intentDetails": {
+        "engagement_model": "Flexible contract/interim engagements via Epiq Counsel bench — onsite or remote, traditional or non-traditional schedules",
+        "remote_flex": "Remote supported",
+        "recency": "Evergreen bench + live commercial-contracts/licensing posting",
+        "apply_path": "Direct apply to Epiq Counsel bench / specific live reqs"
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "Market rate + benefits (PTO, paid holidays, health, 401k); per-engagement rate not stated",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Contract / interim via ALSP (W-2 with benefits) — distinct from true independent freelance operator model",
+      "urgencyScore": 50,
+      "contacts": [
+        {
+          "name": "Epiq Counsel — Flexible Legal Talent",
+          "title": "ALSP / contract & interim legal staffing",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/showcase/epiq-counsel/"
+        }
+      ],
+      "signals": [
+        "ALSP placing contract/interim corporate & commercial-contracts counsel",
+        "Live Commercial Contracts & Licensing Lawyer posting",
+        "Remote / flexible schedules; benefits included",
+        "Highly selective bench (~1 in 50)",
+        "NEW entity — not in prior reports"
+      ],
+      "source": "Epiq Counsel / web search",
+      "sourceUrl": "https://www.epiqglobal.com/en-us/services/business-of-law-services/epiq-counsel/epiq-counsel-careers",
+      "notes": "Grade B (combined 65 — ALSP bench relationship with live corporate/contracts demand). ACTION: register with the Epiq Counsel bench as available contract corporate/commercial-contracts counsel; note the W-2-with-benefits model differs from a 1099 freelance operator. Live posting: Commercial Contracts & Licensing Lawyer (LinkedIn). Distinct from ALSPs already captured (Axiom, Paragon, Lawyers on Demand, Latitude)."
+    },
+    {
+      "name": "Next Era Legal — Fractional General Counsel for Venture-Backed Startups (Remote)",
+      "website": "https://nexteralegal.com/fractional-general-counsel/",
+      "pipeline": "legal-freelance",
+      "industry": "ALSP / boutique providing fractional & outside general counsel to venture-backed startups; financings, governance, commercial contracts, venture/cap-table support",
+      "location": "Remote / virtual (US)",
+      "fundingStage": "Established fractional-GC practice",
+      "fitScore": 30,
+      "intentScore": 30,
+      "fitDetails": {
+        "practice_area": "Fractional GC for venture-backed companies: financing rounds, investor negotiations, capital structure, governance, commercial contracts — strong overlap with Katie's corporate/financing/venture profile; fund-adjacent (sponsor/portfolio side) rather than fund formation.",
+        "seniority": "Fractional GC / counsel level",
+        "comp_credible": "Not stated (per-engagement / fractional retainer)",
+        "fund_focus": "Medium — venture financing & cap table; not private-fund formation"
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional-GC firm that staffs engagements with remote counsel — natural overflow / of-counsel relationship for a fractional operator",
+        "remote_flex": "Fully remote / virtual",
+        "recency": "Evergreen firm relationship (no single dated req)",
+        "apply_path": "Warm outreach via firm contact / of-counsel intake"
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "ALSP",
+      "compensationText": "Not stated (per-engagement / fractional retainer)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Of-counsel / fractional engagements (distributed firm)",
+      "urgencyScore": 45,
+      "contacts": [
+        {
+          "name": "Next Era Legal — Hiring / Of Counsel",
+          "title": "Fractional General Counsel practice",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "Fractional GC for venture-backed startups",
+        "Financing rounds, cap table, governance, commercial contracts",
+        "Fully remote / virtual",
+        "Staffs engagements with remote counsel — overflow target",
+        "NEW entity — not in prior reports"
+      ],
+      "source": "Next Era Legal / web search",
+      "sourceUrl": "https://nexteralegal.com/fractional-general-counsel/venture-backed-startups/",
+      "notes": "Grade B (combined 60 — relationship/overflow lead, no single live req). ACTION: warm outreach offering overflow / fractional capacity on venture financings, governance, and commercial contracts. Verify current of-counsel needs and decision-maker before pitching. Distinct from law-firm/OGC leads already captured (SPZ Legal, Faison Law Group, Roasa Law)."
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "scrapeDate": "2026-07-01",
+  "scrapeType": "pr-freelance",
+  "totalLeads": 3,
+  "note": "Enhanced PR Freelance scrape. 7-day window. Web-search sourcing across LinkedIn/Indeed/ZipRecruiter/Mediabistro/The PR Net/The Work Crowd/Fractional Jobs. Fresh named US finance-sector freelance PR postings were thin this week — most sources returned aggregator/category pages rather than individual dated postings. Three leads clear the 55+ threshold; one is a strong primary (Hello Human), two are qualifying-but-marginal with caveats noted. Deduplicated against pr-freelance reports 2026-06-08 through 2026-06-30 (The James Collective, The Work Crowd fintech network, VOW for Girls already captured and excluded).",
+  "leads": [
+    {
+      "name": "Hello Human",
+      "website": "https://hellohuman.co",
+      "pipeline": "pr-freelance",
+      "industry": "International PR collective for independent creative businesses (design, art, architecture, creative studios)",
+      "location": "Remote",
+      "fundingStage": "Boutique PR collective (20+ international consultants)",
+      "fitScore": 35,
+      "intentScore": 30,
+      "fitDetails": {
+        "pr_remit": "Yes — strategic PR counsel, media relations, pitch development, media list building, campaign management explicitly stated",
+        "sector_fit": "Creative/design/architecture — outside Mark's finance/fintech/PE core (no sector points)",
+        "workstream": "Media relations, thought leadership, strategic counsel, earned media",
+        "buyer_quality": "Collective / white-label execution model — consultants plug into agency client work",
+        "urgency": "Evergreen recruitment, no dated urgency signal"
+      },
+      "intentDetails": {
+        "engagement_model": "Freelance consultant (1099), works client-facing, reports to founder",
+        "remote_flex": "Fully remote",
+        "recency": "Evergreen listing on The PR Net — not confirmed <72h",
+        "urgency_signals": "None explicit",
+        "apply_path": "Direct — contact form / apply on The PR Net posting"
+      },
+      "vertical": "pr",
+      "subvertical": "media-relations",
+      "engagementModel": "freelance",
+      "buyerType": "agency",
+      "compensationText": "Not published (flat-fee / subscription PR model; consultants engaged as freelancers)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Freelance (contractor)",
+      "urgencyScore": 30,
+      "contacts": [],
+      "signals": ["freelance", "remote", "media-relations", "white-label", "agency-collective"],
+      "source": "The PR Net (web search)",
+      "sourceUrl": "https://theprnet.com/jobs/3034",
+      "notes": "STRONGEST NEW LEAD this week. Remote freelance PR consultant seat in an international PR collective that continuously recruits senior consultants and plugs them into client work — a genuine white-label/overflow structure Mark can pitch into. Requires strong active media relationships and proven top-tier press hits. Sector is creative/design, not finance — but the collective model is exactly the kind of recurring freelance-execution relationship in the ICP. Reports directly to the founder. ACTION: apply via The PR Net posting; position Mark as a senior strategic + executional PR operator with an established media network. Caveat: sector is creative/design; confirm they take on B2B/corporate-comms clients."
+    },
+    {
+      "name": "The Work Crowd — Freelance Healthcare Communications Specialist (HCP Events & Medical Devices PR)",
+      "website": "https://theworkcrowd.com/jobs/healthcare-comms-specialist-hcp-events-freelance",
+      "pipeline": "pr-freelance",
+      "industry": "Healthcare / medical devices communications (HCP events + product PR) — brief placed via The Work Crowd freelance network",
+      "location": "United Kingdom (freelance/remote-flex)",
+      "fundingStage": "Agency/client brief via vetted freelance marketplace",
+      "fitScore": 35,
+      "intentScore": 25,
+      "fitDetails": {
+        "pr_remit": "Yes — medical-devices PR and healthcare communications explicitly stated",
+        "sector_fit": "Healthcare / medical devices — B2B corporate-comms-heavy but outside Mark's finance core (no sector points)",
+        "workstream": "Product launch comms, media relations, HCP event communications",
+        "buyer_quality": "Agency-support / overflow brief routed through a freelance network",
+        "urgency": "Named day rate but posting dated 2026-05-20 (outside tight recency)"
+      },
+      "intentDetails": {
+        "engagement_model": "Freelance / day-rate project",
+        "remote_flex": "UK-based; HCP events may require some in-person presence — partial flex",
+        "recency": "Posted 2026-05-20 (older than 7-day window)",
+        "urgency_signals": "None explicit beyond a live day-rate brief",
+        "apply_path": "Direct — View & apply via The Work Crowd"
+      },
+      "vertical": "pr",
+      "subvertical": "comms",
+      "engagementModel": "freelance",
+      "buyerType": "agency",
+      "compensationText": "£495 – £1,030 per day",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Freelance (day rate)",
+      "urgencyScore": 30,
+      "contacts": [],
+      "signals": ["freelance", "day-rate", "healthcare-comms", "product-launch", "agency-overflow"],
+      "source": "The Work Crowd (web search)",
+      "sourceUrl": "https://theworkcrowd.com/jobs/healthcare-comms-specialist-hcp-events-freelance",
+      "notes": "Specific dated day-rate PR brief (distinct from the Work Crowd fintech network captured 6/30). Strong day rate (£495–1,030) and clear PR remit. CAVEATS: UK-based, healthcare/medical-devices sector (outside finance core), and posted 2026-05-20 so it may be filled — verify it is still live before outreach. Include as a B/C lead: real posting, real comp, real PR execution need. Pitch angle if pursued: senior freelance comms operator who can run product-launch and HCP-facing media relations end to end."
+    },
+    {
+      "name": "ICA Fund",
+      "website": "https://www.ica.fund",
+      "pipeline": "pr-freelance",
+      "industry": "Impact investment fund / CDFI backing small businesses and founders (SF/Bay Area)",
+      "location": "Hybrid (SF / Bay Area)",
+      "fundingStage": "Established impact fund / nonprofit CDFI",
+      "fitScore": 30,
+      "intentScore": 25,
+      "fitDetails": {
+        "pr_remit": "Partial — 'Chief Development & Communications Officer'; communications is a named remit but the role is development(fundraising)-led",
+        "sector_fit": "Investment fund / alternative-impact capital — buyer is a fund, but development-heavy framing (no full sector points)",
+        "workstream": "Communications strategy, executive/organizational comms, narrative",
+        "buyer_quality": "Fund buyer type — direct operating relationship, not agency overflow",
+        "urgency": "Posting dated 2026-06-07 (older); transitional-need framing"
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional (20–25 hrs/week)",
+        "remote_flex": "Hybrid, SF/Bay Area only — limited remote flex",
+        "recency": "Posted 2026-06-07 (outside 7-day window)",
+        "urgency_signals": "None explicit",
+        "apply_path": "Via Fractional Jobs intro flow"
+      },
+      "vertical": "pr",
+      "subvertical": "comms",
+      "engagementModel": "fractional",
+      "buyerType": "fund",
+      "compensationText": "Not published",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Fractional (20–25 hrs/week)",
+      "urgencyScore": 25,
+      "contacts": [],
+      "signals": ["fractional", "fund", "communications-leadership", "hybrid-sf"],
+      "source": "Fractional Jobs (fractionaljobs.io)",
+      "sourceUrl": "https://www.fractionaljobs.io/jobs/chief-development-and-communications-officer-at-ica-fund",
+      "notes": "Fractional comms-leadership seat at an impact fund (buyerType: fund). Clears the 55 threshold at the margin. CAVEATS: development(fundraising)-led rather than pure PR/media; hybrid SF/Bay-Area only (Mark is remote); posting is ~3 weeks old so likely progressing. Lowest-priority of the three — include for pipeline visibility. If pursued, position Mark on the communications half of the mandate: executive comms, narrative, media positioning."
+    }
+  ]
+}

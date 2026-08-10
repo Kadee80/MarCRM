@@ -1,0 +1,336 @@
+{
+  "scrapeDate": "2026-06-23",
+  "scrapeTime": "automated",
+  "totalLeads": 4,
+  "note": "4 new leads: 3 Grade-A pr-marketing (Chronograph $140M PE + new platform launch = 93, Ent.AI $100M stealth exit = 89, Bland AI $50M Series C = 83), 1 Grade-B pr-marketing (Interchecks $50M Series C = 74). No new legal-freelance or pr-freelance postings above threshold today. 5 signal refreshes: Respond.io at peak window (5 days post-$62.5M Series B + NA/EU expansion), Pramaana Labs fading (6 days post-announce), NewCore fading + moving to revenue, Ploy +1 (Product Hunt + customer traction), aVenture stable (verify posting still open).",
+  "newLeads": [
+    {
+      "name": "Chronograph",
+      "website": "chronograph.pe",
+      "pipeline": "pr-marketing",
+      "industry": "Fintech / Private Capital Software",
+      "location": "New York, NY",
+      "fundingStage": "Growth ($140M+ from Sixth Street Growth, June 16 2026; $160M total raised)",
+      "fitScore": 45,
+      "intentScore": 48,
+      "grade": "A",
+      "fitDetails": {
+        "industry_fintech_pe_software": 10,
+        "stage_enterprise_growth": 7,
+        "b2b_institutional_pe_lp_buyers": 10,
+        "proof_5_9T_monitored_8_of_10_largest_GPs": 10,
+        "budget_140M_PE_backed": 8,
+        "total": 45
+      },
+      "intentDetails": {
+        "trigger_140M_round_plus_new_platform_launch_simultaneously": 15,
+        "timeline_immediate_post_announcement": 10,
+        "decision_maker_ceo_charlie_tafoya_named_public": 9,
+        "urgency_private_credit_narrative_race": 10,
+        "responsiveness_prnewswire_used": 4,
+        "total": 48
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        {
+          "name": "Charlie Tafoya",
+          "title": "Co-Founder & CEO",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "$140M+ growth equity investment from Sixth Street Growth announced June 16 2026",
+        "Simultaneously launched new Private Credit Platform at announcement",
+        "Trusted by 8 of 10 largest private capital GPs and 5 of 10 largest LPs globally",
+        "Monitors $5.9 trillion in client invested capital, 15,000 funds, 258,000 portfolio companies",
+        "All existing investors (Summit Partners, Carlyle AlpInvest, Nasdaq Ventures, Sidekick) retained stakes — strong conviction signal",
+        "No dedicated PR agency visible; PRNewswire used for announcement",
+        "Funds earmarked for AI product suite expansion, private credit platform, global footprint"
+      ],
+      "source": "PRNewswire / Crunchbase / Fintech Global",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/chronograph-announces-140m-growth-equity-investment-from-sixth-street-growth-launches-private-credit-platform-302800776.html",
+      "notes": "Double trigger: massive growth round + new platform category (private credit) launched simultaneously. Private credit is the fastest-growing private markets category. Chronograph is the infrastructure layer for it. This is exactly the kind of credibility-sensitive institutional narrative that needs a strong earned media strategy — yet they have no agency. Pitch: own the private credit narrative before Allvue or iLevel does."
+    },
+    {
+      "name": "Ent.AI",
+      "website": "ent.ai",
+      "pipeline": "pr-marketing",
+      "industry": "AI / Cybersecurity / Workspace Security",
+      "location": "Santa Clara, CA",
+      "fundingStage": "Seed ($100M, emerged from stealth June 13-18 2026)",
+      "fitScore": 43,
+      "intentScore": 46,
+      "grade": "A",
+      "fitDetails": {
+        "industry_ai_cybersecurity": 9,
+        "stage_seed_enterprise_growing": 7,
+        "b2b_enterprise_security_buyers": 10,
+        "proof_ex_riskiq_ex_msft_security_copilot_tier1_investors": 9,
+        "budget_100M_seed": 8,
+        "total": 43
+      },
+      "intentDetails": {
+        "trigger_emerged_from_stealth_100M_seed": 15,
+        "timeline_immediate_first_market_moment": 10,
+        "decision_maker_founders_accessible_post_launch": 8,
+        "urgency_no_prior_pr_window_closing": 9,
+        "responsiveness_reactive_coverage_only": 4,
+        "total": 46
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        {
+          "name": "",
+          "title": "Founder (ex-RiskIQ executive — confirm via Crunchbase/LinkedIn)",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "$100M seed round raised, emerged from stealth week of June 13-18 2026",
+        "Led by Decibel Partners; Craft Ventures, Crosspoint Capital Partners, Felicis, IQT, Sequoia Capital, Shield Capital also invested",
+        "Founded by former RiskIQ executives and Microsoft Security Copilot team members",
+        "Platform analyzes user and AI-agent behavior in real time to proactively prevent cyber threats",
+        "Addresses AI-agent proliferation in enterprise — same week as NewCore (direct narrative competitor)",
+        "No dedicated PR presence at launch; covered reactively by SecurityWeek and Crunchbase"
+      ],
+      "source": "Crunchbase News (week of June 13-18 2026)",
+      "sourceUrl": "https://news.crunchbase.com/venture/biggest-funding-rounds-cybersecurity-defense-startup-ai-odyssey-leads/",
+      "notes": "NewCore launched same week with $66M on identical AI-agent security narrative. Ent.AI has $100M and stronger pedigree (MSFT Security Copilot) but no PR program. Pitch angle: if you don't own this narrative now, NewCore becomes the reference point. Identify founders via Crunchbase before outreach."
+    },
+    {
+      "name": "Bland AI",
+      "website": "bland.ai",
+      "pipeline": "pr-marketing",
+      "industry": "AI / Enterprise Voice Agents / Call Center Automation",
+      "location": "San Francisco, CA",
+      "fundingStage": "Series C ($50M, June 2026; $106M total raised)",
+      "fitScore": 42,
+      "intentScore": 41,
+      "grade": "A",
+      "fitDetails": {
+        "industry_ai_enterprise_saas": 9,
+        "stage_series_c_growth": 8,
+        "b2b_enterprise_call_center_buyers": 10,
+        "proof_yc_max_levchin_enterprise_traction": 8,
+        "budget_50M_raise_106M_total": 7,
+        "total": 42
+      },
+      "intentDetails": {
+        "trigger_series_c_raise_plus_ai_call_center_wave": 15,
+        "timeline_scaling_post_c_immediate": 8,
+        "decision_maker_sf_founders_growth_mode": 7,
+        "urgency_crowded_space_vapi_elevenlabs_retell": 8,
+        "responsiveness_multiple_outlets_covered": 3,
+        "total": 41
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        {
+          "name": "",
+          "title": "Founder/CEO (confirm via Crunchbase/LinkedIn)",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "$50M Series C raised, led by Dell Technologies Capital",
+        "Investors: Y Combinator, Scale Venture Partners, Max Levchin (Affirm founder), Archerman Capital, Tribeca Venture Partners",
+        "$106M total raised to date",
+        "AI-powered voice agents automate inbound and outbound enterprise phone conversations",
+        "Direct competitors: Vapi, ElevenLabs Conversational AI, Retell AI — narrative positioning race underway",
+        "Category narrative: 'AI replacing call centers' — first credible mover wins the story"
+      ],
+      "source": "Crunchbase News (week of June 13-18 2026)",
+      "sourceUrl": "https://news.crunchbase.com/venture/biggest-funding-rounds-cybersecurity-defense-startup-ai-odyssey-leads/",
+      "notes": "Series C in competitive space = positioning-critical moment. The 'AI replaces call centers' narrative is being written right now. Bland AI has the credibility (YC, Levchin) but needs a PR program to own the category story before Vapi or Retell does."
+    },
+    {
+      "name": "Interchecks",
+      "website": "interchecks.com",
+      "pipeline": "pr-marketing",
+      "industry": "Fintech / Payments Infrastructure",
+      "location": "Brooklyn, NY",
+      "fundingStage": "Series C ($50M, June 2026; ~$79M total raised)",
+      "fitScore": 39,
+      "intentScore": 35,
+      "grade": "B",
+      "fitDetails": {
+        "industry_fintech_payments_b2b": 9,
+        "stage_series_c": 7,
+        "b2b_payments_infrastructure_buyers": 10,
+        "proof_api_payment_volume_traction": 7,
+        "budget_50M_raise": 6,
+        "total": 39
+      },
+      "intentDetails": {
+        "trigger_series_c_payments_expansion": 12,
+        "timeline_scaling_post_raise": 7,
+        "decision_maker_brooklyn_founders": 6,
+        "urgency_differentiation_in_crowded_fintech_payments": 7,
+        "responsiveness_crunchbase_covered": 3,
+        "total": 35
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        {
+          "name": "",
+          "title": "Founder/CEO (confirm via Crunchbase)",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "signals": [
+        "$50M Series C raised; investors include Bettor Capital, Commerce Ventures, Decades Holdings, Thayer Street Partners",
+        "~$79M total raised to date",
+        "Payments platform: single API for deposits and payouts for businesses",
+        "B2B payments infrastructure, enterprise focus"
+      ],
+      "source": "Crunchbase News (week of June 13-18 2026)",
+      "sourceUrl": "https://news.crunchbase.com/venture/biggest-funding-rounds-cybersecurity-defense-startup-ai-odyssey-leads/",
+      "notes": "Lowest scorer of today's batch (74). Include as outreach candidate but deprioritize relative to Chronograph, Ent.AI, and Bland AI. Research founders before any outreach."
+    }
+  ],
+  "signalRefreshes": [
+    {
+      "name": "Respond.io",
+      "pipeline": "pr-marketing",
+      "previousFitScore": 43,
+      "previousIntentScore": 48,
+      "newFitScore": 43,
+      "newIntentScore": 48,
+      "scoreDelta": 0,
+      "windowStatus": "PEAK — act now",
+      "newSignals": [
+        "$62.5M Series B officially closed June 16 2026, led by Camber Partners + Endeavor Catalyst",
+        "Explicitly entering North America and Europe — first US expansion push ever",
+        "M&A strategy announced as part of capital deployment",
+        "ARR $35M, 169% YoY growth, 30% profit margin — entering from position of strength",
+        "2 billion messages/quarter, 10,000+ customers in 180+ countries"
+      ],
+      "recommendedAction": "Outreach TODAY — 5 business days post-announcement. Pitch: NA/EU expansion is the hardest PR market for a Malaysia-based company. You need the right story before the US press decides it for you."
+    },
+    {
+      "name": "Pramaana Labs",
+      "pipeline": "pr-marketing",
+      "previousFitScore": 44,
+      "previousIntentScore": 47,
+      "newFitScore": 44,
+      "newIntentScore": 47,
+      "scoreDelta": 0,
+      "windowStatus": "FADING — 7-10 days remaining",
+      "newSignals": [
+        "$27M seed announced June 17 — 6 days old as of today",
+        "Inaugural Verification Summit held June 10 in San Francisco (Vinod Khosla keynoted)",
+        "Press wave: TechCrunch, Yahoo Finance, The Next Web, finsmes, KuCoin, Crypto Briefing, aiweekly.co",
+        "Focus verticals: law, drug discovery, tax preparation — high-stakes, credibility-sensitive"
+      ],
+      "recommendedAction": "Outreach this week before press wave fades. Pitch: you hosted Khosla at the Verification Summit — now build the vertical authority (law, pharma, tax) narrative across the next 90 days."
+    },
+    {
+      "name": "NewCore",
+      "pipeline": "pr-marketing",
+      "previousFitScore": 42,
+      "previousIntentScore": 48,
+      "newFitScore": 42,
+      "newIntentScore": 48,
+      "scoreDelta": 0,
+      "windowStatus": "FADING — moving to revenue, outreach by Friday",
+      "newSignals": [
+        "Demonstrated platform at Identiverse conference Las Vegas, June 15-18 — active enterprise sales motion",
+        "Media coverage expanded: SecurityWeek, TechCrunch, Ynetnews, GovInfoSecurity, Ground.news, Pulse 2.0",
+        "Moving from design partners to paying customers this summer",
+        "Fewer than 10 customers + 10 design partners — proof-points thin but story is huge"
+      ],
+      "recommendedAction": "Outreach by end of this week. Moving to revenue = the hardest PR moment. Pitch: the proof points are thin but the story is huge — let's bridge them."
+    },
+    {
+      "name": "Ploy",
+      "pipeline": "pr-marketing",
+      "previousFitScore": 38,
+      "previousIntentScore": 48,
+      "newFitScore": 38,
+      "newIntentScore": 49,
+      "scoreDelta": 1,
+      "windowStatus": "STILL FRESH — no rush but don't let it go cold",
+      "newSignals": [
+        "Launched on Product Hunt June 18 — #14 of the day, 117 upvotes",
+        "Founder Grey Baker (Sourcegraph) publicly endorsing on X/Twitter",
+        "Named customers confirmed: Hex (enterprise ABM), Clay (programmatic SEO), Tonik, TNT Growth (50+ clients)",
+        "Answer Engine Optimization (AEO) now a named product category — emerging positioning opportunity"
+      ],
+      "recommendedAction": "Still in press cycle. Approach with AEO category angle: position Ploy as the company that defined Answer Engine Optimization before anyone else."
+    },
+    {
+      "name": "aVenture",
+      "pipeline": "legal-freelance",
+      "previousFitScore": 48,
+      "previousIntentScore": 48,
+      "newFitScore": 48,
+      "newIntentScore": 48,
+      "scoreDelta": 0,
+      "windowStatus": "VERIFY POSTING STATUS",
+      "newSignals": [
+        "No new signals found. Posting was live as of June 18 on Gusto/Indeed."
+      ],
+      "recommendedAction": "Verify posting is still open: https://jobs.gusto.com/postings/aventure-investment-company-venture-capital-fund-attorney-6ade1aa1-d8c3-4622-b95d-f856899b023a"
+    }
+  ],
+  "skippedLeads": [
+    {"name": "Rogo", "reason": "Series D announced April 2026 — too old, window likely closed"},
+    {"name": "Hightouch", "reason": "Series D announced April 2026 — too old"},
+    {"name": "Odyssey", "reason": "AI world models — consumer/research, not agency ICP"},
+    {"name": "Hydra Host", "reason": "GPU infrastructure — not PR/legal/fund ICP"},
+    {"name": "Twenty Technologies", "reason": "Defense/military — not agency ICP"},
+    {"name": "Atom Computing", "reason": "Quantum computing — not ICP"},
+    {"name": "Triveni Bio", "reason": "Biotech — not ICP"},
+    {"name": "AttoTude", "reason": "Semiconductor interconnect — not ICP"},
+    {"name": "Radical Numerics", "reason": "AI biotech drug discovery — not ICP"},
+    {"name": "Latitude Legal Investment Funds posting", "reason": "Confirmed CLOSED (6 months old on Jobright.ai)"}
+  ],
+  "pipelineStatus": {
+    "pr-marketing": "4 new leads (all Grade A or B); 5 signal refreshes active",
+    "pr-freelance": "No qualifying new postings above 40 threshold today",
+    "legal-freelance": "No qualifying new postings above 40 threshold today; aVenture posting needs verification",
+    "fund-formation": "No new leads",
+    "legal-consulting": "No new leads",
+    "coaching-ops": "No new leads",
+    "media": "No new leads",
+    "ai-consulting": "No new leads"
+  },
+  "trends": [
+    "AI-security is the dominant stealth-to-emergence category: two companies (NewCore, Ent.AI) launched from stealth in the same June 13-18 window with $66M and $100M respectively",
+    "Private capital software (Chronograph) is getting PR-conscious but still lacks standing agency relationships",
+    "AI voice agents hitting Series C = category maturation, narrative differentiation race beginning",
+    "Post-raise + new product launch combos (Chronograph) are the highest-quality triggers of this cycle"
+  ]
+}

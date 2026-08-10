@@ -1,0 +1,193 @@
+{
+  "scrapeDate": "2026-08-04",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 5,
+  "note": "7-day window across Indeed, ZipRecruiter, Glassdoor, JobLeads, LOD/Consilio, Go Fractional, and ACC Jobline via web search (no direct LinkedIn scraping). Deduped against recent legal-freelance and pr-freelance reports (Allocate, Axiom, Arootah, Robert Half, MLA, Lawyers on Demand/LOD, Latitude Legal, Next Era Legal, Uncommon Counsel, AMBART, Epiq, Peerpoint, Lawtrades, etc. excluded). Only leads scoring 55+ retained. LOD's new remote Commercial Contracts Attorney posting was excluded as a company duplicate. NextGrad (Go Fractional) fractional GC gig was found closed; OneRail's live fractional role captured instead.",
+  "leads": [
+    {
+      "name": "Tower Legal Solutions",
+      "website": "https://www.towerls.com",
+      "pipeline": "legal-freelance",
+      "industry": "Legal staffing / ALSP",
+      "location": "New York, NY",
+      "fundingStage": "",
+      "fitScore": 50,
+      "intentScore": 25,
+      "fitDetails": {
+        "practice_area": "Private funds — side letter agreements, feeder fund formation documents, fund compliance/lifecycle",
+        "seniority": "Attorney-level (Staff Attorney) doing substantive fund drafting/negotiation",
+        "comp_credible": "Yes — $80-120/hr DOE",
+        "fund_focus": "High — core private funds workstream"
+      },
+      "intentDetails": {
+        "engagement_model": "Temporary / contract staffing",
+        "remote_flex": "On-site NY (remote NY-barred variants also open)",
+        "recency": "Posted ~5 days ago (within 7-day window)",
+        "apply_path": "Direct via JobLeads / Tower Legal Solutions — early applicant"
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "contract",
+      "buyerType": "staffing",
+      "compensationText": "$80-120 per hour, depending on experience",
+      "remoteFlag": "onsite",
+      "employmentTypeRaw": "Part time / Temporary (Staff Attorney)",
+      "urgencyScore": 70,
+      "contacts": [
+        { "name": "", "title": "Legal Recruiting / Attorney Placement", "email": "", "linkedin": "https://www.linkedin.com/company/tower-legal-solutions/" }
+      ],
+      "signals": ["private funds", "fund side letters", "feeder fund formation", "temporary/contract", "immediate need", "NY bar"],
+      "source": "JobLeads (Tower Legal Solutions)",
+      "sourceUrl": "https://www.jobleads.com/us/job/private-funds-contract-attorney-temporary--new-york--ed8a159e69fa3c5b3d67db0e759e12bc9",
+      "notes": "Strongest fund-fit lead of the run. Temp staffing engagement drafting fund side letters and feeder fund formation docs. Primary posting is on-site NY, but Tower has parallel REMOTE NY-barred private funds contract roles open (https://www.jobleads.com/us/job/remote-ny-licensed-contract-attorney-private-funds--united-states--e89ed9ccb423feafaa213bcc01a75d89c). Tower is a legal staffing firm worth being on the roster for recurring fund work. Distinguish employment type (temp W-2 staffing) from Katie's preferred independent/fractional model when pitching."
+    },
+    {
+      "name": "Fractionus",
+      "website": "",
+      "pipeline": "legal-freelance",
+      "industry": "EdTech / K-12 SaaS (via fractional talent platform)",
+      "location": "New York, NY (Remote)",
+      "fundingStage": "Growth-stage SaaS",
+      "fitScore": 30,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Commercial contracts — building a K-12 sales commercial legal layer",
+        "seniority": "Fractional General Counsel level",
+        "comp_credible": "Yes — $250-350/hr",
+        "fund_focus": "None (operating-company commercial/GC work)"
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional GC, path to full-time as company scales",
+        "remote_flex": "Remote",
+        "recency": "Live in current job index (age not stated)",
+        "apply_path": "Direct via JobLeads listing"
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "$250-350 per hour; potential for full-time as the company scales",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional / contract (remote)",
+      "urgencyScore": 65,
+      "contacts": [
+        { "name": "", "title": "Hiring Manager", "email": "", "linkedin": "" }
+      ],
+      "signals": ["fractional general counsel", "remote", "commercial contracts", "$250-350/hr", "build legal function", "path to FT"],
+      "source": "JobLeads (Fractionus)",
+      "sourceUrl": "https://www.jobleads.com/us/job/remote-fractional-general-counsel-edtech-k-12-contracts--new-york--effbaf6798ea3808bdf1e461350959a31",
+      "notes": "High hourly rate ($250-350) for a fractional GC building the commercial legal layer for K-12 sales at an EdTech SaaS company. Clean fit for Katie's fractional/high-judgment corporate-commercial positioning. No fund angle, but strong rate + remote + fractional. Pitch: senior operator who can stand up contract playbooks and vendor/customer paper without a full-time hire."
+    },
+    {
+      "name": "OneRail",
+      "website": "https://www.onerail.com",
+      "pipeline": "legal-freelance",
+      "industry": "Logistics / last-mile delivery SaaS",
+      "location": "Remote (US)",
+      "fundingStage": "Growth / VC-backed",
+      "fitScore": 30,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Commercial contracts / commercial counsel",
+        "seniority": "Counsel / GC level (fractional)",
+        "comp_credible": "Yes — $150-200/hr",
+        "fund_focus": "None (operating-company commercial work)"
+      },
+      "intentDetails": {
+        "engagement_model": "Fractional / part-time commercial counsel",
+        "remote_flex": "Remote",
+        "recency": "Live on Go Fractional job board",
+        "apply_path": "Go Fractional marketplace (apply / interview this week)"
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "fractional",
+      "buyerType": "portfolio-company",
+      "compensationText": "$150-200 per hour",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional / part-time (commercial counsel)",
+      "urgencyScore": 55,
+      "contacts": [
+        { "name": "", "title": "Go Fractional / OneRail hiring", "email": "hello@gofractional.com", "linkedin": "https://www.linkedin.com/company/onerail/" }
+      ],
+      "signals": ["fractional commercial counsel", "remote", "part-time", "$150-200/hr", "growth-stage SaaS"],
+      "source": "Go Fractional (OneRail)",
+      "sourceUrl": "https://www.gofractional.com/job/one-rail-australia-commercial-counsel-part-time",
+      "notes": "Live fractional commercial counsel role at a growth-stage logistics SaaS, posted through Go Fractional. Remote, part-time, credible rate. Good template engagement for Katie's fractional commercial-contracts positioning."
+    },
+    {
+      "name": "aVenture",
+      "website": "https://aventure.vc",
+      "pipeline": "legal-freelance",
+      "industry": "Venture capital data / VC tech",
+      "location": "Remote (San Francisco, CA)",
+      "fundingStage": "Early-stage startup",
+      "fitScore": 40,
+      "intentScore": 25,
+      "fitDetails": {
+        "practice_area": "Venture capital fund / investment counsel",
+        "seniority": "Fund attorney / counsel level",
+        "comp_credible": "Not stated",
+        "fund_focus": "High — VC fund / investment work"
+      },
+      "intentDetails": {
+        "engagement_model": "Unverified — may be FT in-house vs. contract (needs confirmation)",
+        "remote_flex": "Remote",
+        "recency": "Live on Glassdoor",
+        "apply_path": "Glassdoor / direct"
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "contract",
+      "buyerType": "fund",
+      "compensationText": "",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Venture Capital Fund Attorney (remote)",
+      "urgencyScore": 45,
+      "contacts": [
+        { "name": "", "title": "Hiring / Talent", "email": "", "linkedin": "https://www.linkedin.com/company/aventure-vc/" }
+      ],
+      "signals": ["venture capital fund attorney", "remote", "fund focus"],
+      "source": "Glassdoor (aVenture)",
+      "sourceUrl": "https://www.glassdoor.com/job-listing/venture-capital-fund-attorney-aventure-JV_KO0,29_KE30,38.htm?jl=1008239968893",
+      "notes": "WATCHLIST / VERIFY. Fund-focused and remote, but engagement model is unconfirmed — could be a full-time in-house role rather than contract/fractional. Worth a look because the fund thesis fits; confirm it's project/fractional before investing pitch effort."
+    },
+    {
+      "name": "Go Fractional",
+      "website": "https://www.gofractional.com",
+      "pipeline": "legal-freelance",
+      "industry": "Fractional executive / legal talent marketplace",
+      "location": "Remote (US)",
+      "fundingStage": "",
+      "fitScore": 20,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Fractional legal / GC / commercial counsel placements",
+        "seniority": "GC / counsel level roles",
+        "comp_credible": "Varies — recent legal roles $50-260/hr",
+        "fund_focus": "None directly (channel to many corporate/commercial gigs)"
+      },
+      "intentDetails": {
+        "engagement_model": "Marketplace / fractional channel",
+        "remote_flex": "Remote-first",
+        "recency": "Active legal job board",
+        "apply_path": "Join talent roster / apply to live roles"
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "ALSP",
+      "compensationText": "Recent legal roles listed $50-260/hr (OneRail, Hyundai, Motorola, Trainline)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional talent marketplace",
+      "urgencyScore": 50,
+      "contacts": [
+        { "name": "", "title": "Talent / Membership", "email": "hello@gofractional.com", "linkedin": "https://www.linkedin.com/company/gofractional" }
+      ],
+      "signals": ["fractional legal marketplace", "multiple live GC/commercial counsel roles", "remote-first", "recurring gig channel"],
+      "source": "Go Fractional",
+      "sourceUrl": "https://www.gofractional.com/jobs/legal",
+      "notes": "CHANNEL, not a single buyer. Marketplace placing fractional legal talent — currently listing fractional/interim commercial counsel and GC roles (OneRail, Hyundai, Motorola Solutions, Trainline). Recommend Katie join the talent roster to get recurring fractional legal gigs routed to her rather than pitching a single role."
+    }
+  ]
+}

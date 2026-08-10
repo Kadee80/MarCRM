@@ -1,0 +1,138 @@
+{
+  "scrapeDate": "2026-07-24",
+  "totalLeads": 3,
+  "note": "Friday scrape. Discovery this cycle was dominated by AI/robotics/biotech megarounds (Glow $180M, CuspAI $450M, Databricks, Wonder, Humanoid) that are poor fits for a 6-person boutique — those companies retain top-tier tech PR firms, so they were suppressed on the budget/decision-maker axis. Net-new leads favor boutique-appropriate size and clear trigger events. 3 net-new named leads: Arrakis (industrial AI, out of stealth + $38M, Jul 22) and Cascade (AEC construction AI, $3.5M seed, a16z Speedrun, Jul 21) route to pr-marketing on fresh in-window launch/funding triggers; aVenture (SF fintech, fund-formation attorney) routes to legal-freelance. Freelance job boards surfaced almost entirely already-captured leads (Hayden Industrial, ACC #54004, Latitude Legal, Tower Legal, GoFractional/Work Crowd marketplaces) — all deduped or suppressed. Signal-refreshed the top hot leads from 7/20-7/22 reports: Neo and Augustus have material new signals; others in-window with no change. Deduped against daily/pr-freelance/legal-freelance reports back to 2026-07-02. Weekday run.",
+  "leads": [
+    {
+      "name": "Cascade",
+      "website": "https://usecascade.ai/",
+      "pipeline": "pr-marketing",
+      "industry": "AEC construction-tech / vertical AI — 'Pursuit Hub' predicts upcoming architecture, engineering & construction projects before they go to tender by reading public signals (bond filings, permits, grants, capital plans) so AEC firms can pursue work months ahead of the RFP.",
+      "location": "New York, NY, US",
+      "fundingStage": "Seed — $3.5M led by Andreessen Horowitz Speedrun (a16z), announced Jul 21, 2026",
+      "fitScore": 39,
+      "intentScore": 37,
+      "fitDetails": {
+        "industryMatchFSTech": 6,
+        "stageSize": 9,
+        "b2bBuyerSalesMotion": 9,
+        "proofAssets": 9,
+        "budget5k25kMo": 6
+      },
+      "intentDetails": {
+        "triggerPresent": 13,
+        "timelineToStart": 8,
+        "decisionMakerEngaged": 6,
+        "urgencyPain": 7,
+        "responsiveness": 3
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "Hannia Zia", "title": "Co-Founder & CEO (ex-Google)", "email": "", "linkedin": "" },
+        { "name": "Joana Ferreira", "title": "Co-Founder (ex-Google / UnlikelyAI)", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "Raised $3.5M seed led by a16z Speedrun, announced Jul 21, 2026 (covered by TechCrunch, GlobeNewswire, The Next Web)",
+        "Founders are two ex-Google operators who met at UnlikelyAI (startup by the inventor of Amazon Alexa) — a story-friendly origin",
+        "Early marquee AEC customers whose work spans JFK, LaGuardia, data centers and nuclear reactors — credible proof/logo reveals",
+        "Category-defining 'predict projects before the RFP' narrative in a traditionally low-tech industry — strong earned-media hook"
+      ],
+      "source": "WebSearch — Cascade seed funding coverage (TechCrunch, GlobeNewswire, The Next Web, Tech.eu, citybiz)",
+      "sourceUrl": "https://techcrunch.com/2026/07/22/cascade-raises-3-5m-to-help-construction-firms-find-and-win-projects/",
+      "notes": "Grade B (76). Fresh, in-window seed + launch (Jul 21). Best boutique-fit of the week: seed-stage size means a $5-25k/mo retainer is realistic (unlike the megaround unicorns), founder-led so decision-maker is reachable, and the 'AI predicts construction projects before they exist' story plus marquee JFK/LaGuardia/data-center logos are genuinely earned-media-ready. Scored down on industry (AEC, not core FS/tech) and budget certainty (seed, cash-conscious). ACTION: pitch a launch-momentum + thought-leadership program (founder narrative, category-creation POV, customer proof stories, tier-1 trade + business press). Qualify budget and who owns comms early. Confirm website usecascade.ai before outreach."
+    },
+    {
+      "name": "Arrakis Technologies",
+      "website": "https://www.arrakis.tech/",
+      "pipeline": "pr-marketing",
+      "industry": "Industrial AI — an AI 'operating system' that deploys governed AI agents into mission-critical operational workflows for aerospace, energy, logistics, manufacturing, construction and telecoms.",
+      "location": "London, UK (and Paris)",
+      "fundingStage": "Series A — $30M led by Blossom Capital (Accel, GFC, MainObject, Rerail participating), on top of a $7.5M Accel seed; ~$38M total, $140M post-money. Emerged from stealth Jul 22, 2026.",
+      "fitScore": 39,
+      "intentScore": 34,
+      "fitDetails": {
+        "industryMatchFSTech": 7,
+        "stageSize": 8,
+        "b2bBuyerSalesMotion": 10,
+        "proofAssets": 9,
+        "budget5k25kMo": 5
+      },
+      "intentDetails": {
+        "triggerPresent": 13,
+        "timelineToStart": 8,
+        "decisionMakerEngaged": 5,
+        "urgencyPain": 6,
+        "responsiveness": 2
+      },
+      "vertical": "",
+      "subvertical": "",
+      "engagementModel": "",
+      "buyerType": "",
+      "compensationText": "",
+      "remoteFlag": "",
+      "employmentTypeRaw": "",
+      "urgencyScore": 0,
+      "contacts": [
+        { "name": "Rafael Quintanilla", "title": "Co-Founder & CEO (ex-Accel VP)", "email": "", "linkedin": "" },
+        { "name": "", "title": "Head of Marketing / Communications", "email": "", "linkedin": "" }
+      ],
+      "signals": [
+        "Emerged from stealth with $38M and a $30M Series A led by Blossom Capital, announced Jul 22, 2026 (Fortune exclusive, TechCrunch, The Next Web)",
+        "Founding team from Palantir, Revolut, Delivery Hero, Datadog and ASML — credibility-rich narrative",
+        "Angel backers include Datadog CEO Olivier Pomel and OpenAI head of business products Olivier Godement",
+        "'Industrial AI's last-mile' thesis with named investor (Accel) POV published — active narrative moment worth amplifying"
+      ],
+      "source": "WebSearch — Arrakis stealth-emergence coverage (Fortune, TechCrunch, The Next Web, Accel, Tech.eu)",
+      "sourceUrl": "https://fortune.com/2026/07/22/arrakis-a-startup-betting-ais-biggest-payoff-is-in-industrial-sectors-not-office-work-emerges-from-stealth-with-38-million-in-venture-funding/",
+      "notes": "Grade B (73). Fresh stealth-emergence + Series A (Jul 22) with a story-rich founder/backer roster. Strong enterprise B2B motion and proof assets. Scored down on budget (a well-funded AI startup with Accel/Blossom likely engages a larger tech-PR firm) and decision-maker access (unknown; UK/Paris-based). ACTION: pitch a post-launch earned-media + thought-leadership sprint around the 'industrial AI last-mile / AI agents that execute in the real world' narrative and sector proof (aerospace, energy, logistics). Realistic as fractional/advisory support or overflow rather than lead agency. CAVEAT: UK/EU HQ — confirm US-market comms need and budget appetite."
+    },
+    {
+      "name": "aVenture — Venture Capital Fund Attorney (Remote Contract, fund formation)",
+      "website": "https://aventure.vc/",
+      "pipeline": "legal-freelance",
+      "industry": "Fintech platform giving ordinary investors access to venture capital funds. Hiring a fund/regulatory attorney to set up VC funds and handle compliance: entity formation, open/closed-end fund structuring across jurisdictions, subscription agreements, side letters, and contracts with fund administrators/custodians.",
+      "location": "San Francisco, CA, US (remote — worldwide; ≥4 hrs US Pacific overlap/weekday)",
+      "fundingStage": "Privately held fintech; small global team",
+      "fitScore": 50,
+      "intentScore": 28,
+      "fitDetails": {
+        "fundPrivateFunds": 20,
+        "corporateCommercialMASecurities": 10,
+        "seniorityMatch": 10,
+        "compStatedCredible": 10
+      },
+      "intentDetails": {
+        "engagementModel": 8,
+        "remoteHybridFlex": 15,
+        "postedWithin72h": 0,
+        "easyApplyDirectPath": 5
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "contract",
+      "buyerType": "fintech",
+      "compensationText": "$80K–$120K (employer-provided range)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Remote (worldwide, WFH); ≥4 hrs US Pacific availability per weekday; $80K–$120K",
+      "urgencyScore": 40,
+      "contacts": [
+        { "name": "", "title": "Hiring / Legal (aVenture)", "email": "", "linkedin": "https://www.linkedin.com/jobs/view/venture-capital-fund-attorney-at-aventure-startup-investing-funds-3387960195" }
+      ],
+      "signals": [
+        "Open req for a Venture Capital Fund Attorney: fund formation/structuring, subscription agreements, side letters, service-provider contracts — core fund-formation workstream",
+        "Fully remote (worldwide) with flexible Pacific-time overlap — flexible engagement structure",
+        "Fintech buyer at the intersection of VC/private funds and compliance — high practice-area fit for Mark's legal-freelance ICP"
+      ],
+      "source": "WebSearch — aVenture 'Venture Capital Fund Attorney' listing (Glassdoor, LinkedIn Jobs)",
+      "sourceUrl": "https://www.glassdoor.com/job-listing/venture-capital-fund-attorney-aventure-JV_KO0,29_KE30,38.htm?jl=1008239968893",
+      "notes": "Grade B (78). Perfect practice-area fit — fund formation + structuring + subscription agreements/side letters + stated, market-credible comp — so Fit maxes at 50. Intent held back because engagement type is ambiguous (comp is quoted as a salary range, which reads more like a flexible-remote employee role than a clean 1099 freelance engagement) and, importantly, RECENCY IS UNVERIFIED: the LinkedIn job ID is an old-format identifier and the listing may be evergreen/re-indexed rather than posted in the last 72h — hence postedWithin72h scored 0. ACTION: verify the posting is live and confirm whether it's contract/fractional vs. FTE before pitching; if contract/fractional, this is a strong direct pitch (fund-formation specialist, flexible remote). employmentTypeRaw kept distinct from engagementModel per taxonomy."
+    }
+  ]
+}

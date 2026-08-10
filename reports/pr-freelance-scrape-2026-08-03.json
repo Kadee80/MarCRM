@@ -1,0 +1,86 @@
+{
+  "scrapeDate": "2026-08-03",
+  "scrapeType": "pr-freelance",
+  "totalLeads": 2,
+  "note": "Enhanced PR Freelance scrape, 7-day window. Thin fresh yield this run: most qualifying postings surfaced were either already captured in prior scrapes (Neolytix, Four Pines, ZY Media, PagerDuty, Hanson Search, Wilson PR, 10to1, The Work Crowd, etc.) or stale/closed (Pace Communications removed Mar 16 2026; FCCP consultant deadline Oct 1 2025). Two genuinely fresh, currently-live, distinct leads included below. Both scored 55+. Torry Harris is the cleaner actionable lead; Thumbtack is included with a caveat — its stated engagement window (Jan–Jul 2026) has elapsed as of the scrape date though the posting remains live, so treat as speculative/extension outreach only.",
+  "leads": [
+    {
+      "name": "Torry Harris Integration Solutions — Freelance PR & Communications Manager (B2B Enterprise SaaS)",
+      "website": "https://www.torryharris.com",
+      "pipeline": "pr-freelance",
+      "industry": "B2B enterprise integration, API strategy and SaaS marketplace platform provider (founded 1998, HQ New Jersey; 20+ yrs delivering IT/API solutions to enterprises worldwide). Hiring a freelance PR & Communications Manager to run B2B tech earned media and messaging for its Enterprise SaaS marketplace platform.",
+      "location": "Remote (US)",
+      "fundingStage": "Established private company",
+      "fitScore": 45,
+      "intentScore": 30,
+      "fitDetails": {
+        "pr_remit": "+20 — explicit PR / communications manager remit (media relations, product PR, thought leadership for enterprise SaaS)",
+        "sector_fit": "+15 — B2B / Enterprise SaaS, a core ICP vertical",
+        "workstream": "+10 — B2B tech media relations, product-launch comms, thought leadership",
+        "buyer_quality": "+0 — operating company hiring direct (not agency overflow/white-label)",
+        "urgency": "included in intent"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — true freelance / 1099 engagement",
+        "remote_flex": "+10 — 100% remote, 15–20 hrs/week part-time",
+        "recency": "+0 — cannot confirm posted within 72h",
+        "urgency_signals": "+0 — no explicit ASAP/backfill language",
+        "apply_path": "+5 — direct apply path via JobLeads / LinkedIn"
+      },
+      "vertical": "pr",
+      "subvertical": "media-relations",
+      "engagementModel": "freelance",
+      "buyerType": "operating-company",
+      "compensationText": "$40–$50/hour, 15–20 hours/week",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Freelance / 1099 (100% remote); 5–8+ yrs B2B Tech PR, Enterprise SaaS",
+      "urgencyScore": 65,
+      "contacts": [
+        { "name": null, "title": "Recruiting / Talent (apply via posting)", "email": null, "linkedin": "https://www.linkedin.com/company/torry-harris-integration-solutions" }
+      ],
+      "signals": ["freelance", "1099", "remote", "part-time", "B2B enterprise SaaS", "media relations", "thought leadership"],
+      "source": "Web search — JobLeads / LinkedIn (Torry Harris Integration Solutions), Aug 2026",
+      "sourceUrl": "https://www.jobleads.com/us/job/remote-us-pr-communications-lead-b2b-saas--united-states--e1a17fc71561786e886eecd8d3421d945",
+      "notes": "Grade B (combined 75). Cleanest fresh lead of the run. Direct B2B/Enterprise SaaS operating company hiring a true freelance PR manager, 100% remote, part-time — exactly Mark's plug-in-fast, strategic+executional model. Rate ($40–50/hr) is modest vs. Mark's senior level, so pitch scope-based value (media placements, launch narratives) rather than hours. ACTION: apply directly; lead with enterprise-tech/B2B media wins and a product-launch + thought-leadership sample plan."
+    },
+    {
+      "name": "Thumbtack — Senior Manager, Public Relations (Part-Time Contract)",
+      "website": "https://www.thumbtack.com",
+      "pipeline": "pr-freelance",
+      "industry": "Consumer home-services marketplace app connecting homeowners with 300k+ local service businesses. Role sits in the Brand & Comms org, working alongside a retained agency: corporate + consumer PR, product-launch and data storytelling, executive visibility / thought leadership, and narrative development for new C-suite hires.",
+      "location": "Remote (US)",
+      "fundingStage": "Late-stage / pre-IPO venture-backed tech",
+      "fitScore": 35,
+      "intentScore": 30,
+      "fitDetails": {
+        "pr_remit": "+20 — senior PR/communications role, media outreach + narrative",
+        "sector_fit": "+0 — consumer tech marketplace, not a core finance/legal/PE/B2B vertical",
+        "workstream": "+10 — executive thought leadership, corporate comms, earned storytelling",
+        "buyer_quality": "+5 — manages agency relationship / immediate ~20hr-week need",
+        "urgency": "included in intent"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — part-time contract, U.S. independent contractor (1099)",
+        "remote_flex": "+10 — 100% remote, ~20 hrs/week, flexible/roll-over hours",
+        "recency": "+0 — cannot confirm posted within 72h",
+        "urgency_signals": "+0 — stated engagement window (Jan–Jul 2026) has ELAPSED as of scrape date",
+        "apply_path": "+5 — direct Greenhouse apply path"
+      },
+      "vertical": "pr",
+      "subvertical": "executive-comms",
+      "engagementModel": "contract",
+      "buyerType": "pre-ipo",
+      "compensationText": "$120–$130/hour; ~20 hours/week; not eligible for company benefits",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Part-time contract / U.S. independent contractor (posting states Jan–Jul 2026 window; 7–10+ yrs PR)",
+      "urgencyScore": 30,
+      "contacts": [
+        { "name": null, "title": "Recruiting Ops (general HR/accommodations inbox — not the application path)", "email": "recruitingops@thumbtack.com", "linkedin": "https://www.linkedin.com/company/thumbtack" }
+      ],
+      "signals": ["contract", "1099", "remote", "part-time", "$120-130/hr", "executive thought leadership", "agency management", "window-elapsed"],
+      "source": "Web fetch — Greenhouse (Thumbtack), Aug 2026",
+      "sourceUrl": "https://job-boards.greenhouse.io/thumbtack/jobs/7449537",
+      "notes": "Grade B (combined 65) but CAVEAT: the posting's stated contract window is Jan–Jul 2026, which has elapsed as of 2026-08-03; the Greenhouse listing is still live. Excellent rate ($120–130/hr) and senior scope (agency management, exec thought leadership) make it worth a speculative note in case they extend or re-post. ACTION: send a short 'saw the SM PR contract — are you extending or re-opening?' outreach rather than a cold formal application; if re-opened, strong senior fit despite non-finance sector."
+    }
+  ]
+}
