@@ -1,0 +1,119 @@
+{
+  "scrapeDate": "2026-08-11",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 3,
+  "note": "7-day window. 3 fresh leads clearing the 55+ threshold after dedup against prior legal-freelance and pr-freelance reports. Many strong-fit results this cycle were already captured (Major Lindsey & Africa interim fund formation, Fractionus EdTech GC, Latitude Legal, Allocate, aVenture, Larson Maddox) and were excluded. Shulman Rogers 'Startup & VC Counsel' scored 45 (permanent associate hire, low freelance intent) and was excluded per the 55+ rule. Quality over quantity per skill spec.",
+  "leads": [
+    {
+      "name": "Ropes & Gray (Asset Management Group) — Funds Attorney (Remote, Hourly Flex)",
+      "website": "https://www.ropesgrayrecruiting.com/en/life-at-ropes-and-gray/positions/funds-attorney-asset-management-group-remote",
+      "pipeline": "legal-freelance",
+      "industry": "AmLaw-elite firm's dedicated Asset Management Group runs a standing bench of 20+ funds attorneys (5-20 yrs experience) who work 100% remotely on an hourly, billable basis with no firm benefits — a true flexible/contract model embedded inside a top private-funds practice. Work is specialized fund investment transactions on behalf of institutional investor clients (LP-side fund investments, private equity/asset management transactional work). Open to attorneys from asset management, securities, tax, PE, and litigation backgrounds willing to be retooled into funds work.",
+      "location": "Remote (US; bar admission in a Ropes office state, physical presence not required)",
+      "fundingStage": "Established AmLaw-elite firm (flexible funds-attorney program)",
+      "fitScore": 40,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Private funds / asset management / LP-side fund investment transactions",
+        "seniority": "Counsel-level (5-20 yrs funds experience sought)",
+        "comp_credible": "Hourly billable, but no dollar figure stated in posting",
+        "fund_focus": "Direct core-ICP fit — private funds / investment management"
+      },
+      "intentDetails": {
+        "engagement_model": "Hourly, billable, no benefits = flexible/contract operator model",
+        "remote_flex": "100% remote",
+        "recency": "Evergreen standing posting (not a <72h fresh drop)",
+        "apply_path": "Direct application via Ropes & Gray recruiting page"
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "contract",
+      "buyerType": "law-firm",
+      "compensationText": "Hourly, compensated for billable work; no benefits provided (dollar rate not disclosed in posting)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Funds attorney — 100% remote, hourly billable, no benefits (flexible / non-partner-track contract engagement)",
+      "urgencyScore": 60,
+      "contacts": [
+        { "name": null, "title": "Ropes & Gray Recruiting — Asset Management Group (experienced lawyers/flex)", "email": null, "linkedin": "https://www.linkedin.com/company/ropes-&-gray-llp" }
+      ],
+      "signals": ["private funds", "asset management", "100% remote", "hourly billable", "no benefits (flex model)", "standing bench of 20+ funds attorneys"],
+      "source": "Web search — Ropes & Gray Recruiting funds-attorney flex posting, Aug 2026",
+      "sourceUrl": "https://www.ropesgrayrecruiting.com/en/life-at-ropes-and-gray/positions/funds-attorney-asset-management-group-remote",
+      "notes": "Grade A (combined 80) — strongest, most on-ICP lead of the run. This is exactly Katie's pitch: high-judgment funds counsel available on a flexible, hourly, remote basis. A large private-funds practice explicitly staffing an ongoing flexible bench is a recurring-need buyer, not a one-off. ACTION: apply/express interest via recruiting page positioning LP-side fund formation + fund maintenance depth; ask about intake for the flexible funds-attorney program. Highest priority."
+    },
+    {
+      "name": "Redox — Interim Head of Legal (Fractional, Remote, via Go Fractional)",
+      "website": "https://www.gofractional.com/jobs",
+      "pipeline": "legal-freelance",
+      "industry": "Redox is a healthcare data-interoperability SaaS company (health-tech integration platform connecting providers, payers, and digital-health vendors). Posting is an interim/fractional Head of Legal engagement covering commercial contracting, corporate governance, and legal risk for a growth-stage operating company without a deep in-house bench — the classic 'enough complexity to pay for judgment, not enough capacity to hire full-time' buyer. Listed on the Go Fractional marketplace.",
+      "location": "Remote (must reside & work in continental US)",
+      "fundingStage": "Growth-stage health-tech SaaS (operating company)",
+      "fitScore": 30,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Commercial contracts / corporate governance / general in-house counsel",
+        "seniority": "Head of Legal / GC-level",
+        "comp_credible": "$129-$140/hr, 30-40 hrs/wk — market-credible",
+        "fund_focus": "No fund focus (operating-company SaaS)"
+      },
+      "intentDetails": {
+        "engagement_model": "Interim / fractional",
+        "remote_flex": "Fully remote (continental US)",
+        "recency": "Posted 2026-08-07 (within 7-day window; ~4 days old, not <72h)",
+        "apply_path": "Easy apply via Go Fractional marketplace"
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "interim",
+      "buyerType": "operating-company",
+      "compensationText": "$129-$140/hr, 30-40 hrs/week",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Interim Head of Legal — fractional, 30-40 hrs/wk, remote (continental US)",
+      "urgencyScore": 70,
+      "contacts": [
+        { "name": null, "title": "Apply via Go Fractional marketplace listing", "email": null, "linkedin": "https://www.linkedin.com/company/redox-inc-" }
+      ],
+      "signals": ["interim", "fractional", "$129-140/hr stated comp", "30-40 hrs/wk", "remote US", "Go Fractional easy-apply", "growth-stage SaaS"],
+      "source": "Web search — Go Fractional jobs board (Redox interim Head of Legal), posted 2026-08-07",
+      "sourceUrl": "https://www.gofractional.com/jobs",
+      "notes": "Grade B (combined 70). Live, comp-stated, easy-apply interim engagement — highest actionability of the run. Fit is corporate/commercial, not funds, so it's an adjacency for Katie rather than a core-ICP funds role, but the buyer profile and engagement model are ideal. ACTION: apply directly on Go Fractional; lead with commercial-contracting + corporate-governance interim leadership. Verify the exact listing is still live (Go Fractional board rotates). Second priority."
+    },
+    {
+      "name": "Legal People Group — Interim Counsel+ / Fractional Legal Talent Bench (ALSP)",
+      "website": "https://legalpeoplegroup.com/interim-counsel/",
+      "pipeline": "legal-freelance",
+      "industry": "Flexible legal-staffing / ALSP that places experienced attorneys into client teams as secondees or interim contract counsel via an on-demand 'Interim Counsel+' program. Explicitly seeks attorneys with significant in-house or law-firm experience and demonstrated success in corporate legal environments; lets clients scale legal departments up/down on demand. This is a bench-membership / placement channel rather than a single job posting — a distribution partner that can route Katie into multiple corporate interim engagements.",
+      "location": "Remote-capable / flexible (on-demand secondee & interim model)",
+      "fundingStage": "Established flexible-legal-staffing firm / ALSP",
+      "fitScore": 20,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "Corporate / commercial in-house support (secondee & interim)",
+        "seniority": "Significant in-house or law-firm experience required (counsel-level)",
+        "comp_credible": "Not stated (bench/placement channel)",
+        "fund_focus": "No explicit fund focus; corporate/commercial generalist bench"
+      },
+      "intentDetails": {
+        "engagement_model": "Interim / contract secondee (on-demand)",
+        "remote_flex": "Flexible / remote-capable on-demand model",
+        "recency": "Evergreen program (not a dated posting)",
+        "apply_path": "Direct — join the Interim Counsel+ talent bench via firm site"
+      },
+      "vertical": "legal",
+      "subvertical": "corporate",
+      "engagementModel": "interim",
+      "buyerType": "ALSP",
+      "compensationText": "N/A — talent-bench/placement channel (rate set per engagement)",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Interim Counsel+ program — on-demand secondee / interim contract counsel bench",
+      "urgencyScore": 45,
+      "contacts": [
+        { "name": null, "title": "Interim Counsel+ intake (via firm site)", "email": null, "linkedin": "https://www.linkedin.com/company/legal-people-group" }
+      ],
+      "signals": ["interim counsel", "secondee", "on-demand legal talent", "corporate legal experience sought", "flexible staffing / ALSP", "bench-membership channel"],
+      "source": "Web search — Legal People Group Interim Counsel+ program page, Aug 2026",
+      "sourceUrl": "https://legalpeoplegroup.com/interim-counsel/",
+      "notes": "Grade B (combined 60), lower confidence — this is a channel/bench target, so intent is inferred (recurring placement need) rather than a specific observed opening. Value is leverage: one intake can generate repeat corporate interim engagements. ACTION: low-cost outreach to join the Interim Counsel+ bench, positioning fund/corporate/commercial depth so they route the right assignments. Nurture, not urgent. Third priority."
+    }
+  ]
+}
