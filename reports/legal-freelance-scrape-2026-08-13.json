@@ -1,0 +1,193 @@
+{
+  "scrapeDate": "2026-08-13",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 5,
+  "note": "5 new legal-freelance leads (all 55+). Recurring names from prior legal-freelance runs were deduplicated out (Arootah, Lawtrades, Peerpoint, Elevate/ElevateFlex, Continuum, Uncommon Counsel, Lawyers on Demand, SylloTips, Robert Half, Axiom, Allocate, Go Fractional (NextGrad #7766), ACC Jobline #54004, Interlink prior IDs, Hayden Industrial, DWTSurge, Ropes & Gray, Redox, Legal People Group, etc.). Job boards returned heavy aggregator/directory noise this cycle; the five below each carry a real posting/apply URL and a defensible ICP fit. Strongest fresh, comp-stated lead is the Go Fractional interim senior counsel role (posted Aug 7, $129-140/hr). Infra One (fund administrator serving emerging managers who must appoint outside LPA/PPM counsel) was noted as a referral/BD target in the report rather than a scored lead because it has no live req. 7-day window.",
+  "leads": [
+    {
+      "name": "Go Fractional — Interim Senior Legal Counsel (Remote, $129–140/hr, 30–40 hrs/wk)",
+      "website": "https://www.gofractional.com/jobs/legal",
+      "pipeline": "legal-freelance",
+      "industry": "Live interim engagement posted via Go Fractional's legal talent marketplace (posted Aug 7, 2026). Senior in-house-style legal counsel supporting a growth-stage company; remote, must reside/work in continental U.S.; 30–40 hrs/wk at $129–140/hr. Direct interim assignment, not a full-time hire.",
+      "location": "Remote (continental U.S.)",
+      "fundingStage": "Growth-stage (engagement via Go Fractional marketplace)",
+      "fitScore": 30,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "+10 — corporate/commercial in-house counsel remit",
+        "seniority": "+10 — senior legal counsel level matches Katie",
+        "comp_credible": "+10 — $129–140/hr stated and market-credible",
+        "fund_focus": "+0 — no explicit fund/private-funds mandate"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — explicit interim/contract engagement",
+        "remote_flex": "+15 — fully remote, hourly-flex",
+        "recency": "+0 — posted Aug 7 (6 days), just outside 72h",
+        "apply_path": "+10 — direct apply through Go Fractional marketplace"
+      },
+      "vertical": "legal",
+      "subvertical": "corporate",
+      "engagementModel": "interim",
+      "buyerType": "operating-company",
+      "compensationText": "$129–140/hr, 30–40 hrs/week",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Interim / contract (hourly, via Go Fractional marketplace)",
+      "urgencyScore": 80,
+      "contacts": [
+        { "name": null, "title": "Apply via Go Fractional marketplace", "email": null, "linkedin": "https://www.linkedin.com/company/gofractional" }
+      ],
+      "signals": ["posted Aug 7 2026", "comp stated $129-140/hr", "30-40 hrs/wk immediate need", "remote continental US"],
+      "source": "Go Fractional legal jobs board, Aug 2026",
+      "sourceUrl": "https://www.gofractional.com/job/welcometothejungle-senior-legal-counsel-trustpilot-welcome-to-the-jungle-login",
+      "notes": "Grade B (combined 70), highest urgency of the run. Freshest comp-stated interim posting this cycle. ACTION: apply directly through Go Fractional; position Katie as high-judgment senior corporate counsel available immediately at the stated hourly band."
+    },
+    {
+      "name": "Socket — Fractional General Counsel (Remote, Web3/Crypto)",
+      "website": "https://socket.tech",
+      "pipeline": "legal-freelance",
+      "industry": "Socket is a Web3 interoperability/infrastructure company. Hiring a remote Fractional General Counsel to lead legal and regulatory strategy across product launches, tokenomics, partnerships and global compliance; drafts/reviews/negotiates key contracts. Requires JD + bar admission, 5+ yrs (law firm + in-house mix), blockchain/crypto/fintech regulatory expertise. Est. comp $101k–$159k.",
+      "location": "Remote (U.S.)",
+      "fundingStage": "VC-backed Web3 infrastructure startup",
+      "fitScore": 30,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "+10 — commercial contracts + securities-adjacent (tokenomics/regulatory)",
+        "seniority": "+10 — GC-level, 5+ yrs, in-house mix",
+        "comp_credible": "+10 — $101k–159k stated, market-credible for fractional",
+        "fund_focus": "+0 — crypto/securities regulatory, not private-funds formation"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — explicit fractional GC",
+        "remote_flex": "+15 — fully remote",
+        "recency": "+0 — active Built In listing; exact post date not confirmed",
+        "apply_path": "+10 — easy apply via Built In / web3.career"
+      },
+      "vertical": "legal",
+      "subvertical": "securities",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "$101k–$159k (estimated)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional / part-time General Counsel",
+      "urgencyScore": 65,
+      "contacts": [
+        { "name": null, "title": "Apply via Built In / web3.career", "email": null, "linkedin": "https://www.linkedin.com/company/socketdottech" }
+      ],
+      "signals": ["fractional GC", "crypto/securities regulatory remit", "remote", "comp stated"],
+      "source": "Built In (mirrored on web3.career), Aug 2026",
+      "sourceUrl": "https://builtin.com/job/fractional-general-counsel/4025369",
+      "notes": "Grade B (combined 70). Strong for Katie if she can speak to crypto/tokenomics/securities-adjacent regulatory work; otherwise position around commercial-contract + governance execution. ACTION: apply via Built In; lead with securities/regulatory + contract judgment. Alt URL: https://web3.career/part-time-general-counsel-socket/95180"
+    },
+    {
+      "name": "Interlink Cloud Advisors — Fractional General Counsel (Remote)",
+      "website": "https://www.interlink.com",
+      "pipeline": "legal-freelance",
+      "industry": "Interlink Cloud Advisors is a Cincinnati-based Microsoft cloud systems integrator (Inc. Regionals 2026 Midwest). Hiring a remote Fractional General Counsel reporting to the CEO to build scalable legal infrastructure: legal strategy & risk, contract management (MSAs, PSAs, NDAs, vendor/subcontractor agreements), regulatory & compliance oversight incl. SOC 2, and cross-functional support. 3+ yrs experience.",
+      "location": "Remote (U.S.; telecommute)",
+      "fundingStage": "Established midmarket MSP (Inc. Regionals 2026)",
+      "fitScore": 25,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "+10 — commercial contracts + SOC2/regulatory compliance",
+        "seniority": "+10 — GC-level, reports to CEO",
+        "comp_credible": "+0 — no comp stated",
+        "fund_focus": "+0 — operating company, no fund mandate"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — explicit fractional GC",
+        "remote_flex": "+15 — fully remote / telecommute",
+        "recency": "+0 — exact post date not confirmed",
+        "apply_path": "+10 — easy apply via GoInhouse"
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "N/A — not stated in posting",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional General Counsel (telecommute)",
+      "urgencyScore": 60,
+      "contacts": [
+        { "name": null, "title": "Apply via GoInhouse", "email": null, "linkedin": "https://www.linkedin.com/company/interlinkcloudadvisors" }
+      ],
+      "signals": ["fractional GC reports to CEO", "build scalable legal infra", "commercial contracts + SOC2", "remote"],
+      "source": "GoInhouse.com, Aug 2026",
+      "sourceUrl": "https://www.goinhouse.com/jobs/438711760-fractional-general-counsel-at-interlink-cloud-advisors",
+      "notes": "Grade B (combined 65). Clean commercial-contracts + governance fit for an operating company that wants to stand up its first legal function. ACTION: apply via GoInhouse; pitch as the operator who builds the contract/compliance backbone part-time."
+    },
+    {
+      "name": "Fractional General Counsel — EdTech / K-12 Contracts (Remote, New York)",
+      "website": "https://www.jobleads.com",
+      "pipeline": "legal-freelance",
+      "industry": "Remote Fractional General Counsel role (New York-based employer) centered on EdTech and K-12 commercial contracts: reviewing, drafting and negotiating customer/vendor paper, plus general corporate governance support for a growth-stage education-technology company. Indexed via JobLeads.",
+      "location": "Remote (New York employer)",
+      "fundingStage": "Growth-stage EdTech company",
+      "fitScore": 25,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "+10 — commercial contracts (customer/vendor paper) + governance",
+        "seniority": "+10 — GC-level fractional",
+        "comp_credible": "+0 — no comp stated in index",
+        "fund_focus": "+0 — operating company, no fund mandate"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — explicit fractional GC",
+        "remote_flex": "+15 — remote",
+        "recency": "+0 — post date not confirmed from index",
+        "apply_path": "+10 — apply via JobLeads listing"
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "fractional",
+      "buyerType": "operating-company",
+      "compensationText": "N/A — not stated in index",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional General Counsel",
+      "urgencyScore": 55,
+      "contacts": [
+        { "name": null, "title": "Apply via JobLeads listing", "email": null, "linkedin": null }
+      ],
+      "signals": ["fractional GC", "EdTech/K-12 commercial contracts", "remote", "NY employer"],
+      "source": "JobLeads (indexed), Aug 2026",
+      "sourceUrl": "https://www.jobleads.com/us/job/remote-fractional-general-counsel-edtech-k-12-contracts--new-york--effbaf6798ea3808bdf1e461350959a31",
+      "notes": "Grade C/B (combined 65). Contracts-heavy fractional role; verify freshness and comp on the live listing before investing outreach time. ACTION: apply via JobLeads; lead with commercial-contracts + governance execution for a scaling EdTech."
+    },
+    {
+      "name": "Major, Lindsey & Africa (Interim Legal Talent) — Interim Corporate Counsel Bench (Remote)",
+      "website": "https://www.mlaglobal.com/en/services/interim-legal-talent",
+      "pipeline": "legal-freelance",
+      "industry": "Major, Lindsey & Africa's Interim Legal Talent group places temporary/project-based counsel (corporate, funds, compliance) into in-house teams, frequently 100% remote and 3+ month engagements. Firm reports resilient hiring across alternative asset management — legal/compliance talent supporting fundraising and regulatory demands. Registering with the bench is the entry point, not a single req.",
+      "location": "Remote (national placements)",
+      "fundingStage": "Global legal recruiting / interim staffing firm (est. 1982)",
+      "fitScore": 25,
+      "intentScore": 35,
+      "fitDetails": {
+        "practice_area": "+10 — corporate + funds/alt-asset-management interim placements",
+        "seniority": "+10 — senior interim counsel level",
+        "comp_credible": "+0 — comp varies by placement",
+        "fund_focus": "+0 — fund exposure via alt-asset placements but not a specific fund req here"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — interim/contract staffing model",
+        "remote_flex": "+15 — many placements 100% remote",
+        "recency": "+0 — evergreen bench, not a dated req",
+        "apply_path": "+5 — register with recruiter / interim talent group"
+      },
+      "vertical": "legal",
+      "subvertical": "corporate",
+      "engagementModel": "interim",
+      "buyerType": "staffing",
+      "compensationText": "Varies by placement (interim hourly/day-rate)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Interim legal talent (agency/ALSP placement)",
+      "urgencyScore": 60,
+      "contacts": [
+        { "name": null, "title": "Interim Legal Talent group (register via mlaglobal.com)", "email": null, "linkedin": "https://www.linkedin.com/company/major-lindsey-&-africa" }
+      ],
+      "signals": ["interim staffing bench", "alt-asset-management hiring resilient", "remote placements", "immediate interim needs"],
+      "source": "Major, Lindsey & Africa — In-House Counsel Recruiting / Interim Legal Talent, Aug 2026",
+      "sourceUrl": "https://www.mlaglobal.com/en/services/in-house-counsel-recruiting",
+      "notes": "Grade B (combined 60). Relationship/bench target, not a single posting — highest leverage over time. ACTION: register Katie with the Interim Legal Talent group, flag corporate + fund/alt-asset availability and remote preference; recurring interim placements (incl. fund/compliance) flow through this bench."
+    }
+  ]
+}

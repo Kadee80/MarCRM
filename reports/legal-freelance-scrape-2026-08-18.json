@@ -1,0 +1,134 @@
+{
+  "scrapeDate": "2026-08-18",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 3,
+  "note": "7-day window (Aug 11-18). Thin cycle for US-remote fund/corporate freelance counsel. All 10 boolean clusters were run across Go Fractional, Fractional Jobs, Built In, Legal.io, ACC Jobline, GoInhouse, ZipRecruiter/Indeed/CareerBuilder aggregators, and Google-indexed LinkedIn results (LinkedIn was NOT bot-scraped). The aggregators returned almost entirely salary-index and directory pages rather than dated reqs; the fractional boards had fresh legal postings this week but most were geographically unusable for a US-based lawyer (Keyloop — Interim Head of Legal, Reading UK hybrid, Aug 13; Norven — fractional GC, Remote UK only, Aug 17; Visier — fractional Corporate Counsel, Remote Canada only, Aug 17). Those three were scored and dropped on geography, not on fit. 453 previously-captured company names were deduplicated out. The standout find is Scissero, an AI-native ALSP built specifically for private equity, capital markets and fund-related documentation, which is scaling its US legal delivery bench and just announced a Mayer Brown partnership on Aug 11 — squarely inside the window. WATCH ITEM (not counted in leads, company already in CRM from a prior run): Tower Legal Solutions has a live 'Contract Staff Attorney — Private Funds, Remote, NY-barred' req at $80-120/hr covering fund side letters, feeder fund formation documents and fund ops — the single closest match to Katie's practice found this cycle. It is documented in the markdown report but excluded from this leads array and from the import script because the import dedupes by company name and would skip it. As always, employmentTypeRaw records how the source frames the engagement; engagementModel records the commercial relationship Katie would actually pitch.",
+  "leads": [
+    {
+      "name": "Scissero",
+      "website": "https://www.scissero.com",
+      "pipeline": "legal-freelance",
+      "industry": "AI-enhanced legal services company and operating platform purpose-built for financial institutions — specifically private equity and capital markets. 152 people across US/EMEA/APAC, founded 2018, NY and London offices. Integrates expert legal talent with a proprietary AI platform to scale drafting, negotiation and management of transactional and fund-related documents for global investment firms, asset managers and corporates. Operates a Legal Managed Services team that places lawyers into client secondments. Announced a strategic partnership with Mayer Brown on Aug 11, 2026 for an integrated structured-products issuance solution.",
+      "location": "Remote (US) — New York, NY",
+      "fundingStage": "Venture-backed legal-tech / ALSP scale-up (founded 2018, 152 employees)",
+      "fitScore": 40,
+      "intentScore": 50,
+      "fitDetails": {
+        "practice_area": "+10 — live private equity, M&A and financing transactions; NDAs, engagement letters, ancillary transaction documentation, client playbooks and precedents",
+        "seniority": "+10 — Principal Legal Lead is an Expert/Leader-level req owning legal delivery, supervising Junior/Senior Legal Specialists, and acting as senior escalation point",
+        "comp_credible": "+0 — no compensation range published on either the Built In or Teamtailor listing",
+        "fund_focus": "+20 — company describes itself as built for PE and capital markets and explicitly scales 'transactional and fund-related documents'; preferred experience is private equity, asset management, hedge fund or other alternative asset manager clients"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — Legal Managed Services / secondment delivery model is the core of the business; a parallel NY req is an explicit ~12-month client secondment to a leading global alternative asset manager",
+        "remote_flex": "+15 — Principal Legal Lead is listed U.S. Remote (9am-6pm US hours); global benefits include hybrid and remote working with work-from-other-countries on request",
+        "recency": "+10 — Principal Legal Lead reposted Aug 17, 2026 (within 72 hours), flagged 'Be an Early Applicant'; Mayer Brown partnership announced Aug 11",
+        "apply_path": "+10 — direct Teamtailor apply form, no recruiter gate"
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "contract",
+      "buyerType": "ALSP",
+      "compensationText": "Not published on either listing. Benefits noted: discretionary performance bonus, 7 days paid study leave, paid sick leave, annual leave plus public holidays.",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Full-time (Legal / Legal Managed Services). Parallel NY req is framed as a ~12-month on-site client secondment following an onboarding period.",
+      "urgencyScore": 88,
+      "contacts": [
+        { "name": "Mathias Strasser", "title": "Founder & CEO", "email": null, "linkedin": "https://www.linkedin.com/company/scissero/" },
+        { "name": null, "title": "Principal Legal Lead (U.S., Remote) — apply via Teamtailor", "email": null, "linkedin": "https://scissero.teamtailor.com/jobs/8033276-principal-legal-lead" }
+      ],
+      "signals": [
+        "private equity",
+        "fund-related documents",
+        "alternative asset manager",
+        "capital markets",
+        "M&A",
+        "financing transactions",
+        "secondment",
+        "legal managed services",
+        "US remote",
+        "reposted within 72h",
+        "early applicant",
+        "Mayer Brown partnership Aug 11 2026",
+        "direct apply"
+      ],
+      "source": "Built In remote legal board (Principal Legal Lead, reposted Aug 17, 2026) cross-checked against Scissero's Teamtailor careers site and Aug 11, 2026 Mayer Brown partnership coverage",
+      "sourceUrl": "https://builtin.com/job/principal-legal-lead/10313789",
+      "notes": "Grade A (combined 90) — best find this cycle and the only new company hitting the fund/PE core of the ICP. Two live doors: (1) Principal Legal Lead, U.S. Remote, senior delivery + account ownership for a portfolio of global investment firms and asset managers; (2) Legal Specialist (New York — On Site Client Secondment), a planned ~12-month secondment into a leading global alternative asset manager (https://scissero.teamtailor.com/jobs/8126249-legal-specialist-new-york-on-site-client-secondment). Both reqs are posted full-time, but the business model is managed services and secondment — which is exactly the commercial shape Katie sells, so engagementModel is recorded as contract while employmentTypeRaw preserves the FT framing. PITCH ANGLE: the Principal req wants senior judgement plus client-facing account ownership on PE/M&A/financing paper — Katie's fund-formation and LP/GP background is a level above the NDA-playbook work the Specialist tier does, so pitch her as senior overflow/secondment counsel who can carry fund documentation (LPAs, side letters, subscription docs) that their current bench cannot. The Mayer Brown structured-products tie-up is a capacity-expansion signal: they will need senior US-side transactional bandwidth. ACTION: apply to the Principal Legal Lead req directly on Teamtailor this week while the early-applicant flag is live."
+    },
+    {
+      "name": "Applied Intuition",
+      "website": "https://www.appliedintuition.com",
+      "pipeline": "legal-freelance",
+      "industry": "Venture-backed autonomy and vehicle-software company serving automotive, defense and industrial customers. Running a live interim counsel engagement through Go Fractional rather than a permanent hire — a company with enough legal complexity to need senior judgement but choosing a fixed-term interim rather than headcount.",
+      "location": "Sunnyvale, CA (hybrid)",
+      "fitScore": 20,
+      "fundingStage": "Late-stage venture-backed technology company",
+      "intentScore": 50,
+      "fitDetails": {
+        "practice_area": "+0 — employment counsel remit; not corporate, commercial contracts, M&A, financing or securities",
+        "seniority": "+10 — counsel-level interim role, 30-40 hrs/week",
+        "comp_credible": "+10 — $150-$275/hr published, clearly market-credible for interim counsel",
+        "fund_focus": "+0 — no fund, private funds or fund formation content"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — explicitly interim, sourced through a fractional-talent marketplace",
+        "remote_flex": "+15 — hybrid arrangement",
+        "recency": "+10 — posted Aug 17, 2026, within 72 hours",
+        "apply_path": "+10 — direct apply through Go Fractional listing"
+      },
+      "vertical": "legal",
+      "subvertical": "contracts",
+      "engagementModel": "interim",
+      "buyerType": "operating-company",
+      "compensationText": "$150-$275/hr, 30-40 hrs/week",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Interim (hybrid, Sunnyvale CA), 30-40 hrs/week",
+      "urgencyScore": 78,
+      "contacts": [
+        { "name": null, "title": "Interim Employment Counsel — apply via Go Fractional", "email": null, "linkedin": "https://www.linkedin.com/company/applied-intuition/" }
+      ],
+      "signals": ["interim", "hybrid", "$150-275/hr", "30-40 hrs/week", "posted within 72h", "fractional marketplace", "direct apply"],
+      "source": "Go Fractional legal jobs board — Applied Intuition Interim Employment Counsel, posted Aug 17, 2026",
+      "sourceUrl": "https://www.gofractional.com/job/welcometothejungle-applied-intuition-employment-counsel-welcome-to-the-jungle-login",
+      "notes": "Grade B (combined 70) — honest caveat: the fit half of the score is weak (20/50). The practice area is employment, not Katie's corporate/funds core, and Sunnyvale hybrid is a poor geographic match from New York. It clears the 55 threshold entirely on intent: a real, live, well-paid interim counsel engagement at a serious company, posted within 72 hours, with a direct apply path. PITCH ANGLE: not the posted role itself. The useful signal is that Applied Intuition buys senior legal capacity on an interim basis through a fractional marketplace rather than adding headcount — which makes them a warm target for a commercial-contracts or corporate-governance interim scope later. Worth a note in the CRM and a check on whether the same hiring manager owns broader legal bench decisions. Do not prioritise over Scissero or the Tower Legal private-funds req."
+    },
+    {
+      "name": "Emergence Software",
+      "website": "https://builtin.com/company/emergence-software",
+      "pipeline": "legal-freelance",
+      "industry": "Holding company in professional services, software and financial services standing up a day-to-day legal function across its portfolio companies: contract intake and triage, template management, outside-counsel coordination, routine commercial contract negotiation, entity governance, and post-acquisition legal integration.",
+      "location": "Remote (United States)",
+      "fundingStage": "Holding company with acquired portfolio companies",
+      "fitScore": 30,
+      "intentScore": 35,
+      "fitDetails": {
+        "practice_area": "+10 — commercial contract negotiation, entity governance, post-acquisition legal integration and outside-counsel management",
+        "seniority": "+10 — Director of Legal owning the function end to end across portfolio companies",
+        "comp_credible": "+10 — $275K-$375K published, credible for the scope",
+        "fund_focus": "+0 — a holdco with portfolio companies rather than a fund or fund-formation mandate"
+      },
+      "intentDetails": {
+        "engagement_model": "+0 — posted as a permanent full-time hire, not a freelance, contract or interim engagement",
+        "remote_flex": "+15 — fully remote, United States",
+        "recency": "+10 — reposted within the last 24 hours as of Aug 18, 2026",
+        "apply_path": "+10 — direct Built In apply"
+      },
+      "vertical": "legal",
+      "subvertical": "corporate",
+      "engagementModel": "fractional",
+      "buyerType": "portfolio-company",
+      "compensationText": "$275,000-$375,000 annually",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Full-time, permanent (Director, Legal)",
+      "urgencyScore": 70,
+      "contacts": [
+        { "name": null, "title": "Director of Legal — apply via Built In", "email": null, "linkedin": "https://builtin.com/company/emergence-software" }
+      ],
+      "signals": ["portfolio companies", "post-acquisition legal integration", "entity governance", "commercial contracts", "outside counsel coordination", "remote US", "reposted within 24h", "no existing legal function"],
+      "source": "Built In remote legal board — Emergence Software Director of Legal, reposted Aug 17-18, 2026",
+      "sourceUrl": "https://builtin.com/job/director-legal/10303448",
+      "notes": "Grade B (combined 65) — a conversion play rather than a direct application. The posted role is permanent FTE, which zeroes the engagement-model component; engagementModel is recorded as 'fractional' because that is the shape Katie would pitch, with employmentTypeRaw preserving the FT framing. PITCH ANGLE: this is the textbook fractional-GC profile from the ICP — a holdco with portfolio companies, no existing legal bench, and a workload (entity governance, post-acquisition integration, contract templates, outside-counsel spend) that is lumpy rather than continuous. A repost signals the FT search is not closing quickly. Approach: a short note to the hiring principal offering to stand up the same function on a fractional basis in 60-90 days at a fraction of the $275-375K load, with an option to convert. Also worth watching whether the req reposts again in September — that is the moment the fractional pitch lands hardest."
+    }
+  ]
+}

@@ -95,11 +95,36 @@ async function main() {
       fitDetails: JSON.parse(c.fitDetails || '{}'),
       intentDetails: JSON.parse(c.intentDetails || '{}'),
     }));
-    console.log('  OK — orderBy updatedAt + include contacts + JSON.parse all succeed.');
-    console.log('  (So the 500 is NOT the query — likely a stale deployment/cache on the domain.)');
+    console.log('  Top-3 sample OK.');
   } catch (e) {
-    console.log('  ❌ FAILED — this is what is 500-ing /api/companies:\n');
-    console.log('     ' + String(e.message).split('\n').join('\n     '));
+    console.log('  ❌ Sample query FAILED:\n     ' + String(e.message).split('\n').join('\n     '));
+  }
+
+  // Full scan: find every row whose JSON string fields won't parse — these are
+  // what make the (unguarded) /api/companies route 500 across the whole set.
+  console.log('\n─ Malformed-JSON scan (all rows) ─');
+  try {
+    const all = await prisma.company.findMany({
+      select: { id: true, name: true, techStack: true, fitDetails: true, intentDetails: true },
+    });
+    const bad = [];
+    for (const c of all) {
+      for (const field of ['techStack', 'fitDetails', 'intentDetails']) {
+        const v = c[field];
+        if (v === null || v === undefined || v === '') continue; // route falls back safely
+        try { JSON.parse(v); } catch { bad.push({ id: c.id, name: c.name, field, value: String(v).slice(0, 60) }); }
+      }
+    }
+    if (bad.length === 0) {
+      console.log('  No malformed JSON found — all rows parse cleanly.');
+    } else {
+      console.log(`  Found ${bad.length} malformed field(s) across ${new Set(bad.map((b) => b.id)).size} row(s):`);
+      bad.slice(0, 25).forEach((b) => console.log(`   • #${b.id} [${b.field}] ${b.name}\n       value: ${b.value}`));
+      if (bad.length > 25) console.log(`   …and ${bad.length - 25} more.`);
+      console.log('\n  → The route now uses safeParse(), so these no longer 500 the endpoint.');
+    }
+  } catch (e) {
+    console.log('  (Scan unavailable: ' + e.message + ')');
   }
 
   console.log('');

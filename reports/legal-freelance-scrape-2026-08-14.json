@@ -1,0 +1,230 @@
+{
+  "scrapeDate": "2026-08-14",
+  "scrapeType": "legal-freelance",
+  "totalLeads": 6,
+  "note": "7-day window. As in recent legal cycles, discrete live fund/corporate contract reqs on the open boards were thin — most cluster searches returned aggregator/directory pages and service-provider marketing rather than dated postings. The six leads below are the strongest ICP-aligned finds with a real URL each: one is a concrete live freelance req (Ontra fund-formation freelance lawyer — highest fit this run), one is a live interim req (The Mom Project interim securities counsel), one is a live fractional req (Fractional Jobs stealth venture-backed startup), and three are uncaptured enrollment channels / talent networks that route recurring corporate & funds work on Katie's exact terms (Priori Legal marketplace, Paragon Legal in-house-on-demand, Hire an Esquire freelance attorney network). Recurring names from prior runs (Go Fractional, Lawtrades, Peerpoint, Elevate/ElevateFlex, Axiom, Allocate, Epiq Counsel, Robert Half Legal, Major Lindsey & Africa, Latitude Legal, Larson Maddox, Ropes & Gray, Continuum Legal, Uncommon Counsel, Tower Legal, Fractionus, Legal People Group, Next Era Legal, Arootah, Bowery Legal) were deduplicated out. employmentTypeRaw (how the source frames the engagement) is tracked separately from engagementModel (the commercial relationship Katie would actually pitch).",
+  "leads": [
+    {
+      "name": "Ontra — US-Licensed Freelance Fund Formation Lawyer (Remote)",
+      "website": "https://ontra.ai",
+      "pipeline": "legal-freelance",
+      "industry": "Legal-tech platform serving leading private-markets financial-services clients (PE, VC, credit, asset managers) with high-volume fund and contract work. Engages US-licensed lawyers as independent freelancers who select client engagements on their own schedule while Ontra handles invoicing, billing, collections and business development. Live, evergreen freelance req surfaced via Built In.",
+      "location": "Remote (US)",
+      "fundingStage": "Legal-tech platform / ALSP (private-markets focus)",
+      "fitScore": 50,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "+10 — core fund-formation docs: LPAs, side letters, term sheets, purchase agreements, credit agreements, MSAs, operating/vendor/license agreements",
+        "seniority": "+10 — counsel-level; top-tier firm background preferred not required",
+        "comp_credible": "+10 — hourly billable comp on a market platform (paid per engagement, no unpaid/intern framing)",
+        "fund_focus": "+20 — explicit private-funds / fund-formation remit, Katie's core ICP"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — true freelance / independent-contractor model, lawyer selects engagements",
+        "remote_flex": "+15 — fully remote, self-scheduled",
+        "recency": "+0 — evergreen platform req rather than a single 72h post",
+        "apply_path": "+10 — direct Built In apply link"
+      },
+      "vertical": "legal",
+      "subvertical": "fund",
+      "engagementModel": "freelance",
+      "buyerType": "ALSP",
+      "compensationText": "Hourly, paid per billable engagement (rate set via platform); no figure published on listing",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Freelance / independent contractor (platform engagement)",
+      "urgencyScore": 62,
+      "contacts": [
+        { "name": null, "title": "Freelance Fund Formation Lawyer (US-Licensed)", "email": null, "linkedin": "https://www.linkedin.com/company/ontra/" }
+      ],
+      "signals": ["freelance", "remote", "fund formation", "private funds", "LPA", "side letters", "hourly", "platform handles billing", "direct apply"],
+      "source": "Web search — Built In listing for Ontra US-Licensed Freelance Fund Formation Lawyer, Aug 2026",
+      "sourceUrl": "https://www.builtinsf.com/job/legal/us-licensed-freelance-fund-formation-lawyer-remote/103064",
+      "notes": "Grade A (combined 90) — highest-fit find this cycle and the cleanest match to Katie's fund-formation profile. Freelance/independent-contractor model with billing handled for her; she picks engagements. ACTION: apply directly via Built In and get onto the Ontra fund-formation panel; strongest single lead of the run."
+    },
+    {
+      "name": "Priori Legal — Corporate & Funds Outside-Counsel Marketplace (Talent Network)",
+      "website": "https://www.priorilegal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Global vetted legal marketplace (8,000+ providers) that connects in-house legal teams (departments of 1 to 1000+) with outside counsel for project-based corporate, commercial and funds work, plus outside-counsel-management software. Enrollment channel: join the attorney network once, get routed matched corporate/funds projects on flexible terms.",
+      "location": "Remote (US, project-based)",
+      "fundingStage": "Established legal marketplace / ALSP",
+      "fitScore": 45,
+      "intentScore": 30,
+      "fitDetails": {
+        "practice_area": "+10 — corporate, commercial contracts and funds project work routed to network attorneys",
+        "seniority": "+10 — vetted outside-counsel level, matched to client scope",
+        "comp_credible": "+5 — project rates set by attorney via marketplace; credible but variable",
+        "fund_focus": "+20 — funds/investment-management projects are within Priori's routing remit"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — project / freelance outside-counsel placements",
+        "remote_flex": "+10 — remote, flexible project engagements",
+        "recency": "+0 — evergreen network, not a dated req",
+        "apply_path": "+5 — direct join-the-network path"
+      },
+      "vertical": "legal",
+      "subvertical": "corporate",
+      "engagementModel": "freelance",
+      "buyerType": "ALSP",
+      "compensationText": "Per-project rate set by attorney via marketplace",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Marketplace talent network (project engagements)",
+      "urgencyScore": 50,
+      "contacts": [
+        { "name": null, "title": "Join Priori's Attorney Network", "email": null, "linkedin": "https://www.linkedin.com/company/priori-legal/" }
+      ],
+      "signals": ["marketplace", "outside counsel", "corporate", "funds", "project-based", "remote", "direct join path", "8000+ provider network"],
+      "source": "Web search — Priori Legal attorney network / talent marketplace, Aug 2026",
+      "sourceUrl": "https://www.priorilegal.com/our-attorney-network/",
+      "notes": "Grade B (combined 75) — high-leverage enrollment channel not previously captured. Routes recurring corporate/funds outside-counsel projects to in-house teams on flexible terms. ACTION: join Priori's attorney network and flag fund-formation + corporate/commercial specialties."
+    },
+    {
+      "name": "Hire an Esquire — Freelance Corporate/Funds Attorney Network (Live Jobs Board)",
+      "website": "https://www.hireanesquire.com",
+      "pipeline": "legal-freelance",
+      "industry": "Ultra-vetted national marketplace of 15,000+ attorneys and paraprofessionals matching flexible and permanent legal talent to law firms and legal departments, with predictive hiring analytics. Runs a public live jobs board (project, contract and freelance postings) — a real apply path, not just a passive bench.",
+      "location": "Remote (US, project/contract)",
+      "fundingStage": "Established flexible-legal-talent marketplace",
+      "fitScore": 35,
+      "intentScore": 35,
+      "fitDetails": {
+        "practice_area": "+10 — corporate and commercial contract engagements posted to the board",
+        "seniority": "+10 — vetted attorney network, matched by experience",
+        "comp_credible": "+5 — project/contract rates, credible but posting-dependent",
+        "fund_focus": "+10 — funds/corporate work appears among postings but not the core focus"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — freelance / contract project placements",
+        "remote_flex": "+10 — remote, flexible engagements",
+        "recency": "+0 — evergreen board with rolling postings",
+        "apply_path": "+10 — live public jobs board with direct applications"
+      },
+      "vertical": "legal",
+      "subvertical": "corporate",
+      "engagementModel": "freelance",
+      "buyerType": "staffing",
+      "compensationText": "Set per posting (project/contract); rates vary",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Freelance marketplace with live jobs board",
+      "urgencyScore": 55,
+      "contacts": [
+        { "name": null, "title": "Browse & apply — Freelance attorney jobs board", "email": null, "linkedin": "https://www.linkedin.com/company/hire-an-esquire/" }
+      ],
+      "signals": ["freelance", "contract", "remote", "live jobs board", "corporate", "vetted network", "direct apply"],
+      "source": "Web search — Hire an Esquire public freelance jobs board, Aug 2026",
+      "sourceUrl": "https://app.hireanesquire.com/public/jobs",
+      "notes": "Grade B (combined 70) — distinct from a passive bench because it has an active public jobs board Katie can filter and apply to directly. ACTION: register, set corporate/funds/commercial filters, and monitor the live board weekly."
+    },
+    {
+      "name": "Paragon Legal — In-House Counsel On-Demand (Corporate/Commercial, Talent Network)",
+      "website": "https://paragonlegal.com",
+      "pipeline": "legal-freelance",
+      "industry": "Flexible legal-talent firm placing experienced attorneys as embedded 'in-house counsel on demand' with companies that have in-house legal teams needing overflow or project support (big projects, shifting priorities). Alternative to outside law firms and permanent hires — a fractional/embedded engagement model.",
+      "location": "Remote / hybrid (US, engagement-based)",
+      "fundingStage": "Established flexible-legal-talent firm / ALSP",
+      "fitScore": 35,
+      "intentScore": 30,
+      "fitDetails": {
+        "practice_area": "+10 — corporate governance and commercial-contract support for in-house teams",
+        "seniority": "+10 — experienced in-house-caliber counsel placements",
+        "comp_credible": "+5 — engagement-based comp via the firm; credible but unpublished",
+        "fund_focus": "+10 — serves financial-services/corporate clients but not fund-formation-specific"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — fractional / embedded interim in-house placements",
+        "remote_flex": "+10 — remote/hybrid engagements",
+        "recency": "+0 — evergreen roster, not a dated req",
+        "apply_path": "+5 — direct 'work with us' path"
+      },
+      "vertical": "legal",
+      "subvertical": "corporate",
+      "engagementModel": "fractional",
+      "buyerType": "ALSP",
+      "compensationText": "Engagement-based comp via Paragon; not published",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "Embedded in-house-on-demand placement",
+      "urgencyScore": 48,
+      "contacts": [
+        { "name": null, "title": "Work with Paragon — In-house counsel on demand", "email": null, "linkedin": "https://www.linkedin.com/company/paragon-legal/" }
+      ],
+      "signals": ["embedded counsel", "in-house on demand", "corporate", "commercial contracts", "remote", "overflow support", "flexible"],
+      "source": "Web search — Paragon Legal in-house counsel on demand, Aug 2026",
+      "sourceUrl": "https://paragonlegal.com/",
+      "notes": "Grade B (combined 65) — enrollment channel for embedded interim in-house work; not previously captured. Best fit for corporate/commercial overflow rather than fund formation. ACTION: apply to Paragon's talent roster; position for financial-services corporate clients."
+    },
+    {
+      "name": "The Mom Project — Interim Securities Counsel (Remote, EST)",
+      "website": "https://themomproject.com",
+      "pipeline": "legal-freelance",
+      "industry": "Flexible-talent marketplace placing an interim securities counsel on a remote (EST) contract engagement for a client needing securities-law coverage on an interim basis. Live, specific interim req rather than a passive bench listing.",
+      "location": "Remote (EST)",
+      "fundingStage": "Client engagement via talent marketplace",
+      "fitScore": 25,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "+10 — securities-counsel remit (securities law coverage)",
+        "seniority": "+10 — counsel-level interim role",
+        "comp_credible": "+5 — contract engagement via marketplace; rate unpublished",
+        "fund_focus": "+0 — securities coverage stated but no explicit fund/private-funds tie"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — interim contract engagement",
+        "remote_flex": "+15 — fully remote (EST)",
+        "recency": "+0 — indexed listing, exact post date unconfirmed",
+        "apply_path": "+10 — direct marketplace apply path"
+      },
+      "vertical": "legal",
+      "subvertical": "securities",
+      "engagementModel": "interim",
+      "buyerType": "staffing",
+      "compensationText": "Contract engagement via The Mom Project; rate not published",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Interim contract engagement (marketplace-placed)",
+      "urgencyScore": 68,
+      "contacts": [
+        { "name": null, "title": "Interim Securities Counsel (Remote, EST)", "email": null, "linkedin": "https://www.linkedin.com/company/the-mom-project/" }
+      ],
+      "signals": ["interim", "securities counsel", "remote", "contract", "immediate need", "direct apply"],
+      "source": "Web search — LinkedIn-indexed The Mom Project interim securities counsel listing, Aug 2026",
+      "sourceUrl": "https://www.linkedin.com/jobs/view/interim-securities-counsel-remote-est-at-the-mom-project-4177329797",
+      "notes": "Grade B (combined 65) — a live interim req with immediate-need signal (interim = someone stepped out / gap coverage). Lower fund fit but strong intent. ACTION: apply if securities remit is investment-management-adjacent; confirm scope before pitching fund-formation angle."
+    },
+    {
+      "name": "Fractional Jobs — Fractional Legal Counsel, Stealth Venture-Backed Startup (Remote)",
+      "website": "https://www.fractionaljobs.io",
+      "pipeline": "legal-freelance",
+      "industry": "Curated fractional-roles board; live posting for a stealth-mode, venture-backed startup building an employee-compensation product for small businesses, hiring a fractional legal counsel for commercial, product and corporate legal support on a part-time basis.",
+      "location": "Remote (US)",
+      "fundingStage": "Venture-backed startup (stealth)",
+      "fitScore": 25,
+      "intentScore": 40,
+      "fitDetails": {
+        "practice_area": "+10 — commercial contracts, product and corporate legal support for a startup",
+        "seniority": "+10 — fractional counsel-level ownership of the legal function",
+        "comp_credible": "+5 — fractional engagement, VC-backed (credible payer) though rate unpublished",
+        "fund_focus": "+0 — operating-company startup, no fund/private-funds remit"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — explicit fractional engagement",
+        "remote_flex": "+15 — fully remote",
+        "recency": "+0 — live board post, exact date unconfirmed",
+        "apply_path": "+10 — direct apply on Fractional Jobs"
+      },
+      "vertical": "legal",
+      "subvertical": "GC",
+      "engagementModel": "fractional",
+      "buyerType": "portfolio-company",
+      "compensationText": "Fractional engagement; rate not published",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Fractional engagement (board posting)",
+      "urgencyScore": 60,
+      "contacts": [
+        { "name": null, "title": "Fractional Legal Counsel — Stealth Startup", "email": null, "linkedin": "https://www.linkedin.com/company/fractional-jobs/" }
+      ],
+      "signals": ["fractional", "remote", "venture-backed", "startup", "commercial contracts", "corporate", "direct apply"],
+      "source": "Web search — Fractional Jobs listing for stealth venture-backed startup fractional legal counsel, Aug 2026",
+      "sourceUrl": "https://www.fractionaljobs.io/jobs/fractional-legal-counsel-stealth-startup",
+      "notes": "Grade B (combined 65) — clean fractional-GC entry point at a VC-backed operating company; commercial/corporate rather than fund work. ACTION: apply directly; good ongoing fractional-GC relationship if the product-legal scope fits."
+    }
+  ]
+}

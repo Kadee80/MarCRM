@@ -1,0 +1,242 @@
+{
+  "scrapeDate": "2026-08-13",
+  "scrapeType": "pr-freelance",
+  "totalLeads": 6,
+  "note": "7-day window. As in recent cycles, individual live freelance reqs in Mark's core finance/fintech/IR sectors were thin on job boards — most cluster searches returned aggregator/directory pages. The six leads below are the strongest ICP-aligned finds, each with a real URL: two are concrete engagement channels (The Work Crowd fintech/IR freelancer network; a regulated-fintech/crypto PR Lead contract role), one is a marketplace bench (Toptal PR/IPO comms), and three are white-label / interim execution-partner targets (Trizcom, 10 to 1 PR, Forthright Advising). Recurring names from prior runs (Caliber, Vested, JIH PR, The James Collective, Wilson PR, No Strings, SERPpro, VMA Group, Go Fractional, etc.) were deduplicated out. Distinguished employmentTypeRaw (how the source frames the engagement) from engagementModel (the commercial relationship Mark would actually pitch).",
+  "leads": [
+    {
+      "name": "The Work Crowd — Fintech PR & Investor Relations Freelancer Network (Bench Membership)",
+      "website": "https://theworkcrowd.com/fintech-pr",
+      "pipeline": "pr-freelance",
+      "industry": "UK/US freelance-talent marketplace that places vetted senior PR, communications and investor-relations freelancers and interims directly with fintech, financial-services and B2B clients. Dedicated fintech-PR and investor-relations consultant desks; matches on-demand talent to client briefs on hourly, project and retainer bases. High-value channel: Mark joins the bench once and gets routed live client briefs in his exact sectors.",
+      "location": "Remote (US & UK)",
+      "fundingStage": "Established freelance-talent marketplace",
+      "fitScore": 50,
+      "intentScore": 30,
+      "fitDetails": {
+        "pr_remit": "+20 — dedicated PR / media-relations / comms desk",
+        "sector_fit": "+15 — explicit fintech, financial services and IR focus, Mark's core ICP",
+        "workstream": "+10 — media relations, investor/media narrative, executive comms, IR",
+        "buyer_quality": "+5 — marketplace that routes recurring client briefs and overflow to its bench",
+        "urgency": "evergreen channel — active client briefs flow continuously rather than a single dated req"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — freelance / project / retainer placements",
+        "remote_flex": "+10 — fully remote, flexible engagements",
+        "recency": "+0 — evergreen marketplace, not a 72h post",
+        "urgency_signals": "+0 — no single ASAP signal; steady brief flow",
+        "apply_path": "+5 — direct join-the-network path"
+      },
+      "vertical": "pr",
+      "subvertical": "investor-pr",
+      "engagementModel": "freelance",
+      "buyerType": "staffing",
+      "compensationText": "Set per brief (hourly / project / retainer) — freelancer sets rate",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Freelancer marketplace / bench membership",
+      "urgencyScore": 55,
+      "contacts": [
+        { "name": null, "title": "Join as a freelancer (fintech-PR / IR desk)", "email": null, "linkedin": "https://www.linkedin.com/company/the-work-crowd/" }
+      ],
+      "signals": ["freelance", "remote", "fintech", "investor relations", "retainer", "marketplace bench", "direct join path"],
+      "source": "Web search — The Work Crowd fintech-PR & IR consultant desks, Aug 2026",
+      "sourceUrl": "https://theworkcrowd.com/fintech-pr",
+      "notes": "Grade A (combined 80) — highest-leverage find this cycle. This is an ENROLLMENT channel, not a one-off req: it repeatedly matches senior freelance PR/IR talent to fintech/financial clients on Mark's exact terms (hourly/project/retainer). ACTION: register Mark on the fintech-PR and investor-relations freelancer desks; strongest ongoing-deal-flow play of the run."
+    },
+    {
+      "name": "Regulated Fintech / Crypto — PR Lead (Contract, Media Narrative & Crisis)",
+      "website": "https://www.remoterocketship.com/jobs/public-relations/",
+      "pipeline": "pr-freelance",
+      "industry": "Regulated fintech/crypto business hiring an external PR lead to own its media narrative, manage agency performance, drive executive positioning, and handle crisis communications and events. Senior, standalone remit — exactly the strategic-plus-executional profile Mark pitches. Surfaced via Remote Rocketship's public-relations board.",
+      "location": "Remote",
+      "fundingStage": "Regulated fintech / crypto operating company",
+      "fitScore": 45,
+      "intentScore": 35,
+      "fitDetails": {
+        "pr_remit": "+20 — explicit PR lead: owns media narrative and media relations",
+        "sector_fit": "+15 — regulated fintech / crypto, core finance ICP",
+        "workstream": "+10 — executive positioning, crisis comms, media narrative",
+        "buyer_quality": "+0 — operating company hiring a lead (not overflow/white-label)",
+        "urgency": "crisis-comms + regulated-fintech remit implies an active, current need"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — external/contract lead engagement",
+        "remote_flex": "+10 — fully remote",
+        "recency": "+0 — within window but exact post date not confirmable",
+        "urgency_signals": "+10 — crisis comms + regulated media narrative = live/immediate need",
+        "apply_path": "+0 — board apply, no direct contact surfaced"
+      },
+      "vertical": "pr",
+      "subvertical": "crisis",
+      "engagementModel": "contract",
+      "buyerType": "operating-company",
+      "compensationText": "Not disclosed on board listing",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "PR Lead — external/contract, remote",
+      "urgencyScore": 70,
+      "contacts": [
+        { "name": null, "title": "Apply via Remote Rocketship listing", "email": null, "linkedin": null }
+      ],
+      "signals": ["contract", "remote", "fintech", "crypto", "crisis comms", "media narrative", "executive positioning"],
+      "source": "Remote Rocketship public-relations board, Aug 2026",
+      "sourceUrl": "https://www.remoterocketship.com/jobs/public-relations/",
+      "notes": "Grade A (combined 80). Strong sector + workstream fit and the highest urgency of the run (crisis/regulated media narrative). CAVEAT: verify the engagement is genuinely contract/fractional vs. a full-time hire before investing — board framing is 'PR Lead,' which can go either way. ACTION: confirm scope, then pitch senior contract media-narrative + crisis lead."
+    },
+    {
+      "name": "Toptal — Freelance PR & IPO/Investor-Comms Talent Bench",
+      "website": "https://www.toptal.com/marketing/public-relations",
+      "pipeline": "pr-freelance",
+      "industry": "Elite freelance-talent network placing vetted PR specialists, IPO consultants and investor-relations professionals with clients (Thumbtack, Bridgestone, Motorola) on hourly, part-time or contract bases. Runs distinct PR, IPO-consultant and investor-relations desks — a credible enrollment channel for a senior operator to receive finance-adjacent briefs.",
+      "location": "Remote (US)",
+      "fundingStage": "Established elite freelance marketplace",
+      "fitScore": 45,
+      "intentScore": 30,
+      "fitDetails": {
+        "pr_remit": "+20 — dedicated PR specialist desk",
+        "sector_fit": "+15 — IPO / investor-relations client base (finance-adjacent), Mark's ICP",
+        "workstream": "+10 — investor/media narrative, executive comms, thought leadership",
+        "buyer_quality": "+0 — marketplace bench, not overflow/white-label per se",
+        "urgency": "evergreen enrollment channel"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — freelance / hourly / contract placements",
+        "remote_flex": "+10 — remote, flexible",
+        "recency": "+0 — evergreen marketplace",
+        "urgency_signals": "+0 — steady brief flow, no single ASAP",
+        "apply_path": "+5 — direct apply-to-network path"
+      },
+      "vertical": "pr",
+      "subvertical": "investor-pr",
+      "engagementModel": "freelance",
+      "buyerType": "staffing",
+      "compensationText": "Set per engagement (hourly / part-time / contract)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Elite freelancer network / talent bench",
+      "urgencyScore": 45,
+      "contacts": [
+        { "name": null, "title": "Apply to Toptal PR / IPO-consultant network", "email": null, "linkedin": "https://www.linkedin.com/company/toptal/" }
+      ],
+      "signals": ["freelance", "remote", "IPO", "investor relations", "hourly", "marketplace bench"],
+      "source": "Web search — Toptal PR & IPO-consultant desks, Aug 2026",
+      "sourceUrl": "https://www.toptal.com/marketing/public-relations",
+      "notes": "Grade B (combined 75). Second enrollment channel alongside The Work Crowd; screening bar is high but client quality (IPO/IR) fits Mark. ACTION: apply to the PR + IPO/investor-relations desks; treat as a longer-lead-time but high-quality brief source."
+    },
+    {
+      "name": "Trizcom PR — White-Label PR Execution Partner (Agency Overflow)",
+      "website": "https://www.trizcom.com/white-label-pr",
+      "pipeline": "pr-freelance",
+      "industry": "US PR agency offering white-label PR services to ad and marketing agencies — media relations, campaign strategy, reputation management, stakeholder communications, thought-leadership content and crisis support delivered under the partner agency's brand. Explicit overflow/white-label model = recurring demand for senior freelance execution capacity.",
+      "location": "Remote (US)",
+      "fundingStage": "Established PR agency (white-label division)",
+      "fitScore": 35,
+      "intentScore": 30,
+      "fitDetails": {
+        "pr_remit": "+20 — core PR / media-relations execution",
+        "sector_fit": "+0 — serves mixed sectors via partner agencies (not finance-specific)",
+        "workstream": "+10 — media relations, thought leadership, crisis support",
+        "buyer_quality": "+5 — explicit white-label / agency-overflow model",
+        "urgency": "white-label desks staff overflow on demand"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — white-label execution = contract/freelance",
+        "remote_flex": "+10 — remote",
+        "recency": "+0 — standing service page, not a dated req",
+        "urgency_signals": "+0 — no single ASAP signal",
+        "apply_path": "+5 — direct firm contact path"
+      },
+      "vertical": "pr",
+      "subvertical": "agency-overflow",
+      "engagementModel": "contract",
+      "buyerType": "agency",
+      "compensationText": "N/A — white-label/overflow BD target (no comp-bearing posting)",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "White-label PR execution partner (agency overflow)",
+      "urgencyScore": 40,
+      "contacts": [
+        { "name": null, "title": "BD / white-label partnerships (via firm site)", "email": null, "linkedin": "https://www.linkedin.com/company/trizcom-public-relations/" }
+      ],
+      "signals": ["white-label", "agency overflow", "contract", "remote", "media relations", "crisis support"],
+      "source": "Web search — Trizcom white-label PR services page, Aug 2026",
+      "sourceUrl": "https://www.trizcom.com/white-label-pr",
+      "notes": "Grade B (combined 65). Overflow/white-label BD TARGET, not a live posting — intent inferred from the standing white-label offer. ACTION: BD outreach positioning Mark as senior overflow execution (media relations + crisis) for their partner-agency load; verify current capacity need."
+    },
+    {
+      "name": "10 to 1 Public Relations — White-Label PR Services Partner (Agency Overflow)",
+      "website": "https://10to1pr.com/what-we-do/white-label-pr-services/",
+      "pipeline": "pr-freelance",
+      "industry": "National (Phoenix-based) PR agency running a white-label PR services line for other agencies — earned media, media relations and campaign execution delivered under the partner's brand. Overflow/white-label model signals recurring need for senior freelance execution hands.",
+      "location": "Remote / US (Phoenix HQ)",
+      "fundingStage": "Established PR agency (white-label division)",
+      "fitScore": 35,
+      "intentScore": 25,
+      "fitDetails": {
+        "pr_remit": "+20 — core earned-media / PR execution",
+        "sector_fit": "+0 — mixed sectors via partner agencies",
+        "workstream": "+10 — earned media, media relations",
+        "buyer_quality": "+5 — explicit white-label / overflow model",
+        "urgency": "standing white-label offer"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — white-label execution = contract/freelance",
+        "remote_flex": "+5 — HQ-based but supports remote/national delivery",
+        "recency": "+0 — standing service page",
+        "urgency_signals": "+0 — no single ASAP signal",
+        "apply_path": "+5 — direct firm contact path"
+      },
+      "vertical": "pr",
+      "subvertical": "agency-overflow",
+      "engagementModel": "contract",
+      "buyerType": "agency",
+      "compensationText": "N/A — white-label/overflow BD target",
+      "remoteFlag": "hybrid",
+      "employmentTypeRaw": "White-label PR execution partner (agency overflow)",
+      "urgencyScore": 35,
+      "contacts": [
+        { "name": null, "title": "BD / white-label partnerships (via firm site)", "email": null, "linkedin": "https://www.linkedin.com/company/10-to-1-public-relations/" }
+      ],
+      "signals": ["white-label", "agency overflow", "earned media", "contract", "media relations"],
+      "source": "Web search — 10 to 1 PR white-label services page, Aug 2026",
+      "sourceUrl": "https://10to1pr.com/what-we-do/white-label-pr-services/",
+      "notes": "Grade B (combined 60). Second white-label BD target this cycle; similar play to Trizcom but distinct firm. Lower confidence on remote flexibility (Phoenix HQ). ACTION: light-touch BD outreach as senior overflow execution; deprioritize vs. Trizcom and the enrollment channels."
+    },
+    {
+      "name": "Forthright Advising — Interim Communications Director Network",
+      "website": "https://www.forthrightadvising.com/interim-communications-director",
+      "pipeline": "pr-freelance",
+      "industry": "Advisory firm placing interim/fractional communications directors into organizations with comms leadership gaps or temporary surge needs — strategic comms, media relations and executive communications on an interim basis. Buyer channel for senior interim comms leadership engagements.",
+      "location": "Remote (US)",
+      "fundingStage": "Established comms advisory / interim-placement firm",
+      "fitScore": 30,
+      "intentScore": 30,
+      "fitDetails": {
+        "pr_remit": "+20 — communications / media-relations leadership remit",
+        "sector_fit": "+0 — sector-agnostic interim placements",
+        "workstream": "+10 — executive comms, strategic comms, media relations",
+        "buyer_quality": "+0 — advisory placement firm (not overflow/white-label)",
+        "urgency": "interim desks fill leadership gaps on demand"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — interim / fractional engagements",
+        "remote_flex": "+10 — remote, flexible",
+        "recency": "+0 — standing service, not a dated req",
+        "urgency_signals": "+0 — no single ASAP signal",
+        "apply_path": "+5 — direct firm contact path"
+      },
+      "vertical": "pr",
+      "subvertical": "executive-comms",
+      "engagementModel": "interim",
+      "buyerType": "staffing",
+      "compensationText": "Set per interim engagement",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Interim communications director placement network",
+      "urgencyScore": 40,
+      "contacts": [
+        { "name": null, "title": "Join interim-comms network (via firm site)", "email": null, "linkedin": null }
+      ],
+      "signals": ["interim", "fractional", "remote", "executive comms", "strategic comms", "leadership gap"],
+      "source": "Web search — Forthright Advising interim communications director page, Aug 2026",
+      "sourceUrl": "https://www.forthrightadvising.com/interim-communications-director",
+      "notes": "Grade B (combined 60). Interim-leadership enrollment channel — good fit for Mark's senior/strategic profile but sector-agnostic. ACTION: register on the interim-comms network for surge/gap engagements; secondary to the finance-focused channels."
+    }
+  ]
+}

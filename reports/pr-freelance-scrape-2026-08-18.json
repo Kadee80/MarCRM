@@ -1,0 +1,183 @@
+{
+  "scrapeDate": "2026-08-18",
+  "scrapeType": "pr-freelance",
+  "totalLeads": 4,
+  "note": "Enhanced PR Freelance pipeline scrape. 7-day window (2026-08-11 to 2026-08-18). All 5 boolean clusters run across LinkedIn (Google/Bing-indexed only, no bot scraping), Indeed, ZipRecruiter, CareerBuilder, Mediabistro, plus Go Fractional, Idealist, The PR Net, Built In and Recruiterflow. Deduplicated against pr-freelance-scrape 08-05 through 08-14 and daily-scrape 08-13/08-14. Thin cycle: mid-August PR hiring is aggregator-heavy and several strong-looking hits were stale or already captured. Notable exclusions — The PR Net #1745 (already captured 08-14; now enriched: the client is The James Collective, food/bev/travel, 10-20 hrs/month), Four Pines Fund via Daybook (captured 08-14), Zy Media Group senior comms advisor (published 04-06, deadline expired), Upwardly Global interim VP (posted May-June, start date passed), Skill Corp strategic comms consultant (tech business-analyst remit, no PR/media relations, scored below threshold). Only leads scoring 55+ included.",
+  "leads": [
+    {
+      "name": "Touch Health — External Communications & Digital Strategy Consultant",
+      "website": "https://www.touchhealth.org",
+      "pipeline": "pr-freelance",
+      "industry": "Nonprofit global-health organization. Hiring a part-time external communications consultant for an August-to-September engagement to build a donor-facing external communications strategy and produce the core collateral: storytelling content, e-newsletter program reset (editorial cadence, drafting, scheduling), social collateral, and content for A/B testing and new-audience acquisition. Explicitly asks for hands-on LinkedIn content management for organizational and executive presence.",
+      "location": "New York, NY (remote-friendly)",
+      "fundingStage": "Nonprofit / donor-funded",
+      "fitScore": 35,
+      "intentScore": 45,
+      "fitDetails": {
+        "pr_remit": "+20 — external communications and executive/organizational visibility explicitly stated",
+        "sector_fit": "+0 — nonprofit global health, outside Mark's finance/legal/PE/B2B core sectors",
+        "workstream": "+10 — content strategy, executive presence, narrative/messaging build",
+        "buyer_quality": "+5 — defined immediate need with a fixed budget and a named window",
+        "urgency": "August-to-September engagement window, live now"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — consultant, part-time, project-scoped",
+        "remote_flex": "+10 — part-time and remote-friendly",
+        "recency": "+10 — posted 2026-08-16, inside 72 hours",
+        "urgency_signals": "+5 — compressed Aug-Sep delivery window, no explicit ASAP language",
+        "apply_path": "+5 — direct apply through the Idealist ATS"
+      },
+      "vertical": "pr",
+      "subvertical": "content-strategy",
+      "engagementModel": "consultant",
+      "buyerType": "operating-company",
+      "compensationText": "USD $7,500 total budget for the August-to-September engagement",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Part-time consultant — August-to-September project engagement",
+      "urgencyScore": 80,
+      "contacts": [
+        { "name": null, "title": "Apply via Idealist listing", "email": null, "linkedin": null }
+      ],
+      "signals": [
+        "Posted 2026-08-16 — freshest lead this cycle",
+        "Fixed budget disclosed up front ($7,500), so scope is pre-qualified",
+        "Executive LinkedIn presence work is a thought-leadership wedge",
+        "Newsletter program reset is a clean, self-contained first deliverable"
+      ],
+      "source": "Idealist — External Communications & Digital Strategy Consultant, Touch Health Inc (posted 2026-08-16)",
+      "sourceUrl": "https://www.idealist.org/en/nonprofit-job/8cc2b685aa2f43b185ca50170de624f9-external-communications-digital-strategy-consultant-touch-health-inc-new-york",
+      "notes": "Grade A (combined 80) on the rubric, but read the grade with a caveat: the score is driven almost entirely by intent (recency, part-time, clear budget, easy apply), not by fit. Sector is nonprofit global health rather than Mark's finance/PE/B2B core, the remit is donor content and owned channels rather than earned media, and $7,500 for a two-month part-time engagement is below senior-operator rates. CAVEAT: Idealist pages are JavaScript-rendered and returned an empty body on direct fetch — posting details are corroborated from indexed search results, so verify scope and budget on the live listing before investing time. ACTION: worth a fast, low-effort application given the freshness and defined scope; pitch the executive-visibility and narrative angle rather than competing on content-production price."
+    },
+    {
+      "name": "Reputation Management Consultants (RMC) — Crisis Communications Freelance (NY & LA)",
+      "website": "https://recruiterflow.com/reputationmanagementconsultants/jobs/1",
+      "pipeline": "pr-freelance",
+      "industry": "Global crisis management and reputation firm founded in 2006, serving Fortune 500 companies and their executives, government agencies, SMBs, nonprofits and individuals. Staff blends crisis experts, online reputation specialists, former newspaper editors and journalists. Recruiting experienced mid-level-and-above crisis communications professionals on a freelance basis to support crisis preparedness and planning, crisis simulations, and live crisis response for high-profile clients. Two parallel openings: New York and Los Angeles.",
+      "location": "New York, NY and Los Angeles, CA",
+      "fundingStage": "Established private firm (founded 2006)",
+      "fitScore": 50,
+      "intentScore": 25,
+      "fitDetails": {
+        "pr_remit": "+20 — crisis comms, media strategy, reactive statements, proactive and reactive media relations all explicit",
+        "sector_fit": "+15 — requires experience with business and financial media, investigative journalists, and in-house plus outside legal counsel; Fortune 500 and litigation-adjacent client base",
+        "workstream": "+10 — crisis and reputation, executive/C-suite counsel, public affairs, stakeholder engagement",
+        "buyer_quality": "+5 — agency-side freelance bench being actively built",
+        "urgency": "Standing freelance roster for live crisis response — activation is episodic but immediate when it comes"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — freelance stated in the job title itself",
+        "remote_flex": "+0 — city-specific postings (NY, LA), remote not stated",
+        "recency": "+0 — evergreen roster posting, no date disclosed",
+        "urgency_signals": "+5 — live crisis response implies on-call activation",
+        "apply_path": "+5 — direct apply through Recruiterflow"
+      },
+      "vertical": "pr",
+      "subvertical": "crisis",
+      "engagementModel": "freelance",
+      "buyerType": "agency",
+      "compensationText": "Not disclosed on listing",
+      "remoteFlag": "",
+      "employmentTypeRaw": "Crisis Communication — Freelance (separate NY and LA requisitions)",
+      "urgencyScore": 55,
+      "contacts": [
+        { "name": null, "title": "Apply via Recruiterflow — NY req (jobs/1) and LA req (jobs/3)", "email": null, "linkedin": null }
+      ],
+      "signals": [
+        "Best pure fit this cycle — the only lead scoring a full 50 on fit",
+        "Explicit demand for business and financial media relationships",
+        "Works alongside legal counsel — direct overlap with the legal-freelance pipeline",
+        "Freelance is in the job title, so no ambiguity about the commercial model",
+        "Two open geographies signals real capacity need, not a token bench listing"
+      ],
+      "source": "Recruiterflow — Reputation Management Consultants, Crisis Communication Freelance (NY req #1, LA req #3)",
+      "sourceUrl": "https://recruiterflow.com/reputationmanagementconsultants/jobs/1",
+      "notes": "Grade B (combined 75) but the strongest strategic fit of the cycle — the intent score is suppressed only by missing metadata (no posting date, no remote flag, no rate), not by weak demand. Senior crisis and issues work for Fortune 500 clients, requiring C-suite counsel plus hands-on drafting of crisis plans, reactive statements, talking points and FAQs, and working shoulder-to-shoulder with legal teams. LA requisition (jobs/3) timed out on fetch; NY requisition fully verified. ACTION: highest-priority application this cycle. Lead with financial and business media relationships and litigation-adjacent comms experience. Apply to the NY req; check whether LA is a duplicate or a genuinely separate need. Getting on this roster is recurring project revenue rather than a single engagement."
+    },
+    {
+      "name": "Crackle PR — B2B SaaS PR Agency (White-Label / Overflow Target)",
+      "website": "https://www.cracklepr.com/saas-pr-agency",
+      "pipeline": "pr-freelance",
+      "industry": "Specialist PR firm focused exclusively on B2B SaaS companies — earned media, product launch communications, founder and executive thought leadership, and analyst-adjacent visibility for software businesses. Sector-pure agency of the type that routinely subcontracts senior media relations execution during campaign peaks and launch cycles.",
+      "location": "Remote (US)",
+      "fundingStage": "Established boutique PR agency",
+      "fitScore": 50,
+      "intentScore": 20,
+      "fitDetails": {
+        "pr_remit": "+20 — pure PR and earned media agency, no ambiguity in remit",
+        "sector_fit": "+15 — B2B SaaS is squarely inside Mark's target sector list",
+        "workstream": "+10 — product launch comms, thought leadership, earned media",
+        "buyer_quality": "+5 — boutique agency profile that fits the overflow and white-label thesis",
+        "urgency": "No live posting — demand inferred from agency profile and category norms"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — agency subcontract and overflow model, freelance-compatible",
+        "remote_flex": "+0 — not stated, no posting to reference",
+        "recency": "+0 — no dated posting",
+        "urgency_signals": "+0 — no stated hiring need",
+        "apply_path": "+5 — direct BD contact path via the firm's site"
+      },
+      "vertical": "pr",
+      "subvertical": "agency-overflow",
+      "engagementModel": "freelance",
+      "buyerType": "agency",
+      "compensationText": "N/A — business-development target, no comp-bearing posting",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "N/A — outbound white-label / overflow BD target",
+      "urgencyScore": 30,
+      "contacts": [
+        { "name": null, "title": "BD / partnerships (via agency site)", "email": null, "linkedin": null }
+      ],
+      "signals": [
+        "Sector-pure B2B SaaS — matches Mark's ICP more tightly than the generalist white-label shops already in the CRM",
+        "Distinct from prior overflow targets (Wilson PR, Trizcom, 10to1, SERPpro, Interdependence)",
+        "Launch-cycle businesses have spiky capacity needs, which is when overflow gets bought"
+      ],
+      "source": "Web search — Crackle PR B2B SaaS PR agency, Aug 2026",
+      "sourceUrl": "https://www.cracklepr.com/saas-pr-agency",
+      "notes": "Grade B (combined 70). BUSINESS-DEVELOPMENT TARGET, NOT A LIVE POSTING — flagged explicitly so it is not worked as an application. Intent is scored honestly low (20) because nothing about hiring is stated; it earns its place on fit alone. Same pattern as the Vested, Caliber, Trizcom and 10to1 entries already in the pipeline. ACTION: outbound BD note positioning Mark as senior overflow capacity for launch pushes and founder thought-leadership programs. Lower priority than the two live postings above; batch it with the other white-label outreach rather than treating it as a standalone action."
+    },
+    {
+      "name": "Watson Creative — Freelance Public Relations Consultants",
+      "website": "https://builtin.com/job/freelance-public-relations-consultants/1776847",
+      "pipeline": "pr-freelance",
+      "industry": "Design-driven brand consulting firm headquartered in Portland, Oregon with offices in San Francisco and Bend. Recruiting freelance public relations contractors to collaborate with in-house strategists, account directors, project managers, designers, writers, developers and marketers on creative asset development and campaign activations.",
+      "location": "Portland, OR / San Francisco, CA / Bend, OR (remote contractor collaboration)",
+      "fundingStage": "Established private agency",
+      "fitScore": 35,
+      "intentScore": 30,
+      "fitDetails": {
+        "pr_remit": "+20 — freelance public relations consultants named directly in the role title",
+        "sector_fit": "+0 — brand and creative consulting, not finance, legal, PE or B2B-specific",
+        "workstream": "+10 — campaign activations and earned media execution alongside strategists and account directors",
+        "buyer_quality": "+5 — agency-side freelance bench, the classic overflow buyer",
+        "urgency": "Rolling contractor recruitment rather than a dated requisition"
+      },
+      "intentDetails": {
+        "engagement_model": "+15 — freelance contractor stated explicitly",
+        "remote_flex": "+10 — distributed contractor collaboration across three offices",
+        "recency": "+0 — no posting date disclosed on the listing",
+        "urgency_signals": "+0 — no stated immediate need",
+        "apply_path": "+5 — easy apply via Built In"
+      },
+      "vertical": "pr",
+      "subvertical": "agency-overflow",
+      "engagementModel": "freelance",
+      "buyerType": "agency",
+      "compensationText": "Not disclosed on listing",
+      "remoteFlag": "remote",
+      "employmentTypeRaw": "Freelance contractor — public relations consultant (rolling bench)",
+      "urgencyScore": 40,
+      "contacts": [
+        { "name": null, "title": "Apply via Built In listing", "email": null, "linkedin": "https://www.linkedin.com/company/watson-creative/" }
+      ],
+      "signals": [
+        "Agency actively building a named PR freelance bench",
+        "Multi-office footprint implies recurring rather than one-off overflow",
+        "Creative-led shop, so a senior earned-media operator fills a real capability gap"
+      ],
+      "source": "Built In — Freelance Public Relations Consultants, Watson Creative",
+      "sourceUrl": "https://builtin.com/job/freelance-public-relations-consultants/1776847",
+      "notes": "Grade B (combined 65). CAVEAT: the Built In page returned an empty body on direct fetch and no posting date is exposed, so recency could not be confirmed and was scored 0 — it may sit outside the 7-day window. Sector is creative and brand work rather than Mark's finance and B2B core, so this is bench-building rather than an ICP bullseye. ACTION: low-effort application to get on the roster; verify the listing is still live before spending time on a tailored pitch."
+    }
+  ]
+}
