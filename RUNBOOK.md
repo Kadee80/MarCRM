@@ -71,15 +71,14 @@ git status --porcelain | wc -l      # anything uncommitted?
 
 ## Troubleshooting
 
-**Reports tab doesn't show reports from before August 2026's freelance scrapes.**
-Known gap, not your setup. `src/app/api/reports/route.js` filters on
-`f.startsWith("daily-scrape-")`, so the 128 historical `pr-freelance-scrape-*.json` and
-`legal-freelance-scrape-*.json` files are invisible in the UI even though they're committed and
-deployed. Those leads did reach the database, so they're on the pipeline board. Current scrapes
-are unaffected — the merged task writes everything into `daily-scrape-*.json`.
+**A report doesn't appear in the Reports tab at all.**
+The filename must end in `-YYYY-MM-DD.json` — that's where the date is parsed from. A file
+without a trailing date is skipped. (The prefix is free-form; it becomes the report's type
+label. Reports written before Aug 2026 by the freelance scrapes now display too.)
 
-**A report doesn't appear at all, and the filename doesn't start with `daily-scrape-`.**
-Same filter. Report filenames must keep that prefix or the Reports tab ignores them.
+**A report shows an amber "could not be read" banner.**
+That file is malformed JSON. Open it and check — a truncated write is the usual cause. One bad
+file no longer takes down the whole tab, so everything else still works.
 
 **Reports tab is missing today's scrape.**
 The `.json` wasn't committed and pushed, or the file was written as `.md` only. The Reports API
@@ -117,6 +116,18 @@ Usually real, not a bug — check the report's `.md`, which explains the yield. 
 returned nothing, check that `BRAVE_SEARCH_API_KEY` is set and under quota (2,000/month).
 
 ---
+
+## Repo cleanup
+
+Anything touching the git index has to run locally — the cloud sandbox can't take git locks.
+
+```bash
+bash scripts/cleanup-local.sh            # dry run: shows the plan, changes nothing
+bash scripts/cleanup-local.sh --apply    # clears stale locks, untracks OS noise,
+                                         # archives old import scripts, commits
+```
+
+It doesn't push. Review `git log -1 --stat` first.
 
 ## Monthly
 

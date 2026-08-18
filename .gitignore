@@ -4,3 +4,15 @@ prisma/dev.db
 prisma/dev.db-journal
 .env
 .env.local
+.env*.local
+
+# Build / tooling
+.vercel/
+
+# OS + editor noise
+.DS_Store
+**/.DS_Store
+
+# Local run output
+*.log
+sync.log

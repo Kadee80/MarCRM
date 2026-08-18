@@ -29,22 +29,12 @@ Nine things have to move, in this order:
 
 ## 0. Before anything else: back up and unblock
 
-There are **28 uncommitted files** in the repo, including the Aug 13, Aug 14, and Aug 18
-reports for all three scrape types, and edits to `scripts/db-check.cjs`. The last commit is
-`72715d8 Legal Freelance scrape 2026-08-11`. A stale `.git/index.lock` is blocking the
-commit — this has happened before and it fails silently.
+**Done 2026-08-18** — the backlog of 28 uncommitted files (Aug 13/14/18 reports for all three
+scrape types) was committed as `7b43e72 Catch up` and pushed. Working tree is clean and
+`main` is level with `origin`. If commits start failing silently again, that's the stale-lock
+problem returning; `bash scripts/cleanup-local.sh` handles it.
 
-Run these locally, on Katie's Mac, first:
-
-```bash
-cd ~/Desktop/MarCRM
-rm -f .git/*.lock .git/refs/heads/*.lock
-git add -A
-git commit -m "Catch up reports through 2026-08-18"
-git push
-```
-
-Then take a database snapshot before any ownership changes:
+Still outstanding — take a database snapshot before any ownership changes:
 
 ```bash
 pg_dump "$DATABASE_URL" -Fc -f ~/Desktop/marcrm-backup-$(date +%F).dump
@@ -244,24 +234,36 @@ re-score what's still in an active pipeline stage.
 
 ---
 
-## 8b. One bug worth fixing before Mark inherits it
+## 8b. Bugs found and fixed (2026-08-18)
 
-`src/app/api/reports/route.js` filters reports with `f.startsWith("daily-scrape-")`. It has
-always done this. The consequence: the Reports tab shows **only** the daily scrape.
+**The Reports tab hid two-thirds of all reports.** `src/app/api/reports/route.js` filtered on
+`f.startsWith("daily-scrape-")`, so 128 `pr-freelance-scrape-*.json` and
+`legal-freelance-scrape-*.json` files were committed, deployed and invisible. Two of the three
+scrapes had never had a report appear on the site. (The leads weren't lost —
+`sync-all-leads.cjs` reads every `reports/*.json`, so they always reached the pipeline board.)
 
-As of today there are 76 `daily-scrape-*.json` files and **128** freelance report files —
-`pr-freelance-scrape-*.json` and `legal-freelance-scrape-*.json` — that are committed,
-deployed, and invisible in the UI. Two of the three scheduled scrapes have never had their
-reports appear on the site.
+Fixed by extracting the scanning logic into `src/lib/reports.js`, which matches any
+`<prefix>-YYYY-MM-DD[-variant].json` and labels each report by type. All 204 report files now
+load; verified against the real directory.
 
-The leads themselves are not lost. `sync-all-leads.cjs` reads every `reports/*.json`, so those
-companies do reach the database and the pipeline board. It's the Reports tab alone that hides
-them.
+**Two latent bugs surfaced while fixing it:**
 
-**The merge in §8c sidesteps this going forward** — the single task writes everything into
-`daily-scrape-*.json`, so freelance leads appear in the Reports tab for the first time with no
-code change. The 128 historical files stay hidden until someone widens the filter, which is
-still worth doing as a one-line change plus a report-type label in the UI.
+- *Invalid date.* `daily-scrape-2026-04-27-targeted.json` was included by the old filter, but
+  its date was derived by string-replacement as `"2026-04-27-targeted"`, which is not a date.
+  The UI feeds that straight into `new Date(...)` for week grouping. Now parsed correctly and
+  labelled "Daily · targeted".
+- *Duplicate React keys.* The report list keyed on `date`, which was safe only while one
+  report existed per day. With all types visible, **17 of 19 weeks** have a date collision.
+  The UI now keys on `filename` and selects by filename.
+
+**Also hardened:** a malformed report file used to throw and 500 the entire tab (the same class
+of bug `9f13b0a` fixed for `/api/companies`). Parse failures are now caught per file and
+surfaced as a warning on that report only.
+
+**Repo hygiene** is scripted rather than done, because it needs git-index writes the sandbox
+doesn't have — `bash scripts/cleanup-local.sh` (dry run) then `--apply`. It clears stale locks,
+untracks `.DS_Store`/`sync.log`, archives the 205 superseded `import-*.cjs` scripts, and moves
+the stale root `AgencyCRM.jsx` copy. `.gitignore` and `README.md` are already updated.
 
 ---
 

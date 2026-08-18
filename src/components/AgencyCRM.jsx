@@ -2183,8 +2183,8 @@ export default function AgencyCRM() {
     <div className="space-y-6">
       <div className="flex items-center justify-between">
         <div>
-          <h2 className="text-lg font-bold text-gray-900">Daily Lead Reports</h2>
-          <p className="text-sm text-gray-500">Automated daily scrapes across your 8 pipelines — grouped by week</p>
+          <h2 className="text-lg font-bold text-gray-900">Lead Reports</h2>
+          <p className="text-sm text-gray-500">Automated scrapes across your 8 pipelines — grouped by week</p>
         </div>
         <div className="text-xs text-gray-400">{reports.length} reports total</div>
       </div>
@@ -2235,23 +2235,34 @@ export default function AgencyCRM() {
                 {/* Expanded Week Content */}
                 {isExpanded && (
                   <div className="border-t border-gray-100">
-                    {/* Day selector within the week */}
+                    {/* Report selector within the week — a day can have several report types */}
                     <div className="flex gap-1.5 px-5 py-3 bg-gray-50 border-b border-gray-100 overflow-x-auto">
-                      {week.reports.sort((a, b) => b.date.localeCompare(a.date)).map(r => (
+                      {[...week.reports]
+                        .sort((a, b) => b.date.localeCompare(a.date) || a.filename.localeCompare(b.filename))
+                        .map(r => (
                         <button
-                          key={r.date}
+                          key={r.filename}
                           onClick={() => setSelectedReport(r)}
-                          className={`flex-shrink-0 px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${selectedReport?.date === r.date ? "bg-indigo-600 text-white" : "bg-white text-gray-600 hover:bg-gray-100 border border-gray-200"}`}
+                          className={`flex-shrink-0 px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${selectedReport?.filename === r.filename ? "bg-indigo-600 text-white" : "bg-white text-gray-600 hover:bg-gray-100 border border-gray-200"}`}
                         >
                           {new Date(r.date + "T12:00:00").toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric" })}
+                          {r.typeLabel && r.typeLabel !== "Daily" && (
+                            <span className={`ml-1.5 ${selectedReport?.filename === r.filename ? "opacity-80" : "text-gray-400"}`}>· {r.typeLabel}</span>
+                          )}
                           <span className="ml-1.5 opacity-70">{r.totalLeads} leads</span>
                         </button>
                       ))}
                     </div>
 
-                    {/* Selected day's report */}
-                    {selectedReport && week.reports.some(r => r.date === selectedReport.date) && (
+                    {/* Selected report */}
+                    {selectedReport && week.reports.some(r => r.filename === selectedReport.filename) && (
                       <div className="p-5 space-y-4">
+                        {selectedReport.error && (
+                          <div className="rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-xs text-amber-800">
+                            <span className="font-semibold">{selectedReport.filename}</span> could not be read — {selectedReport.error}
+                          </div>
+                        )}
+
                         {/* Summary Stats */}
                         <div className="grid grid-cols-4 gap-3">
                           <div className="bg-gray-50 rounded-lg p-3 text-center">

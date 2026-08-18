@@ -61,17 +61,19 @@ the last git push. So a report shows up on the site as soon as it is committed a
 no database import required. The **dashboard and pipeline board** do read the database, so
 leads only appear there after the sync script runs.
 
-> **Known gap.** That route filters on `f.startsWith("daily-scrape-")`, so it lists **only**
-> files with that prefix. 128 historical `pr-freelance-scrape-*.json` and
-> `legal-freelance-scrape-*.json` files are committed, deployed, and completely invisible in
-> the UI — roughly two-thirds of all reports ever produced. The leads themselves are fine
-> (`sync-all-leads.cjs` reads every `reports/*.json` regardless), so they do reach the database
-> and the pipeline board. It is the Reports tab alone that hides them.
+The scanning logic lives in `src/lib/reports.js` (`loadReports(dir)`), deliberately kept free
+of Next imports so it can be run and tested with plain `node`. The route is a thin wrapper.
+
+> **Fixed 2026-08-18.** The route used to filter on `f.startsWith("daily-scrape-")`, which hid
+> every freelance report — 128 files, about two-thirds of everything ever produced. It also
+> derived the date by string-replacement, which produced an invalid date for the one
+> `daily-scrape-2026-04-27-targeted.json` file. `loadReports` now matches any
+> `<prefix>-YYYY-MM-DD[-variant].json`, returns a `type` and `typeLabel` per report, and
+> catches parse errors per file so one malformed report can't 500 the whole tab.
 >
-> Since August 2026 the single merged scrape writes everything into `daily-scrape-*.json`, so
-> new freelance leads do show up. **This is why report filenames must keep the `daily-scrape-`
-> prefix** — renaming them hides the report. Widening the filter and adding a report-type label
-> would also surface the 128 historical files.
+> Because several reports can now share a date, **the UI keys reports on `filename`, not
+> `date`.** 17 of 19 weeks had a date collision before this change. Don't reintroduce a
+> date-based key.
 
 ---
 
@@ -103,10 +105,11 @@ app. Shape:
 { "scrapeDate": "YYYY-MM-DD", "totalLeads": 0, "note": "…", "leads": [ … ] }
 ```
 
-Filename: `reports/daily-scrape-YYYY-MM-DD.json` — one file per run, all 8 pipelines, and the
-prefix is load-bearing (see the Known gap above). The historical
-`pr-freelance-scrape-*` / `legal-freelance-scrape-*` files date from when three separate tasks
-ran; `sync-all-leads.cjs` still reads them.
+Filename: `reports/daily-scrape-YYYY-MM-DD.json` — one file per run, all 8 pipelines. The
+filename must end in `-YYYY-MM-DD.json`; the date is parsed from there, and a file without it
+is skipped by the Reports tab. The prefix itself is now free-form (it becomes the report's
+type label). The historical `pr-freelance-scrape-*` / `legal-freelance-scrape-*` files date
+from when three separate tasks ran, and now display correctly alongside the daily reports.
 
 `sync-all-leads.cjs` tolerates both a `leads` and a `newLeads` key, plus common field-name
 variants, but new reports should use `leads`.
@@ -179,15 +182,19 @@ user to delete that folder themselves.
 
 ---
 
-## Repo hygiene notes (known, not yet fixed)
+## Repo hygiene
 
-- `.DS_Store` and `sync.log` are tracked in git and should be added to `.gitignore` and removed
-  from the index.
-- **205** obsolete `scripts/import-YYYY-MM-DD.cjs` files remain, one per scrape day. They are
-  superseded by `sync-all-leads.cjs`, several no longer run at all, and they dominate the
-  `scripts/` directory. Archiving them into `scripts/archive/` would make the folder legible
-  again without losing provenance.
-- `src/app/api/reports/route.js` only lists `daily-scrape-*.json` — see the Known gap above.
-- `AgencyCRM.jsx` at the repo root is a stale copy; the live component is
-  `src/components/AgencyCRM.jsx`.
-- `.env` is correctly gitignored. `.env.example` documents the required keys.
+`.gitignore` now covers `.DS_Store`, `*.log` and `.vercel/`. `.env` is correctly ignored;
+`.env.example` documents the required keys.
+
+Remaining cleanup needs git-index writes, which the sandbox cannot do — it is scripted in
+`scripts/cleanup-local.sh`, run locally:
+
+```bash
+bash scripts/cleanup-local.sh            # dry run, shows the plan
+bash scripts/cleanup-local.sh --apply    # do it and commit
+```
+
+It clears stale git locks, untracks `.DS_Store` / `sync.log`, archives the **205** superseded
+`scripts/import-YYYY-MM-DD.cjs` files into `scripts/archive/`, and moves the stale root
+`AgencyCRM.jsx` (the live component is `src/components/AgencyCRM.jsx`) into `archive/`.

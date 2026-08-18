@@ -82,18 +82,15 @@ async function main() {
     console.log(`\n(ℹ️  ${empty.length} report(s) had 0 leads: ${empty.join(", ")})`);
   }
 
-  // Map a report file to its matching import script name.
-  const toImportScript = (file) => {
-    const date = (file.match(/(\d{4}-\d{2}-\d{2})/) || [])[1] || "";
-    if (file.startsWith("daily-scrape")) return `scripts/import-${date}.cjs`;
-    if (file.startsWith("legal-freelance")) return `scripts/import-legal-freelance-${date}.cjs`;
-    if (file.startsWith("pr-freelance")) return `scripts/import-pr-freelance-${date}.cjs`;
-    return "(unknown)";
-  };
-
   if (notImported.length) {
-    console.log(`\n--- Suggested commands (only run those whose script exists) ---`);
-    notImported.forEach((r) => console.log(`node ${toImportScript(r.file)}`));
+    // The old advice here was to run the matching scripts/import-<date>.cjs. Those are
+    // superseded by sync-all-leads.cjs and now live in scripts/archive/ — one idempotent
+    // command covers every missing day at once, so there is nothing per-report to run.
+    console.log(`\n--- To import ---`);
+    console.log(`npm run sync:dry     # show what would be inserted, write nothing`);
+    console.log(`npm run sync         # insert the missing companies`);
+    console.log(`\nsync-all-leads.cjs re-scans every report and inserts only what's absent,`);
+    console.log(`so it is safe to run repeatedly and covers all ${notImported.length} report(s) above.`);
   }
 
   await prisma.$disconnect();
