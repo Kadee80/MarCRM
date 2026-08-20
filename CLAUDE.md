@@ -140,6 +140,30 @@ It supersedes the per-day `scripts/import-*.cjs` files. Helper scripts, both loc
 
 ---
 
+## Downstream: the Command Center (Google Drive)
+
+Leads do not stop at the dashboard. Once Mark marks a lead as good in the GUI, it goes into
+**"Consulting/Freelance Search & Business Development Command Center"**, a Drive folder on his
+`rivernorthagency.com` account, which holds:
+
+- `Consulting/Freelance Search — Application Tracker (Master)` — the two freelance pipelines.
+  Its `Source` column already includes a `Scraper/CRM` value for leads arriving from here.
+- `04 Business Development Pipeline / Business Development Pipeline (Master)` — the six agency
+  pipelines. Client opportunities, not job applications; different columns.
+- `01 Resume Library`, `02 Applications Archive`, `03 Cover Letters Sent`,
+  `05 Source Material and Career Facts`.
+
+Two consequences for anyone editing the scrape:
+
+1. **`roleTitle` is required on freelance leads.** The tracker has a Role/Title column and
+   `Company` is company-level, so the scrape is the only place it can come from. See
+   `docs/scrape-tasks/freelance-rules.md` §6.
+2. **Agency and freelance leads have different destinations.** A funding-round lead is a BD
+   row; a job posting is an application row. This is the same split as the §2 routing rule in
+   the scrape prompt — apply it once and it holds all the way through.
+
+---
+
 ## Environment limits Claude will hit
 
 **The Cowork cloud sandbox cannot reach Neon.** Outbound Postgres to

@@ -149,9 +149,19 @@ purely junior execution.
 **PR freelance — Intent:** freshness · disclosed budget or rate · remote eligibility · ease of
 apply · defined start window.
 
-**Extra schema fields to capture on every freelance lead:** `vertical`, `subvertical`,
-`engagementModel`, `buyerType`, `compensationText`, `remoteFlag`, `employmentTypeRaw`,
-`urgencyScore`.
+**Extra schema fields to capture on every freelance lead:** `roleTitle`,
+`suggestedResumeCategory`, `vertical`, `subvertical`, `engagementModel`, `buyerType`,
+`compensationText`, `remoteFlag`, `employmentTypeRaw`, `urgencyScore`.
+
+`roleTitle` is **required** — the posting's job title, verbatim where possible. It feeds the
+Role/Title column of the Command Center application tracker, and nothing else in the schema
+carries it (`Company` is company-level). A lead without a `roleTitle` cannot be tracked, so
+treat a missing one the same as a missing company name.
+
+`suggestedResumeCategory` must be one of: `Legal / Commercial Counsel` · `Legal Tech & AI` ·
+`Executive (CEO/COO)` · `Management Consulting` · `PR Marketing & Media`. Default by pipeline
+(`legal-freelance` → Legal / Commercial Counsel, `pr-freelance` → PR Marketing & Media) and
+override when the posting justifies it.
 
 **Rank honestly.** A fresh posting with a disclosed budget and an easy apply path can outscore
 a much better fit purely on intent. When that happens, note it under the table and say which

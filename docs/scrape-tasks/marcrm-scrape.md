@@ -136,8 +136,21 @@ the app.
     ]
   }
 
-  Freelance leads additionally carry: vertical, subvertical, engagementModel, buyerType,
-  compensationText, remoteFlag, employmentTypeRaw, urgencyScore.
+  Freelance leads additionally carry: roleTitle, suggestedResumeCategory, vertical,
+  subvertical, engagementModel, buyerType, compensationText, remoteFlag, employmentTypeRaw,
+  urgencyScore.
+
+  `roleTitle` is REQUIRED on every freelance lead. It is the posting's actual job title,
+  verbatim where possible ("Interim General Counsel", not "legal role"). It exists because the
+  Command Center application tracker has a Role/Title column and `Company` is company-level —
+  there is nowhere else for the role to come from. Do not bury it in `notes`.
+
+  `suggestedResumeCategory` is one of exactly: "Legal / Commercial Counsel" | "Legal Tech & AI" |
+  "Executive (CEO/COO)" | "Management Consulting" | "PR Marketing & Media". These are the five
+  resume categories in the tracker legend. Default `legal-freelance` → "Legal / Commercial
+  Counsel" and `pr-freelance` → "PR Marketing & Media", but override when the posting warrants
+  it — a fund-counsel role at an AI company is "Legal Tech & AI", a fractional COO req is
+  "Executive (CEO/COO)". This is a suggestion for Mark, not a decision; he can change it.
 
 `reports/daily-scrape-YYYY-MM-DD.md`
   - Header: date, counts, pipelines covered, dedup baseline count

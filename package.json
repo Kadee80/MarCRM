@@ -10,6 +10,7 @@
     "postinstall": "prisma generate",
     "db:push": "prisma db push",
     "db:seed": "node prisma/seed.mjs",
+    "publish": "bash scripts/publish.sh",
     "sync": "node scripts/sync-all-leads.cjs",
     "sync:dry": "node scripts/sync-all-leads.cjs --dry-run",
     "sync:scan": "node scripts/sync-all-leads.cjs --scan",
