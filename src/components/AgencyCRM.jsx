@@ -6,7 +6,7 @@ import {
   Briefcase, Database, ChevronDown, ChevronUp, Zap, MapPin,
   UserCheck, Link2, AlertCircle, Activity, ArrowLeft, Circle, CheckCircle2,
   Megaphone, Scale, BookOpen, Cpu, Video, FileText, Award, Landmark,
-  MessageSquare, PhoneCall, Calendar, Save, Columns, Edit3, Flag, Archive
+  MessageSquare, PhoneCall, Calendar, Save, Columns, Edit3, Flag, Archive, Download
 } from "lucide-react";
 
 /* ═══════════════════════════════════════════════════════════════════════════
@@ -853,6 +853,53 @@ export default function AgencyCRM() {
     setSelectedCompany(null);
   };
 
+  // ─── Export leads ──────────────────────────────────────────────────
+  const exportStarredLeads = () => {
+    const starredLeads = companies.filter(c => c.starred);
+    if (starredLeads.length === 0) {
+      alert("No starred leads to export. Star some leads first!");
+      return;
+    }
+
+    const exportData = starredLeads.map(c => ({
+      id: c.id,
+      name: c.name,
+      website: c.website,
+      pipeline: c.pipeline,
+      industry: c.industry,
+      size: c.size,
+      revenue: c.revenue,
+      location: c.location,
+      fundingStage: c.fundingStage,
+      techStack: c.techStack,
+      stage: c.stage,
+      fitScore: c.fitScore,
+      intentScore: c.intentScore,
+      totalScore: c.fitScore + c.intentScore,
+      notes: c.notes,
+      source: c.source,
+      contacts: contacts.filter(ct => ct.companyId === c.id).map(ct => ({
+        name: ct.name,
+        title: ct.title,
+        email: ct.email,
+        phone: ct.phone,
+        linkedin: ct.linkedin,
+        decisionMaker: ct.decisionMaker,
+      })),
+    }));
+
+    const json = JSON.stringify(exportData, null, 2);
+    const blob = new Blob([json], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = `marcrm-starred-leads-${new Date().toISOString().slice(0, 10)}.json`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+  };
+
   // ─── Contact enrichment (Hunter.io / RocketReach) ─────────────────
   const handleEnrich = async (contact, companyName, companyWebsite) => {
     if (enriching) return;
@@ -1333,6 +1380,9 @@ export default function AgencyCRM() {
         </select>
         <button onClick={() => setStarredOnly(v => !v)} className={`flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium border transition-colors ${starredOnly ? "bg-amber-50 border-amber-300 text-amber-700" : "bg-white border-gray-200 text-gray-500 hover:border-gray-300"}`}>
           <Star size={14} className={starredOnly ? "fill-amber-400 text-amber-400" : ""} /> Starred
+        </button>
+        <button onClick={exportStarredLeads} className="flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium border border-indigo-200 bg-indigo-50 text-indigo-700 hover:bg-indigo-100 transition-colors">
+          <Download size={14} /> Export Starred
         </button>
       </div>
 
