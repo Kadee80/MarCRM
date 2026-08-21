@@ -1,0 +1,1816 @@
+{
+  "scrapeDate": "2026-08-21",
+  "totalLeads": 45,
+  "note": "Cloud run (no device bridge). Dedup baseline: 860 unique company names from 204 reports/*.json in the GitHub clone at commit f7e0f7d. IMPORTANT — STALE BASELINE: the newest report on GitHub is daily-scrape-2026-08-18.json. The 2026-08-21 morning run's 30 leads were delivered into the conversation but never saved to reports/ or pushed, so they are NOT in this dedup baseline. Expect overlap with that list; Dollar Shave Club in particular is a known repeat. Second run of the day, re-run at Mark's request. All 8 pipelines, 7-day lookback (2026-08-14 to 2026-08-21). Both freelance pipelines scored for Mark per freelance-rules.md. Deduped out as already in the baseline: Natural, Mission North, Reputation Management Consultants, Awani Capital (= Awani Capital Management), Vals AI, Axle, Trajectory, Elevate Services (= Elevate/ElevateFlex). Consistency check applied — one verdict per company. Rillet surfaced in 3 pipelines (pr-marketing 88 / legal-consulting 77 / coaching-ops 90) → coaching-ops. Boom surfaced in 3 (pr-marketing 77 / coaching-ops 80 / legal-consulting 85) → legal-consulting. Wispr in 2 (pr-marketing 76 / coaching-ops 78) → coaching-ops. Apollo Atomics in 2 (coaching-ops 75 / legal-consulting 88) → legal-consulting. KNOWN GAPS: (1) SEC EDGAR unreachable from the sandbox — every sec.gov URL returns PROVENANCE_REQUIRED, so ZERO Form D filings were pulled. This is the single biggest quality defect and it distorts fund-formation specifically: press covers fund CLOSES, which is the wrong end of the formation sales cycle. Only 1 of 7 fund-formation leads (Academic Capital Partners) is genuinely pre-fundraise. (2) No BRAVE_SEARCH_API_KEY — .env is gitignored and absent from the clone, so no Reddit/social pass ran on any pipeline. (3) LinkedIn Google-indexed only, per the rules. SOURCE QUALITY: ZipRecruiter, Indeed and Glassdoor returned salary-benchmark and category-index pages across essentially every freelance cluster and were not scored — consistent with the 08-21 morning finding. Legal clusters 4 (LPA/side letter/subscription docs) and 9 (outside GC/outsourced legal) confirmed structurally broken again: cluster 4 returns Lexology articles and law-firm PDFs, cluster 9 returns 100% law-firm marketing. PR cluster 5 (freelance bench/white-label) confirmed editorial-only; the budget pivot to enumerating agency careers pages directly is what produced the qualifying bench leads. Fractional Jobs (fractionaljobs.io), PRSA Jobcenter and the NIRI Career Center could not be fetched (blocked / 403 / JS-rendered) and are unchecked this cycle. THIN FREELANCE CYCLE, stated plainly: 10 legal boolean clusters produced exactly one qualifying lead. Every fund-formation and emerging-manager query resolved to law firms SELLING the service rather than anyone hiring for it — that side of the ICP is reached through BD and bench outreach, not job boards. Bench/BD targets identified (not scored as leads): Axiom and Paragon Legal (ALSPs, highest-yield registrations), Faison Law Group, Montague Law, Kruze Consulting, General Legal, Masterly Legal, Zecca Ross Law, Avisen Legal, The Hart Law Firm. Counts by pipeline: pr-marketing 11 · coaching-ops 8 · fund-formation 7 · media 6 · legal-consulting 5 · ai-consulting 4 · pr-freelance 3 · legal-freelance 1.",
+  "leads": [
+    {
+      "name": "Rillet",
+      "website": "https://www.rillet.com",
+      "pipeline": "coaching-ops",
+      "industry": "AI-native ERP / accounting software (B2B SaaS)",
+      "location": "New York, NY",
+      "fundingStage": "Series C — $100M at $1B valuation",
+      "fitScore": 45,
+      "intentScore": 45,
+      "fitDetails": {
+        "icpFit": 17,
+        "growthStage": 15,
+        "opsCeilingEvidence": 13
+      },
+      "intentDetails": {
+        "recency": 20,
+        "triggerStrength": 18,
+        "buyerAccessibility": 7
+      },
+      "signals": [
+        "2026-08-19: Raised $100M Series C led by Iconiq at a $1B valuation, a16z and Sequoia returning; total raised $200M+",
+        "2026-08-19: ARR doubled in the prior three months; 600+ customers",
+        "2026-08-19: Three rounds in roughly 15 months — Series A May 2025, Series B 2025, Series C 2026",
+        "2026-08-19: CEO Nicolas Kopp said the round closed in under 48 hours with no prior plan to fundraise",
+        "2026-04: Announced an alliance with EY, adding channel delivery and partner-management load"
+      ],
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/08/19/rillet-raises-100m-series-c-at-1b-valuation-2-years-after-emerging-from-stealth/",
+      "notes": "CONSISTENCY NOTE: Rillet surfaced in three pipelines this run (pr-marketing 88, legal-consulting 77, coaching-ops 90). Routed to coaching-ops on the highest combined score; the PR and legal angles are secondary and noted here rather than duplicated. Cleanest ops-ceiling profile of the run — revenue doubling on a 3-month cadence, three rounds in 15 months, a new Big Four channel partnership, all under a founder-CEO. Caveat: at $1B and $100M in the bank they can afford full-time hires and will be courted by every retained search firm in the Bay Area, so the sale is interim coverage and cadence design during the search, not a permanent seat.",
+      "contacts": [
+        {
+          "name": "Nicolas Kopp",
+          "title": "Co-founder & CEO",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "grade": "A"
+    },
+    {
+      "name": "bitdrift",
+      "website": "https://bitdrift.io",
+      "pipeline": "pr-marketing",
+      "industry": "Devtools — mobile observability (Tech B2B)",
+      "location": "San Francisco, CA",
+      "fundingStage": "Early venture — $15M total raised",
+      "fitScore": 40,
+      "intentScore": 41,
+      "fitDetails": {
+        "industryMatch": 17,
+        "companyStage": 9,
+        "likelyBudget": 7,
+        "lacksPrRepresentation": 7
+      },
+      "intentDetails": {
+        "triggerRecency": 19,
+        "raiseSize": 9,
+        "growthMarketingSignals": 13
+      },
+      "signals": [
+        "2026-08-20: Disclosed $15M total funding from Amplify Partners, 01 Advisors, Primeset and Lyft",
+        "2026-08-20: Launched bitdrift AI, giving AI agents programmatic access to mobile telemetry, live sessions and cohorts via CLI and APIs",
+        "2026-08-20: Stated use of funds includes platform scaling and accelerating the bitdrift AI rollout",
+        "Founded by ex-Lyft engineers, per ITOps Times"
+      ],
+      "source": "FinSMEs",
+      "sourceUrl": "https://www.finsmes.com/2026/08/bitdrift-raises-15m-in-total-funding.html",
+      "notes": "Double trigger — funding disclosure and a net-new product launch the same day — which is the ideal moment to engage a PR partner. Coverage is confined to trade outlets (ITOps Times, TechEdge AI), implying little or no agency support and real headroom in developer and enterprise-IT press. Caveat: modest round size caps the likely retainer; scope this as launch-plus-thought-leadership rather than a full program.",
+      "contacts": [
+        {
+          "name": "Peter Morelli",
+          "title": "CEO",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "grade": "A"
+    },
+    {
+      "name": "Twin1 AI",
+      "website": "",
+      "pipeline": "pr-marketing",
+      "industry": "Enterprise AI — digital twins for knowledge workers (Tech B2B)",
+      "location": "San Mateo, CA",
+      "fundingStage": "Seed — $20M",
+      "fitScore": 39,
+      "intentScore": 42,
+      "fitDetails": {
+        "industryMatch": 16,
+        "companyStage": 8,
+        "likelyBudget": 7,
+        "lacksPrRepresentation": 8
+      },
+      "intentDetails": {
+        "triggerRecency": 19,
+        "raiseSize": 10,
+        "growthMarketingSignals": 13
+      },
+      "signals": [
+        "2026-08-20: Raised $20M seed co-led by Bessemer Venture Partners, Tribeca Venture Partners and Aramco Ventures",
+        "2026-08-20: Emerged from stealth simultaneously with the funding announcement",
+        "2026-08-20: Carried on Business Wire, picked up by Yahoo Finance, Morningstar, Dealroom and Ventureburn"
+      ],
+      "source": "Business Wire (via Morningstar)",
+      "sourceUrl": "https://www.morningstar.com/news/business-wire/20260820540841/twin1-ai-raises-20-million-seed-round-co-led-by-bessemer-venture-partners-tribeca-venture-partners-and-aramco-ventures-to-build-digital-ai-twins-for-professional-knowledge-workers",
+      "notes": "A stealth exit paired with a tier-one-backed seed is the best entry point an agency gets — no established press narrative and an unusually large seed to spend. Aramco Ventures on the cap table hints at Gulf expansion, a second regional comms workstream. Caveat: intent scores high largely because the news is one day old, and seed-stage budget is the binding constraint.",
+      "contacts": [],
+      "grade": "A"
+    },
+    {
+      "name": "Prevalent AI",
+      "website": "",
+      "pipeline": "pr-marketing",
+      "industry": "Enterprise data fabric and security context for AI (Tech B2B)",
+      "location": "London, UK — US-market-facing enterprise sales",
+      "fundingStage": "Growth investment — $22M",
+      "fitScore": 41,
+      "intentScore": 39,
+      "fitDetails": {
+        "industryMatch": 16,
+        "companyStage": 10,
+        "likelyBudget": 8,
+        "lacksPrRepresentation": 7
+      },
+      "intentDetails": {
+        "triggerRecency": 18,
+        "raiseSize": 10,
+        "growthMarketingSignals": 11
+      },
+      "signals": [
+        "2026-08-19: Raised $22M growth investment, reported by SiliconANGLE as its first outside capital in nine years",
+        "2026-08-19: GlobeNewswire release positioned the round around agentic AI risk and trusted enterprise context",
+        "2026-08-19/20: Covered by Tech.eu, The Next Web, Unite.AI and FinTech Global; Integrity Growth Partners named as backer"
+      ],
+      "source": "GlobeNewswire",
+      "sourceUrl": "https://www.globenewswire.com/news-release/2026/08/19/3347565/0/en/prevalent-ai-raises-growth-investment-as-demand-for-ai-powered-trusted-enterprise-context-accelerates.html",
+      "notes": "A nine-year bootstrap taking its first institutional money is a classic PR inflection: new board pressure, a new growth narrative, no established analyst or press program. The agentic-AI-risk category has strong press appetite through the rest of 2026. Caveat on fit: UK-headquartered, so this only works if the agency can service US-facing enterprise and security press for a European client.",
+      "contacts": [],
+      "grade": "A"
+    },
+    {
+      "name": "Quartr",
+      "website": "https://quartr.com",
+      "pipeline": "pr-marketing",
+      "industry": "Institutional finance data and AI research infrastructure",
+      "location": "Stockholm, Sweden — serves US institutional investors",
+      "fundingStage": "Growth round — $18M",
+      "fitScore": 41,
+      "intentScore": 38,
+      "fitDetails": {
+        "industryMatch": 18,
+        "companyStage": 9,
+        "likelyBudget": 7,
+        "lacksPrRepresentation": 7
+      },
+      "intentDetails": {
+        "triggerRecency": 19,
+        "raiseSize": 9,
+        "growthMarketingSignals": 10
+      },
+      "signals": [
+        "2026-08-20: Raised $18M led by existing investor Altos Ventures, with Nordic bank SEB joining as a new investor",
+        "2026-08-20: Reported serving 800+ financial institutions and technology companies including hedge funds and asset managers",
+        "2026-08-20: Stated use of funds is product development and coverage expansion across Quartr Pro and Quartr API"
+      ],
+      "source": "FinSMEs",
+      "sourceUrl": "https://www.finsmes.com/2026/08/quartr-raises-18m-in-funding.html",
+      "notes": "Best pure financial-services fit in the window — an IR and institutional-research data layer selling to the buy side, with a strategic bank investor that adds credibility. Caveat: the release named no US expansion explicitly, so the US-press thesis is inferred from customer mix rather than stated intent, and a European agency may already hold the account.",
+      "contacts": [
+        {
+          "name": "Oscar Küntzel",
+          "title": "Co-founder & CEO",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "grade": "B"
+    },
+    {
+      "name": "RockRose Risk",
+      "website": "",
+      "pipeline": "pr-marketing",
+      "industry": "Insurtech — wildfire risk mitigation and insurance brokerage",
+      "location": "California — operating in CA, CO, NV",
+      "fundingStage": "Series A — $12.5M",
+      "fitScore": 40,
+      "intentScore": 38,
+      "fitDetails": {
+        "industryMatch": 18,
+        "companyStage": 9,
+        "likelyBudget": 6,
+        "lacksPrRepresentation": 7
+      },
+      "intentDetails": {
+        "triggerRecency": 18,
+        "raiseSize": 8,
+        "growthMarketingSignals": 12
+      },
+      "signals": [
+        "2026-08-19: Raised $12.5M Series A co-led by Crosslink Capital and Congruent Ventures, with Nuveen Real Estate participating",
+        "2026-08-19: Covered by Bloomberg and Insurance Journal as a fire-zone insurance broker",
+        "2026-08-20: Stated plan to become a vertically integrated risk manager by acquiring adjacent businesses such as tree trimming and roofing",
+        "2026-08-20: Serves commercial property owners, HOAs, hotels, wineries, farms and municipalities across three states"
+      ],
+      "source": "FinTech Global",
+      "sourceUrl": "https://fintech.global/2026/08/20/rockrose-risk-lands-12-5m-series-a-for-wildfire-cover/",
+      "notes": "Clean insurtech ICP match with an unusually rich content surface — climate risk, California insurance-market dislocation, and an acquisition roadmap that generates repeat announcements. Caveat: at $12.5M the budget is modest, and Bloomberg pickup on day one suggests they had at least freelance comms help for the raise.",
+      "contacts": [
+        {
+          "name": "Andrew Engler",
+          "title": "Co-founder & CEO",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "grade": "B"
+    },
+    {
+      "name": "PayQuicker",
+      "website": "https://payquicker.com",
+      "pipeline": "pr-marketing",
+      "industry": "Fintech — global payout orchestration",
+      "location": "Rochester, NY",
+      "fundingStage": "PE growth / strategic investment (undisclosed)",
+      "fitScore": 44,
+      "intentScore": 34,
+      "fitDetails": {
+        "industryMatch": 19,
+        "companyStage": 11,
+        "likelyBudget": 8,
+        "lacksPrRepresentation": 6
+      },
+      "intentDetails": {
+        "triggerRecency": 16,
+        "raiseSize": 7,
+        "growthMarketingSignals": 11
+      },
+      "signals": [
+        "2026-08-18: Clearhaven Partners made a strategic growth investment; terms undisclosed",
+        "2026-08-18: CEO Paul Beldham and other leadership invested alongside Clearhaven",
+        "2026-08-18: Platform connects businesses to payment networks across 210+ countries via a single API",
+        "2026-08-18: Both parties framed the deal around accelerating the next phase of growth and global expansion"
+      ],
+      "source": "FinTech Global",
+      "sourceUrl": "https://fintech.global/2026/08/18/clearhaven-makes-strategic-investment-in-payquicker/",
+      "notes": "Highest fit score in the pr-marketing set — established US payments company, real revenue, new PE ownership that almost always triggers a brand and category-positioning refresh. Caveat: intent scores lower than fit because the deal size was undisclosed and a PE recapitalization is a softer buying signal than a priced venture round. Worth approaching through Clearhaven's portfolio-services angle as well as directly.",
+      "contacts": [
+        {
+          "name": "Paul Beldham",
+          "title": "President & CEO",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "grade": "B"
+    },
+    {
+      "name": "Thunder Compute",
+      "website": "https://www.thundercompute.com",
+      "pipeline": "pr-marketing",
+      "industry": "AI infrastructure — GPU virtualization and cloud (Tech B2B)",
+      "location": "San Francisco, CA",
+      "fundingStage": "Series A — $13M",
+      "fitScore": 39,
+      "intentScore": 38,
+      "fitDetails": {
+        "industryMatch": 17,
+        "companyStage": 9,
+        "likelyBudget": 6,
+        "lacksPrRepresentation": 7
+      },
+      "intentDetails": {
+        "triggerRecency": 19,
+        "raiseSize": 8,
+        "growthMarketingSignals": 11
+      },
+      "signals": [
+        "2026-08-19/20: Raised $13M Series A led by Matrix Partners, with Y Combinator and CEAS Investments participating",
+        "2026-08-20: Reported 10,000+ active users on its GPU virtualization platform, positioned as 'VMware for GPUs'",
+        "2026-08-20: Stated plans to grow infrastructure engineering and accelerate commercial enterprise partnerships",
+        "2026-08-19: Covered by SiliconANGLE, distributed via Newsfile"
+      ],
+      "source": "FinSMEs",
+      "sourceUrl": "https://www.finsmes.com/2026/08/thunder-compute-raises-13m-in-series-a-funding.html",
+      "notes": "Strong AI-infra match at the stage where a company pivots from bottom-up developer adoption to enterprise sales — exactly when they need analyst and enterprise-press coverage they do not yet have. Caveat: a $13M Series A means a lean budget, and YC companies often lean on network-driven PR before hiring an agency.",
+      "contacts": [
+        {
+          "name": "Carl Peterson",
+          "title": "Co-founder",
+          "email": "",
+          "linkedin": ""
+        },
+        {
+          "name": "Brian Peterson",
+          "title": "Co-founder",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "grade": "B"
+    },
+    {
+      "name": "idler",
+      "website": "",
+      "pipeline": "pr-marketing",
+      "industry": "AI infrastructure — model evaluation and benchmarking (Tech B2B)",
+      "location": "San Francisco, CA",
+      "fundingStage": "Seed — $9M",
+      "fitScore": 35,
+      "intentScore": 39,
+      "fitDetails": {
+        "industryMatch": 15,
+        "companyStage": 7,
+        "likelyBudget": 5,
+        "lacksPrRepresentation": 8
+      },
+      "intentDetails": {
+        "triggerRecency": 20,
+        "raiseSize": 7,
+        "growthMarketingSignals": 12
+      },
+      "signals": [
+        "2026-08-21: Raised $9M seed led by Paradigm, with Y Combinator and Long Journey participating",
+        "2026-08-21: Launched ShelfLife, a public benchmark using a digital twin of a multi-brand retailer to test autonomous financial and strategy agents",
+        "2026-08-21: Stated plans to expand its ML research team, scale compute and build more RL environments",
+        "2026-08-21: Builds evaluation suites for software engineering, cybersecurity and enterprise safety"
+      ],
+      "source": "FinSMEs",
+      "sourceUrl": "https://www.finsmes.com/2026/08/idler-raises-9m-in-seed-funding.html",
+      "notes": "Announced today, and ShelfLife is a genuinely reusable PR asset — public benchmarks generate recurring coverage in a way most seed-stage products do not, and the financial-agent framing intersects the financial-services beat. Caveat, stated plainly: the intent score is at the top of the range almost entirely because of same-day recency, and a $9M seed supports only a small retainer. Worth a fast approach precisely because no agency is attached yet.",
+      "contacts": [],
+      "grade": "B"
+    },
+    {
+      "name": "Ours Privacy",
+      "website": "",
+      "pipeline": "pr-marketing",
+      "industry": "Privacy-first customer data platform / martech (healthcare vertical)",
+      "location": "Dallas & Houston, TX operations",
+      "fundingStage": "Series A — $15M",
+      "fitScore": 33,
+      "intentScore": 37,
+      "fitDetails": {
+        "industryMatch": 11,
+        "companyStage": 9,
+        "likelyBudget": 6,
+        "lacksPrRepresentation": 7
+      },
+      "intentDetails": {
+        "triggerRecency": 17,
+        "raiseSize": 9,
+        "growthMarketingSignals": 11
+      },
+      "signals": [
+        "2026-08-19: Raised an oversubscribed $15M Series A led by Lightbank and Health Velocity Capital, with Rock Health, TMV, Switch Ventures, Starfire Ventures and GreyMatter participating",
+        "2026-08-19: Reported serving 200+ healthcare organizations",
+        "2026-08-19: Stated plan to accelerate platform investment and expand enterprise healthcare capability",
+        "Founded 2024; HIPAA-compliant CDP with server-side tracking, consent management and Google/Meta ads integration"
+      ],
+      "source": "citybiz",
+      "sourceUrl": "https://www.citybiz.co/article/891703/ours-privacy-raises-15m-series-a-to-expand-healthcare-marketing-platform/",
+      "notes": "A marketing-infrastructure company that sells to marketers is an unusually warm PR prospect — they understand and budget for the category. Caveat: healthcare is outside the stated financial-services and tech-B2B ICP, so this only clears the bar as a B2B SaaS play, and the source did not state a definitive headquarters.",
+      "contacts": [
+        {
+          "name": "Jessica Holton",
+          "title": "CEO & Co-founder",
+          "email": "",
+          "linkedin": ""
+        },
+        {
+          "name": "Adam Putterman",
+          "title": "Chief Revenue Officer & Co-founder",
+          "email": "",
+          "linkedin": ""
+        },
+        {
+          "name": "Tyler Zey",
+          "title": "Chief Technology Officer & Co-founder",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "grade": "B"
+    },
+    {
+      "name": "Xpander",
+      "website": "https://xpander.ai",
+      "pipeline": "pr-marketing",
+      "industry": "Enterprise AI agent infrastructure (Tech B2B)",
+      "location": "Tel Aviv, Israel — US enterprise go-to-market",
+      "fundingStage": "Seed — $7.5M",
+      "fitScore": 34,
+      "intentScore": 34,
+      "fitDetails": {
+        "industryMatch": 15,
+        "companyStage": 7,
+        "likelyBudget": 5,
+        "lacksPrRepresentation": 7
+      },
+      "intentDetails": {
+        "triggerRecency": 18,
+        "raiseSize": 6,
+        "growthMarketingSignals": 10
+      },
+      "signals": [
+        "2026-08-19: Raised $7.5M seed to close the gap between enterprise AI pilots and production deployment",
+        "2026-08-19: PR Newswire distribution, covered by CTech, Dealroom, AIThority and FinTech Global",
+        "2026-08-19: Founded by former AWS engineers; platform positions around avoiding vendor lock-in across models and clouds"
+      ],
+      "source": "FinTech Global",
+      "sourceUrl": "https://fintech.global/2026/08/19/xpander-raises-7-5m-to-fix-enterprises-ai-adoption-gap/",
+      "notes": "Enterprise AI agent infrastructure is a crowded, noisy category, which is precisely the argument for hiring PR — differentiation is the whole problem and the anti-lock-in positioning is defensible. Caveats stack, though: a $7.5M seed is the smallest realistic budget on this list, and the company is Israel-headquartered, so this depends on servicing US press for an overseas client.",
+      "contacts": [],
+      "grade": "B"
+    },
+    {
+      "name": "TopHat Security",
+      "website": "",
+      "pipeline": "pr-marketing",
+      "industry": "Cybersecurity for operational technology and AI infrastructure (Tech B2B)",
+      "location": "Wilmington, DE",
+      "fundingStage": "Series A (amount undisclosed)",
+      "fitScore": 33,
+      "intentScore": 34,
+      "fitDetails": {
+        "industryMatch": 12,
+        "companyStage": 8,
+        "likelyBudget": 5,
+        "lacksPrRepresentation": 8
+      },
+      "intentDetails": {
+        "triggerRecency": 19,
+        "raiseSize": 5,
+        "growthMarketingSignals": 10
+      },
+      "signals": [
+        "2026-08-20/21: Closed a Series A led by Landolt Securities; amount undisclosed",
+        "2026-08-20: Stated plans to advance its enterprise product portfolio and expand customer delivery",
+        "2026-08-20: Explicitly targeting US government agencies and critical infrastructure operators",
+        "2026-08-20: Platform spans industrial network visibility, asset discovery, cyber supply-chain security and AI infrastructure protection"
+      ],
+      "source": "FinSMEs",
+      "sourceUrl": "https://www.finsmes.com/2026/08/tophat-security-closes-series-a-funding.html",
+      "notes": "US-headquartered with an explicit federal and critical-infrastructure go-to-market, a segment where credibility coverage and analyst placement directly affect procurement. No meaningful press footprint beyond the wire pickup, so this is greenfield. Caveats: the round amount was undisclosed, making budget impossible to estimate, and OT security sits adjacent to rather than inside the ICP.",
+      "contacts": [
+        {
+          "name": "Matt Caldwell",
+          "title": "Founder & CEO",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "grade": "B"
+    },
+    {
+      "name": "Academic Capital Partners",
+      "website": "",
+      "pipeline": "fund-formation",
+      "industry": "Private equity — education / K-12 buyouts",
+      "location": "Singapore (Asia & Middle East mandate)",
+      "fundingStage": "Debut fund (Fund I) — pre-fundraise, first close targeted Q1 2027",
+      "fitScore": 35,
+      "intentScore": 45,
+      "fitDetails": {
+        "emergingManager": 18,
+        "fundSizeFit": 8,
+        "usJurisdiction": 2,
+        "strategyComplexity": 7
+      },
+      "intentDetails": {
+        "formationStage": 20,
+        "recency": 14,
+        "explicitRaisingLanguage": 9,
+        "counselAppearsUnengaged": 2
+      },
+      "signals": [
+        "2026-08-20: Private Equity Wire reports Atul Temurnikar (founder, Global Schools Group) and Vishal Thapliyal (former PwC partner) are launching Academic Capital Partners",
+        "2026-08-20: First vehicle named 'ACP Education Opportunities Fund', targeting up to $300M",
+        "2026-08-20: Fundraising reported as beginning 'in around two weeks', first close targeted Q1 2027 — the vehicle is not yet in market",
+        "2026-08-20: Terms disclosed include a 5% GP commitment and a 5% target distribution yield"
+      ],
+      "source": "Private Equity Wire",
+      "sourceUrl": "https://www.privateequitywire.co.uk/global-schools-founder-targets-300m-for-debut-asia-focused-education-pe-fund/",
+      "notes": "The only lead this run at the correct end of the sales cycle: announced but not yet fundraising as of 08-20, so formation and offering documents are live work right now rather than finished work. CAVEAT — jurisdiction is the disqualifier: sponsors and mandate are Singapore/Gulf, so a US formation practice would at best pick up a Delaware or Cayman feeder rather than the main vehicle. No counsel is named in the reporting, which is why intent scores high despite the geography.",
+      "contacts": [
+        {
+          "name": "Atul Temurnikar",
+          "title": "Co-founder, Academic Capital Partners",
+          "email": "",
+          "linkedin": ""
+        },
+        {
+          "name": "Vishal Thapliyal",
+          "title": "Co-founder, Academic Capital Partners",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "grade": "A"
+    },
+    {
+      "name": "BlackSun Private Equity",
+      "website": "",
+      "pipeline": "fund-formation",
+      "industry": "Private equity — sports, media, entertainment, fintech, commercial real estate",
+      "location": "United States",
+      "fundingStage": "Debut 'Mega Fund I' — $1B secured against a $7B target, still raising",
+      "fitScore": 43,
+      "intentScore": 34,
+      "fitDetails": {
+        "emergingManager": 18,
+        "fundSizeFit": 6,
+        "usJurisdiction": 9,
+        "strategyComplexity": 10
+      },
+      "intentDetails": {
+        "formationStage": 10,
+        "recency": 15,
+        "explicitRaisingLanguage": 6,
+        "counselAppearsUnengaged": 3
+      },
+      "signals": [
+        "2026-08-21: Private Equity Wire reports BlackSun has secured $1bn for its debut fund against a $7bn target",
+        "2026-08-21: Firm states it will continue raising from US and international investors 'over the coming months' — the vehicle is open, not closed",
+        "2026-08-21: Greenstone Equity Partners appointed as global placement agent with a Gulf-investor focus",
+        "2026-08-21: Strategy spans professional sports franchise ownership, entertainment, fintech, commercial real estate and media IP"
+      ],
+      "source": "Private Equity Wire",
+      "sourceUrl": "https://www.privateequitywire.co.uk/blacksun-secures-1bn-for-debut-fund-targeting-7bn-sports-media-and-technology-investments/",
+      "notes": "CAVEAT — wrong end of the cycle for a formation mandate: a debut vehicle that has already taken in $1bn has formation counsel engaged and the core LPA and offering docs are done, which is why intent is scored down. What is genuinely live is downstream: sports league ownership approvals, franchise transfer consents, media IP structuring, and side letters for the Gulf LPs the placement agent is targeting. Treat as a specialist add-on conversation.",
+      "contacts": [
+        {
+          "name": "Nery Gomez",
+          "title": "Founder and Chief Operating Officer",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "grade": "B"
+    },
+    {
+      "name": "Altair Industries",
+      "website": "",
+      "pipeline": "fund-formation",
+      "industry": "Private equity — mid-market industrials and defense buyouts",
+      "location": "United States",
+      "fundingStage": "Debut fund — raising initial capital",
+      "fitScore": 43,
+      "intentScore": 36,
+      "fitDetails": {
+        "emergingManager": 19,
+        "fundSizeFit": 7,
+        "usJurisdiction": 9,
+        "strategyComplexity": 8
+      },
+      "intentDetails": {
+        "formationStage": 18,
+        "recency": 3,
+        "explicitRaisingLanguage": 9,
+        "counselAppearsUnengaged": 6
+      },
+      "signals": [
+        "2026-04-28: Buyouts reports Altair Industries, founded by two former Stellex Capital Management executives who departed in September 2025, is raising initial capital for a debut fund",
+        "2026-04-28: Buyouts characterises the firm as a 'spin-out of a spin-out'; target size not disclosed",
+        "Strategy is mid-market buyouts with an industrials/defense orientation"
+      ],
+      "source": "Buyouts",
+      "sourceUrl": "https://www.buyoutsinsider.com/stellex-spin-out-altair-industries-to-raise-debut-fund/",
+      "notes": "Textbook fund-formation shape — a genuine spinout raising initial capital with no fund closed — which is why fit and formation-stage intent are both high. CAVEAT on recency: the only verifiable reporting is from April 2026, four months outside the lookback window, and the article is paywalled beyond the lede so target size and HQ are unconfirmed. A spinout raising in April may well have signed counsel by now; verify before working it.",
+      "contacts": [],
+      "grade": "B"
+    },
+    {
+      "name": "Invidia Capital Management",
+      "website": "",
+      "pipeline": "fund-formation",
+      "industry": "Private equity / healthcare",
+      "location": "New York, NY",
+      "fundingStage": "Curie Fund I — $850M target, actively raising",
+      "fitScore": 42,
+      "intentScore": 29,
+      "fitDetails": {
+        "emergingManager": 18,
+        "fundSizeFit": 6,
+        "usJurisdiction": 10,
+        "strategyComplexity": 8
+      },
+      "intentDetails": {
+        "formationStage": 12,
+        "recency": 6,
+        "explicitRaisingLanguage": 8,
+        "counselAppearsUnengaged": 3
+      },
+      "signals": [
+        "2026-06-11: Dakota lists Invidia Capital Management as raising 'Curie Fund I' with an $850M target",
+        "Founded by Jo Natauri, previously of Goldman Sachs; New York-based",
+        "2026-06-11: Dakota notes the managers on this list arrived with institutional anchors already secured"
+      ],
+      "source": "Dakota — Private Equity Emerging Managers to Watch in 2026",
+      "sourceUrl": "https://www.dakota.com/resources/blog/private-equity-emerging-managers-to-watch-in-2026",
+      "notes": "Genuine US Fund I from a credible spinout founder, which carries the fit score. CAVEAT: at an $850M target with institutional anchors in place this manager engaged a large-firm formation practice from day one — formation counsel is almost certainly not available work, and intent is scored down for it. No signal inside the 08-14 to 08-21 window; the source is a June roundup.",
+      "contacts": [
+        {
+          "name": "Jo Natauri",
+          "title": "Founder",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "grade": "B"
+    },
+    {
+      "name": "Aphias Capital",
+      "website": "",
+      "pipeline": "fund-formation",
+      "industry": "Private equity",
+      "location": "United States",
+      "fundingStage": "Fund I — $900M target, actively raising",
+      "fitScore": 41,
+      "intentScore": 29,
+      "fitDetails": {
+        "emergingManager": 18,
+        "fundSizeFit": 6,
+        "usJurisdiction": 9,
+        "strategyComplexity": 8
+      },
+      "intentDetails": {
+        "formationStage": 12,
+        "recency": 6,
+        "explicitRaisingLanguage": 8,
+        "counselAppearsUnengaged": 3
+      },
+      "signals": [
+        "2026-06-11: Dakota lists Aphias Capital as raising Fund I with a $900M target, status 'raising'",
+        "Founded by Rob Wolfson, previously of H.I.G. Capital"
+      ],
+      "source": "Dakota — Private Equity Emerging Managers to Watch in 2026",
+      "sourceUrl": "https://www.dakota.com/resources/blog/private-equity-emerging-managers-to-watch-in-2026",
+      "notes": "First-time fund from an H.I.G. alum, still in market as of the June source — correct manager profile but at the top of the size band where outside formation counsel is a foregone conclusion rather than an open decision. CAVEAT: nothing new surfaced in the lookback window, so recency is weak and the record should be re-verified before it is worked. HQ was not stated in the source.",
+      "contacts": [
+        {
+          "name": "Rob Wolfson",
+          "title": "Founder",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "grade": "B"
+    },
+    {
+      "name": "Layer Global",
+      "website": "",
+      "pipeline": "fund-formation",
+      "industry": "Growth equity / AI",
+      "location": "New York, NY",
+      "fundingStage": "Debut fund — $1.1B first close, matched target",
+      "fitScore": 39,
+      "intentScore": 30,
+      "fitDetails": {
+        "emergingManager": 16,
+        "fundSizeFit": 5,
+        "usJurisdiction": 10,
+        "strategyComplexity": 8
+      },
+      "intentDetails": {
+        "formationStage": 8,
+        "recency": 14,
+        "explicitRaisingLanguage": 6,
+        "counselAppearsUnengaged": 2
+      },
+      "signals": [
+        "2026-08-16: Fund Momentum reports Layer Global's debut fund reached a $1.1B first close, matching its target",
+        "2026-08-16: Founder and managing partner is Anton Levy, previously co-president of General Atlantic after nearly three decades there",
+        "2026-08-16: Levy has recruited several former General Atlantic colleagues",
+        "2026-08-16: Strategy is stage-agnostic growth investing in 'AI-driven hypergrowth companies'"
+      ],
+      "source": "Fund Momentum",
+      "sourceUrl": "https://fundmomentum.vc/blog/layer-global-1-1b-first-close-anton-levy-2026",
+      "notes": "In-window and technically a debut vehicle, but CAVEAT — this is close to the wrong end of the cycle: a $1.1B first close hitting target on the first pass means formation counsel was engaged long before the announcement, and a former General Atlantic co-president does not shop for it. Included because 'first close' rather than final close leaves the vehicle nominally open, and because team build-out at a brand-new adviser generates real compliance and registration work.",
+      "contacts": [
+        {
+          "name": "Anton Levy",
+          "title": "Founder and Managing Partner",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "grade": "B"
+    },
+    {
+      "name": "Sylebra Capital Management",
+      "website": "",
+      "pipeline": "fund-formation",
+      "industry": "Equity capital solutions — crossover from public-markets manager",
+      "location": "Hong Kong with US investment operations",
+      "fundingStage": "Inaugural Equity Capital Solutions Fund — $277M first close, anchored by Apollo",
+      "fitScore": 35,
+      "intentScore": 33,
+      "fitDetails": {
+        "emergingManager": 12,
+        "fundSizeFit": 9,
+        "usJurisdiction": 5,
+        "strategyComplexity": 9
+      },
+      "intentDetails": {
+        "formationStage": 12,
+        "recency": 10,
+        "explicitRaisingLanguage": 8,
+        "counselAppearsUnengaged": 3
+      },
+      "signals": [
+        "2026-08-03: Business Wire — Sylebra Capital raises $277 million for its inaugural Equity Capital Solutions Fund",
+        "2026-08-04: citybiz frames it as a launch 'with $277 million first close', implying further closes",
+        "2026-08-05: VCWire reports the first close with Apollo as anchor investor"
+      ],
+      "source": "Business Wire / citybiz / VCWire",
+      "sourceUrl": "https://www.businesswire.com/news/home/20260803707187/en/Sylebra-Capital-Raises-$277-Million-for-Inaugural-Equity-Capital-Solutions-Fund",
+      "notes": "CAVEAT: not an emerging manager in the Fund I–III sense — Sylebra is an established manager standing up its first private-markets vehicle — so fit is capped. A brand-new fund type does generate real formation work (new LPA, adviser registration analysis, Apollo anchor side letter), but the first close is done so the core documents exist and the opening is on subsequent closes and structure. Dated 08-03 to 08-05, just outside the 7-day lookback.",
+      "contacts": [],
+      "grade": "B"
+    },
+    {
+      "name": "Apollo Atomics",
+      "website": "https://apolloatomics.com",
+      "pipeline": "legal-consulting",
+      "industry": "Advanced nuclear — compact pressurized water reactors",
+      "location": "Cambridge, MA",
+      "fundingStage": "Seed — $31M",
+      "fitScore": 42,
+      "intentScore": 46,
+      "fitDetails": {
+        "businessLawRelevance": 15,
+        "companyScale": 13,
+        "inHouseLegalGap": 14
+      },
+      "intentDetails": {
+        "triggerRecency": 24,
+        "triggerConcreteness": 22
+      },
+      "signals": [
+        "2026-08-20: Raised $31M seed led by FCVC, with Y Combinator, Telesoft Partners, Robinhood Ventures, Nucleation Capital, Pelion VC and Duke Capital Partners; angels include Paul Graham and Ray Rothrock",
+        "2026-08-20: Use of funds explicitly includes 'advancing regulatory work with the U.S. Nuclear Regulatory Commission'",
+        "2026-08-20: Reports over 20 gigawatts in signed letters of intent across three reactor designs (A-10, A-50, A-300)",
+        "2026-08-20: Also funding an A-1 demonstration facility build and manufacturing capacity expansion"
+      ],
+      "source": "FinSMEs",
+      "sourceUrl": "https://www.finsmes.com/2026/08/apollo-atomics-raises-31m-in-seed-funding.html",
+      "notes": "CONSISTENCY NOTE: also surfaced as a coaching-ops lead (75). Routed to legal-consulting on the higher score. Strongest legal-consulting trigger in the window — a seed-stage company that has named NRC licensing as a funded workstream, is building a physical demonstration facility, and is carrying 20GW of non-binding LOIs that need to become enforceable contracts. At $31M with a two-person named leadership team there is no plausible in-house legal function. Caveat: nuclear licensing is specialist work, so the realistic sale is commercial and corporate support alongside dedicated regulatory counsel, not instead of it.",
+      "contacts": [
+        {
+          "name": "Assil Halimi",
+          "title": "Chief Executive Officer",
+          "email": "",
+          "linkedin": ""
+        },
+        {
+          "name": "Drew Walker",
+          "title": "Chief Operating Officer",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "grade": "A"
+    },
+    {
+      "name": "Boom",
+      "website": "https://boompay.app",
+      "pipeline": "legal-consulting",
+      "industry": "Proptech — rental housing automation and AI tenant screening",
+      "location": "Austin, TX",
+      "fundingStage": "Series A — $15M (total raised $20.5M)",
+      "fitScore": 38,
+      "intentScore": 47,
+      "fitDetails": {
+        "businessLawRelevance": 14,
+        "companyScale": 11,
+        "inHouseLegalGap": 13
+      },
+      "intentDetails": {
+        "triggerRecency": 25,
+        "triggerConcreteness": 22
+      },
+      "signals": [
+        "2026-08-19: Raised $15M Series A led by S3 Ventures, with Mischief VC, Starting Line VC, Gilgamesh Ventures and Company Ventures",
+        "2026-08-19: Launched BoomCRM, an AI-powered leasing platform for single-family rental operators",
+        "2026-08-19: CEO Rob Whiting framed the core product problem as 'deciding who qualifies' — automated applicant screening decisions",
+        "2026-08-19: Serves 400+ property operators managing 500,000+ units, including AMH and Roots Management",
+        "2026-08-19: Operates FCRA-regulated tenant screening (BoomScreen)"
+      ],
+      "source": "citybiz",
+      "sourceUrl": "https://www.citybiz.co/article/892596/boom-raises-15m-to-advance-rental-housing-automation-with-new-leasing-ai-tool/",
+      "notes": "CONSISTENCY NOTE: surfaced in three pipelines (pr-marketing 77, coaching-ops 80, legal-consulting 85). Routed to legal-consulting on the highest score. An AI product that decides tenant qualification sits directly on top of FCRA, fair-housing and state tenant-screening law, and the CEO named that decision layer as the hard problem on the day of the raise. A $15M Series A company touching 500,000 units carries exposure far out of proportion to its likely legal headcount, and rental housing is state-by-state, making this a recurring advisory need rather than a one-off opinion.",
+      "contacts": [
+        {
+          "name": "Rob Whiting",
+          "title": "Co-founder and Chief Executive Officer",
+          "email": "",
+          "linkedin": ""
+        },
+        {
+          "name": "Kirill Moizik",
+          "title": "Co-founder",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "grade": "A"
+    },
+    {
+      "name": "Ampaire",
+      "website": "https://ampaire.com",
+      "pipeline": "legal-consulting",
+      "industry": "Aviation — hybrid-electric aircraft propulsion",
+      "location": "Long Beach, CA",
+      "fundingStage": "Series B — $19M (total raised $68M)",
+      "fitScore": 39,
+      "intentScore": 45,
+      "fitDetails": {
+        "businessLawRelevance": 14,
+        "companyScale": 12,
+        "inHouseLegalGap": 13
+      },
+      "intentDetails": {
+        "triggerRecency": 24,
+        "triggerConcreteness": 21
+      },
+      "signals": [
+        "2026-08-20: Raised $19M Series B led by DiamondStream Partners, bringing total funding to $68M",
+        "2026-08-20: Funds earmarked to advance FAA Part 33 certification of the AMP-H570 power system and Part 23 Supplemental Type Certification for the Eco Caravan",
+        "2026-08-20: Expanding commercial route flights under the FAA eIPP program",
+        "2026-08-20: Fleet has logged over 38,000 test flight miles; customers include airlines, cargo operators and government partners"
+      ],
+      "source": "FinSMEs",
+      "sourceUrl": "https://www.finsmes.com/2026/08/ampaire-raises-19m-in-series-b-funding.html",
+      "notes": "Two named FAA certification tracks funded on a dated, specific trigger, plus government contracting and commercial airline agreements — a broad and immediate outside-counsel surface. At $68M total raised the company is large enough to buy real legal support but small enough that a full in-house department is unlikely. Caveat: aviation certification itself is specialist, so position for the commercial, contracting and government-contracts layer around it.",
+      "contacts": [
+        {
+          "name": "Kevin Noertker",
+          "title": "Co-founder and Chief Executive Officer",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "grade": "A"
+    },
+    {
+      "name": "Princeton Critical Minerals",
+      "website": "https://www.pureli.com",
+      "pipeline": "legal-consulting",
+      "industry": "Critical minerals — lithium extraction technology",
+      "location": "Newark, NJ",
+      "fundingStage": "Series A — $11M equity plus $5M+ in grants",
+      "fitScore": 38,
+      "intentScore": 45,
+      "fitDetails": {
+        "businessLawRelevance": 13,
+        "companyScale": 11,
+        "inHouseLegalGap": 14
+      },
+      "intentDetails": {
+        "triggerRecency": 25,
+        "triggerConcreteness": 20
+      },
+      "signals": [
+        "2026-08-21: Announced $16M total — an $11M Series A led by SOSV plus more than $5M in grants",
+        "2026-08-21: Grant funders named as the National Science Foundation, ARPA-E and the New Jersey Economic Development Authority — three separate federal/state compliance regimes",
+        "2026-08-21: NJEDA also made a 'synergistic investment' through the New Jersey Innovation Evergreen fund",
+        "2026-08-21: Other investors include the Grantham Foundation, Prospect Innovation, ASTOR Management AG and Black Forest Ventures"
+      ],
+      "source": "citybiz",
+      "sourceUrl": "https://www.citybiz.co/article/892606/princeton-critical-minerals-raises-16m-to-raise-lithium-production/",
+      "notes": "The mixed capital stack is the real signal — federal grant terms from NSF and ARPA-E, a state grant, and a state equity investment landing simultaneously creates IP-ownership, march-in rights, reporting and flow-down obligations a two-founder company will not handle internally. Add brine extraction permitting and eventual offtake agreements and this is a durable advisory relationship. Smallest company on the list by headcount, which is exactly why the in-house gap scores high.",
+      "contacts": [
+        {
+          "name": "Sean Zheng",
+          "title": "Chief Executive Officer",
+          "email": "",
+          "linkedin": ""
+        },
+        {
+          "name": "Z. Jason Ren",
+          "title": "Co-founder",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "grade": "A"
+    },
+    {
+      "name": "Catalant Technologies",
+      "website": "https://www.catalant.com",
+      "pipeline": "legal-consulting",
+      "industry": "Consulting marketplace / PE value-creation services",
+      "location": "Boston, MA",
+      "fundingStage": "Private, growth-stage",
+      "fitScore": 35,
+      "intentScore": 38,
+      "fitDetails": {
+        "fundsEcosystemRelevance": 17,
+        "companyScale": 11,
+        "inHouseLegalGap": 7
+      },
+      "intentDetails": {
+        "triggerRecency": 22,
+        "triggerConcreteness": 16
+      },
+      "signals": [
+        "2026-08-19: Named Tye Howell Managing Partner of Private Equity, a dedicated build-out of its PE practice",
+        "2026-08-19: Reports working with three-quarters of the top 100 private equity firms by AUM",
+        "2026-08-19: Stated driver is PE operating partners demanding 'increasingly sophisticated solutions focused on outcomes', with AI integration a priority"
+      ],
+      "source": "citybiz",
+      "sourceUrl": "https://www.citybiz.co/article/891360/catalant-names-tye-howell-managing-partner-of-private-equity/",
+      "notes": "Squarely in the funds ecosystem and standing up a new PE practice line on a dated trigger, which means new sponsor MSAs, engagement templates and independent-contractor classification exposure across a marketplace model. CAVEAT: a company serving 75 of the top 100 sponsors is not legally naive and probably has in-house counsel, so the in-house gap score is low. Best framed as practice-launch support rather than general outside counsel.",
+      "contacts": [
+        {
+          "name": "Tye Howell",
+          "title": "Managing Partner, Private Equity",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "grade": "B"
+    },
+    {
+      "name": "Paramount Placement",
+      "website": "https://www.paramount-placement.com",
+      "pipeline": "coaching-ops",
+      "industry": "Skilled-trades recruiting and staffing",
+      "location": "Swansea, MA (offices in Brooklyn, NY)",
+      "fundingStage": "Newly acquired by Concord Holdings; debt/equity from Route 2 Capital Partners",
+      "fitScore": 44,
+      "intentScore": 45,
+      "fitDetails": {
+        "icpFit": 19,
+        "growthStage": 10,
+        "opsCeilingEvidence": 15
+      },
+      "intentDetails": {
+        "recency": 20,
+        "triggerStrength": 17,
+        "buyerAccessibility": 8
+      },
+      "signals": [
+        "2026-08-21: Acquired by Concord Holdings Management LLC, with supporting debt and equity from Route 2 Capital Partners — announced today",
+        "2026-08-21: Founder Steve Smith transitioning out of operating control into a senior advisory role",
+        "2026-08-21: Nicholas Sillaro moved up from Chief Operating Officer to President — a first-time seat with the founder stepping back",
+        "2026-08-21: Acquirer's stated thesis is 'technology adoption and professionalization' plus platform expansion; management retained meaningful equity",
+        "2026-08-21: Scale cited as 450+ customers annually and 5,000+ placements over the past decade"
+      ],
+      "source": "PR Newswire",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/concord-holdings-acquires-paramount-placement-a-leading-skilled-trades-talent-solutions-platform-302856958.html",
+      "notes": "Highest-fit coaching-ops lead of the run even though it is the smallest company on the list. Every trigger the ICP asks for fires at once and fires today: sponsor-backed change of control, founder handing over the keys, a first-time President who was the COO yesterday, and a sponsor openly saying the plan is to professionalize operations. Rolled-over equity means management is personally exposed to the next 24 months. Caveat: a lower-middle-market staffing firm has a smaller budget than the funded startups here — price accordingly.",
+      "contacts": [
+        {
+          "name": "Nicholas Sillaro",
+          "title": "President (formerly Chief Operating Officer)",
+          "email": "",
+          "linkedin": ""
+        },
+        {
+          "name": "Patrick Conroy",
+          "title": "Managing Partner, Concord Holdings",
+          "email": "",
+          "linkedin": ""
+        },
+        {
+          "name": "Steve Smith",
+          "title": "Founder (moving to senior advisory role)",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "grade": "A"
+    },
+    {
+      "name": "Cohesive Components",
+      "website": "https://cohesivecomponents.com",
+      "pipeline": "coaching-ops",
+      "industry": "Precision manufacturing — engineered material components",
+      "location": "Charlotte, NC (plants in Ohio and Michigan)",
+      "fundingStage": "PE-backed — acquired by Brodie Generational Capital Partners, December 2025",
+      "fitScore": 45,
+      "intentScore": 42,
+      "fitDetails": {
+        "icpFit": 19,
+        "growthStage": 12,
+        "opsCeilingEvidence": 14
+      },
+      "intentDetails": {
+        "recency": 19,
+        "triggerStrength": 15,
+        "buyerAccessibility": 8
+      },
+      "signals": [
+        "2026-08-18: Rebranded from Sur-Seal to Cohesive Components, the first public repositioning since the PE acquisition",
+        "2025-12: Acquired by Brodie Generational Capital Partners",
+        "2026-08-18: Release states the company is making infrastructure investments and 'expanding leadership capabilities' while trying to preserve existing culture",
+        "2026-08-18: ~400 employees across three states",
+        "2026-08-18: CEO Pete Futia quoted on the repositioning"
+      ],
+      "source": "PR Newswire",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/sur-seal-rebrands-as-cohesive-components-302854078.html",
+      "notes": "Squarely in the PE-backed post-acquisition ICP: 400 people, three geographically split sites, eight months into new sponsor ownership, publicly saying they are expanding leadership capability while trying not to break the culture. That tension is exactly what integration and ops-cadence coaching sells against. Caveat: the acquisition itself is eight months old — the rebrand is a real but second-order trigger, and operating changes may already be under way with an incumbent adviser.",
+      "contacts": [
+        {
+          "name": "Pete Futia",
+          "title": "Chief Executive Officer",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "grade": "A"
+    },
+    {
+      "name": "The Wealth Consulting Group",
+      "website": "https://www.wealthcg.com",
+      "pipeline": "coaching-ops",
+      "industry": "Registered investment advisor / wealth management",
+      "location": "Las Vegas, NV",
+      "fundingStage": "Private, founder-led; growing via advisor recruitment and acquisitions",
+      "fitScore": 41,
+      "intentScore": 38,
+      "fitDetails": {
+        "icpFit": 16,
+        "growthStage": 12,
+        "opsCeilingEvidence": 13
+      },
+      "intentDetails": {
+        "recency": 20,
+        "triggerStrength": 10,
+        "buyerAccessibility": 8
+      },
+      "signals": [
+        "2026-08-20: Announced surpassing $12.1 billion in assets under advisement as of 2026-07-31",
+        "2026-08-20: 27% growth since 2025, including $2.6 billion in recruited AUA over the past 18 months",
+        "2026-08-20: Growth strategy is explicitly recruitment plus acquisitions via a 'Partners Program'",
+        "2026-08-20: Release cites ongoing development of 'centralized operational support services'"
+      ],
+      "source": "PR Newswire",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/the-wealth-consulting-group-surpasses-12-billion-in-assets-under-advisement-302851558.html",
+      "notes": "A founder-led RIA growing 27% a year by absorbing advisor teams, publicly stating it is building centralized operational support — an integration and shared-services problem being solved in real time. Three named executives gives good access. CAVEAT: intent is the weak half and scored accordingly. An AUA milestone press release is a soft trigger — it says the firm is growing, not that anyone has just decided to buy help. High recency, low urgency; this one needs a real hook in the outreach.",
+      "contacts": [
+        {
+          "name": "Jimmy Lee",
+          "title": "Founder",
+          "email": "",
+          "linkedin": ""
+        },
+        {
+          "name": "Andy Kalbaugh",
+          "title": "President",
+          "email": "",
+          "linkedin": ""
+        },
+        {
+          "name": "Matt Gilliam",
+          "title": "Senior Vice President, Strategic Partnerships",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "grade": "B"
+    },
+    {
+      "name": "Queen One",
+      "website": "https://www.queenone.com",
+      "pipeline": "coaching-ops",
+      "industry": "Commerce CRM / retail marketing technology",
+      "location": "Brooklyn, NY",
+      "fundingStage": "$25M new round (total raised $37.5M)",
+      "fitScore": 37,
+      "intentScore": 42,
+      "fitDetails": {
+        "icpFit": 13,
+        "growthStage": 11,
+        "opsCeilingEvidence": 13
+      },
+      "intentDetails": {
+        "recency": 20,
+        "triggerStrength": 15,
+        "buyerAccessibility": 7
+      },
+      "signals": [
+        "2026-08-19: Raised $25M, bringing total funding to $37.5M, from Mercury Fund, Full In, Connecticut Innovations, CP Overture, Charge Ventures and Inspired Capital",
+        "2026-08-19: Stated plans are to 'scale commercial organization' and 'launch a new advertising business'",
+        "2026-08-19: Platform reportedly runs 30+ specialized AI models across recognition, product intelligence, CRM and advertising"
+      ],
+      "source": "FinSMEs",
+      "sourceUrl": "https://www.finsmes.com/2026/08/queen-one-raises-25m-in-new-funding.html",
+      "notes": "Standing up an entirely new advertising business line while scaling the existing commercial organization is a genuine RevOps design problem, and the raise funds it. CAVEAT on fit: CEO Ryan Urban already scaled a prior company (BounceX/Wunderkind) to several hundred people, so he has done this before and is less likely to buy outside operating help — the pitch would have to be capacity, not expertise. Website recorded but not confirmed from a first-party source; verify before sending anything.",
+      "contacts": [
+        {
+          "name": "Ryan Urban",
+          "title": "Chief Executive Officer",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "grade": "B"
+    },
+    {
+      "name": "ALSO",
+      "website": "https://www.also.com",
+      "pipeline": "coaching-ops",
+      "industry": "Consumer and commercial small electric vehicles",
+      "location": "Palo Alto, CA",
+      "fundingStage": "Series D — $150M (total raised $350M)",
+      "fitScore": 38,
+      "intentScore": 40,
+      "fitDetails": {
+        "icpFit": 12,
+        "growthStage": 14,
+        "opsCeilingEvidence": 12
+      },
+      "intentDetails": {
+        "recency": 20,
+        "triggerStrength": 15,
+        "buyerAccessibility": 5
+      },
+      "signals": [
+        "2026-08-19: Raised a $150M Series D led by Prysm Capital, with Eclipse, Greenoaks and MVP Ventures; total raised now $350M",
+        "2026-08-19: Currently shipping the TM-B Launch Edition electric bike across the U.S., with pre-orders open for two further models",
+        "2026-08-19: Stated plan to 'progress multiple autonomous form factors' — consumer bikes plus commercial autonomous delivery quads simultaneously"
+      ],
+      "source": "FinSMEs",
+      "sourceUrl": "https://www.finsmes.com/2026/08/also-raises-150m-in-series-d-funding.html",
+      "notes": "Hardware company moving from first shipments into volume while opening a second, autonomous product line — supply chain, service and fulfillment operations all break at exactly this transition, and the funding is fresh. CAVEAT: a $350M-raised Series D company staffs full-time operating executives rather than fractional ones, so the realistic engagement is scoped project work on a specific function, not a COO seat. Website not first-party confirmed; the name is generic, verify before outreach.",
+      "contacts": [
+        {
+          "name": "Chris Yu",
+          "title": "Co-Founder and President",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "grade": "B"
+    },
+    {
+      "name": "Wispr",
+      "website": "https://wisprflow.ai",
+      "pipeline": "coaching-ops",
+      "industry": "AI voice dictation / human-computer interaction software",
+      "location": "San Francisco, CA",
+      "fundingStage": "Series B — $280M at $2B post-money (total raised $361M)",
+      "fitScore": 34,
+      "intentScore": 44,
+      "fitDetails": {
+        "icpFit": 11,
+        "growthStage": 15,
+        "opsCeilingEvidence": 8
+      },
+      "intentDetails": {
+        "recency": 20,
+        "triggerStrength": 18,
+        "buyerAccessibility": 6
+      },
+      "signals": [
+        "2026-08-17: Raised a $280M Series B led by Menlo Ventures at a $2B post-money valuation; total raised $361M",
+        "2026-08-17: Use of funds explicitly includes hiring technical and research talent, launching new products, and expanding global infrastructure",
+        "2026-08-17: Announced expansion beyond dictation into meeting notes, summaries and action items, plus the Canto speech model",
+        "2026-08-17: Established Wispr Interface Labs under former Amazon Alexa engineer Ariya Rastrow",
+        "2026-08-17: Cap table includes a long roster of pro athletes alongside institutional investors"
+      ],
+      "source": "FinSMEs",
+      "sourceUrl": "https://www.finsmes.com/2026/08/wispr-raises-280m-in-series-b-funding.html",
+      "notes": "CONSISTENCY NOTE: also surfaced as a pr-marketing lead (76); routed to coaching-ops on the higher score. The score is carried almost entirely by intent — a $280M round four days ago with stated aggressive hiring. CAVEAT, stated plainly: fit is weak and scored that way. At a $2B valuation with $361M raised, Wispr will hire full-time executives and shows no visible ops distress, so there is no ceiling evidence, only inference from the raise. Read this as a recency-driven lead, not a qualified one.",
+      "contacts": [
+        {
+          "name": "Tanay Kothari",
+          "title": "Chief Executive Officer",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "grade": "B"
+    },
+    {
+      "name": "Serif Health",
+      "website": "https://www.serifhealth.com",
+      "pipeline": "coaching-ops",
+      "industry": "Healthcare price transparency data and analytics",
+      "location": "San Francisco, CA",
+      "fundingStage": "Growth investment from SEVA Growth LP (amount undisclosed)",
+      "fitScore": 28,
+      "intentScore": 30,
+      "fitDetails": {
+        "icpFit": 12,
+        "growthStage": 7,
+        "opsCeilingEvidence": 9
+      },
+      "intentDetails": {
+        "recency": 20,
+        "triggerStrength": 5,
+        "buyerAccessibility": 5
+      },
+      "signals": [
+        "2026-08-20: Received a growth investment from SEVA Growth LP; amount not disclosed",
+        "2026-08-20: Stated intent to 'accelerate its sales and growth initiatives' and expand its product and data API pipeline",
+        "2026-08-20: Sells to providers, payers, employers and third-party administrators — a four-segment go-to-market"
+      ],
+      "source": "FinSMEs",
+      "sourceUrl": "https://www.finsmes.com/2026/08/serif-health-receives-investment-from-seva-growth.html",
+      "notes": "THIN — treat it as such. The only real signal is a single sentence about accelerating sales and growth after taking outside growth capital, which is a weak RevOps indicator on its own. Round size undisclosed, no headcount, no growth metrics, one named executive, no evidence of operational strain. Clears the 40-point floor on recency and a plausible four-segment GTM complexity, nothing more. Park it unless a warmer signal appears.",
+      "contacts": [
+        {
+          "name": "Rafiq Ahmed",
+          "title": "Chief Executive Officer",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "grade": "C"
+    },
+    {
+      "name": "Midi Health",
+      "website": "https://www.joinmidi.com",
+      "pipeline": "media",
+      "industry": "Virtual women's health / telehealth",
+      "location": "Palo Alto, CA",
+      "fundingStage": "Series D ($100M); reported $1B+ valuation",
+      "fitScore": 48,
+      "intentScore": 45,
+      "fitDetails": {
+        "categoryFit": 19,
+        "visibilityNeed": 15,
+        "budgetSignal": 14
+      },
+      "intentDetails": {
+        "recency": 20,
+        "triggerStrength": 16,
+        "buyerAccessibility": 9
+      },
+      "signals": [
+        "2026-08-18: Unveiled a full new brand identity and website refresh, positioned as 'laying the foundation for the next chapter of business growth'",
+        "2026-08-18: Repositioning from midlife/menopause care into broader women's health — PMOS, metabolic health",
+        "2026-08-18: CEO and co-founder Joanna Strober and CMO Melissa Waters both quoted",
+        "2026-08-18: Company cites 450,000+ patients served to date"
+      ],
+      "source": "Business Wire",
+      "sourceUrl": "https://www.businesswire.com/news/home/20260818502492/en/Midi-Health-Unveils-Bold-New-Brand-Identity-Laying-the-Foundation-for-Next-Chapter-of-Business-Growth",
+      "notes": "Textbook media-pipeline lead: a funded consumer wellness brand executing a rebrand and a category expansion in the same week, with a sitting CMO and real budget. Founder-led women's health is a category where podcast and interview media converts unusually well. Intent is high on trigger quality, not just recency — a rebrand creates a defined 6-to-12-week window where the company is actively buying reach.",
+      "contacts": [
+        {
+          "name": "Joanna Strober",
+          "title": "CEO and Co-founder",
+          "email": "",
+          "linkedin": "https://www.linkedin.com/in/joannastrober/"
+        },
+        {
+          "name": "Melissa Waters",
+          "title": "Chief Marketing Officer",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "grade": "A"
+    },
+    {
+      "name": "Pretty Tasty",
+      "website": "https://www.prettytasty.com",
+      "pipeline": "media",
+      "industry": "CPG — functional beverage (collagen iced tea)",
+      "location": "New York, NY",
+      "fundingStage": "Private, funding undisclosed",
+      "fitScore": 45,
+      "intentScore": 45,
+      "fitDetails": {
+        "categoryFit": 19,
+        "visibilityNeed": 15,
+        "budgetSignal": 11
+      },
+      "intentDetails": {
+        "recency": 20,
+        "triggerStrength": 16,
+        "buyerAccessibility": 9
+      },
+      "signals": [
+        "2026-08-20: Announced nationwide rollout to every Target store in the country",
+        "2026-08-20: Announced a partnership with LifeTime Fitness including sponsorship of the chain's AfterGlo event and fall club activations",
+        "2026-08-20: Already distributed via Sprouts and national natural-channel distributors UNFI and KeHE",
+        "2026-08-20: Ran 60+ sampling events across NYC and the Hamptons over summer 2026"
+      ],
+      "source": "PR Newswire",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/pretty-tastys-retail-expansion-hits-full-speed-with-rollout-to-every-target-store-in-the-country-302856129.html",
+      "notes": "A national retail rollout is the highest-pressure moment in a CPG brand's life — velocity on shelf in the first two quarters decides whether Target reorders — so demand-generation spend is committed right now, and founder-story media is standard in that mix. Sitting CMO plus a quotable founder pair. CAVEAT: no disclosed funding round, so this is a brand of unknown capitalization buying against a retail deadline. Qualify spend early.",
+      "contacts": [
+        {
+          "name": "Chris Taylor",
+          "title": "CEO and Co-founder",
+          "email": "",
+          "linkedin": ""
+        },
+        {
+          "name": "Scarlett Leung",
+          "title": "Co-founder",
+          "email": "",
+          "linkedin": ""
+        },
+        {
+          "name": "Dan Goldstein",
+          "title": "Chief Marketing Officer",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "grade": "A"
+    },
+    {
+      "name": "Luke Girgis (operationalise.ai)",
+      "website": "https://lukegirgis.com",
+      "pipeline": "media",
+      "industry": "Advisory / AI operating-model consulting; author",
+      "location": "Sydney, Australia",
+      "fundingStage": "Founder-owned; prior exit (The Brag Media sold 2024)",
+      "fitScore": 42,
+      "intentScore": 45,
+      "fitDetails": {
+        "categoryFit": 17,
+        "visibilityNeed": 16,
+        "budgetSignal": 9
+      },
+      "intentDetails": {
+        "recency": 20,
+        "triggerStrength": 18,
+        "buyerAccessibility": 7
+      },
+      "signals": [
+        "2026-08-20: Published debut book 'Death to the Org Chart', available same day in hardcover, paperback, Kindle and audiobook",
+        "2026-08-20: Announced via GlobeNewswire wire distribution — already paying for paid distribution of the book news",
+        "Founder of operationalise.ai, advising executives on redesigning operating models around AI workflows",
+        "Previously founded and sold The Brag Media (Rolling Stone and Variety Australia) in 2024"
+      ],
+      "source": "GlobeNewswire",
+      "sourceUrl": "https://www.globenewswire.com/news-release/2026/08/20/3348375/0/en/entrepreneur-luke-girgis-announces-debut-book-death-to-the-org-chart.html",
+      "notes": "The most on-thesis media buyer in the run: an executive with a book that launched yesterday, a consulting business that monetizes the thought-leadership directly, and a demonstrated willingness to pay for wire distribution. CAVEATS, two of them: he is Sydney-based, so a US video podcast circuit means remote or a travel window; and his own firm sells AI operating-model work, which makes him a competitor to the ai-consulting pipeline even as he is a prospect for media. Approach media-only. As a former media owner he understands placement value and will negotiate hard.",
+      "contacts": [
+        {
+          "name": "Luke Girgis",
+          "title": "Founder, operationalise.ai; author of 'Death to the Org Chart'",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "grade": "A"
+    },
+    {
+      "name": "Higgsfield",
+      "website": "https://higgsfield.ai",
+      "pipeline": "media",
+      "industry": "AI multimedia content creation platform",
+      "location": "San Francisco, CA",
+      "fundingStage": "Series B — $400M at $5.4B post-money",
+      "fitScore": 40,
+      "intentScore": 42,
+      "fitDetails": {
+        "categoryFit": 12,
+        "visibilityNeed": 13,
+        "budgetSignal": 15
+      },
+      "intentDetails": {
+        "recency": 20,
+        "triggerStrength": 17,
+        "buyerAccessibility": 5
+      },
+      "signals": [
+        "2026-08-17: Raised a $400M Series B led by DST Global at a $5.4B post-money valuation",
+        "2026-08-17: Investor list spans DST, Accel, Menlo, Intel Capital, Goldman Sachs Alternatives, Fifth Wall, NTT DOCOMO Ventures and Natalia Vodianova Arnault",
+        "2026-08-17: Claims users in 238 countries and 390 Fortune 500 companies using its visual production tools",
+        "2026-08-17: Stated use of funds includes 'scaling go-to-market efforts globally'"
+      ],
+      "source": "FinSMEs",
+      "sourceUrl": "https://www.finsmes.com/2026/08/higgsfield-raises-400m-in-series-b-funding.html",
+      "notes": "Enormous budget and a fresh mega-round give this real intent, and AI-creative is a hyped category where founder visibility carries weight. CAVEAT on fit: Higgsfield sells creative production tooling, so its instinct is to make its own content and buy performance channels rather than pay for interview placements — categoryFit is deliberately the low sub-score. Access is the other weak point: no marketing or comms contact is named anywhere in the coverage.",
+      "contacts": [
+        {
+          "name": "Alex Mashrabov",
+          "title": "Chief Executive Officer",
+          "email": "",
+          "linkedin": ""
+        },
+        {
+          "name": "Yerzat Dulat",
+          "title": "Chief Technology Officer",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "grade": "A"
+    },
+    {
+      "name": "Blueprint Finance",
+      "website": "https://blueprintfinance.com",
+      "pipeline": "media",
+      "industry": "Crypto — institutional on-chain asset management infrastructure",
+      "location": "New York, NY",
+      "fundingStage": "Strategic round, amount undisclosed",
+      "fitScore": 41,
+      "intentScore": 38,
+      "fitDetails": {
+        "categoryFit": 16,
+        "visibilityNeed": 13,
+        "budgetSignal": 12
+      },
+      "intentDetails": {
+        "recency": 20,
+        "triggerStrength": 12,
+        "buyerAccessibility": 6
+      },
+      "signals": [
+        "2026-08-20: Closed a strategic funding round led by Polychain Capital",
+        "2026-08-20: Investor roster reads as a distribution list — Bullish, Keyrock, BitGo, FalconX, G-20, Flowdesk, JPEG Trading, Sentient Capital, Andes and 2Square",
+        "2026-08-20: Plans to launch new financial products including AssetCX and concUSD"
+      ],
+      "source": "FinSMEs",
+      "sourceUrl": "https://www.finsmes.com/2026/08/blueprint-finance-closes-funding.html",
+      "notes": "Crypto infrastructure is one of the most reliable pay-to-play media categories — founder podcast circuits are a normal customer-acquisition channel there, not a vanity purchase — and this company has a fresh raise plus two named products still to launch. CAVEAT: intent is capped below A because the round amount is undisclosed, which usually means small, and the trigger is a funding close rather than a launch date. Honest read: category fit is doing most of the work; company-specific evidence is thin.",
+      "contacts": [
+        {
+          "name": "Nic Roberts-Huntley",
+          "title": "CEO and Co-founder",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "grade": "B"
+    },
+    {
+      "name": "Ace Pickleball Club Media",
+      "website": "https://acepickleballclub.com",
+      "pipeline": "media",
+      "industry": "Sports media and marketing / franchised recreation",
+      "location": "Atlanta, GA",
+      "fundingStage": "Regulation Crowdfunding offering open (minimum $500 investment)",
+      "fitScore": 34,
+      "intentScore": 40,
+      "fitDetails": {
+        "categoryFit": 11,
+        "visibilityNeed": 15,
+        "budgetSignal": 8
+      },
+      "intentDetails": {
+        "recency": 20,
+        "triggerStrength": 12,
+        "buyerAccessibility": 8
+      },
+      "signals": [
+        "2026-08-21: Launched the inaugural issue of 'Beyond The Bounce', a digital magazine, with stated plans to expand into newsletters, podcasts, streaming and social",
+        "2026-08-21: Simultaneously opened a Regulation Crowdfunding round to the public at a $500 minimum",
+        "2026-08-21: Operates three divisions: Beyond The Bounce (content), Courtside XP (experiential advertising) and HI Digital Group (marketing services)"
+      ],
+      "source": "PR Newswire",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/ace-pickleball-club-media-launches-beyond-the-bounce-digital-magazine-and-opens-investment-opportunity-to-the-public-302857443.html",
+      "notes": "SPECULATIVE — flagged, not recommended. Included because a Reg CF raise creates unusually direct pressure to be visible: retail rounds are won on founder story and reach. Everything else argues against it. This company sells media itself (three divisions of it, including a stated podcast plan), so it is at least as likely to pitch a partnership or ad swap as to write a cheque, and a company raising in $500 increments is not obviously funded to buy placements. Treat as a speculative call, not a pipeline entry with revenue expectation.",
+      "contacts": [
+        {
+          "name": "Jay Diederich",
+          "title": "Founder and CEO",
+          "email": "",
+          "linkedin": ""
+        },
+        {
+          "name": "Joe Sexton",
+          "title": "Co-Founder and President",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "grade": "B"
+    },
+    {
+      "name": "IMA Financial Group",
+      "website": "https://imacorp.com",
+      "pipeline": "ai-consulting",
+      "industry": "Insurance brokerage / risk management",
+      "location": "Denver, CO (offices nationwide)",
+      "fundingStage": "Private, employee-owned; 3,000+ associates",
+      "fitScore": 48,
+      "intentScore": 46,
+      "fitDetails": {
+        "nonTechNative": 19,
+        "regulatedExposure": 15,
+        "aiProgramMaturity": 14
+      },
+      "intentDetails": {
+        "recency": 20,
+        "triggerStrength": 17,
+        "buyerAccessibility": 9
+      },
+      "signals": [
+        "2026-08-18: Announced enterprise-wide AI adoption, with 95%+ of its 3,000+ associates using AI daily across 'thousands of agentic workflows'",
+        "2026-08-18: Release explicitly names 'responsible governance' and 'role-specific education' as supporting pillars",
+        "2026-08-18: Runs an internal 'AI Studio' pairing associates with technologists; deliberately platform-agnostic",
+        "2026-08-18: CEO Rob Cohen framed it as 'a people transformation, not a technology transformation'"
+      ],
+      "source": "GlobeNewswire",
+      "sourceUrl": "https://www.globenewswire.com/news-release/2026/08/18/3346869/0/en/ima-financial-group-reaches-enterprise-wide-ai-adoption-powered-by-associates.html",
+      "notes": "Best AI-governance lead of the run and the highest-scoring lead overall. A regulated, non-tech-native brokerage that has pushed thousands of agentic workflows into production across 3,000 people is precisely where governance, model risk and assurance work gets bought — the sprawl is already built and now has to be controlled. Two named buyers. CAVEAT to be honest about: they have an in-house AI Studio and a dedicated data/AI leader, so they may consider themselves self-sufficient. The wedge is independent governance and assurance, not build work.",
+      "contacts": [
+        {
+          "name": "Rob Cohen",
+          "title": "Chairman and CEO",
+          "email": "",
+          "linkedin": ""
+        },
+        {
+          "name": "Megan Cullen-Meyer",
+          "title": "Vice President and Director of Data and AI",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "grade": "A"
+    },
+    {
+      "name": "Ascensus",
+      "website": "https://www.ascensus.com",
+      "pipeline": "ai-consulting",
+      "industry": "Retirement, 529/ABLE and tax-advantaged savings administration",
+      "location": "Dresher, PA",
+      "fundingStage": "New PE partnership — Stone Point Capital, Genstar Capital and GIC (undisclosed)",
+      "fitScore": 45,
+      "intentScore": 44,
+      "fitDetails": {
+        "nonTechNative": 18,
+        "regulatedExposure": 15,
+        "aiProgramMaturity": 12
+      },
+      "intentDetails": {
+        "recency": 20,
+        "triggerStrength": 17,
+        "buyerAccessibility": 7
+      },
+      "signals": [
+        "2026-08-19: Announced a new ownership partnership between Stone Point Capital and Genstar Capital, with GIC participating",
+        "2026-08-19: Company stated it will 'continue investing in technology and AI, client service and experience, and broader operational capabilities'",
+        "2026-08-19: Scale cited as 16 million+ savers and $1.3 trillion+ in assets under administration"
+      ],
+      "source": "FinSMEs",
+      "sourceUrl": "https://www.finsmes.com/2026/08/ascensus-receives-investment.html",
+      "notes": "A recordkeeper handling $1.3T for 16M savers is about as non-tech-native and as regulated as this pipeline gets, and the deal announcement puts AI investment in writing on day one. New-sponsor moments are when transformation budgets get set, which is why intent scores high on trigger rather than on any disclosed AI program. CAVEAT, plainly: there is no named AI leader, no described initiative and no governance language — the AI mention is one sentence of investor-facing boilerplate. A well-timed door, not a qualified program. Also a legitimate coaching-ops angle on post-deal integration.",
+      "contacts": [
+        {
+          "name": "Nick Good",
+          "title": "Chief Executive Officer",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "grade": "A"
+    },
+    {
+      "name": "Hanson Bridgett LLP",
+      "website": "https://www.hansonbridgett.com",
+      "pipeline": "ai-consulting",
+      "industry": "Law firm — professional services",
+      "location": "San Francisco, CA",
+      "fundingStage": "Law firm partnership (not venture-funded)",
+      "fitScore": 40,
+      "intentScore": 36,
+      "fitDetails": {
+        "nonTechNative": 18,
+        "regulatedExposure": 14,
+        "aiProgramMaturity": 8
+      },
+      "intentDetails": {
+        "recency": 20,
+        "triggerStrength": 12,
+        "buyerAccessibility": 4
+      },
+      "signals": [
+        "2026-08-19: Appointed Martin Metz, previously of Pillsbury and O'Melveny, as Chief Technology and Innovation Officer (Law.com Legaltech News)",
+        "2026-08-05: Law.com's 'AmLaw AI Ladder' coverage documents an active wave of AI-leadership appointments across large firms, with Littler Mendelson and K&L Gates naming chief AI roles earlier in 2026"
+      ],
+      "source": "Law.com Legaltech News",
+      "sourceUrl": "https://www.law.com/legaltechnews/2026/08/19/hanson-bridgett-appoints-pillsbury-and-omelveny-alum-martin-metz-as-ctio/",
+      "notes": "CAVEAT — this lead is thinner than its score suggests, and the thinness is about verification. Law.com blocks automated fetching, so only the headline, the appointee and the 2026-08-19 date could be confirmed; the article body, the firm's stated AI plans, and whether this is a newly created seat were all unreadable. What is solid: a law firm hired a senior technology and innovation executive two days ago, and law firms carry real AI governance exposure through confidentiality and privilege. A new CTIO in month one is the classic moment for outside strategy help — but confirm the role's scope manually before investing outreach effort. Not to be confused with Hanson Search, a separate company already in the CRM.",
+      "contacts": [
+        {
+          "name": "Martin Metz",
+          "title": "Chief Technology and Innovation Officer",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "grade": "B"
+    },
+    {
+      "name": "LBMC",
+      "website": "https://www.lbmc.com",
+      "pipeline": "ai-consulting",
+      "industry": "Accounting, tax, audit and advisory",
+      "location": "Nashville, TN",
+      "fundingStage": "Private professional services firm; 1,000+ team members",
+      "fitScore": 26,
+      "intentScore": 33,
+      "fitDetails": {
+        "nonTechNative": 8,
+        "regulatedExposure": 11,
+        "aiProgramMaturity": 7
+      },
+      "intentDetails": {
+        "recency": 20,
+        "triggerStrength": 8,
+        "buyerAccessibility": 5
+      },
+      "signals": [
+        "2026-08-20: Named Charlie Apigian, Ph.D., as Shareholder and Practice Leader of a new AI and Data Transformation practice",
+        "2026-08-20: The practice will sell AI readiness assessments, data strategy and architecture, and custom AI application development",
+        "2026-08-20: Firm scale cited as 1,000+ team members serving roughly 14,000 clients across eight offices"
+      ],
+      "source": "GlobeNewswire",
+      "sourceUrl": "https://www.globenewswire.com/news-release/2026/08/20/3348498/0/en/lbmc-names-charlie-apigian-ph-d-to-lead-ai-and-data-transformation-practice.html",
+      "notes": "REPORTED AS A COMPETITOR, NOT A BUYER — reported at C because it barely clears the floor and because the classification is genuinely arguable. LBMC just stood up a practice that sells AI readiness assessments and data strategy, which makes it a direct competitor to this pipeline. The counter-case: a 1,000-person regulated audit firm still needs internal AI governance for its own engagement work, and a brand-new practice leader is a receptive first conversation. The realistic play is partnership or subcontracting, not a sale. Flagged so it is not mistaken for a warm buyer if it surfaces again.",
+      "contacts": [
+        {
+          "name": "Charlie Apigian, Ph.D.",
+          "title": "Shareholder and Practice Leader, AI and Data Transformation",
+          "email": "",
+          "linkedin": ""
+        },
+        {
+          "name": "Jim Meade",
+          "title": "CEO and Managing Shareholder",
+          "email": "",
+          "linkedin": ""
+        }
+      ],
+      "grade": "C"
+    },
+    {
+      "name": "Dollar Shave Club",
+      "website": "https://www.dollarshaveclub.com",
+      "pipeline": "legal-freelance",
+      "industry": "Consumer packaged goods / DTC e-commerce",
+      "location": "Durham, NC (Remote)",
+      "fundingStage": "Private, PE-owned (Nexus Capital Management)",
+      "fitScore": 42,
+      "intentScore": 48,
+      "fitDetails": {
+        "practiceAreaMatch": "10/15 — corporate affairs and commercial transactions are on-ICP, but the req leans heavily on data privacy, consumer protection, CCPA/GDPR, e-commerce and advertising compliance. No fund formation, LP/GP or M&A content.",
+        "employerType": "9/12 — PE-portfolio company standing up interim legal leadership. Not a fund or fund-adjacent manager, so it misses the strongest part of the ICP.",
+        "seniorityLevel": "8/8 — top legal role, reports directly to the CEO, leads the existing legal team.",
+        "statedCompensation": "8/8 — explicit published band of $200-$550/hour.",
+        "engagementShape": "7/7 — hourly interim retainer at 10-30 hrs/week for a defined ~4-month term; a true fractional engagement, not a disguised fixed-term employment contract."
+      },
+      "intentDetails": {
+        "postingFreshness": "14/14 — posted 2026-08-18, inside the lookback window.",
+        "engagementModelClarity": "12/12 — rate band, weekly hours, duration, start date and reporting line all stated on the face of the posting.",
+        "remoteEligibility": "9/9 — listed remote; workable from New York.",
+        "easeOfApply": "7/8 — direct Apply Now handoff to the employer's own posting; no recruiter gate.",
+        "urgencySignals": "6/7 — hard start date of 2026-10-01 for maternity coverage, so the hiring window is bounded and real."
+      },
+      "signals": [
+        "2026-08-18: Posted as Interim General Counsel on Go Fractional, listed remote with a Durham, NC base",
+        "2026-08-18: Published rate band of $200-$550/hour at 10-30 hours per week",
+        "2026-08-18: Engagement scoped at approximately four months beginning 2026-10-01, framed explicitly as maternity coverage",
+        "2026-08-18: Role reports directly to the CEO and leads the existing legal team",
+        "2026-08-18: Requirements stated as JD with active bar license in any state and 10+ years as a generalist attorney with in-house experience"
+      ],
+      "source": "Go Fractional",
+      "sourceUrl": "https://www.gofractional.com/job/dollar-shave-club-interim-general-counsel",
+      "notes": "The strongest posting in this cycle and the only legal one that cleared 55. Qualifies on Bucket B (interim, temporary, maternity cover, part-time hours) plus Bucket A (hourly, contract) against a real practice area. Everything needed to price and decide is on the page. CAVEAT: this is a consumer/CPG generalist GC seat, not fund or corporate-transactional work — the privacy, consumer-protection and advertising-compliance weighting is real and will be screened on. VERIFICATION CONFLICT: a parallel check found this role listed on ZipRecruiter as ON-SITE in Durham, NC and absent from Dollar Shave Club's own Greenhouse board (4 openings, none legal). Confirm the remote/fractional terms directly with DSC talent before investing effort — if on-site Durham is firm, this is a staffing placement, not a remote fractional engagement.",
+      "contacts": [],
+      "roleTitle": "Interim General Counsel",
+      "suggestedResumeCategory": "Legal / Commercial Counsel",
+      "vertical": "Consumer",
+      "subvertical": "DTC personal care / e-commerce",
+      "engagementModel": "Interim hourly contract (maternity coverage), 10-30 hrs/week, ~4 months from 2026-10-01",
+      "buyerType": "CEO (role reports directly to the CEO)",
+      "compensationText": "$200-$550/hour, 10-30 hours per week",
+      "remoteFlag": true,
+      "employmentTypeRaw": "Interim / temporary — maternity coverage, hourly",
+      "urgencyScore": 7,
+      "grade": "A"
+    },
+    {
+      "name": "Sia Partners",
+      "website": "https://www.sia-partners.com",
+      "pipeline": "pr-freelance",
+      "industry": "Management consulting (engagement serves a pharma/healthcare client)",
+      "location": "Remote or New York, NY",
+      "fundingStage": "Private, established global consultancy",
+      "fitScore": 40,
+      "intentScore": 47,
+      "fitDetails": {
+        "sectorMatch": "8/15 — consultancy buyer is on-ICP, but the underlying client work is pharma/healthcare, not fintech/B2B SaaS/financial services",
+        "buyerType": "14/15 — a consulting firm explicitly engaging a 1099 independent contractor for a scoped PR/comms deliverable; the outsourced-execution buyer",
+        "seniorityOfRemit": "10/10 — tagged senior level, deliverable is a strategic proposal to a client",
+        "strategicAndExecutional": "8/10 — strategic-heavy (competitive citation audit, audience credibility mapping, recommendations); light on media-relations execution"
+      },
+      "intentDetails": {
+        "freshness": "15/15 — posted 2026-08-20, inside the lookback window",
+        "disclosedBudget": "9/10 — fixed fee disclosed verbatim as $3,200-$3,600",
+        "remoteEligibility": "9/10 — 'In-Office or Remote', hiring remotely in New York, NY",
+        "easeOfApply": "7/8 — direct apply via Built In listing",
+        "definedStartWindow": "7/7 — starts September 2026, estimated end September 2026, approx. 4 weeks"
+      },
+      "signals": [
+        "2026-08-20: Posted on Built In NYC as 'PR & Communications Strategist (Short-term Contract)'",
+        "Employment type stated verbatim as 'Independent Contractor (1099)'; posting also uses 'Freelancer' and 'one-month engagement'",
+        "Fixed Fee Range disclosed: $3,200-$3,600",
+        "Engagement window stated: start September 2026, estimated end September 2026, approx. 4 weeks",
+        "Posting flags a possible 'Phase Two' that is explicitly 'not guaranteed, and is not part of this engagement'"
+      ],
+      "source": "Built In NYC",
+      "sourceUrl": "https://www.builtinnyc.com/job/pr-communications-strategist-short-term-contract/10769761",
+      "notes": "Cleanest qualifying pr-freelance lead of the cycle: hits Bucket A (contract, freelancer, 1099, project-based) and Bucket C (strategist) plus an explicit PR/communications discipline. CAVEATS, stated plainly: total contract value is small (~$3.2-3.6K for roughly four weeks), the end client is pharma rather than fintech or B2B SaaS, and Phase Two is disclaimed. The Built In page also surfaces a '320K-360K Annually' band which is a board-taxonomy artifact contradicting the fixed-fee terms in the posting body — do not treat that number as real. Best read as a paid foot-in-the-door with a consultancy that demonstrably buys 1099 comms work.",
+      "contacts": [],
+      "roleTitle": "PR & Communications Strategist (Short-term Contract)",
+      "suggestedResumeCategory": "PR Marketing & Media",
+      "vertical": "Professional services",
+      "subvertical": "Management consulting / outsourced comms strategy",
+      "engagementModel": "1099 independent contractor, fixed-fee project (~4 weeks)",
+      "buyerType": "Consulting firm engaging freelance comms bench",
+      "compensationText": "Fixed Fee Range: $3,200-$3,600",
+      "remoteFlag": true,
+      "employmentTypeRaw": "Independent Contractor (1099)",
+      "urgencyScore": 9,
+      "grade": "A"
+    },
+    {
+      "name": "Apothékary",
+      "website": "https://apothekary.co",
+      "pipeline": "pr-freelance",
+      "industry": "Consumer wellness / DTC herbal supplements",
+      "location": "New York, NY (hiring remotely)",
+      "fundingStage": "Venture-backed DTC consumer brand",
+      "fitScore": 27,
+      "intentScore": 43,
+      "fitDetails": {
+        "sectorMatch": "5/15 — consumer wellness/beauty, off-ICP versus financial services, fintech, B2B SaaS",
+        "buyerType": "10/15 — operating company buying retained outside PR rather than hiring in-house; right buying motion, wrong sector",
+        "seniorityOfRemit": "6/10 — mid-level; scope is largely hands-on placement work",
+        "strategicAndExecutional": "6/10 — mostly execution (pitching, sampling, editorial calendar) with a genuine founder thought-leadership strand"
+      },
+      "intentDetails": {
+        "freshness": "14/15 — posted 2026-08-19, inside the window",
+        "disclosedBudget": "9/10 — monthly retainer disclosed at $3,000 plus a monthly product stipend",
+        "remoteEligibility": "9/10 — 'In-Office or Remote', NYC-anchored",
+        "easeOfApply": "7/8 — Workable application portal, direct apply",
+        "definedStartWindow": "4/7 — no start date stated; retainer structure implies rolling start"
+      },
+      "signals": [
+        "2026-08-19: Listed on Built In NYC as 'PR Consultant'",
+        "Compensation stated as 'Monthly retainer $3,000' plus 'Monthly product stipend' — a true 1099-style retainer",
+        "Described in-posting as a 'part time PR consultant' role",
+        "Deliverables quantified: 'one major placement per month' and '5 personalized pitches' weekly",
+        "Scope includes supporting founder thought leadership alongside earned-media placement"
+      ],
+      "source": "Built In NYC",
+      "sourceUrl": "https://www.builtinnyc.com/job/pr-consultant/10733535",
+      "notes": "Qualifies on Bucket B (part-time) plus Bucket C (consultant) with an explicit PR discipline, and the retainer model is exactly the right commercial structure. CAVEATS: the sector is off-ICP, the remit is mid-level and placement-driven rather than senior advisory, and $3,000/month with hard monthly placement quotas is a demanding ratio for a senior operator. Worth a look only as retainer ballast or for consumer-brand proof points; it will not stretch him strategically.",
+      "contacts": [],
+      "roleTitle": "PR Consultant",
+      "suggestedResumeCategory": "PR Marketing & Media",
+      "vertical": "Consumer",
+      "subvertical": "DTC wellness / supplements",
+      "engagementModel": "Part-time monthly retainer consultant",
+      "buyerType": "VC-backed operating company (DTC brand)",
+      "compensationText": "Monthly retainer $3,000 plus monthly product stipend",
+      "remoteFlag": true,
+      "employmentTypeRaw": "Part-time consultant, retainer structure",
+      "urgencyScore": 7,
+      "grade": "B"
+    },
+    {
+      "name": "Husted Communications, Inc.",
+      "website": "https://hustedcommunications.com",
+      "pipeline": "pr-freelance",
+      "industry": "Outsourced corporate communications agency (contract comms staffing)",
+      "location": "Remote, United States",
+      "fundingStage": "Private services firm",
+      "fitScore": 43,
+      "intentScore": 26,
+      "fitDetails": {
+        "sectorMatch": "9/15 — agency serving corporate clients across sectors; no named fintech/SaaS concentration",
+        "buyerType": "15/15 — bullseye ICP: a managed-services comms agency maintaining a bench of 100+ comms professionals",
+        "seniorityOfRemit": "10/10 — C-suite communications, executive platform ownership, speaker coaching",
+        "strategicAndExecutional": "9/10 — strategic messaging and platform design plus speechwriting and presentation execution; the sweet-spot blend"
+      },
+      "intentDetails": {
+        "freshness": "5/15 — no posting date shown anywhere on the ATS page; cannot be confirmed as inside the window",
+        "disclosedBudget": "2/10 — no rate or fee disclosed",
+        "remoteEligibility": "10/10 — fully remote, United States",
+        "easeOfApply": "7/8 — native Rippling ATS, direct application",
+        "definedStartWindow": "2/7 — none; roster model, placement occurs when client work lands"
+      },
+      "signals": [
+        "Live posting on Husted's own Rippling ATS for 'Executive Communications Consultant', open for applications as of 2026-08-21",
+        "Company self-describes as having 'more than 100 highly accomplished communications professionals ready to seamlessly align with your company' — a bench/white-label staffing model",
+        "Scope named explicitly: C-Suite communications, internal/employee communications, thought leadership development, speechwriting, speaker coaching"
+      ],
+      "source": "Husted Communications careers (Rippling ATS)",
+      "sourceUrl": "https://ats.rippling.com/husted-communications-inc-hci/jobs/bece3760-709e-4a7a-a92e-cac4e470f41f",
+      "notes": "Highest-fit pr-freelance lead of the cycle on substance — Bucket C (consultant) plus Bucket D (bench/outsourced/managed services), with executive communications and thought leadership at C-suite altitude, two named ICP workstreams. CAVEAT — it scores B rather than A purely on MISSING METADATA: no posting date, no rate, no start window, so intent is unverifiable. Treat it as a bench registration rather than a dated opportunity: the payoff is being on the roster when client demand arrives, not a specific September start.",
+      "contacts": [],
+      "roleTitle": "Executive Communications Consultant",
+      "suggestedResumeCategory": "PR Marketing & Media",
+      "vertical": "Professional services",
+      "subvertical": "Outsourced / white-label corporate communications",
+      "engagementModel": "Consultant bench / roster placement",
+      "buyerType": "Boutique comms agency building a freelance bench",
+      "compensationText": "Not disclosed",
+      "remoteFlag": true,
+      "employmentTypeRaw": "Not explicitly stated; consulting-based roster role",
+      "urgencyScore": 5,
+      "grade": "B"
+    }
+  ]
+}
