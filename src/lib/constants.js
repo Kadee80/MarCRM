@@ -6,8 +6,8 @@ export const PIPELINES = [
   { id: "coaching-ops", label: "Coaching & Ops", short: "Coach/Ops", color: "amber", description: "Fractional ops + revenue growth coaching" },
   { id: "media", label: "Media / Podcast", short: "Media", color: "rose", description: "Pay-to-play video podcast & interview media" },
   { id: "ai-consulting", label: "AI & Tech Consulting", short: "AI/Tech", color: "violet", description: "AI strategy, pilots, production, governance" },
-  { id: "legal-freelance", label: "Legal Freelance Work", short: "Legal Freelance", color: "slate", description: "Contract / fractional / interim corporate & fund counsel roles for Katie" },
-  { id: "pr-freelance", label: "PR Freelance Work", short: "PR Freelance", color: "teal", description: "Outsourced PR/comms execution + strategic advisory contracts for Katie" },
+  { id: "legal-freelance", label: "Legal Freelance Work", short: "Legal Freelance", color: "slate", description: "Contract / fractional / interim corporate & fund counsel roles for Mark" },
+  { id: "pr-freelance", label: "PR Freelance Work", short: "PR Freelance", color: "teal", description: "Outsourced PR/comms execution + strategic advisory contracts for Mark" },
 ];
 
 export const FUNNEL_STAGES = [

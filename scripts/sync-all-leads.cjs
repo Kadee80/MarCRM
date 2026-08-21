@@ -120,6 +120,7 @@ function normalize(raw, sourceFile) {
     intentScore: intent,
     fitDetails: asJsonString(firstDefined(raw.fitDetails, raw.fit_details), {}),
     intentDetails: asJsonString(firstDefined(raw.intentDetails, raw.intent_details), {}),
+    roleTitle: String(firstDefined(raw.roleTitle, raw.role_title, raw.role)),
     vertical: String(firstDefined(raw.vertical)),
     subvertical: String(firstDefined(raw.subvertical)),
     engagementModel: String(firstDefined(raw.engagementModel, raw.engagement_model)),

@@ -31,6 +31,7 @@ model Company {
   notes         String    @default("")
   personalNotes String    @default("") // relationship notes: "jets fan, lives in jersey"
   // Freelance opportunity fields (populated by enhanced scrapers)
+  roleTitle       String    @default("")   // posting job title ("Interim General Counsel") — feeds the Command Center tracker's Role/Title column
   vertical        String    @default("")   // legal | pr | ""
   subvertical     String    @default("")   // fund | corporate | GC | contracts | media-relations | comms | investor-pr
   engagementModel String    @default("")   // freelance | contract | consultant | fractional | interim | part-time
